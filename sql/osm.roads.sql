@@ -18,11 +18,3 @@ from route_roads r
 inner join route_roads r2 on r.id<>r2.id and r.way_id=r2.way_id
 where (select count(*) from route_way_nodes wn1, route_way_nodes wn2, route_roads r2 where wn1.node_id=wn2.node_id and wn1.way_id=r.way_id and wn2.way_id=r2.way_id and r.id=r2.id and r.way_id<>r2.way_id)<2
 order by 2;
-
-/*select rr.v,sum(st_length(ST_Transform(w.linestring,2163)) * (case when wt.v is null then 1 else 0.5 end))
-from route_roads rr 
-inner join ways w on w.id=rr.way_id 
-left join way_tags wt on wt.k='oneway' and wt.v<>'no' and wt.way_id=rr.way_id
-where rr.v='Н-11'
-group by rr.v
-order by 1;*/
