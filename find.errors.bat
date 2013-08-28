@@ -1,3 +1,4 @@
+md results
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.highway.crossings.sql -o results\highway.crossings.geojson -q
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.no.highways.sql -o results\no.highways.geojson -q
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson -q
