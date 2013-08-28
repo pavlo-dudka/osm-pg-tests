@@ -18,13 +18,3 @@ tags -> 'addr:housenumber' not similar to '[0-9][0-9]*-[a-z]?(/[0-9][0-9]*[a-z]?
 tags -> 'addr:housenumber' not similar to '[0-9][0-9]* [а-яєі]?(/[0-9][0-9]*[а-я]?)?( ?к ?[0-9][0-9]*)?|[0-9][0-9]*-[0-9][0-9]*' and
 tags -> 'addr:housenumber' not in ('-','*')
 order by 1;
-
-
-select rtn.relation_id,wtn.way_id,rtn.k,rtn.v,wtn.v
-from relation_tags rts
-inner join relation_tags rtn on rtn.relation_id=rts.relation_id
-inner join relation_members rm on rm.relation_id=rts.relation_id
-inner join way_tags wth on wth.way_id=rm.member_id and wth.k='highway' and wth.v not like 'emerge%'
-inner join way_tags wtn on wtn.way_id=rm.member_id and wtn.k=rtn.k
-where rts.k='type' and rts.v in ('street','associatedStreet') and rtn.k in ('name','name:uk','name:ru') and rm.member_type='W'
-and rtn.v<>wtn.v and (wtn.v not like '% міст' and wtn.v not like '% мост');
