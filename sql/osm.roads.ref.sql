@@ -1,6 +1,6 @@
 set client_min_messages to warning;
 drop table if exists ref_roads;
-create table ref_roads(id int, ref text, int_ref text, highway text);
+create table ref_roads(id int, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
 
 insert into ref_roads(id,ref,highway)
 select member_id,string_agg(rtr.v, ';' order by rtr.v),'trunk'
@@ -81,7 +81,46 @@ from
   from relation_tags rt
     inner join relation_tags rtr on rtr.relation_id=rt.relation_id and rtr.k='ref' and rtr.v like 'E%'
     inner join relation_members rm on rm.relation_id=rt.relation_id
-  where rt.k='route' and rt.v='road' --and member_id=rr.id
+  where rt.k='route' and rt.v='road'
+  group by rm.member_id
+) t
+where t.member_id=rr.id;
+
+update ref_roads rr
+set nat_ref=t.nat_ref
+from
+(
+  select rm.member_id, string_agg(rtr.v, ';' order by rtr.v) as nat_ref
+  from relation_tags rt
+    inner join relation_tags rtr on rtr.relation_id=rt.relation_id and rtr.k='ref' and rtr.v like 'Н-%'
+    inner join relation_members rm on rm.relation_id=rt.relation_id
+  where rt.k='route' and rt.v='road'
+  group by rm.member_id
+) t
+where t.member_id=rr.id;
+
+update ref_roads rr
+set reg_ref=t.reg_ref
+from
+(
+  select rm.member_id, string_agg(rtr.v, ';' order by rtr.v) as reg_ref
+  from relation_tags rt
+    inner join relation_tags rtr on rtr.relation_id=rt.relation_id and rtr.k='ref' and rtr.v like 'Р-%'
+    inner join relation_members rm on rm.relation_id=rt.relation_id
+  where rt.k='route' and rt.v='road'
+  group by rm.member_id
+) t
+where t.member_id=rr.id;
+
+update ref_roads rr
+set loc_ref=t.loc_ref
+from
+(
+  select rm.member_id, string_agg(rtr.v, ';' order by rtr.v) as loc_ref
+  from relation_tags rt
+    inner join relation_tags rtr on rtr.relation_id=rt.relation_id and rtr.k='ref' and rtr.v like 'Т-%-%'
+    inner join relation_members rm on rm.relation_id=rt.relation_id
+  where rt.k='route' and rt.v='road'
   group by rm.member_id
 ) t
 where t.member_id=rr.id;
@@ -109,6 +148,42 @@ from ref_roads rr
 where coalesce(rr.int_ref,'-')<>coalesce(replace(replace(wti.v,',',';'),'; ',';'),'-')
 group by rr.int_ref,wti.v
 order by rr.int_ref,wti.v;
+
+select '';
+select 'nat_ref:';
+select rr.nat_ref,wtn.v,string_agg(w.id::text,',' order by w.id)
+from ref_roads rr
+  right join ways w on w.id=rr.id
+  left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
+  left join way_tags wtn on wtn.way_id=w.id and wtn.k='nat_ref'
+  inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
+where coalesce(rr.nat_ref,'-')<>wtn.v
+group by rr.nat_ref,wtn.v
+order by rr.nat_ref,wtn.v;
+
+select '';
+select 'reg_ref:';
+select rr.reg_ref,wtrr.v,string_agg(w.id::text,',' order by w.id)
+from ref_roads rr
+  right join ways w on w.id=rr.id
+  left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
+  left join way_tags wtrr on wtrr.way_id=w.id and wtrr.k='reg_ref'
+  inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
+where coalesce(rr.reg_ref,'-')<>wtrr.v
+group by rr.reg_ref,wtrr.v
+order by rr.reg_ref,wtrr.v;
+
+select '';
+select 'loc_ref:';
+select rr.loc_ref,wtl.v,string_agg(w.id::text,',' order by w.id)
+from ref_roads rr
+  right join ways w on w.id=rr.id
+  left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
+  left join way_tags wtl on wtl.way_id=w.id and wtl.k='loc_ref'
+  inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
+where coalesce(rr.loc_ref,'-')<>wtl.v and wtl.v not similar to '[ОС]%'
+group by rr.loc_ref,wtl.v
+order by rr.loc_ref,wtl.v;
 
 select '';
 select 'highway:';
