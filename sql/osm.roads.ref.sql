@@ -132,7 +132,7 @@ from ref_roads rr
   left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
   left join way_tags wti on wti.way_id=w.id and wti.k='int_ref'
   inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
-where coalesce(rr.ref,'-')<>coalesce(replace(replace(wtr.v,',',';'),'; ',';'),'-') 
+where coalesce(rr.ref,'-')<>coalesce(wtr.v,'-') 
   and not(rr.ref is null and wtr.v similar to '[ОСDLMR0-9]%|[МНР][0-9]*' or rr.ref similar to '[ОС]%' and wtr.v is null)
 group by rr.ref,wtr.v
 order by rr.ref,wtr.v;
@@ -145,7 +145,7 @@ from ref_roads rr
   left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
   left join way_tags wti on wti.way_id=w.id and wti.k='int_ref'
   inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
-where coalesce(rr.int_ref,'-')<>coalesce(replace(replace(wti.v,',',';'),'; ',';'),'-')
+where coalesce(rr.int_ref,'-')<>coalesce(wti.v,'-')
 group by rr.int_ref,wti.v
 order by rr.int_ref,wti.v;
 
