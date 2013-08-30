@@ -5,7 +5,7 @@ call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorwa
 call osmconvert.exe ..\temp\ua.roads.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.roads.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-nodes="place=city =town =village =hamlet" --drop-nodes="abandoned=*" -o=..\temp\ua.places.0.o5m
 call osmconvert.exe ..\temp\ua.places.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.places.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="( admin_level=4 =6 ) and koatuu=*" --drop-relations="place=city_district" -o=..\temp\ua.boundaries.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="( admin_level=4 =6 =7 =8 ) and koatuu=*" -o=..\temp\ua.boundaries.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="( route=bus =trolleybus =share_taxi =tram =road ) and type=route" -o=..\temp\ua.routes.0.o5m
 call osmconvert.exe ..\temp\ua.routes.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.routes.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=restriction =street =associatedStreet" -o=..\temp\ua.relations.0.o5m
