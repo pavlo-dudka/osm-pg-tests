@@ -5,8 +5,9 @@ with a as (
 select rm.relation_id,rm.member_id as way_id
 from relation_tags rt
 inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W'
-where rt.k='type' and rt.v='multipolygon' and
-exists(select * from relation_tags rt2 where rt2.relation_id=rt.relation_id and rt2.k in ('natural','landuse','place','waterway'))
+where rt.k='type' and rt.v in ('multipolygon','boundary')
+  and exists(select * from relation_tags rt2 where rt2.relation_id=rt.relation_id and rt2.k in ('natural','landuse','place','waterway','boundary'))
+  and rt.relation_id not in (59065)
 ),
 b as
 (
