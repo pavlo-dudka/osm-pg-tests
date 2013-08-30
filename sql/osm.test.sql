@@ -2,9 +2,9 @@
 --inner join nodes n on n.id=node_id and k='place'
 --where not exists(select * from relations r,relation_tags rt where r.id=relation_id and rt.k='admin_level' and rt.v='6' and st_contains(linestring,geom)='t');
 
-select relation_id,'no admin_centre' from relation_tags rt where k='admin_level' and v in ('4','6') and not exists(select * from relation_members rm where rm.relation_id=rt.relation_id and member_role='admin_centre');
+select relation_id,'no admin_centre' from relation_tags rt where k='admin_level' and v in ('4','6') and not exists(select * from relation_members rm where rm.relation_id=rt.relation_id and member_role='admin_centre') order by 1;
 
-select relation_id,'wrong geometry' from relations inner join relation_tags on relation_id=id and k='admin_level' and v in ('4','6') where linestring is null;
+select relation_id,'wrong geometry' from relations inner join relation_tags on relation_id=id and k='koatuu' where linestring is null order by id;
 
 select node_id,max(v),min(v) from node_tags where k in ('name','name:uk') and node_id in (select node_id from node_tags where k='place') group by node_id having max(v)<>min(v) or min(v) not similar to '[А-Яа-яіїєІЇЄ''’ -]*' order by node_id;
 
@@ -17,8 +17,8 @@ and string_agg(k||'='||v,',') not in (
 )
 order by 1;*/
 
-select * from node_tags where trim(v)<>v;
-select * from way_tags where trim(v)<>v;
+select * from node_tags where trim(v)<>v order by node_id;
+select * from way_tags where trim(v)<>v order by way_id;
 
 select v,string_agg(way_id::text,',' order by way_id) 
 from way_tags 
