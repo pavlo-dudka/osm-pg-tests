@@ -1,10 +1,3 @@
-select rt.v,w.id,w.linestring 
-from relation_tags rt
-inner join relation_members rm on rt.relation_id=rm.relation_id and rm.member_role='street'
-left join way_tags wt on way_id=member_id and wt.k='name'
-inner join ways w on w.id=member_id
-where rt.k='name' and (way_id is null or wt.v<>rt.v);
-
 select *,array_length(nodes, 1) from ways where --tags ? 'building' 
 --and tags ? 'highway' 
 --and array_length(nodes, 1)=4
