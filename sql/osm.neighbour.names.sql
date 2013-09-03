@@ -1,7 +1,4 @@
-﻿/*update way_tags wt
-set v=newv
-from (*/
-with t as (
+﻿with t as (
 select w1.id, wt1.v as v1, wt2.v as v2, wt3.v as v3, wt2.way_id as road_id
 from 
 ways w1 
@@ -30,6 +27,4 @@ having count(distinct v2)=1 and v1<>min(v2))
 select oldv,newv,string_agg(id::text,',' order by id) 
 from t2
 group by oldv,newv
-order by 1,2
-/*) t3
-where t3.id=wt.way_id and wt.k='addr:street';*/
+order by 1,2;
