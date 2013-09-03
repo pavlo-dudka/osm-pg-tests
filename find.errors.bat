@@ -19,6 +19,8 @@ rem "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.sql -o results\osm.roads.txt -q
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.routes.sql -o results\osm.routes.txt -q
 "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt -q
+"c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.sql -o results\osm.addr.housenumber.txt -q
+"c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.neighbour.names.sql -o results\osm.neighbour.names.txt -q
 
 copy /Y results\*.geojson C:\Users\pdudka\Dropbox\Public\test\geojson\
 move /Y results\*.geojsont C:\Users\pdudka\Dropbox\Public\test\geojson\
@@ -30,3 +32,5 @@ move /Y results\osm.non-uk.txt C:\Users\pdudka\Dropbox\Public\test\txt\
 move /Y results\osm.roads.txt C:\Users\pdudka\Dropbox\Public\test\txt\
 move /Y results\osm.routes.txt C:\Users\pdudka\Dropbox\Public\test\txt\
 move /Y results\osm.roads.ref.txt C:\Users\pdudka\Dropbox\Public\test\txt\
+move /Y results\osm.addr.housenumber.txt C:\Users\pdudka\Dropbox\Public\test\txt\
+move /Y results\osm.neighbour.names.txt C:\Users\pdudka\Dropbox\Public\test\txt\

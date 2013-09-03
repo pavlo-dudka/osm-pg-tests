@@ -12,8 +12,10 @@ call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=restriction =st
 call osmconvert.exe ..\temp\ua.relations.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.relations.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=multipolygon" -o=..\temp\ua.multipolygons.0.o5m
 call osmconvert.exe ..\temp\ua.multipolygons.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.multipolygons.o5m
-call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m -o=..\temp\ua.filtered.o5m
-del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="addr:street=* or addr:housename=* or addr:housenumber=* or (building=* and name=*) " -o=..\temp\ua.address.0.o5m
+call osmconvert.exe ..\temp\ua.address.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.address.o5m
+call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m -o=..\temp\ua.filtered.o5m
+del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m
 del ..\temp\ua.o5m
 del ..\temp\*.0.o5m
 
