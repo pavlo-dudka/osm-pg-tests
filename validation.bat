@@ -1,4 +1,4 @@
-call wget.bat
+call update.pbf.bat
 call load.data.into.db.bat
 call find.errors.bat
 
