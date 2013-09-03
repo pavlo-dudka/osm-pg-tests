@@ -1,7 +1,7 @@
 cd results
-move error.hash.txt error.hash.bak
-move error.summary.txt error.summary.bak
-call ..\binaries\md5sum.exe *.geojson > error.hash.txt
+move error.hash error.old.hash
+move error.summary error.old.summary
+call ..\binaries\md5sum.exe *.geojson > error.hash
 find /c "josm" *.geojson > error.count.txt
 
 set hash=
@@ -13,14 +13,14 @@ echo ^<rss version=^"2.0^"^> >> test.rss
 echo ^<channel^> >> test.rss
 echo ^<title^>Quality Assurance (OSM Ukraine)^</title^> >> test.rss
 echo ^<link^>https://dl.dropboxusercontent.com/u/14107903/test/test.html^</link^> >> test.rss
-for /f "tokens=1,2,3 delims=|" %%a IN (error.summary.txt) DO (call :recordItem %%a %%b "%%c")
+for /f "tokens=1,2,3 delims=|" %%a IN (error.summary) DO (call :recordItem %%a %%b "%%c")
 echo ^</channel^> >> test.rss
 echo ^</rss^> >> test.rss
 
 move /Y error.count.txt C:\Users\pdudka\Dropbox\Public\test\txt\
 move /Y test.rss C:\Users\pdudka\Dropbox\Public\test\
-del error.hash.bak
-del error.summary.bak
+del error.old.hash
+del error.old.summary
 del *.geojson
 cd ..
 goto :eof
@@ -28,14 +28,14 @@ goto :eof
 :processGeojson
 set file=%~1
 @echo %file%
-call :gethash error.hash.txt %file%
+call :gethash error.hash %file%
 set newhash=%hash%
-call :gethash error.hash.bak %file%
+call :gethash error.old.hash %file%
 set oldhash=%hash%
 set errdate=
-if "%newhash%" equ "%oldhash%" (for /f "tokens=1,3 delims=|" %%c in (error.summary.bak) do (if /i "%%c"=="%file%" (set errdate=%%d)))
+if "%newhash%" equ "%oldhash%" (for /f "tokens=1,3 delims=|" %%c in (error.old.summary) do (if /i "%%c"=="%file%" (set errdate=%%d)))
 if "%errdate%" equ "" (set errdate=%date% %time%)
-echo %file%^|%~2^|%errdate%>> error.summary.txt
+echo %file%^|%~2^|%errdate%>> error.summary
 goto :eof
 
 :gethash

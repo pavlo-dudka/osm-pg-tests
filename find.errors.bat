@@ -23,13 +23,4 @@ if "%ERRORLEVEL%" equ "0" goto :wait
 
 copy /Y results\*.geojson C:\Users\pdudka\Dropbox\Public\test\geojson\
 move /Y results\*.geojsont C:\Users\pdudka\Dropbox\Public\test\geojson\
-move /Y results\osm.test.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.pt.errors.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.pt.errors.2.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.restrictions.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.non-uk.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.roads.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.routes.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.roads.ref.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.addr.housenumber.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y results\osm.neighbour.names.txt C:\Users\pdudka\Dropbox\Public\test\txt\
+move /Y results\*.txt C:\Users\pdudka\Dropbox\Public\test\txt\
