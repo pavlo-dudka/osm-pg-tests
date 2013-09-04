@@ -1,4 +1,7 @@
-﻿with t as (
+﻿set client_min_messages to warning;
+drop table if exists addr_errors;
+create table addr_errors as
+with t as (
 select w1.id, wt1.v as v1, wt2.v as v2, wt3.v as v3, wt2.way_id as road_id
 from 
 ways w1 
@@ -18,13 +21,15 @@ where
   )
 and st_dwithin(w1.linestring,w2.linestring,0.0025)
 and wt2.v not like '% улица'
-and (wt1.k='name' and wth.k is not null or wt1.k='addr:street' and wth.k is null)),
-t2 as (
-select id,v1 as oldv,min(v2) as newv,id||' '||string_agg(road_id::text,',') as roads
+and (wt1.k='name' and wth.k is not null or wt1.k='addr:street' and wth.k is null))
+select t.id,v1 as oldv,min(v2) as newv
 from t
-group by id,v1
-having count(distinct v2)=1 and v1<>min(v2))
-select oldv,newv,string_agg(id::text,',' order by id) 
-from t2
-group by oldv,newv
-order by 1,2;
+group by 1,2
+having count(distinct v2)=1 and v1<>min(v2);
+
+select r.name,oldv,newv,string_agg(a.id::text,',' order by a.id) 
+from addr_errors a
+  inner join ways w on w.id=a.id
+  left join regions r on st_intersects(r.linestring,w.linestring)
+group by 1,2,3
+order by 1,2,3;
