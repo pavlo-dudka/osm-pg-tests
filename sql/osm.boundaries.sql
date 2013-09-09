@@ -12,7 +12,7 @@ where t.id=r.id;
 
 drop table if exists regions;
 create table regions as 
-select rtn.relation_id,rtn.v,linestring
+select rtn.relation_id,rtn.v as name,linestring
 from relations
   inner join relation_tags rtk on rtk.relation_id=id and rtk.k='koatuu' and rtk.v like '%00000000'
   inner join relation_tags rtn on rtn.relation_id=id and rtn.k='name'
