@@ -13,13 +13,13 @@ highways w2
 where
  (position(lower(wt1.v) in lower(wt2.v))>0
   or wt1.k='addr:street' and position(lower(wt2.v) in lower(wt1.v))>0 and position('/' in wt1.v)=0 and position(';' in wt1.v)=0
-  or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt2.v),4) in (0,1,2)
+  or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt2.v),4) in (0,1,2,3)
 
   or position(lower(wt1.v) in lower(wt3.v))>0
   or wt1.k='addr:street' and position(lower(wt3.v) in lower(wt1.v))>0 and position('/' in wt1.v)=0 and position(';' in wt1.v)=0
-  or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt3.v),4) in (0,1,2)
+  or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt3.v),4) in (0,1,2,3)
   )
-and st_dwithin(w1.linestring,w2.linestring,0.0025)
+and st_dwithin(w1.linestring,w2.linestring,0.01)
 and wt2.v not like '% улица'
 and (wt1.k='name' and wth.k is not null or wt1.k='addr:street' and wth.k is null))
 select t.id,v1 as oldv,min(v2) as newv
