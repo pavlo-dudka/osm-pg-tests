@@ -3,6 +3,7 @@ start "sharp.turns" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U post
 start "multipolygons" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.multipolygons.sql -o results\multipolygons.geojson -q
 start "street.relations" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.street.relations.sql -o results\street.relations.geojson -q
 start "street.relations.t" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.street.relations.2.sql -o results\street.relations.geojsont -q
+start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont -q
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
@@ -14,7 +15,7 @@ start "restrictions" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U pos
 start "roads" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.sql -o results\osm.roads.txt -q
 start "routes" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.routes.sql -o results\osm.routes.txt -q
 start "roads.ref" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt -q
-start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.sql -o results\osm.addr.housenumber.txt -q
+start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt -q
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL
