@@ -23,7 +23,7 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
   and (wt.v is null or wt.v not like '% міст' and wt.v not like '% мост')
   and (
      rm.member_type='N' and (rm.member_role='street' or rtn.k='name' and nt.k='addr:street' and nt.v<>rtn.v) or
-     rm.member_type='R' and (rm.member_role='street' or rtn.k='name' and rt.k='addr:street' and rt.v<>rtn.v) or
+     rm.member_type='R' and (rm.member_role='street' and (coalesce(rt.k,'name')=rtn.k and coalesce(rt.v,'-')<>rtn.v) or rtn.k='name' and rt.k='addr:street' and rt.v<>rtn.v) or
      rm.member_type='W' and (rm.member_role='street' and (coalesce(wt.k,'name')=rtn.k and coalesce(wt.v,'-')<>rtn.v) or rm.member_role in ('address','house') and rtn.k='name' and wt.k='addr:street' and wt.v<>rtn.v) and not exists(select * from way_tags wt2 where wt2.way_id=wt.way_id and wt2.k in ('addr2:street','addr:street2'))
   )
 order by rtt.relation_id,rm.member_id;
