@@ -16,6 +16,7 @@ start "roads" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -
 start "routes" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.routes.sql -o results\osm.routes.txt -q
 start "roads.ref" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt -q
 start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt -q
+start "ternopil" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.ternopil.sql -o results\osm.ternopil.txt -q
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL
