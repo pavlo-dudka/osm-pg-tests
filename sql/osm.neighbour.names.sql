@@ -22,10 +22,10 @@ where
 and st_dwithin(w1.linestring,w2.linestring,0.01)
 and wt2.v not like '% улица'
 and (wt1.k='name' and h1.id is not null or wt1.k='addr:street' and h1.id is null))
-select t.id,v1 as oldv,min(v2) as newv
+select t.id,v1 as oldv,string_agg(distinct v2, ';  ' order by v2) as newv
 from t
 group by 1,2
-having count(distinct v2)=1 and v1<>min(v2);
+having v1 = any(array_agg(v2));
 
 select r.name,oldv,newv,string_agg(a.id::text,',' order by a.id) 
 from addr_errors a
