@@ -25,7 +25,7 @@ and (wt1.k='name' and h1.id is not null or wt1.k='addr:street' and h1.id is null
 select t.id,v1 as oldv,string_agg(distinct v2, ';  ' order by v2) as newv
 from t
 group by 1,2
-having v1 = any(array_agg(v2));
+having not(v1 = any(array_agg(v2)));
 
 select r.name,oldv,newv,string_agg(a.id::text,',' order by a.id) 
 from addr_errors a
