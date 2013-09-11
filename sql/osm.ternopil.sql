@@ -5,7 +5,8 @@ inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='name'
 inner join relation_tags rt3 on rt3.relation_id=id and rt3.k='wikipedia'
 where id>3166623
 and exists(select * from relation_tags,nodes n,node_tags nt where relation_id=r.id and n.id=node_id and nt.k='name' and nt.v=rt2.v and st_contains(linestring,geom))
-and not exists(select * from relation_tags,nodes n,node_tags nt where relation_id=r.id and n.id=node_id and nt.k='wikipedia' and nt.v=rt3.v and st_contains(linestring,geom));
+and not exists(select * from relation_tags,nodes n,node_tags nt where relation_id=r.id and n.id=node_id and nt.k='wikipedia' and nt.v=rt3.v and st_contains(linestring,geom))
+order by 1;
 
 select '';
 select 'Place node not found:';
