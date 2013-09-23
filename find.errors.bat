@@ -1,23 +1,23 @@
 md results
-start "sharp.turns" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson -q
-start "multipolygons" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.multipolygons.sql -o results\multipolygons.geojson -q
-start "street.relations" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.street.relations.sql -o results\street.relations.geojson -q
-start "street.relations.t" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.street.relations.2.sql -o results\street.relations.geojsont -q
-start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont -q
+start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson
+start "multipolygons" %psql_exe% -f sql\osm.multipolygons.sql -o results\multipolygons.geojson
+start "street.relations" %psql_exe% -f sql\osm.street.relations.sql -o results\street.relations.geojson
+start "street.relations.t" %psql_exe% -f sql\osm.street.relations.2.sql -o results\street.relations.geojsont
+start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
 
-start "test" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.test.sql -o results\osm.test.txt
-start "pt.errors" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
-start "pt.errors.2" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
-start "restrictions" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.restrictions.sql -o results\osm.restrictions.txt
-start "roads" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.sql -o results\osm.roads.txt -q
-start "routes" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.routes.sql -o results\osm.routes.txt -q
-start "roads.ref" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt -q
-start "addr.housenumber" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt -q
-start "ternopil" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.ternopil.sql -o results\osm.ternopil.txt -q
-start "trans.errors" "c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -A -t -U postgres -w -d osm -p 5432 -f sql\osm.trans.errors.sql -o results\osm.trans.errors.txt -q
+start "test" %psql_exe% -f sql\osm.test.sql -o results\osm.test.txt
+start "pt.errors" %psql_exe% -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
+start "pt.errors.2" %psql_exe% -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
+start "restrictions" %psql_exe% -f sql\osm.restrictions.sql -o results\osm.restrictions.txt
+start "roads" %psql_exe% -f sql\osm.roads.sql -o results\osm.roads.txt
+start "routes" %psql_exe% -f sql\osm.routes.sql -o results\osm.routes.txt
+start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt
+start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
+start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
+start "trans.errors" %psql_exe% -f sql\osm.trans.errors.sql -o results\osm.trans.errors.txt
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL

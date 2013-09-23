@@ -20,14 +20,14 @@ del ..\temp\ua.o5m
 del ..\temp\*.0.o5m
 
 if     exist ..\temp\ua.filtered.old.o5m (call osmconvert.exe ..\temp\ua.filtered.old.o5m ..\temp\ua.filtered.o5m --diff -o=..\temp\ua.filtered.osc)
-if     exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rxc ..\temp\ua.filtered.osc --wsc user="postgres" password="postgres" host="localhost:5432")
-if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --ts user="postgres" password="postgres" host="localhost:5432")
+if     exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rxc ..\temp\ua.filtered.osc --wsc user="%username%" password="%password%" host="%host%:%port%")
+if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%")
 if not exist ..\temp\ua.filtered.old.o5m (call osmconvert.exe ..\temp\ua.filtered.o5m -o=..\temp\ua.filtered.pbf)
-if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="postgres" password="postgres" host="localhost:5432" nodeLocationStoreType="InMemory")
+if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%" nodeLocationStoreType="InMemory")
 del ..\temp\ua.filtered.old.o5m
 del ..\temp\ua.filtered.pbf
 del ..\temp\ua.filtered.osc
 
-"c:\Program Files\PostgreSQL\9.2\bin\psql.exe" -U postgres -w -d osm -p 5432 -f ..\sql\osm.boundaries.sql -q
+%psql_exe% -f ..\sql\osm.boundaries.sql
 
 cd ..
