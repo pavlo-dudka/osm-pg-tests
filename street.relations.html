@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Intersections without junction (OSM Ukraine)</title>
+	<title>Street Relations (OSM Ukraine)</title>
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,6 @@
 </head>
 <body>
 	<div id='map'/>
-		
 	<script type="text/javascript">
 		var map = L.map('map').setView([49, 31], 6);
 		map.addControl(new L.Control.Permalink());
@@ -31,7 +30,7 @@
 			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(map);
         
-        showGeoJson('geojson/highway.crossings.geojson');
+	        showGeoJson('geojson/street.relations.geojson');
 	</script>	
 </body>
 </html>
