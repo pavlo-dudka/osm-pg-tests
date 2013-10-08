@@ -1,3 +1,3 @@
 cd %github_path%
-git commit
+git commit -a -m "validation"
 git push
