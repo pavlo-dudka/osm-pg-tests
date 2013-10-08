@@ -1,0 +1,22 @@
+html, body 
+{
+	height: 100%;
+}
+body 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#errors
+{
+	width:0px; 
+	height:100%;
+	float:right;
+	border-left: solid 2px #c00;	
+}
+#map 
+{
+	width: auto; 
+	height: 100%;
+}
