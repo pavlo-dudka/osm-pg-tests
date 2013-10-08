@@ -1,3 +1,17 @@
+update relations r
+  set linestring=t.geom
+from 
+(
+  select rt.relation_id as id,ST_BuildArea(st_collect(w.linestring)) geom
+  from relation_tags rt 
+    inner join relation_members rm on rt.relation_id=rm.relation_id and member_type='W'
+    left join ways w on w.id=rm.member_id
+  where rt.k='type' and rt.v='multipolygon'
+    and rt.relation_id not in (2379521,2469245,1744377)
+  group by rt.relation_id
+  having min(case when st_isvalid(w.linestring)='t' then 1 else 0 end)=1) t
+where t.id=r.id;
+
 select '{';
 select '"type": "FeatureCollection",';
 select '"features": [';
