@@ -18,6 +18,32 @@ not exists(select * from relation_tags,nodes n,node_tags nt where relation_id=r.
 order by 1;
 
 select '';
+select 'Wrong member role:';
+with pol as (
+select id as relation_id,(ST_Dump(linestring)).geom linestring
+from relations
+where st_geometrytype(linestring)='ST_MultiPolygon' --and id=1754751
+union
+select id as relation_id, linestring
+from relations
+where st_geometrytype(linestring)='ST_Polygon' --and id=1754751
+),
+rings as (
+select relation_id,(st_dumprings(linestring)).geom,(st_dumprings(linestring)).path
+from pol
+),
+points as 
+(select relation_id,(st_dumppoints(geom)).geom,path
+from rings)
+select distinct rm.relation_id,rm.member_id,rm.member_role
+from points p
+inner join relation_members rm on rm.relation_id=p.relation_id and rm.member_type='W'
+inner join ways w on w.id=rm.member_id
+where st_contains(w.linestring,p.geom)='t' and (rm.member_role is null or rm.member_role<>'outer' and path=array[0] or rm.member_role<>'inner' and path<>array[0])
+ and p.relation_id between 3166623 and 3167682
+order by 1,2;
+
+select '';
 select 'Boundary crosses admin_level=6:';
 --Ternopil
 select r.id from relations r
