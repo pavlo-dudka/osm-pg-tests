@@ -17,6 +17,8 @@ for /f "tokens=1,2,3 delims=|" %%a IN (error.summary) DO (call :recordItem %%a %
 echo ^</channel^> >> test.rss
 echo ^</rss^> >> test.rss
 
+copy /Y error.count.txt %github_path%\txt\
+copy /Y test.rss %github_path%\
 move /Y error.count.txt %dropbox_path%\txt\
 move /Y test.rss %dropbox_path%\
 del error.old.hash

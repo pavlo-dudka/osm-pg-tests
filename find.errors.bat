@@ -24,6 +24,10 @@ tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL
 if "%ERRORLEVEL%" equ "0" timeout 5
 if "%ERRORLEVEL%" equ "0" goto :wait
 
+copy /Y results\*.geojson %github_path%\geojson\
+copy /Y results\*.geojsont %github_path%\geojson\
+copy /Y results\*.txt %github_path%\txt\
+
 copy /Y results\*.geojson %dropbox_path%\geojson\
 move /Y results\*.geojsont %dropbox_path%\geojson\
 move /Y results\*.txt %dropbox_path%\txt\
