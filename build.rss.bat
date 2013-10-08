@@ -17,8 +17,8 @@ for /f "tokens=1,2,3 delims=|" %%a IN (error.summary) DO (call :recordItem %%a %
 echo ^</channel^> >> test.rss
 echo ^</rss^> >> test.rss
 
-move /Y error.count.txt C:\Users\pdudka\Dropbox\Public\test\txt\
-move /Y test.rss C:\Users\pdudka\Dropbox\Public\test\
+move /Y error.count.txt %dropbox_path%\txt\
+move /Y test.rss %dropbox_path%\
 del error.old.hash
 del error.old.summary
 del *.geojson
