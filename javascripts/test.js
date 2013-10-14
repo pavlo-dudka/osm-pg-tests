@@ -103,7 +103,7 @@ function openInJosm(load, point)
 function openInID(point)
 {
 	var coords = point.split(',');
-	var win=window.open('http://www.openstreetmap.org/edit?editor=id#map=18/' + coords[1] + '/' + coords[0], '_blank');
+	var win=window.open('http://www.openstreetmap.org/edit?editor=id#map=19/' + coords[1] + '/' + coords[0], '_blank');
 	win.focus();
 }
 
