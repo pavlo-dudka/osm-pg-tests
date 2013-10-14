@@ -84,6 +84,7 @@ function popupHtml(feature)
 	result = result + '</table>';
 	
 	result += '<input type="button" value="Open in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Open in iD" onClick="openInID(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
 }
@@ -97,6 +98,13 @@ function openInJosm(load, point)
 	var xmlhttp2 = new XMLHttpRequest();
 	xmlhttp2.open('GET', josmZoomToPoint(point), false);
 	xmlhttp2.send(null);			
+}
+
+function openInID(point)
+{
+	var coords = point.split(',');
+	var win=window.open('http://www.openstreetmap.org/edit?editor=id#map=18/' + coords[0] + '/' + coords[1], '_blank');
+	win.focus();
 }
 
 function josmLoadObject(load)
