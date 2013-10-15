@@ -38,6 +38,24 @@ select * from node_tags where trim(v)<>v order by node_id;
 select * from way_tags where trim(v)<>v order by way_id;
 
 select '';
+select 'Invalid member type:';
+select * 
+from relation_tags rt
+inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type<>'W' and rm.member_role not in ('admin_centre','label','subarea')
+where rt.k='type' and rt.v in ('boundary','multipolygon');
+
+select '';
+select 'Double boundaries:';
+select count(*),n.id,min(r2.id),max(r2.id),min(w2.id),max(w2.id) 
+from 
+nodes n
+inner join node_tags nt on nt.node_id=n.id and nt.k='place'
+left join (relations inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='place' and rt2.v<>'city_district') r2 on st_contains(r2.linestring,n.geom)
+left join (ways inner join way_tags wt2 on wt2.way_id=id and wt2.k='place') w2 on st_contains(w2.linestring,n.geom)
+group by n.id
+having count(*)>1 or min(r2.id) is not null and min(w2.id) is not null;
+
+select '';
 select 'No suffix:';
 select v,string_agg(way_id::text,',' order by way_id) 
 from way_tags 
