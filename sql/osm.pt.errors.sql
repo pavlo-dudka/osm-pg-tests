@@ -21,9 +21,11 @@ d as (
 	from c
 	group by relation_id,node_id
 	having count(*) in (1,3))
-select relation_id,string_agg(node_id::text,',' order by node_id)
+select d.relation_id,r.name,string_agg(node_id::text,',' order by node_id)
 from d
+ inner join nodes n on n.id=node_id
+ inner join regions r on st_contains(linestring,n.geom)
 where not exists(select * from relation_members rm where rm.relation_id=d.relation_id and rm.member_role in ('forward','backward'))
-group by relation_id
+group by d.relation_id,r.name
 having count(*)>2
-order by 1;
+order by 2,1;
