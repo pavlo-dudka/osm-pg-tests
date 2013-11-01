@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<script>
+  xmlhttp=new XMLHttpRequest();
+  xmlhttp.open("GET","test.rss",false);
+  xmlhttp.send();
+  xmlDoc=xmlhttp.responseXML;
+
+  document.write('<h3>Quality Assurance (OSM Ukraine)</h3>');
+  var x=xmlDoc.getElementsByTagName("item");
+  for (i=0;i<x.length;i++)
+  {
+    document.write('<a href="');
+    document.write(x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue);
+    document.write('">');
+    document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+    document.write("</a><br/>");  
+  }
+</script>
+
+</body>
+</html>
