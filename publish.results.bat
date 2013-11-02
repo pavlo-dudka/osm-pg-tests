@@ -49,10 +49,10 @@ goto :eof
 
 :recordItem
 echo ^<item^> >> test.rss
-echo ^<guid^>%~1 %~3 v2^</guid^> >> test.rss
+echo ^<guid^>%~1 %~3^</guid^> >> test.rss
 set file=%~1
 set file=%file:~0,-8%
-echo ^<link^>%publish_url%/%file%.html^</link^> >> test.rss
+echo ^<link^>%publish_url%/test.html?%file%^</link^> >> test.rss
 echo ^<author^>dudka^</author^> >> test.rss
 echo ^<title^> >> test.rss
 echo %file% - %~2 error(s) found at %~3 >> test.rss
