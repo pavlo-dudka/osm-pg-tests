@@ -63,3 +63,9 @@ select 'ru:';
 select * from streets 
 where ru in (select ru from streets group by ru having count(*)>1)
 order by 2,1;
+
+select '';
+select '++:'
+select * from streets s1
+  inner join streets s2 on s1.uk<>s2.uk and s1.ru<>s2.ru and (s1.uk like '%'||s2.uk||'%' and s1.ru not like '%'||s2.ru||'%' or s1.uk like '%'||s2.uk||'%' and s1.ru not like '%'||s2.ru||'%')
+where not exists (select * from streets s2 where s1.uk<>s2.uk and s1.ru<>s2.ru and s1.uk like '%'||s2.uk||'%' and s1.ru like '%'||s2.ru||'%');
