@@ -16,7 +16,7 @@ b as (
   and not exists(select * from node_tags nt where nt.node_id=n.id and nt.k='noexit' and nt.v in ('yes','true','1'))
   and not exists(select * from node_tags nt where nt.node_id=n.id and nt.k='highway' and nt.v='turning_circle')
   and not exists(select * from way_tags wt where wt.way_id=wn.way_id and wt.k='highway' and wt.v in ('service','platform'))
-  and n.id not in (546405082,546351032,2324552116,1791825888,1616608260,1059524279,1452513637,1452513638,1822002730,1822002733,2394431921,2425800793)
+  and n.id not in (546405082,546351032,2324552116,1791825888,1616608260,1059524279,1452513637,1452513638,1822002730,1822002733,2394431921,2425800793,1467562604)
 )
 select * from b;
 
