@@ -71,4 +71,4 @@ select * from streets s1
 where not exists (select * from streets s2 where s1.uk<>s2.uk and s1.ru<>s2.ru and s1.uk like '%'||s2.uk||'%' and s1.ru like '%'||s2.ru||'%')
   and s2.uk not in ('А','Б')
   and s2.ru not in ('А','Б')
-order by s1.uk,s1.ru,s2.uk;
+order by s1.uk,s1.ru,s2.uk,s2.ru;
