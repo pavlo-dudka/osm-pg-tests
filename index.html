@@ -14,6 +14,19 @@
   var x=xmlDoc.getElementsByTagName("item");
   for (i=0;i<x.length;i++)
   {
+    if (x[i].getElementsByTagName("guid")[0].childNodes[0].nodeValue.substring(0,6) == "peirce")
+      continue;
+    document.write('<a href="');
+    document.write(x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue);
+    document.write('">');
+    document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+    document.write("</a><br/>");  
+  }
+  document.write("<br/>");  
+  for (i=0;i<x.length;i++)
+  {
+    if (x[i].getElementsByTagName("guid")[0].childNodes[0].nodeValue.substring(0,6) != "peirce")
+      continue;
     document.write('<a href="');
     document.write(x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue);
     document.write('">');

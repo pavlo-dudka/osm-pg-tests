@@ -79,6 +79,22 @@ function popupHtml(feature)
 	{
 		result += '<tr><th>House number:</th><td>' + feature.properties.addrhousenumber + '</td></tr>';
 	}
+	if (typeof(feature.properties.region) != "undefined")
+	{
+		result += '<tr><th>Region:</th><td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td></tr>';
+	}
+	if (typeof(feature.properties.city) != "undefined")
+	{
+		result += '<tr><th>City:</th><td>' + feature.properties.city + '</td></tr>';
+	}
+	if (typeof(feature.properties.level) != "undefined")
+	{
+		result += '<tr><th>Level:</th><td>' + feature.properties.level + '</td></tr>';
+	}
+	if (typeof(feature.properties.NumberOfRoads) != "undefined")
+	{
+		result += '<tr><th>Roads count:</th><td>' + feature.properties.NumberOfRoads + '</td></tr>';
+	}
 
 	result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';

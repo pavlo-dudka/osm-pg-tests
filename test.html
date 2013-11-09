@@ -31,10 +31,16 @@
         {
             var map = L.map('map').setView([49, 31], 6);
             map.addControl(new L.Control.Permalink());
+    
+            var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+            if (geojsonFileName.substring(0,6) == "peirce")
+            {
+                copyright = copyright + ' | Errors found by <a href="http://peirce.zkir.ru/qa/CIS#table">Zkir</a>';
+            }
 
             L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
-                attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution: copyright
             }).addTo(map);
         
             geojsonFileName = 'geojson/' + geojsonFileName + '.geojson';
