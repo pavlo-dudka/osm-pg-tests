@@ -107,13 +107,22 @@ function popupHtml(feature)
 
 function openInJosm(load, point)
 {
-	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.open('GET', josmLoadObject(load), false);
-	xmlhttp.send(null);
-	
-	var xmlhttp2 = new XMLHttpRequest();
-	xmlhttp2.open('GET', josmZoomToPoint(point), false);
-	xmlhttp2.send(null);			
+    if (load != "undefined")
+    {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('GET', josmLoadObject(load), false);
+        xmlhttp.send(null);
+            
+        var xmlhttp2 = new XMLHttpRequest();
+        xmlhttp2.open('GET', josmZoomToPoint(point), false);
+        xmlhttp2.send(null);
+	}
+    else
+    {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('GET', josmZoomAndLoadToPoint(point), false);
+        xmlhttp.send(null);
+    }
 }
 
 function openInID(point)
@@ -137,4 +146,15 @@ function josmZoomToPoint(point)
 	var bottom = Number(coords[1])+0.001;
 	
 	return 'http://localhost:8111/zoom?left=' + left + '&right=' + right + '&top=' + top + '&bottom=' + bottom;
+}
+
+function josmZoomAndLoadToPoint(point)
+{
+	var coords = point.split(',');
+	var left = coords[0]-0.001;
+	var right = Number(coords[0])+0.001;
+	var bottom = coords[1]-0.001;
+	var top = Number(coords[1])+0.001;
+    	
+	return 'http://localhost:8111/load_and_zoom?left=' + left + '&right=' + right + '&top=' + top + '&bottom=' + bottom;
 }
