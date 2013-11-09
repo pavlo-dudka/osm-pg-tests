@@ -1,3 +1,4 @@
+@echo off
 cd results
 copy /Y *.geojson %publish_path%\geojson\
 copy /Y *.geojsont %publish_path%\geojson\
@@ -6,7 +7,7 @@ copy /Y *.txt %publish_path%\txt\
 move error.hash error.old.hash
 move error.summary error.old.summary
 call ..\binaries\md5sum.exe *.geojson > error.hash
-find /c "josm" *.geojson > error.count.txt
+find /c "properties" *.geojson > error.count.txt
 
 set hash=
 
@@ -53,7 +54,9 @@ echo ^<guid^>%~1 %~3^</guid^> >> test.rss
 set file=%~1
 set file=%file:~0,-8%
 echo ^<link^>%publish_url%/test.html?%file%^</link^> >> test.rss
-echo ^<author^>dudka^</author^> >> test.rss
+set peirce=%file:~0,6%
+if "%peirce%" equ "peirce" echo ^<author^>Ch.S. Peirce^</author^> >> test.rss
+if "%peirce%" neq "peirce" echo ^<author^>dudka^</author^> >> test.rss
 echo ^<title^> >> test.rss
 echo %file% - %~2 error(s) found at %~3 >> test.rss
 echo ^</title^> >> test.rss

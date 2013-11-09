@@ -1,5 +1,6 @@
 update relations r
-  set linestring=st_simplify(t.geom,0.0001)
+--  set linestring=st_simplify(t.geom,0.0001)
+  set linestring=t.geom
 from 
 (
   select rt.relation_id as id,ST_BuildArea(st_collect(w.linestring)) geom
