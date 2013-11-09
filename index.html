@@ -4,13 +4,13 @@
 </head>
 <body>
 
+<h3>Quality Assurance (OSM Ukraine)</h3>
 <script>
   xmlhttp=new XMLHttpRequest();
   xmlhttp.open("GET","test.rss",false);
   xmlhttp.send();
   xmlDoc=xmlhttp.responseXML;
-
-  document.write('<h3>Quality Assurance (OSM Ukraine)</h3>');
+  
   var x=xmlDoc.getElementsByTagName("item");
   for (i=0;i<x.length;i++)
   {
