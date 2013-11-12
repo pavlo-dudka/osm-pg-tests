@@ -11,4 +11,6 @@ n.id not in (337696888,337689331) and
 coalesce(nt2.v::int, 999)>20 and
 not exists(select 1 from highways w where st_dwithin(n.geom,w.linestring,0.1) and st_distance_sphere(n.geom,w.linestring) < 500)
 order by n.id;
+
+select '{"type":"Feature"}';
 select ']}';

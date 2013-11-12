@@ -15,4 +15,5 @@ select '{"type":"Feature","properties":{"region":"'||region||'"},'||
 from deadEnds
 order by 1;
 
+select '{"type":"Feature"}';
 select ']}';                                                             

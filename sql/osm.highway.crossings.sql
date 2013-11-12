@@ -29,4 +29,6 @@ end||
 from intsc
 where st_isempty(diff) = 'f' and GeometryType(diff) in ('POINT','MULTIPOINT','LINESTRING')
 order by id1,id2;
+
+select '{"type":"Feature"}';
 select ']}';

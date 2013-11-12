@@ -16,7 +16,7 @@ SELECT *,2 as lvl FROM
 xpath_table('region',
             'data',
             'zkir_xml',
-            '/QualityReport/RoutingTestByhighway/Secondary/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByhighway/Secondary/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByhighway/Secondary/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByhighway/Secondary/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByhighway/Secondary/SubgraphList/Subgraph/Bbox/Lon2',
+            '/QualityReport/RoutingTestByLevel/Secondary/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByLevel/Secondary/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByLevel/Secondary/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByLevel/Secondary/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByLevel/Secondary/SubgraphList/Subgraph/Bbox/Lon2',
             'true')
 AS t(region text, NumberOfRoads text, lat1 float, lon1 float, lat2 float, lon2 float))
 , primarySubGraphs as (
@@ -24,7 +24,7 @@ SELECT *,1 as lvl FROM
 xpath_table('region',
             'data',
             'zkir_xml',
-            '/QualityReport/RoutingTestByhighway/Primary/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByhighway/Primary/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByhighway/Primary/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByhighway/Primary/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByhighway/Primary/SubgraphList/Subgraph/Bbox/Lon2',
+            '/QualityReport/RoutingTestByLevel/Primary/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByLevel/Primary/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByLevel/Primary/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByLevel/Primary/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByLevel/Primary/SubgraphList/Subgraph/Bbox/Lon2',
             'true')
 AS t(region text, NumberOfRoads text, lat1 float, lon1 float, lat2 float, lon2 float))
 , trunkSubGraphs as (
@@ -32,7 +32,7 @@ SELECT *,0 as lvl FROM
 xpath_table('region',
             'data',
             'zkir_xml',
-            '/QualityReport/RoutingTestByhighway/Trunk/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByhighway/Trunk/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByhighway/Trunk/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByhighway/Trunk/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByhighway/Trunk/SubgraphList/Subgraph/Bbox/Lon2',
+            '/QualityReport/RoutingTestByLevel/Trunk/SubgraphList/Subgraph/NumberOfRoads|/QualityReport/RoutingTestByLevel/Trunk/SubgraphList/Subgraph/Bbox/Lat1|/QualityReport/RoutingTestByLevel/Trunk/SubgraphList/Subgraph/Bbox/Lon1|/QualityReport/RoutingTestByLevel/Trunk/SubgraphList/Subgraph/Bbox/Lat2|/QualityReport/RoutingTestByLevel/Trunk/SubgraphList/Subgraph/Bbox/Lon2',
             'true')
 AS t(region text, NumberOfRoads text, lat1 float, lon1 float, lat2 float, lon2 float))
 , subGraphs as                                                        
@@ -56,4 +56,5 @@ select '{"type":"Feature","properties":{"region":"'||region||'","level":"'||case
 from uniqueSubGraphs
 order by 1;
 
+select '{"type":"Feature"}';
 select ']}';                                                             

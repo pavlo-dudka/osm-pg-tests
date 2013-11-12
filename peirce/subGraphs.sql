@@ -15,5 +15,6 @@ select '{"type":"Feature","properties":{"region":"'||region||'","NumberOfRoads":
 from subGraphs
 order by 1;
 
+select '{"type":"Feature"}';
 select ']}';                                                             
                                                                                  

@@ -30,4 +30,6 @@ from end_nodes b
 inner join highways t on t.id<>b.way_id and t.layer=b.layer and st_dwithin(b.geom,t.linestring,0.01) and st_distance_sphere(b.geom,t.linestring) < 5
 group by b.id,b.geom
 order by b.id;
+
+select '{"type":"Feature"}';
 select ']}';

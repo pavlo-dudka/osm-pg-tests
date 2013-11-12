@@ -34,4 +34,6 @@ lower(wt.v)  similar to '[1-9][0-9\-]*[-/ ][а-яєі]' or                      
        position('`' in wt.v)>0 or                                                               --remove "`"
        wt.v  in ('-','*','?','0','00'))
 order by 1;
+
+select '{"type":"Feature"}';
 select ']}';

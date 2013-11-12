@@ -1,6 +1,7 @@
 select '{';
 select '"type": "FeatureCollection",';
 select '"features": [';
+
 select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||rtt.relation_id||','||lower(rm.member_type)||rm.member_id||'",'||
@@ -27,4 +28,6 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
      rm.member_type='W' and (rm.member_role='street' and (coalesce(wt.k,'name')=rtn.k and coalesce(wt.v,'-')<>rtn.v) or rm.member_role in ('address','house') and rtn.k='name' and wt.k='addr:street' and wt.v<>rtn.v) and not exists(select * from way_tags wt2 where wt2.way_id=wt.way_id and wt2.k in ('addr2:street','addr:street2'))
   )
 order by rtt.relation_id,rm.member_id;
+
+select '{"type":"Feature"}';
 select ']}';

@@ -1,6 +1,7 @@
 select '{';
 select '"type": "FeatureCollection",';
 select '"features": [';
+
 select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"'||lower(rm.member_type)||rm.member_id||','||string_agg('r'||rt.relation_id,',' order by rt.relation_id)||'",'||
@@ -22,4 +23,6 @@ where rt.k='type' and rt.v like '%treet'
 group by rm.member_id,rm.member_type,nt.k,nt.v,wt.k,wt.v
 having count(*)>1
 order by rm.member_type,rm.member_id;
+
+select '{"type":"Feature"}';
 select ']}';
