@@ -19,7 +19,7 @@ binaries\md5sum.exe temp\*.rss > temp\rss.hash
 set hash=
 for /f %%a in ('dir /b temp\*.rss') do (call :processRss %%a)
 
-start "peirce.import" %psql_exe% -f peirce\import.sql
+%psql_exe% -f peirce\import.sql
 
 start "peirce.citiesWithoutPlacePolygon" %psql_exe%  -f peirce\citiesWithoutPlacePolygon.sql -o results\peirce.citiesWithoutPlacePolygon.geojson -q
 start "peirce.duplicatedEdges" %psql_exe%  -f peirce\duplicatedEdges.sql -o results\peirce.duplicatedEdges.geojson -q
