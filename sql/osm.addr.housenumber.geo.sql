@@ -24,7 +24,7 @@ select '{"type":"Feature","properties":{"josm":"w'||w.id||'","'||replace(wt.k,':
 from ways w
 inner join way_tags wt on wt.way_id=w.id and wt.k='addr:housenumber'
 where
-       wt.v not similar to '[1-9][0-9\-]*[а-яєі]?(/[1-9][0-9]*[а-я]?)?( к[1-9][0-9]*)?|[1-9][0-9]*-[1-9][0-9]*|бос [1-9][0-9]*' and
+       lower(wt.v) not similar to '([1-9][0-9]*-)*[1-9][0-9]*[а-яєі]?(/[1-9][0-9]*[а-я]?)?( к[1-9][0-9]*)?|бос [1-9][0-9]*' and
 (
  trim(wt.v)  similar to '[1-9][0-9\-]*[а-яєі]?(/[1-9][0-9]*[а-я]?)?( к[1-9][0-9]*)?' or         --trim it
 lower(wt.v)  similar to '[1-9][0-9\-]*[а-яєі]?(/[1-9][0-9]*[а-я]?)?( к[1-9][0-9]*)?' or         --make it lower
