@@ -39,7 +39,7 @@ call :gethash error.old.hash %file%
 set oldhash=%hash%
 set errdate=
 if "%newhash%" equ "%oldhash%" (for /f "tokens=1,3 delims=|" %%c in (error.old.summary) do (if /i "%%c"=="%file%" (set errdate=%%d)))
-if "%errdate%" equ "" (set errdate=%date% %time%)
+if "%errdate%" equ "" (set errdate=%date% %time:~0,5%)
 echo %file%^|%~2^|%errdate%>> error.summary
 goto :eof
 
