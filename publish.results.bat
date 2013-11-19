@@ -57,11 +57,7 @@ echo ^<link^>%publish_url%/test.html?%file%^</link^> >> test.rss
 set peirce=%file:~0,6%
 if "%peirce%" equ "peirce" echo ^<author^>Ch.S. Peirce^</author^> >> test.rss
 if "%peirce%" neq "peirce" echo ^<author^>dudka^</author^> >> test.rss
-echo ^<title^> >> test.rss
-echo %file% - %~2 error(s) found at %~3 >> test.rss
-echo ^</title^> >> test.rss
-echo ^<description^> >> test.rss
-echo %~2 error(s) found >> test.rss
-echo ^</description^> >> test.rss
+echo ^<title^>%file% - %~2 error(s) found at %~3^</title^> >> test.rss
+echo ^<description^>%~2 error(s) found^</description^> >> test.rss
 echo ^</item^> >> test.rss
 goto :eof
