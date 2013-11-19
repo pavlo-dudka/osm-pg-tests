@@ -1,6 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
+{"type":"Feature","properties":{"region":"UA-C","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[34.53755475,48.51711985]}},
 {"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[37.26999685,47.9814171]}},
 {"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[37.74232375,48.060945]}},
 {"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[39.5878605,49.2094755]}},
@@ -53,5 +54,6 @@
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.01582005,49.84327595]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.01703345,49.84176635]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.5920159,49.5523574]}},
+{"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[23.41608685,49.28661105]}},
 {"type":"Feature"}
 ]}
