@@ -68,7 +68,9 @@ select '';
 select '++:';
 select * from streets s1
   inner join streets s2 on s1.uk<>s2.uk and s1.ru<>s2.ru and (s1.uk like '%'||s2.uk||'%' and s1.ru not like '%'||s2.ru||'%' or s1.uk not like '%'||s2.uk||'%' and s1.ru like '%'||s2.ru||'%')
-where not exists (select * from streets s2 where s1.uk<>s2.uk and s1.ru<>s2.ru and s1.uk like '%'||s2.uk||'%' and s1.ru like '%'||s2.ru||'%')
-  and s2.uk not in ('А','Б')
-  and s2.ru not in ('А','Б')
+where not exists (select * from streets s2 where s1.uk<>s2.uk and s1.ru<>s2.ru and s1.uk like '%'||s2.uk||'%' and s1.ru like '%'||s2.ru||'%' 
+                                             and s2.uk not in ('А','Б','1-й','2-й','3-й') 
+                                             and s2.ru not in ('А','Б','1-й','2-й','3-й'))
+  and s2.uk not in ('А','Б','1-й','2-й','3-й') 
+  and s2.ru not in ('А','Б','1-й','2-й','3-й')
 order by s1.uk,s1.ru,s2.uk,s2.ru;
