@@ -1,6 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
+{"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[38.7865487,48.1910791]}},
 {"type":"Feature","properties":{"region":"UA-N","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.77940045,49.5327658]}},
 {"type":"Feature","properties":{"region":"UA-N","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.8639724,49.43091495]}},
 {"type":"Feature","properties":{"region":"UA-N","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[30.5280661,50.5564595]}},
@@ -31,10 +32,12 @@
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.6802313,46.34311925]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.77170275,46.61307825]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[34.2203523,44.5047603]}},
+{"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[34.37464385,44.61119205]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[35.07620055,47.82437515]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[29.631729,45.51558875]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[30.61473545,46.5589217]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[33.0807498,45.26294685]}},
+{"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"4"},"geometry":{"type":"Point","coordinates":[34.3549986,44.6130494]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"7"},"geometry":{"type":"Point","coordinates":[29.96303205,47.37599045]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.0154285,49.8408787]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.01582005,49.84327595]}},
