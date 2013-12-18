@@ -1,3 +1,5 @@
+call config.bat
+
 cd binaries
 move ..\temp\ua.filtered.o5m ..\temp\ua.filtered.old.o5m
 call osmconvert.exe ..\temp\ua.osm.pbf -o=..\temp\ua.o5m

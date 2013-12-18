@@ -7,17 +7,17 @@ start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o resul
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
+start "translation" test.translation.bat
 
 start "test" %psql_exe% -f sql\osm.test.sql -o results\osm.test.txt
 start "pt.errors" %psql_exe% -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
 start "pt.errors.2" %psql_exe% -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
-start "restrictions" %psql_exe% -f sql\osm.restrictions.sql -o results\osm.restrictions.txt
 start "roads" %psql_exe% -f sql\osm.roads.sql -o results\osm.roads.txt
 start "routes" %psql_exe% -f sql\osm.routes.sql -o results\osm.routes.txt
 start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
 start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
-start "trans.errors" %psql_exe% -f sql\osm.trans.errors.sql -o results\osm.trans.errors.txt
+
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL
