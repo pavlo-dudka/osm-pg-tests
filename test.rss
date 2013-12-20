@@ -4,60 +4,60 @@
 <title>Quality Assurance (OSM Ukraine)</title> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html</link> 
 <item> 
-<guid>almost.junctions.geojson 17.12.2013 21:13</guid> 
+<guid>almost.junctions.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?almost.junctions</link> 
 <author>dudka</author> 
-<title>almost.junctions - 0 error(s) found at 17.12.2013 21:13</title> 
-<description>0 error(s) found</description> 
+<title>almost.junctions - 9 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>9 error(s) found</description> 
 </item> 
 <item> 
-<guid>highway.crossings.geojson 17.12.2013 21:13</guid> 
+<guid>highway.crossings.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.crossings</link> 
 <author>dudka</author> 
-<title>highway.crossings - 0 error(s) found at 17.12.2013 21:13</title> 
-<description>0 error(s) found</description> 
+<title>highway.crossings - 18 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>18 error(s) found</description> 
 </item> 
 <item> 
-<guid>multipolygons.geojson 13.12.2013 11:14</guid> 
+<guid>multipolygons.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link> 
 <author>dudka</author> 
-<title>multipolygons - 0 error(s) found at 13.12.2013 11:14</title> 
-<description>0 error(s) found</description> 
-</item> 
-<item> 
-<guid>no.highways.geojson 17.12.2013 22:14</guid> 
-<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?no.highways</link> 
-<author>dudka</author> 
-<title>no.highways - 4 error(s) found at 17.12.2013 22:14</title> 
-<description>4 error(s) found</description> 
-</item> 
-<item> 
-<guid>peirce.citiesWithoutPlacePolygon.geojson 17.12.2013  6:14</guid> 
-<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.citiesWithoutPlacePolygon</link> 
-<author>Ch.S. Peirce</author> 
-<title>peirce.citiesWithoutPlacePolygon - 77 error(s) found at 17.12.2013  6:14</title> 
-<description>77 error(s) found</description> 
-</item> 
-<item> 
-<guid>peirce.deadEnds.geojson 18.12.2013  5:14</guid> 
-<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.deadEnds</link> 
-<author>Ch.S. Peirce</author> 
-<title>peirce.deadEnds - 6 error(s) found at 18.12.2013  5:14</title> 
-<description>6 error(s) found</description> 
-</item> 
-<item> 
-<guid>peirce.duplicatedEdges.geojson 18.12.2013  1:13</guid> 
-<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.duplicatedEdges</link> 
-<author>Ch.S. Peirce</author> 
-<title>peirce.duplicatedEdges - 2 error(s) found at 18.12.2013  1:13</title> 
+<title>multipolygons - 2 error(s) found at Fri 12/20/2013 16:28</title> 
 <description>2 error(s) found</description> 
 </item> 
 <item> 
-<guid>peirce.subGraphs.geojson 17.12.2013 14:14</guid> 
+<guid>no.highways.geojson Fri 12/20/2013 16:28</guid> 
+<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?no.highways</link> 
+<author>dudka</author> 
+<title>no.highways - 6 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>6 error(s) found</description> 
+</item> 
+<item> 
+<guid>peirce.citiesWithoutPlacePolygon.geojson Fri 12/20/2013 16:28</guid> 
+<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.citiesWithoutPlacePolygon</link> 
+<author>Ch.S. Peirce</author> 
+<title>peirce.citiesWithoutPlacePolygon - 0 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>0 error(s) found</description> 
+</item> 
+<item> 
+<guid>peirce.deadEnds.geojson Fri 12/20/2013 16:28</guid> 
+<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.deadEnds</link> 
+<author>Ch.S. Peirce</author> 
+<title>peirce.deadEnds - 0 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>0 error(s) found</description> 
+</item> 
+<item> 
+<guid>peirce.duplicatedEdges.geojson Fri 12/20/2013 16:28</guid> 
+<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.duplicatedEdges</link> 
+<author>Ch.S. Peirce</author> 
+<title>peirce.duplicatedEdges - 0 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>0 error(s) found</description> 
+</item> 
+<item> 
+<guid>peirce.subGraphs.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.subGraphs</link> 
 <author>Ch.S. Peirce</author> 
-<title>peirce.subGraphs - 72 error(s) found at 17.12.2013 14:14</title> 
-<description>72 error(s) found</description> 
+<title>peirce.subGraphs - 0 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>0 error(s) found</description> 
 </item> 
 <item> 
 <guid>peirce.tertiarySubGraphs.geojson 17.12.2013  6:14</guid> 
@@ -67,18 +67,18 @@
 <description>0 error(s) found</description> 
 </item> 
 <item> 
-<guid>sharp.turns.geojson 17.12.2013 22:14</guid> 
+<guid>sharp.turns.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?sharp.turns</link> 
 <author>dudka</author> 
-<title>sharp.turns - 0 error(s) found at 17.12.2013 22:14</title> 
-<description>0 error(s) found</description> 
+<title>sharp.turns - 4 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>4 error(s) found</description> 
 </item> 
 <item> 
-<guid>street.relations.geojson 17.12.2013 22:14</guid> 
+<guid>street.relations.geojson Fri 12/20/2013 16:28</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link> 
 <author>dudka</author> 
-<title>street.relations - 0 error(s) found at 17.12.2013 22:14</title> 
-<description>0 error(s) found</description> 
+<title>street.relations - 2 error(s) found at Fri 12/20/2013 16:28</title> 
+<description>2 error(s) found</description> 
 </item> 
 </channel> 
 </rss> 
