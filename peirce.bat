@@ -41,7 +41,7 @@ call :gethash temp\rss.hash.bak %~1
 set oldhash=%hash%
 set file=%~1
 set region=%file:~0,4%
-if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "C:\Program Files\PostgreSQL\9.2\data\osm\%region%.mp_addr.xml")
+if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "C:\Program Files\PostgreSQL\9.3\data\osm\%region%.mp_addr.xml")
 goto :eof
 
 :gethash
