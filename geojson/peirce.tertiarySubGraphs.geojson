@@ -1,5 +1,9 @@
 {
 "type": "FeatureCollection",
 "features": [
+{"type":"Feature","properties":{"region":"UA-N","level":"primary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[32.5780548,50.52351755]}},
+{"type":"Feature","properties":{"region":"UA-N","level":"secondary","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[32.5780548,50.52351755]}},
+{"type":"Feature","properties":{"region":"UA-W","level":"secondary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.8018475,49.0044337]}},
+{"type":"Feature","properties":{"region":"UA-W","level":"secondary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.80753175,49.0041211]}},
 {"type":"Feature"}
 ]}
