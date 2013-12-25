@@ -52,6 +52,8 @@ inner join way_type wtru on name_ru like '% '||wtru.type_f and (wtru.trans is no
 where name_uk<>'-' and name_ru<>'-'
 group by uk,ru
 order by 1,2;
+create index idx_streets_uk on streets(uk);
+create index idx_streets_ru on streets(ru);
 
 select 'uk:';
 select * from streets 
