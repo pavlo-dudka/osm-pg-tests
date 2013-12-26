@@ -11,7 +11,7 @@ lower(wt.v)  similar to '[1-9][0-9\-]*[а-яєі]?(/[1-9][0-9]*[а-я]?)?( ?к\.
 lower(wt.v)  similar to '[1-9][0-9\-]*[-/ ][а-яєі]' or                                          --remove "-/ " before character
        position('`' in wt.v)>0 or                                                               --remove "`"
        wt.v  in ('-','*','?','0','00'))
-and not exists(select * from way_tags where way_id=w.id and  k not in ('name','addr:housename','addr:street','addr:postcode','building','building:levels','building:material','source','height','nadoloni:id','source_ref') and v not in ('public_building'))
+and not exists(select * from way_tags where way_id=w.id and  k not in ('name','addr:city','addr:housename','addr:housenumber','addr:street','addr:postcode','building','building:levels','building:material','source','height','nadoloni:id','source_ref') and v not in ('public_building'))
 and not exists(select * from way_tags where way_id=w.id and (k     in ('addr:street') and v in ('Регенераторна вулиця') or k in ('highway','shop') or v in ('cafe','pub','restaurant')))
 order by 1;
 
@@ -47,7 +47,7 @@ lower(wt.v)  similar to '[1-9][0-9\-]*[-/ ][а-яєі]' or                      
        position('`' in wt.v)>0 or                                                               --remove "`"
        wt.v  in ('-','*','?','0','00')
 )
-and not exists(select * from node_tags where node_id=w.id and  k not in ('name','addr:housename','addr:street','addr:postcode','building','building:levels','building:material','source','height','nadoloni:id','source_ref') and v not in ('public_building'))
+and not exists(select * from node_tags where node_id=w.id and  k not in ('name','addr:city','addr:housename','addr:housenumber','addr:street','addr:postcode','building','building:levels','building:material','source','height','nadoloni:id','source_ref') and v not in ('public_building'))
 and not exists(select * from node_tags where node_id=w.id and (k     in ('addr:street') and v in ('Регенераторна вулиця') or k in ('highway','shop') or v in ('cafe','pub','restaurant')))
 order by 1;
 
