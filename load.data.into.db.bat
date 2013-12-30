@@ -3,7 +3,7 @@ call config.bat
 cd binaries
 move ..\temp\ua.filtered.o5m ..\temp\ua.filtered.old.o5m
 call osmconvert.exe ..\temp\ua.osm.pbf -o=..\temp\ua.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street" -o=..\temp\ua.roads.0.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street =service" -o=..\temp\ua.roads.0.o5m
 call osmconvert.exe ..\temp\ua.roads.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.roads.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-nodes="place=city =town =village =hamlet" --drop-nodes="abandoned=*" -o=..\temp\ua.places.0.o5m
 call osmconvert.exe ..\temp\ua.places.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.places.o5m
