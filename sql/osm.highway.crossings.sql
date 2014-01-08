@@ -8,8 +8,12 @@ create index idx_cross_way_nodes_way_id on cross_way_nodes(way_id);
 drop table if exists intsc;
 create table intsc as
 select t1.id as id1,t2.id as id2,
-       st_difference(ST_Intersection(t1.linestring,t2.linestring), 
-                     ((select st_multi(st_collect(node_geom)) from cross_way_nodes where way_id in (t1.id,t2.id)))) as diff
+       case when not exists(select * from cross_way_nodes where way_id in (t1.id,t2.id)) 
+            then ST_Intersection(t1.linestring,t2.linestring)
+       else
+            st_difference(ST_Intersection(t1.linestring,t2.linestring), 
+                          ((select st_multi(st_collect(node_geom)) from cross_way_nodes where way_id in (t1.id,t2.id)))) 
+       end as diff
 from highways t1, highways t2
 where ST_Intersects(t1.linestring,t2.linestring) = 't' and t1.id<t2.id and t1.layer=t2.layer;  
 
