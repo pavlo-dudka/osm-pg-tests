@@ -60,5 +60,5 @@ select 'No suffix:';
 select v,string_agg(way_id::text,',' order by way_id) 
 from way_tags 
 where v similar to '%[1-9][0-9]* %' and k in ('name','name:uk-','name:ru-','addr:street') and v not like '% рок%' and v not like '% лет %' 
-and way_id in (select id from highways)
+and way_id in (select way_id from way_tags where k='highway')
 group by v order by 1;
