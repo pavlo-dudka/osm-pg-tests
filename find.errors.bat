@@ -1,3 +1,5 @@
+call config.bat
+
 md results
 start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson
 start "multipolygons" %psql_exe% -f sql\osm.multipolygons.sql -o results\multipolygons.geojson
