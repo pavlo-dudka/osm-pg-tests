@@ -1,3 +1,5 @@
+vacuum;
+
 update relations r
 --  set linestring=st_simplify(t.geom,0.0001)
   set linestring=t.geom
