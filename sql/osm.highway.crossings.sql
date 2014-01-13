@@ -24,14 +24,9 @@ drop table if exists cross_way_nodes;
 select '{';
 select '"type": "FeatureCollection",';
 select '"features": [';
-select '{"type":"Feature","properties":{"josm":"w'||id1||',w'||id2||'"},"geometry":'||
-case when GeometryType(diff)='POINT' then st_asgeojson(diff,5)
-     when GeometryType(diff)='LINESTRING' then st_asgeojson(st_pointn(diff, 1), 5)
-     when GeometryType(diff)='MULTIPOINT' then st_asgeojson(st_pointn(st_LineFromMultiPoint(diff), 1), 5)
-end||
-'},'
+select '{"type":"Feature","properties":{"josm":"w'||id1||',w'||id2||'"},"geometry":'||st_asgeojson((select (st_dumppoints(diff)).geom limit 1),5)||'},'
 from intsc
-where st_isempty(diff) = 'f' and GeometryType(diff) in ('POINT','MULTIPOINT','LINESTRING')
+where st_isempty(diff) = 'f'
 order by id1,id2;
 
 select '{"type":"Feature"}';
