@@ -59,7 +59,7 @@ function popupHtml(feature)
 			if (objects[i].indexOf('r') == 0)
 				objects[i] = '<a href="http://www.openstreetmap.org/browse/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
 		}
-		result += '<tr><th>Related objects:</th><td>' + objects.join(',') + '</td></tr>';
+		result += '<tr><th>Related objects:</th><td>' + objects.join(', ') + '</td></tr>';
 	}
 	if (typeof(feature.properties.relationtags) != "undefined")
 	{
