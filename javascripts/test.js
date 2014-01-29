@@ -99,8 +99,8 @@ function popupHtml(feature)
 	result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
-	result += '<input type="button" value="Open in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')">';
-	result += '<input type="button" value="Open in iD" onClick="openInID(\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Edit in Browser" onClick="openInBrowser(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
 }
@@ -125,10 +125,10 @@ function openInJosm(load, point)
     }
 }
 
-function openInID(point)
+function openInBrowser(point)
 {
 	var coords = point.split(',');
-	var win=window.open('http://www.openstreetmap.org/edit?editor=id#map=19/' + coords[1] + '/' + coords[0], '_blank');
+	var win=window.open('http://www.openstreetmap.org/edit?#map=19/' + coords[1] + '/' + coords[0], '_blank');
 	win.focus();
 }
 
