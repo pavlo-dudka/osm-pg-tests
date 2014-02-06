@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Street Comparison</title>
+<style>td { border: 1px solid black; }</style>
+</head>
+<body>
+
+<script>
+	var txtFileName = window.location.href.split('?')[1];
+	if (typeof(txtFileName) == "undefined")
+	{
+		document.write('<a href="' + window.location.href + '?Chernivtsi">Chernivtsi</a><br/>');
+		document.write('<a href="' + window.location.href + '?Chernivtsi.sl">Chernivtsi.sl</a><br/>');
+		document.write('<a href="' + window.location.href + '?Donetsk">Donetsk</a><br/>');
+	}
+	else
+	{
+		document.write('<h3>' + txtFileName.split('.')[0] +' Street Comparison</h3>');
+		document.write('<table>');
+
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('GET','txt/osm.' + txtFileName + '.txt', false);
+		xmlhttp.send();
+		xmlDoc=xmlhttp.responseText;
+
+		var x = xmlDoc.split('\n');
+		for (i = 0; i < x.length; i++)
+		{
+			var y = x[i].split('|');
+			document.write('<tr><td>' + y[0] + '</td>');
+
+			if (typeof(y[1]) != "undefined")
+			{
+				document.write('<td>' + y[1] + '</td>');
+			}
+			if (typeof(y[2]) != "undefined")
+			{
+				document.write('<td>');
+				var z = y[2].split(',');
+				for (j = 0; j < z.length; j++)
+				{
+					if (j>0)
+						document.write(', ');
+					document.write('<a href="http://www.openstreetmap.org/way/' + z[j] + '" target="_blank">' + z[j] + '</a>');			
+				}
+				document.write('</td>');
+			}	
+			if (typeof(y[3]) != "undefined")
+			{
+				document.write('<td>' + y[3] + '</td>');
+			}
+
+			document.write('</tr>');
+		}
+		document.write('</table>');
+	}
+</script>
+
+</body>
+</html>
