@@ -20,7 +20,7 @@ where
   or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt3.v),4)<4
   )
 and st_dwithin(w1.linestring,w2.linestring,0.01)
-and wt2.v not like '% улица'
+--and wt2.v not like '% улица'
 and (wt1.k='name' and h1.id is not null or wt1.k='addr:street' and h1.id is null))
 select t.id,v1 as oldv,string_agg(distinct v2, ';  ' order by v2) as newv
 from t
