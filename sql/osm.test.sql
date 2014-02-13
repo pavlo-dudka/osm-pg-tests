@@ -57,8 +57,8 @@ having count(*)>1 or min(r2.id) is not null and min(w2.id) is not null;
 
 select '';
 select 'No suffix:';
-select v,string_agg(way_id::text,',' order by way_id) 
+select v,string_agg(distinct way_id::text,',' order by way_id::text) 
 from way_tags 
-where v similar to '%[1-9][0-9]* %|[0-9]*-_(а|я) %' and k in ('name','name:uk-','name:ru-','addr:street') and v not like '% рок%' and v not like '% лет %' 
+where v similar to '%[1-9][0-9]*(-_(а|я))? %|% [0-9]*-(а|я) %|3-а %' and k in ('name','name:uk','name:ru-','addr:street') and v not like '% рок%' and v not like '% лет %' and v not like '% года %' and v not like '% - %' 
 and way_id in (select way_id from way_tags where k='highway')
 group by v order by 1;
