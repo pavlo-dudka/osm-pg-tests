@@ -29,5 +29,21 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
   )
 order by rtt.relation_id,rm.member_id;
 
+select '{"type":"Feature",'||
+        '"properties":{'||
+                       '"josm":"r'||rtt.relation_id||'",'||
+                       '"relationtags":"name|(null)"'||
+                     '},'||
+        '"geometry":'||
+             case when rm.member_type='N' then (select st_asgeojson(geom,5) from nodes where id=rm.member_id)
+                  when rm.member_type='W' then (select st_asgeojson(geom,5) from way_nodes wn,nodes n where wn.way_id=rm.member_id and n.id=wn.node_id and wn.sequence_id=0)
+                  when rm.member_type='R' then (select st_asgeojson(geom,5) from relation_members rm2,way_nodes wn,nodes n where rm2.relation_id=rm.member_id and wn.way_id=rm2.member_id and n.id=wn.node_id and wn.sequence_id=0 and rm2.sequence_id=0)
+             end||
+       '},'
+from relation_tags rtt
+  left join relation_tags rtn on rtn.relation_id=rtt.relation_id and rtn.k='name'
+  inner join relation_members rm on rm.relation_id=rtt.relation_id and rm.sequence_id=0
+where rtt.k='type' and rtt.v in ('street','associatedStreet') and rtn.k is null;
+
 select '{"type":"Feature"}';
 select ']}';
