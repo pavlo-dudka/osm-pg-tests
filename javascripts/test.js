@@ -53,11 +53,11 @@ function popupHtml(feature)
 		for(var i=0; i < objects.length; i++)
 		{
 			if (objects[i].indexOf('n') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/browse/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				objects[i] = '<a href="http://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
 			if (objects[i].indexOf('w') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/browse/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				objects[i] = '<a href="http://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
 			if (objects[i].indexOf('r') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/browse/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				objects[i] = '<a href="http://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
 		}
 		result += '<tr><th>Related objects:</th><td>' + objects.join(', ') + '</td></tr>';
 	}
