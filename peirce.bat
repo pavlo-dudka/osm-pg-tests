@@ -22,7 +22,7 @@ for /f %%a in ('dir /b temp\*.rss') do (call :processRss %%a)
 %psql_exe% -f peirce\import.sql
 
 start "peirce.citiesWithoutPlacePolygon" %psql_exe%  -f peirce\citiesWithoutPlacePolygon.sql -o results\peirce.citiesWithoutPlacePolygon.geojson -q
-start "peirce.duplicatedEdges" %psql_exe%  -f peirce\duplicatedEdges.sql -o results\peirce.duplicatedEdges.geojson -q
+rem start "peirce.duplicatedEdges" %psql_exe%  -f peirce\duplicatedEdges.sql -o results\peirce.duplicatedEdges.geojson -q
 start "peirce.deadEnds" %psql_exe%  -f peirce\deadEnds.sql -o results\peirce.deadEnds.geojson -q
 start "peirce.subGraphs" %psql_exe%  -f peirce\subGraphs.sql -o results\peirce.subGraphs.geojson -q
 start "peirce.tertiarySubGraphs" %psql_exe%  -f peirce\tertiarySubGraphs.sql -o results\peirce.tertiarySubGraphs.geojson -q
@@ -41,7 +41,7 @@ call :gethash temp\rss.hash.bak %~1
 set oldhash=%hash%
 set file=%~1
 set region=%file:~0,4%
-if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "C:\Program Files\PostgreSQL\9.3\data\osm\%region%.mp_addr.xml")
+if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "%pg_data_folder%\%region%.mp_addr.xml")
 goto :eof
 
 :gethash
