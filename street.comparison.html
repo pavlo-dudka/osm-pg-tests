@@ -30,10 +30,17 @@
 		{
 			var y = x[i].split('|');
 			document.write('<tr><td>' + y[0] + '</td>');
-
+                        if (typeof(y[4]) != "undefined")
+			{
+				document.write('<td>' + y[4] + '</td>');
+			}
 			if (typeof(y[1]) != "undefined")
 			{
 				document.write('<td>' + y[1] + '</td>');
+			}
+			if (typeof(y[5]) != "undefined")
+			{
+				document.write('<td>' + y[5] + '</td>');
 			}
 			if (typeof(y[2]) != "undefined")
 			{
@@ -46,7 +53,7 @@
 					document.write('<a href="http://www.openstreetmap.org/way/' + z[j] + '" target="_blank">' + z[j] + '</a>');			
 				}
 				document.write('</td>');
-			}	
+			}
 			if (typeof(y[3]) != "undefined")
 			{
 				document.write('<td>' + y[3] + '</td>');
