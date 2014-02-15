@@ -34,15 +34,16 @@ order by 1;*/
 
 select '';
 select 'Redundant space-symbols:';
-select * from node_tags where trim(v)<>v order by node_id;
-select * from way_tags where trim(v)<>v order by way_id;
+select * from node_tags where trim(v)<>v order by 1,2;
+select * from way_tags where trim(v)<>v order by 1,2;
 
 select '';
 select 'Invalid member type:';
 select * 
 from relation_tags rt
 inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type<>'W' and rm.member_role not in ('admin_centre','label','subarea')
-where rt.k='type' and rt.v in ('boundary','multipolygon');
+where rt.k='type' and rt.v in ('boundary','multipolygon')
+order by 1,2,3,4,5;
 
 select '';
 select 'Double boundaries:';
