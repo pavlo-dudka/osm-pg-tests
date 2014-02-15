@@ -5,6 +5,8 @@ start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns
 start "multipolygons" %psql_exe% -f sql\osm.multipolygons.sql -o results\multipolygons.geojson
 start "street.relations" %psql_exe% -f sql\osm.street.relations.sql -o results\street.relations.geojson
 start "street.relations.t" %psql_exe% -f sql\osm.street.relations.2.sql -o results\street.relations.geojsont
+start "street.relations.n" %psql_exe% -f sql\osm.street.relations.n.sql -o results\street.relations.n.geojson
+start "street.relations.o" %psql_exe% -f sql\osm.street.relations.o.sql -o results\street.relations.o.geojson
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont
 
 start "non-uk" test.non-uk.bat
@@ -19,7 +21,10 @@ start "routes" %psql_exe% -f sql\osm.routes.sql -o results\osm.routes.txt
 start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
 start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
-
+start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
+start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
+start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
+start "dnipropetrovsk" %psql_exe% -f sql\osm.dnipropetrovsk.sql -o results\osm.Dnipropetrovsk.txt
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL

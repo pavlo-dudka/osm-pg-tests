@@ -12,12 +12,14 @@ call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations=" ( route=bus =trolle
 call osmconvert.exe ..\temp\ua.routes.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.routes.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=restriction =street =associatedStreet" -o=..\temp\ua.relations.0.o5m
 call osmconvert.exe ..\temp\ua.relations.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.relations.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=multipolygon" -o=..\temp\ua.multipolygons.0.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=multipolygon =boundary" -o=..\temp\ua.multipolygons.0.o5m
 call osmconvert.exe ..\temp\ua.multipolygons.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.multipolygons.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="addr:street=* or addr:housename=* or addr:housenumber=* or ( building=* and name=* ) " -o=..\temp\ua.address.0.o5m
 call osmconvert.exe ..\temp\ua.address.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.address.o5m
-call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m -o=..\temp\ua.filtered.o5m
-del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="name:en=Donetsk =Chernihiv" -o=..\temp\ua.cities.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep="amenity=*" -o=..\temp\ua.poi.o5m
+call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m ..\temp\ua.cities.o5m ..\temp\ua.poi.o5m -o=..\temp\ua.filtered.o5m
+del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m ..\temp\ua.cities.o5m ..\temp\ua.poi.o5m
 del ..\temp\ua.o5m
 del ..\temp\*.0.o5m
 
@@ -30,6 +32,14 @@ del ..\temp\ua.filtered.old.o5m
 del ..\temp\ua.filtered.pbf
 del ..\temp\ua.filtered.osc
 
-%psql_exe% -f ..\sql\osm.boundaries.sql
-
 cd ..
+
+%psql_exe% -f sql\osm.boundaries.sql
+
+cd exceptions
+xcopy /Y *.exc "%pg_data_folder%"
+%psql_exe% -f osm.load.exceptions.sql
+cd ..
+
+rem Copying street names list
+copy /Y C:\Users\pdudka.ILS-UA\Dropbox\Public\test\data\*.csv "%pg_data_folder%street_names"
