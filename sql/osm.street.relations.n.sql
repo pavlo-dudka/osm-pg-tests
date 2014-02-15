@@ -19,6 +19,7 @@ inner join way_tags wt2 on wt2.way_id=w2.id and wt2.k in ('name','addr:street') 
 left join relation_members rm2 on rm2.relation_id=rtt.relation_id and rm2.member_id=w2.id
 where rtt.k='type' and rtt.v like '%treet' and rm2.member_id is null
   and not exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='highway' and wt3.v in ('service','footway','platform','bus_stop'))
+  and not exists(select * from exc_street_relations_n exc where exc.street_relation_id=rtt.relation_id and exc.way_id=w2.id)
 group by rtt.relation_id,rtn.v;
 
 select '{"type":"Feature"}';
