@@ -6,7 +6,7 @@ inner join ways w on st_contains(r.linestring,w.linestring)
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='name'
 left  join way_tags wtr on wtr.way_id=w.id and wtr.k='name:ru'
 inner join way_tags wth on wth.way_id=w.id and wth.k='highway')
-select coalesce(sd.uk||' '||sd.uk_type,'		'),t.v,string_agg(t.id::text,',' order by t.id)
+select coalesce(sd.uk||' '||sd.uk_type,''),t.v,string_agg(t.id::text,',' order by t.id)
 from streets_donetsk sd
 full join t on lower(t.v)=lower(uk)||' '||uk_type
 where (t.v is null or sd.uk is null) --and coalesce(sd.uk||' ',t.v) like '% % %'
