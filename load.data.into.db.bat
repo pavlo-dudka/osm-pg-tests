@@ -42,4 +42,4 @@ xcopy /Y *.exc "%pg_data_folder%"
 cd ..
 
 rem Copying street names list
-copy /Y C:\Users\pdudka.ILS-UA\Dropbox\Public\test\data\*.csv "%pg_data_folder%street_names"
+copy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.csv "%pg_data_folder%street_names"
