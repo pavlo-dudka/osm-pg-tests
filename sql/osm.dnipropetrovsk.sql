@@ -22,7 +22,7 @@ left  join way_tags wtr on wtr.way_id=w.id and wtr.k='name:ru'
 inner join way_tags wth on wth.way_id=w.id and wth.k='highway')
 select coalesce(sd.osm_name_uk,''),t.name_uk,string_agg(t.id::text,',' order by t.id),sd.district,coalesce(sd.osm_name_ru,''),t.name_ru
 from streets_dnipropetrovsk sd
-full join t on lower(sd.osm_name_uk)=lower(t.name_uk) and replace(lower(coalesce(sd.osm_name_ru,t.name_ru,'')),'ё','е')=replace(lower(coalesce(t.name_ru,sd.osm_name_ru,'')),'ё','е')
+full join t on lower(sd.osm_name_uk)=lower(t.name_uk) and lower(coalesce(sd.osm_name_ru,t.name_ru,''))=lower(coalesce(t.name_ru,''))
 where (t.id is null or sd.osm_name_uk is null)
 group by sd.osm_name_uk,sd.osm_name_ru,t.name_uk,t.name_ru,sd.district
 order by coalesce(sd.osm_name_uk,t.name_uk),district;
