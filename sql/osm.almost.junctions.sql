@@ -8,7 +8,7 @@ where (select count(*) from way_nodes wn2,highways h2 where wn2.node_id=n.id and
   and not exists(select * from node_tags nt where nt.node_id=n.id and nt.k='noexit' and nt.v in ('yes','true','1'))
   and not exists(select * from node_tags nt where nt.node_id=n.id and nt.k='highway' and nt.v='turning_circle')
   and not exists(select * from way_tags wt where wt.way_id=h.id and wt.k='highway' and wt.v in ('platform','track'))
-  and n.id not in (546405082,546351032,2324552116,1791825888,1616608260,1059524279,1452513637,1452513638,1822002730,1822002733,2394431921,2425800793,1467562604,2592172507)
+  and n.id not in (546405082,546351032,2324552116,1791825888,1616608260,1059524279,1452513637,1452513638,1822002730,1822002733,2394431921,2425800793,1467562604,2592172507,2101228907,2689723398)
   and h.node0<>h.node1;
 
 select '{';
