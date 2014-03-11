@@ -27,7 +27,7 @@ from a,b,way_nodes wn
 where a.way_id=b.way_id
 and wn.way_id=a.way_id and wn.sequence_id=b.max_sequence_id
 )
-select '{"type":"Feature","properties":{"josm":"r'||relation_id||',n'||node_id||'"},"geometry":'||st_asgeojson(min(n.geom),5)||'},'
+select '{"type":"Feature","properties":{"josm":"r'||c.relation_id||',n'||node_id||'"},"geometry":'||st_asgeojson(min(n.geom),5)||'},'
 from c
 inner join nodes n on n.id=node_id
 inner join regions r on st_contains(r.linestring, n.geom)
