@@ -1,6 +1,8 @@
 {
 "type": "FeatureCollection",
 "features": [
+{"type":"Feature","properties":{"josm":"r2450292,w254627631","relationtags":"name|Студентський провулок","membertags":"name|(null)"},"geometry":{"type":"Point","coordinates":[36.2573,50.00913]}},
+{"type":"Feature","properties":{"josm":"r2450292,w254627635","relationtags":"name|Студентський провулок","membertags":"name|(null)"},"geometry":{"type":"Point","coordinates":[36.25805,50.01014]}},
 {"type":"Feature","properties":{"josm":"r2460236,w39675335","relationtags":"name:ru|Руська улица","membertags":"name:ru|Руськая улица"},"geometry":{"type":"Point","coordinates":[24.03278,49.84161]}},
 
 
@@ -19,6 +21,8 @@
 
 
 
+{"type":"Feature","properties":{"josm":"r3493028,w260163146","relationtags":"name|Сільгосп Технікум вулиця","membertags":"addr:street|Вулиця Сільгосп Технікум"},"geometry":{"type":"Point","coordinates":[30.35215,50.29963]}},
+{"type":"Feature","properties":{"josm":"r3557485,w202280227","relationtags":"name|Леніна проспект","membertags":"name|(null)"},"geometry":{"type":"Point","coordinates":[37.45914,47.09249]}},
 {"type":"Feature","properties":{"josm":"r3557485,w264518890","relationtags":"name|Леніна проспект","membertags":"name|(null)"},"geometry":{"type":"Point","coordinates":[37.50111,47.10015]}},
 {"type":"Feature"}
 ]}
