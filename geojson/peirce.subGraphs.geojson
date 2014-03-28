@@ -1,7 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{"type":"Feature","properties":{"region":"UA-C","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.2425678,48.72283905]}},
 {"type":"Feature","properties":{"region":"UA-C","NumberOfRoads":"19"},"geometry":{"type":"Point","coordinates":[33.46711585,49.10379895]}},
 {"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[37.613626,47.1000475]}},
 {"type":"Feature","properties":{"region":"UA-E","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[37.6165069,47.0987332]}},
@@ -39,7 +38,10 @@
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[31.53483495,46.77023425]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[33.50472545,45.77760375]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[33.56388305,45.80358805]}},
+{"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[34.87914675,45.9237423]}},
+{"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"10"},"geometry":{"type":"Point","coordinates":[34.877878,45.9256081]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[30.61473545,46.5589217]}},
+{"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[34.68026715,45.44284715]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[34.8698461,45.00988065]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"6"},"geometry":{"type":"Point","coordinates":[29.7834115,47.15328945]}},
 {"type":"Feature","properties":{"region":"UA-S","NumberOfRoads":"7"},"geometry":{"type":"Point","coordinates":[29.96303205,47.37599045]}},
@@ -54,6 +56,7 @@
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.2512344,49.86458445]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[24.62467885,49.11434005]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.1359875,49.43621965]}},
+{"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.3060439,50.5055232]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.4055298,49.63102375]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.45931765,50.0366497]}},
 {"type":"Feature","properties":{"region":"UA-W","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[25.5035088,50.0859876]}},
