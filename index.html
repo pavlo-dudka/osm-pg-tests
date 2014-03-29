@@ -11,29 +11,45 @@
   xmlhttp.send();
   xmlDoc=xmlhttp.responseXML;
   
+  document.write('<table>');
   var x=xmlDoc.getElementsByTagName('item');
   for (i=0;i<x.length;i++)
   {
     if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) == 'peirce')
       continue;
-    document.write('<a href="');
-    document.write(x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue);
-    document.write('">');
-    document.write(x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue);
-    document.write('</a><br/>');  
+	  
+	var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
+	var title = x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue;
+	
+	document.write('<tr>');
+    document.write('<td>' + title.split('-')[0] +'</td>');
+	document.write('<td>' + title.split('-')[1].split(' ')[1] +' error(s)</td>');
+	document.write('<td>' + title.split('-')[1].split(' at ')[1] +'</td>');
+	document.write('<td><a href="' + link.replace('?','?map?') + '">map</a></td>');
+	document.write('<td><a href="' + link.replace('?','?table?') + '">table</a></td>');	
+	document.write('</tr>');
   }
-  document.write('<br/>');  
+  
+  document.write('<tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/><tr/>');
+  
   for (i=0;i<x.length;i++)
   {
     if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) != 'peirce')
       continue;
-    document.write('<a href="');
-    document.write(x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue);
-    document.write('">');
-    document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
-    document.write('</a><br/>');
+	  
+    var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
+	var title = x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue;
+	
+	document.write('<tr>');
+    document.write('<td>' + title.split('-')[0] +'</td>');
+	document.write('<td>' + title.split('-')[1].split(' ')[1] +' error(s)</td>');
+	document.write('<td>' + title.split('-')[1].split(' at ')[1] +'</td>');
+	document.write('<td><a href="' + link.replace('?','?map?') + '">map</a></td>');
+	document.write('<td><a href="' + link.replace('?','?table?') + '">table</a></td>');	
+	document.write('</tr>');
   }
-
+  document.write('</table>');
+  
   document.write('<br/><a href="' + window.location.href.replace('index.html','') + 'street.comparison.html">Street Comparison</a><br/>');
 </script>
 

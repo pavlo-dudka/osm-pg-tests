@@ -1,4 +1,22 @@
-function showGeoJson(geoJson)
+function showMap(geoJson)
+{
+	var map = L.map('map').setView([49, 31], 6);
+	map.addControl(new L.Control.Permalink());
+
+	var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+	if (geoJson.substring(0,6) == 'geojson/peirce')
+	{
+		copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
+	}
+	
+	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: copyright
+	}).addTo(map);			
+	
+	showGeoJson(map, geoJson);
+}
+function showGeoJson(map, geoJson)
 {
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('GET', geoJson, false);
@@ -103,6 +121,147 @@ function popupHtml(feature)
 	result += '<input type="button" value="Edit in Browser" onClick="openInBrowser(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
+}
+
+function showTable(geoJson)
+{
+	document.write('<table>');
+
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open('GET', geoJson, false);
+	xmlhttp.send(null);
+	var mypoints = eval('(' + xmlhttp.responseText + ')');
+	
+	for(j = 0; j < mypoints.features.length - 1; j++)
+	{
+		var feature = mypoints.features[j];
+		if (j == 0)
+		{
+			document.write('<tr>');
+			document.write('<th>#</th>');
+			document.write('<th>Josm</th>');
+			
+			if (typeof(feature.properties.name) != "undefined")
+			{
+				document.write('<th>Name</th>');
+			}
+			if (typeof(feature.properties.nameuk) != "undefined")
+			{
+				document.write('<th>Name:uk</th>');
+			}
+			if (typeof(feature.properties.relationtags) != "undefined")
+			{
+				var tvs = feature.properties.relationtags.split('&');
+				for(var i=0; i < tvs.length; i++)
+				{
+					var tv = tvs[i].split('|');
+					if (tv[0] == 'name')
+					{
+						document.write('<th>Relation Name</th>');
+					}
+				}
+			}
+			if (typeof(feature.properties.membertags) != "undefined")
+			{
+				document.write('<th>Member</th>');
+			}
+			if (typeof(feature.properties.addrhousenumber) != "undefined")
+			{
+				document.write('<th>House No.</th>');
+			}
+			if (typeof(feature.properties.region) != "undefined")
+			{
+				document.write('<th>Region</th>');
+			}
+			if (typeof(feature.properties.city) != "undefined")
+			{
+				document.write('<th>City</th>');
+			}
+			if (typeof(feature.properties.level) != "undefined")
+			{
+				document.write('<th>Level</th>');
+			}
+			if (typeof(feature.properties.NumberOfRoads) != "undefined")
+			{
+				document.write('<th>Roads count</th>');
+			}
+			
+			if (typeof(feature.properties.josm) != "undefined")
+			{
+				document.write('<th>Objects</th>');
+			}
+			document.write('</tr>');
+		}
+		
+		document.write('<tr>');		
+		document.write('<td>' + (j+1) + '</td>');
+		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')"></td>');
+		
+		if (typeof(feature.properties.name) != "undefined")
+		{
+			document.write('<td>' + feature.properties.name + '</td>');
+		}
+		if (typeof(feature.properties.nameuk) != "undefined")
+		{
+			document.write('<td>' + feature.properties.nameuk + '</td>');
+		}
+		if (typeof(feature.properties.relationtags) != "undefined")
+		{
+			var tvs = feature.properties.relationtags.split('&');
+			for(var i=0; i < tvs.length; i++)
+			{
+				var tv = tvs[i].split('|');
+				if (tv[0] == 'name')
+				{
+					document.write('<td>' + tv[1] + '</td>');
+				}
+			}
+		}
+		if (typeof(feature.properties.membertags) != "undefined")
+		{
+			var tv = feature.properties.membertags.split('|');
+			document.write('<td>' + tv[1] + '</td>');
+		}
+		if (typeof(feature.properties.addrhousenumber) != "undefined")
+		{
+			document.write('<td>' + feature.properties.addrhousenumber + '</td>');
+		}
+		if (typeof(feature.properties.region) != "undefined")
+		{
+			document.write('<td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td>');
+		}
+		if (typeof(feature.properties.city) != "undefined")
+		{
+			document.write('<td>' + feature.properties.city + '</td>');
+		}
+		if (typeof(feature.properties.level) != "undefined")
+		{
+			document.write('<td>' + feature.properties.level + '</td>');
+		}
+		if (typeof(feature.properties.NumberOfRoads) != "undefined")
+		{
+			document.write('<td>' + feature.properties.NumberOfRoads + '</td>');
+		}
+
+		if (typeof(feature.properties.josm) != "undefined")
+		{
+			var objects = feature.properties.josm.split(',');
+			for(var i=0; i < objects.length; i++)
+			{
+				if (objects[i].indexOf('n') == 0)
+					objects[i] = '<a href="http://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				if (objects[i].indexOf('w') == 0)
+					objects[i] = '<a href="http://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				if (objects[i].indexOf('r') == 0)
+					objects[i] = '<a href="http://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+			}
+			document.write('<td>' + objects.join(', ') + '</td>');
+		}
+		
+		document.write('</tr>');
+	}
+	
+	document.write('</table>');
 }
 
 function openInJosm(load, point)

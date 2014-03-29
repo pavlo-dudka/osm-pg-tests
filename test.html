@@ -19,29 +19,29 @@
 <body>
     <div id='map'/>
     <script type="text/javascript">
-        var geojsonFileName = window.location.href.split('#')[0].split('?')[1];
-        if (typeof(geojsonFileName) == "undefined")
+        var mode = window.location.href.split('#')[0].split('?')[1];
+		var geojsonFileName = window.location.href.split('#')[0].split('?')[2];
+        if (typeof(mode) == 'undefined')
         {
             window.location.replace(window.location.href.replace('test.html',''));
         }
         else
         {
-            var map = L.map('map').setView([49, 31], 6);
-            map.addControl(new L.Control.Permalink());
-    
-            var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-            if (geojsonFileName.substring(0,6) == "peirce")
-            {
-                copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
-            }
-
-            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 19,
-                attribution: copyright
-            }).addTo(map);
-        
-            geojsonFileName = 'geojson/' + geojsonFileName + '.geojson';
-            showGeoJson(geojsonFileName);
+			if (typeof(geojsonFileName) == 'undefined')
+			{
+				geojsonFileName = mode;
+			}
+			
+			geojsonFileName = 'geojson/' + geojsonFileName + '.geojson';
+			
+			if (typeof(mode) != 'undefined' && mode == 'table')
+			{			
+				showTable(geojsonFileName);
+			}
+			else
+			{
+				showMap(geojsonFileName);
+			}
         }
     </script>    
 </body>
