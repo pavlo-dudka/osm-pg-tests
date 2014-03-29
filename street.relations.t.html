@@ -19,15 +19,7 @@
 <body>
 	<div id='map'/>
 	<script type="text/javascript">
-		var map = L.map('map').setView([49, 31], 6);
-		map.addControl(new L.Control.Permalink());
-
-		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 19,
-			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
-        
-	        showGeoJson('geojson/street.relations.geojsont');
+	        showMap('geojson/street.relations.geojsont');
 	</script>	
 </body>
 </html>

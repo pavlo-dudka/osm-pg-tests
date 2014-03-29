@@ -15,14 +15,14 @@
   var x=xmlDoc.getElementsByTagName('item');
   for (i=0;i<x.length;i++)
   {
-    if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) == 'peirce')
-      continue;
+	if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) == 'peirce')
+		continue;
 	  
 	var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
 	var title = x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue;
 	
 	document.write('<tr>');
-    document.write('<td>' + title.split('-')[0] +'</td>');
+	document.write('<td>' + title.split('-')[0] +'</td>');
 	document.write('<td>' + title.split('-')[1].split(' ')[1] +' error(s)</td>');
 	document.write('<td>' + title.split('-')[1].split(' at ')[1] +'</td>');
 	document.write('<td><a href="' + link.replace('?','?map?') + '">map</a></td>');
@@ -34,14 +34,14 @@
   
   for (i=0;i<x.length;i++)
   {
-    if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) != 'peirce')
-      continue;
+	if (x[i].getElementsByTagName('guid')[0].childNodes[0].nodeValue.substring(0,6) != 'peirce')
+		continue;
 	  
-    var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
+	var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
 	var title = x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue;
 	
 	document.write('<tr>');
-    document.write('<td>' + title.split('-')[0] +'</td>');
+	document.write('<td>' + title.split('-')[0] +'</td>');
 	document.write('<td>' + title.split('-')[1].split(' ')[1] +' error(s)</td>');
 	document.write('<td>' + title.split('-')[1].split(' at ')[1] +'</td>');
 	document.write('<td><a href="' + link.replace('?','?map?') + '">map</a></td>');
