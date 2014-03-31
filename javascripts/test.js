@@ -151,15 +151,7 @@ function showTable(geoJson)
 			}
 			if (typeof(feature.properties.relationtags) != "undefined")
 			{
-				var tvs = feature.properties.relationtags.split('&');
-				for(var i=0; i < tvs.length; i++)
-				{
-					var tv = tvs[i].split('|');
-					if (tv[0] == 'name')
-					{
-						document.write('<th>Relation Name</th>');
-					}
-				}
+				document.write('<th>Relation</th>');
 			}
 			if (typeof(feature.properties.membertags) != "undefined")
 			{
@@ -211,10 +203,7 @@ function showTable(geoJson)
 			for(var i=0; i < tvs.length; i++)
 			{
 				var tv = tvs[i].split('|');
-				if (tv[0] == 'name')
-				{
-					document.write('<td>' + tv[1] + '</td>');
-				}
+				document.write('<td>' + tv[1] + '</td>');
 			}
 		}
 		if (typeof(feature.properties.membertags) != "undefined")
