@@ -58,6 +58,6 @@ set peirce=%file:~0,6%
 if "%peirce%" equ "peirce" echo ^<author^>Ch.S. Peirce^</author^> >> test.rss
 if "%peirce%" neq "peirce" echo ^<author^>dudka^</author^> >> test.rss
 echo ^<title^>%file% - %~2 error(s) found at %~3^</title^> >> test.rss
-echo ^<description^>%~2 error(s) found^</description^> >> test.rss
+echo ^<description^>^<![CDATA[%~2 error(s) found: ^<a href="%publish_url%/test.html?map?%file%"^>map^</a^> ^<a href="%publish_url%/test.html?table?%file%"^>table^</a^>]]^>^</description^> >> test.rss
 echo ^</item^> >> test.rss
 goto :eof
