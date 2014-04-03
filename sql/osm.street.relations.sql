@@ -27,7 +27,7 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
      rm.member_type='R' and (rm.member_role='street' and (coalesce(rt.k,'name')=rtn.k and coalesce(rt.v,'-')<>rtn.v) or rtn.k='name' and rt.k='addr:street' and rt.v<>rtn.v) or
      rm.member_type='W' and (rm.member_role='street' and (coalesce(wt.k,'name')=rtn.k and coalesce(wt.v,'-')<>rtn.v) or rm.member_role in ('address','house') and rtn.k='name' and wt.k='addr:street' and wt.v<>rtn.v) and not exists(select * from way_tags wt2 where wt2.way_id=wt.way_id and wt2.k in ('addr2:street','addr:street2'))
   )
-order by rtt.relation_id,rm.member_id;
+order by 1;
 
 select '{"type":"Feature",'||
         '"properties":{'||
@@ -44,7 +44,8 @@ from relation_tags rtt
   left join relation_tags rtn on rtn.relation_id=rtt.relation_id and rtn.k='name'
   inner join relation_members rm on rm.relation_id=rtt.relation_id and rm.sequence_id=0
 where rtt.k='type' and rtt.v in ('street','associatedStreet') and rtn.k is null
-  and rtt.relation_id not in (3297198,2651279,2651280);
+  and rtt.relation_id not in (3297198,2651279,2651280)
+order by 1;
 
 select '{"type":"Feature"}';
 select ']}';
