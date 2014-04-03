@@ -19,10 +19,10 @@ inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_ro
 left join relation_tags rtn on rtn.relation_id=rt.relation_id and rtn.k='name'
 left join node_tags nt on nt.node_id=rm.member_id and rm.member_type='N' and nt.k='addr:housenumber'
 left join way_tags wt on wt.way_id=rm.member_id and rm.member_type='W' and wt.k='addr:housenumber'
-where rt.k='type' and rt.v like '%treet' 
+where rt.k='type' and rt.v in ('street','associatedStreet')
 group by rm.member_id,rm.member_type,nt.k,nt.v,wt.k,wt.v
 having count(*)>1
-order by rm.member_type,rm.member_id;
+order by 1;
 
 select '{"type":"Feature"}';
 select ']}';
