@@ -60,6 +60,6 @@ select '';
 select 'No suffix:';
 select v,string_agg(distinct way_id::text,',' order by way_id::text) 
 from way_tags 
-where v similar to '%[1-9][0-9]*(-_(а|я))? %|% [0-9]*-(а|я) %|3-а %' and k in ('name','name:uk','name:ru-','addr:street') and v not like '% рок%' and v not like '% лет %' and v not like '% года %' and v not like '% - %' 
+where v similar to '%[1-9][0-9]*((-_)?[аяй])? %|% [0-9]*-(а|я) %|3-а %' and k in ('name','name:uk','name:ru','addr:street') and v not like '% рок%' and v not like '% лет %' and v not like '% года %' and v not like '% - %' 
 and way_id in (select way_id from way_tags where k='highway')
 group by v order by 1;
