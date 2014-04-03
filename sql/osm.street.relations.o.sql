@@ -5,8 +5,9 @@ select '"features": [';
 with t as (
   select rt.relation_id,(st_dumppoints(w.linestring)).geom geom
   from relation_tags rt
-    inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W' and rm.member_role='street'
-    inner join ways w on w.id=rm.member_id),
+    inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W' --and rm.member_role='street'
+    inner join ways w on w.id=rm.member_id
+  where rt.k='type' and rt.v='associatedStreet'),
 t2 as (
   select relation_id,st_collect(geom) geom
   from t
