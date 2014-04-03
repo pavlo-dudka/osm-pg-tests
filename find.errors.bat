@@ -20,11 +20,14 @@ start "roads" %psql_exe% -f sql\osm.roads.sql -o results\osm.roads.txt
 start "routes" %psql_exe% -f sql\osm.routes.sql -o results\osm.routes.txt
 start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
+
 start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
-start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
+start "chernihiv" %psql_exe% -f sql\osm.chernihiv.sql -o results\osm.Chernihiv.txt
 start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
 start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
 start "dnipropetrovsk" %psql_exe% -f sql\osm.dnipropetrovsk.sql -o results\osm.Dnipropetrovsk.txt
+start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
+start "ivano-frankivsk" %psql_exe% -f sql\osm.ivano_frankivsk.sql -o results\osm.Ivano-Frankivsk.txt
 start "kamianets-podilskyi" %psql_exe% -f sql\osm.kamianets_podilskyi.sql -o results\osm.Kamianets-Podilskyi.txt
 start "kirovohrad" %psql_exe% -f sql\osm.kirovohrad.sql -o results\osm.Kirovohrad.txt
 start "kyiv" %psql_exe% -f sql\osm.kyiv.sql -o results\osm.Kyiv.txt
