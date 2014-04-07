@@ -31,6 +31,8 @@ select 'uk' as lang,'автомагістраль' as type_f,'автомагис
 select 'ru' as lang,'автомагистраль' as type_f,'автомагістраль' as trans union
 select 'uk' as lang,'завулок' as type_f,'заулок' as trans union
 select 'ru' as lang,'заулок' as type_f,'завулок' as trans union
+select 'uk' as lang,'кільце' as type_f,'кольцо' as trans union
+select 'ru' as lang,'кольцо' as type_f,'кільце' as trans union
 select null as lang,'проспект' as type_f,'проспект' as trans union
 select null as lang,'бульвар' as type_f,'бульвар' as trans union
 select null as lang,'тупик' as type_f,'тупик' as trans union
