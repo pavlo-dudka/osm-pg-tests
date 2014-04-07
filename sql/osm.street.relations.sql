@@ -6,7 +6,8 @@ select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||rtt.relation_id||','||lower(rm.member_type)||rm.member_id||'",'||
                        '"relationtags":"'||rtn.k||'|'||replace(rtn.v,'"','\"')||'",'||
-                       '"membertags":"'||coalesce(nt.k,wt.k,rt.k,'name')||'|'||replace(coalesce(nt.v,wt.v,rt.v,'(null)'),'"','\"')||'"'||
+                       '"membertags":"'||coalesce(nt.k,wt.k,rt.k,'name')||'|'||replace(coalesce(nt.v,wt.v,rt.v,'(null)'),'"','\"')||'",'||
+                       '"memberrole":"'||(case when rm.member_role='' then '(null)' else rm.member_role end)||'"'
                      '},'||
         '"geometry":'||
              case when rm.member_type='N' then (select st_asgeojson(geom,5) from nodes where id=rm.member_id)
@@ -25,7 +26,8 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
   and (
      rm.member_type='N' and (rm.member_role='street' or rtn.k='name' and nt.k='addr:street' and nt.v<>rtn.v) or
      rm.member_type='R' and (rm.member_role='street' and (coalesce(rt.k,'name')=rtn.k and coalesce(rt.v,'-')<>rtn.v) or rtn.k='name' and rt.k='addr:street' and rt.v<>rtn.v) or
-     rm.member_type='W' and (rm.member_role='street' and (coalesce(wt.k,'name')=rtn.k and coalesce(wt.v,'-')<>rtn.v) or rm.member_role in ('address','house') and rtn.k='name' and wt.k='addr:street' and wt.v<>rtn.v) and not exists(select * from way_tags wt2 where wt2.way_id=wt.way_id and wt2.k in ('addr2:street','addr:street2'))
+     rm.member_type='W' and (rm.member_role='street' and (coalesce(wt.k,'name')=rtn.k and coalesce(wt.v,'-')<>rtn.v) or rm.member_role in ('address','house') and rtn.k='name' and wt.k='addr:street' and wt.v<>rtn.v) and not exists(select * from way_tags wt2 where wt2.way_id=wt.way_id and wt2.k in ('addr2:street','addr:street2')) or
+     rtn.k='name' and rm.member_role not in ('street','house','address','associated')
   )
 order by 1;
 
