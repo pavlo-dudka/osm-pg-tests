@@ -93,6 +93,10 @@ function popupHtml(feature)
 		var tv = feature.properties.membertags.split('|');
 		result += '<tr><th>Member ' + tv[0] +':</th><td>' + tv[1] + '</td></tr>';
 	}
+	if (typeof(feature.properties.memberrole) != "undefined")
+	{
+		result += '<tr><th>Member Role:</th><td>' + feature.properties.memberrole + '</td></tr>';
+	}
 	if (typeof(feature.properties.addrhousenumber) != "undefined")
 	{
 		result += '<tr><th>House number:</th><td>' + feature.properties.addrhousenumber + '</td></tr>';
@@ -157,6 +161,10 @@ function showTable(geoJson)
 			{
 				document.write('<th>Member</th>');
 			}
+			if (typeof(feature.properties.memberrole) != "undefined")
+			{
+				document.write('<th>Member Role</th>');
+			}
 			if (typeof(feature.properties.addrhousenumber) != "undefined")
 			{
 				document.write('<th>House No.</th>');
@@ -210,6 +218,10 @@ function showTable(geoJson)
 		{
 			var tv = feature.properties.membertags.split('|');
 			document.write('<td>' + tv[1] + '</td>');
+		}
+		if (typeof(feature.properties.memberrole) != "undefined")
+		{
+			document.write('<td>' + feature.properties.memberrole + '</td>');
 		}
 		if (typeof(feature.properties.addrhousenumber) != "undefined")
 		{
