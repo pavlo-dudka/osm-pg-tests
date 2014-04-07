@@ -29,7 +29,7 @@ where rm2.member_id is null
   and not exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='highway' and wt3.v in ('service','footway','platform','bus_stop'))
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_1=t2.relation_id and exc.street_relation_id_2=rm.relation_id and rm.member_id=w2.id)
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_2=t2.relation_id and exc.street_relation_id_1=rm.relation_id and rm.member_id=w2.id)
-  and (wt2.k<>'addr:street' or exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='addr:housenumber')) 
+  and (wt2.k<>'addr:street' or exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k in ('addr:housenumber','addr:interpolation')))
   --and (wt2.k<>'addr:street' or exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='building'))
 group by t2.relation_id,t2.geom,rtn.v
 order by 1;
