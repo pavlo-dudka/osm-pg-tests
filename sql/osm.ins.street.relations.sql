@@ -2,9 +2,9 @@ insert into relations(id,version,user_id,tstamp,changeset_id)
 select -min(w.id),1,440812,current_timestamp,0
 from 
 relations r 
-inner join relation_tags rt on r.id=rt.relation_id and rt.k='name' and rt.v='Кривий Ріг'
+inner join relation_tags rt on r.id=rt.relation_id and rt.k='name' and rt.v similar to 'Кривий Ріг'
 inner join highways w on _st_intersects(r.linestring,w.linestring)
-inner join way_tags wt on wt.way_id=w.id and wt.k='name'
+inner join way_tags wt on wt.way_id=w.id and wt.k in ('name','name:uk','name:ru')
 --left  join way_tags wtu on wtu.way_id=w.id and wtu.k='name:uk'
 --left  join way_tags wtr on wtr.way_id=w.id and wtr.k='name:ru'
 where not exists(select * from relation_tags rt,relation_members rm where rt.relation_id=rm.relation_id and rt.k='type' and rt.v='associatedStreet' and rm.member_id=w.id and rm.member_type='W')
