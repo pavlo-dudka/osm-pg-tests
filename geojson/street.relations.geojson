@@ -1,15 +1,11 @@
 {
 "type": "FeatureCollection",
 "features": [
-{"type":"Feature","properties":{"josm":"r1528656,w270332624","relationtags":"name|Жмеринська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.37441,50.43732]}},
 {"type":"Feature","properties":{"josm":"r1877611,w5155962","relationtags":"name|Маршала Тимошенка вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.49438,50.51262]}},
-{"type":"Feature","properties":{"josm":"r2101411,w243346626","relationtags":"name|Княгині Ольги вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[24.32041,50.86288]}},
 {"type":"Feature","properties":{"josm":"r2166317,w120426178","relationtags":"name:ru|Князей Острозких улица","membertags":"name:ru|Князей Острожских улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.3715,50.75018]}},
 {"type":"Feature","properties":{"josm":"r2166317,w81204329","relationtags":"name:ru|Князей Острозких улица","membertags":"name:ru|Князей Острожских улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.36872,50.74945]}},
 {"type":"Feature","properties":{"josm":"r2166317,w81943956","relationtags":"name:ru|Князей Острозких улица","membertags":"name:ru|Князей Острожских улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.37152,50.75007]}},
 {"type":"Feature","properties":{"josm":"r2657078,w153314103","relationtags":"name|Шкільна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.45764,49.3224]}},
-{"type":"Feature","properties":{"josm":"r278814,w239495105","relationtags":"name:ru|Озёрная улица","membertags":"name:ru|Озерная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.49859,50.52637]}},
-{"type":"Feature","properties":{"josm":"r278814,w5169623","relationtags":"name:ru|Озёрная улица","membertags":"name:ru|Озерная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.49807,50.52608]}},
 {"type":"Feature","properties":{"josm":"r3190198,w156307207","relationtags":"name|Труша вулиця","membertags":"name|Івана Труша вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71001,48.92198]}},
 {"type":"Feature","properties":{"josm":"r3190198,w156438979","relationtags":"name|Труша вулиця","membertags":"addr:street|Івана Труша вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.71033,48.92166]}},
 {"type":"Feature","properties":{"josm":"r3190198,w156438984","relationtags":"name|Труша вулиця","membertags":"addr:street|Івана Труша вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.71008,48.92174]}},
@@ -59,7 +55,6 @@
 {"type":"Feature","properties":{"josm":"r3613586,w76157020","relationtags":"name|Карла Маркса вулиця","membertags":"name|Карла Маркса улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.08866,44.95767]}},
 {"type":"Feature","properties":{"josm":"r3613632,w94849906","relationtags":"name|Олександра Невського вулиця","membertags":"name|Александра Невского улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.09647,44.9546]}},
 {"type":"Feature","properties":{"josm":"r3615517,w270342281","relationtags":"name|Страчених Націоналістів вулиця","membertags":"addr:street|Страчених вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.71108,48.92219]}},
-{"type":"Feature","properties":{"josm":"r3620570,w270882341","relationtags":"name|Новотерсянське","membertags":"name|(null)","memberrole":"outer"},"geometry":{"type":"Point","coordinates":[35.97876,48.07412]}},
 {"type":"Feature","properties":{"josm":"r3627292,w97532904","relationtags":"name|Фрунзе улица","membertags":"name|улица Фрунзе","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.29623,45.49704]}},
 {"type":"Feature","properties":{"josm":"r3630929,w91554107","relationtags":"name|Планеристів провулок","membertags":"addr:street|Планеристов переулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.06579,44.96291]}},
 {"type":"Feature","properties":{"josm":"r3630929,w91554116","relationtags":"name|Планеристів провулок","membertags":"addr:street|Планеристов переулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.06529,44.96283]}},
