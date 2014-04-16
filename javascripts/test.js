@@ -25,7 +25,7 @@ function showGeoJson(map, geoJson)
 	
 	var geoJsonLayer = L.geoJson(mypoints, {
 		onEachFeature: function (feature, layer) {
-		layer.bindPopup(popupHtml(feature)).openPopup();
+		layer.bindPopup(popupHtml(feature, mypoints.errorDescr)).openPopup();
 		}
 	});
 
@@ -35,36 +35,14 @@ function showGeoJson(map, geoJson)
 	map.addLayer(markers);
 }
 
-function errorTypeClick(cb)
+function popupHtml(feature, errorDescr)
 {
-	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.open('GET', cb.name, false);
-	xmlhttp.send(null);
-	var mypoints = eval('(' + xmlhttp.responseText + ')');
-	
-	var geoJsonLayer = L.geoJson(mypoints, {
-		onEachFeature: function (feature, layer) {
-		layer.bindPopup(popupHtml(feature)).openPopup();
-		}
-	});
-
-	//map.addLayer(geoJsonLayer);
-	var markers = L.markerClusterGroup();
-	markers.addLayer(geoJsonLayer);
-	map.addLayer(markers);
-}
-
-function popupHtml(feature)
-{
-	var result = '<table>';
-	if (typeof(feature.properties.name) != "undefined")
+	var result = '';
+	if (typeof(errorDescr) != "undefined")
 	{
-		result += '<tr><th>Name:</th><td>' + feature.properties.name + '</td></tr>';
+		result += '<center><b><font color="FF0000">' + errorDescr + '</font></b></center>';
 	}
-	if (typeof(feature.properties.nameuk) != "undefined")
-	{
-		result += '<tr><th>Name(ukr):</th><td>' + feature.properties.nameuk + '</td></tr>';
-	}
+	result += '<table>';
 	if (typeof(feature.properties.josm) != "undefined")
 	{
 		var objects = feature.properties.josm.split(',');
@@ -78,6 +56,14 @@ function popupHtml(feature)
 				objects[i] = '<a href="http://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
 		}
 		result += '<tr><th>Related objects:</th><td>' + objects.join(', ') + '</td></tr>';
+	}
+	if (typeof(feature.properties.name) != "undefined")
+	{
+		result += '<tr><th>Name:</th><td>' + feature.properties.name + '</td></tr>';
+	}
+	if (typeof(feature.properties.nameuk) != "undefined")
+	{
+		result += '<tr><th>Name(ukr):</th><td>' + feature.properties.nameuk + '</td></tr>';
 	}
 	if (typeof(feature.properties.relationtags) != "undefined")
 	{
@@ -117,7 +103,6 @@ function popupHtml(feature)
 	{
 		result += '<tr><th>Roads count:</th><td>' + feature.properties.NumberOfRoads + '</td></tr>';
 	}
-
 	result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
