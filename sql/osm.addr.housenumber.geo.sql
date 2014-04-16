@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Invalid housenumber tagging",';
 select '"features": [';
 --select w.id,wt.v
 select '{"type":"Feature","properties":{"josm":"w'||w.id||'","'||replace(wt.k,':','')||'":"'||wt.v||'"},"geometry":'||st_asgeojson(st_PointN(w.linestring,1),5)||'},'

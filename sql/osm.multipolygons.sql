@@ -1,5 +1,7 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Multipolygon end-node",';
+
 select '"features": [';
 with a as (
 select rm.relation_id,rm.member_id as way_id

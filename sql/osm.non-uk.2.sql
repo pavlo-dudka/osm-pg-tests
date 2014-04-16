@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Incorrect <b>name</b>-tag value",';
 select '"features": [';
 select '{"type":"Feature","id":"'||w.id||'","properties":{"josm":"w'||w.id||'","name":"'||coalesce(wtn.v,'')||'","nameuk":"'||coalesce(wtu.v,'')||'"},"geometry":'||st_asgeojson(st_centroid(w.linestring),5)||'},'
 from ways w left join regions r on ST_Intersects(r.linestring,w.linestring),

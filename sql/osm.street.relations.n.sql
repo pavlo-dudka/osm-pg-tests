@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Objects not in relation",';
 select '"features": [';
 
 with t as (
@@ -22,7 +23,7 @@ select '{"type":"Feature",'||
        '},'
 from t2
 inner join relation_tags rtn on rtn.relation_id=t2.relation_id and rtn.k like 'name%'
-inner join ways w2 on _st_dwithin(t2.geom,w2.linestring,0.003)
+inner join ways w2 on st_dwithin(t2.geom::geography,w2.linestring::geography,500)
 inner join way_tags wt2 on wt2.way_id=w2.id and wt2.k in ('name','addr:street') and wt2.v=rtn.v
 left join relation_members rm2 on rm2.relation_id=t2.relation_id and rm2.member_id=w2.id
 where rm2.member_id is null

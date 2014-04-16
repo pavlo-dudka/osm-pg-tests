@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Relation objects outside the city",';
 select '"features": [';
 
 with t as (

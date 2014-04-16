@@ -23,6 +23,7 @@ drop table if exists cross_way_nodes;
 --create GeoJson
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Intersection without common node",';
 select '"features": [';
 select '{"type":"Feature","properties":{"josm":"w'||id1||',w'||id2||'"},"geometry":'||st_asgeojson((select (st_dumppoints(diff)).geom limit 1),5)||'},'
 from intsc

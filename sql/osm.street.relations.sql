@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Inconsistent street name on relation and object",';
 select '"features": [';
 
 select '{"type":"Feature",'||

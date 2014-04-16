@@ -13,8 +13,7 @@ where (select count(*) from way_nodes wn2,highways h2 where wn2.node_id=n.id and
 
 select '{';
 select '"type": "FeatureCollection",';
---select '"changeset": "'||max(changeset_id)||'",' from nodes;
---select '"tstamp": "'||max(tstamp)||'",' from nodes;
+select '"errorDescr": "End-node is located close to another way",';
 select '"features": [';
 select '{"type":"Feature","id":"'||b.id||'","properties":{"josm":"n'||b.id||','||string_agg('w'||t.id,',' order by t.id)||'"},"geometry":'||st_asgeojson(b.geom,5)||'},'
 from end_nodes b

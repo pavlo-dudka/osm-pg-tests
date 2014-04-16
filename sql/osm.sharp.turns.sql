@@ -1,5 +1,6 @@
 select '{';
 select '"type": "FeatureCollection",';
+select '"errorDescr": "Sharp turn",';
 select '"features": [';
 
 select '{"type":"Feature","properties":{"josm":"w'||wn1.way_id||',n'||wn2.node_id||'"},"geometry":'||st_asgeojson(n2.geom,5)||'},'
