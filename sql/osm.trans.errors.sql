@@ -31,12 +31,15 @@ select 'uk' as lang,'автомагістраль' as type_f,'автомагис
 select 'ru' as lang,'автомагистраль' as type_f,'автомагістраль' as trans union
 select 'uk' as lang,'завулок' as type_f,'заулок' as trans union
 select 'ru' as lang,'заулок' as type_f,'завулок' as trans union
+select 'uk' as lang,'траса' as type_f,'трасса' as trans union
+select 'ru' as lang,'трасса' as type_f,'траса' as trans union
 select 'uk' as lang,'кільце' as type_f,'кольцо' as trans union
 select 'ru' as lang,'кольцо' as type_f,'кільце' as trans union
 select null as lang,'проспект' as type_f,'проспект' as trans union
 select null as lang,'бульвар' as type_f,'бульвар' as trans union
 select null as lang,'тупик' as type_f,'тупик' as trans union
-select null as lang,'дорога' as type_f,'дорога' as trans;
+select null as lang,'дорога' as type_f,'дорога' as trans union
+select null as lang,'тоннель' as type_f,'тоннель' as trans;
 
 create table streets as
 select substr(name_uk,1,length(name_uk)-length(wtuk.type_f)-1) as uk,
