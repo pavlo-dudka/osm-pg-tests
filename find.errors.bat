@@ -4,7 +4,7 @@ md results
 start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson
 start "multipolygons" %psql_exe% -f sql\osm.multipolygons.sql -o results\multipolygons.geojson
 start "street.relations" %psql_exe% -f sql\osm.street.relations.sql -o results\street.relations.geojson
-start "street.relations.t" %psql_exe% -f sql\osm.street.relations.2.sql -o results\street.relations.geojsont
+start "street.relations.m" %psql_exe% -f sql\osm.street.relations.m.sql -o results\street.relations.m.geojson
 start "street.relations.n" %psql_exe% -f sql\osm.street.relations.n.sql -o results\street.relations.n.geojson
 start "street.relations.o" %psql_exe% -f sql\osm.street.relations.o.sql -o results\street.relations.o.geojson
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont
