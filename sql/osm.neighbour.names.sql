@@ -31,22 +31,23 @@ select 'Buildings:';
 select r.name,oldv,newv,string_agg(a.id::text,',' order by a.id) 
 from addr_errors a
   inner join ways w on w.id=a.id
-  left join regions r on st_intersects(r.linestring,w.linestring)
+  left join regions r on st_contains(r.linestring,w.linestring)
 group by 1,2,3
 order by 1,2,3;
 
 
 select '';
 select 'Highways:';
-select distinct h1.id,h2.id,wt1.k,wt1.v name1,wt2.v name2
+select distinct r.name,h1.id,h2.id,wt1.k,wt1.v name1,wt2.v name2
 from highways h1
 inner join way_tags wt1 on wt1.way_id=h1.id and wt1.k in ('name','name:uk','name:ru')
 inner join way_tags wt1m on wt1m.way_id=h1.id and wt1m.k in ('name','name:uk','name:ru')
+left join regions r on st_contains(r.linestring,h1.linestring)
 ,
 highways h2
 inner join way_tags wt2 on wt2.way_id=h2.id and wt2.k in ('name','name:uk','name:ru')
 inner join way_tags wt2m on wt2m.way_id=h2.id and wt2m.k in ('name','name:uk','name:ru')
-where st_dwithin(h1.linestring,h2.linestring,0.0003)
+where st_dwithin(h1.linestring,h2.linestring,0.001)
   and wt1m.v=wt2m.v
   and h1.id<h2.id and wt1.v<>wt2.v and wt1.k=wt2.k
-order by 1,2;
+order by 1,2,3;
