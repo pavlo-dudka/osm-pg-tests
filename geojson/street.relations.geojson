@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r2450320,w274840385","relationtags":"name|Харківська набережна","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.24434,49.9924]}},
 {"type":"Feature","properties":{"josm":"r3627267,w106448020","relationtags":"name|Огородня вулиця","membertags":"name|Городня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.47,45.37343]}},
 {"type":"Feature","properties":{"josm":"r3657530,w274796767","relationtags":"name|Сигнівка вулиця","membertags":"addr:street|Вука Караджича вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.96568,49.82637]}},
 {"type":"Feature","properties":{"josm":"r3657530,w274796768","relationtags":"name|Сигнівка вулиця","membertags":"addr:street|Вука Караджича вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.9672,49.82675]}},
