@@ -156,6 +156,8 @@ function showTable(geoJson)
 			if (typeof(feature.properties.relationtags) != "undefined")
 			{
 				document.write('<th>Relation</th>');
+				if (feature.properties.relationtags.contains('|'))
+					document.write('<th>Relation</th>');
 			}
 			if (typeof(feature.properties.membertags) != "undefined")
 			{
@@ -208,7 +210,7 @@ function showTable(geoJson)
 		if (typeof(feature.properties.relationtags) != "undefined")
 		{
 			var tvs = feature.properties.relationtags.split('&');
-			for(var i=0; i < tvs.length; i++)
+			for(var i=0; i < Math.max(tvs.length,2); i++)
 			{
 				var tv = tvs[i].split('|');
 				document.write('<td>' + tv[1] + '</td>');
