@@ -195,7 +195,7 @@ function showTable(geoJson)
 		if (typeof(feature.properties.relationtags) != "undefined")
 		{
 			var tvs = feature.properties.relationtags.split('&');
-			for(var i=0; i < Math.max(tvs.length,2); i++)
+			for(var i=0; i < Math.min(tvs.length,2); i++)
 			{
 				var tv = tvs[i].split('|');
 				document.write('<td>' + tv[1] + '</td>');
