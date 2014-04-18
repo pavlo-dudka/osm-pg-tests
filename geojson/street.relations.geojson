@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r3457445,w202781123","relationtags":"name|Живова вулиця","membertags":"addr:street|Анатолія Живова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.59404,49.5457]}},
 {"type":"Feature","properties":{"josm":"r3627267,w106448020","relationtags":"name|Огородня вулиця","membertags":"name|Городня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.47,45.37343]}},
 
 
