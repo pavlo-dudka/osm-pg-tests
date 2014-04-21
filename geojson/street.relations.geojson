@@ -2,19 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r2767701,w206000824","relationtags":"name|Менделєєва вулиця","membertags":"name|Менделеєва вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.72291,48.9222]}},
-{"type":"Feature","properties":{"josm":"r3457445,w202781123","relationtags":"name|Живова вулиця","membertags":"addr:street|Анатолія Живова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.59404,49.5457]}},
-{"type":"Feature","properties":{"josm":"r3457972,w275580523","relationtags":"name|Тиха вулиця","membertags":"addr:street|Тиха вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59326,49.54123]}},
-{"type":"Feature","properties":{"josm":"r3457972,w98124124","relationtags":"name|Тиха вулиця","membertags":"addr:street|Тиха вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59343,49.54131]}},
-{"type":"Feature","properties":{"josm":"r3457972,w98124190","relationtags":"name|Тиха вулиця","membertags":"addr:street|Тиха вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59394,49.54125]}},
-{"type":"Feature","properties":{"josm":"r3457972,w98124197","relationtags":"name|Тиха вулиця","membertags":"addr:street|Тиха вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59342,49.54157]}},
-{"type":"Feature","properties":{"josm":"r3457980,w230307683","relationtags":"name|Білогірська вулиця","membertags":"addr:street|Білогірська вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59281,49.53914]}},
-{"type":"Feature","properties":{"josm":"r3457981,w98124136","relationtags":"name|Юрчака вулиця","membertags":"addr:street|Юрчака вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59493,49.54092]}},
-{"type":"Feature","properties":{"josm":"r3457981,w98124139","relationtags":"name|Юрчака вулиця","membertags":"addr:street|Юрчака вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59482,49.54076]}},
-{"type":"Feature","properties":{"josm":"r3457981,w98124166","relationtags":"name|Юрчака вулиця","membertags":"addr:street|Юрчака вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.59425,49.54006]}},
-{"type":"Feature","properties":{"josm":"r3622466,w88299307","relationtags":"name:uk|Матейка вулиця","membertags":"name:uk|Матейки вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.70156,48.91408]}},
-{"type":"Feature","properties":{"josm":"r3622466,w88299307","relationtags":"name|Матейка вулиця","membertags":"name|Матейки вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.70156,48.91408]}},
-{"type":"Feature","properties":{"josm":"r3627267,w106448020","relationtags":"name|Огородня вулиця","membertags":"name|Городня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.47,45.37343]}},
+{"type":"Feature","properties":{"josm":"r3666679,w236258148","relationtags":"name:ru|600-летия Голыня","membertags":"name:ru|600-летия Голыня улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.23837,49.00499]}},
+{"type":"Feature","properties":{"josm":"r3666679,w236258148","relationtags":"name:uk|600-річчя Голиня","membertags":"name:uk|600-річчя Голиня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.23837,49.00499]}},
+{"type":"Feature","properties":{"josm":"r3666679,w236258148","relationtags":"name|600-річчя Голиня","membertags":"name|600-річчя Голиня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.23837,49.00499]}},
+{"type":"Feature","properties":{"josm":"r3671236,w276016523","relationtags":"name:ru|Ивана-Франко улица","membertags":"name:ru|Ивана Франко улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.23757,48.91438]}},
+{"type":"Feature","properties":{"josm":"r3671236,w276016523","relationtags":"name:uk|Івана-Франка вулиця","membertags":"name:uk|Івана Франка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.23757,48.91438]}},
 {"type":"Feature","properties":{"josm":"r3671407,w169633507","relationtags":"name|Трубне містечко","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.96245,48.03103]}},
 
 
@@ -43,6 +35,5 @@
 
 
 
-{"type":"Feature","properties":{"josm":"r3547782","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[24.15475,48.93958]}},
 {"type":"Feature"}
 ]}
