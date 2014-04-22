@@ -4,7 +4,7 @@ function showMap(geoJson)
 	map.addControl(new L.Control.Permalink());
 
 	var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-	if (geoJson.substring(0,6) == 'geojson/peirce')
+	if (geoJson.substring(0,14) == 'geojson/peirce')
 	{
 		copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
 	}
