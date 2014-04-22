@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r2994244,w23548059","relationtags":"name|Ватутіна вулиця","membertags":"name|Колійна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.40334,48.58296]}},
+{"type":"Feature","properties":{"josm":"r2994244,w276208675","relationtags":"name|Ватутіна вулиця","membertags":"name|Колійна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.3963,48.57991]}},
+{"type":"Feature","properties":{"josm":"r2994244,w276208679","relationtags":"name|Ватутіна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.40377,48.58272]}},
 {"type":"Feature","properties":{"josm":"r3671407,w169633507","relationtags":"name|Трубне містечко","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.96245,48.03103]}},
 
 
