@@ -84,12 +84,12 @@ and (k in ('name','name:ru') and way_id in (select way_id from way_tags where k=
 
 update way_tags
 set v=v||' улица'
-where v not similar to '% (шоссе|дорога|спуск)'
+where v not similar to '% (шоссе|дорога|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where ru=v)
   and k in ('name','name:ru') and way_id in (select way_id from way_tags where k='highway');
 
 update way_tags
 set v=v||' улица'
-where v not similar to '% (шоссе|дорога|спуск)'
+where v not similar to '% (шоссе|дорога|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where ru=v)
   and k='addr:street' and way_id in (select way_id from way_tags where k='building');
