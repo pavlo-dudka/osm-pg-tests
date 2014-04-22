@@ -10,7 +10,15 @@ order by 1;
 
 select '';
 select 'name <> name:uk or invalid symbols in name:';
-select node_id,max(v),min(v) from node_tags where k in ('name','name:uk') and node_id in (select node_id from node_tags where k='place') and node_id not in (371949683) group by node_id having max(v)<>min(v) or min(v) not similar to '[А-Яа-яіїєІЇЄ''’ -]*' order by node_id;
+select node_id,max(v),min(v) from node_tags
+where k in ('name','name:uk') 
+  and node_id in (select node_id from node_tags where k='place' and v not in ('suburb','locality','allotments'))
+  and node_id not in (371949683) 
+group by node_id 
+having count(distinct v)=2 or 
+       min(v) not similar to '[А-Яа-яіїєІЇЄ''’ -]*' or 
+       count(*)=1 and exists(select * from regions,nodes n where relation_id in (72639,1574364) and n.id=node_id and _st_contains(linestring,geom))
+order by node_id;
 
 select '';
 select 'building-node in a way:';
