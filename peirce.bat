@@ -23,7 +23,7 @@ for /f %%a in ('dir /b temp\*.rss') do (call :processRss %%a)
 
 start "peirce.citiesWithoutPlacePolygon" %psql_exe%  -f peirce\citiesWithoutPlacePolygon.sql -o results\peirce.citiesWithoutPlacePolygon.geojson -q
 rem start "peirce.duplicatedEdges" %psql_exe%  -f peirce\duplicatedEdges.sql -o results\peirce.duplicatedEdges.geojson -q
-start "peirce.deadEnds" %psql_exe%  -f peirce\deadEnds.sql -o results\peirce.deadEnds.geojson -q
+rem start "peirce.deadEnds" %psql_exe%  -f peirce\deadEnds.sql -o results\peirce.deadEnds.geojson -q
 start "peirce.subGraphs" %psql_exe%  -f peirce\subGraphs.sql -o results\peirce.subGraphs.geojson -q
 start "peirce.tertiarySubGraphs" %psql_exe%  -f peirce\tertiarySubGraphs.sql -o results\peirce.tertiarySubGraphs.geojson -q
 
