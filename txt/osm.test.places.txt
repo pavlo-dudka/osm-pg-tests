@@ -1,40 +1,13 @@
 place-way should be closed:
 25122540
-30717893
 45420806
 60493398
-149049306
-159374071
-210627798
-215596771
-230440186
-230444346
-231083389
 
 Different errors:
-n265057614,w129023704,r3107188|Суми|city||multiple place objects; 
-n265058149,r2320579|Кременчук|city|place=city|town|node and relation place-tag values are different; node and relation tag values are different; 
-n256613679,r3313703|Артемівськ|city|population=78251|77952|node and relation tag values are different; 
-n258057686,r1280581|Бердянськ|city|name:en=Berdiansk|Berdyansk|node and relation tag values are different; 
-n249748477,r361818|Вінниця|city|wikipedia=uk:Вінниця|ru:Винница|node and relation tag values are different; 
-n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486;wikipedia=uk:Дніпропетровськ|ru:Днепропетровск|node and relation tag values are different; 
-n1532708613,r1821193|Кривий Ріг|city|population=662982|667874;wikipedia=uk:Кривий Ріг|ru:Кривой_Рог|node and relation tag values are different; 
-n146570870,r1951964|Луцьк|city|wikipedia=uk:Луцьк|ru:Луцк|node and relation tag values are different; 
-n26150437,r1413934|Одеса|city|name:en=Odesa|Odessa|node and relation tag values are different; 
-n265059962,r1746879|Павлоград|city|name:en=Pavlohrad|Pavlograd|node and relation tag values are different; 
-n146541158,r448930|Рівне|city|population=250205|248200|node and relation tag values are different; 
+n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|wikipedia=uk:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
-n111353560,r2692232|Ужгород|city|wikipedia=uk:Ужгород|rue:Ужгород|node and relation tag values are different; 
-n428339505,r1742393|Чернівці|city|wikipedia=uk:Чернівці|ru:Черновцы|node and relation tag values are different; 
-n26150436,r1952636|Чернігів|city|wikipedia=uk:Чернігів|ru:Чернигов|node and relation tag values are different; 
-n337579368,w33884950|Сєвєродонецьк|city|addr:postcode=93400-93480|93400;name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
+n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337538749,r3603673|Ржищів|town||missing place-tag on relation or wrong name; 
-n337507300,r2431029|Славутич|town||missing place-tag on relation or wrong name; 
-n337546205,r2242354|Старокостянтинів|town||missing place-tag on relation or wrong name; 
-n337593799,r3589364|Стаханов|town||missing place-tag on relation or wrong name; 
-n312255547,r3075894|Теребовля|town||missing place-tag on relation or wrong name; 
-n264282090,r3592317|Чугуїв|town||missing place-tag on relation or wrong name; 
-n337692505,w191255341,r3121711|Арциз|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337527490,w176517276,r3586905|Васильків|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -66,7 +39,6 @@ n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation 
 n1059862891,w139364748,r2139166|Золотоноша|town|wikipedia=uk:Золотоноша|ru:Золотоноша|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
 n256613827,w30718881,r2317624|Докучаєвськ|town|name:en=Dokuchaevsk|Dokuchaievsk|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
-n337581315,w159385254,r2133747|Тальне|town||missing place-tag on way; multiple place objects; 
 n248777764,w23449404,r3058556|Умань|town||missing place-tag on way; multiple place objects; 
 n337598439|Артемівськ|town||missing polygon; 
 n337525063|Баранівка|town||missing polygon; 
@@ -192,70 +164,28 @@ n1712742817,w159167308,r3167073|Копичинці|town|name:en=Kopychyntsi|Kopy
 n312253429,w199004790,r3167388|Почаїв|town|name:en=Pochaiv|Pochajiv;population=7757|17757|multiple place objects; node and relation tag values are different; 
 n312259277,w199005834,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|multiple place objects; node and relation tag values are different; 
 n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829;wikipedia=uk:Гуляйполе|http://ru.wikipedia.org/wiki/Гуляйполе|multiple place objects; node and way tag values are different; 
-n337675596,r2030759|Високопілля|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n256613817,r2910227|Димитров|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
-n337696139,r2835502|Ізмаїл|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
-n337551732,r3558299|Ківшарівка|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n337524378,r3546348|Козача Лопань|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n256613898,r2900349|Костянтинівка|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
-n286421994,r2098801|Лубни|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
-n337684928,r3591794|Мирне|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n337538180,r3559885|Солоницівка|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n256618283,r2839735|Старобешеве|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n1602171866,r2383858|Авдіївка|town|population=35364|35065|node and relation tag values are different; 
-n337672588,r1760273|Апостолове|town|population=14513|16356;wikipedia=uk:Апостолове|ru:Апостолово|node and relation tag values are different; 
-n337541446,r2069556|Бердичів|town|wikipedia=uk:Бердичів|rue:Бердичів|node and relation tag values are different; 
-n337524664,r3586904|Березань|town|wikipedia=uk:Березань (місто)|ru:Березань (місто)|node and relation tag values are different; 
+n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
 n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
-n312230548,r2697557|Борщів|town|name:en=Borschiv|Borshhiv;name:ru=Борщёв|Борщев;population=11273|11219|node and relation tag values are different; 
+n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
 n337541358,r2108755|Брюховичі|town|name:en=Briukhovychi|Bryukhovychi|node and relation tag values are different; 
-n312235616,r2697563|Бучач|town|addr:postcode=48400|48400-48405|node and relation tag values are different; 
-n337557094,r3166739|Велика Березовиця|town|name:en=Velyka Berezovytsia|Velyka Berezovycja|node and relation tag values are different; 
-n259984311,r2000000|Володимир-Волинський|town|wikipedia=uk:Володимир-Волинський|ru:Владимир-Волынский|node and relation tag values are different; 
-n256613886,r2720214|Жданівка|town|wikipedia=uk:Жданівка_(місто)|uk:Жданівка|node and relation tag values are different; 
-n300906140,r3166999|Збараж|town|addr:postcode=47300-47304|47300—47304;population=13915|13949|node and relation tag values are different; 
+n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
 n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
-n1637465428,r2033368|Зеленодольськ|town|wikipedia=uk:Зеленодольськ|ru:Зеленодольск_(Днепропетровская_область)|node and relation tag values are different; 
-n337690843,r3606771|Іллічівськ|town|wikipedia=uk:Іллічівськ|uk:Ильичёвск|node and relation tag values are different; 
-n337591102,r2581952|Кіровськ|town|wikipedia=uk:Кіровськ (Луганська область)|uk:Кіровськ_(Луганська_область)|node and relation tag values are different; 
-n1033896207,r3606208|Козятин|town|wikipedia=uk:Козятин|ru:Казатин|node and relation tag values are different; 
-n312247291,r3167104|Кременець|town|name:en=Kremenets|Kremenecj|node and relation tag values are different; 
 n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
-n312249487,r3167143|Ланівці|town|name:en=Lanivtsi|Lanivci|node and relation tag values are different; 
-n256617205,r3353690|Мар’їнка|town|wikipedia=uk:Мар'їнка_(місто)|uk:Мар'їнка|node and relation tag values are different; 
-n312250942,r3167246|Монастириська|town|addr:postcode=48300-48305|48300—305;name:en=Monastyryska|Monastyrysjka|node and relation tag values are different; 
 n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relation tag values are different; 
 n337554746,r2820049|Новий Калинів|town|koatuu=4624210300|4624255600|node and relation tag values are different; 
-n337591160,r3505757|Новомосковськ|town|wikipedia=uk:Новомосковськ|ru:Новомосковск (Днепропетровская область)|node and relation tag values are different; 
-n337592635,r3629498|Олександрівськ|town|name:en=Oleksandrivsk|Novodruzhesk;name:ru=Александровск|Новодружеск|node and relation tag values are different; 
-n337513526,r2437972|Остер|town|name:ru=Остёр|Остер|node and relation tag values are different; 
-n337556150,r3167396|Підволочиськ|town|name:en=Pidvolochysk|Pidvolochysjk|node and relation tag values are different; 
-n312252064,r3167397|Підгайці|town|name:en=Pidhaitsi|Pidghajci|node and relation tag values are different; 
-n127835001,r2313444|Прип’ять|town|wikipedia=uk:Прип'ять|ru:Припять (город)|node and relation tag values are different; 
-n337602652,r3099567|Синельникове|town|wikipedia=uk:Синельникове|ru:Синельниково|node and relation tag values are different; 
-n337583474,r3167483|Скала-Подільська|town|name:en=Skala-Podilska|Skala-Podiljsjka;population=4234|4255|node and relation tag values are different; 
-n321657923,r2248683|Судак|town|wikipedia=uk:Судак (місто)|ru:Судак (город)|node and relation tag values are different; 
-n312255547,r3167561|Теребовля|town|name:en=Terebovlia|Terebovlja|node and relation tag values are different; 
-n256614002,r2263374|Торез|town|wikipedia=ru:Торез|uk:Торез|node and relation tag values are different; 
+n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
+n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
-n337671723,r2033437|Широке|town|population=11221|10222;wikipedia=uk:Широке (Широківський район)|ru:Широкое_(Широковский_район)|node and relation tag values are different; 
+n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n941385448,w30701593|Буштино|town|place=town|village;population=8634|12488|node and way place-tag values are different; node and way tag values are different; 
-n409505489,w30719972|Метьолкіне|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n256614133,w30722238|Олександрівка|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n337558289,w111627766|Балаклія|town|wikipedia=uk:Балаклія|http://ru.wikipedia.org/wiki/Балаклея|node and way tag values are different; 
-n337664476,w30702102|Великий Бичків|town|name:ru=Велыкый Бычкив|Великий Бычков|node and way tag values are different; 
-n256615282,w30718787|Володарське|town|addr:postcode=87000-87004|87000—87004|node and way tag values are different; 
 n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
-n256613978,w30722461|Гірник|town|wikipedia=uk:Гірник (місто)|uk:Гірник_(місто)|node and way tag values are different; 
-n256618288,w30718556|Комсомольське|town|wikipedia=uk:Комсомольське (місто)|uk:Комсомольське_(місто)|node and way tag values are different; 
-n337695202,w30716179|Красногвардійське|town|name:de=Krasnogwardejskoe|Krasnohwardijske;name:en=Krasnogvardeyskoe|Krasnohvardiiske;name:fr=Krasnogvardeïskoe|Krasnohvardiïske;name:pl=Krasnogwardieśkoe|Krasnogwardijśke;wikipedia=ru:Красногвардейское (Красногвардейский район, Крым)|ru:Красногвардейское_(Красногвардейский_район,_Крым)|node and way tag values are different; 
 
 Multiple polygons:
 2|39682896|2842607,3607888|
 2|60410873|1418322,2464737|
-2|265058149|2320579,3589511|
 2|269665736|2251876,2801669|
 2|311429294|2865045,2865046|
 2|337519314|2269240,3471829|
@@ -274,7 +204,6 @@ Multiple polygons:
 2|337580375|3653415,3653416|
 2|337581108|3580016,3653415|
 2|337587489|2171253,2581142|
-2|337592311|2521434,3628932|
 2|337597818|1017311,1209151|
 2|337604170|3525529,3525647|
 2|337657992|3353671,3353672|
@@ -314,19 +243,8 @@ Multiple polygons:
 2|2718904138|1418322,2464737|
 
 Invalid role:
-1558508|type|multipolygon|1558508|2697481446|N||7
-2409386|type|multipolygon|2409386|2735377650|N||6
-3554131|type|boundary|3554131|2701537960|N|outer|0
-3600169|type|boundary|3600169|2739313566|N|outer|0
-3603121|type|boundary|3603121|2741686733|N|outer|0
-3603164|type|boundary|3603164|2741733547|N|outer|0
-3606056|type|boundary|3606056|2744746866|N|outer|0
-3608135|type|boundary|3608135|2747053367|N|outer|0
-3608157|type|boundary|3608157|2747071908|N|outer|0
-3622329|type|boundary|3622329|337672934|N|admin_centr|0
 
 Invalid role:
-71971|type|boundary|71971|191612984|W|subarea|102
 101746|type|boundary|101746|259920998|W|subarea|167
 405057|type|boundary|405057|49910951|W||1
 405057|type|boundary|405057|49910952|W||0
@@ -968,7 +886,6 @@ Invalid role:
 3273792|type|multipolygon|3273792|146651418|W||1
 3273792|type|multipolygon|3273792|242317090|W||3
 3273792|type|multipolygon|3273792|242317094|W||0
-3353648|type|multipolygon|3353648|273834920|W||1
 3385051|type|multipolygon|3385051|104642030|W||1
 3385051|type|multipolygon|3385051|252342149|W||0
 3444341|type|multipolygon|3444341|256960018|W||3
@@ -1011,8 +928,6 @@ Invalid role:
 
 Invalid role:
 49715|type|boundary|49715|936128|R|land_area|746
-3544409|type|boundary|3544409|3544408|R|outer|0
-3676944|type|multipolygon|3676944|3676943|R|outer|0
 
 No admin_centre:
 22793
@@ -1033,10 +948,8 @@ No admin_centre:
 3559630
 3586905
 3592556
-3607863
 
 name <> name:uk or invalid symbols in name:
 1483405048|Шибене (Зелене)|Шибене (Зелене)
 2010323811|Селещина-1|Селещина-1
-2011639101|Арциз-2|Арциз-2
 2744098693|Посёлок 3-й Гидроузел|Посёлок 3-й Гидроузел
