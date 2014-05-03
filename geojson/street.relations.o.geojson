@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Relation objects outside the city",
 "features": [
+{"type":"Feature","properties":{"josm":"r1569132,r1641691","relationtags":"name|Зіньківська вулиця","city":"Полтава",},"geometry":{"type":"Point","coordinates":[34.56321,49.65382]}},
 {"type":"Feature","properties":{"josm":"r1733207,r1951964","relationtags":"name|Ковельська вулиця","city":"Луцьк",},"geometry":{"type":"Point","coordinates":[25.28017,50.75927]}},
 {"type":"Feature","properties":{"josm":"r1772790,r1951964","relationtags":"name|Ранкова вулиця","city":"Луцьк",},"geometry":{"type":"Point","coordinates":[25.30188,50.69961]}},
 {"type":"Feature","properties":{"josm":"r1775008,r1951964","relationtags":"name|Молодогвардійців вулиця","city":"Луцьк",},"geometry":{"type":"Point","coordinates":[25.29955,50.6867]}},
