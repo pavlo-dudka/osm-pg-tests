@@ -1,4 +1,5 @@
-truncate table streets_dnipropetrovsk;
+drop table streets_dnipropetrovsk;
+create table streets_dnipropetrovsk(id int,ref text,uk_type text,uk text,ru text,district text,ru_type text,osm_name_uk text,osm_name_ru text);
 copy streets_dnipropetrovsk(id,ref,uk_type,uk,ru,district) from 'osm/street_names/dnipropetrovsk.csv' csv quote '"';
 update streets_dnipropetrovsk set ru=null where length(ru)<=1;
 update streets_dnipropetrovsk set ru_type=(case when uk_type='вулиця' then 'улица'

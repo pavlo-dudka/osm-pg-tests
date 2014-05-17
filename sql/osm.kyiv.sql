@@ -1,4 +1,5 @@
-truncate table streets_kyiv;
+drop table streets_kyiv;
+create table streets_kyiv(osm_name_uk text);
 copy streets_kyiv(osm_name_uk) from 'osm/street_names/kyiv.csv' csv quote '"';
 
 with t as (

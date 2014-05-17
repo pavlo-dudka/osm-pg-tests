@@ -1,4 +1,5 @@
-truncate table streets_kamianets_podilskyi;
+drop table streets_kamianets_podilskyi;
+create table streets_kamianets_podilskyi(osm_name_uk text);
 copy streets_kamianets_podilskyi(osm_name_uk) from 'osm/street_names/kamianets-podilskyi.csv' csv quote '"';
 
 with t as (
