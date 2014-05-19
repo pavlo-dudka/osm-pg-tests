@@ -1,12 +1,11 @@
 place-way should be closed:
 
 Different errors:
-n255259998|Біла Церква|city||missing polygon; 
 n146570870|Луцьк|city||missing polygon; 
+n252176252|Симферополь|city||missing polygon; 
 n256613834,r2900261|Дружківка|city|place=city|town|node and relation place-tag values are different; node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|wikipedia=uk:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
-n252176252,r3030295|Сімферополь|city|name:uk=Сімферополь|Сiмферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337538749,r3603673|Ржищів|town||missing place-tag on relation or wrong name; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -938,7 +937,9 @@ No admin_centre:
 3592556
 
 name <> name:uk or invalid symbols in name:
+252176252|Сімферополь|Симферополь
 337699213|Морське|Морское
+681769605|Республіка Крим|Республика Крым
 1483405048|Шибене (Зелене)|Шибене (Зелене)
 2010323811|Селещина-1|Селещина-1
 2744098693|Посёлок 3-й Гидроузел|Посёлок 3-й Гидроузел
