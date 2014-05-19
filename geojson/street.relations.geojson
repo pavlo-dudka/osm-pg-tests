@@ -3,10 +3,6 @@
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
 {"type":"Feature","properties":{"josm":"r1415431,w239645255","relationtags":"name|Професора Підвисоцького вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.54388,50.41216]}},
-{"type":"Feature","properties":{"josm":"r1767498,w131549236","relationtags":"name|Куйбишева вулиця","membertags":"name|Куйбышева улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.35252,48.96095]}},
-{"type":"Feature","properties":{"josm":"r1767499,w131549196","relationtags":"name|Шевченка вулиця","membertags":"name|Шевченко улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.35564,48.95885]}},
-{"type":"Feature","properties":{"josm":"r1767499,w131556488","relationtags":"name|Шевченка вулиця","membertags":"name|Шевченко улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.35723,48.95985]}},
-{"type":"Feature","properties":{"josm":"r1767499,w94762653","relationtags":"name|Шевченка вулиця","membertags":"name|Шевченко улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.35381,48.95768]}},
 {"type":"Feature","properties":{"josm":"r2071383,w87371024","relationtags":"name|Некрасова вулиця","membertags":"addr:street|Комсомольська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.1462,49.79116]}},
 {"type":"Feature","properties":{"josm":"r2071400,w132372220","relationtags":"name|Рибна вулиця","membertags":"name|Зінченка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.15346,49.79851]}},
 {"type":"Feature","properties":{"josm":"r2391101,w24767535","relationtags":"name|Болгарський провулок","membertags":"name|Камська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.18097,49.98227]}},
@@ -18,9 +14,7 @@
 {"type":"Feature","properties":{"josm":"r2535668,w183487077","relationtags":"name|Горбанівський провулок","membertags":"addr:street|Паркова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.32753,49.94381]}},
 {"type":"Feature","properties":{"josm":"r2677271,w277554624","relationtags":"name|Седова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.9687,48.04002]}},
 {"type":"Feature","properties":{"josm":"r2678682,w125201844","relationtags":"name|Карла Маркса вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.2767,48.00996]}},
-{"type":"Feature","properties":{"josm":"r2678682,w135516989","relationtags":"name|Карла Маркса вулиця","membertags":"name|Карла Маркса ул","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.25944,48.00597]}},
 {"type":"Feature","properties":{"josm":"r2695039,w123262716","relationtags":"name|Інтернаціональна вулиця","membertags":"addr:street|Куйбишева вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.78865,48.46564]}},
-{"type":"Feature","properties":{"josm":"r3458118,w203524140","relationtags":"name:ru|улица Юрия Гагарина","membertags":"name:ru|Юрия Гагарина улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.60766,49.51091]}},
 {"type":"Feature","properties":{"josm":"r3474033,w195617619","relationtags":"name|Модеста Левицького вулиця","membertags":"name|Мирона Левицького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.67652,51.22424]}},
 {"type":"Feature","properties":{"josm":"r3474033,w79400278","relationtags":"name|Модеста Левицького вулиця","membertags":"name|Мирона Левицького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.69327,51.219]}},
 {"type":"Feature","properties":{"josm":"r3517351,w280486584","relationtags":"name|Шевченка бульвар","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.54991,47.11033]}},
@@ -28,30 +22,11 @@
 {"type":"Feature","properties":{"josm":"r3575834,w107236031","relationtags":"name|Горького площа","membertags":"addr:street|Гагаріна проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.39211,47.91095]}},
 {"type":"Feature","properties":{"josm":"r3598446,w137211540","relationtags":"name|Тухачевського вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.4395,47.97688]}},
 {"type":"Feature","properties":{"josm":"r3598446,w138312514","relationtags":"name|Тухачевського вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.4395,47.97688]}},
-{"type":"Feature","properties":{"josm":"r3627339,w187501548","relationtags":"name|Таврическая улица","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.77867,45.96333]}},
-{"type":"Feature","properties":{"josm":"r3627339,w36355462","relationtags":"name|Таврическая улица","membertags":"name|Е-97","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.81133,45.93715]}},
 {"type":"Feature","properties":{"josm":"r3630920,w90398599","relationtags":"name|Москальова вулиця","membertags":"name|Московская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.07301,44.95535]}},
 {"type":"Feature","properties":{"josm":"r3671407,w169633507","relationtags":"name|Трубне містечко","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.96245,48.03103]}},
-{"type":"Feature","properties":{"josm":"r3705981,w172802494","relationtags":"name|Тернопільська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.95648,49.45304]}},
-{"type":"Feature","properties":{"josm":"r3705981,w172927273","relationtags":"name|Тернопільська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.93775,49.44644]}},
-{"type":"Feature","properties":{"josm":"r3705981,w278683319","relationtags":"name|Тернопільська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.93653,49.44618]}},
-{"type":"Feature","properties":{"josm":"r3705988,w264398635","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.93653,49.44618]}},
-{"type":"Feature","properties":{"josm":"r3705988,w264398671","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.93687,49.44385]}},
-{"type":"Feature","properties":{"josm":"r3705988,w278683317","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.93652,49.44589]}},
-{"type":"Feature","properties":{"josm":"r3726423,w137954040","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.70668,48.86861]}},
-{"type":"Feature","properties":{"josm":"r3726423,w201891420","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71316,48.90473]}},
-{"type":"Feature","properties":{"josm":"r3726423,w201891421","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71318,48.90552]}},
-{"type":"Feature","properties":{"josm":"r3726423,w201891422","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71319,48.90424]}},
-{"type":"Feature","properties":{"josm":"r3726423,w234836338","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71114,48.88799]}},
-{"type":"Feature","properties":{"josm":"r3726423,w237103304","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71318,48.90515]}},
-{"type":"Feature","properties":{"josm":"r3726423,w239201408","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.70817,48.88788]}},
-{"type":"Feature","properties":{"josm":"r3726423,w281875241","relationtags":"name|Євгена Коновальця вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71107,48.88763]}},
-{"type":"Feature","properties":{"josm":"r3726423,w88299562","relationtags":"name:ru|Евгена Коновальца улица","membertags":"name:ru|Евгения Коновальца улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71094,48.91877]}},
 {"type":"Feature","properties":{"josm":"r3742454,w281809406","relationtags":"name|Хриплинська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71767,48.8666]}},
 {"type":"Feature","properties":{"josm":"r3742454,w281809409","relationtags":"name|Хриплинська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71865,48.86691]}},
-{"type":"Feature","properties":{"josm":"r3744970,w281523244","relationtags":"name|Осипа Сорохтея вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71099,48.90342]}},
-{"type":"Feature","properties":{"josm":"r3744970,w281523245","relationtags":"name|Осипа Сорохтея вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.70981,48.90342]}},
-{"type":"Feature","properties":{"josm":"r3744970,w281523252","relationtags":"name|Осипа Сорохтея вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.71294,48.90341]}},
+{"type":"Feature","properties":{"josm":"r421765,w69863477","relationtags":"name|Горького вулиця","membertags":"addr:street|Горького (Антоновича)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.51701,50.42154]}},
 
 
 
@@ -70,6 +45,5 @@
 
 
 
-{"type":"Feature","properties":{"josm":"r3743622","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[24.71286,48.88753]}},
 {"type":"Feature"}
 ]}

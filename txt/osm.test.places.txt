@@ -1,12 +1,12 @@
 place-way should be closed:
 
 Different errors:
-n27212295|Евпатория|city||missing polygon; 
-n1830695012|Керчь|city||missing polygon; 
-n252176252|Симферополь|city||missing polygon; 
+n255259998|Біла Церква|city||missing polygon; 
+n146570870|Луцьк|city||missing polygon; 
 n256613834,r2900261|Дружківка|city|place=city|town|node and relation place-tag values are different; node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|wikipedia=uk:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n252176252,r3030295|Сімферополь|city|name:uk=Сімферополь|Сiмферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337538749,r3603673|Ржищів|town||missing place-tag on relation or wrong name; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -46,7 +46,6 @@ n337525063|Баранівка|town||missing polygon;
 n337527400|Борова|town||missing polygon; 
 n337584288|Брацлав|town||missing polygon; 
 n337596242|Брянка|town||missing polygon; 
-n337575997|Ватутіне|town||missing polygon; 
 n337592204|Вендичани|town||missing polygon; 
 n337671123|Гірницьке|town||missing polygon; 
 n337660135|Глибока|town||missing polygon; 
@@ -85,7 +84,6 @@ n337510727|Народичі|town||missing polygon;
 n337517582|Нова Борова|town||missing polygon; 
 n337584174|Нова Ушиця|town||missing polygon; 
 n337526958|Новогуйвинське|town||missing polygon; 
-n337579120|Новодружеск|town||missing polygon; 
 n337510555|Олевськ|town||missing polygon; 
 n337671978|Олександрівка|town||missing polygon; 
 n337545110|Оржиця|town||missing polygon; 
@@ -109,7 +107,6 @@ n337561478|Тетіїв|town||missing polygon;
 n337594569|Томашпіль|town||missing polygon; 
 n337595939|Тростянець|town||missing polygon; 
 n337543666|Узин|town||missing polygon; 
-n1830695011|Феодосия|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
 n337576097|Чемерівці|town||missing polygon; 
 n337556862|Червоний Донець|town||missing polygon; 
@@ -132,16 +129,13 @@ n313201266,w225234976,r3628014|Волочиськ|town||multiple place objects;
 n337587492,w185101282,r3513051|Гвардійське|town||multiple place objects; 
 n285723343,w204997516,r2817257|Герца|town||multiple place objects; 
 n337572390,w105442606,r3347782|Гнівань|town||multiple place objects; 
-n337677420,w185269919,r3599812|Дніпрорудне|town||multiple place objects; 
 n337592920,w30722819,r3628807|Зимогір’я|town||multiple place objects; 
-n36505064,w269179223,r2269240|Ірпінь|town||multiple place objects; 
 n497690126,w206585625,r3592556|Канів|town||multiple place objects; 
 n70950474,w30718774,r2675311|Курахове|town||multiple place objects; 
 n337516475,w226685671,r2313459|Малин|town||multiple place objects; 
 n1685829433,w191420804,r3559895|Мерефа|town||multiple place objects; 
 n337679535,w177320383,r3600293|Михайлівка|town||multiple place objects; 
 n337680572,w193434123,r3603169|Молочанськ|town||multiple place objects; 
-n337569716,w30701425,r2819227|Моршин|town||multiple place objects; 
 n337524775,w197639891,r3589658|Охтирка|town||multiple place objects; 
 n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
 n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
@@ -152,23 +146,24 @@ n337601344,w30722486,r3627132|Суходільськ|town||multiple place object
 n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
 n337504305,w206589793,r2776723|Шостка|town||multiple place objects; 
 n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
-n312233653,w217289543,r3166665|Бережани|town|population=18116|18119|multiple place objects; node and relation tag values are different; 
-n337573508,w174674574,r3166889|Гусятин|town|name:en=Husiatyn|Ghusjatyn;population=7104|7122|multiple place objects; node and relation tag values are different; 
-n1712742817,w159167308,r3167073|Копичинці|town|name:en=Kopychyntsi|Kopychynci;population=6869|6867;website=http://kopychyntsi.com.ua|[http://kopychyntsi.com.ua/ http://kopychyntsi.com.ua/]|multiple place objects; node and relation tag values are different; 
 n312253429,w199004790,r3167388|Почаїв|town|name:en=Pochaiv|Pochajiv;population=7757|17757|multiple place objects; node and relation tag values are different; 
 n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829;wikipedia=uk:Гуляйполе|http://ru.wikipedia.org/wiki/Гуляйполе|multiple place objects; node and way tag values are different; 
 n312259277,w199005834,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|multiple place objects; node and way tag values are different; node and relation tag values are different; 
 n1602171866,r2383858|Авдіївка|town|population=35364|35065|node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
+n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
 n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
 n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
 n337541358,r2108755|Брюховичі|town|name:en=Briukhovychi|Bryukhovychi|node and relation tag values are different; 
+n337573508,r3166889|Гусятин|town|name:en=Husiatyn|Ghusjatyn;population=7104|7122|node and relation tag values are different; 
 n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
 n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
 n299466010,r3138416|Коктебель|town|addr:postcode=98186|298186|node and relation tag values are different; 
+n1712742817,r3167073|Копичинці|town|name:en=Kopychyntsi|Kopychynci;population=6869|6867;website=http://kopychyntsi.com.ua|[http://kopychyntsi.com.ua/ http://kopychyntsi.com.ua/]|node and relation tag values are different; 
 n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
 n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relation tag values are different; 
 n337554746,r2820049|Новий Калинів|town|koatuu=4624210300|4624255600|node and relation tag values are different; 
+n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
@@ -183,9 +178,6 @@ Multiple polygons:
 2|60410873|1418322,2464737|
 2|269665736|2251876,2801669|
 2|311429294|2865045,2865046|
-2|337519314|2269240,3471829|
-2|337519932|2269240,3605942|
-2|337520861|1754752,2269240|
 2|337521060|2711953,3620915|
 2|337525174|3557610,3557617|
 2|337534409|3558015,3558064|
@@ -201,8 +193,6 @@ Multiple polygons:
 2|337587489|2171253,2581142|
 2|337597818|1017311,1209151|
 2|337604170|3525529,3525647|
-2|337657992|3353671,3353672|
-2|337658507|3353673,3353674|
 2|337685132|3591685,3591686|
 2|1172307894|2175059,3006716|
 2|1301949790|2865045,3007111|
@@ -239,6 +229,7 @@ Multiple polygons:
 2|2850679401|2997809,3734181|
 
 Invalid role:
+2800681|type|multipolygon|2800681|2864475326|N||289
 3728084|type|boundary|3728084|2844015998|N||0
 
 Invalid role:
@@ -947,12 +938,7 @@ No admin_centre:
 3592556
 
 name <> name:uk or invalid symbols in name:
-27212295|Євпаторія|Евпатория
-252176252|Сімферополь|Симферополь
-337579120|Новодружеськ|Новодружеск
 1483405048|Шибене (Зелене)|Шибене (Зелене)
-1830695011|Феодосія|Феодосия
-1830695012|Керчь|Керч
 2010323811|Селещина-1|Селещина-1
 2744098693|Посёлок 3-й Гидроузел|Посёлок 3-й Гидроузел
 2837915846|Photo, print, copy|Photo, print, copy
