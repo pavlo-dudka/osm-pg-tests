@@ -1,9 +1,9 @@
 place-way should be closed:
 
 Different errors:
-n252176252|Симферополь|city||missing polygon; 
 n256613834,r2900261|Дружківка|city|place=city|town|node and relation place-tag values are different; node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
+n27121360,r1641691|Полтава|city|wikipedia=uk:Полтава|ru:Полтава|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|wikipedia=uk:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337538749,r3603673|Ржищів|town||missing place-tag on relation or wrong name; 
@@ -47,7 +47,6 @@ n337660135|Глибока|town||missing polygon;
 n337562808|Гніздичів|town||missing polygon; 
 n337515899|Городниця|town||missing polygon; 
 n313201927|Городок|town||missing polygon; 
-n337519207|Гоща|town||missing polygon; 
 n1585808480|Димер|town||missing polygon; 
 n337514704|Ємільчине|town||missing polygon; 
 n337520849|Згурівка|town||missing polygon; 
@@ -58,7 +57,6 @@ n337516690|Іршанськ|town||missing polygon;
 n1819209275|Кагарлик|town||missing polygon; 
 n337558381|Калинівка|town||missing polygon; 
 n337597113|Карнаухівка|town||missing polygon; 
-n337519781|Квасилів|town||missing polygon; 
 n337592962|Кирнасівка|town||missing polygon; 
 n337575116|Комсомольськ|town||missing polygon; 
 n337662411|Красноїльськ|town||missing polygon; 
@@ -798,7 +796,6 @@ Invalid role:
 1625161|type|multipolygon|1625161|117739461|W||0
 1741829|type|multipolygon|1741829|129087185|W||6
 1741829|type|multipolygon|1741829|129087190|W||5
-1754551|type|boundary|1754551|216239810|W||8
 1755267|type|multipolygon|1755267|130307005|W||2
 1755267|type|multipolygon|1755267|130307006|W||3
 1755267|type|multipolygon|1755267|130307007|W||1
@@ -926,12 +923,7 @@ No admin_centre:
 3592556
 
 name <> name:uk or invalid symbols in name:
-252176252|Сімферополь|Симферополь
-337699653|Виноградный|Виноградний
-337699769|Кипарисово|Кипарисне
-337699778|Пушкіне|Пушкино
-337699810|Утьос|Утёс
-1214510814|Бондаренково|Бондаренкове
+337696668|Звіздне|Звіздне
 1483405048|Шибене (Зелене)|Шибене (Зелене)
 2010323811|Селещина-1|Селещина-1
 2744098693|Посёлок 3-й Гидроузел|Посёлок 3-й Гидроузел
