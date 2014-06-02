@@ -4,11 +4,11 @@
 <title>Quality Assurance (OSM Ukraine)</title> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html</link> 
 <item> 
-<guid>almost.junctions.geojson Mon 06/02/2014 13:41</guid> 
+<guid>almost.junctions.geojson Mon 06/02/2014 18:20</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?almost.junctions</link> 
 <author>dudka</author> 
-<title>almost.junctions - 41 error(s) found at Mon 06/02/2014 13:41</title> 
-<description><![CDATA[41 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions">table</a>]]></description> 
+<title>almost.junctions - 39 error(s) found at Mon 06/02/2014 18:20</title> 
+<description><![CDATA[39 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions">table</a>]]></description> 
 </item> 
 <item> 
 <guid>dead.ends.geojson Tue 05/27/2014 18:31</guid> 
@@ -18,11 +18,11 @@
 <description><![CDATA[0 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?dead.ends">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?dead.ends">table</a>]]></description> 
 </item> 
 <item> 
-<guid>highway.crossings.geojson Mon 06/02/2014 15:46</guid> 
+<guid>highway.crossings.geojson Mon 06/02/2014 18:20</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.crossings</link> 
 <author>dudka</author> 
-<title>highway.crossings - 40 error(s) found at Mon 06/02/2014 15:46</title> 
-<description><![CDATA[40 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings">table</a>]]></description> 
+<title>highway.crossings - 29 error(s) found at Mon 06/02/2014 18:20</title> 
+<description><![CDATA[29 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings">table</a>]]></description> 
 </item> 
 <item> 
 <guid>multipolygons.geojson Mon 06/02/2014 13:41</guid> 
@@ -46,32 +46,39 @@
 <description><![CDATA[62 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?peirce.citiesWithoutPlacePolygon">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?peirce.citiesWithoutPlacePolygon">table</a>]]></description> 
 </item> 
 <item> 
-<guid>peirce.subGraphs.geojson Mon 06/02/2014 15:49</guid> 
+<guid>peirce.duplicatedEdges.geojson Mon 06/02/2014 18:21</guid> 
+<link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.duplicatedEdges</link> 
+<author>Ch.S. Peirce</author> 
+<title>peirce.duplicatedEdges - 0 error(s) found at Mon 06/02/2014 18:21</title> 
+<description><![CDATA[0 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?peirce.duplicatedEdges">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?peirce.duplicatedEdges">table</a>]]></description> 
+</item> 
+<item> 
+<guid>peirce.subGraphs.geojson Mon 06/02/2014 18:21</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.subGraphs</link> 
 <author>Ch.S. Peirce</author> 
-<title>peirce.subGraphs - 157 error(s) found at Mon 06/02/2014 15:49</title> 
+<title>peirce.subGraphs - 157 error(s) found at Mon 06/02/2014 18:21</title> 
 <description><![CDATA[157 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?peirce.subGraphs">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?peirce.subGraphs">table</a>]]></description> 
 </item> 
 <item> 
-<guid>peirce.tertiarySubGraphs.geojson Mon 06/02/2014 13:42</guid> 
+<guid>peirce.tertiarySubGraphs.geojson Mon 06/02/2014 18:21</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?peirce.tertiarySubGraphs</link> 
 <author>Ch.S. Peirce</author> 
-<title>peirce.tertiarySubGraphs - 5 error(s) found at Mon 06/02/2014 13:42</title> 
+<title>peirce.tertiarySubGraphs - 5 error(s) found at Mon 06/02/2014 18:21</title> 
 <description><![CDATA[5 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?peirce.tertiarySubGraphs">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?peirce.tertiarySubGraphs">table</a>]]></description> 
 </item> 
 <item> 
-<guid>sharp.turns.geojson Mon 06/02/2014 11:10</guid> 
+<guid>sharp.turns.geojson Mon 06/02/2014 18:20</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?sharp.turns</link> 
 <author>dudka</author> 
-<title>sharp.turns - 0 error(s) found at Mon 06/02/2014 11:10</title> 
-<description><![CDATA[0 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns">table</a>]]></description> 
+<title>sharp.turns - 2 error(s) found at Mon 06/02/2014 18:20</title> 
+<description><![CDATA[2 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns">table</a>]]></description> 
 </item> 
 <item> 
-<guid>street.relations.geojson Mon 06/02/2014 15:46</guid> 
+<guid>street.relations.geojson Mon 06/02/2014 18:20</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link> 
 <author>dudka</author> 
-<title>street.relations - 146 error(s) found at Mon 06/02/2014 15:46</title> 
-<description><![CDATA[146 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations">table</a>]]></description> 
+<title>street.relations - 164 error(s) found at Mon 06/02/2014 18:20</title> 
+<description><![CDATA[164 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations">table</a>]]></description> 
 </item> 
 <item> 
 <guid>street.relations.m.geojson Mon 06/02/2014 13:41</guid> 
@@ -81,11 +88,11 @@
 <description><![CDATA[70 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m">table</a>]]></description> 
 </item> 
 <item> 
-<guid>street.relations.n.geojson Mon 06/02/2014 15:46</guid> 
+<guid>street.relations.n.geojson Mon 06/02/2014 18:20</guid> 
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link> 
 <author>dudka</author> 
-<title>street.relations.n - 133 error(s) found at Mon 06/02/2014 15:46</title> 
-<description><![CDATA[133 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n">table</a>]]></description> 
+<title>street.relations.n - 135 error(s) found at Mon 06/02/2014 18:20</title> 
+<description><![CDATA[135 error(s) found: <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n">map</a> <a href="http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n">table</a>]]></description> 
 </item> 
 <item> 
 <guid>street.relations.o.geojson Mon 06/02/2014 15:46</guid> 

@@ -53,6 +53,7 @@ n337660135|Глибока|town||missing polygon;
 n337562808|Гніздичів|town||missing polygon; 
 n337515899|Городниця|town||missing polygon; 
 n313201927|Городок|town||missing polygon; 
+n337698300|Грэсовский|town||missing polygon; 
 n1585808480|Димер|town||missing polygon; 
 n337514704|Ємільчине|town||missing polygon; 
 n337520849|Згурівка|town||missing polygon; 
@@ -165,7 +166,6 @@ n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relati
 n337554746,r2820049|Новий Калинів|town|koatuu=4624210300|4624255600|node and relation tag values are different; 
 n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
 n312253429,r3167388|Почаїв|town|name:en=Pochaiv|Pochajiv;population=7757|17757|node and relation tag values are different; 
-n337700311,r3006752|Симеиз|town|addr:region:uk=Республіка Крим|Автономна Республіка Крим|node and relation tag values are different; 
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n1830695011,r2997809|Феодосия|town|admin_level=8|9;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
@@ -177,7 +177,6 @@ n312259277,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|node and relation t
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n941385448,w30701593|Буштино|town|place=town|village;population=8634|12488|node and way place-tag values are different; node and way tag values are different; 
 n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
-n337698300,w30712848|Гресівський|town|wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
 n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
 n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
 
@@ -922,8 +921,8 @@ Invalid role:
 
 Invalid role:
 49715|type|boundary|49715|936128|R|land_area|749
-60199|type|boundary|60199|72639|R|disputed|636
-60199|type|boundary|60199|1574364|R|disputed|637
+60199|type|boundary|60199|72639|R|claimed_subarea|636
+60199|type|boundary|60199|1574364|R|claimed_subarea|637
 1463495|type|multipolygon|1463495|3778188|R||102
 3784292|type|multipolygon|3784292|3784284|R|outer|5
 3784292|type|multipolygon|3784292|3784285|R|outer|2
@@ -956,10 +955,14 @@ name <> name:uk or invalid symbols in name:
 311423386|Щолкіне|Щёлкино
 311423863|Мысовое|Мисове
 311425368|Леніне|Ленино
+311426552|Пісочне|Песочное
+311426582|Кірове|Кирово
+311427676|Марьевка|Мар’ївка
 311427763|Завітне|Заветное
 311427800|Марфовка|Марфівка
 311429195|Глазовка|Глазівка
 311429388|Войково|Войкове
+311431032|Новоотрадное|Нововідрадне
 337692066|Армянськ|Армянск
 337692649|Красноперекопськ|Красноперекопск
 337693487|Роздольне|Раздольное
@@ -982,6 +985,7 @@ name <> name:uk or invalid symbols in name:
 337698201|Старый Крым|Старий Крим
 337698205|Криничное|Криничне
 337698208|Криничное|Кирпичне
+337698300|Грэсовский|Гресівський
 337698392|Кизиловка|Кизилівка
 337698494|Карасівка|Карасевка
 337698560|Головановка|Голованівка
@@ -1068,6 +1072,7 @@ name <> name:uk or invalid symbols in name:
 1214510814|Бондаренково|Бондаренкове
 1233378078|Тыловое|Тилове
 1254030836|Нижнє Запрудне|Нижнее Запрудное
+1326710031|Флотское|Флотске
 1460098193|Хмельницьке|Хмельницкое
 1483405048|Шибене (Зелене)|Шибене (Зелене)
 1643969652|Ізобільне|Изобильное
