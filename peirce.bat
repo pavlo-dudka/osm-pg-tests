@@ -40,7 +40,7 @@ set newhash=%hash%
 call :gethash temp\rss.hash.bak %~1
 set oldhash=%hash%
 set file=%~1
-set region=%file:~0,4%
+set region=%file:~0,-4%
 if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "%pg_data_folder%\%region%.mp_addr.xml")
 goto :eof
 
