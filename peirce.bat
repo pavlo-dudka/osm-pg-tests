@@ -2,11 +2,11 @@
 
 call config.bat
 
-start "" binaries\wget.exe http://peirce.zkir.ru/qa/UA-C/rss -O temp\UA-C.rss
-start "" binaries\wget.exe http://peirce.zkir.ru/qa/UA-E/rss -O temp\UA-E.rss
-start "" binaries\wget.exe http://peirce.zkir.ru/qa/UA-N/rss -O temp\UA-N.rss
-start "" binaries\wget.exe http://peirce.zkir.ru/qa/UA-S/rss -O temp\UA-S.rss
-start "" binaries\wget.exe http://peirce.zkir.ru/qa/UA-W/rss -O temp\UA-W.rss
+binaries\wget.exe http://peirce.zkir.ru/qa/UA-C/rss -O temp\UA-C.rss
+binaries\wget.exe http://peirce.zkir.ru/qa/UA-E/rss -O temp\UA-E.rss
+binaries\wget.exe http://peirce.zkir.ru/qa/UA-N/rss -O temp\UA-N.rss
+binaries\wget.exe http://peirce.zkir.ru/qa/UA-S/rss -O temp\UA-S.rss
+binaries\wget.exe http://peirce.zkir.ru/qa/UA-W/rss -O temp\UA-W.rss
 
 :wait_wget
 tasklist /FI "IMAGENAME eq wget.exe" 2>NUL | find /I /N "wget.exe">NUL
@@ -40,7 +40,7 @@ set newhash=%hash%
 call :gethash temp\rss.hash.bak %~1
 set oldhash=%hash%
 set file=%~1
-set region=%file:~0,4%
+set region=%file:~0,-4%
 if "%newhash%" neq "%oldhash%" (binaries\wget.exe http://peirce.zkir.ru/ADDR_CHK/%region%.mp_addr.xml -O "%pg_data_folder%\%region%.mp_addr.xml")
 goto :eof
 
