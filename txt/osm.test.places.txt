@@ -132,7 +132,6 @@ n337680572,w193434123,r3603169|Молочанськ|town||multiple place objects
 n337524775,w197639891,r3589658|Охтирка|town||multiple place objects; 
 n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
 n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
-n337692386,w193442488,r3797563|Сергіївка|town||multiple place objects; 
 n312276821,w30711206,r3626221|Снятин|town||multiple place objects; 
 n337601344,w30722486,r3627132|Суходільськ|town||multiple place objects; 
 n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
@@ -168,8 +167,12 @@ n337671723,r2033437|Широке|town|population=11221|10222|node and relation t
 n312259277,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n941385448,w30701593|Буштино|town|place=town|village;population=8634|12488|node and way place-tag values are different; node and way tag values are different; 
+n337697952,w30716000|Белогорск|town|name:de=Belogorsk|Belohorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
 n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
 n337698300,w30712848|Грэсовский|town|name:en=Gresovsky|Hresivskyi;wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
+n337700009,w30716153|Гурзуф|town|name:en=Gurzuf|Hurzuf|node and way tag values are different; 
+n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
+n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
 n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
 n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
 
@@ -911,6 +914,7 @@ Invalid role:
 3615806|type|multipolygon|3615806|270387419|W||1
 3615806|type|multipolygon|3615806|270393770|W||0
 3741934|type|multipolygon|3741934|281604395|W||1
+3753834|type|multipolygon|3753834|287228910|W||1
 3773118|type|multipolygon|3773118|284399257|W||1
 
 Invalid role:
@@ -993,6 +997,8 @@ name <> name:uk or invalid symbols in name:
 311431215|Станційне|Станционное
 311431256|Новониколаевка|Новомиколаївка
 311431854|Вулкановка|Вулканівка
+337518443|Чекно|alt_Межиріччя
+337523367|Малі Загорці|Малі Загірці
 337692066|Армянськ|Армянск
 337692075|Волошино|Волошине
 337692146|Суворово|Суворове
@@ -1410,6 +1416,7 @@ name <> name:uk or invalid symbols in name:
 337696838|Листовое|Листове
 337696848|Анновка|Аннівка
 337696853|Журавлі|Журавли
+337696856|Орловка|Орлівка
 337696858|Піни|Пены
 337696867|Суворовське|Суворовское
 337696877|Шахтино|Шахтине
@@ -1827,6 +1834,7 @@ name <> name:uk or invalid symbols in name:
 1213744810|Перевальное|Перевальне
 1214510814|Бондаренково|Бондаренкове
 1233378078|Тыловое|Тилове
+1252188697|Благодатное|Благодатне
 1254030836|Нижнє Запрудне|Нижнее Запрудное
 1284772044|Акрополіс|Акрополис
 1326710031|Флотское|Флотске
@@ -1851,3 +1859,6 @@ name <> name:uk or invalid symbols in name:
 2789764281|Предущельное|Передущельне
 2837915846|Photo, print, copy|Photo, print, copy
 2898654909|Республика Крым|Республика Крым
+2908166445|Сахарная Головка|Сахарная Головка
+2908166446|Ушаковка|Ушаковка
+2908166447|Штурмовое|Штурмовое
