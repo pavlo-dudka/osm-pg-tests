@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1421550,w282319176","relationtags":"name|Вишгородська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.45164,50.51832]}},
 {"type":"Feature","properties":{"josm":"r1443762,w285667206","relationtags":"name|Борщагівська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.46914,50.44736]}},
 {"type":"Feature","properties":{"josm":"r1552626,w41385332","relationtags":"name|Ломоносова вулиця","membertags":"addr:street|Ломоносова вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.49412,50.39214]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name:uk|60-річчя СССР вулиця","membertags":"name:uk|60-річчя СРСР вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
