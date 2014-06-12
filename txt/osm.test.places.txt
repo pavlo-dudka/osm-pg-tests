@@ -9,6 +9,7 @@ n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node 
 n27121360,r1641691|Полтава|city|wikipedia=uk:Полтава|ru:Полтава|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|addr:country=RU|UA;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
+n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337538749,r3603673|Ржищів|town||missing place-tag on relation or wrong name; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -57,7 +58,6 @@ n337520759|Здолбунів|town||missing polygon;
 n337687842|Іванівка|town||missing polygon; 
 n702132126|Іванівка|town||missing polygon; 
 n337516690|Іршанськ|town||missing polygon; 
-n1819209275|Кагарлик|town||missing polygon; 
 n337558381|Калинівка|town||missing polygon; 
 n337597113|Карнаухівка|town||missing polygon; 
 n337592962|Кирнасівка|town||missing polygon; 
@@ -92,17 +92,14 @@ n337548010|Ружин|town||missing polygon;
 n337560536|Савинці|town||missing polygon; 
 n337569695|Сахновщина|town||missing polygon; 
 n337553321|Семенівка|town||missing polygon; 
-n337547206|Сквира|town||missing polygon; 
 n337666951|Слобідка|town||missing polygon; 
 n337660175|Софіївка|town||missing polygon; 
 n337515362|Талалаївка|town||missing polygon; 
 n620750304|Тараща|town||missing polygon; 
 n337691696|Тарутине|town||missing polygon; 
 n337590253|Теплик|town||missing polygon; 
-n337561478|Тетіїв|town||missing polygon; 
 n337594569|Томашпіль|town||missing polygon; 
 n337595939|Тростянець|town||missing polygon; 
-n337543666|Узин|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
 n337576097|Чемерівці|town||missing polygon; 
 n337556862|Червоний Донець|town||missing polygon; 
@@ -172,6 +169,7 @@ n337691804,w123585726|Генічеськ|town|population=20487|31324|node and wa
 n337698300,w30712848|Грэсовский|town|name:en=Gresovsky|Hresivskyi;wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
 n337700009,w30716153|Гурзуф|town|name:en=Gurzuf|Hurzuf|node and way tag values are different; 
 n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
+n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnjohirskyj;name:fr=Nijnegorskyï|Nyjnohirskyï|node and way tag values are different; 
 n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
 n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
 n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
@@ -227,6 +225,8 @@ Multiple polygons:
 2|2718904131|1418322,2523802|
 2|2718904138|1418322,2464737|
 2|2850679401|2997809,3734181|
+2|2910302067|3030976,3812225|
+2|2910308095|3030976,3812229|
 
 Invalid role:
 1463495|type|multipolygon|1463495|2885528113|N||101
@@ -999,6 +999,7 @@ name <> name:uk or invalid symbols in name:
 311431854|Вулкановка|Вулканівка
 337518443|Чекно|alt_Межиріччя
 337523367|Малі Загорці|Малі Загірці
+337684520|Ясна Поляна|Ясна Поляа
 337692066|Армянськ|Армянск
 337692075|Волошино|Волошине
 337692146|Суворово|Суворове
@@ -1732,6 +1733,7 @@ name <> name:uk or invalid symbols in name:
 337699410|Річне|Речное
 337699423|Вишнёвое|Вишневе
 337699429|Орловка|Орлівка
+337699434|Научный|Научний
 337699441|Мостовое|Мостове
 337699447|Верхняя Кутузовка|Верхня Кутузовка
 337699452|Семидворье|Семидвір’я
@@ -1839,7 +1841,6 @@ name <> name:uk or invalid symbols in name:
 1284772044|Акрополіс|Акрополис
 1326710031|Флотское|Флотске
 1460098193|Хмельницьке|Хмельницкое
-1483405048|Шибене (Зелене)|Шибене (Зелене)
 1643969652|Ізобільне|Изобильное
 1830695011|Феодосія|Феодосия
 1830695012|Керчь|Керч
