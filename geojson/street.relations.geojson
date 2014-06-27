@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1594060,w33167526","relationtags":"name|Красилівська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.50643,50.39441]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name:uk|60-річчя СССР вулиця","membertags":"name:uk|60-річчя СРСР вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-річчя СРСР вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1745224,w289887854","relationtags":"name|Мельникова вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.48181,50.46296]}},
