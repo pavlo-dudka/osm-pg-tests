@@ -1,15 +1,1915 @@
 place-way should be closed:
 
 Different errors:
+n251073791,r3788485|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n255259998|Біла Церква|city||missing polygon; 
+n256613740,w30715993,r3862199|Горлівка|city||multiple place objects; 
+n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
+n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
+n253874196,r2171253|Луганськ|city|name:de=Lugansk|Luhansk|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|addr:country=RU|UA;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
+n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
+n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
+n337699713,r3827428|Инкерман|town||missing place-tag on relation or wrong name; 
+n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n289308798,w51551900,r421865|Вишгород|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337511059,w87197693,r3047716|Ворожба|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337689476,w185104595,r3592360|Гола Пристань|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337503119,w230895555,r3096243|Дружба|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337574832,w134566471,r2090993|Кам’янка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337579618,w228382389,r3058860|Катеринопіль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1867222449,w209628728,r3583152|Короп|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337516321,w206631319,r3117248|Краснопілля|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1628109752,w199270772,r3589657|Лебедин|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337519813,w220153406,r2911386|Липова Долина|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337538836,w206720049,r3589513|Миргород|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337515238,w243708476,r3295168|Недригайлів|town||missing place-tag on relation or wrong name; multiple place objects; 
+n313426755,w258669260,r3472076|Овруч|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337690726,w35373686,r3606770|Олександрівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337539614,w199204364,r2675319|Попільня|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337509379,w198199877,r3059912|Путивль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n313243807,w58776742,r3592425|Славута|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337657274,w30701866,r3569409|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337504305,w206589793,r3589659|Шостка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1628073978,w269265749,r3606547|Южне|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337541157,w191420774,r3559878|Березівка|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
+n337525824,w218696393,r3473954|Глеваха|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
+n337519388,w178233595,r2395748|Клавдієво-Тарасове|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
+n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n256613827,w30718881,r2317624|Докучаєвськ|town|name:en=Dokuchaevsk|Dokuchaievsk|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n337689759|Авангард|town||missing polygon; 
+n337598439|Артемівськ|town||missing polygon; 
+n337678826|Березнегувате|town||missing polygon; 
+n337549437|Бірки|town||missing polygon; 
+n337572642|Бориня|town||missing polygon; 
+n337527400|Борова|town||missing polygon; 
+n337584288|Брацлав|town||missing polygon; 
+n337596242|Брянка|town||missing polygon; 
+n337543657|Введенка|town||missing polygon; 
+n337592204|Вендичани|town||missing polygon; 
+n337571838|Верхнє Синьовидне|town||missing polygon; 
+n337523935|Гірник|town||missing polygon; 
+n337671123|Гірницьке|town||missing polygon; 
+n337660135|Глибока|town||missing polygon; 
+n337515899|Городниця|town||missing polygon; 
+n313201927|Городок|town||missing polygon; 
+n337539356|Гребінки|town||missing polygon; 
+n337533389|Гути|town||missing polygon; 
+n1585808480|Димер|town||missing polygon; 
+n337526811|Добротвір|town||missing polygon; 
+n313248365|Дубляни|town||missing polygon; 
+n337557104|Дубляни|town||missing polygon; 
+n337514704|Ємільчине|town||missing polygon; 
+n1990754485|Жвирка|town||missing polygon; 
+n337540656|Запитів|town||missing polygon; 
+n337520849|Згурівка|town||missing polygon; 
+n337520759|Здолбунів|town||missing polygon; 
+n337549096|Зідьки|town||missing polygon; 
+n337687842|Іванівка|town||missing polygon; 
+n702132126|Іванівка|town||missing polygon; 
+n337516690|Іршанськ|town||missing polygon; 
+n337519683|Калинівка|town||missing polygon; 
+n337558381|Калинівка|town||missing polygon; 
+n337516738|Калита|town||missing polygon; 
+n337597113|Карнаухівка|town||missing polygon; 
+n337592962|Кирнасівка|town||missing polygon; 
+n337509600|Клесів|town||missing polygon; 
+n337519243|Кодра|town||missing polygon; 
+n337538653|Кожанка|town||missing polygon; 
+n337527074|Козин|town||missing polygon; 
+n337575116|Комсомольськ|town||missing polygon; 
+n337539071|Краковець|town||missing polygon; 
+n337662411|Красноїльськ|town||missing polygon; 
+n337570085|Краснопавлівка|town||missing polygon; 
+n337600557|Кринички|town||missing polygon; 
+n337538426|Куликів|town||missing polygon; 
+n337526569|Лопатин|town||missing polygon; 
+n337512029|Лугини|town||missing polygon; 
+n337540453|Любар|town||missing polygon; 
+n337534135|Магерів|town||missing polygon; 
+n337544240|Малинівка|town||missing polygon; 
+n337578657|Маньківка|town||missing polygon; 
+n337674908|Миколаївка|town||missing polygon; 
+n337534123|Миропіль|town||missing polygon; 
+n337522684|Мізоч|town||missing polygon; 
+n337520527|Млинів|town||missing polygon; 
+n337588247|Муровані Курилівці|town||missing polygon; 
+n337510727|Народичі|town||missing polygon; 
+n337549574|Нижанковичі|town||missing polygon; 
+n337517582|Нова Борова|town||missing polygon; 
+n337584174|Нова Ушиця|town||missing polygon; 
+n337541215|Новий Яричів|town||missing polygon; 
+n337556565|Нові Стрілища|town||missing polygon; 
+n337526958|Новогуйвинське|town||missing polygon; 
+n337510555|Олевськ|town||missing polygon; 
+n337671978|Олександрівка|town||missing polygon; 
+n337538874|Олесько|town||missing polygon; 
+n337545110|Оржиця|town||missing polygon; 
+n337516683|Оржів|town||missing polygon; 
+n337597829|Петропавлівка|town||missing polygon; 
+n337539725|Підкамінь|town||missing polygon; 
+n337517677|Пісківка|town||missing polygon; 
+n337551197|Поморяни|town||missing polygon; 
+n337527159|Понінка|town||missing polygon; 
+n337663428|Путила|town||missing polygon; 
+n1652910513|Розділ|town||missing polygon; 
+n337528233|Романів|town||missing polygon; 
+n337538191|Ромодан|town||missing polygon; 
+n337548010|Ружин|town||missing polygon; 
+n337560536|Савинці|town||missing polygon; 
+n337569695|Сахновщина|town||missing polygon; 
+n337553321|Семенівка|town||missing polygon; 
+n337583580|Славське|town||missing polygon; 
+n337666951|Слобідка|town||missing polygon; 
+n337526312|Смига|town||missing polygon; 
+n337515468|Соснове|town||missing polygon; 
+n337660175|Софіївка|town||missing polygon; 
+n337511426|Степань|town||missing polygon; 
+n337515362|Талалаївка|town||missing polygon; 
+n337691696|Тарутине|town||missing polygon; 
+n337590253|Теплик|town||missing polygon; 
+n337509712|Томашгород|town||missing polygon; 
+n337594569|Томашпіль|town||missing polygon; 
+n337595939|Тростянець|town||missing polygon; 
+n337681855|Цебрикове|town||missing polygon; 
+n337576097|Чемерівці|town||missing polygon; 
+n337556862|Червоний Донець|town||missing polygon; 
+n337521296|Червоноармійськ|town||missing polygon; 
+n337655971|Чечельник|town||missing polygon; 
+n337689002|Чорноморське|town||missing polygon; 
+n337535925|Чуднів|town||missing polygon; 
+n337587448|Шаргород|town||missing polygon; 
+n337548964|Шевченкове|town||missing polygon; 
+n253900783|Щастя|town||missing polygon; 
+n337595311|Ювілейне|town||missing polygon; 
+n337567918|Ярмолинці|town||missing polygon; 
+n337596679,w30722830,r2396427|Біле|town||multiple place objects; 
+n1628075066,w183700330,r2445912|Верхній Рогачик|town||multiple place objects; 
+n337683905,w174662279,r2447701|Веселе|town||multiple place objects; 
+n337665263,w220886009,r3613175|Вільнянськ|town||multiple place objects; 
+n256615117,w30718869,r3106795|Волноваха|town||multiple place objects; 
+n313201266,w225234976,r3628014|Волочиськ|town||multiple place objects; 
+n285723343,w204997516,r2817257|Герца|town||multiple place objects; 
+n1637465428,w60117478,r2033368|Зеленодольськ|town||multiple place objects; 
+n337592920,w30722819,r3628807|Зимогір’я|town||multiple place objects; 
+n70950474,w30718774,r2675311|Курахове|town||multiple place objects; 
+n337516475,w226685671,r2313459|Малин|town||multiple place objects; 
+n1685829433,w191420804,r3559895|Мерефа|town||multiple place objects; 
+n337680572,w193434123,r3603169|Молочанськ|town||multiple place objects; 
+n337524775,w197639891,r3589658|Охтирка|town||multiple place objects; 
+n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
+n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
+n312276821,w30711206,r3626221|Снятин|town||multiple place objects; 
+n337601344,w30722486,r3627132|Суходільськ|town||multiple place objects; 
+n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
+n337504305,w206589793,r2776723|Шостка|town||multiple place objects; 
+n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
+n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829;wikipedia=uk:Гуляйполе|http://ru.wikipedia.org/wiki/Гуляйполе|multiple place objects; node and way tag values are different; 
+n337698272,r3030305|Аграрное|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698230,r3030326|Аэрофлотский|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n1668578377,r2395753|Бабинці|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337541242,r3166784|Вишнівець|town|name:en=Vyshnivets|Vyshnivecj;place=town|village;population=3424|3405|node and relation place-tag values are different; node and relation tag values are different; 
+n337694734,r3030331|Вольное|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337519207,r3782165|Гоща|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337562696,r3166882|Гримайлів|town|name:en=Hrymailiv|Ghrymajliv;place=town|village;population=1973|1962|node and relation place-tag values are different; node and relation tag values are different; 
+n337561716,r3166928|Дружба|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337518209,r1951962|Жовтневе|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n1643271217,r3166964|Заводське|town|name:en=Zavodske|Zavodsjke;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337544447,r3166976|Залізці|town|name:en=Zaliztsi|Zalizci;place=town|village;population=2706|2703|node and relation place-tag values are different; node and relation tag values are different; 
+n1172307894,r3006716|Заозёрное|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337580547,r3167014|Золотий Потік|town|name:en=Zolotyi Potik|Zolotyj Potik;place=town|village;population=2480|2473|node and relation place-tag values are different; node and relation tag values are different; 
+n337700347,r1641921|Кацивели|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337699299,r3030999|Кача|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337519781,r3782179|Квасилів|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337554737,r3167053|Козлів|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698279,r3030327|Комсомольское|town|addr:district=Симферопольский район|Симферопольский городской совет;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337579750,r3167079|Коропець|town|name:en=Koropets|Koropecj;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698784,r3030898|Курортное|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700248,r3059589|Курпаты|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700209,r3059605|Ливадия|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337592273,r3167217|Мельниця-Подільська|town|name:en=Melnytsia-Podilska|Meljnycja-Podiljsjka;place=town|village;population=3712|3724|node and relation place-tag values are different; node and relation tag values are different; 
+n275186298,r3030953|Мирный|town|addr:postcode=297492|97492;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337534360,r3620391|Немирів|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700092,r3598392|Никита|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337699185,r3006937|Новый Свет|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698627,r2980497|Орджоникидзе|town|admin_level=8|9;place=town|village;wikipedia=uk:Орджонікідзе (Феодосійська міськрада)|ru:Орджоникидзе_(Крым)|node and relation place-tag values are different; node and relation tag values are different; 
+n337700219,r3072145|Ореанда|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700328,r3006787|Парковое|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337699174,r3030274|Почтовое|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337566424,r2145501|Східниця|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337700359,r3598379|Форос|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698703,r3059613|Щебетовка|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n1602171866,r2383858|Авдіївка|town|population=35364|35065|node and relation tag values are different; 
+n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
+n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
+n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
+n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
+n337541358,r2108755|Брюховичі|town|name:en=Briukhovychi|Bryukhovychi|node and relation tag values are different; 
+n2758288894,r3620421|Гвардейское|town|name:en=Gvardeiskoe|Hvardiiske|node and relation tag values are different; 
+n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
+n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
+n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
+n299466010,r3138416|Коктебель|town|addr:postcode=98186|298186|node and relation tag values are different; 
+n1712742817,r3167073|Копичинці|town|population=6869|6867;website=http://kopychyntsi.com.ua|[http://kopychyntsi.com.ua/ http://kopychyntsi.com.ua/]|node and relation tag values are different; 
+n337700260,r3018346|Кореиз|town|addr:region:uk=Республіка Крим|Автономна Республіка Крим|node and relation tag values are different; 
+n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
+n337560387,r3167221|Микулинці|town|name:en=Mykulyntsi|Mykulynci|node and relation tag values are different; 
+n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relation tag values are different; 
+n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
+n312253429,r3167388|Почаїв|town|name:en=Pochaiv|Pochajiv;population=7757|17757|node and relation tag values are different; 
+n337697628,r3734455|Приморский|town|name:en=Prymorskyi|Prymorsky;wikipedia=ru:Приморский (Крым)|uk:Приморський|node and relation tag values are different; 
+n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
+n256613983,r2068203|Сніжне|town|name:fr=Snijnïé|Snijne|node and relation tag values are different; 
+n1830695011,r2997809|Феодосия|town|admin_level=8|9;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
+n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
+n337695072,r2865249|Черноморское|town|name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
+n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
+n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
+n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
+n312259277,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|node and relation tag values are different; 
+n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
+n337694589,w30716154|Азовское|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n311427965,w193355989|Багерово|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337601080,w30700891|Батьово|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700320,w225981775|Береговое|town|name:en=Beregovoye|Beregovoe;place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337527003,w254534373|Білий Колодязь|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n941385448,w30701593|Буштино|town|place=town|village;population=8634|12488|node and way place-tag values are different; node and way tag values are different; 
+n337547987,w30701163|Великий Любінь|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337659421,w30700533|Вилок|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337526051,w168175776|Вільча|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700114,w37910013|Восход|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700287,w30711827|Голубой Залив|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n611230844,w76738285|Дослідницьке|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337699968,w30713452|Краснокаменка|town|addr:postcode=98646|98653;place=town|village;population=1024|1023|node and way place-tag values are different; node and way tag values are different; 
+n337699692,w30713710|Куйбышево|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337559571,w262597727|Меденичі|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337699434,w30714083|Научный|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337698616,w30715964|Николаевка|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337695588,w30716056|Новосёловское|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700100,w37909676|Отрадное|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337562742,w178646383|Підбуж|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337509652,w24839428|Рафалівка|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337510069,w280426636|Рокитне|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700339,w30711860|Санаторное|town|name:en=Sanatornoye|Sanatornoe;place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337700061,w30712938|Советское|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337542651,w135405996|Терезине|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337523990,w230875837|Чабани|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n1984366540,w186524412|Черкаське|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
+n337697952,w30716000|Белогорск|town|name:de=Belogorsk|Belohorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
+n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
+n337698300,w30712848|Грэсовский|town|name:en=Gresovsky|Hresivskyi;wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
+n337700009,w30716153|Гурзуф|town|name:en=Gurzuf|Hurzuf|node and way tag values are different; 
+n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
+n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnjohirskyj;name:fr=Nijnegorskyï|Nyjnohirskyï|node and way tag values are different; 
+n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
+n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
+n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
 
 Multiple polygons:
+2|39682896|2842607,3607888|
+2|60410873|1418322,2464737|
+2|253900783|2171253,2581142|
+2|269665736|2251876,2801669|
+2|311429294|2865045,2865046|
+2|337521060|2711953,3620915|
+2|337525174|3557610,3557617|
+2|337534409|3558015,3558064|
+2|337534429|3556446,3560228|
+2|337537872|3557539,3674156|
+2|337538180|3557521,3559885|
+2|337548383|3558154,3592314|
+2|337564070|3551281,3551284|
+2|337597818|1017311,1209151|
+2|337604170|3525529,3525647|
+2|1172307894|2175059,3006716|
+2|1301949790|2865045,3007111|
+3|1915924792|1418322,2081780,2464737|
+3|1915929367|1418322,2416748,2464737|
+3|1947905705|1418322,2454923,2464844|
+3|1962485354|1418322,2464844,2474594|
+3|1962656673|1418322,2464737,2474950|
+3|1962762156|1418322,2464737,2474997|
+3|1962931227|1418322,2464844,2476601|
+3|1963091987|1418322,2464844,2478378|
+3|1979193765|1418322,2521706,2523802|
+3|1979210675|1418322,2521722,2523802|
+3|1979215440|1418322,2521735,2523802|
+3|1979224801|1418322,2521750,2523802|
+3|1979394926|1418322,2464844,2521994|
+3|1980754131|1418322,2464844,2535311|
+2|1984361456|3556561,3557536|
+2|2241590676|2842607,3607888|
+2|2241590684|2842609,3607888|
+2|2241590689|2842602,3607888|
+2|2241590693|2842546,3607888|
+2|2241590698|2842583,3607888|
+2|2241590703|2842580,3607888|
+2|2241590704|2842775,3607888|
+2|2244680285|3005461,3598391|
+2|2277386340|2033405,2892058|
+2|2295859740|2842731,3607888|
+2|2295864187|2842706,3607888|
+3|2718904118|1418322,2464844,2521994|
+2|2718904124|1418322,2523805|
+2|2718904131|1418322,2523802|
+2|2718904138|1418322,2464737|
+2|2850679401|2997809,3734181|
 
 Invalid role:
 
 Invalid role:
+60189|type|boundary|60189|290547838|W||764
+405057|type|boundary|405057|49910951|W||1
+405057|type|boundary|405057|49910952|W||0
+421865|type|boundary|421865|51551900|W||0
+1192305|type|multipolygon|1192305|79363813|W||0
+1262663|type|multipolygon|1262663|84451121|W||3
+1452431|type|boundary|1452431|57876665|W||2
+1452431|type|boundary|1452431|57880289|W||1
+1452431|type|boundary|1452431|102165265|W||0
+1452445|type|boundary|1452445|57873902|W||4
+1452445|type|boundary|1452445|57876665|W||0
+1452445|type|boundary|1452445|57878796|W||3
+1452445|type|boundary|1452445|57880472|W||2
+1452445|type|boundary|1452445|102165246|W||1
+1452450|type|boundary|1452450|57873641|W||4
+1452450|type|boundary|1452450|57875726|W||2
+1452450|type|boundary|1452450|57879771|W||6
+1452450|type|boundary|1452450|57880472|W||0
+1452450|type|boundary|1452450|57880856|W||3
+1452450|type|boundary|1452450|57881132|W||5
+1452450|type|boundary|1452450|102165262|W||1
+1452462|type|boundary|1452462|57873772|W||4
+1452462|type|boundary|1452462|57873792|W||2
+1452462|type|boundary|1452462|57875726|W||6
+1452462|type|boundary|1452462|57877698|W||3
+1452462|type|boundary|1452462|57878236|W||0
+1452462|type|boundary|1452462|57882165|W||1
+1452462|type|boundary|1452462|57882632|W||5
+1452462|type|boundary|1452462|102165253|W||7
+1452467|type|boundary|1452467|5363200|W||2
+1452467|type|boundary|1452467|57874092|W||0
+1452467|type|boundary|1452467|57879779|W||3
+1452467|type|boundary|1452467|102165252|W||1
+1452471|type|boundary|1452471|57874092|W||0
+1452471|type|boundary|1452471|57874437|W||2
+1452471|type|boundary|1452471|57875022|W||4
+1452471|type|boundary|1452471|57882374|W||3
+1452471|type|boundary|1452471|102165259|W||1
+1452475|type|boundary|1452475|57874235|W||0
+1452475|type|boundary|1452475|57876549|W||2
+1452475|type|boundary|1452475|57880463|W||1
+1452475|type|boundary|1452475|102165248|W||3
+1452477|type|boundary|1452477|57874235|W||2
+1452477|type|boundary|1452477|57874882|W||1
+1452477|type|boundary|1452477|57874890|W||0
+1452477|type|boundary|1452477|102165251|W||3
+1452484|type|boundary|1452484|57873902|W||3
+1452484|type|boundary|1452484|57876540|W||0
+1452484|type|boundary|1452484|57876839|W||1
+1452484|type|boundary|1452484|57877953|W||2
+1452484|type|boundary|1452484|57880289|W||4
+1452484|type|boundary|1452484|102165250|W||5
+1456916|type|boundary|1456916|5363193|W||4
+1456916|type|boundary|1456916|49181465|W||3
+1456916|type|boundary|1456916|57874184|W||0
+1456916|type|boundary|1456916|57880610|W||1
+1456916|type|boundary|1456916|57882384|W||2
+1456917|type|boundary|1456917|57875870|W||5
+1456917|type|boundary|1456917|57877921|W||4
+1456917|type|boundary|1456917|57878684|W||2
+1456917|type|boundary|1456917|57879731|W||3
+1456917|type|boundary|1456917|57881548|W||0
+1456917|type|boundary|1456917|102312881|W||1
+1456920|type|boundary|1456920|57874963|W||0
+1456920|type|boundary|1456920|57876910|W||2
+1456920|type|boundary|1456920|57877404|W||4
+1456920|type|boundary|1456920|57879337|W||3
+1456920|type|boundary|1456920|102312879|W||1
+1456922|type|boundary|1456922|57877913|W||2
+1456922|type|boundary|1456922|57878684|W||1
+1456922|type|boundary|1456922|57880483|W||3
+1456922|type|boundary|1456922|102570989|W||0
+1456928|type|boundary|1456928|57877445|W||0
+1456928|type|boundary|1456928|57878236|W||2
+1456928|type|boundary|1456928|57879905|W||3
+1456928|type|boundary|1456928|102571002|W||1
+1456932|type|boundary|1456932|57876246|W||6
+1456932|type|boundary|1456932|57876375|W||5
+1456932|type|boundary|1456932|57876781|W||2
+1456932|type|boundary|1456932|57879856|W||4
+1456932|type|boundary|1456932|57881456|W||0
+1456932|type|boundary|1456932|57881674|W||3
+1456932|type|boundary|1456932|102570988|W||1
+1456942|type|boundary|1456942|57877445|W||0
+1456942|type|boundary|1456942|57877824|W||4
+1456942|type|boundary|1456942|57879241|W||5
+1456942|type|boundary|1456942|57881456|W||2
+1456942|type|boundary|1456942|57881802|W||3
+1456942|type|boundary|1456942|102570995|W||1
+1484077|type|multipolygon|1484077|257770280|W||26
+1514895|type|multipolygon|1514895|106177182|W||1
+1514897|type|multipolygon|1514897|106177181|W||1
+1514897|type|multipolygon|1514897|106177260|W||0
+1571873|type|multipolygon|1571873|108446529|W||0
+1571873|type|multipolygon|1571873|111813369|W||1
+1600087|type|multipolygon|1600087|277657147|W||118
+1616869|type|multipolygon|1616869|35784488|W||35
+1616869|type|multipolygon|1616869|116847653|W||36
+1616869|type|multipolygon|1616869|117131222|W||29
+1616869|type|multipolygon|1616869|117131225|W||32
+1616869|type|multipolygon|1616869|117131227|W||0
+1616869|type|multipolygon|1616869|117131229|W||34
+1616869|type|multipolygon|1616869|117131231|W||2
+1616869|type|multipolygon|1616869|117131233|W||22
+1616869|type|multipolygon|1616869|117131234|W||18
+1616869|type|multipolygon|1616869|117131237|W||26
+1616869|type|multipolygon|1616869|117131240|W||20
+1616869|type|multipolygon|1616869|117131249|W||28
+1616869|type|multipolygon|1616869|117131250|W||31
+1616869|type|multipolygon|1616869|117131254|W||30
+1616869|type|multipolygon|1616869|117131255|W||33
+1616869|type|multipolygon|1616869|117131258|W||1
+1616869|type|multipolygon|1616869|117131260|W||24
+1616869|type|multipolygon|1616869|117131261|W||17
+1616869|type|multipolygon|1616869|117131266|W||3
+1616869|type|multipolygon|1616869|117131267|W||23
+1616869|type|multipolygon|1616869|117131271|W||19
+1616869|type|multipolygon|1616869|117131272|W||21
+1616869|type|multipolygon|1616869|117131278|W||27
+1616869|type|multipolygon|1616869|117131283|W||25
+1616869|type|multipolygon|1616869|117415647|W||16
+1616869|type|multipolygon|1616869|117415669|W||15
+1616869|type|multipolygon|1616869|117739439|W||6
+1616869|type|multipolygon|1616869|117739441|W||13
+1616869|type|multipolygon|1616869|117739445|W||10
+1616869|type|multipolygon|1616869|117739451|W||5
+1616869|type|multipolygon|1616869|117739453|W||9
+1616869|type|multipolygon|1616869|117739462|W||8
+1616869|type|multipolygon|1616869|117739466|W||12
+1616869|type|multipolygon|1616869|117739470|W||7
+1616869|type|multipolygon|1616869|117739472|W||14
+1616869|type|multipolygon|1616869|117739474|W||4
+1616869|type|multipolygon|1616869|117739475|W||11
+1616871|type|multipolygon|1616871|116847580|W||4
+1616871|type|multipolygon|1616871|116847615|W||1
+1616871|type|multipolygon|1616871|116847695|W||5
+1616871|type|multipolygon|1616871|116847729|W||3
+1616871|type|multipolygon|1616871|116847753|W||2
+1616871|type|multipolygon|1616871|116847757|W||0
+1616872|type|multipolygon|1616872|116847536|W||0
+1616872|type|multipolygon|1616872|116847632|W||4
+1616872|type|multipolygon|1616872|116847653|W||3
+1616872|type|multipolygon|1616872|116847673|W||2
+1616872|type|multipolygon|1616872|116847728|W||1
+1616873|type|multipolygon|1616873|116847611|W||1
+1616873|type|multipolygon|1616873|116847660|W||0
+1619772|type|multipolygon|1619772|116847557|W||3
+1619772|type|multipolygon|1619772|116847626|W||0
+1619772|type|multipolygon|1619772|116847714|W||1
+1619772|type|multipolygon|1619772|116847727|W||2
+1619773|type|multipolygon|1619773|116847649|W||2
+1619773|type|multipolygon|1619773|117131260|W||0
+1619773|type|multipolygon|1619773|117131262|W||1
+1619774|type|multipolygon|1619774|116847547|W||1
+1619774|type|multipolygon|1619774|116847580|W||5
+1619774|type|multipolygon|1619774|116847604|W||0
+1619774|type|multipolygon|1619774|116847606|W||3
+1619774|type|multipolygon|1619774|116847622|W||8
+1619774|type|multipolygon|1619774|116847644|W||7
+1619774|type|multipolygon|1619774|116847661|W||2
+1619774|type|multipolygon|1619774|116847669|W||4
+1619774|type|multipolygon|1619774|116847708|W||6
+1619775|type|multipolygon|1619775|116847558|W||0
+1619775|type|multipolygon|1619775|116847698|W||5
+1619775|type|multipolygon|1619775|117131239|W||3
+1619775|type|multipolygon|1619775|117131247|W||4
+1619775|type|multipolygon|1619775|117131259|W||2
+1619775|type|multipolygon|1619775|117131271|W||6
+1619775|type|multipolygon|1619775|117131275|W||1
+1619776|type|multipolygon|1619776|116847693|W||0
+1619776|type|multipolygon|1619776|116847710|W||6
+1619776|type|multipolygon|1619776|116847733|W||5
+1619776|type|multipolygon|1619776|116847745|W||2
+1619776|type|multipolygon|1619776|117131233|W||3
+1619776|type|multipolygon|1619776|117131235|W||1
+1619776|type|multipolygon|1619776|117131243|W||4
+1619777|type|multipolygon|1619777|116847718|W||1
+1619777|type|multipolygon|1619777|116847739|W||2
+1619777|type|multipolygon|1619777|117131252|W||0
+1619778|type|multipolygon|1619778|116847546|W||4
+1619778|type|multipolygon|1619778|116847673|W||1
+1619778|type|multipolygon|1619778|116847752|W||2
+1619778|type|multipolygon|1619778|117131227|W||0
+1619778|type|multipolygon|1619778|117415645|W||3
+1619779|type|multipolygon|1619779|116847538|W||0
+1619779|type|multipolygon|1619779|116847628|W||4
+1619779|type|multipolygon|1619779|116847721|W||5
+1619779|type|multipolygon|1619779|117131228|W||3
+1619779|type|multipolygon|1619779|117131241|W||6
+1619779|type|multipolygon|1619779|117131262|W||2
+1619779|type|multipolygon|1619779|117131270|W||7
+1619779|type|multipolygon|1619779|117131283|W||1
+1619780|type|multipolygon|1619780|116847718|W||3
+1619780|type|multipolygon|1619780|117131245|W||1
+1619780|type|multipolygon|1619780|117131277|W||0
+1619780|type|multipolygon|1619780|117131289|W||2
+1619781|type|multipolygon|1619781|116847610|W||4
+1619781|type|multipolygon|1619781|116847635|W||1
+1619781|type|multipolygon|1619781|116847721|W||5
+1619781|type|multipolygon|1619781|117131226|W||3
+1619781|type|multipolygon|1619781|117131230|W||2
+1619781|type|multipolygon|1619781|117131265|W||0
+1619782|type|multipolygon|1619782|116847650|W||0
+1619782|type|multipolygon|1619782|117131249|W||2
+1619782|type|multipolygon|1619782|117131279|W||3
+1619782|type|multipolygon|1619782|117739478|W||1
+1619783|type|multipolygon|1619783|117131245|W||1
+1619783|type|multipolygon|1619783|117131248|W||0
+1619783|type|multipolygon|1619783|117131274|W||2
+1619784|type|multipolygon|1619784|116847540|W||1
+1619784|type|multipolygon|1619784|116847588|W||3
+1619784|type|multipolygon|1619784|116847686|W||0
+1619784|type|multipolygon|1619784|116847702|W||4
+1619784|type|multipolygon|1619784|116847723|W||2
+1619785|type|multipolygon|1619785|116847602|W||2
+1619785|type|multipolygon|1619785|116847615|W||1
+1619785|type|multipolygon|1619785|116847672|W||0
+1619786|type|multipolygon|1619786|35784488|W||5
+1619786|type|multipolygon|1619786|116847585|W||12
+1619786|type|multipolygon|1619786|116847589|W||0
+1619786|type|multipolygon|1619786|116847612|W||1
+1619786|type|multipolygon|1619786|116847618|W||11
+1619786|type|multipolygon|1619786|116847632|W||4
+1619786|type|multipolygon|1619786|116847698|W||8
+1619786|type|multipolygon|1619786|116847756|W||7
+1619786|type|multipolygon|1619786|117131234|W||9
+1619786|type|multipolygon|1619786|117131243|W||2
+1619786|type|multipolygon|1619786|117131253|W||10
+1619786|type|multipolygon|1619786|117131268|W||6
+1619786|type|multipolygon|1619786|117131272|W||3
+1619787|type|multipolygon|1619787|116847596|W||2
+1619787|type|multipolygon|1619787|116847649|W||4
+1619787|type|multipolygon|1619787|116847745|W||1
+1619787|type|multipolygon|1619787|117131228|W||3
+1619787|type|multipolygon|1619787|117131267|W||0
+1619788|type|multipolygon|1619788|116847677|W||2
+1619788|type|multipolygon|1619788|116847683|W||0
+1619788|type|multipolygon|1619788|117131263|W||1
+1619788|type|multipolygon|1619788|117131288|W||3
+1619789|type|multipolygon|1619789|116847710|W||1
+1619789|type|multipolygon|1619789|117131285|W||0
+1619790|type|multipolygon|1619790|116847567|W||3
+1619790|type|multipolygon|1619790|116847597|W||1
+1619790|type|multipolygon|1619790|116847631|W||0
+1619790|type|multipolygon|1619790|116847729|W||2
+1619791|type|multipolygon|1619791|116847669|W||4
+1619791|type|multipolygon|1619791|116847683|W||6
+1619791|type|multipolygon|1619791|116847695|W||3
+1619791|type|multipolygon|1619791|116847750|W||2
+1619791|type|multipolygon|1619791|117131224|W||1
+1619791|type|multipolygon|1619791|117131246|W||0
+1619791|type|multipolygon|1619791|117131273|W||5
+1619792|type|multipolygon|1619792|116847628|W||2
+1619792|type|multipolygon|1619792|116847693|W||4
+1619792|type|multipolygon|1619792|116847733|W||6
+1619792|type|multipolygon|1619792|117131228|W||1
+1619792|type|multipolygon|1619792|117131233|W||8
+1619792|type|multipolygon|1619792|117131238|W||3
+1619792|type|multipolygon|1619792|117131243|W||7
+1619792|type|multipolygon|1619792|117131260|W||10
+1619792|type|multipolygon|1619792|117131262|W||0
+1619792|type|multipolygon|1619792|117131267|W||9
+1619792|type|multipolygon|1619792|117131285|W||5
+1619793|type|multipolygon|1619793|116847608|W||1
+1619793|type|multipolygon|1619793|116847627|W||0
+1619794|type|multipolygon|1619794|116847567|W||2
+1619794|type|multipolygon|1619794|116847602|W||0
+1619794|type|multipolygon|1619794|116847651|W||1
+1619794|type|multipolygon|1619794|116847753|W||3
+1619795|type|multipolygon|1619795|116847684|W||0
+1619795|type|multipolygon|1619795|116847703|W||1
+1619795|type|multipolygon|1619795|117131223|W||3
+1619795|type|multipolygon|1619795|117131239|W||2
+1619796|type|multipolygon|1619796|116847538|W||1
+1619796|type|multipolygon|1619796|116847563|W||2
+1619796|type|multipolygon|1619796|117131237|W||0
+1619797|type|multipolygon|1619797|116847703|W||2
+1619797|type|multipolygon|1619797|116847724|W||0
+1619797|type|multipolygon|1619797|116847739|W||5
+1619797|type|multipolygon|1619797|117131259|W||1
+1619797|type|multipolygon|1619797|117131264|W||3
+1619797|type|multipolygon|1619797|117131289|W||4
+1619798|type|multipolygon|1619798|116847610|W||2
+1619798|type|multipolygon|1619798|116847656|W||1
+1619798|type|multipolygon|1619798|117131241|W||3
+1619798|type|multipolygon|1619798|117131242|W||0
+1619799|type|multipolygon|1619799|116847596|W||3
+1619799|type|multipolygon|1619799|116847628|W||2
+1619799|type|multipolygon|1619799|117131235|W||0
+1619799|type|multipolygon|1619799|117131238|W||1
+1619800|type|multipolygon|1619800|117131251|W||1
+1619800|type|multipolygon|1619800|117131257|W||2
+1619800|type|multipolygon|1619800|117131282|W||0
+1619801|type|multipolygon|1619801|116847533|W||0
+1619801|type|multipolygon|1619801|117131224|W||1
+1619801|type|multipolygon|1619801|117131232|W||2
+1622160|type|multipolygon|1622160|116847665|W||1
+1622160|type|multipolygon|1622160|117131266|W||2
+1622160|type|multipolygon|1622160|117415654|W||0
+1622161|type|multipolygon|1622161|116847584|W||1
+1622161|type|multipolygon|1622161|116847744|W||3
+1622161|type|multipolygon|1622161|117415646|W||2
+1622161|type|multipolygon|1622161|117415674|W||0
+1622162|type|multipolygon|1622162|116847595|W||3
+1622162|type|multipolygon|1622162|116847657|W||1
+1622162|type|multipolygon|1622162|117415680|W||0
+1622162|type|multipolygon|1622162|117415681|W||2
+1622163|type|multipolygon|1622163|116847584|W||2
+1622163|type|multipolygon|1622163|117415648|W||0
+1622163|type|multipolygon|1622163|117415652|W||1
+1622164|type|multipolygon|1622164|116847546|W||0
+1622164|type|multipolygon|1622164|116847645|W||2
+1622164|type|multipolygon|1622164|117131258|W||4
+1622164|type|multipolygon|1622164|117415661|W||3
+1622164|type|multipolygon|1622164|117415666|W||1
+1622165|type|multipolygon|1622165|116847719|W||2
+1622165|type|multipolygon|1622165|117415638|W||0
+1622165|type|multipolygon|1622165|117415664|W||1
+1622166|type|multipolygon|1622166|116847561|W||4
+1622166|type|multipolygon|1622166|116847678|W||0
+1622166|type|multipolygon|1622166|117415637|W||3
+1622166|type|multipolygon|1622166|117415638|W||2
+1622166|type|multipolygon|1622166|117415665|W||1
+1622167|type|multipolygon|1622167|116847657|W||3
+1622167|type|multipolygon|1622167|116847699|W||1
+1622167|type|multipolygon|1622167|117415655|W||2
+1622167|type|multipolygon|1622167|117415682|W||0
+1622168|type|multipolygon|1622168|116847549|W||4
+1622168|type|multipolygon|1622168|116847600|W||2
+1622168|type|multipolygon|1622168|117131253|W||5
+1622168|type|multipolygon|1622168|117131261|W||0
+1622168|type|multipolygon|1622168|117415643|W||3
+1622168|type|multipolygon|1622168|117415673|W||1
+1622169|type|multipolygon|1622169|116847537|W||2
+1622169|type|multipolygon|1622169|116847717|W||0
+1622169|type|multipolygon|1622169|116847736|W||1
+1622170|type|multipolygon|1622170|116847579|W||1
+1622170|type|multipolygon|1622170|116847645|W||2
+1622170|type|multipolygon|1622170|117415640|W||0
+1622171|type|multipolygon|1622171|116847699|W||0
+1622171|type|multipolygon|1622171|117415656|W||2
+1622171|type|multipolygon|1622171|117415676|W||1
+1622172|type|multipolygon|1622172|116847696|W||4
+1622172|type|multipolygon|1622172|116847719|W||1
+1622172|type|multipolygon|1622172|117415644|W||3
+1622172|type|multipolygon|1622172|117415665|W||2
+1622172|type|multipolygon|1622172|117415672|W||0
+1622173|type|multipolygon|1622173|116847549|W||0
+1622173|type|multipolygon|1622173|116847618|W||1
+1622173|type|multipolygon|1622173|117131291|W||2
+1622174|type|multipolygon|1622174|116847582|W||1
+1622174|type|multipolygon|1622174|116847600|W||0
+1622174|type|multipolygon|1622174|117415663|W||2
+1622175|type|multipolygon|1622175|116847537|W||1
+1622175|type|multipolygon|1622175|116847696|W||3
+1622175|type|multipolygon|1622175|117415651|W||0
+1622175|type|multipolygon|1622175|117415662|W||2
+1622176|type|multipolygon|1622176|116847717|W||1
+1622176|type|multipolygon|1622176|116847744|W||3
+1622176|type|multipolygon|1622176|117415653|W||0
+1622176|type|multipolygon|1622176|117415667|W||2
+1622177|type|multipolygon|1622177|116847678|W||7
+1622177|type|multipolygon|1622177|117415642|W||8
+1622177|type|multipolygon|1622177|117415644|W||6
+1622177|type|multipolygon|1622177|117415648|W||2
+1622177|type|multipolygon|1622177|117415653|W||4
+1622177|type|multipolygon|1622177|117415655|W||10
+1622177|type|multipolygon|1622177|117415662|W||5
+1622177|type|multipolygon|1622177|117415674|W||3
+1622177|type|multipolygon|1622177|117415676|W||0
+1622177|type|multipolygon|1622177|117415677|W||1
+1622177|type|multipolygon|1622177|117415681|W||9
+1622178|type|multipolygon|1622178|116847582|W||2
+1622178|type|multipolygon|1622178|117415636|W||1
+1622178|type|multipolygon|1622178|117415671|W||0
+1622179|type|multipolygon|1622179|116847579|W||4
+1622179|type|multipolygon|1622179|116847665|W||1
+1622179|type|multipolygon|1622179|117131231|W||2
+1622179|type|multipolygon|1622179|117415661|W||3
+1622179|type|multipolygon|1622179|117415679|W||0
+1622180|type|multipolygon|1622180|117415647|W||1
+1622180|type|multipolygon|1622180|117415657|W||2
+1622180|type|multipolygon|1622180|117415671|W||3
+1622180|type|multipolygon|1622180|117415673|W||0
+1622181|type|multipolygon|1622181|116847561|W||3
+1622181|type|multipolygon|1622181|116847595|W||1
+1622181|type|multipolygon|1622181|117415642|W||2
+1622181|type|multipolygon|1622181|117415659|W||0
+1625120|type|multipolygon|1625120|116847650|W||2
+1625120|type|multipolygon|1625120|116847707|W||1
+1625120|type|multipolygon|1625120|117739444|W||0
+1625121|type|multipolygon|1625121|116847638|W||3
+1625121|type|multipolygon|1625121|116847659|W||1
+1625121|type|multipolygon|1625121|117739453|W||0
+1625121|type|multipolygon|1625121|117739460|W||2
+1625122|type|multipolygon|1625122|117739447|W||1
+1625122|type|multipolygon|1625122|117739454|W||0
+1625122|type|multipolygon|1625122|117739463|W||3
+1625122|type|multipolygon|1625122|117739476|W||2
+1625123|type|multipolygon|1625123|116847588|W||2
+1625123|type|multipolygon|1625123|116847629|W||1
+1625123|type|multipolygon|1625123|116847666|W||0
+1625123|type|multipolygon|1625123|116847694|W||3
+1625124|type|multipolygon|1625124|116847544|W||3
+1625124|type|multipolygon|1625124|116847550|W||1
+1625124|type|multipolygon|1625124|116847622|W||2
+1625124|type|multipolygon|1625124|116847735|W||0
+1625125|type|multipolygon|1625125|116847613|W||0
+1625125|type|multipolygon|1625125|117131230|W||1
+1625125|type|multipolygon|1625125|117131276|W||3
+1625125|type|multipolygon|1625125|117131282|W||2
+1625126|type|multipolygon|1625126|116847648|W||1
+1625126|type|multipolygon|1625126|116847668|W||3
+1625126|type|multipolygon|1625126|117739450|W||2
+1625126|type|multipolygon|1625126|117739452|W||0
+1625127|type|multipolygon|1625127|116847671|W||3
+1625127|type|multipolygon|1625127|116847707|W||0
+1625127|type|multipolygon|1625127|117131222|W||2
+1625127|type|multipolygon|1625127|117739478|W||1
+1625128|type|multipolygon|1625128|116847556|W||0
+1625128|type|multipolygon|1625128|116847576|W||1
+1625128|type|multipolygon|1625128|116847597|W||3
+1625128|type|multipolygon|1625128|116847708|W||2
+1625129|type|multipolygon|1625129|116847550|W||2
+1625129|type|multipolygon|1625129|116847604|W||1
+1625129|type|multipolygon|1625129|116847715|W||0
+1625130|type|multipolygon|1625130|116847603|W||1
+1625130|type|multipolygon|1625130|116847642|W||3
+1625130|type|multipolygon|1625130|117739441|W||2
+1625130|type|multipolygon|1625130|117739448|W||0
+1625131|type|multipolygon|1625131|116847690|W||3
+1625131|type|multipolygon|1625131|116847709|W||1
+1625131|type|multipolygon|1625131|117131255|W||2
+1625131|type|multipolygon|1625131|117739449|W||0
+1625132|type|multipolygon|1625132|116847568|W||0
+1625132|type|multipolygon|1625132|116847642|W||1
+1625132|type|multipolygon|1625132|117739472|W||2
+1625133|type|multipolygon|1625133|116847621|W||0
+1625133|type|multipolygon|1625133|116847662|W||2
+1625133|type|multipolygon|1625133|117739464|W||1
+1625133|type|multipolygon|1625133|117739475|W||3
+1625134|type|multipolygon|1625134|116847709|W||1
+1625134|type|multipolygon|1625134|116847731|W||2
+1625134|type|multipolygon|1625134|117131229|W||3
+1625134|type|multipolygon|1625134|117131268|W||4
+1625134|type|multipolygon|1625134|117739458|W||0
+1625135|type|multipolygon|1625135|116847659|W||0
+1625135|type|multipolygon|1625135|116847680|W||2
+1625135|type|multipolygon|1625135|117739462|W||3
+1625135|type|multipolygon|1625135|117739467|W||1
+1625136|type|multipolygon|1625136|116847668|W||1
+1625136|type|multipolygon|1625136|116847734|W||3
+1625136|type|multipolygon|1625136|117739440|W||0
+1625136|type|multipolygon|1625136|117739463|W||2
+1625137|type|multipolygon|1625137|117739450|W||1
+1625137|type|multipolygon|1625137|117739471|W||2
+1625137|type|multipolygon|1625137|117739476|W||0
+1625137|type|multipolygon|1625137|117739479|W||3
+1625138|type|multipolygon|1625138|116847542|W||2
+1625138|type|multipolygon|1625138|116847701|W||0
+1625138|type|multipolygon|1625138|117739439|W||1
+1625138|type|multipolygon|1625138|117739446|W||3
+1625139|type|multipolygon|1625139|116847728|W||1
+1625139|type|multipolygon|1625139|116847741|W||0
+1625139|type|multipolygon|1625139|116847752|W||2
+1625140|type|multipolygon|1625140|116847529|W||2
+1625140|type|multipolygon|1625140|116847551|W||0
+1625140|type|multipolygon|1625140|117739454|W||1
+1625141|type|multipolygon|1625141|116847605|W||1
+1625141|type|multipolygon|1625141|116847623|W||0
+1625141|type|multipolygon|1625141|117739469|W||2
+1625142|type|multipolygon|1625142|117739459|W||2
+1625142|type|multipolygon|1625142|117739468|W||0
+1625142|type|multipolygon|1625142|117739471|W||1
+1625143|type|multipolygon|1625143|116847542|W||0
+1625143|type|multipolygon|1625143|117739451|W||2
+1625143|type|multipolygon|1625143|117739455|W||1
+1625144|type|multipolygon|1625144|116847606|W||2
+1625144|type|multipolygon|1625144|116847636|W||0
+1625144|type|multipolygon|1625144|116847661|W||1
+1625145|type|multipolygon|1625145|116847530|W||2
+1625145|type|multipolygon|1625145|116847544|W||3
+1625145|type|multipolygon|1625145|116847576|W||1
+1625145|type|multipolygon|1625145|116847644|W||0
+1625146|type|multipolygon|1625146|116847656|W||1
+1625146|type|multipolygon|1625146|117131226|W||2
+1625146|type|multipolygon|1625146|117131257|W||3
+1625146|type|multipolygon|1625146|117131269|W||0
+1625147|type|multipolygon|1625147|116847589|W||3
+1625147|type|multipolygon|1625147|116847677|W||1
+1625147|type|multipolygon|1625147|117131236|W||0
+1625147|type|multipolygon|1625147|117131244|W||2
+1625148|type|multipolygon|1625148|116847623|W||3
+1625148|type|multipolygon|1625148|116847690|W||0
+1625148|type|multipolygon|1625148|117131225|W||1
+1625148|type|multipolygon|1625148|117739442|W||2
+1625148|type|multipolygon|1625148|117739480|W||4
+1625149|type|multipolygon|1625149|116847731|W||0
+1625149|type|multipolygon|1625149|116847756|W||1
+1625149|type|multipolygon|1625149|117739465|W||2
+1625150|type|multipolygon|1625150|116847617|W||1
+1625150|type|multipolygon|1625150|116847686|W||2
+1625150|type|multipolygon|1625150|116847705|W||0
+1625150|type|multipolygon|1625150|116847727|W||3
+1625151|type|multipolygon|1625151|116847646|W||0
+1625151|type|multipolygon|1625151|116847694|W||1
+1625151|type|multipolygon|1625151|116847702|W||2
+1625151|type|multipolygon|1625151|116847714|W||3
+1625152|type|multipolygon|1625152|116847603|W||0
+1625152|type|multipolygon|1625152|116847621|W||2
+1625152|type|multipolygon|1625152|117739456|W||3
+1625152|type|multipolygon|1625152|117739466|W||1
+1625153|type|multipolygon|1625153|116847650|W||1
+1625153|type|multipolygon|1625153|117131249|W||3
+1625153|type|multipolygon|1625153|117131279|W||0
+1625153|type|multipolygon|1625153|117739478|W||2
+1625154|type|multipolygon|1625154|116847529|W||2
+1625154|type|multipolygon|1625154|116847734|W||1
+1625154|type|multipolygon|1625154|117739457|W||0
+1625155|type|multipolygon|1625155|116847613|W||2
+1625155|type|multipolygon|1625155|116847635|W||1
+1625155|type|multipolygon|1625155|117739443|W||0
+1625156|type|multipolygon|1625156|116847638|W||2
+1625156|type|multipolygon|1625156|116847662|W||0
+1625156|type|multipolygon|1625156|117739445|W||3
+1625156|type|multipolygon|1625156|117739473|W||1
+1625157|type|multipolygon|1625157|116847605|W||2
+1625157|type|multipolygon|1625157|116847687|W||1
+1625157|type|multipolygon|1625157|117131250|W||0
+1625157|type|multipolygon|1625157|117739442|W||3
+1625158|type|multipolygon|1625158|116847608|W||4
+1625158|type|multipolygon|1625158|116847629|W||1
+1625158|type|multipolygon|1625158|116847689|W||0
+1625158|type|multipolygon|1625158|116847723|W||2
+1625158|type|multipolygon|1625158|116847746|W||3
+1625159|type|multipolygon|1625159|116847680|W||0
+1625159|type|multipolygon|1625159|116847701|W||2
+1625159|type|multipolygon|1625159|117739470|W||1
+1625159|type|multipolygon|1625159|117739477|W||3
+1625160|type|multipolygon|1625160|116847684|W||4
+1625160|type|multipolygon|1625160|116847748|W||0
+1625160|type|multipolygon|1625160|117131264|W||3
+1625160|type|multipolygon|1625160|117131274|W||2
+1625160|type|multipolygon|1625160|117131292|W||1
+1625161|type|multipolygon|1625161|116847648|W||2
+1625161|type|multipolygon|1625161|117739459|W||1
+1625161|type|multipolygon|1625161|117739461|W||0
+1741829|type|multipolygon|1741829|129087185|W||6
+1741829|type|multipolygon|1741829|129087190|W||5
+1755267|type|multipolygon|1755267|130307005|W||2
+1755267|type|multipolygon|1755267|130307006|W||3
+1755267|type|multipolygon|1755267|130307007|W||1
+1759852|type|multipolygon|1759852|39450845|W||6
+1759853|type|multipolygon|1759853|39450845|W||10
+1759930|type|multipolygon|1759930|86963289|W||3
+1759930|type|multipolygon|1759930|130761072|W||4
+1759930|type|multipolygon|1759930|130761073|W||5
+1759930|type|multipolygon|1759930|130761074|W||2
+1759930|type|multipolygon|1759930|130761075|W||1
+1759930|type|multipolygon|1759930|130761076|W||6
+1769348|type|multipolygon|1769348|131665435|W||4
+1991648|type|multipolygon|1991648|176296962|W||2
+1991648|type|multipolygon|1991648|176296963|W||4
+1991648|type|multipolygon|1991648|176296964|W||3
+1998180|type|multipolygon|1998180|99915458|W||4
+1998180|type|multipolygon|1998180|99915463|W||3
+1998180|type|multipolygon|1998180|148132538|W||2
+2032242|type|multipolygon|2032242|150806713|W||9
+2108812|type|multipolygon|2108812|123205596|W||1
+2108812|type|multipolygon|2108812|171756472|W||2
+2261408|type|multipolygon|2261408|169874509|W||1
+2261408|type|multipolygon|2261408|169874510|W||0
+2261408|type|multipolygon|2261408|169874511|W||2
+2267372|type|multipolygon|2267372|260063833|W||5
+2293620|type|multipolygon|2293620|239639268|W||2
+2334617|type|multipolygon|2334617|4527801|W||3
+2334617|type|multipolygon|2334617|4527889|W||17
+2334617|type|multipolygon|2334617|4527914|W||13
+2334617|type|multipolygon|2334617|4528078|W||10
+2334617|type|multipolygon|2334617|4528431|W||15
+2334617|type|multipolygon|2334617|4528439|W||7
+2334617|type|multipolygon|2334617|4529096|W||9
+2334617|type|multipolygon|2334617|4529316|W||14
+2334617|type|multipolygon|2334617|4529581|W||11
+2334617|type|multipolygon|2334617|4529883|W||5
+2334617|type|multipolygon|2334617|4530007|W||16
+2334617|type|multipolygon|2334617|4530438|W||6
+2334617|type|multipolygon|2334617|4530551|W||8
+2334617|type|multipolygon|2334617|4530754|W||12
+2334617|type|multipolygon|2334617|4531024|W||4
+2334617|type|multipolygon|2334617|174725784|W||1
+2334617|type|multipolygon|2334617|174725785|W||0
+2619391|type|multipolygon|2619391|198114830|W||0
+2748261|type|multipolygon|2748261|204776314|W||10
+2908427|type|boundary|2908427|219941009|W||2
+3157841|type|boundary|3157841|30720880|W||0
+3236748|type|boundary|3236748|239964397|W||0
+3254362|type|multipolygon|3254362|242728597|W||26
+3254362|type|multipolygon|3254362|242728601|W||23
+3273099|type|multipolygon|3273099|241553377|W||13
+3273099|type|multipolygon|3273099|241553379|W||11
+3273099|type|multipolygon|3273099|242264779|W||0
+3273099|type|multipolygon|3273099|242265953|W||1
+3273099|type|multipolygon|3273099|242728596|W||12
+3273099|type|multipolygon|3273099|242728598|W||15
+3273099|type|multipolygon|3273099|242728599|W||10
+3273099|type|multipolygon|3273099|242728600|W||14
+3273792|type|multipolygon|3273792|146398455|W||2
+3273792|type|multipolygon|3273792|146651418|W||1
+3273792|type|multipolygon|3273792|242317090|W||3
+3273792|type|multipolygon|3273792|242317094|W||0
+3385051|type|multipolygon|3385051|104642030|W||1
+3385051|type|multipolygon|3385051|252342149|W||0
+3444341|type|multipolygon|3444341|256960018|W||3
+3444361|type|multipolygon|3444361|256960932|W||2
+3520753|type|boundary|3520753|262219961|W||0
+3522840|type|boundary|3522840|181226219|W|admin_center|0
+3540225|type|boundary|3540225|263599667|W|outet|0
+3548442|type|multipolygon|3548442|273990809|W||4
+3566918|type|multipolygon|3566918|265425896|W||0
+3586099|type|boundary|3586099|30717842|W|outeer|0
+3593373|type|multipolygon|3593373|174333546|W||8
+3593373|type|multipolygon|3593373|267946225|W||0
+3593373|type|multipolygon|3593373|267946227|W||2
+3593373|type|multipolygon|3593373|267946228|W||3
+3593373|type|multipolygon|3593373|267946229|W||4
+3593373|type|multipolygon|3593373|267946230|W||5
+3593373|type|multipolygon|3593373|267946232|W||6
+3593373|type|multipolygon|3593373|267946233|W||7
+3593373|type|multipolygon|3593373|267947569|W||1
+3598332|type|multipolygon|3598332|268421447|W||7
+3608705|type|multipolygon|3608705|269555495|W||0
+3608705|type|multipolygon|3608705|269555498|W||1
+3608706|type|multipolygon|3608706|269555493|W||1
+3608706|type|multipolygon|3608706|269555499|W||0
+3608707|type|multipolygon|3608707|269555487|W||1
+3608707|type|multipolygon|3608707|269555500|W||0
+3608708|type|multipolygon|3608708|269555489|W||5
+3608708|type|multipolygon|3608708|269555491|W||3
+3608708|type|multipolygon|3608708|269555492|W||1
+3608708|type|multipolygon|3608708|269555496|W||4
+3608708|type|multipolygon|3608708|269555498|W||0
+3608708|type|multipolygon|3608708|269555499|W||2
+3608708|type|multipolygon|3608708|269555500|W||6
+3615772|type|multipolygon|3615772|270387379|W||4
+3615772|type|multipolygon|3615772|270387396|W||1
+3615774|type|multipolygon|3615774|4529762|W||1
+3615774|type|multipolygon|3615774|270387415|W||2
+3615806|type|multipolygon|3615806|270387419|W||1
+3615806|type|multipolygon|3615806|270393770|W||0
+3741934|type|multipolygon|3741934|281604395|W||1
+3753834|type|multipolygon|3753834|287228910|W||1
+3773118|type|multipolygon|3773118|284399257|W||1
+3834905|type|multipolygon|3834905|280737165|W||0
 
 Invalid role:
+49715|type|boundary|49715|936128|R|land_area|753
+3784292|type|multipolygon|3784292|3784284|R|outer|5
+3784292|type|multipolygon|3784292|3784285|R|outer|2
+3784292|type|multipolygon|3784292|3784286|R|outer|3
+3784292|type|multipolygon|3784292|3784287|R|outer|1
+3784292|type|multipolygon|3784292|3784288|R|outer|6
+3784292|type|multipolygon|3784292|3784289|R|outer|4
 
 No admin_centre:
+22793
+72481
+946159
+1060651
+2077868
+2220876
+2256729
+2283083
+2367044
+2607033
+3828338
 
 name <> name:uk or invalid symbols in name:
+27212295|Євпаторія|Евпатория
+252176252|Сімферополь|Симферополь
+275181242|Поповка|Попівка
+275186298|Мирный|Мирний
+277847791|Куйбышево|Куйбишеве
+311423386|Щолкіне|Щёлкино
+311423863|Мысовое|Мисове
+311425179|Семёновка|Семенівка
+311425230|Заводське|Заводское
+311425285|Калиновка|Калинівка
+311425368|Леніне|Ленино
+311425612|Виноградное|Виноградне
+311425643|Красногорка|Красногірка
+311425759|Луговое|Лугове
+311426132|Уварово|Уварове
+311426509|Останіне|Останино
+311426552|Пісочне|Песочное
+311426557|Ленінське|Ленинское
+311426582|Кірове|Кирово
+311426592|Батальное|Батальне
+311426613|Іллічеве|Ильичёво
+311426708|Каменское|Кам’янське
+311427676|Марьевка|Мар’ївка
+311427726|Яковенково|Яковенкове
+311427763|Завітне|Заветное
+311427774|Набережное|Набережне
+311427800|Марфовка|Марфівка
+311427806|Пташкино|Пташкине
+311427884|Челядінове|Челядиново
+311427897|Приозёрное|Приозерне
+311427922|Горностаївка|Горностаевка
+311427956|Октябрьское|Октябрське
+311427965|Багерово|Багерове
+311428168|Чистополье|Чистопілля
+311428186|Затишное|Затишне
+311428307|Лібкнехтівка|Либкнехтовка
+311429127|Курортное|Курортне
+311429143|Осовины|Осовини
+311429155|Юркино|Юркине
+311429195|Глазовка|Глазівка
+311429388|Войково|Войкове
+311429407|Бондаренково|Бондаренкове
+311429630|Бєлінське|Белинское
+311429703|Золотое|Золоте
+311430788|Азовське|Азовское
+311430932|Нижньозаморське|Нижнезаморское
+311430980|Верхньозаморське|Верхнезаморское
+311431032|Новоотрадное|Нововідрадне
+311431215|Станційне|Станционное
+311431256|Новониколаевка|Новомиколаївка
+311431854|Вулкановка|Вулканівка
+337523367|Малі Загорці|Малі Загірці
+337658008|Октябрське|Жовтневе
+337692066|Армянськ|Армянск
+337692075|Волошино|Волошине
+337692146|Суворово|Суворове
+337692184|Філатівка|Филатовка
+337692305|Пятихатка|П’ятихатка
+337692352|Надеждино|Надеждине
+337692449|Смушкино|Смушкине
+337692520|Почётное|Почетне
+337692526|Красноармійське|Красноармейское
+337692580|Таврійське|Таврическое
+337692594|Рюмшино|Рюмшине
+337692628|Вишнівка|Вишнёвка
+337692642|Совхозное|Совхозне
+337692649|Красноперекопськ|Красноперекопск
+337692655|Уткіне|Уткино
+337692670|Танковое|Танкове
+337692684|Предмостное|Передмістне
+337692690|Яснополянське|Яснополянское
+337692707|Кріпке|Крепкое
+337692712|Володино|Володине
+337692727|Томашівка|Томашевка
+337692747|Зелёная Нива|Зелена Нива
+337692762|Новорыбацкое|Новорибацьке
+337692768|Ішунь|Ишунь
+337692805|Цілинне|Целинное
+337692811|Зелёный Яр|Зелений Яр
+337692825|Солонцовое|Солонцеве
+337692839|Істочне|Источное
+337692886|Медведівка|Медведевка
+337692907|Тургенєве|Тургенево
+337692915|Богачівка|Богачёвка
+337692957|Мілководне|Мелководное
+337692966|Выпасное|Випасне
+337692974|Мартыновка|Мартинівка
+337692982|Солоне Озеро|Солёное Озеро
+337693025|Новоолександрівка|Новоалександровка
+337693033|Мысовое|Мисове
+337693042|Завіт-Ленінський|Завет-Ленинский
+337693048|Воїнка|Воинка
+337693054|Привольное|Привільне
+337693060|Новопавловка|Новопавлівка
+337693090|Єрмакове|Ермаково
+337693096|Курганное|Курганне
+337693112|Портовое|Портове
+337693118|Копані|Копани
+337693124|Воронцовка|Воронцівка
+337693132|Пушкіне|Пушкино
+337693167|Кумово|Кумове
+337693185|Пахарівка|Пахаревка
+337693192|Новоіванівка|Новоивановка
+337693199|Новониколаевка|Новомиколаївка
+337693205|Пробуждение|Пробудження
+337693212|Братське|Братское
+337693225|Тутовое|Тутове
+337693236|Суботник|Субботник
+337693251|Столбовое|Стовпове
+337693257|Іллінка|Ильинка
+337693264|Істочне|Источное
+337693293|Чайкино|Чайкине
+337693299|Орловское|Орлівське
+337693309|Сватово|Сватове
+337693323|Кропоткіне|Кропоткино
+337693339|Придорожное|Придорожнє
+337693351|Трактовое|Трактове
+337693363|Маслово|Маслове
+337693369|Ковыльное|Ковильне
+337693375|Комышное|Комишне
+337693383|Луганське|Луганское
+337693390|Вітвисте|Ветвистое
+337693396|Полтавське|Полтавское
+337693402|Шатры|Шатри
+337693444|Ручьи|Руч’ї
+337693451|Снігурівка|Снигирёвка
+337693457|Новокрымское|Новокримське
+337693461|Ботанічне|Ботаническое
+337693466|Чернышёво|Чернишове
+337693481|Митюрино|Митюрине
+337693487|Роздольне|Раздольное
+337693514|Комсомольське|Комсомольское
+337693528|Федоровка|Федорівка
+337693543|Низинное|Низинне
+337693550|Лобаново|Лобанове
+337693563|Мельничное|Мельничне
+337693567|Островське|Островское
+337693574|Армійське|Армейское
+337693581|Жилино|Жилине
+337693586|Новая Деревня|Нова Деревня
+337693593|Огни|Вогні
+337693618|Огородное|Городнє
+337693623|Арбузово|Арбузове
+337693626|Матвіївка|Матвеевка
+337693634|Овощное|Овочеве
+337693642|Калиновка|Калинівка
+337693649|Павловка|Павлівка
+337693653|Островське|Островское
+337693662|Перепілкине|Перепёлкино
+337693670|Ізумрудне|Изумрудное
+337693678|Калініне|Калинино
+337693686|Зарічне|Заречное
+337693710|Комунарне|Коммунарное
+337693743|Орденоносное|Орденоносне
+337693759|Сінокісне|Сенокосное
+337693767|Суміжне|Смежное
+337693774|Болотное|Болотне
+337693782|Молочное|Молочне
+337693789|Марьино|Мар’їне
+337693795|Слов’янське|Славянское
+337693798|Кукушкіне|Кукушкино
+337693812|Многоводное|Многоводне
+337693817|Дніпровка|Днепровка
+337693821|Крестянівка|Крестьяновка
+337693831|Левітанівка|Левитановка
+337693835|Славное|Славне
+337693838|Первомайське|Первомайское
+337693841|Стальное|Стальне
+337693845|Родное|Рідне
+337693849|Стефановка|Стефанівка
+337693856|Упорное|Упорне
+337693864|Крымка|Кримка
+337693921|Побєдне|Победное
+337693938|Новокостянтинівка|Новоконстантиновка
+337693945|Крыловка|Криловка
+337693952|Антоновка|Антонівка
+337693958|Дмитрівка|Дмитриевка
+337693972|Котовське|Котовское
+337693987|Мирновка|Мирнівка
+337693994|Мічурінівка|Мичуриновка
+337693999|Волочаївка|Волочаевка
+337694005|Пшеничное|Пшеничне
+337694012|Ковыльное|Ковильне
+337694018|Апрелівка|Апрелевка
+337694023|Новопавловка|Новопавлівка
+337694028|Яркое|Ярке
+337694036|Слов’янське|Славянское
+337694042|Сєверне|Северное
+337694048|Абрикосово|Абрикосове
+337694075|Костянтинівка|Константиновка
+337694079|Благодатное|Благодатне
+337694090|Нижні Острожки|Нижние Острожки
+337694093|Новофёдоровка|Новофедорівка
+337694096|Орловка|Орлівка
+337694100|Новостепове|Новостепное
+337694105|Октябрьское|Октябрське
+337694110|Каменка|Кам’янка
+337694115|Сливянка|Слив’янка
+337694122|Нове Життя|Новая Жизнь
+337694130|Вітрянка|Ветрянка
+337694137|Далёкое|Далеке
+337694145|Тимофіївка|Тимофеевка
+337694159|Степное|Степне
+337694165|Просторное|Просторне
+337694170|Яструбці|Яструбци
+337694177|Володимирівка|Владимировка
+337694192|Озёрное|Озерне
+337694209|Рысаково|Рисакове
+337694222|Роскошное|Розкішне
+337694227|Пшеничное|Пшеничне
+337694233|Гришино|Гришине
+337694237|Соколы|Соколи
+337694241|Хлібне|Хлебное
+337694252|Рылеевка|Рилєєвка
+337694258|Ближньогородське|Ближнегородское
+337694283|Світле|Светлое
+337694288|Бородіно|Бородино
+337694308|Октябрь|Октябр
+337694313|Любимовка|Любимівка
+337694319|Журавлівка|Журавлёвка
+337694326|Зерновое|Зернове
+337694340|Кондратьево|Кіндратове
+337694346|Арбузовка|Арбузівка
+337694353|Великосілля|Великоселье
+337694359|Выпасное|Випасне
+337694365|Слов’янка|Славянка
+337694391|Побєдине|Победино
+337694397|Каштановка|Каштанівка
+337694405|Вишняковка|Вишняківка
+337694412|Бахчівка|Бахчёвка
+337694418|Польове|Полевое
+337694433|Коврово|Коврове
+337694465|Находка|Нахідка
+337694471|Отрадное|Відрадне
+337694478|Яркое Поле|Ярке Поле
+337694485|Тімірязєве|Тимирязево
+337694496|Табачное|Табачне
+337694501|Рощино|Рощине
+337694506|Луговое|Лугове
+337694528|Степановка|Степанівка
+337694535|Зоряное|Зоряне
+337694541|Майське|Майское
+337694546|Весёлое|Веселе
+337694550|Новосільцеве|Новосельцево
+337694556|Калініне|Калинино
+337694561|Гвардійське|Гвардейское
+337694566|Водопойное|Водопійне
+337694573|Братське|Братское
+337694579|Міжводне|Межводное
+337694585|Федоровка|Федорівка
+337694589|Азовське|Азовское
+337694593|Рубиновка|Рубинівка
+337694597|Сєрноводське|Серноводское
+337694601|Олексіївка|Алексеевка
+337694632|Ніжинське|Нежинское
+337694652|Краснодольное|Краснодольне
+337694657|Оленівка|Еленовка
+337694661|Заливное|Заливне
+337694671|Олександрівка|Александровка
+337694677|Ближнє|Ближнее
+337694683|Задорное|Задорне
+337694698|Дубровка|Дібрівка
+337694704|Совєтське|Советское
+337694710|Сары-Баш|Сари-Баш
+337694717|Ізобільне|Изобильное
+337694734|Вольное|Вільне
+337694749|Широкое|Широке
+337694775|Низовка|Низівка
+337694778|Тимашовка|Тимашівка
+337694783|Комунари|Коммунары
+337694790|Зоркіне|Зоркино
+337694798|Ларино|Ларине
+337694805|Красноармійське|Красноармейское
+337694810|Чехово|Чехове
+337694826|Кунцево|Кунцеве
+337694843|Кіровське|Кировское
+337694851|Знаменка|Знам’янка
+337694858|Овражное|Овражне
+337694866|Зайцево|Зайцеве
+337694876|Пушкіне|Пушкино
+337694890|Омелянівка|Емельяновка
+337694897|Плодородное|Плодородне
+337694914|Чапаєве|Чапаево
+337694924|Клепиніне|Клепинино
+337694933|Нахімове|Нахимово
+337694953|Якимівка|Акимовка
+337694960|Сніжне|Снежное
+337694968|Михайловка|Михайлівка
+337694975|Ближнє|Ближнее
+337694980|Межове|Межевое
+337694992|Уютное|Уютне
+337695004|Карповка|Карпівка
+337695010|Черново|Чернове
+337695016|Дмитровка|Дмитрівка
+337695022|Яструбівка|Ястребовка
+337695031|Войково|Войкове
+337695045|Чапаєве|Чапаево
+337695063|Зимино|Зимине
+337695072|Чорноморське|Черноморское
+337695081|Зоря|Заря
+337695090|Петровка|Петрівка
+337695097|Ровное|Рівне
+337695114|Новоэстония|Новоестонія
+337695123|Дозорное|Дозорне
+337695130|Видное|Видне
+337695137|Ленське|Ленское
+337695147|Новосільське|Новосельское
+337695155|Красноярське|Красноярское
+337695166|Климово|Климове
+337695173|Панфіловка|Панфиловка
+337695179|Тихоновка|Тихонівка
+337695202|Красногвардійське|Красногвардейское
+337695210|Сусаніне|Сусанино
+337695218|Цвітуще|Цветущее
+337695227|Кормовое|Кормове
+337695234|Хмельове|Хмелево
+337695241|Солдатське|Солдатское
+337695253|Кирсановка|Кирсанівка
+337695260|Двуречье|Дворіччя
+337695268|Охотське|Охотское
+337695277|Листвинне|Лиственное
+337695286|Доходное|Доходне
+337695293|Лінійне|Линейное
+337695308|Красная Поляна|Красна Поляна
+337695315|Дмитровка|Дмитрівка
+337695322|Внуково|Внукове
+337695328|Щербаково|Щербакове
+337695342|Новосільці|Новосельцы
+337695349|Красная Поляна|Красна Поляна
+337695366|Ізвесткове|Известковое
+337695370|Кремнівка|Кремневка
+337695379|Свердловське|Свердловское
+337695382|Червоное|Червоне
+337695396|Шалаші|Шалаши
+337695407|Миролюбовка|Миролюбівка
+337695411|Владиславовка|Владиславівка
+337695422|Зелёное|Зелене
+337695426|Артёмовка|Артемівка
+337695437|Кузнецьке|Кузнецкое
+337695444|Мускатное|Мускатне
+337695455|Володимирове|Владимирово
+337695467|Розливи|Разливы
+337695476|Новоіванівка|Новоивановка
+337695495|Невське|Невское
+337695501|Митрофановка|Митрофанівка
+337695508|Новогригорьевка|Новогригорівка
+337695514|Новоіванівка|Новоивановка
+337695519|Єлизаветове|Елизаветово
+337695524|Плодовое|Плодове
+337695548|Марьяновка|Мар’янівка
+337695555|Буревісник|Буревестник
+337695561|Нижньогірський|Нижнегорский
+337695568|Корінне|Коренное
+337695575|Уваровка|Уварівка
+337695588|Новосёловское|Новоселівське
+337695594|Каштановка|Каштанівка
+337695609|Открытое|Відкрите
+337695615|Красная Долина|Красна Долина
+337695622|Янтарное|Янтарне
+337695649|Демьяновка|Дем’янівка
+337695681|Некрасово|Некрасове
+337695694|Григорьевка|Григорівка
+337695710|Лушино|Лушине
+337695717|Красносільське|Красносельское
+337695721|Проточное|Проточне
+337695760|Чорноземне|Чернозёмное
+337695771|Красный Партизан|Красний Партизан
+337695780|Наташино|Наташине
+337695789|Ломоносово|Ломоносове
+337695794|Мироновка|Миронівка
+337695812|Октябрьское|Октябрське
+337695817|Громово|Громове
+337695823|Виноградово|Виноградове
+337695830|Властное|Владне
+337695840|Дубровское|Дібрівське
+337695848|Молочное|Молочне
+337695854|Удачное|Удачне
+337695859|Машино|Машине
+337695866|Єгорове|Егорово
+337695878|Медведево|Медведеве
+337695884|Новоникольское|Новомикільське
+337695889|Огневое|Вогневе
+337695894|Оленівка|Оленёвка
+337695899|Луговое|Лугове
+337695905|Алмазное|Алмазне
+337695923|Знаменское|Знам’янське
+337695946|Іванівка|Ивановка
+337695957|Веселовка|Веселівка
+337695961|Кукурузное|Кукурудзяне
+337695966|Добрушино|Добрушине
+337695971|Окунівка|Окунёвка
+337696002|Котельниково|Котельникове
+337696022|Новокатериновка|Новокатеринівка
+337696027|Іллінка|Ильинка
+337696034|Столбовое|Стовпове
+337696050|Порфирьевка|Порфирівка
+337696056|Вітрівка|Ветровка
+337696066|Роздольне|Раздольное
+337696071|Заріччя|Заречье
+337696097|Комаровка|Комарівка
+337696102|Присивашное|Присивашне
+337696108|Ровное|Рівне
+337696114|Марьино|Мар’їне
+337696123|Совєтський|Советский
+337696152|Сизовка|Сизівка
+337696160|Корніївка|Корнеевка
+337696174|Воробьёво|Воробйове
+337696184|Урожайное|Урожайне
+337696190|Ізвесткове|Известковое
+337696203|Тарасовка|Тарасівка
+337696220|Завітне|Заветное
+337696244|Соляное|Соляне
+337696250|Зерновое|Зернове
+337696266|Менделєєве|Менделеево
+337696276|Рогово|Рогове
+337696292|Кольцово|Кольцове
+337696301|Пятихатка|П’ятихатка
+337696306|Варваровка|Варварівка
+337696320|Садовое|Садове
+337696326|Косточковка|Кісточківка
+337696333|Прямое|Пряме
+337696337|Трактовое|Трактове
+337696343|Фурманово|Фурманове
+337696349|Водопойное|Водопійне
+337696363|Наумовка|Наумівка
+337696373|Краснофлотське|Краснофлотское
+337696378|Новоіванівка|Новоивановка
+337696382|Цвіткове|Цветково
+337696387|Коломенське|Коломенское
+337696391|Шишкино|Шишкине
+337696402|Великое|Велике
+337696408|Привітне|Приветное
+337696418|Крыловка|Криловка
+337696423|Вересаєве|Вересаево
+337696442|Зарічне|Заречное
+337696544|Амурське|Амурское
+337696550|Радужное|Радужне
+337696568|Новоолексіївка|Новоалексеевка
+337696580|Докучаєве|Докучаево
+337696590|Романово|Романове
+337696595|Октябрьское|Октябрське
+337696607|Пчільники|Пчельники
+337696610|Зерновое|Зернове
+337696622|Яструбки|Ястребки
+337696626|Дрофино|Дрофине
+337696631|Марково|Маркове
+337696638|Рунное|Рунне
+337696642|Глінка|Глинка
+337696647|Побєдне|Победное
+337696658|Чапаєвка|Чапаевка
+337696662|Токарєве|Токарево
+337696668|Звіздне|Звёздное
+337696674|Карьерное|Кар’єрне
+337696678|Новый Мир|Новий Мир
+337696683|Краснознаменка|Краснознам’янка
+337696695|Золотое|Золоте
+337696699|Туннельное|Тунельне
+337696729|Шубино|Шубине
+337696733|Ленінське|Ленинское
+337696739|Жовтокам’янка|Желтокаменка
+337696764|Стрепетово|Стрепетове
+337696770|Хлібне|Хлебное
+337696776|Найдьонівка|Найдёновка
+337696815|Іскра|Искра
+337696817|Николаевка|Миколаївка
+337696824|Оріхівка|Ореховка
+337696838|Листовое|Листове
+337696848|Анновка|Аннівка
+337696853|Журавлі|Журавли
+337696856|Орловка|Орлівка
+337696858|Піни|Пены
+337696867|Суворовське|Суворовское
+337696877|Шахтино|Шахтине
+337696882|Іллічеве|Ильичёво
+337696897|Красновка|Краснівка
+337696903|Новосёловка|Новоселівка
+337696914|Новозуївка|Новозуевка
+337696924|Привольное|Привільне
+337696929|Маковка|Маківка
+337696935|Лиманное|Лиманне
+337696944|Зыбины|Зибини
+337696953|Охотниково|Охотникове
+337696959|Георгіївка|Георгиевка
+337696970|Синицыно|Синицине
+337696974|Трудовое|Трудове
+337696977|Митяєве|Митяево
+337696981|Пруды|Пруди
+337696984|Кіровське|Кировское
+337696988|Крайнє|Крайнее
+337697001|Колодязне|Колодезное
+337697012|Вершинное|Вершинне
+337697023|Тургенєве|Тургенево
+337697028|Трудолюбовка|Трудолюбівка
+337697033|Куликовка|Куликівка
+337697038|Гаршино|Гаршине
+337697042|Восточное|Восточне
+337697046|Лоховка|Лохівка
+337697061|Яркое Поле|Ярке Поле
+337697066|Лучове|Лучевое
+337697071|Єрофєєве|Ерофеево
+337697075|Харитоновка|Харитонівка
+337697083|Мельничное|Мельничне
+337697092|Дивное|Дивне
+337697098|Сумське|Сумское
+337697110|Низинное|Низинне
+337697115|Широкое|Широке
+337697157|Пролітне|Пролётное
+337697169|Ударное|Ударне
+337697176|Васильковое|Василькове
+337697189|Новоандріївка|Новоандреевка
+337697195|Ячмінне|Ячменное
+337697202|Фронтовое|Фронтове
+337697240|Шовковичне|Шелковичное
+337697254|Красносільське|Красносельское
+337697258|Красногвардійське|Красногвардейское
+337697263|Крымское|Кримське
+337697275|Сухоріччя|Сухоречье
+337697281|Сторожевое|Сторожеве
+337697294|Павловка|Павлівка
+337697302|Журавлівка|Журавлёвка
+337697318|Возрождение|Відродження
+337697327|Владиславовка|Владиславівка
+337697344|Новожиловка|Новожилівка
+337697382|Купріне|Куприно
+337697393|Сєверне|Северное
+337697409|Ліснівка|Лесновка
+337697426|Луговое|Лугове
+337697434|Костырино|Костиріне
+337697443|Новый Сад|Новий Сад
+337697450|Володимирівка|Владимировка
+337697459|Прибрежное|Прибережне
+337697465|Степове|Степное
+337697470|Партизаны|Партизани
+337697475|Геройське|Геройское
+337697482|Красное|Красне
+337697498|Долиновка|Долинівка
+337697513|Яркое|Ярке
+337697525|Валентиново|Валентинове
+337697531|Спасовка|Спасівка
+337697537|Васильевка|Василівка
+337697546|Мироновка|Миронівка
+337697551|Вишенное|Вишенне
+337697556|Красная Зорька|Красна Зорька
+337697567|Оріхове|Орехово
+337697574|Клёновка|Кленівка
+337697579|Южное|Южне
+337697584|Українка|Украинка
+337697591|Золотое Поле|Золоте Поле
+337697598|Узловое|Вузлове
+337697604|Хлібне|Хлебное
+337697608|Малиновка|Малинівка
+337697613|Червоное|Червоне
+337697628|Приморський|Приморский
+337697635|Русаковка|Русаківка
+337697656|Пруды|Пруди
+337697662|Володимирівка|Владимировка
+337697668|Чоботарка|Чеботарка
+337697671|Шафранное|Шафранне
+337697675|Нижньокурганне|Нижнекурганное
+337697683|Вязниково|В’язникове
+337697686|Маковское|Маківське
+337697690|Михайловка|Михайлівка
+337697693|Первомайське|Первомайское
+337697704|Ізобільне|Изобильное
+337697715|Абрикосовка|Абрикосівка
+337697718|Айвазовське|Айвазовское
+337697725|Міжгірне|Межгорное
+337697731|Жемчужина Крыма|Жемчужина Криму
+337697743|Бабенково|Бабенкове
+337697750|Льговське|Льговское
+337697757|Верхньокурганне|Верхнекурганное
+337697776|Береговое|Берегове
+337697782|Біла Скеля|Белая Скала
+337697793|Садовое|Садове
+337697807|Муромське|Муромское
+337697812|Софіївка|Софиевка
+337697817|Новофёдоровка|Новофедорівка
+337697824|Чайкино|Чайкине
+337697829|Цвіточне|Цветочное
+337697835|Литвиненково|Литвиненкове
+337697841|Яблучне|Яблочное
+337697852|Іванівка|Ивановка
+337697856|Маленькое|Маленьке
+337697860|Скворцово|Скворцове
+337697866|Мічурінське|Мичуринское
+337697889|Курганное|Курганне
+337697896|Урожайное|Урожайне
+337697918|Сінне|Сенное
+337697924|Долинное|Долинне
+337697930|Первомайське|Первомайское
+337697936|Крымская Роза|Кримська Роза
+337697941|Ближнє|Ближнее
+337697946|Дмитрово|Дмитрове
+337697952|Білогірськ|Белогорск
+337697958|Школьное|Шкільне
+337697972|Новый Мир|Новий Мир
+337697983|Нижні Орішники|Нижние Орешники
+337697988|Ключове|Ключевое
+337697994|Новиково|Новикове
+337697999|Холодовка|Холодівка
+337698004|Передовое|Передове
+337698010|Лічебне|Лечебное
+337698015|Сонячне|Солнечное
+337698018|Сонячне|Солнечное
+337698022|Укромное|Укромне
+337698031|Чорнопілля|Чернополье
+337698039|Насыпное|Насипне
+337698045|Донське|Донское
+337698053|Ізюмівка|Изюмовка
+337698062|Кубанське|Кубанское
+337698069|Родниково|Родникове
+337698082|Аркадьевка|Аркадіївка
+337698089|Ароматное|Ароматне
+337698096|Мелехово|Мелехове
+337698104|Живописное|Живописне
+337698110|Отважное|Відважне
+337698117|Богатое|Багате
+337698123|Совхозное|Совхозне
+337698145|Виноградное|Виноградне
+337698155|Піонерське|Пионерское
+337698166|Вишнёвое|Вишневе
+337698177|Курське|Курское
+337698187|Тепловка|Теплівка
+337698196|Олександрівка|Александровка
+337698201|Старый Крым|Старий Крим
+337698205|Криничное|Криничне
+337698208|Кирпичное|Кирпичне
+337698212|Новогригорьевка|Новогригорівка
+337698217|Колодязне|Колодезное
+337698220|Бітумне|Битумное
+337698224|Руське|Русское
+337698230|Аэрофлотский|Аерофлотський
+337698235|Дозорное|Дозорне
+337698248|Грушівка|Грушевка
+337698264|Петровка|Петрівка
+337698272|Аграрное|Аграрне
+337698279|Комсомольське|Комсомольское
+337698289|Подгорное|Підгірне
+337698300|Грэсовский|Гресівський
+337698304|Верхні Орішники|Верхние Орешники
+337698310|Тополівка|Тополевка
+337698316|Черемисовка|Черемисівка
+337698321|Ключове|Ключевое
+337698334|Зеленогорское|Зеленогірське
+337698341|Молодіжне|Молодёжное
+337698345|Новоклёново|Новокленове
+337698351|Весёлое|Веселе
+337698357|Грушевое|Грушеве
+337698363|Олександрівка|Александровка
+337698374|Красногорское|Красногірське
+337698392|Кизиловка|Кизилівка
+337698403|Баланово|Баланове
+337698416|Учебное|Учебне
+337698422|Нанікове|Наниково
+337698429|Южное|Южне
+337698435|Опытное|Опитне
+337698441|Курортное|Курортне
+337698450|Трудовое|Трудове
+337698455|Радостное|Радісне
+337698463|Білоглинка|Белоглинка
+337698467|Новосёловка|Новоселівка
+337698473|Лісова Поляна|Лесная Поляна
+337698494|Карасівка|Карасёвка
+337698509|Пасічне|Пасечное
+337698518|Оленівка|Еленовка
+337698528|Петрово|Петрове
+337698534|Высокое|Високе
+337698541|Красная Слобода|Красна Слобода
+337698548|Барабаново|Барабанове
+337698555|Лісносілля|Лесноселье
+337698560|Головановка|Голованівка
+337698565|Мирное|Мирне
+337698572|Вінницьке|Винницкое
+337698583|Красновка|Краснівка
+337698587|Переваловка|Перевалівка
+337698592|Земляничное|Земляничне
+337698598|Синьокам’янка|Синекаменка
+337698603|Роздолля|Раздолье
+337698616|Николаевка|Миколаївка
+337698627|Орджонікідзе|Орджоникидзе
+337698632|Ключі|Ключи
+337698657|Соловьёвка|Солов’ївка
+337698662|Алексєєвка|Алексеевка
+337698670|Поворотное|Поворотне
+337698676|Кольчугино|Кольчугине
+337698682|Лікарственне|Лекарственное
+337698687|Водное|Водне
+337698693|Строгоновка|Строгонівка
+337698699|Лісне|Лесное
+337698722|Іванівка|Ивановка
+337698729|Пчолине|Пчелиное
+337698736|Рівнопілля|Равнополье
+337698741|Пожарське|Пожарское
+337698745|Перово|Перове
+337698750|Красносёловка|Красноселівка
+337698755|Новозбурьевка|Новозбур’ївка
+337698760|Демьяновка|Дем’янівка
+337698766|Лазарівка|Лазаревка
+337698771|Денисовка|Денисівка
+337698778|Краснокаменка|Краснокам’янка
+337698784|Курортное|Курортне
+337698791|Молочное|Молочне
+337698803|Лозовое|Лозове
+337698812|Табачное|Табачне
+337698820|Новониколаевка|Новомиколаївка
+337698827|Прудовое|Прудове
+337698833|Обрыв|Обрив
+337698845|Трипрудне|Трёхпрудное
+337698852|Береговое|Берегове
+337698859|Фонтаны|Фонтани
+337698864|Ферсманово|Ферсманове
+337698869|Андрусово|Андрусове
+337698875|Дружное|Дружне
+337698894|Українка|Украинка
+337698899|Дачное|Дачне
+337698904|Горка|Гірка
+337698911|Піонерське|Пионерское
+337698917|Залісся|Залесье
+337698922|Трудолюбово|Трудолюбове
+337698927|Чистенькое|Чистеньке
+337698935|Тёплое|Тепле
+337698941|Міжріччя|Междуречье
+337698945|Громовка|Громівка
+337698954|Зеленогорье|Зеленогір’я
+337698959|Плодовое|Плодове
+337698971|Дорожное|Дорожнє
+337698989|Стальное|Стальне
+337698994|Богатовка|Багатівка
+337699001|Каштаны|Каштани
+337699007|Брянське|Братское
+337699013|Клиновка|Клинівка
+337699020|Шевченково|Шевченкове
+337699026|Зубакіне|Зубакино
+337699037|Прибрежное|Прибрежное
+337699048|Ростуче|Растущее
+337699054|Отрадное|Відрадне
+337699059|Зарічне|Заречное
+337699070|Весёлое|Веселе
+337699076|Костянтинівка|Константиновка
+337699085|Приятное Свидание|Приятне Свідання
+337699097|Нововасильевка|Нововасилівка
+337699109|Піщане|Песчаное
+337699118|Топольное|Топольне
+337699122|Віліне|Вилино
+337699128|Кочергіне|Кочергино
+337699139|Тополі|Тополи
+337699146|Чайковське|Чайковское
+337699155|Завітне|Заветное
+337699162|Малиновка|Малинівка
+337699164|Партизанське|Партизанское
+337699174|Поштове|Почтовое
+337699178|Краснолісся|Краснолесье
+337699181|Каштановое|Каштанове
+337699185|Новый Свет|Новий Світ
+337699191|Рєпіне|Репино
+337699197|Самохвалово|Самохвалове
+337699203|Мраморное|Мраморне
+337699209|Привітне|Приветное
+337699213|Морське|Морское
+337699218|Севастянівка|Севастьяновка
+337699225|Кизиловое|Кизилове
+337699231|Угловое|Углове
+337699236|Новопавловка|Новопавлівка
+337699242|Андріївка|Андреевка
+337699246|Скалистое|Скалисте
+337699252|Ароматное|Ароматне
+337699257|Генеральське|Генеральское
+337699269|Маловидное|Маловидне
+337699276|Глубокий Яр|Глибокий Яр
+337699282|Вікторівка|Викторовка
+337699287|Сонячний|Солнечный
+337699293|Трудолюбовка|Трудолюбівка
+337699306|Рыбачье|Рибаче
+337699320|Малоріченське|Малореченское
+337699326|Прохладное|Прохладне
+337699339|Красная Заря|Красна Зоря
+337699344|Долинное|Долинне
+337699358|Сонячногірське|Солнечногорское
+337699372|Тінисте|Тенистое
+337699386|Айвовое|Айвове
+337699391|Новенькое|Новеньке
+337699397|Лучистое|Лучисте
+337699403|Суворово|Суворове
+337699410|Річне|Речное
+337699423|Вишнёвое|Вишневе
+337699429|Орловка|Орлівка
+337699434|Научный|Научний
+337699441|Мостовое|Мостове
+337699447|Верхняя Кутузовка|Верхня Кутузовка
+337699452|Семидворье|Семидвір’я
+337699457|Дачное|Дачне
+337699464|Залізничне|Железнодорожное
+337699472|Нижняя Кутузовка|Нижня Кутузовка
+337699489|Кудрино|Кудрине
+337699509|Машино|Машине
+337699514|Тургенєвка|Тургеневка
+337699523|Верхоріччя|Верхоречье
+337699528|Баштановка|Баштанівка
+337699533|Верхньосадове|Верхнесадовое
+337699545|Фруктовое|Фруктове
+337699550|Білокам’яне|Белокаменное
+337699556|Дальнє|Дальнее
+337699561|Поворотное|Поворотне
+337699593|Синапное|Синапне
+337699599|Фронтовое|Фронтове
+337699612|Холмовка|Холмівка
+337699620|Танковое|Танкове
+337699643|Красный Мак|Красний Мак
+337699653|Виноградный|Виноградний
+337699663|Малое Садовое|Мале Садове
+337699670|Велике Садове|Большое Садовое
+337699676|Высокое|Високе
+337699684|Лазурное|Лазурне
+337699692|Куйбышево|Куйбишеве
+337699699|Залісне|Залесное
+337699713|Інкерман|Инкерман
+337699723|Сонячносілля|Солнечноселье
+337699749|Новоульяновка|Новоульянівка
+337699759|Нижняя Голубинка|Нижня Голубинка
+337699769|Кипарисное|Кипарисне
+337699778|Пушкіне|Пушкино
+337699789|Зелёное|Зелене
+337699800|Запрудное|Запрудне
+337699810|Утьос|Утёс
+337699834|Плотинное|Плотинне
+337699866|Подлесное|Підлісне
+337699879|Партеніт|Партенит
+337699898|Богатырь|Богатир
+337699904|Нагорное|Нагірне
+337699912|Терновка|Тернівка
+337699936|Лавровое|Лаврове
+337699951|Новополье|Новопілля
+337699957|Путиловка|Путилівка
+337699968|Краснокаменка|Краснокам’янка
+337699975|Многоріччя|Многоречье
+337699983|Богатое Ущелье|Багата Ущелина
+337699989|Партизанське|Партизанское
+337699997|Родное|Рідне
+337700017|Соколиное|Соколине
+337700061|Совєтське|Советское
+337700067|Лінійне|Линейное
+337700083|Даниловка|Данилівка
+337700092|Нікіта|Никита
+337700100|Отрадное|Відрадне
+337700107|Передовое|Передове
+337700122|Массандра|Масандра
+337700136|Новобобровское|Новобобрівське
+337700150|Россошанка|Розсошанка
+337700156|Широкое|Широке
+337700161|Озёрное|Озерне
+337700166|Виноградное|Виноградне
+337700177|Охотничье|Охотниче
+337700183|Горное|Гірне
+337700188|Резервное|Резервне
+337700195|Гончарное|Гончарне
+337700202|Высокогорное|Високогірне
+337700209|Лівадія|Ливадия
+337700214|Родниковское|Родниківське
+337700233|Павловка|Павлівка
+337700241|Орлиное|Орлине
+337700248|Курпаты|Курпати
+337700260|Кореїз|Кореиз
+337700280|Кизиловое|Кизилове
+337700287|Голубой Залив|Голуба Затока
+337700304|Оползневое|Оползневе
+337700311|Сімеїз|Симеиз
+337700320|Береговое|Берегове
+337700328|Парковое|Паркове
+337700339|Санаторное|Санаторне
+337700347|Кацівелі|Кацивели
+337700352|Понизовка|Понизівка
+339675303|Малый Маяк|Малий Маяк
+476628443|Ходжа Сала|Ходжа-Сала
+667468313|Міжгір’я|Межгорье
+712360521|Петропавловка|Петропавлівка
+1138703044|Яркое|Ярке
+1170282655|Новоозёрное|Новоозерне
+1171919417|Вітине|Витино
+1171976347|Штормовое|Штормове
+1172145310|Ромашкино|Ромашкине
+1172194183|Молочное|Молочне
+1172306081|Уютное|Уютне
+1172307894|Заозёрное|Заозерне
+1172660822|Абрикосовка|Абрикосівка
+1179565501|Щасливе|Счастливое
+1210705586|Сонячна Долина|Солнечная Долина
+1213744810|Перевальное|Перевальне
+1214510814|Бондаренково|Бондаренкове
+1233378078|Тыловое|Тилове
+1252188694|Оборонное|Оборонне
+1254030836|Нижнє Запрудне|Нижнее Запрудное
+1284772044|Акрополіс|Акрополис
+1326710031|Флотское|Флотске
+1460098193|Хмельницьке|Хмельницкое
+1643969652|Ізобільне|Изобильное
+1830695011|Феодосія|Феодосия
+1830695012|Керчь|Керч
+1834549719|Ізвесткове|Известковое
+1867202888|Дубровка|Дібрівка
+1929457217|Березовка|Березівка
+1987151277|Сім’яне|Семенное
+2303693451|Розовый|Розовий
+2732282099|Пушкіне|Пушкино
+2744727259|Прирічне|Приречное
+2747234380|Привітне|Приветное
+2748493945|Рисовое|Рисове
+2751687342|Доброе|Добре
+2758288894|Гвардійське|Гвардейское
+2789764281|Предущельное|Передущельне
+2898654909|Республика Крым|Республика Крым
+2908166445|Сахарная Головка|Сахарная Головка
+2908166446|Ушаковка|Ушаковка
+2908166447|Штурмовое|Штурмовое
