@@ -2,7 +2,6 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n255259998|Біла Церква|city||missing polygon; 
 n256613740,w30715993,r3862199|Горлівка|city||multiple place objects; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -14,9 +13,7 @@ n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодон�
 n337699713,r3827428|Инкерман|town||missing place-tag on relation or wrong name; 
 n256613811,r2900725|Новгородське|town||missing place-tag on relation or wrong name; 
 n256617290,r3005440|Ялта|town||missing place-tag on relation or wrong name; 
-n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
-n289308798,w51551900,r421865|Вишгород|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337511059,w87197693,r3047716|Ворожба|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337689476,w185104595,r3592360|Гола Пристань|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503119,w230895555,r3096243|Дружба|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -38,9 +35,7 @@ n337504305,w206589793,r3589659|Шостка|town||missing place-tag on relation 
 n1628073978,w269265749,r3606547|Южне|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337541157,w191420774,r3559878|Березівка|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
-n337525824,w218696393,r3473954|Глеваха|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
 n337604156,w30721272,r3125767|Ізварине|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
-n337519388,w178233595,r2395748|Клавдієво-Тарасове|town|place=town|village|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
 n256613827,w30718881,r2317624|Докучаєвськ|town|name:en=Dokuchaevsk|Dokuchaievsk|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
 n256613745,w30722795|Зайцеве|town||missing place-tag on way; 
@@ -61,7 +56,6 @@ n337549437|Бірки|town||missing polygon;
 n337664979|Бірюкове|town||missing polygon; 
 n256615109|Благодатне|town||missing polygon; 
 n337572642|Бориня|town||missing polygon; 
-n337527400|Борова|town||missing polygon; 
 n337598786|Брагинівка|town||missing polygon; 
 n337584288|Брацлав|town||missing polygon; 
 n337596242|Брянка|town||missing polygon; 
@@ -89,12 +83,10 @@ n256613665|Горбачево-Михайлівка|town||missing polygon;
 n337602558|Городище|town||missing polygon; 
 n337515899|Городниця|town||missing polygon; 
 n313201927|Городок|town||missing polygon; 
-n337539356|Гребінки|town||missing polygon; 
 n256613959|Грузько-Зорянське|town||missing polygon; 
 n256613964|Гусельське|town||missing polygon; 
 n337533389|Гути|town||missing polygon; 
 n337657064|Демурине|town||missing polygon; 
-n1585808480|Димер|town||missing polygon; 
 n337526811|Добротвір|town||missing polygon; 
 n337589041|Донецький|town||missing polygon; 
 n256615153|Донське|town||missing polygon; 
@@ -109,24 +101,18 @@ n337586485|Жденієво|town||missing polygon;
 n256618556|Желанне|town||missing polygon; 
 n337546366|Залізничне|town||missing polygon; 
 n337540656|Запитів|town||missing polygon; 
-n337520849|Згурівка|town||missing polygon; 
 n337520759|Здолбунів|town||missing polygon; 
 n337549096|Зідьки|town||missing polygon; 
 n337687842|Іванівка|town||missing polygon; 
 n702132126|Іванівка|town||missing polygon; 
 n337516690|Іршанськ|town||missing polygon; 
-n337519683|Калинівка|town||missing polygon; 
 n337558381|Калинівка|town||missing polygon; 
 n337593689|Калинове|town||missing polygon; 
-n337516738|Калита|town||missing polygon; 
 n337597113|Карнаухівка|town||missing polygon; 
 n337592962|Кирнасівка|town||missing polygon; 
 n256616365|Кіровськ|town||missing polygon; 
 n337509600|Клесів|town||missing polygon; 
 n337661036|Кобилецька Поляна|town||missing polygon; 
-n337519243|Кодра|town||missing polygon; 
-n337538653|Кожанка|town||missing polygon; 
-n337527074|Козин|town||missing polygon; 
 n337597363|Кольчино|town||missing polygon; 
 n256613910|Комишуваха|town||missing polygon; 
 n337588693|Комишуваха|town||missing polygon; 
@@ -199,7 +185,6 @@ n256613997|Первомайське|town||missing polygon;
 n256614037|Первомайський|town||missing polygon; 
 n337597829|Петропавлівка|town||missing polygon; 
 n337539725|Підкамінь|town||missing polygon; 
-n337517677|Пісківка|town||missing polygon; 
 n256613998|Побєда|town||missing polygon; 
 n337551197|Поморяни|town||missing polygon; 
 n337527159|Понінка|town||missing polygon; 
@@ -280,7 +265,6 @@ n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829;w
 n337698272,r3030305|Аграрное|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n256613679,r3313703|Артемівськ|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
 n337698230,r3030326|Аэрофлотский|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n1668578377,r2395753|Бабинці|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n256618518,r3550075|Верхньоторецьке|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803;place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337541242,r3166784|Вишнівець|town|name:en=Vyshnivets|Vyshnivecj;place=town|village;population=3424|3405|node and relation place-tag values are different; node and relation tag values are different; 
@@ -375,7 +359,6 @@ n256613983,r2068203|Сніжне|town|name:fr=Snijnïé|Snijne|node and relation
 n1830695011,r2997809|Феодосия|town|admin_level=8|9;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n337695072,r2865249|Черноморское|town|name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
-n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
 n312259277,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|node and relation tag values are different; 
@@ -408,7 +391,6 @@ n337700287,w30711827|Голубой Залив|town|place=town|village|node and 
 n256613982,w30716721|Гостре|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337605488,w30719936|Грушове|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n256618013,w30719185|Донецьке|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n611230844,w76738285|Дослідницьке|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337660861,w30720035|Дубівський|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337603491,w30720153|Енгельсове|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n2422469577,w30721002|Єсаулівка|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
@@ -457,8 +439,6 @@ n337601919,w30721753|Сімейкине|town|place=town|village|node and way pla
 n337700061,w30712938|Советское|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337655753,w30721845|Софіївський|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337660484,w30718067|Тацине|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n337542651,w135405996|Терезине|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n337523990,w230875837|Чабани|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n1984366540,w186524412|Черкаське|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n256618158,w30722605|Черкаське|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n256613915,w30721396|Шевченко|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
@@ -1075,6 +1055,7 @@ Invalid role:
 1625161|type|multipolygon|1625161|117739461|W||0
 1741829|type|multipolygon|1741829|129087185|W||6
 1741829|type|multipolygon|1741829|129087190|W||5
+1745139|type|boundary|1745139|290965972|W||39
 1755267|type|multipolygon|1755267|130307005|W||2
 1755267|type|multipolygon|1755267|130307006|W||3
 1755267|type|multipolygon|1755267|130307007|W||1
