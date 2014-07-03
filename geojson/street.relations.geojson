@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1527885,w222239471","relationtags":"name|Метробудівська вулиця","membertags":"addr:street|Метростроевская","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.41163,50.44269]}},
 {"type":"Feature","properties":{"josm":"r1594060,w33167526","relationtags":"name|Красилівська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.50643,50.39441]}},
 {"type":"Feature","properties":{"josm":"r1594066,w233337797","relationtags":"name|Задорожний провулок","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.50552,50.39409]}},
 {"type":"Feature","properties":{"josm":"r1733632,w33167585","relationtags":"name|Михайла Стельмаха вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.50207,50.39467]}},
