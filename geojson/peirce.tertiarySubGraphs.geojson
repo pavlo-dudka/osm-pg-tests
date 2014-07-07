@@ -1,17 +1,13 @@
 {
 "type": "FeatureCollection",
 "features": [
-{"type":"Feature","properties":{"region":"UA-C","level":"tertiary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[33.80000195,48.45285705]}},
-{"type":"Feature","properties":{"region":"UA-C","level":"tertiary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[33.9300427,48.45932355]}},
 {"type":"Feature","properties":{"region":"UA-C","level":"tertiary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[34.53621645,49.64622685]}},
 {"type":"Feature","properties":{"region":"UA-C","level":"trunk","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[35.16663535,48.64095595]}},
 {"type":"Feature","properties":{"region":"UA-C","level":"trunk","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[35.22379245,48.6913173]}},
 {"type":"Feature","properties":{"region":"UA-C","level":"trunk","NumberOfRoads":"3"},"geometry":{"type":"Point","coordinates":[35.2544195,48.7294088]}},
-{"type":"Feature","properties":{"region":"UA-E","level":"secondary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[35.87642485,49.71736445]}},
 {"type":"Feature","properties":{"region":"UA-E","level":"tertiary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[37.05120025,49.8340495]}},
-{"type":"Feature","properties":{"region":"UA-E","level":"tertiary","NumberOfRoads":"2"},"geometry":{"type":"Point","coordinates":[35.8763546,49.71736445]}},
-{"type":"Feature","properties":{"region":"UA-N","level":"tertiary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[30.1830881,50.3408547]}},
 {"type":"Feature","properties":{"region":"UA-S","level":"secondary","NumberOfRoads":"6"},"geometry":{"type":"Point","coordinates":[33.46145295,44.58244735]}},
+{"type":"Feature","properties":{"region":"UA-W","level":"secondary","NumberOfRoads":"1"},"geometry":{"type":"Point","coordinates":[26.945144,49.4095089]}},
 {"type":"Feature","properties":{"region":"UA-W","level":"tertiary","NumberOfRoads":"4"},"geometry":{"type":"Point","coordinates":[24.8980418,49.40470335]}},
 {"type":"Feature"}
 ]}
