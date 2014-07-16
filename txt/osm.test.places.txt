@@ -340,7 +340,7 @@ n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects
 n337504305,w206589793,r2776723|Шостка|town||multiple place objects; 
 n337528439,w209513626,r3157879|Шрамківка|town||multiple place objects; 
 n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
-n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829;wikipedia=uk:Гуляйполе|http://ru.wikipedia.org/wiki/Гуляйполе|multiple place objects; node and way tag values are different; 
+n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829|multiple place objects; node and way tag values are different; 
 n1602171866,r2383858|Авдіївка|town|population=35364|35065|node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
 n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
@@ -987,9 +987,6 @@ Invalid role:
 1625160|type|multipolygon|1625160|117131264|W||3
 1625160|type|multipolygon|1625160|117131274|W||2
 1625160|type|multipolygon|1625160|117131292|W||1
-1625161|type|multipolygon|1625161|116847648|W||2
-1625161|type|multipolygon|1625161|117739459|W||1
-1625161|type|multipolygon|1625161|117739461|W||0
 1741829|type|multipolygon|1741829|129087185|W||6
 1741829|type|multipolygon|1741829|129087190|W||5
 1745139|type|boundary|1745139|290965972|W||39
@@ -998,19 +995,7 @@ Invalid role:
 1755267|type|multipolygon|1755267|130307007|W||1
 1759852|type|multipolygon|1759852|39450845|W||6
 1759853|type|multipolygon|1759853|39450845|W||10
-1759930|type|multipolygon|1759930|86963289|W||3
-1759930|type|multipolygon|1759930|130761072|W||4
-1759930|type|multipolygon|1759930|130761073|W||5
-1759930|type|multipolygon|1759930|130761074|W||2
-1759930|type|multipolygon|1759930|130761075|W||1
-1759930|type|multipolygon|1759930|130761076|W||6
 1769348|type|multipolygon|1769348|131665435|W||4
-1991648|type|multipolygon|1991648|176296962|W||2
-1991648|type|multipolygon|1991648|176296963|W||4
-1991648|type|multipolygon|1991648|176296964|W||3
-1998180|type|multipolygon|1998180|99915458|W||4
-1998180|type|multipolygon|1998180|99915463|W||3
-1998180|type|multipolygon|1998180|148132538|W||2
 2032242|type|multipolygon|2032242|150806713|W||9
 2108812|type|multipolygon|2108812|123205596|W||1
 2108812|type|multipolygon|2108812|171756472|W||2
@@ -1019,23 +1004,6 @@ Invalid role:
 2261408|type|multipolygon|2261408|169874511|W||2
 2267372|type|multipolygon|2267372|260063833|W||5
 2293620|type|multipolygon|2293620|239639268|W||2
-2334617|type|multipolygon|2334617|4527801|W||3
-2334617|type|multipolygon|2334617|4527889|W||17
-2334617|type|multipolygon|2334617|4527914|W||13
-2334617|type|multipolygon|2334617|4528078|W||10
-2334617|type|multipolygon|2334617|4528431|W||15
-2334617|type|multipolygon|2334617|4528439|W||7
-2334617|type|multipolygon|2334617|4529096|W||9
-2334617|type|multipolygon|2334617|4529316|W||14
-2334617|type|multipolygon|2334617|4529581|W||11
-2334617|type|multipolygon|2334617|4529883|W||5
-2334617|type|multipolygon|2334617|4530007|W||16
-2334617|type|multipolygon|2334617|4530438|W||6
-2334617|type|multipolygon|2334617|4530551|W||8
-2334617|type|multipolygon|2334617|4530754|W||12
-2334617|type|multipolygon|2334617|4531024|W||4
-2334617|type|multipolygon|2334617|174725784|W||1
-2334617|type|multipolygon|2334617|174725785|W||0
 2619391|type|multipolygon|2619391|198114830|W||0
 2748261|type|multipolygon|2748261|204776314|W||10
 2908427|type|boundary|2908427|219941009|W||2
@@ -1043,14 +1011,6 @@ Invalid role:
 3236748|type|boundary|3236748|239964397|W||0
 3254362|type|multipolygon|3254362|242728597|W||26
 3254362|type|multipolygon|3254362|242728601|W||23
-3273099|type|multipolygon|3273099|241553377|W||13
-3273099|type|multipolygon|3273099|241553379|W||11
-3273099|type|multipolygon|3273099|242264779|W||0
-3273099|type|multipolygon|3273099|242265953|W||1
-3273099|type|multipolygon|3273099|242728596|W||12
-3273099|type|multipolygon|3273099|242728598|W||15
-3273099|type|multipolygon|3273099|242728599|W||10
-3273099|type|multipolygon|3273099|242728600|W||14
 3273792|type|multipolygon|3273792|146398455|W||2
 3273792|type|multipolygon|3273792|146651418|W||1
 3273792|type|multipolygon|3273792|242317090|W||3
@@ -1067,49 +1027,10 @@ Invalid role:
 3563652|type|boundary|3563652|290390128|W||50
 3564042|type|boundary|3564042|290390128|W||299
 3566918|type|multipolygon|3566918|265425896|W||0
-3586099|type|boundary|3586099|30717842|W|outeer|0
-3593373|type|multipolygon|3593373|174333546|W||8
-3593373|type|multipolygon|3593373|267946225|W||0
-3593373|type|multipolygon|3593373|267946227|W||2
-3593373|type|multipolygon|3593373|267946228|W||3
-3593373|type|multipolygon|3593373|267946229|W||4
-3593373|type|multipolygon|3593373|267946230|W||5
-3593373|type|multipolygon|3593373|267946232|W||6
-3593373|type|multipolygon|3593373|267946233|W||7
-3593373|type|multipolygon|3593373|267947569|W||1
 3598332|type|multipolygon|3598332|268421447|W||7
-3608705|type|multipolygon|3608705|269555495|W||0
-3608705|type|multipolygon|3608705|269555498|W||1
-3608706|type|multipolygon|3608706|269555493|W||1
-3608706|type|multipolygon|3608706|269555499|W||0
-3608707|type|multipolygon|3608707|269555487|W||1
-3608707|type|multipolygon|3608707|269555500|W||0
-3608708|type|multipolygon|3608708|269555489|W||5
-3608708|type|multipolygon|3608708|269555491|W||3
-3608708|type|multipolygon|3608708|269555492|W||1
-3608708|type|multipolygon|3608708|269555496|W||4
-3608708|type|multipolygon|3608708|269555498|W||0
-3608708|type|multipolygon|3608708|269555499|W||2
-3608708|type|multipolygon|3608708|269555500|W||6
-3615772|type|multipolygon|3615772|270387379|W||4
-3615772|type|multipolygon|3615772|270387396|W||1
-3615774|type|multipolygon|3615774|4529762|W||1
-3615774|type|multipolygon|3615774|270387415|W||2
-3615806|type|multipolygon|3615806|270387419|W||1
-3615806|type|multipolygon|3615806|270393770|W||0
-3741934|type|multipolygon|3741934|281604395|W||1
-3753834|type|multipolygon|3753834|287228910|W||1
-3773118|type|multipolygon|3773118|284399257|W||1
-3834905|type|multipolygon|3834905|280737165|W||0
 
 Invalid role:
 49715|type|boundary|49715|936128|R|land_area|754
-3784292|type|multipolygon|3784292|3784284|R|outer|5
-3784292|type|multipolygon|3784292|3784285|R|outer|2
-3784292|type|multipolygon|3784292|3784286|R|outer|3
-3784292|type|multipolygon|3784292|3784287|R|outer|1
-3784292|type|multipolygon|3784292|3784288|R|outer|6
-3784292|type|multipolygon|3784292|3784289|R|outer|4
 
 No admin_centre:
 22793
