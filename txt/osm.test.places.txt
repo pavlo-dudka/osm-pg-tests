@@ -1,16 +1,576 @@
 place-way should be closed:
 
 Different errors:
+n251073791,r3788485|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n255259998|Біла Церква|city||missing polygon; 
+n256613740,w30715993,r3862199|Горлівка|city||multiple place objects; 
+n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
+n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
+n253874196,r2171253|Луганськ|city|name:de=Lugansk|Luhansk|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|addr:country=RU|UA;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
+n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
+n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
+n337692249,r3797590|Затока|town||missing place-tag on relation or wrong name; 
+n337699713,r3827428|Инкерман|town||missing place-tag on relation or wrong name; 
+n256613811,r2900725|Новгородське|town||missing place-tag on relation or wrong name; 
+n256617290,r3005440|Ялта|town||missing place-tag on relation or wrong name; 
+n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337541157,w191420774,r3559878|Березівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n289308798,w51551900,r421865|Вишгород|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337511059,w87197693,r3047716|Ворожба|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337525824,w218696393,r3473954|Глеваха|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337689476,w185104595,r3592360|Гола Пристань|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337503119,w230895555,r3096243|Дружба|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337604156,w30721272,r3125767|Ізварине|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337574832,w134566471,r2090993|Кам’янка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337580701,w137380532,r2090902|Капітанівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337579618,w228382389,r3058860|Катеринопіль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337519388,w178233595,r2395748|Клавдієво-Тарасове|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1867222449,w209628728,r3583152|Короп|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337516321,w206631319,r3117248|Краснопілля|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337692174,w115334011,r2133869|Лазурне|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1628109752,w199270772,r3589657|Лебедин|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337519813,w220153406,r2911386|Липова Долина|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337538836,w206720049,r3589513|Миргород|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337515238,w243708476,r3295168|Недригайлів|town||missing place-tag on relation or wrong name; multiple place objects; 
+n313426755,w258669260,r3472076|Овруч|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337690726,w35373686,r3606770|Олександрівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337539614,w199204364,r2675319|Попільня|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337509379,w198199877,r3059912|Путивль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n313243807,w58776742,r3592425|Славута|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337514893,w235286381,r3167734|Угроїди|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337657274,w30701866,r3569409|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1940128296,w199312397,r3080508|Чупахівка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337504305,w206589793,r3589659|Шостка|town||missing place-tag on relation or wrong name; multiple place objects; 
+n1628073978,w269265749,r3606547|Южне|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
+n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n256613827,w30718881,r2317624|Докучаєвськ|town|name:en=Dokuchaevsk|Dokuchaievsk|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n256613745,w30722795|Зайцеве|town||missing place-tag on way; 
+n337600868,w30718864|Сєверо-Гундорівський|town||missing place-tag on way; 
+n337689759|Авангард|town||missing polygon; 
+n256617162|Александровка|town||missing polygon; 
+n337671196|Ананьїв|town||missing polygon; 
+n256614035|Андріївка|town||missing polygon; 
+n256617917|Андріївка|town||missing polygon; 
+n337544206|Антоніни|town||missing polygon; 
+n337545417|Артемівка|town||missing polygon; 
+n337598439|Артемівськ|town||missing polygon; 
+n337689979|Асканія-Нова|town||missing polygon; 
+n337594314|Аули|town||missing polygon; 
+n337548269|Базалія|town||missing polygon; 
+n337600257|Байрачки|town||missing polygon; 
+n337597680|Балахівка|town||missing polygon; 
+n337678826|Березнегувате|town||missing polygon; 
+n256617993|Билбасівка|town||missing polygon; 
+n337591769|Битків|town||missing polygon; 
+n337678128|Біла Криниця|town||missing polygon; 
+n337580183|Білогорівка|town||missing polygon; 
+n337548739|Білолуцьк|town||missing polygon; 
+n337598507|Білоріченський|town||missing polygon; 
+n337568380|Більшівці|town||missing polygon; 
+n337549437|Бірки|town||missing polygon; 
+n337664979|Бірюкове|town||missing polygon; 
+n256615109|Благодатне|town||missing polygon; 
+n337572642|Бориня|town||missing polygon; 
+n337690850|Бородіно|town||missing polygon; 
+n337598786|Брагинівка|town||missing polygon; 
+n337584288|Брацлав|town||missing polygon; 
+n337545948|Бродецьке|town||missing polygon; 
+n337596242|Брянка|town||missing polygon; 
+n337599972|Бугаївка|town||missing polygon; 
+n337565005|Букачівці|town||missing polygon; 
+n337572370|Буки|town||missing polygon; 
+n256613837|Булавинське|town||missing polygon; 
+n337543657|Введенка|town||missing polygon; 
+n256613931|Велике Оріхове|town||missing polygon; 
+n337605119|Великий Лог|town||missing polygon; 
+n337592204|Вендичани|town||missing polygon; 
+n337599976|Вергулівка|town||missing polygon; 
+n337571838|Верхнє Синьовидне|town||missing polygon; 
+n256613958|Високе|town||missing polygon; 
+n337557355|Війтівці|town||missing polygon; 
+n337566899|Вовковинці|town||missing polygon; 
+n337584206|Вовчоярівка|town||missing polygon; 
+n256614411|Войковський|town||missing polygon; 
+n1882306628|Войнилів|town||missing polygon; 
+n256615111|Володимирівка|town||missing polygon; 
+n337684081|Воскресенське|town||missing polygon; 
+n337587221|Врубівка|town||missing polygon; 
+n337599191|Врубівський|town||missing polygon; 
+n337596919|Ганнівка|town||missing polygon; 
+n1726586598|Гвіздець|town||missing polygon; 
+n337523935|Гірник|town||missing polygon; 
+n337671123|Гірницьке|town||missing polygon; 
+n337660135|Глибока|town||missing polygon; 
+n337597216|Глибокий|town||missing polygon; 
+n337545518|Глухівці|town||missing polygon; 
+n337540706|Гоголеве|town||missing polygon; 
+n256613741|Гольмівський|town||missing polygon; 
+n256613665|Горбачево-Михайлівка|town||missing polygon; 
+n337602558|Городище|town||missing polygon; 
+n313201927|Городок|town||missing polygon; 
+n337538282|Гриців|town||missing polygon; 
+n256613959|Грузько-Зорянське|town||missing polygon; 
+n256613964|Гусельське|town||missing polygon; 
+n337533389|Гути|town||missing polygon; 
+n337576602|Дашів|town||missing polygon; 
+n337657064|Демурине|town||missing polygon; 
+n337564360|Десна|town||missing polygon; 
+n337687346|Дніпряни|town||missing polygon; 
+n337589041|Донецький|town||missing polygon; 
+n256615153|Донське|town||missing polygon; 
+n256616379|Дробишеве|town||missing polygon; 
+n256613839|Дружне|town||missing polygon; 
+n337557104|Дубляни|town||missing polygon; 
+n337575718|Дунаївці|town||missing polygon; 
+n337574845|Єзупіль|town||missing polygon; 
+n337577787|Єрки|town||missing polygon; 
+n1990754485|Жвирка|town||missing polygon; 
+n337586485|Жденієво|town||missing polygon; 
+n256618556|Желанне|town||missing polygon; 
+n337571385|Закупне|town||missing polygon; 
+n337546366|Залізничне|town||missing polygon; 
+n337540656|Запитів|town||missing polygon; 
+n337520759|Здолбунів|town||missing polygon; 
+n337667379|Зеленогірське|town||missing polygon; 
+n337549096|Зідьки|town||missing polygon; 
+n337687842|Іванівка|town||missing polygon; 
+n702132126|Іванівка|town||missing polygon; 
+n337561699|Ірдинь|town||missing polygon; 
+n337558381|Калинівка|town||missing polygon; 
+n337593689|Калинове|town||missing polygon; 
+n337682592|Калінінське|town||missing polygon; 
+n337678329|Кар’єрне|town||missing polygon; 
+n337597113|Карнаухівка|town||missing polygon; 
+n337592962|Кирнасівка|town||missing polygon; 
+n256616365|Кіровськ|town||missing polygon; 
+n285724548|Кіцмань|town||missing polygon; 
+n337509600|Клесів|town||missing polygon; 
+n337661036|Кобилецька Поляна|town||missing polygon; 
+n337540724|Ков’яги|town||missing polygon; 
+n337597363|Кольчино|town||missing polygon; 
+n337527291|Комишня|town||missing polygon; 
+n256613910|Комишуваха|town||missing polygon; 
+n337588693|Комишуваха|town||missing polygon; 
+n337600321|Комісарівка|town||missing polygon; 
+n337575116|Комсомольськ|town||missing polygon; 
+n256615151|Комсомольський|town||missing polygon; 
+n256614099|Контарне|town||missing polygon; 
+n337583044|Копайгород|town||missing polygon; 
+n337590670|Кострижівка|town||missing polygon; 
+n337539427|Костянтинівка|town||missing polygon; 
+n337668655|Костянтинівка|town||missing polygon; 
+n317747079|Кочеток|town||missing polygon; 
+n337539071|Краковець|town||missing polygon; 
+n256613922|Красний Октябр|town||missing polygon; 
+n337603117|Краснодон|town||missing polygon; 
+n337662411|Красноїльськ|town||missing polygon; 
+n337570085|Краснопавлівка|town||missing polygon; 
+n256613909|Красноторка|town||missing polygon; 
+n337600557|Кринички|town||missing polygon; 
+n337538426|Куликів|town||missing polygon; 
+n337538311|Кулиничі|town||missing polygon; 
+n337598560|Леніна|town||missing polygon; 
+n256614039|Лиманчук|town||missing polygon; 
+n256613919|Лісне|town||missing polygon; 
+n337543357|Лозно-Олександрівка|town||missing polygon; 
+n337563950|Лозове|town||missing polygon; 
+n337597971|Ломуватка|town||missing polygon; 
+n337526569|Лопатин|town||missing polygon; 
+n337534135|Магерів|town||missing polygon; 
+n337544240|Малинівка|town||missing polygon; 
+n337602984|Маломиколаївка|town||missing polygon; 
+n337581733|Малорязанцеве|town||missing polygon; 
+n256613907|Малотаранівка|town||missing polygon; 
+n337578657|Маньківка|town||missing polygon; 
+n256613926|Маяк|town||missing polygon; 
+n2318438210|Меджибіж|town||missing polygon; 
+n256613966|Межове|town||missing polygon; 
+n337592048|Меліоративне|town||missing polygon; 
+n337674908|Миколаївка|town||missing polygon; 
+n337584967|Мирна Долина|town||missing polygon; 
+n256617893|Мирне|town||missing polygon; 
+n337603892|Мирне|town||missing polygon; 
+n337691318|Мирне|town||missing polygon; 
+n337522684|Мізоч|town||missing polygon; 
+n337520527|Млинів|town||missing polygon; 
+n337657119|Молодіжне|town||missing polygon; 
+n337588247|Муровані Курилівці|town||missing polygon; 
+n312273784|Надвірна|town||missing polygon; 
+n337687462|Наддніпрянське|town||missing polygon; 
+n337556819|Наркевичі|town||missing polygon; 
+n337599876|Неполоківці|town||missing polygon; 
+n337549574|Нижанковичі|town||missing polygon; 
+n256613934|Нижня Кринка|town||missing polygon; 
+n256614040|Никифорове|town||missing polygon; 
+n337569014|Нова Галещина|town||missing polygon; 
+n337584174|Нова Ушиця|town||missing polygon; 
+n337541215|Новий Яричів|town||missing polygon; 
+n337688655|Нові Білярі|town||missing polygon; 
+n337556565|Нові Стрілища|town||missing polygon; 
+n256614421|Новоамвросіївське|town||missing polygon; 
+n337686332|Нововасилівка|town||missing polygon; 
+n256615905|Новоекономічне|town||missing polygon; 
+n337604744|Новоолександрівка|town||missing polygon; 
+n337536956|Новооржицьке|town||missing polygon; 
+n2096793470|Новопокровка|town||missing polygon; 
+n337543316|Новопокровка|town||missing polygon; 
+n337596788|Новосвітлівка|town||missing polygon; 
+n256616075|Новоселівка|town||missing polygon; 
+n337587920|Новотошківське|town||missing polygon; 
+n256615157|Новотроїцьке|town||missing polygon; 
+n2128905660|Обертин|town||missing polygon; 
+n256613896|Олександрівка|town||missing polygon; 
+n337671978|Олександрівка|town||missing polygon; 
+n256613836|Олександрівське|town||missing polygon; 
+n256613859|Оленівка|town||missing polygon; 
+n337538874|Олесько|town||missing polygon; 
+n256615169|Ольгинка|town||missing polygon; 
+n337681367|Ольшанське|town||missing polygon; 
+n337545110|Оржиця|town||missing polygon; 
+n337516683|Оржів|town||missing polygon; 
+n256618548|Очеретине|town||missing polygon; 
+n337580101|Павлиш|town||missing polygon; 
+n337690697|Партизани|town||missing polygon; 
+n256613997|Первомайське|town||missing polygon; 
+n337683700|Первомайське|town||missing polygon; 
+n256614037|Первомайський|town||missing polygon; 
+n337597829|Петропавлівка|town||missing polygon; 
+n337656556|Письменне|town||missing polygon; 
+n337659287|Підгородна|town||missing polygon; 
+n337539725|Підкамінь|town||missing polygon; 
+n256613998|Побєда|town||missing polygon; 
+n337551197|Поморяни|town||missing polygon; 
+n337527159|Понінка|town||missing polygon; 
+n256613873|Прибережне|town||missing polygon; 
+n337527781|Приколотне|town||missing polygon; 
+n337679932|Пришиб|town||missing polygon; 
+n337587965|Приютівка|town||missing polygon; 
+n337663428|Путила|town||missing polygon; 
+n337684134|Радісне|town||missing polygon; 
+n1652910513|Розділ|town||missing polygon; 
+n337602238|Роздори|town||missing polygon; 
+n337538191|Ромодан|town||missing polygon; 
+n337605172|Рудниця|town||missing polygon; 
+n337560536|Савинці|town||missing polygon; 
+n337604647|Салькове|town||missing polygon; 
+n337565520|Сатанів|town||missing polygon; 
+n337569695|Сахновщина|town||missing polygon; 
+n337600086|Селезнівка|town||missing polygon; 
+n337553321|Семенівка|town||missing polygon; 
+n337594685|Середнє|town||missing polygon; 
+n337690835|Серпневе|town||missing polygon; 
+n337690329|Сиваське|town||missing polygon; 
+n337580513|Ситківці|town||missing polygon; 
+n337659708|Славгород|town||missing polygon; 
+n337583580|Славське|town||missing polygon; 
+n337666951|Слобідка|town||missing polygon; 
+n337526312|Смига|town||missing polygon; 
+n337579251|Смотрич|town||missing polygon; 
+n337588299|Солотвин|town||missing polygon; 
+n337515468|Соснове|town||missing polygon; 
+n256613906|Софіївка|town||missing polygon; 
+n337660175|Софіївка|town||missing polygon; 
+n337592538|Стара Ушиця|town||missing polygon; 
+n337538490|Старий Мерчик|town||missing polygon; 
+n337560375|Стеблів|town||missing polygon; 
+n337511426|Степань|town||missing polygon; 
+n337690467|Таїрове|town||missing polygon; 
+n337602895|Талове|town||missing polygon; 
+n337691696|Тарутине|town||missing polygon; 
+n337590253|Теплик|town||missing polygon; 
+n337509712|Томашгород|town||missing polygon; 
+n337594569|Томашпіль|town||missing polygon; 
+n337595939|Тростянець|town||missing polygon; 
+n337562386|Турбів|town||missing polygon; 
+n256615886|Удачне|town||missing polygon; 
+n337602189|Усть-Чорна|town||missing polygon; 
+n337544672|Утківка|town||missing polygon; 
+n337606150|Фащівка|town||missing polygon; 
+n337590283|Фрунзе|town||missing polygon; 
+n337689792|Хлібодарське|town||missing polygon; 
+n337569829|Цвіткове|town||missing polygon; 
+n337681855|Цебрикове|town||missing polygon; 
+n337601316|Центральний|town||missing polygon; 
+n337561736|Чапаєве|town||missing polygon; 
+n337598764|Челюскінець|town||missing polygon; 
+n337576097|Чемерівці|town||missing polygon; 
+n337556862|Червоний Донець|town||missing polygon; 
+n337592700|Червоногвардійське|town||missing polygon; 
+n337585024|Чернелиця|town||missing polygon; 
+n337655971|Чечельник|town||missing polygon; 
+n337556986|Чорний Острів|town||missing polygon; 
+n337689002|Чорноморське|town||missing polygon; 
+n256613905|Шабельківка|town||missing polygon; 
+n337587448|Шаргород|town||missing polygon; 
+n337537037|Шарівка|town||missing polygon; 
+n337548964|Шевченкове|town||missing polygon; 
+n337585989|Шпиків|town||missing polygon; 
+n253900783|Щастя|town||missing polygon; 
+n337601037|Щорськ|town||missing polygon; 
+n337595311|Ювілейне|town||missing polygon; 
+n337598517|Южна Ломуватка|town||missing polygon; 
+n337599757|Яблунів|town||missing polygon; 
+n256616082|Ямпіль|town||missing polygon; 
+n337538997|Ямпіль|town||missing polygon; 
+n337567918|Ярмолинці|town||missing polygon; 
+n256616096|Ярова|town||missing polygon; 
+n256613904|Ясна Поляна|town||missing polygon; 
+n256613903|Ясногірка|town||missing polygon; 
+n337599265|Ящикове|town||missing polygon; 
+n337596679,w30722830,r2396427|Біле|town||multiple place objects; 
+n1628075066,w183700330,r2445912|Верхній Рогачик|town||multiple place objects; 
+n337683905,w174662279,r2447701|Веселе|town||multiple place objects; 
+n337665263,w220886009,r3613175|Вільнянськ|town||multiple place objects; 
+n256615117,w30718869,r3106795|Волноваха|town||multiple place objects; 
+n313201266,w225234976,r3628014|Волочиськ|town||multiple place objects; 
+n285723343,w204997516,r2817257|Герца|town||multiple place objects; 
+n1637465428,w60117478,r2033368|Зеленодольськ|town||multiple place objects; 
+n337592920,w30722819,r3628807|Зимогір’я|town||multiple place objects; 
+n70950474,w30718774,r2675311|Курахове|town||multiple place objects; 
+n337516475,w226685671,r2313459|Малин|town||multiple place objects; 
+n1685829433,w191420804,r3559895|Мерефа|town||multiple place objects; 
+n337680572,w193434123,r3603169|Молочанськ|town||multiple place objects; 
+n337524775,w197639891,r3589658|Охтирка|town||multiple place objects; 
+n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
+n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
+n312276821,w30711206,r3626221|Снятин|town||multiple place objects; 
+n337601344,w30722486,r3627132|Суходільськ|town||multiple place objects; 
+n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
+n337504305,w206589793,r2776723|Шостка|town||multiple place objects; 
+n337528439,w209513626,r3157879|Шрамківка|town||multiple place objects; 
+n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
+n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829|multiple place objects; node and way tag values are different; 
+n1602171866,r2383858|Авдіївка|town|population=35364|35065|node and relation tag values are different; 
+n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
+n292995540,r3030236|Бахчисарай|town|name:en=Bakhchisarai|Bakhchysarai|node and relation tag values are different; 
+n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
+n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
+n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
+n337541358,r2108755|Брюховичі|town|name:en=Briukhovychi|Bryukhovychi|node and relation tag values are different; 
+n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803|node and relation tag values are different; 
+n337541242,r3166784|Вишнівець|town|name:en=Vyshnivets|Vyshnivecj;population=3424|3405|node and relation tag values are different; 
+n2758288894,r3620421|Гвардейское|town|name:en=Gvardeiskoe|Hvardiiske|node and relation tag values are different; 
+n337562696,r3166882|Гримайлів|town|name:en=Hrymailiv|Ghrymajliv;population=1973|1962|node and relation tag values are different; 
+n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
+n1643271217,r3166964|Заводське|town|name:en=Zavodske|Zavodsjke|node and relation tag values are different; 
+n337544447,r3166976|Залізці|town|name:en=Zaliztsi|Zalizci;population=2706|2703|node and relation tag values are different; 
+n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
+n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
+n337580547,r3167014|Золотий Потік|town|name:en=Zolotyi Potik|Zolotyj Potik;population=2480|2473|node and relation tag values are different; 
+n299466010,r3138416|Коктебель|town|addr:postcode=98186|298186|node and relation tag values are different; 
+n337698279,r3030327|Комсомольское|town|addr:district=Симферопольский район|Симферопольский городской совет|node and relation tag values are different; 
+n1712742817,r3167073|Копичинці|town|population=6869|6867;website=http://kopychyntsi.com.ua|[http://kopychyntsi.com.ua/ http://kopychyntsi.com.ua/]|node and relation tag values are different; 
+n337700260,r3018346|Кореиз|town|addr:region:uk=Республіка Крим|Автономна Республіка Крим|node and relation tag values are different; 
+n337579750,r3167079|Коропець|town|name:en=Koropets|Koropecj|node and relation tag values are different; 
+n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
+n337592273,r3167217|Мельниця-Подільська|town|name:en=Melnytsia-Podilska|Meljnycja-Podiljsjka;population=3712|3724|node and relation tag values are different; 
+n337560387,r3167221|Микулинці|town|name:en=Mykulyntsi|Mykulynci|node and relation tag values are different; 
+n275186298,r3030953|Мирный|town|addr:postcode=297492|97492|node and relation tag values are different; 
+n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relation tag values are different; 
+n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
+n337698627,r2980497|Орджоникидзе|town|admin_level=8|9;wikipedia=uk:Орджонікідзе (Феодосійська міськрада)|ru:Орджоникидзе_(Крым)|node and relation tag values are different; 
+n312253429,r3167388|Почаїв|town|name:en=Pochaiv|Pochajiv;population=7757|17757|node and relation tag values are different; 
+n337697628,r3734455|Приморский|town|name:en=Prymorskyi|Prymorsky;wikipedia=ru:Приморский (Крым)|uk:Приморський|node and relation tag values are different; 
+n337668842,r2033389|Радушне|town|wikipedia=uk:Радушне|ru:Радушное|node and relation tag values are different; 
+n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
+n256613983,r2068203|Сніжне|town|name:fr=Snijnïé|Snijne|node and relation tag values are different; 
+n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag values are different; 
+n1830695011,r2997809|Феодосия|town|admin_level=8|9;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
+n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
+n337663834,r2097842|Христофорівка|town|wikipedia=uk:Христофорівка (смт)|ru:Христофоровка_(Криворожский_район)|node and relation tag values are different; 
+n337695072,r2865249|Черноморское|town|name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
+n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
+n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
+n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
+n312259277,r3167670|Шумськ|town|name:en=Shumsk|Shumsjk|node and relation tag values are different; 
+n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
+n337697952,w30716000|Белогорск|town|name:de=Belogorsk|Belohorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
+n337700320,w225981775|Береговое|town|name:en=Beregovoye|Beregovoe|node and way tag values are different; 
+n941385448,w30701593|Буштино|town|population=8634|12488|node and way tag values are different; 
+n256613925,w30721104|Вугляр|town|name:en=Vuhliar|Vuglar;name:ru=Вугляр|Угляр|node and way tag values are different; 
+n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
+n337698300,w30712848|Грэсовский|town|name:en=Gresovsky|Hresivskyi;wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
+n337700009,w30716153|Гурзуф|town|name:en=Gurzuf|Hurzuf|node and way tag values are different; 
+n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
+n337699968,w30713452|Краснокаменка|town|addr:postcode=98646|98653;population=1024|1023|node and way tag values are different; 
+n337561091,w30720969|Мілове|town|wikipedia=uk:Мілове|de:Milowe|node and way tag values are different; 
+n337699434,w30714083|Научный|town|name:en=Nauchnyy|Nauchniy|node and way tag values are different; 
+n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnjohirskyj;name:fr=Nijnegorskyï|Nyjnohirskyï|node and way tag values are different; 
+n337698616,w30715964|Николаевка|town|name:en=Mykolaivka|Nikolaevka|node and way tag values are different; 
+n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
+n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
+n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
+n337700339,w30711860|Санаторное|town|name:en=Sanatornoye|Sanatornoe|node and way tag values are different; 
 
 Multiple polygons:
+2|39682896|2842607,3607888|
+2|253900783|2171253,2581142|
+2|337521060|2711953,3620915|
+2|337525174|3557610,3557617|
+2|337534409|3558015,3558064|
+2|337534429|3556446,3560228|
+2|337537872|3557539,3674156|
+2|337538180|3557521,3559885|
+2|337548383|3558154,3592314|
+2|337564070|3551281,3551284|
+2|337597818|1017311,1209151|
+2|337604170|3525529,3525647|
+2|1172307894|2175059,3006716|
+2|1915924792|1418322,2081780|
+2|1915929367|1418322,2416748|
+2|1947905705|1418322,2454923|
+2|1962485354|1418322,2474594|
+2|1962656673|1418322,2474950|
+2|1962762156|1418322,2474997|
+2|1962931227|1418322,2476601|
+2|1963091987|1418322,2478378|
+2|1979193765|1418322,2521706|
+2|1979210675|1418322,2521722|
+2|1979215440|1418322,2521735|
+2|1979224801|1418322,2521750|
+2|1979394926|1418322,2521994|
+2|1980754131|1418322,2535311|
+2|1984361456|3556561,3557536|
+2|2241590676|2842607,3607888|
+2|2241590684|2842609,3607888|
+2|2241590689|2842602,3607888|
+2|2241590693|2842546,3607888|
+2|2241590698|2842583,3607888|
+2|2241590703|2842580,3607888|
+2|2241590704|2842775,3607888|
+2|2295859740|2842731,3607888|
+2|2295864187|2842706,3607888|
+2|2718904118|1418322,2521994|
+2|2718904131|1418322,2521722|
 
 Invalid node role:
 
 Invalid way role:
+405057|49910951,49910952|2
+421865|51551900|1
+1192305|79363813|1
+1262663|84451121|1
+1484077|257770280|1
+1514895|106177182|1
+1514897|106177181,106177260|2
+1571873|108446529,111813369|2
+1600087|277657147|1
+1741829|129087185,129087190|2
+1745139|290965972|1
+1755267|130307005,130307006,130307007|3
+1759852|39450845|1
+1759853|39450845|1
+1769348|131665435|1
+2032242|150806713|1
+2108812|123205596,171756472|2
+2261408|169874509,169874510,169874511|3
+2267372|260063833|1
+2293620|239639268|1
+2619391|198114830|1
+2748261|204776314|1
+2908427|219941009|1
+3157841|30720880|1
+3236748|239964397|1
+3254362|242728597,242728601|2
+3273792|146398455,146651418,242317090,242317094|4
+3385051|104642030,252342149|2
+3444341|256960018|1
+3444361|256960932|1
+3520753|262219961|1
+3522840|181226219|1
+3540225|263599667|1
+3548442|273990809|1
+3560388|290390128|1
+3563652|290390128|1
+3564042|290390128|1
+3566918|265425896|1
+3598332|268421447|1
+3898661|293394292|1
 
 Invalid relation role:
+49715|type|boundary|49715|936128|R|land_area|754
 
 No admin_centre:
+22793
+72481
+946159
+1060651
+2077868
+2220876
+2256729
+2283083
+2367044
+2607033
+3828338
 
 Crimea:
+337694585|Федоровка|Федорівка|Фёдоровка
+337699007|Братское|Брянське|Брянское
+337699037|Прибрежное||Прибрежное
+443436780|Грушевский перевал||
+1243718008|Городище Киммерик (Киммерикон)||
+2468452106|Храм Успения||
+2519205876|Каламита||
+2744098693|Посёлок 3-й Гидроузел||Посёлок 3-й Гидроузел
+2850679401|Ближние Камыши||Ближние Камыши
+2898654909|Республика Крым||Республика Крым
+2908166445|Сахарная Головка||Сахарная Головка
+2908166446|Ушаковка||Ушаковка
+2908166447|Штурмовое||Штурмовое
+2910302067|3 отделение "Золотой балки"||3 отделение "Золотой балки"
+2910308095|1 отделение "Золотой балки"||1 отделение "Золотой балки"
+2923074349|СТ "Шхуна"||СТ "Шхуна"
+2923084287|микрорайон 7 км||микрорайон 7 км
+2923095871|Военный городок КС-2||Военный городок КС-2
 Oblasts:
+256616856|Кременец|Кремінець|Кременец
+256617162|Александровка|Олександрівка|Александровка
+337504657|Долина||Долина
+337506533|Перешпа||Перешпа
+337516214|Дерманка||Дерманка
+337517522|Щекичин||Щекичин
+337518020|Дивень||Дивень
+337518038|Козак||Козак
+337518050|Микулин||Микулин
+337518585|Мнишин||Мнишин
+337519049|Дорогобуж||Дорогобуж
+337519051|Бабин||Бабин
+337519191|Забара||Забара
+337520044|Бугрин||Бугрин
+337520835|Колесники||Колесники
+337521853|Княгинин||Княгинин
+337544034|Пищики||Пищики
+337553921|Березна||Березна
+337554129|Гайворон||Гайворон
+337554871|Рубченки||Рубченки
+337555045|Логвин||Логвин
+337588221|Ворочово||Ворочово
+337588522|Гута||Гута
+337589071|Завбуч||Завбуч
+337592595|Гайдош||Гайдош
+337593118|Ботфалва||Ботфалва
+337593400|Концово||Концово
+337593568|Батфа||Батфа
+337593808|Холмок||Холмок
+337593936|Чертеж||Чертеж
+337594039|Галоч||Галоч
+337598233|Тисаагтелек||Тисаагтелек
+337598585|Соломоново||Соломоново
+337600251|Есень||Есень
+337658008|Жовтневе|Октябрське|Октябрьское
+337659421|Вилок||Вилок
+337677002|Ульяновка||Ульяновка
+1984361456|Куряжанка||Куряжанка
+2789910286|Питомник||Питомник
+2789922525|Воропай||Воропай
+2903301501|Поляна||Поляна
+2906373822|Горб||Горб
+2914563036|Гайки||Гайки
+2918963839|Старуня||Старуня
+2926576797|Калинник||Калинник
+2926718350|Глинники||Глинники
+2941141619|Райполе||Райполе
