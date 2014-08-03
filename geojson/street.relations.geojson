@@ -2,9 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1270128,w27164537","relationtags":"name|Героїв Майдану вулиця","membertags":"addr:street|Аркадія Гайдара вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.92955,48.26476]}},
-{"type":"Feature","properties":{"josm":"r1270128,w27164557","relationtags":"name|Героїв Майдану вулиця","membertags":"addr:street|Аркадія Гайдара вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.93014,48.26414]}},
-{"type":"Feature","properties":{"josm":"r1270128,w88309500","relationtags":"name|Героїв Майдану вулиця","membertags":"addr:street|Аркадія Гайдара вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.92946,48.26432]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r2391101,w24767535","relationtags":"name:ru|Болгарский переулок","membertags":"name:ru|Камская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.18097,49.98227]}},
