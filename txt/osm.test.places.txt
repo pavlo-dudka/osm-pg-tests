@@ -2,7 +2,6 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n256613986|Слов’янськ|city||missing polygon; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
@@ -73,7 +72,6 @@ n1882306628|Войнилів|town||missing polygon;
 n256615111|Володимирівка|town||missing polygon; 
 n337571592|Вороновиця|town||missing polygon; 
 n337684081|Воскресенське|town||missing polygon; 
-n256614070|Вугледар|town||missing polygon; 
 n1726586598|Гвіздець|town||missing polygon; 
 n337671123|Гірницьке|town||missing polygon; 
 n337660135|Глибока|town||missing polygon; 
@@ -232,7 +230,6 @@ n256616082|Ямпіль|town||missing polygon;
 n337538997|Ямпіль|town||missing polygon; 
 n337567918|Ярмолинці|town||missing polygon; 
 n256616096|Ярова|town||missing polygon; 
-n256614136|Ясинувата|town||missing polygon; 
 n337535865,w209144079,r3555860|Великий Бурлук|town||multiple place objects; 
 n1628075066,w183700330,r2445912|Верхній Рогачик|town||multiple place objects; 
 n337683905,w174662279,r2447701|Веселе|town||multiple place objects; 
@@ -254,6 +251,7 @@ n337504305,w206589793,r2776723|Шостка|town||multiple place objects;
 n337528439,w209513626,r3157879|Шрамківка|town||multiple place objects; 
 n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
 n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829|multiple place objects; node and way tag values are different; 
+n256613985,r2511362|Миколаївка|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
 n292995540,r3030236|Бахчисарай|town|name:en=Bakhchisarai|Bakhchysarai|node and relation tag values are different; 
 n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
@@ -354,6 +352,7 @@ Multiple polygons:
 2|256613989|3938658,3938712|
 2|256613990|3938658,3938714|
 2|256613992|3937437,3937444|
+2|256614257|2383900,3940631|
 2|256614823|3934914,3936205|
 2|256615526|3937501,3937505|
 2|256615527|3937502,3937505|
@@ -581,6 +580,7 @@ Invalid way role:
 3598332|268421447|1
 3898661|293394292|1
 3937139|88074291,200615616,294707376,296059979,296059982|5
+3940458|30716382,296289369|2
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|754
