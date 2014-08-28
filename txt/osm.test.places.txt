@@ -1,12 +1,12 @@
 place-way should be closed:
 
 Different errors:
-n251073791,r3788485|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n146541158,r448930|Рівне|city|wikipedia=uk:Рівне|uk:Рівненський_район|node and relation tag values are different; 
-n251073791,r1574364|Севастополь|city|wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
@@ -288,7 +288,6 @@ n337544447,r3166976|Залізці|town|population=2706|2703|node and relation t
 n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
 n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
 n337580547,r3167014|Золотий Потік|town|population=2480|2473|node and relation tag values are different; 
-n299466010,r3138416|Коктебель|town|addr:postcode=98186|298186|node and relation tag values are different; 
 n1712742817,r3167073|Копичинці|town|population=6869|6867|node and relation tag values are different; 
 n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
 n337548383,r3592314|Куп’янськ|town|wikipedia=uk:Куп'янськ|uk:Куп’янськ|node and relation tag values are different; 
@@ -396,8 +395,6 @@ No admin_centre:
 3828338
 
 Crimea:
-337694585|Федоровка|Федорівка|Фёдоровка
-337699007|Братское|Брянське|Брянское
 337699037|Прибрежное||Прибрежное
 2744098693|Посёлок 3-й Гидроузел||Посёлок 3-й Гидроузел
 2850679401|Ближние Камыши||Ближние Камыши
