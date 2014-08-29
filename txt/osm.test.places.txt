@@ -2,13 +2,13 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n252176252|Сімферополь|city||missing polygon; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n146541158,r448930|Рівне|city|wikipedia=uk:Рівне|uk:Рівненський_район|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
+n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337541157,w191420774,r3559878|Березівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -40,6 +40,7 @@ n1628073978,w269265749,r3606547|Южне|town||missing place-tag on relation or 
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337689476,w185104595,r3592360|Гола Пристань|town|wikipedia=uk:Гола Пристань|uk:Гола_Пристань|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337600868,w30718864|Сєверо-Гундорівський|town||missing place-tag on way; 
 n337689759|Авангард|town||missing polygon; 
 n337671196|Ананьїв|town||missing polygon; 
@@ -82,7 +83,6 @@ n337684081|Воскресенське|town||missing polygon;
 n337587221|Врубівка|town||missing polygon; 
 n337599191|Врубівський|town||missing polygon; 
 n337596919|Ганнівка|town||missing polygon; 
-n2758288894|Гвардійське|town||missing polygon; 
 n1726586598|Гвіздець|town||missing polygon; 
 n337671123|Гірницьке|town||missing polygon; 
 n337660135|Глибока|town||missing polygon; 
@@ -109,7 +109,6 @@ n337667379|Зеленогірське|town||missing polygon;
 n337549096|Зідьки|town||missing polygon; 
 n337687842|Іванівка|town||missing polygon; 
 n702132126|Іванівка|town||missing polygon; 
-n337699713|Інкерман|town||missing polygon; 
 n337561699|Ірдинь|town||missing polygon; 
 n337558381|Калинівка|town||missing polygon; 
 n337593689|Калинове|town||missing polygon; 
@@ -223,7 +222,6 @@ n337562386|Турбів|town||missing polygon;
 n337602189|Усть-Чорна|town||missing polygon; 
 n337544672|Утківка|town||missing polygon; 
 n337606150|Фащівка|town||missing polygon; 
-n1830695011|Феодосія|town||missing polygon; 
 n337590283|Фрунзе|town||missing polygon; 
 n337689792|Хлібодарське|town||missing polygon; 
 n337569829|Цвіткове|town||missing polygon; 
@@ -283,6 +281,7 @@ n312263993,r3626214|Бурштин|town|wikipedia=uk:Бурштин (місто)
 n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803|node and relation tag values are different; 
 n337541242,r3166784|Вишнівець|town|population=3424|3405|node and relation tag values are different; 
 n256615282,r3947434|Володарське|town|koatuu=1421755100|1421787001|node and relation tag values are different; 
+n2758288894,r3620421|Гвардейское|town|name:en=Gvardeiskoe|Hvardiiske|node and relation tag values are different; 
 n337562696,r3166882|Гримайлів|town|population=1973|1962|node and relation tag values are different; 
 n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
 n337544447,r3166976|Залізці|town|population=2706|2703|node and relation tag values are different; 
@@ -306,6 +305,7 @@ n337668842,r2033389|Радушне|town|wikipedia=uk:Радушне|ru:Раду�
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n337595599,r3606499|Тернівка|town|wikipedia=uk:Тернівка (місто)|uk:Тернівка_(місто)|node and relation tag values are different; 
 n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag values are different; 
+n1830695011,r2997809|Феодосия|town|admin_level=8|9;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n337663834,r2097842|Христофорівка|town|wikipedia=uk:Христофорівка (смт)|ru:Христофоровка_(Криворожский_район)|node and relation tag values are different; 
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
