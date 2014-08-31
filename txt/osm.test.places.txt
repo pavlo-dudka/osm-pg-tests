@@ -2,13 +2,13 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n252176252|Сімферополь|city||missing polygon; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n146541158,r448930|Рівне|city|wikipedia=uk:Рівне|uk:Рівненський_район|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
-n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n337579368,w33884950|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|node and way tag values are different; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337541157,w191420774,r3559878|Березівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -146,6 +146,7 @@ n337578657|Маньківка|town||missing polygon;
 n2318438210|Меджибіж|town||missing polygon; 
 n337592048|Меліоративне|town||missing polygon; 
 n337674908|Миколаївка|town||missing polygon; 
+n337698616|Миколаївка|town||missing polygon; 
 n337584967|Мирна Долина|town||missing polygon; 
 n337603892|Мирне|town||missing polygon; 
 n337691318|Мирне|town||missing polygon; 
@@ -323,7 +324,6 @@ n337699968,w30713452|Краснокаменка|town|addr:postcode=98646|98653;p
 n337561091,w30720969|Мілове|town|wikipedia=uk:Мілове|de:Milowe|node and way tag values are different; 
 n337699434,w30714083|Научный|town|name:en=Nauchnyy|Nauchniy|node and way tag values are different; 
 n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnjohirskyj;name:fr=Nijnegorskyï|Nyjnohirskyï|node and way tag values are different; 
-n337698616,w30715964|Николаевка|town|name:en=Mykolaivka|Nikolaevka|node and way tag values are different; 
 n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
 n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
 n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
