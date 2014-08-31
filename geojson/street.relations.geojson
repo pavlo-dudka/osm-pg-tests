@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1309192,w85899813","relationtags":"name:ru|Кабельщиков улица","membertags":"name:ru|улица Кабельщиков","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.74567,46.7715]}},
+{"type":"Feature","properties":{"josm":"r1309192,w85899847","relationtags":"name:ru|Кабельщиков улица","membertags":"name:ru|улица Кабельщиков","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.74936,46.77275]}},
 {"type":"Feature","properties":{"josm":"r1657765,w32550570","relationtags":"name|Миколи Пимоненка вулиця","membertags":"addr:street|Миколи Пимоненка вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.48803,50.4595]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
