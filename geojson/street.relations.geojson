@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1263176,w84508448","relationtags":"name|Сергія Грицевця вулиця","membertags":"addr:street|Сергея Грицевца улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41121,49.92089]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r1889345,n3049871658","relationtags":"name|Академіка Вільямса вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.46378,50.3899]}},
@@ -172,6 +173,8 @@
 {"type":"Feature","properties":{"josm":"r2085508,w161510392","relationtags":"name|Андрія Шептицького вулиця","membertags":"name|Андрея Шептицького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.50402,49.36382]}},
 {"type":"Feature","properties":{"josm":"r2371624,w153326267","relationtags":"name|Чорновола В. вулиця","membertags":"name|В’ячеслава Чорновола вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.36141,49.22745]}},
 {"type":"Feature","properties":{"josm":"r2391101,w24767535","relationtags":"name:ru|Болгарский переулок","membertags":"name:ru|Камская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.18097,49.98227]}},
+{"type":"Feature","properties":{"josm":"r2392414,w197061897","relationtags":"name|Роганська вулиця","membertags":"addr:street|Роганская улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41394,49.92237]}},
+{"type":"Feature","properties":{"josm":"r2392414,w84508432","relationtags":"name|Роганська вулиця","membertags":"addr:street|Роганская улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41398,49.92209]}},
 {"type":"Feature","properties":{"josm":"r2392651,w300359157","relationtags":"name|Танкопія вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.30819,49.95742]}},
 {"type":"Feature","properties":{"josm":"r2392651,w300416201","relationtags":"name|Танкопія вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.3163,49.95602]}},
 {"type":"Feature","properties":{"josm":"r2450199,w86772933","relationtags":"name|Маршала Жукова проспект","membertags":"addr:street|Маршала Жукова проспект","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.31572,49.9571]}},
