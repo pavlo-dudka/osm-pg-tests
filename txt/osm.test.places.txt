@@ -70,6 +70,7 @@ n337596242|Брянка|town||missing polygon;
 n337599972|Бугаївка|town||missing polygon; 
 n337565005|Букачівці|town||missing polygon; 
 n337572370|Буки|town||missing polygon; 
+n312263993|Бурштин|town||missing polygon; 
 n337543657|Введенка|town||missing polygon; 
 n337605119|Великий Лог|town||missing polygon; 
 n337592204|Вендичани|town||missing polygon; 
@@ -231,7 +232,6 @@ n337598764|Челюскінець|town||missing polygon;
 n337556862|Червоний Донець|town||missing polygon; 
 n337592700|Червоногвардійське|town||missing polygon; 
 n337585024|Чернелиця|town||missing polygon; 
-n337695072|Черноморское|town||missing polygon; 
 n337655971|Чечельник|town||missing polygon; 
 n337556986|Чорний Острів|town||missing polygon; 
 n337689002|Чорноморське|town||missing polygon; 
@@ -276,7 +276,6 @@ n312233653,r3166665|Бережани|town|population=18116|18119|node and relati
 n337524664,r3586904|Березань|town|wikipedia=uk:Березань (місто)|uk:Березань_(місто)|node and relation tag values are different; 
 n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
 n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
-n312263993,r3626214|Бурштин|town|wikipedia=uk:Бурштин (місто)|uk:Бурштин_(місто)|node and relation tag values are different; 
 n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803|node and relation tag values are different; 
 n337541242,r3166784|Вишнівець|town|population=3424|3405|node and relation tag values are different; 
 n256615282,r3947434|Володарське|town|koatuu=1421755100|1421787001|node and relation tag values are different; 
@@ -308,6 +307,7 @@ n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag
 n1830695011,r2997809|Феодосия|town|admin_level=8|9;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n337663834,r2097842|Христофорівка|town|wikipedia=uk:Христофорівка (смт)|ru:Христофоровка_(Криворожский_район)|node and relation tag values are different; 
+n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
@@ -352,24 +352,9 @@ Invalid way role:
 3444361|256960932|1
 3520753|262219961|1
 3522840|181226219|1
-3540225|263599667|1
-3548442|273990809|1
-3566918|265425896|1
-3598332|268421447|1
-3898661|293394292|1
-3937139|88074291,200615616,294707376,296059979,296059982|5
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|762
-2668952|type|boundary|2668952|2707692|R|outer|1
-2668952|type|boundary|2668952|2707693|R|outer|7
-2668952|type|boundary|2668952|2707694|R|inner|8
-2668952|type|boundary|2668952|2707696|R|outer|6
-2668952|type|boundary|2668952|2707697|R|outer|5
-2668952|type|boundary|2668952|2707698|R|outer|3
-2668952|type|boundary|2668952|2707699|R|outer|4
-2668952|type|boundary|2668952|2707700|R|outer|2
-2668952|type|boundary|2668952|2725459|R|outer|0
 3994205|type|multipolygon|3994205|3994201|R|part|3
 3994205|type|multipolygon|3994205|3994202|R|part|2
 3994206|type|multipolygon|3994206|3994199|R|part|3
@@ -407,4 +392,3 @@ Crimea:
 2923095871|Военный городок КС-2||Военный городок КС-2
 
 Oblasts:
-256618278|Новый Свет|Новий Світ|Новый Свет
