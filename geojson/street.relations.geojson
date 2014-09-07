@@ -2,10 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1263176,w84508448","relationtags":"name|Сергія Грицевця вулиця","membertags":"addr:street|Сергея Грицевца улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41121,49.92089]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
-{"type":"Feature","properties":{"josm":"r1738351,w30176026","relationtags":"name|Архітектора Вербицького вулиця","membertags":"addr:street|Архітектора Вербицького","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.65946,50.4119]}},
 {"type":"Feature","properties":{"josm":"r2085012,w153325647","relationtags":"name|Івасюка В. вулиця","membertags":"name|Володимира Івасюка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.49063,49.35093]}},
 {"type":"Feature","properties":{"josm":"r2085014,w153325649","relationtags":"name|Ільницького В. провулок","membertags":"name|Володимира Ільницького провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.49658,49.35824]}},
 {"type":"Feature","properties":{"josm":"r2085018,w153325653","relationtags":"name|Байди Д. вулиця","membertags":"name|Байди вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.51448,49.34303]}},
@@ -172,9 +170,6 @@
 {"type":"Feature","properties":{"josm":"r2085508,w153373585","relationtags":"name|Андрія Шептицького вулиця","membertags":"addr:street|Андрея Шептицького вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.50411,49.36266]}},
 {"type":"Feature","properties":{"josm":"r2085508,w161510392","relationtags":"name|Андрія Шептицького вулиця","membertags":"name|Андрея Шептицького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.50402,49.36382]}},
 {"type":"Feature","properties":{"josm":"r2371624,w153326267","relationtags":"name|Чорновола В. вулиця","membertags":"name|В’ячеслава Чорновола вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.36141,49.22745]}},
-{"type":"Feature","properties":{"josm":"r2391101,w24767535","relationtags":"name:ru|Болгарский переулок","membertags":"name:ru|Камская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.18097,49.98227]}},
-{"type":"Feature","properties":{"josm":"r2392414,w197061897","relationtags":"name|Роганська вулиця","membertags":"addr:street|Роганская улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41394,49.92237]}},
-{"type":"Feature","properties":{"josm":"r2392414,w84508432","relationtags":"name|Роганська вулиця","membertags":"addr:street|Роганская улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41398,49.92209]}},
 {"type":"Feature","properties":{"josm":"r2392493,w34947219","relationtags":"name|Селянський провулок","membertags":"name|Парниковий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.22177,49.96076]}},
 {"type":"Feature","properties":{"josm":"r2607959,w144890146","relationtags":"name|Миру проспект","membertags":"addr:street|Новозаводська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.0598,46.93842]}},
 {"type":"Feature","properties":{"josm":"r2651274,w197449773","relationtags":"name|Л. Симиренка вулиця","membertags":"name|Симиренка Л. вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.25658,50.56658]}},
@@ -196,8 +191,6 @@
 {"type":"Feature","properties":{"josm":"r3044872,w292308715","relationtags":"name|Октябрьской Революции проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.46592,44.5879]}},
 {"type":"Feature","properties":{"josm":"r3044872,w293490345","relationtags":"name|Октябрьской Революции проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.46717,44.58823]}},
 {"type":"Feature","properties":{"josm":"r3044872,w96783335","relationtags":"name|Октябрьской Революции проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.46412,44.58913]}},
-{"type":"Feature","properties":{"josm":"r3522365,w37064513","relationtags":"name|Маршала Пересипкіна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.0524,48.32635]}},
-{"type":"Feature","properties":{"josm":"r3522365,w87947169","relationtags":"name|Маршала Пересипкіна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.05225,48.32678]}},
 {"type":"Feature","properties":{"josm":"r3530662,w131711965","relationtags":"name:uk|Покидька вулиця","membertags":"name:uk|вулиця Фадєєва","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.03158,48.35711]}},
 {"type":"Feature","properties":{"josm":"r3530662,w131711965","relationtags":"name|Покидька вулиця","membertags":"name|вулиця Фадєєва","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.03158,48.35711]}},
 {"type":"Feature","properties":{"josm":"r3530662,w295974068","relationtags":"name:uk|Покидька вулиця","membertags":"name:uk|вулиця Покидька","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.0323,48.35672]}},
@@ -653,9 +646,6 @@
 {"type":"Feature","properties":{"josm":"r3908094,w36781527","relationtags":"name:ru|улица Гайдара","membertags":"name:ru|Гайдара улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.09893,44.96727]}},
 {"type":"Feature","properties":{"josm":"r3908094,w36781527","relationtags":"name:uk|вулиця Гайдара","membertags":"name:uk|Гайдара вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.09893,44.96727]}},
 {"type":"Feature","properties":{"josm":"r3908094,w36781527","relationtags":"name|улица Гайдара","membertags":"name|Гайдара улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.09893,44.96727]}},
-{"type":"Feature","properties":{"josm":"r3923780,w116829801","relationtags":"name:ru|40 лет Победы улица","membertags":"name:ru|40-лет Победы улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.68064,47.73726]}},
-{"type":"Feature","properties":{"josm":"r3923780,w116829801","relationtags":"name:uk|40 років Перемоги вулиця","membertags":"name:uk|40-років Перемоги вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.68064,47.73726]}},
-{"type":"Feature","properties":{"josm":"r3923780,w116829801","relationtags":"name|40 років Перемоги вулиця","membertags":"name|40-років Перемоги вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.68064,47.73726]}},
 
 
 
