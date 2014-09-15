@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1229847,w89308385","relationtags":"name|Небесної Сотні вулиця","membertags":"addr:street|Небесної Сотні","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.93668,48.27083]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r2144342,w153525546","relationtags":"name|Ленських подій вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.43889,49.22331]}},
