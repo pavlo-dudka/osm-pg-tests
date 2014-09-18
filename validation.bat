@@ -7,3 +7,5 @@ call find.errors.bat
 call peirce.bat
 
 call publish.results.now.bat
+
+%psql_exe% -f sql\osm.vacuum.full.sql
