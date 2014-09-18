@@ -3,9 +3,9 @@ call config.bat
 cd binaries
 move ..\temp\ua.filtered.o5m ..\temp\ua.filtered.old.o5m
 call osmconvert.exe ..\temp\ua.osm.pbf -o=..\temp\ua.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street =service =pedestrian" -o=..\temp\ua.roads.0.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street =service =pedestrian =construction" -o=..\temp\ua.roads.0.o5m
 call osmconvert.exe ..\temp\ua.roads.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.roads.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep="place=city =town =village =hamlet" --drop-nodes="abandoned=*" -o=..\temp\ua.places.0.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep="place=city =town =village =hamlet" -o=..\temp\ua.places.0.o5m
 call osmconvert.exe ..\temp\ua.places.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.places.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations=" ( admin_level=4 =6 =7 =8 ) and koatuu=*" -o=..\temp\ua.boundaries.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations=" ( route=bus =trolleybus =share_taxi =tram =road ) and type=route" -o=..\temp\ua.routes.0.o5m
@@ -16,11 +16,12 @@ call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=multipolygon =b
 call osmconvert.exe ..\temp\ua.multipolygons.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.multipolygons.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="addr:street=* or addr:housename=* or addr:housenumber=* or ( building=* and name=* ) " -o=..\temp\ua.address.0.o5m
 call osmconvert.exe ..\temp\ua.address.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.address.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="name:en=Donetsk =Chernihiv" -o=..\temp\ua.cities.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep="amenity=* or historic=*" -o=..\temp\ua.poi.0.o5m
-call osmconvert.exe ..\temp\ua.poi.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.poi.o5m
-call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m ..\temp\ua.cities.o5m ..\temp\ua.poi.o5m -o=..\temp\ua.filtered.o5m
-del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m ..\temp\ua.cities.o5m ..\temp\ua.poi.o5m
+rem call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="name:en=Donetsk =Chernihiv" -o=..\temp\ua.cities.o5m
+rem call osmfilter.exe ..\temp\ua.o5m --keep="amenity=* or historic=*" -o=..\temp\ua.poi.0.o5m
+rem call osmconvert.exe ..\temp\ua.poi.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.poi.o5m
+call wget.exe http://osm.org/api/0.6/node/1464223496 -O ..\temp\bile.osm
+call osmconvert.exe ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m ..\temp\bile.osm -o=..\temp\ua.filtered.o5m
+del                 ..\temp\ua.roads.o5m ..\temp\ua.places.o5m ..\temp\ua.boundaries.o5m ..\temp\ua.routes.o5m ..\temp\ua.relations.o5m ..\temp\ua.multipolygons.o5m ..\temp\ua.address.o5m
 del ..\temp\ua.o5m
 del ..\temp\*.0.o5m
 

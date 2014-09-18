@@ -29,6 +29,18 @@ and (k in ('name','name:uk','name:ru') and way_id in (select way_id from way_tag
      k='addr:street' and way_id in (select way_id from way_tags where k='building'));
 
 update way_tags
+set v=trim(substr(v,1,length(v)-4))||' вулиця'
+where lower(v) similar to '% вул\.?'
+and (k in ('name','name:uk') and way_id in (select way_id from way_tags where k='highway') or 
+     k='addr:street' and way_id in (select way_id from way_tags where k='building'));
+
+update way_tags
+set v=trim(substr(v,1,length(v)-4))||' провулок'
+where lower(v) similar to '% пров\.?'
+and (k in ('name','name:uk') and way_id in (select way_id from way_tags where k='highway') or 
+     k='addr:street' and way_id in (select way_id from way_tags where k='building'));
+
+/*update way_tags
 set v=v||' вулиця'
 where v not similar to '% (шосе|дорога|узвіз|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where uk=v)
@@ -38,7 +50,7 @@ update way_tags
 set v=v||' вулиця'
 where v not similar to '% (шосе|дорога|узвіз|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where uk=v)
-  and k='addr:street' and way_id in (select way_id from way_tags where k='building');
+  and k='addr:street' and way_id in (select way_id from way_tags where k='building');*/
 
 update way_tags
 set v=trim(substr(v,4))||' улица'
@@ -82,7 +94,7 @@ where lower(v) similar to '% пер\.?'
 and (k in ('name','name:ru') and way_id in (select way_id from way_tags where k='highway') or 
      k='addr:street' and way_id in (select way_id from way_tags where k='building'));
 
-update way_tags
+/*update way_tags
 set v=v||' улица'
 where v not similar to '% (шоссе|дорога|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where ru=v)
@@ -92,4 +104,4 @@ update way_tags
 set v=v||' улица'
 where v not similar to '% (шоссе|дорога|спуск)|(Н|н)абережная?'
   and exists(select * from streets s where ru=v)
-  and k='addr:street' and way_id in (select way_id from way_tags where k='building');
+  and k='addr:street' and way_id in (select way_id from way_tags where k='building');*/

@@ -47,7 +47,7 @@ from relation_tags rtt
   left join relation_tags rtn on rtn.relation_id=rtt.relation_id and rtn.k='name'
   inner join relation_members rm on rm.relation_id=rtt.relation_id and rm.sequence_id=0
 where rtt.k='type' and rtt.v in ('street','associatedStreet') and rtn.k is null
-  and rtt.relation_id not in (3297198,2651279,2651280)
+  and rtt.relation_id not in (3297198,2651279,2651280,4049546)
 order by 1;
 
 select '{"type":"Feature"}';

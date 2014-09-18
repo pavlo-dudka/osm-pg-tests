@@ -37,17 +37,17 @@ order by 3,5,2,1;
 
 select '';
 select 'Multiple polygons:';
-select count(*),n.id,string_agg(r2.id::text,',' order by r2.id),string_agg(w2.id::text,',' order by w2.id)
+select count(*),n.id,string_agg('r'||r2.id::text,',' order by r2.id),string_agg('w'||w2.id::text,',' order by w2.id)
 from 
 nodes n
 inner join node_tags nt on nt.node_id=n.id and nt.k='place'
-left join (relations inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='place' and rt2.v<>'city_district') r2 on st_contains(r2.linestring,n.geom)
-left join (ways inner join way_tags wt2 on wt2.way_id=id and wt2.k='place') w2 on st_contains(w2.linestring,n.geom)
+left join (relations inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='place' and rt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood')) r2 on st_contains(r2.linestring,n.geom)
+left join (ways inner join way_tags wt2 on wt2.way_id=id and wt2.k='place' and wt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood')) w2 on st_contains(w2.linestring,n.geom)
 group by n.id
-having count(*)>1;
+having count(*)>1 or min(w2.id) is not null and min(r2.id) is not null;
 
 select '';
-select 'Invalid role:';
+select 'Invalid node role:';
 select * 
 from relation_tags rt
 inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='N' and rm.member_role not in ('admin_centre','label')
@@ -55,15 +55,18 @@ where rt.k='type' and rt.v in ('boundary','multipolygon')
 order by 1,2,3,4,5;
 
 select '';
-select 'Invalid role:';
-select * 
+select 'Invalid way role:';
+select rt.relation_id, string_agg(rm.member_id::text, ',' order by rm.member_id),count(*)
 from relation_tags rt
 inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W' and rm.member_role not in ('outer','inner')
+inner join ways w on w.id=rm.member_id
+inner join regions r on _st_contains(r.linestring, w.linestring)
 where rt.k='type' and rt.v in ('boundary','multipolygon')
-order by 1,2,3,4,5;
+group by rt.relation_id
+order by 1;
 
 select '';
-select 'Invalid role:';
+select 'Invalid relation role:';
 select * 
 from relation_tags rt
 inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='R' and rm.member_role not in ('subarea')
@@ -78,13 +81,25 @@ and not exists(select * from relation_tags rt2 where rt2.relation_id=rt.relation
 order by 1;
 
 select '';
-select 'name <> name:uk or invalid symbols in name:';
-select node_id,max(v),min(v) from node_tags
-where k in ('name','name:uk') 
-  and node_id in (select node_id from node_tags where k='place' and v not in ('suburb','locality','allotments'))
-  and node_id not in (371949683) 
-group by node_id 
-having count(distinct v)=2 or 
-       min(v) not similar to '[А-Яа-яіїєІЇЄ''’ -]*' or 
-       count(*)=1 and exists(select * from regions,nodes n where relation_id in (72639,1574364) and n.id=node_id and _st_contains(linestring,geom))
-order by node_id;
+select 'Crimea:';
+select n.id,ntn.v,ntu.v,ntr.v
+from node_tags ntp
+inner join nodes n on n.id=ntp.node_id
+inner join regions r on _st_contains(r.linestring,n.geom) and r.relation_id in (72639,1574364)
+left  join node_tags ntn on ntn.node_id=n.id and ntn.k='name'
+left  join node_tags ntu on ntu.node_id=n.id and ntu.k='name:uk'
+left  join node_tags ntr on ntr.node_id=n.id and ntr.k='name:ru'
+where ntp.k='place' and (ntn.v not in (ntu.v,ntr.v) or ntu.v is null)
+order by 1;
+
+select '';
+select 'Oblasts:';
+select n.id,ntn.v,ntu.v,ntr.v
+from node_tags ntp
+inner join nodes n on n.id=ntp.node_id
+inner join regions r on _st_contains(r.linestring,n.geom) and r.relation_id not in (72639,1574364)
+left  join node_tags ntn on ntn.node_id=n.id and ntn.k='name'
+left  join node_tags ntu on ntu.node_id=n.id and ntu.k='name:uk'
+left  join node_tags ntr on ntr.node_id=n.id and ntr.k='name:ru'
+where ntp.k='place' and (r.relation_id not in (72639,1574364) and (ntn.v<>ntu.v or ntu.v is null and ntn.v=ntr.v))
+order by 1;

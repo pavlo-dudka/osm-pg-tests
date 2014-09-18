@@ -11,9 +11,10 @@ start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o resul
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
-start "translation" test.translation.bat
 
 start "test" %psql_exe% -f sql\osm.test.sql -o results\osm.test.txt
+start "test.places" %psql_exe% -f sql\osm.test.places.sql -o results\osm.test.places.txt
+start "koatuu" %psql_exe% -f sql\osm.koatuu.sql -o results\osm.koatuu.txt
 start "pt.errors" %psql_exe% -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
 start "pt.errors.2" %psql_exe% -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
 start "roads" %psql_exe% -f sql\osm.roads.sql -o results\osm.roads.txt
@@ -23,10 +24,10 @@ start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o resul
 
 start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
 start "chernihiv" %psql_exe% -f sql\osm.chernihiv.sql -o results\osm.Chernihiv.txt
-start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
-start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
+rem start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
+rem start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
 start "dnipropetrovsk" %psql_exe% -f sql\osm.dnipropetrovsk.sql -o results\osm.Dnipropetrovsk.txt
-start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
+rem start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
 start "ivano-frankivsk" %psql_exe% -f sql\osm.ivano_frankivsk.sql -o results\osm.Ivano-Frankivsk.txt
 start "kamianets-podilskyi" %psql_exe% -f sql\osm.kamianets_podilskyi.sql -o results\osm.Kamianets-Podilskyi.txt
 start "kirovohrad" %psql_exe% -f sql\osm.kirovohrad.sql -o results\osm.Kirovohrad.txt

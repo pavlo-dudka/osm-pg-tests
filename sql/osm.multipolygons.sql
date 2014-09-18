@@ -27,7 +27,7 @@ d as (
 select '{"type":"Feature","properties":{"josm":"r'||d.relation_id||',n'||node_id||'"},"geometry":'||st_asgeojson(n.geom,5)||'},'
 from d
   inner join nodes n on n.id=node_id
-  inner join regions r on r.relation_id=d.relation_id or _st_contains(r.linestring, n.geom)
+  inner join regions r on r.relation_id=60199 or r.relation_id=d.relation_id or _st_contains(r.linestring, n.geom)
 order by 1;
 
 select '{"type":"Feature"}';

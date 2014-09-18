@@ -1,7 +1,11 @@
 call config.bat
 
+%pgbin_folder%dropdb.exe -U postgres -w osm
+%pgbin_folder%createdb.exe -O postgres -U postgres -T postgis_21_sample -w osm
+%psql_exe% -f sql\pg.sql
+
 cd binaries
-call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%"
+rem call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%"
 call osmconvert.exe ..\temp\ua.filtered.o5m -o=..\temp\ua.filtered.pbf
 call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%"
 

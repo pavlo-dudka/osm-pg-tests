@@ -8,6 +8,16 @@ where nt.k='building' and nt.v<>'entrance' and wti.k is null
 group by wn.node_id,wn.way_id
 order by wn.node_id,wn.way_id;
 
+/*select '';
+select 'Building on Square:';
+select 'r'||a.id||',w'||b.id
+from relations a
+inner join relation_tags wta on wta.relation_id=a.id and wta.k like 'area%' and wta.v<>'disputed'
+inner join relation_tags wth on wth.relation_id=wta.relation_id and wth.k like '%highway%'
+left  join ways b on st_isvalid(a.linestring) and st_isvalid(b.linestring) and _st_contains(a.linestring, b.linestring) and a.id<>b.id 
+left  join way_tags wtb on wtb.way_id=b.id and wtb.k = 'building'
+where b.id is not null;*/
+
 select '';
 select 'Redundant space-symbols:';
 select * from node_tags where trim(v)<>v order by 1,2;

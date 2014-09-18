@@ -20,7 +20,8 @@ select '{"type":"Feature","id":"'||b.id||'","properties":{"josm":"n'||b.id||','|
 from highways t
 inner join end_nodes b on st_dwithin(t.linestring,b.geom,0.01) and t.id<>b.way_id and t.layer=b.layer and st_dwithin(b.geom::geography, t.linestring::geography, (case when t.highway_level='service' then 2 else 5 end))
  left join highways h on h.id=b.way_id 
-where _st_intersects(h.linestring,t.linestring)='f'
+where (_st_intersects(h.linestring,t.linestring)='f'
+  or not st_dwithin(b.geom::geography, st_intersection(h.linestring,t.linestring)::geography, 5))
 group by b.id,b.geom
 order by b.id;
 

@@ -1,6 +1,7 @@
 call config.bat
 
 %psql_exe% -f sql\osm.highways.sql
+start "translation" test.translation.bat
 start "endNodes" test.endNodes.bat
 start "highway.crossings" %psql_exe% -f sql\osm.highway.crossings.sql -o results\highway.crossings.geojson
 start "no.highways" %psql_exe% -f sql\osm.no.highways.sql -o results\no.highways.geojson
