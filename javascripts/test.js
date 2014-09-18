@@ -89,11 +89,22 @@ function popupHtml(feature, errorDescr)
 	}
 	if (typeof(feature.properties.region) != "undefined")
 	{
-		result += '<tr><th>Region:</th><td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td></tr>';
+	        if (feature.properties.region.substring(0,2) == "UA")
+			result += '<tr><th>Region:</th><td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td></tr>';
+		else
+			result += '<tr><th>Region:</th><td>' + feature.properties.region + '</td></tr>';
 	}
 	if (typeof(feature.properties.city) != "undefined")
 	{
 		result += '<tr><th>City:</th><td>' + feature.properties.city + '</td></tr>';
+	}
+	if (typeof(feature.properties.population) != "undefined")
+	{
+		result += '<tr><th>Population:</th><td>' + feature.properties.population + '</td></tr>';
+	}
+	if (typeof(feature.properties.koatuu) != "undefined")
+	{
+		result += '<tr><th>KOATUU:</th><td>' + feature.properties.koatuu + '</td></tr>';
 	}
 	if (typeof(feature.properties.level) != "undefined")
 	{
@@ -164,6 +175,14 @@ function showTable(geoJson)
 			{
 				document.write('<th>City</th>');
 			}
+			if (typeof(feature.properties.population) != "undefined")
+			{
+				document.write('<th>Population</th>');
+			}
+			if (typeof(feature.properties.koatuu) != "undefined")
+			{
+				document.write('<th>KOATUU</th>');
+			}
 			if (typeof(feature.properties.level) != "undefined")
 			{
 				document.write('<th>Level</th>');
@@ -216,11 +235,22 @@ function showTable(geoJson)
 		}
 		if (typeof(feature.properties.region) != "undefined")
 		{
-			document.write('<td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td>');
+			if (feature.properties.region.substring(0,2) == "UA")
+				document.write('<td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td>');
+			else
+				document.write('<td>' + feature.properties.region + '</td>');
 		}
 		if (typeof(feature.properties.city) != "undefined")
 		{
 			document.write('<td>' + feature.properties.city + '</td>');
+		}
+		if (typeof(feature.properties.population) != "undefined")
+		{
+			document.write('<td>' + feature.properties.population + '</td>');
+		}
+		if (typeof(feature.properties.koatuu) != "undefined")
+		{
+			document.write('<td>' + feature.properties.koatuu + '</td>');
 		}
 		if (typeof(feature.properties.level) != "undefined")
 		{
