@@ -1,0 +1,5 @@
+[out:xml];
+node
+ ["place"~"city"]
+ ["wikipedia"]["name:uk"!~".*"];
+out meta;
