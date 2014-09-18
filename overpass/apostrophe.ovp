@@ -1,0 +1,8 @@
+area
+  ["boundary"="administrative"]
+  ["name"="Україна"]
+->.a;
+(node(area.a)["name"~".*'[яюєї].*"];
+ way(area.a)["name"~".*'[яюєї].*"];
+ relation(area.a)["name"~".*'[яюєї].*"];);
+out meta;

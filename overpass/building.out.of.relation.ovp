@@ -1,0 +1,26 @@
+<osm-script element-limit="1073741824" output="xml" timeout="900">
+  <query into="a" type="area">
+    <has-kv k="boundary" modv="" v="administrative"/>
+    <has-kv k="name:uk" modv="" regv="(Донецька|Луганська) область|Севастополь|Автономна Республіка Крим"/>
+  </query>
+  <union>
+    <difference>
+      <query type="way">
+        <area-query from="a"/>
+        <has-kv k="addr:street"/>
+        <has-kv k="addr:street" modv="not" regv=".* (вулиця|провулок|площа)|.*(і|ї).*"/>
+        <has-kv k="addr:housenumber"/>
+      </query>
+      
+      <union>
+        <query type="relation">
+          <area-query from="a"/>
+          <has-kv k="type" v="associatedStreet"/>
+        </query>
+        <recurse type="relation-way"/>
+      </union>    
+    </difference>
+    <recurse type="way-node"/>
+  </union>
+  <print mode="meta"/>
+</osm-script>

@@ -1,0 +1,9 @@
+area
+  ["boundary"="administrative"]
+  ["name"="Україна"]
+->.a;
+(node(area.a)["wikipedia"~"http"];
+ way(area.a)["wikipedia"~"http"];
+ relation(area.a)["wikipedia"~"http"];
+);
+out meta;

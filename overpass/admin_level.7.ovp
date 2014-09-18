@@ -1,0 +1,6 @@
+area
+  ["boundary"="administrative"]
+  ["name"="Україна"]
+->.a;
+relation(area.a)["admin_level"~"7"][name!~"район"];
+out meta;

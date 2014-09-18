@@ -1,0 +1,1 @@
+..\binaries\wget http://overpass-api.de/api/interpreter --post-file=%1 -O %1.osm
