@@ -41,7 +41,6 @@ n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation 
 n337689476,w185104595,r3592360|Гола Пристань|town|wikipedia=uk:Гола Пристань|uk:Гола_Пристань|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
 n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n337600868,w30718864|Сєверо-Гундорівський|town||missing place-tag on way; 
 n337689759|Авангард|town||missing polygon; 
 n3071974433|Авіаторське|town||missing polygon; 
 n337671196|Ананьїв|town||missing polygon; 
@@ -242,7 +241,6 @@ n337689002|Чорноморське|town||missing polygon;
 n337587448|Шаргород|town||missing polygon; 
 n337537037|Шарівка|town||missing polygon; 
 n337548964|Шевченкове|town||missing polygon; 
-n253900783|Щастя|town||missing polygon; 
 n337601037|Щорськ|town||missing polygon; 
 n337595311|Ювілейне|town||missing polygon; 
 n337598517|Южна Ломуватка|town||missing polygon; 
@@ -316,6 +314,7 @@ n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;nam
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
+n253900783,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n337580330,w30721586|Сиротине|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
 n337697952,w30716000|Белогорск|town|name:de=Bilohirsk|Belohorsk;name:en=Bilohirsk|Belogorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
@@ -350,6 +349,7 @@ Multiple polygons:
 2|1984361456|r3556561,r3557536|
 
 Invalid node role:
+2581142|type|multipolygon|2581142|253900783|N||2
 3947674|type|boundary|3947674|3005746007|N||0
 
 Invalid way role:
