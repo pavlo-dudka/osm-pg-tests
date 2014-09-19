@@ -20,7 +20,7 @@ where not exists(select *
                     inner join way_tags ptn on ptn.way_id=p.id and ptn.k=ntn.k and ptn.v=ntn.v
                     inner join way_tags ptp on ptp.way_id=p.id and ptp.k=ntp.k and ptp.v=ntp.v
                  where st_isclosed(p.linestring) and _st_contains(st_makepolygon(p.linestring), n.geom))
-order by length(ntl.v) desc,ntl.v desc;
+order by length(ntl.v) desc,ntl.v desc,n.id;
 
 select '{"type":"Feature"}';
 select ']}';
