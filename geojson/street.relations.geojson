@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1507013,w105716747","relationtags":"name|Незалежності вулиця","membertags":"addr:street|Незалежності вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[31.23183,51.51978]}},
+{"type":"Feature","properties":{"josm":"r1507013,w304381834","relationtags":"name|Незалежності вулиця","membertags":"addr:street|Незалежності вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[31.23371,51.5194]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r2071381,w153674514","relationtags":"name|Леваневського вулиця","membertags":"addr:street|Комсомольський бульвар","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.14249,49.78822]}},
