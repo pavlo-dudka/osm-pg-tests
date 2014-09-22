@@ -4,11 +4,11 @@
 	<title>House numbers (OSM Ukraine)</title>
 	<meta charset="utf-8" />
 
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 	<link rel="stylesheet" href="dist/MarkerCluster.css" />
 	<link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
 
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+	<script src="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 	<script src="dist/leaflet.markercluster.js"></script>
 	<script src="dist/Permalink.js"></script>
 
@@ -20,15 +20,7 @@
 	<div id='map'/>
 
 	<script type="text/javascript">
-		var map = L.map('map').setView([49, 31], 6);
-		map.addControl(new L.Control.Permalink());
-
-		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 19,
-			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
-        
-        showMap('geojson/house.numbers.geojsont');
+		showMap('geojson/house.numbers.geojsont');
 	</script>
 </body>
 </html>
