@@ -38,7 +38,11 @@ function showGeoJson(map, geoJson)
 function popupHtml(feature, errorDescr)
 {
 	var result = '';
-	if (typeof(errorDescr) != "undefined")
+	if (typeof(feature.properties.error) != "undefined")
+	{
+		result += '<center><b><font color="FF0000">' + feature.properties.error + '</font></b></center>';
+	}
+	else if (typeof(errorDescr) != "undefined")
 	{
 		result += '<center><b><font color="FF0000">' + errorDescr + '</font></b></center>';
 	}
