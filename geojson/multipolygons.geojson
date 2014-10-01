@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1290225","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[25.53404,47.93558]}},
 {"type":"Feature","properties":{"josm":"r1384047","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[35.07461,48.45045]}},
 {"type":"Feature","properties":{"josm":"r1860244","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[32.30215,46.11975]}},
 {"type":"Feature","properties":{"josm":"r1871317","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[30.63753,46.49629]}},
@@ -69,7 +68,6 @@
 {"type":"Feature","properties":{"josm":"r3878504","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[39.59863,48.13536]}},
 {"type":"Feature","properties":{"josm":"r3878911","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[38.36552,48.58882]}},
 {"type":"Feature","properties":{"josm":"r3896399","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[39.65698,48.11498]}},
-{"type":"Feature","properties":{"josm":"r3896492","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[40.15774,49.56682]}},
 {"type":"Feature","properties":{"josm":"r3999532","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[33.99905,44.79751]}},
 {"type":"Feature","properties":{"josm":"r4006501","error":"multipolygon without tags, members have identical tags - move tags from ways to relation"},"geometry":{"type":"Point","coordinates":[30.59923,46.54167]}},
 {"type":"Feature","properties":{"josm":"r4026862","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[30.60394,46.51726]}},
