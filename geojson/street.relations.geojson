@@ -2,17 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1205901,w87193396","relationtags":"name|Героїв Сталінграда вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[35.01225,48.42597]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475362","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38265,45.04362]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475421","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38204,45.04205]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475503","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38275,45.04426]}},
-{"type":"Feature","properties":{"josm":"r3093393,w143058768","relationtags":"name|Ленiна вулиця","membertags":"name|Леніна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.65981,47.75935]}},
-{"type":"Feature","properties":{"josm":"r3093393,w143058769","relationtags":"name|Ленiна вулиця","membertags":"name|Леніна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.66938,47.74866]}},
-{"type":"Feature","properties":{"josm":"r3093393,w143058772","relationtags":"name|Ленiна вулиця","membertags":"name|Леніна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.66869,47.74969]}},
-{"type":"Feature","properties":{"josm":"r3093393,w296952382","relationtags":"name|Ленiна вулиця","membertags":"name|Леніна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.66064,47.75821]}},
-{"type":"Feature","properties":{"josm":"r3554009,w306218475","relationtags":"name|Курчатова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.61477,47.15561]}},
 {"type":"Feature","properties":{"josm":"r3606249,w112557885","relationtags":"name|Архітектурна вулиця","membertags":"addr:street|Архитектурная улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41467,45.28627]}},
 {"type":"Feature","properties":{"josm":"r3606249,w112557922","relationtags":"name|Архітектурна вулиця","membertags":"addr:street|Архитектурная улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41385,45.28627]}},
 {"type":"Feature","properties":{"josm":"r3606249,w112557938","relationtags":"name|Архітектурна вулиця","membertags":"addr:street|Архитектурная улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.41376,45.28673]}},
@@ -446,5 +440,10 @@
 {"type":"Feature","properties":{"josm":"r4083371,w96557387","relationtags":"name|Карла Маркса вулиця","membertags":"addr:street|Карла Маркса улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.0182,45.11577]}},
 {"type":"Feature","properties":{"josm":"r4083385,w72098623","relationtags":"name:ru|Морозова улица","membertags":"name:ru|улица Морозова","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.10297,44.96071]}},
 {"type":"Feature","properties":{"josm":"r4083385,w72098623","relationtags":"name|Морозова улица","membertags":"name|улица Морозова","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.10297,44.96071]}},
+{"type":"Feature","properties":{"josm":"r4083439,w115555373","relationtags":"name|Калініна вулиця","membertags":"addr:street|Калинина улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.24249,44.95642]}},
+{"type":"Feature","properties":{"josm":"r4083439,w115555696","relationtags":"name|Калініна вулиця","membertags":"addr:street|Калинина улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.24154,44.95638]}},
+{"type":"Feature","properties":{"josm":"r4083439,w115557642","relationtags":"name|Калініна вулиця","membertags":"addr:street|Калинина улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.24163,44.95654]}},
+{"type":"Feature","properties":{"josm":"r4083439,w291987717","relationtags":"name|Калініна вулиця","membertags":"addr:street|Калинина улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.24206,44.95671]}},
+{"type":"Feature","properties":{"josm":"r4083439,w291987718","relationtags":"name|Калініна вулиця","membertags":"addr:street|Калинина улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.24186,44.95616]}},
 {"type":"Feature"}
 ]}
