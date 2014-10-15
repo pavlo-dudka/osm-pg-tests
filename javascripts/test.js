@@ -114,6 +114,14 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>Level:</th><td>' + feature.properties.level + '</td></tr>';
 	}
+	if (typeof(feature.properties.address) != "undefined")
+	{
+		result += '<tr><th>Address:</th><td>' + feature.properties.address + '</td></tr>';
+	}
+	if (typeof(feature.properties.levels) != "undefined")
+	{
+		result += '<tr><th>Building Levels:</th><td>' + feature.properties.levels + '</td></tr>';
+	}
 	if (typeof(feature.properties.NumberOfRoads) != "undefined")
 	{
 		result += '<tr><th>Roads count:</th><td>' + feature.properties.NumberOfRoads + '</td></tr>';
@@ -191,6 +199,14 @@ function showTable(geoJson)
 			{
 				document.write('<th>Level</th>');
 			}
+			if (typeof(feature.properties.address) != "undefined")
+			{
+				document.write('<th>Address</th>');
+			}
+			if (typeof(feature.properties.levels) != "undefined")
+			{
+				document.write('<th>Building Levels</th>');
+			}
 			if (typeof(feature.properties.NumberOfRoads) != "undefined")
 			{
 				document.write('<th>Roads count</th>');
@@ -259,6 +275,14 @@ function showTable(geoJson)
 		if (typeof(feature.properties.level) != "undefined")
 		{
 			document.write('<td>' + feature.properties.level + '</td>');
+		}
+		if (typeof(feature.properties.address) != "undefined")
+		{
+			document.write('<td>' + feature.properties.address + '</td>');
+		}
+		if (typeof(feature.properties.levels) != "undefined")
+		{
+			document.write('<td>' + feature.properties.levels + '</td>');
 		}
 		if (typeof(feature.properties.NumberOfRoads) != "undefined")
 		{
