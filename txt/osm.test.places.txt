@@ -3,13 +3,13 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n252176252|Сімферополь|city||missing polygon; 
 n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|multiple place objects; node and way tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
+n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337541157,w191420774,r3559878|Березівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -386,3 +386,66 @@ Crimea:
 3102562105|Морозовка||
 
 Oblasts:
+
+admin_level:
+130207737|17|2
+129411409|7|6
+208371938|8|6
+226988461|8|6
+226988462|8|6
+232644507|8|6
+189038368|8|6
+30722486|8|6
+129413862|8|6
+237469029|8|6
+237469112|8|6
+30723613|8|6
+189041420|8|6
+226988467|8|6
+189038369|8|6
+237469055|8|6
+30716164|8|6
+30719936|9|6
+30717577|9|6
+30717368|9|6
+30717799|9|6
+30717400|9|6
+30717431|9|6
+30717467|9|6
+30717993|9|6
+30721272|9|6
+30717917|9|6
+30721950|9|6
+30717310|9|6
+30719244|9|6
+30718555|9|6
+30719657|9|6
+30717424|9|6
+30719864|9|6
+30717340|9|6
+30718273|9|6
+30717849|9|6
+30721845|9|6
+30717406|9|6
+30717437|9|6
+30718359|9|6
+80539679|8|7
+80539670|8|7
+80539647|8|7
+80539646|8|7
+80539671|8|7
+64776653|8|7
+80539645|8|7
+66566102|8|7
+64776672|8|7
+80539657|8|7
+80539673|8|7
+80539680|8|7
+80539682|8|7
+129371619|7|8
+306629655|9|8
+296114288|9|8
+210590397|9|8
+262082944|9|8
+306629656|9|8
+261374280|8|9
