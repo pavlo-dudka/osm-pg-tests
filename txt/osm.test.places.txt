@@ -3,7 +3,6 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n26150422|Київ|city||missing polygon; 
 n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|multiple place objects; node and way tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -320,10 +319,10 @@ n337700339,w30711860|Санаторное|town|name:en=Sanatornoye|Sanatornoe|no
 n311423386,w30713260|Щёлкино|town|name:de=Schtscholkine|Schtscholkino|node and way tag values are different; 
 
 Multiple polygons:
+2|26150422|r421866,r1755014|
 2|26150791|r2032280,r2123677|
 2|253900783|r2171253,r2581142|
 2|313247858|r2108756,r2126564|
-2|337520861|r421866,r1754752|
 2|337525174|r3557610,r3557617|
 2|337534409|r3558015,r3558064|
 2|337534429|r3556446,r3560228|
