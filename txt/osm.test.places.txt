@@ -3,12 +3,6 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n253877159|Алчевск|city||missing polygon; 
-n256613740|Горловка|city||missing polygon; 
-n39682896|Донецк|city||missing polygon; 
-n274929523|Краматорск|city||missing polygon; 
-n253874196|Луганск|city||missing polygon; 
-n256613986|Славянск|city||missing polygon; 
 n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|multiple place objects; node and way tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -22,6 +16,7 @@ n337522038,w242013967,r3267167|Велика Писарівка|town||missing pla
 n289308798,w51551900,r421865|Вишгород|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337511059,w87197693,r3047716|Ворожба|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503119,w230895555,r3096243|Дружба|town||missing place-tag on relation or wrong name; multiple place objects; 
+n337604156,w30721272,r3125767|Ізварине|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337574832,w134566471,r2090993|Кам’янка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337580701,w137380532,r2090902|Капітанівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337579618,w228382389,r3058860|Катеринопіль|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -45,7 +40,7 @@ n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Ин�
 n337689759|Авангард|town||missing polygon; 
 n3071974433|Авіаторське|town||missing polygon; 
 n337671196|Ананьїв|town||missing polygon; 
-n256617917|Андреевка|town||missing polygon; 
+n256617917|Андріївка|town||missing polygon; 
 n337544206|Антоніни|town||missing polygon; 
 n337545417|Артемівка|town||missing polygon; 
 n337598439|Артемівськ|town||missing polygon; 
@@ -94,11 +89,9 @@ n337602558|Городище|town||missing polygon;
 n337538282|Гриців|town||missing polygon; 
 n337533389|Гути|town||missing polygon; 
 n337576602|Дашів|town||missing polygon; 
-n256613761|Дебальцево|town||missing polygon; 
 n337657064|Демурине|town||missing polygon; 
 n337564360|Десна|town||missing polygon; 
 n337687346|Дніпряни|town||missing polygon; 
-n256613827|Докучаєвск|town||missing polygon; 
 n337589041|Донецький|town||missing polygon; 
 n337575718|Дунаївці|town||missing polygon; 
 n337574845|Єзупіль|town||missing polygon; 
@@ -110,7 +103,6 @@ n337540656|Запитів|town||missing polygon;
 n337520759|Здолбунів|town||missing polygon; 
 n337667379|Зеленогірське|town||missing polygon; 
 n337549096|Зідьки|town||missing polygon; 
-n337604156|Изварино|town||missing polygon; 
 n337687842|Іванівка|town||missing polygon; 
 n702132126|Іванівка|town||missing polygon; 
 n337561699|Ірдинь|town||missing polygon; 
@@ -127,7 +119,6 @@ n337597363|Кольчино|town||missing polygon;
 n337527291|Комишня|town||missing polygon; 
 n337588693|Комишуваха|town||missing polygon; 
 n337600321|Комісарівка|town||missing polygon; 
-n256618288|Комсомольское|town||missing polygon; 
 n337583044|Копайгород|town||missing polygon; 
 n337590670|Кострижівка|town||missing polygon; 
 n337539427|Костянтинівка|town||missing polygon; 
@@ -142,7 +133,6 @@ n337598560|Леніна|town||missing polygon;
 n337543357|Лозно-Олександрівка|town||missing polygon; 
 n337563950|Лозове|town||missing polygon; 
 n337597971|Ломуватка|town||missing polygon; 
-n337599881|Лутугино|town||missing polygon; 
 n337535921|Мала Данилівка|town||missing polygon; 
 n337544240|Малинівка|town||missing polygon; 
 n337602984|Маломиколаївка|town||missing polygon; 
@@ -171,8 +161,6 @@ n2096793470|Новопокровка|town||missing polygon;
 n337543316|Новопокровка|town||missing polygon; 
 n337596788|Новосвітлівка|town||missing polygon; 
 n337587920|Новотошківське|town||missing polygon; 
-n256615157|Новотроицкое|town||missing polygon; 
-n256618278|Новый Свет|town||missing polygon; 
 n2128905660|Обертин|town||missing polygon; 
 n337538874|Олесько|town||missing polygon; 
 n337681367|Ольшанське|town||missing polygon; 
@@ -181,7 +169,6 @@ n337516683|Оржів|town||missing polygon;
 n337580101|Павлиш|town||missing polygon; 
 n337690697|Партизани|town||missing polygon; 
 n337683700|Первомайське|town||missing polygon; 
-n337598450|Перевальск|town||missing polygon; 
 n337597829|Петропавлівка|town||missing polygon; 
 n337656556|Письменне|town||missing polygon; 
 n337659287|Підгородна|town||missing polygon; 
@@ -198,7 +185,6 @@ n337605172|Рудниця|town||missing polygon;
 n337560536|Савинці|town||missing polygon; 
 n337604647|Салькове|town||missing polygon; 
 n337565520|Сатанів|town||missing polygon; 
-n337660247|Свердловск|town||missing polygon; 
 n337600086|Селезнівка|town||missing polygon; 
 n337553321|Семенівка|town||missing polygon; 
 n337594685|Середнє|town||missing polygon; 
@@ -210,31 +196,25 @@ n337659708|Славгород|town||missing polygon;
 n337666951|Слобідка|town||missing polygon; 
 n337526312|Смига|town||missing polygon; 
 n337579251|Смотрич|town||missing polygon; 
-n256613983|Снежное|town||missing polygon; 
 n337588299|Солотвин|town||missing polygon; 
 n337515468|Соснове|town||missing polygon; 
 n337660175|Софіївка|town||missing polygon; 
 n337592538|Стара Ушиця|town||missing polygon; 
 n337538490|Старий Мерчик|town||missing polygon; 
-n256618283|Старобешево|town||missing polygon; 
 n337560375|Стеблів|town||missing polygon; 
 n337511426|Степань|town||missing polygon; 
-n253900783|Счастье|town||missing polygon; 
 n337690467|Таїрове|town||missing polygon; 
 n337602895|Талове|town||missing polygon; 
 n337691696|Тарутине|town||missing polygon; 
-n256617924|Тельманово|town||missing polygon; 
 n337590253|Теплик|town||missing polygon; 
 n337509712|Томашгород|town||missing polygon; 
 n337594569|Томашпіль|town||missing polygon; 
 n337595939|Тростянець|town||missing polygon; 
 n337562386|Турбів|town||missing polygon; 
-n256614070|Угледар|town||missing polygon; 
 n337602189|Усть-Чорна|town||missing polygon; 
 n337544672|Утківка|town||missing polygon; 
 n337606150|Фащівка|town||missing polygon; 
 n337590283|Фрунзе|town||missing polygon; 
-n256614069|Харцызск|town||missing polygon; 
 n337689792|Хлібодарське|town||missing polygon; 
 n337569829|Цвіткове|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
@@ -247,14 +227,12 @@ n337556986|Чорний Острів|town||missing polygon;
 n337689002|Чорноморське|town||missing polygon; 
 n337587448|Шаргород|town||missing polygon; 
 n337537037|Шарівка|town||missing polygon; 
-n256614098|Шахтёрск|town||missing polygon; 
 n337601037|Щорськ|town||missing polygon; 
 n337595311|Ювілейне|town||missing polygon; 
 n337598517|Южна Ломуватка|town||missing polygon; 
 n337599757|Яблунів|town||missing polygon; 
 n337538997|Ямпіль|town||missing polygon; 
 n337567918|Ярмолинці|town||missing polygon; 
-n256614136|Ясиноватая|town||missing polygon; 
 n337599265|Ящикове|town||missing polygon; 
 n337596679,w30722830,r2396427|Біле|town||multiple place objects; 
 n1628075066,w183700330,r2445912|Верхній Рогачик|town||multiple place objects; 
@@ -320,6 +298,7 @@ n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;nam
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
+n253900783,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n337697952,w30716000|Белогорск|town|name:de=Bilohirsk|Belohorsk;name:en=Bilohirsk|Belogorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
 n337700320,w225981775|Береговое|town|name:en=Beregovoye|Beregovoe|node and way tag values are different; 
@@ -406,33 +385,6 @@ Crimea:
 3102562105|Морозовка||
 
 Oblasts:
-39682896|Донецк|Донецьк|Донецк
-253874196|Луганск|Луганськ|Луганск
-253877159|Алчевск|Алчевськ|Алчевск
-253900783|Счастье|Щастя|Счастье
-256613740|Горловка|Горлівка|Горловка
-256613761|Дебальцево|Дебальцеве|Дебальцево
-256613827|Докучаєвск|Докучаєвськ|Докучаевск
-256613983|Снежное|Сніжне|Снежное
-256613986|Славянск|Слов’янськ|Славянск
-256614069|Харцызск|Харцизьк|Харцызск
-256614070|Угледар|Вугледар|Угледар
-256614098|Шахтёрск|Шахтарськ|Шахтёрск
-256614136|Ясиноватая|Ясинувата|Ясиноватая
-256614982|Николаевка|Миколаївка|Николаевка
-256615155|Оленовка|Оленівка|Оленовка
-256615157|Новотроицкое|Новотроїцьке|Новотроицкое
-256617917|Андреевка|Андріївка|Андреевка
-256617924|Тельманово|Тельманове|Тельманово
-256618278|Новый Свет|Новий Світ|Новый Свет
-256618283|Старобешево|Старобешеве|Старобешево
-256618288|Комсомольское|Комсомольське|Комсомольское
-256618523|Сауровка|Саурівка|Сауровка
-274929523|Краматорск|Краматорськ|Краматорск
-337598450|Перевальск|Перевальськ|Перевальск
-337599881|Лутугино|Лутугине|Лутугино
-337604156|Изварино|Ізварине|Изварино
-337660247|Свердловск|Свердловськ|Свердловск
 
 admin_level:
 267405017|6|4
