@@ -38,6 +38,10 @@ cd ..
 
 %psql_exe% -f sql\osm.boundaries.sql
 
+cd data
+xcopy /Y *.txt "%pg_data_folder%"
+cd ..
+
 cd exceptions
 xcopy /Y *.exc "%pg_data_folder%"
 %psql_exe% -f osm.load.exceptions.sql
