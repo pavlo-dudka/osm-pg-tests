@@ -2,10 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1749451,n1429990275"},"geometry":{"type":"Point","coordinates":[30.15077,49.83303]}},
-{"type":"Feature","properties":{"josm":"r1749451,n3135737388"},"geometry":{"type":"Point","coordinates":[30.15158,49.83207]}},
-{"type":"Feature","properties":{"josm":"r1749451,n3135737390"},"geometry":{"type":"Point","coordinates":[30.15186,49.8328]}},
-{"type":"Feature","properties":{"josm":"r1749451,n3135737393"},"geometry":{"type":"Point","coordinates":[30.15126,49.83292]}},
 {"type":"Feature","properties":{"josm":"r3753018","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.53703,47.09048]}},
 {"type":"Feature","properties":{"josm":"r3753091","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.57229,47.1007]}},
 {"type":"Feature","properties":{"josm":"r3753151","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.55453,47.11313]}},
@@ -32,6 +28,5 @@
 {"type":"Feature","properties":{"josm":"r3885535","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.52468,47.12262]}},
 {"type":"Feature","properties":{"josm":"r3885536","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.52141,47.12544]}},
 {"type":"Feature","properties":{"josm":"r3966324","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[37.5108,47.12322]}},
-{"type":"Feature","properties":{"josm":"r4119233","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[33.9453,44.76962]}},
 {"type":"Feature"}
 ]}
