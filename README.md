@@ -1,5 +1,5 @@
-osm-tests
-=========
+osm-pg-tests
+============
 
 Following folders and files expected in binaries-folder:
   osmosis-latest
