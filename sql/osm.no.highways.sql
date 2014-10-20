@@ -13,7 +13,8 @@ where nt.k='place' and nt.v in ('city','town','village','hamlet') and
 n.id not in (337696888,337689331,1224164975,371949683,2778969193,1464223496) and
 coalesce(ntl.v::int, 999)>20 and
 not exists(select 1 from highways w where st_dwithin(n.geom,w.linestring,0.1) and st_distance_sphere(n.geom,w.linestring) < 500) and
-not exists(select 1 from node_tags where node_id=n.id and k='abandoned')
+not exists(select 1 from node_tags where node_id=n.id and k='abandoned') and
+not exists(select 1 from node_tags where node_id=n.id and k='historic' and v='ruins')
 order by n.id;
 
 select '{"type":"Feature"}';
