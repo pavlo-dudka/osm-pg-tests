@@ -103,3 +103,17 @@ left  join node_tags ntu on ntu.node_id=n.id and ntu.k='name:uk'
 left  join node_tags ntr on ntr.node_id=n.id and ntr.k='name:ru'
 where ntp.k='place' and (r.relation_id not in (72639,1574364) and (ntn.v<>ntu.v or ntu.v is null and ntn.v=ntr.v))
 order by 1;
+
+select '';
+select 'admin_level:';
+select wt.way_id,wt.v::int,min(rt.v::int)
+from way_tags wt 
+inner join relation_members rm on rm.member_id=wt.way_id and rm.member_type='W'
+inner join relation_tags rt on rt.relation_id=rm.relation_id and rt.k='admin_level'
+inner join relation_tags rtn on rtn.relation_id=rm.relation_id and rtn.k='name'
+inner join ways w on w.id=wt.way_id
+inner join users u on u.id=w.user_id --and u.name='uname'
+where wt.k='admin_level' --and wt.v in ('2','4','6','7','8')
+group by wt.way_id,wt.v
+having wt.v::int<>min(rt.v::int)
+order by 3,2
