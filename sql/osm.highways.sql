@@ -10,6 +10,7 @@ select w.id,
 from ways w
   inner join way_tags wt on wt.way_id=w.id and wt.k='highway' and wt.v not in ('bus_stop','emergency_access_point','platform','footway')
   left join  way_tags wtl on wtl.way_id=w.id and wtl.k='layer'
-where not exists(select * from way_tags wta where wta.way_id=w.id and wta.k='area' and wta.v='yes');
+where not exists(select * from way_tags wta where wta.way_id=w.id and wta.k='area' and wta.v='yes')
+  and not exists(select * from exc_highways where way_id=w.id);
 create index idx_highways_id on highways(id);
 create index idx_highways_linestring on highways using gist(linestring);
