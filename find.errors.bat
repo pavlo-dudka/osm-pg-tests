@@ -7,7 +7,8 @@ start "street.relations" %psql_exe% -f sql\osm.street.relations.sql -o results\s
 start "street.relations.m" %psql_exe% -f sql\osm.street.relations.m.sql -o results\street.relations.m.geojson
 start "street.relations.n" %psql_exe% -f sql\osm.street.relations.n.sql -o results\street.relations.n.geojson
 start "street.relations.o" %psql_exe% -f sql\osm.street.relations.o.sql -o results\street.relations.o.geojson
-start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojsont
+start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojson
+start "cities.without.place.polygon" %psql_exe% -f sql\osm.cities.without.place.polygon.sql -o results\cities.without.place.polygon.geojson
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
@@ -32,6 +33,7 @@ start "ivano-frankivsk" %psql_exe% -f sql\osm.ivano_frankivsk.sql -o results\osm
 start "kamianets-podilskyi" %psql_exe% -f sql\osm.kamianets_podilskyi.sql -o results\osm.Kamianets-Podilskyi.txt
 start "kirovohrad" %psql_exe% -f sql\osm.kirovohrad.sql -o results\osm.Kirovohrad.txt
 start "kyiv" %psql_exe% -f sql\osm.kyiv.sql -o results\osm.Kyiv.txt
+start "kyiv.building.levels" %psql_exe% -f sql\osm.kyiv.building.levels.sql -o results\kyiv.building.levels.geojson
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL

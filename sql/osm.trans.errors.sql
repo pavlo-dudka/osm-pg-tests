@@ -4,11 +4,15 @@ drop table if exists way_type;
 create table way_type as
 select 'uk' as lang,'вулиця' as type_f,'улица' as trans, 'вул(.|иця)' as reg union
 select 'ru' as lang,'улица' as type_f,'вулиця' as trans, '' as reg union
-select 'uk' as lang,'провулок' as type_f,'переулок' as trans, '' as reg union
+select 'uk' as lang,'провулок' as type_f,'переулок' as trans, 'пров(.|улок)' as reg union
 select 'ru' as lang,'переулок' as type_f,'провулок' as trans, '' as reg union
 select 'uk' as lang,'площа' as type_f,'площадь' as trans, '' as reg union
 select 'ru' as lang,'площадь' as type_f,'площа' as trans, '' as reg union
+select 'uk' as lang,'майдан' as type_f,null as trans, '' as reg union
+select 'ru' as lang,'майдан' as type_f,'майдан' as trans, '' as reg union
 select 'uk' as lang,'узвіз' as type_f,'спуск' as trans, '' as reg union
+select 'uk' as lang,'спуск' as type_f,'спуск' as trans, '' as reg union
+select 'ru' as lang,'спуск' as type_f,null as trans, '' as reg union
 select 'uk' as lang,'міст' as type_f,'мост' as trans, '' as reg union
 select 'ru' as lang,'мост' as type_f,'міст' as trans, '' as reg union
 select 'uk' as lang,'проїзд' as type_f,'проезд' as trans, '' as reg union
@@ -31,6 +35,8 @@ select 'uk' as lang,'автомагістраль' as type_f,'автомагис
 select 'ru' as lang,'автомагистраль' as type_f,'автомагістраль' as trans, '' as reg union
 select 'uk' as lang,'завулок' as type_f,'заулок' as trans, '' as reg union
 select 'ru' as lang,'заулок' as type_f,'завулок' as trans, '' as reg union
+select 'uk' as lang,'заїзд' as type_f,'заезд' as trans, '' as reg union
+select 'ru' as lang,'заезд' as type_f,'заїзд' as trans, '' as reg union
 select 'uk' as lang,'траса' as type_f,'трасса' as trans, '' as reg union
 select 'ru' as lang,'трасса' as type_f,'траса' as trans, '' as reg union
 select 'uk' as lang,'кільце' as type_f,'кольцо' as trans, '' as reg union
@@ -39,6 +45,8 @@ select null as lang,'проспект' as type_f,'проспект' as trans, ''
 select null as lang,'бульвар' as type_f,'бульвар' as trans, '' as reg union
 select null as lang,'тупик' as type_f,'тупик' as trans, '' as reg union
 select null as lang,'дорога' as type_f,'дорога' as trans, '' as reg union
+select null as lang,'квартал' as type_f,'квартал' as trans, '' as reg union
+select null as lang,'сквер' as type_f,'сквер' as trans, '' as reg union
 select null as lang,'тоннель' as type_f,'тоннель' as trans, '' as reg;
 update way_type set reg=type_f where reg='';
 
