@@ -2,5 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r4132532","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.83418,51.44302]}},
+{"type":"Feature","properties":{"josm":"r4132533","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.83418,51.44302]}},
+{"type":"Feature","properties":{"josm":"r4132575","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.82655,51.47714]}},
 {"type":"Feature"}
 ]}
