@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r3763384,n1697705773"},"geometry":{"type":"Point","coordinates":[24.7049,48.85771]}},
+{"type":"Feature","properties":{"josm":"r3763384,n339645682"},"geometry":{"type":"Point","coordinates":[24.70332,48.85786]}},
+{"type":"Feature","properties":{"josm":"r3763396,n1697705773"},"geometry":{"type":"Point","coordinates":[24.7049,48.85771]}},
+{"type":"Feature","properties":{"josm":"r3763396,n339645682"},"geometry":{"type":"Point","coordinates":[24.70332,48.85786]}},
 {"type":"Feature","properties":{"josm":"r4132532","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.83418,51.44302]}},
 {"type":"Feature","properties":{"josm":"r4132533","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.83418,51.44302]}},
 {"type":"Feature","properties":{"josm":"r4132575","error":"multipolygon without tags, members have different tags - move appropriate tags to relation"},"geometry":{"type":"Point","coordinates":[25.82655,51.47714]}},
