@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1345324,w104639377","relationtags":"name|Фелікса Кона вулиця","membertags":"addr:street|Плеханова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.43983,49.22708]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736625,w118887283","relationtags":"name|Молодіжна вулиця","membertags":"name|Молодежная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07845,45.66088]}},
 {"type":"Feature","properties":{"josm":"r1802918,w112773265","relationtags":"name|Курчатова вулиця","membertags":"addr:street|Вілєсова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.52458,48.93769]}},
@@ -14,8 +13,9 @@
 {"type":"Feature","properties":{"josm":"r2391836,w86625461","relationtags":"name|Таборовий 2-й провулок","membertags":"name|2-й Таборовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13563,49.99243]}},
 {"type":"Feature","properties":{"josm":"r2415499,w180015104","relationtags":"name:ru|Лагерный 4-й переулок","membertags":"name:ru|4-й Лагерный переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13202,49.99273]}},
 {"type":"Feature","properties":{"josm":"r2415499,w180015104","relationtags":"name|Таборовий 4-й провулок","membertags":"name|4-й Таборовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13202,49.99273]}},
-{"type":"Feature","properties":{"josm":"r2450199,n1262646590","relationtags":"name|Маршала Жукова проспект","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.31906,49.96158]}},
 {"type":"Feature","properties":{"josm":"r2713070,w286849467","relationtags":"name|Набережна Перемоги вулиця","membertags":"addr:street|Овражна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.07872,48.45775]}},
+{"type":"Feature","properties":{"josm":"r2731689,w105216633","relationtags":"name|Сметаніна вулиця","membertags":"addr:street|Радянський проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.49025,48.95621]}},
+{"type":"Feature","properties":{"josm":"r2733772,w112981118","relationtags":"name|Ломоносова вулиця","membertags":"addr:street|Ломоносова провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.49852,48.95899]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475362","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38265,45.04362]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475421","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38204,45.04205]}},
 {"type":"Feature","properties":{"josm":"r2993684,w108475503","relationtags":"name|Айвазовского проспект","membertags":"addr:street|Айвазовського проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.38275,45.04426]}},
