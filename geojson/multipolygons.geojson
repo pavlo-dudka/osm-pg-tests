@@ -2,6 +2,14 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1413934,n2402433749"},"geometry":{"type":"Point","coordinates":[30.73024,46.50497]}},
+{"type":"Feature","properties":{"josm":"r1413934,n28014191"},"geometry":{"type":"Point","coordinates":[30.7637,46.47957]}},
+{"type":"Feature","properties":{"josm":"r2952493,n2402433749"},"geometry":{"type":"Point","coordinates":[30.73024,46.50497]}},
+{"type":"Feature","properties":{"josm":"r2952493,n27128750"},"geometry":{"type":"Point","coordinates":[30.72138,46.49722]}},
+{"type":"Feature","properties":{"josm":"r2952493,n28014191"},"geometry":{"type":"Point","coordinates":[30.7637,46.47957]}},
+{"type":"Feature","properties":{"josm":"r2952493,n668842808"},"geometry":{"type":"Point","coordinates":[30.72496,46.50481]}},
+{"type":"Feature","properties":{"josm":"r2952559,n27128750"},"geometry":{"type":"Point","coordinates":[30.72138,46.49722]}},
+{"type":"Feature","properties":{"josm":"r2952559,n668842808"},"geometry":{"type":"Point","coordinates":[30.72496,46.50481]}},
 {"type":"Feature","properties":{"josm":"r1701073","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[33.42161,47.91252]}},
 {"type":"Feature"}
 ]}
