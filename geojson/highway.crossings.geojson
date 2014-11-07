@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Intersection without common node",
 "features": [
+{"type":"Feature","properties":{"josm":"w25049014,w27817369"},"geometry":{"type":"Point","coordinates":[33.52047,44.611]}},
+{"type":"Feature","properties":{"josm":"w25049014,w28323041"},"geometry":{"type":"Point","coordinates":[33.52047,44.611]}},
+{"type":"Feature","properties":{"josm":"w27817369,w28323041"},"geometry":{"type":"Point","coordinates":[33.52047,44.611]}},
 {"type":"Feature","properties":{"josm":"w33741658,w308109261"},"geometry":{"type":"Point","coordinates":[38.60684,48.97182]}},
 {"type":"Feature","properties":{"josm":"w33741658,w308109457"},"geometry":{"type":"Point","coordinates":[38.59788,48.97041]}},
 {"type":"Feature","properties":{"josm":"w60966661,w201246966"},"geometry":{"type":"Point","coordinates":[30.37848,46.02781]}},
