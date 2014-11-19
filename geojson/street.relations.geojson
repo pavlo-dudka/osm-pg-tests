@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1536162,w184727058","relationtags":"name|Миру проспект","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[31.27758,51.51203]}},
 {"type":"Feature","properties":{"josm":"r1558381,w105835006","relationtags":"name|Леніна проспект","membertags":"addr:street|Культури вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.22804,50.01201]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name:uk|60-річчя СССР вулиця","membertags":"name:uk|60-річчя СРСР вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
 {"type":"Feature","properties":{"josm":"r1736624,w118910431","relationtags":"name|60-річчя СССР вулиця","membertags":"name|60-летия СССР улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.07853,45.66505]}},
@@ -16,9 +17,13 @@
 {"type":"Feature","properties":{"josm":"r2391835,w180015103","relationtags":"name|Таборовий 3-й провулок","membertags":"name|3-й Таборовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13267,49.99181]}},
 {"type":"Feature","properties":{"josm":"r2391836,w86625461","relationtags":"name:ru|Лагерный 2-й переулок","membertags":"name:ru|2-й Лагерный переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13563,49.99243]}},
 {"type":"Feature","properties":{"josm":"r2391836,w86625461","relationtags":"name|Таборовий 2-й провулок","membertags":"name|2-й Таборовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13563,49.99243]}},
+{"type":"Feature","properties":{"josm":"r2415371,w106409562","relationtags":"name:ru|Красногвардейская улица","membertags":"name:ru|Курсанта Еськова улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[31.2857,51.51736]}},
+{"type":"Feature","properties":{"josm":"r2415371,w106409562","relationtags":"name:uk|Червоногвардійська вулиця","membertags":"name:uk|Курсанта Єськова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[31.2857,51.51736]}},
+{"type":"Feature","properties":{"josm":"r2415371,w106409562","relationtags":"name|Червоногвардійська вулиця","membertags":"name|Курсанта Єськова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[31.2857,51.51736]}},
 {"type":"Feature","properties":{"josm":"r2415499,w180015104","relationtags":"name:ru|Лагерный 4-й переулок","membertags":"name:ru|4-й Лагерный переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13202,49.99273]}},
 {"type":"Feature","properties":{"josm":"r2415499,w180015104","relationtags":"name|Таборовий 4-й провулок","membertags":"name|4-й Таборовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13202,49.99273]}},
 {"type":"Feature","properties":{"josm":"r2450230,w260260964","relationtags":"name|Отакара Яроша провулок","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.21342,50.02502]}},
+{"type":"Feature","properties":{"josm":"r2551630,w313499490","relationtags":"name|Героїв Чорнобиля вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[31.28164,51.51359]}},
 {"type":"Feature","properties":{"josm":"r2630343,w164184805","relationtags":"name|Степана Руданського вулиця","membertags":"addr:street|Тараса Шевченка проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.03078,49.83816]}},
 {"type":"Feature","properties":{"josm":"r2713070,w286849467","relationtags":"name|Набережна Перемоги вулиця","membertags":"addr:street|Овражна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.07872,48.45775]}},
 {"type":"Feature","properties":{"josm":"r2726773,w106953647","relationtags":"name|Донецька вулиця","membertags":"addr:street|Ломоносова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.49856,48.95676]}},
@@ -508,5 +513,6 @@
 {"type":"Feature","properties":{"josm":"r4089604,w127068773","relationtags":"name|МЖК «Мрія»","membertags":"name|36","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.50312,48.9551]}},
 {"type":"Feature","properties":{"josm":"r4144259,w217813049","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55348,50.34242]}},
 {"type":"Feature","properties":{"josm":"r4144259,w23480110","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55498,50.33738]}},
+{"type":"Feature","properties":{"josm":"r4207616","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[31.2776,51.50942]}},
 {"type":"Feature"}
 ]}
