@@ -116,4 +116,4 @@ inner join users u on u.id=w.user_id --and u.name='uname'
 where wt.k='admin_level' --and wt.v in ('2','4','6','7','8')
 group by wt.way_id,wt.v
 having wt.v::int<>min(rt.v::int)
-order by 3,2
+order by 3,2,1;
