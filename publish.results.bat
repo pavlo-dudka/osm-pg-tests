@@ -6,8 +6,12 @@ copy /Y *.txt %publish_path%\txt\
 
 move error.hash error.old.hash
 move error.summary error.old.summary
+rename house.numbers.geojson house.numbers.hidden
+rename kyiv.building.levels.geojson kyiv.building.levels.hidden
+rename non-uk.geojson non-uk.hidden
 call ..\binaries\md5sum.exe *.geojson > error.hash
 find /c "properties" *.geojson > error.count.txt
+rename *.hidden *.geojson
 
 set hash=
 
