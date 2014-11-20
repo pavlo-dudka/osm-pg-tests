@@ -25,7 +25,7 @@ function showGeoJson(map, geoJson)
 	
 	var geoJsonLayer = L.geoJson(mypoints, {
 		onEachFeature: function (feature, layer) {
-		layer.bindPopup(popupHtml(feature, mypoints.errorDescr)).openPopup();
+		layer.bindPopup(popupHtml(feature, mypoints.errorDescr));
 		}
 	});
 
@@ -110,6 +110,10 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>KOATUU:</th><td>' + feature.properties.koatuu + '</td></tr>';
 	}
+	if (typeof(feature.properties.length) != "undefined")
+	{
+		result += '<tr><th>Length:</th><td>' + feature.properties.length + '</td></tr>';
+	}
 	if (typeof(feature.properties.level) != "undefined")
 	{
 		result += '<tr><th>Level:</th><td>' + feature.properties.level + '</td></tr>';
@@ -126,7 +130,8 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>Roads count:</th><td>' + feature.properties.NumberOfRoads + '</td></tr>';
 	}
-	result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
+	if (feature.geometry == 'Point')
+		result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
 	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')">';
@@ -194,6 +199,10 @@ function showTable(geoJson)
 			if (typeof(feature.properties.koatuu) != "undefined")
 			{
 				document.write('<th>KOATUU</th>');
+			}
+			if (typeof(feature.properties.length) != "undefined")
+			{
+				document.write('<th>Length</th>');
 			}
 			if (typeof(feature.properties.level) != "undefined")
 			{
@@ -271,6 +280,10 @@ function showTable(geoJson)
 		if (typeof(feature.properties.koatuu) != "undefined")
 		{
 			document.write('<td>' + feature.properties.koatuu + '</td>');
+		}
+		if (typeof(feature.properties.length) != "undefined")
+		{
+			document.write('<td>' + feature.properties.length + '</td>');
 		}
 		if (typeof(feature.properties.level) != "undefined")
 		{
