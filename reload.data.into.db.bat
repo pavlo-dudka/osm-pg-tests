@@ -12,10 +12,16 @@ call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%us
 cd ..
 %psql_exe% -f sql\osm.boundaries.sql
 
+cd data
+xcopy /Y *.txt "%pg_data_folder%"
+%psql_exe% -f osm.load.data.sql
+cd ..
+
 cd exceptions
 xcopy /Y *.exc "%pg_data_folder%"
 %psql_exe% -f osm.load.exceptions.sql
 cd ..
 
 rem Copying street names list
-copy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.csv "%pg_data_folder%street_names"
+xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.csv "%pg_data_folder%street_names\"
+xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.txt "%pg_data_folder%street_names\"
