@@ -1,19 +1,3 @@
-drop table if exists names;
-create table names(name text);
-copy names from 'osm/names.txt' using delimiters ',';
-
-drop table if exists titles;
-create table titles(title text);
-copy titles from 'osm/titles.txt' using delimiters ',';
-
-drop table if exists prefixes;
-create table prefixes(prefix text);
-copy prefixes from 'osm/prefixes.txt' using delimiters ',';
-
-drop table if exists street_names_exc;
-create table street_names_exc(name text);
-copy street_names_exc from 'osm/street.names.exc';
-  
 with tab as (
 select wt.way_id, wt.k, wt.v, 
   trim(coalesce(p.prefix||' ','')||coalesce(t.title||' ','')||coalesce(n.name||' ','')||
