@@ -1,0 +1,6 @@
+area
+  ["boundary"="administrative"]
+  ["name"="Україна"]
+->.a;
+(way(area.a)["place_name"][place=town];relation(area.a)["place_name"][place=town];>>;);
+out meta;
