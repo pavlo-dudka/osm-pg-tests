@@ -21,18 +21,43 @@ function showGeoJson(map, geoJson)
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
-	var mypoints = eval('(' + xmlhttp.responseText + ')');
+	var myGeoJson = eval('(' + xmlhttp.responseText + ')');
 	
-	var geoJsonLayer = L.geoJson(mypoints, {
+	var geoJsonLayer = L.geoJson(myGeoJson, {
 		onEachFeature: function (feature, layer) {
-		layer.bindPopup(popupHtml(feature, mypoints.errorDescr));
+		layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
 		}
 	});
 
-	//map.addLayer(geoJsonLayer);
-	var markers = L.markerClusterGroup();
-	markers.addLayer(geoJsonLayer);
-	map.addLayer(markers);
+	if (myGeoJson.features.length > 1 && myGeoJson.features[0].geometry.type == 'Point')
+	{
+		var markers = L.markerClusterGroup();
+		markers.addLayer(geoJsonLayer);
+		map.addLayer(markers);
+	}
+	else
+	{
+		map.addLayer(geoJsonLayer);
+		if (myGeoJson.features.length > 1 && myGeoJson.features[0].geometry.type != 'Point')
+		{
+			var myGeoJsonPoints = eval('(' + xmlhttp.responseText + ')');
+			for (var i = 0; i < myGeoJsonPoints.features.length - 1; i++)
+			{	
+				myGeoJsonPoints.features[i].geometry.type = 'Point';
+				myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[Math.floor(myGeoJsonPoints.features[i].geometry.coordinates.length / 2)];
+			}
+
+			var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
+				onEachFeature: function (feature, layer) {
+				layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr));
+				}
+			});
+
+			var markers = L.markerClusterGroup();
+			markers.addLayer(geoJsonLayer2);
+			map.addLayer(markers);
+		}
+	}
 }
 
 function popupHtml(feature, errorDescr)
