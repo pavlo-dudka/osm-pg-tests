@@ -37,6 +37,7 @@ start "kyiv" %psql_exe% -f sql\osm.kyiv.sql -o results\osm.Kyiv.txt
 start "kyiv.building.levels" %psql_exe% -f sql\osm.kyiv.building.levels.sql -o results\kyiv.building.levels.geojson
 start "sloviansk" %psql_exe% -f sql\osm.sloviansk.sql -o results\osm.Sloviansk.txt
 start "sumy" %psql_exe% -f sql\osm.sumy.sql -o results\osm.Sumy.txt
+start "zhytomyr" %psql_exe% -f sql\osm.zhytomyr.sql -o results\osm.Zhytomyr.txt
 
 :wait
 tasklist /FI "IMAGENAME eq psql.exe" 2>NUL | find /I /N "psql.exe">NUL
