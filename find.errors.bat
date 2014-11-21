@@ -25,6 +25,7 @@ start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.t
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
 
 start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
+start "berdychiv" %psql_exe% -f sql\osm.berdychiv.sql -o results\osm.Berdychiv.txt
 start "chernihiv" %psql_exe% -f sql\osm.chernihiv.sql -o results\osm.Chernihiv.txt
 rem start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
 rem start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
