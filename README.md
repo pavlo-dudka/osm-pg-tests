@@ -2,9 +2,11 @@ osm-pg-tests
 ============
 
 Following folders and files expected in binaries-folder:
-  osmosis-latest
-  md5sum.exe
-  osmconvert.exe
-  osmfilter.exe
-  osmupdate.exe
-  wget.exe
+<ul>
+  <li>osmosis-latest</li>
+  <li>md5sum.exe</li>
+  <li>osmconvert.exe</li>
+  <li>osmfilter.exe</li>
+  <li>osmupdate.exe</li>
+  <li>wget.exe</li>
+</ul>  
