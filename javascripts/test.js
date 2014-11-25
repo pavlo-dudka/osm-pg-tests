@@ -137,7 +137,7 @@ function popupHtml(feature, errorDescr)
 	}
 	if (typeof(feature.properties.length) != "undefined")
 	{
-		result += '<tr><th>Length:</th><td>' + feature.properties.length + '</td></tr>';
+		result += '<tr><th>Length (km):</th><td>' + feature.properties.length + '</td></tr>';
 	}
 	if (typeof(feature.properties.level) != "undefined")
 	{
@@ -180,7 +180,7 @@ function showTable(geoJson)
 		if (j == 0)
 		{
 			document.write('<tr>');
-			document.write('<th>#</th>');
+			document.write('<th class="sorttable_sorted">#<span id="sorttable_sortfwdind">' + (stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BE;') + '</span></th>');
 			document.write('<th>Josm</th>');
 			
 			if (typeof(feature.properties.name) != "undefined")
@@ -227,7 +227,7 @@ function showTable(geoJson)
 			}
 			if (typeof(feature.properties.length) != "undefined")
 			{
-				document.write('<th>Length</th>');
+				document.write('<th>Length (km)</th>');
 			}
 			if (typeof(feature.properties.level) != "undefined")
 			{
