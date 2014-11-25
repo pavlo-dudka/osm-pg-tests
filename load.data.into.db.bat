@@ -6,7 +6,7 @@ call osmconvert.exe ..\temp\ua.osm.pbf -o=..\temp\ua.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street =service =pedestrian =construction" -o=..\temp\ua.roads.0.o5m
 call osmconvert.exe ..\temp\ua.roads.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.roads.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="waterway=*" -o=..\temp\ua.waterways.0.o5m
-call osmconvert.exe ..\temp\ua.waterways.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.waterways.o5m
+call osmconvert.exe ..\temp\ua.waterways.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.waterways.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep="place=city =town =village =hamlet" -o=..\temp\ua.places.0.o5m
 call osmconvert.exe ..\temp\ua.places.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.places.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations=" ( admin_level=4 =6 =7 =8 ) and koatuu=*" -o=..\temp\ua.boundaries.o5m
