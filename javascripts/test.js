@@ -167,7 +167,7 @@ function popupHtml(feature, errorDescr)
 
 function showTable(geoJson)
 {
-	document.write('<table>');
+	document.write('<table class="sortable">');
 
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('GET', geoJson, false);
