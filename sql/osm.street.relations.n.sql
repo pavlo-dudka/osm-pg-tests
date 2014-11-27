@@ -22,11 +22,10 @@ select '{"type":"Feature",'||
 			st_asgeojson((select (st_dumppoints(t2.geom)).geom limit 1), 5)||
        '},'
 from t2
-inner join relation_tags rtn on rtn.relation_id=t2.relation_id and rtn.k like 'name%'
-inner join ways w2 on st_dwithin(t2.geom::geography,w2.linestring::geography,500)
+inner join relation_tags rtn on rtn.relation_id=t2.relation_id and rtn.k in ('name','name:uk','name:ru')
+inner join ways w2 on _st_dwithin(t2.geom,w2.linestring,0.01)
 inner join way_tags wt2 on wt2.way_id=w2.id and wt2.k in ('name','addr:street') and wt2.v=rtn.v
-left join relation_members rm2 on rm2.relation_id=t2.relation_id and rm2.member_id=w2.id
-where rm2.member_id is null
+where not exists(select * from relation_members rm2 where rm2.relation_id=t2.relation_id and rm2.member_id=w2.id)
   and not exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='highway' and wt3.v in ('service','footway','platform','bus_stop'))
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_1=t2.relation_id and exc.street_relation_id_2=rm.relation_id and rm.member_id=w2.id)
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_2=t2.relation_id and exc.street_relation_id_1=rm.relation_id and rm.member_id=w2.id)
