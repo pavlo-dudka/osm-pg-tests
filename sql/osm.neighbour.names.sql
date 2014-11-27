@@ -20,6 +20,7 @@ where
   or wt1.k='addr:street' and levenshtein_less_equal(lower(wt1.v),lower(wt3.v),4)<4
   )
 and st_dwithin(w1.linestring,w2.linestring,0.01)
+and not exists(select * from relation_tags rt,relation_members rm where rt.relation_id=rm.relation_id and rm.member_id=w1.id and rt.k='type' and rt.v='associatedStreet')
 --and wt2.v not like '% улица'
 and (wt1.k='name' and h1.id is not null or wt1.k='addr:street' and h1.id is null))
 select t.id,v1 as oldv,string_agg(distinct v2, ';  ' order by v2) as newv
@@ -42,7 +43,7 @@ select distinct r.name,h1.id,h2.id,wt1.k,wt1.v name1,wt2.v name2
 from highways h1
 inner join way_tags wt1 on wt1.way_id=h1.id and wt1.k in ('name','name:uk','name:ru')
 inner join way_tags wt1m on wt1m.way_id=h1.id and wt1m.k in ('name','name:uk','name:ru','name:en')
-left join regions r on st_contains(r.linestring,h1.linestring)
+left join regions r on _st_contains(r.linestring,h1.linestring)
 ,
 highways h2
 inner join way_tags wt2 on wt2.way_id=h2.id and wt2.k in ('name','name:uk','name:ru')
@@ -50,4 +51,5 @@ inner join way_tags wt2m on wt2m.way_id=h2.id and wt2m.k in ('name','name:uk','n
 where st_dwithin(h1.linestring,h2.linestring,0.001)
   and wt1m.v=wt2m.v
   and h1.id<h2.id and wt1.v<>wt2.v and wt1.k=wt2.k
+  and not exists(select rm.relation_id from relation_members rm, relation_tags rt, relation_tags rt2 where rm.relation_id=rt.relation_id and rm.relation_id=rt2.relation_id and rm.member_id in (h1.id,h2.id) and rt.k=wt1.k and rt2.k='type' and rt2.v='associatedStreet' group by rm.relation_id having count(*)=2)
 order by 1,2,3;
