@@ -1,8 +1,8 @@
 drop table if exists streets;
 
 create table streets as
-select substr(name_uk,1,length(name_uk)-length(wtuk.type_f)-1) as uk,
-       substr(name_ru,1,length(name_ru)-length(wtru.type_f)-1) as ru,
+select trim(replace(name_uk,wtuk.type_f,'')) as uk,
+       trim(replace(name_ru,wtru.type_f,'')) as ru,
        sum(cnt) as cnt,
        string_agg(ways,',' order by ways) as ways
 from (
@@ -11,13 +11,13 @@ select
 (case when wt2.v is not null then wt2.v 
       when wt.v similar to '%(і|ї|є|’)%' then wt.v 
       when wt.v like '% вулиця' then wt.v 
-      when exists(select 1 from way_type where lang='uk' and wt.v like '% '||type_f and type_f<>trans) then wt.v
+      when exists(select 1 from way_type where lang='uk' and wt.v similar to '% '||type_f||'|'||type_f||' %' and type_f<>trans) then wt.v
       else '-'
  end) as name_uk,
 (case when wt3.v is not null then wt3.v 
       when wt.v similar to '%(ы|ё|ъ)%' then wt.v 
       when wt.v like '% улица' then wt.v 	
-      when exists(select 1 from way_type where lang='ru' and wt.v like '% '||type_f and type_f<>trans) then wt.v      
+      when exists(select 1 from way_type where lang='ru' and wt.v similar to '% '||type_f||'|'||type_f||' %' and type_f<>trans) then wt.v
       else '-'
  end) as name_ru,
 --wt4.v as name_en,
@@ -28,13 +28,13 @@ from way_tags wt
 left join way_tags wt2 on wt.way_id=wt2.way_id and wt2.k='name:uk'
 left join way_tags wt3 on wt.way_id=wt3.way_id and wt3.k='name:ru'
 --left join way_tags wt4 on wt.way_id=wt4.way_id and wt4.k='name:en'
-where wt.k='name' 
+where wt.k='name'
 --and wt2.way_id is not null and wt3.way_id is not null
 --and wt.v=wt3.v
 group by name_uk,name_ru--,wt4.v
 ) t
-inner join way_type wtuk on name_uk like '% '||wtuk.type_f and coalesce(wtuk.lang,'uk')='uk'
-inner join way_type wtru on name_ru like '% '||wtru.type_f and coalesce(wtru.lang,'ru')='ru'
+inner join way_type wtuk on name_uk similar to ('% '||wtuk.type_f||'|'||wtuk.type_f||' %') and coalesce(wtuk.lang,'uk')='uk'
+inner join way_type wtru on name_ru similar to ('% '||wtru.type_f||'|'||wtru.type_f||' %') and coalesce(wtru.lang,'ru')='ru'
 where name_uk<>'-' and name_ru<>'-'
 group by uk,ru
 order by 1,2;
