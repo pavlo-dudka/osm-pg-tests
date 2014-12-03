@@ -44,7 +44,10 @@ function showGeoJson(map, geoJson)
 			for (var i = 0; i < myGeoJsonPoints.features.length - 1; i++)
 			{	
 				myGeoJsonPoints.features[i].geometry.type = 'Point';
-				myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[Math.floor(myGeoJsonPoints.features[i].geometry.coordinates.length / 2)];
+				if (myGeoJsonPoints.features[i].geometry.coordinates[0][0] instanceof Array)
+					myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[0][Math.floor(myGeoJsonPoints.features[i].geometry.coordinates[0].length / 2)];
+				else
+					myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[Math.floor(myGeoJsonPoints.features[i].geometry.coordinates.length / 2)];
 			}
 
 			var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
