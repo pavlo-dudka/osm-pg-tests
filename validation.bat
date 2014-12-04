@@ -4,7 +4,7 @@ call update.pbf.bat
 call load.data.into.db.bat
 call find.errors.bat
 
-call peirce.bat
+rem call peirce.bat
 
 call publish.results.now.bat
 

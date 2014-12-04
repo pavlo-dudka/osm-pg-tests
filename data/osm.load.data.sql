@@ -16,3 +16,7 @@ copy way_type from 'osm/way_type.txt' using delimiters ',';
 update way_type set lang=null where lang='';
 update way_type set trans=null where trans='';
 update way_type set reg=type_f where reg='';
+
+drop table if exists highway_islands;
+create table highway_islands(id int, highway_level text, location text);
+copy highway_islands from 'osm/highway_islands.txt' using delimiters ',';
