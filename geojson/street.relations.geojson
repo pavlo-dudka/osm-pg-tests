@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1492204,w103452811","relationtags":"name|Академіка Корольова вулиця","membertags":"addr:street|Бєляєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.22747,48.50669]}},
+{"type":"Feature","properties":{"josm":"r1492274,w103876330","relationtags":"name|Жовтневої Революції вулиця","membertags":"addr:street|Андріївська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.24743,48.5098]}},
 {"type":"Feature","properties":{"josm":"r1753116,w155455172","relationtags":"name|Депутатська вулиця","membertags":"addr:street|Генерала Вітрука вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.38332,50.45824]}},
 {"type":"Feature","properties":{"josm":"r2282073,w204918473","relationtags":"name|Грибоєдова вулиця","membertags":"addr:street|вулиця Грибоєдова","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.34391,50.75251]}},
 {"type":"Feature","properties":{"josm":"r2282572,w130758500","relationtags":"name|Миру вулиця","membertags":"addr:street|Іллі Кулика вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.63926,46.66369]}},
@@ -18,6 +20,7 @@
 {"type":"Feature","properties":{"josm":"r2630475,w171081145","relationtags":"name|Академіка Володимира Гнатюка вулиця","membertags":"addr:street|Леся Курбаса вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.02574,49.84155]}},
 {"type":"Feature","properties":{"josm":"r2636316,w166077199","relationtags":"name|Кіндрата Рилєєва вулиця","membertags":"addr:street|Миколи Устияновича вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.01633,49.83657]}},
 {"type":"Feature","properties":{"josm":"r2713070,w286849467","relationtags":"name|Набережна Перемоги вулиця","membertags":"addr:street|Овражна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.07872,48.45775]}},
+{"type":"Feature","properties":{"josm":"r2718589,w202504104","relationtags":"name|Габдрахманова вулиця","membertags":"addr:street|Жовтневої Революції вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.24212,48.50753]}},
 {"type":"Feature","properties":{"josm":"r2726773,w106953647","relationtags":"name|Донецька вулиця","membertags":"addr:street|Ломоносова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.49856,48.95676]}},
 {"type":"Feature","properties":{"josm":"r2726773,w106953672","relationtags":"name|Донецька вулиця","membertags":"addr:street|Леніна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.49904,48.95595]}},
 {"type":"Feature","properties":{"josm":"r2726773,w106953691","relationtags":"name|Донецька вулиця","membertags":"addr:street|Горького вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.4999,48.9545]}},
