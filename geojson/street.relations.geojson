@@ -2,7 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1491982,w103281387","relationtags":"name|Волкова вулиця","membertags":"addr:street|Бєляєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.22519,48.50564]}},
+{"type":"Feature","properties":{"josm":"r1491982,w103281399","relationtags":"name|Волкова вулиця","membertags":"addr:street|Бєляєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.22635,48.50605]}},
 {"type":"Feature","properties":{"josm":"r1492204,w103452811","relationtags":"name|Академіка Корольова вулиця","membertags":"addr:street|Бєляєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.22747,48.50669]}},
+{"type":"Feature","properties":{"josm":"r1492206,w103284436","relationtags":"name|Правди проспект","membertags":"addr:street|Бєляєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.22887,48.50375]}},
 {"type":"Feature","properties":{"josm":"r1492274,w103876330","relationtags":"name|Жовтневої Революції вулиця","membertags":"addr:street|Андріївська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.24743,48.5098]}},
 {"type":"Feature","properties":{"josm":"r1753116,w155455172","relationtags":"name|Депутатська вулиця","membertags":"addr:street|Генерала Вітрука вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.38332,50.45824]}},
 {"type":"Feature","properties":{"josm":"r2282073,w204918473","relationtags":"name|Грибоєдова вулиця","membertags":"addr:street|вулиця Грибоєдова","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.34391,50.75251]}},
