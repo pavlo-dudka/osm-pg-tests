@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1074460,w48671657","relationtags":"name:uk|Миколи Ушакова вулиця","membertags":"name:uk|Николая Ушакова улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.3426,50.45497]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19651,48.49077]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19787,48.49098]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19887,48.49208]}},
@@ -87,7 +86,6 @@
 {"type":"Feature","properties":{"josm":"r4114349,w300715846","relationtags":"name|Черниша вулиця","membertags":"name|Володимира Черниша вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.42971,49.07929]}},
 {"type":"Feature","properties":{"josm":"r4144259,w217813049","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55348,50.34242]}},
 {"type":"Feature","properties":{"josm":"r4144259,w23480110","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55498,50.33738]}},
-{"type":"Feature","properties":{"josm":"r4198734,w38020416","relationtags":"name|Республіканська вулиця","membertags":"name|Щорса вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.47232,49.00495]}},
 {"type":"Feature","properties":{"josm":"r4215207,w260630246","relationtags":"name|Миру вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.69751,47.2503]}},
 {"type":"Feature"}
 ]}
