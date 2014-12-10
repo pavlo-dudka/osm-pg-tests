@@ -87,7 +87,7 @@ select k.code,k.title,nt.node_id,ntn.v,rtn.relation_id,rtn.v,string_agg(rtq.rela
 from koatuu k
  left join node_tags nt on nt.k='koatuu' and nt.v=substr(code,1,5)||'00000'
  left join node_tags ntn on ntn.node_id=nt.node_id and ntn.k='name'
- left join relation_tags rt on rt.v=code and rt.k='koatuu' and rt.relation_id in (select relation_id from relation_tags where k='admin_level' and v=(case when k.code like '8%' then '6' else '7' end))
+ left join relation_tags rt on rt.v=code and rt.k='koatuu' and rt.relation_id in (select relation_id from relation_tags where k='admin_level' and v=(case when k.code like '853%' then '6' else '7' end))
  left join relation_tags rtn on rtn.relation_id=rt.relation_id and rtn.k='name'
  left join relation_tags rtq on rtq.k='name' and coalesce(upper(rtq.v),' ')=(k.title||' РАЙОН')
 where place='Р'
