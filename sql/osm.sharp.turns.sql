@@ -3,13 +3,20 @@ select '"type": "FeatureCollection",';
 select '"errorDescr": "Sharp turn",';
 select '"features": [';
 
-select '{"type":"Feature","properties":{"josm":"w'||wn1.way_id||',n'||wn2.node_id||'"},"geometry":'||st_asgeojson(n2.geom,5)||'},'
-from way_nodes wn1, way_nodes wn2, way_nodes wn3, nodes n1, nodes n2, nodes n3, way_tags wt
-where wn1.way_id=wn2.way_id and wn1.way_id=wn3.way_id and wn1.sequence_id+1=wn2.sequence_id and wn2.sequence_id=wn3.sequence_id-1
-and n1.id=wn1.node_id and n2.id=wn2.node_id and n3.id=wn3.node_id
-and abs(ST_Azimuth(n1.geom,n2.geom)-ST_Azimuth(n2.geom,n3.geom))/pi() between 0.95 and 1.05
-and wt.way_id=wn1.way_id and wt.k='highway'
-order by wn1.way_id,wn1.sequence_id;
+drop type if exists node_info;
+create type node_info as (sequence_id int, id bigint, geom geometry);
+
+with tab as (
+  select h.id,array_agg((wn.sequence_id,n.id,n.geom)::node_info order by wn.sequence_id) arr
+  from highways h
+    inner join way_nodes wn on wn.way_id=h.id
+    inner join nodes n on n.id=wn.node_id
+  group by h.id
+)
+select '{"type":"Feature","properties":{"josm":"w'||tab.id||',n'||tab.arr[n1.sequence_id+2].id||'"},"geometry":'||st_asgeojson(tab.arr[n1.sequence_id+2].geom,5)||'},'
+from tab, unnest(tab.arr) as n1
+where tab.arr[n1.sequence_id+3] is not null
+  and abs(ST_Azimuth(n1.geom,tab.arr[n1.sequence_id+2].geom)-ST_Azimuth(tab.arr[n1.sequence_id+2].geom,tab.arr[n1.sequence_id+3].geom))/pi() between 0.95 and 1.05;
 
 select '{"type":"Feature"}';
 select ']}';
