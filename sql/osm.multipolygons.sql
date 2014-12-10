@@ -24,7 +24,7 @@ d as (
   from c
   group by relation_id,node_id
   having count(*) not in (2,4))
-select '{"type":"Feature","properties":{"josm":"r'||d.relation_id||',n'||node_id||'"},"geometry":'||st_asgeojson(n.geom,5)||'},'
+select '{"type":"Feature","properties":{"josm":"r'||d.relation_id||',n'||node_id||'","region":"'||r.name||'"},"geometry":'||st_asgeojson(n.geom,5)||'},'
 from d
   inner join nodes n on n.id=node_id
   inner join regions r on r.relation_id=60199 or r.relation_id=d.relation_id or _st_contains(r.linestring, n.geom)
