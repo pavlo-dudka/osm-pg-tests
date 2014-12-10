@@ -2,6 +2,7 @@ call config.bat
 
 %psql_exe% -f sql\osm.highways.sql
 start "translation" test.translation.bat
+start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson
 start "endNodes" test.endNodes.bat
 start "no.highways" %psql_exe% -f sql\osm.no.highways.sql -o results\no.highways.geojson
 start "neighbour.names" %psql_exe% -f sql\osm.neighbour.names.sql -o results\osm.neighbour.names.txt

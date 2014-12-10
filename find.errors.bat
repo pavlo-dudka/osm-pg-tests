@@ -1,7 +1,6 @@
 call config.bat
 
 md results
-start "sharp.turns" %psql_exe% -f sql\osm.sharp.turns.sql -o results\sharp.turns.geojson
 start "multipolygons" %psql_exe% -f sql\osm.multipolygons.sql -o results\multipolygons.geojson
 start "street.relations" %psql_exe% -f sql\osm.street.relations.sql -o results\street.relations.geojson
 start "street.relations.m" %psql_exe% -f sql\osm.street.relations.m.sql -o results\street.relations.m.geojson
