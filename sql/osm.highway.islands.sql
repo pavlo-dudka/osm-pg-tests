@@ -1,3 +1,5 @@
+create extension if not exists intarray with schema public;
+
 insert into cross_way_nodes
 select way_id_2,way_id_1,null 
 from cross_way_nodes
