@@ -14,10 +14,10 @@ select '"type": "FeatureCollection",';
 select '"errorDescr": "Floating island",';
 select '"features": [';
 
-with tab as (select highway_level, count(*) as NumberOfRoads, string_agg('w'||id, ','  order by id) objects, array_agg(id order by id) arr 
+with tab as (select min(highway_level) highway_level, count(*) as NumberOfRoads, string_agg('w'||id, ','  order by id) objects, array_agg(id order by id) arr 
              from mainIsland
              where ind > 1
-             group by highway_level,ind)
+             group by substr(highway_level,2),ind)
 select '{"type":"Feature","properties":{"josm":"'||objects||'","level":"'||highway_level||'","NumberOfRoads":"'||NumberOfRoads||'"},'||
        '"geometry":'||(select st_asgeojson(st_collect(linestring),5) from highways where id=any(arr))||'},'
 from tab
