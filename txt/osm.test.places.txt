@@ -8,7 +8,7 @@ n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Север
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
-n251073791,r1574364|Севастополь|city|official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь|uk:Севастополь|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
@@ -242,6 +242,7 @@ n337592920,w30722819,r3628807|Зимогір’я|town||multiple place objects;
 n1494035871,w181013911,r2813893|Макарів|town||multiple place objects; 
 n337516475,w226685671,r2313459|Малин|town||multiple place objects; 
 n1685829433,w191420804,r3559895|Мерефа|town||multiple place objects; 
+n409505489,w30719972,r4276837|Метьолкіне|town||multiple place objects; 
 n337680572,w193434123,r3603169|Молочанськ|town||multiple place objects; 
 n337524775,w197639891,r3589658|Охтирка|town||multiple place objects; 
 n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
@@ -344,8 +345,6 @@ Invalid way role:
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|768
-60199|type|boundary|60199|72639|R|disputed|710
-60199|type|boundary|60199|1574364|R|disputed|728
 2668952|type|boundary|2668952|2707692|R|outer|1
 2668952|type|boundary|2668952|2707693|R|outer|7
 2668952|type|boundary|2668952|2707694|R|inner|8
@@ -406,7 +405,6 @@ admin_level:
 216249912|4|2
 310894006|4|2
 310894007|4|2
-238797482|2|3
 30716164|8|6
 189038369|8|6
 189041420|8|6
