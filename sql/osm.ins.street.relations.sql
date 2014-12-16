@@ -3,14 +3,14 @@ select -min(w.id),1,440812,current_timestamp,0
 from 
 relations r 
 inner join relation_tags rt on r.id=rt.relation_id and rt.k='name' and rt.v similar to 'Кривий Ріг'
-inner join highways w on _st_intersects(r.linestring,w.linestring)
+inner join highways w on _st_intersects(r.linestring,w.linestring) and highway_level<>'service'
 inner join way_tags wt on wt.way_id=w.id and wt.k in ('name','name:uk','name:ru')
 left  join way_tags wtu on wtu.way_id=w.id and wtu.k='name:uk'
 --left  join way_tags wtr on wtr.way_id=w.id and wtr.k='name:ru'
 where not exists(select * from relation_tags rt,relation_members rm where rt.relation_id=rm.relation_id and rt.k='type' and rt.v='associatedStreet' and rm.member_id=w.id and rm.member_type='W')
   and exists(select * from way_tags wt2, ways w2 where wt2.way_id=w2.id and wt2.k='addr:street' and wt2.v=wt.v and _st_dwithin(w.linestring,w2.linestring,0.01))
   --and not exists(select * from relation_tags rt1, relation_tags rt2 where rt1.relation_id=rt2.relation_id and rt1.k='type' and rt1.v='associatedStreet' and rt2.k='name' and rt2.v=wt.v)
-  and wt.v similar to '% (вулиця|провулок|площа|проспект|бульвар|узвіз|міст|проїзд|набережна|шосе|алея|в’їзд|тупик|спуск|майдан|підйом|лінія|дорога|шляхопровід|автомагістраль|завулок|траса|улица|переулок|площадь|проспект|бульвар|спуск|мост|проезд|набережная|шоссе|аллея|въезд|тупик|спуск|майдан|подъём|линия|дорога|путепровод|автомагистраль|квартал|сквер|заезд|заулок|трасса|тоннель)'
+  and exists(select * from way_type where wt.v like '% '||type_f or wt.v like type_f||'% ')
   and wt.v<>wtu.v
 group by wt.v;
 

@@ -109,3 +109,26 @@ where exists(select * from way_type where wtr.v similar to trans||' %|% '||trans
   and wt.v<>wtr.v
   and wtr.v not similar to '% (спуск|площадь)'  
 order by 1;
+
+select '';
+select 'Add street-relation';
+select distinct w.id,wt.v
+from highways w 
+inner join way_tags wt on wt.way_id=w.id and wt.k in ('name','name:uk','name:ru')
+left  join way_tags wtu on wtu.way_id=w.id and wtu.k='name:uk'
+where not exists(select * from relation_tags rt,relation_members rm where rt.relation_id=rm.relation_id and rt.k='type' and rt.v='associatedStreet' and rm.member_id=w.id and rm.member_type='W')
+  and exists(select * from way_tags wt2, ways w2, way_tags wt3 where wt2.way_id=w2.id and wt3.way_id=w2.id and wt2.k='addr:street' and wt3.k='addr:housenumber' and wt2.v=wt.v and _st_dwithin(w.linestring,w2.linestring,0.01))
+  and exists(select * from way_type where lang='ru' and (wt.v like '% '||type_f or wt.v like type_f||'% '))
+  and wtu.way_id is null
+  and highway_level<>'service'
+order by 1,2;
+
+select distinct w.id,wt.v
+from highways w 
+inner join way_tags wt on wt.way_id=w.id and wt.k in ('name','name:uk','name:ru')
+left  join way_tags wtu on wtu.way_id=w.id and wtu.k='name:uk'
+where not exists(select * from relation_tags rt,relation_members rm where rt.relation_id=rm.relation_id and rt.k='type' and rt.v='associatedStreet' and rm.member_id=w.id and rm.member_type='W')
+  and exists(select * from way_tags wt2, ways w2, way_tags wt3 where wt2.way_id=w2.id and wt3.way_id=w2.id and wt2.k='addr:street' and wt3.k='addr:housenumber' and wt2.v=wt.v and _st_dwithin(w.linestring,w2.linestring,0.01))
+  and wt.v<>wtu.v
+  and highway_level<>'service'
+order by 1,2;
