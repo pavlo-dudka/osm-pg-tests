@@ -41,8 +41,8 @@ select count(*),n.id,string_agg('r'||r2.id::text,',' order by r2.id),string_agg(
 from 
 nodes n
 inner join node_tags nt on nt.node_id=n.id and nt.k='place'
-left join (relations inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='place' and rt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood')) r2 on st_contains(r2.linestring,n.geom)
-left join (ways inner join way_tags wt2 on wt2.way_id=id and wt2.k='place' and wt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood')) w2 on st_contains(w2.linestring,n.geom)
+left join (relations inner join relation_tags rt2 on rt2.relation_id=id and rt2.k='place' and rt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood','borough')) r2 on st_contains(r2.linestring,n.geom)
+left join (ways      inner join way_tags wt2      on wt2.way_id=id      and wt2.k='place' and wt2.v not in ('district','city_district','suburb','state','municipality','subdistrict','neighbourhood','borough')) w2 on st_contains(w2.linestring,n.geom)
 group by n.id
 having count(*)>1 or min(w2.id) is not null and min(r2.id) is not null;
 
