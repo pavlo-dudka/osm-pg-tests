@@ -29,7 +29,7 @@ start "chernihiv" %psql_exe% -f sql\osm.chernihiv.sql -o results\osm.Chernihiv.t
 rem start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
 rem start "chernivtsi.sl" %psql_exe% -f sql\osm.chernivtsi.sl.sql -o results\osm.Chernivtsi.sl.txt
 start "dnipropetrovsk" %psql_exe% -f sql\osm.dnipropetrovsk.sql -o results\osm.Dnipropetrovsk.txt
-rem start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
+start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
 start "ivano-frankivsk" %psql_exe% -f sql\osm.ivano_frankivsk.sql -o results\osm.Ivano-Frankivsk.txt
 start "kamianets-podilskyi" %psql_exe% -f sql\osm.kamianets_podilskyi.sql -o results\osm.Kamianets-Podilskyi.txt
 start "kirovohrad" %psql_exe% -f sql\osm.kirovohrad.sql -o results\osm.Kirovohrad.txt

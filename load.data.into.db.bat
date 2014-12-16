@@ -53,3 +53,4 @@ cd ..
 rem Copying street names list
 xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.csv "%pg_data_folder%street_names\"
 xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.txt "%pg_data_folder%street_names\"
+xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.txt "%pg_data_folder%"
