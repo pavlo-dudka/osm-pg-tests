@@ -9,7 +9,7 @@ from
     inner join relation_members rm on rt.relation_id=rm.relation_id and member_type='W'
     left join ways w on w.id=rm.member_id
   where rt.k='type' and rt.v in ('multipolygon','boundary')
-    and rt.relation_id not in (2379521,2469245,1744377,3456939,3751055,1122965)
+    and rt.relation_id not in (2379521,1122965)
   group by rt.relation_id
   having min(case when st_isvalid(w.linestring)='t' then 1 else 0 end)=1) t
 where t.id=r.id;
