@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1075692,w49216988","relationtags":"name|Академіка Булаховського вулиця","membertags":"addr:street|Командарма Уборевича вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.33797,50.4632]}},
+{"type":"Feature","properties":{"josm":"r1424804,w99591734","relationtags":"name|Генерала Наумова вулиця","membertags":"addr:street|Академіка Булаховського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.33386,50.47303]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19651,48.49077]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19787,48.49098]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19887,48.49208]}},
@@ -16,7 +16,6 @@
 {"type":"Feature","properties":{"josm":"r1492277,w103410210","relationtags":"name|Генерала Жадова вулиця","membertags":"addr:street|Маршала Конєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.20309,48.4973]}},
 {"type":"Feature","properties":{"josm":"r1926047,w142277749","relationtags":"name|Лісний провулок","membertags":"name|Лісовий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.29669,50.31813]}},
 {"type":"Feature","properties":{"josm":"r2077808,w135112556","relationtags":"name|Магеллана вулиця","membertags":"name|Магеллана Ф. вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.56661,48.13946]}},
-{"type":"Feature","properties":{"josm":"r2177967,w60004523","relationtags":"name|Ірпінська вулиця","membertags":"addr:street|Ирпенская","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.34799,50.46182]}},
 {"type":"Feature","properties":{"josm":"r2305915,w42799668","relationtags":"name|Сумсько-Київських Дивізій вулиця","membertags":"addr:street|Харківська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.81873,50.89944]}},
 {"type":"Feature","properties":{"josm":"r2328388,w145343741","relationtags":"name:ru|Бетховена улица","membertags":"name:ru|Людвига ван Бетховена улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.36955,50.44169]}},
 {"type":"Feature","properties":{"josm":"r2328388,w145343741","relationtags":"name:uk|Бетховена вулиця","membertags":"name:uk|Людвіга ван Бетховена вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.36955,50.44169]}},
@@ -105,8 +104,6 @@
 {"type":"Feature","properties":{"josm":"r4009951,w173457509","relationtags":"name|Врублівський узвіз","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.47227,50.47882]}},
 {"type":"Feature","properties":{"josm":"r4009951,w301723757","relationtags":"name|Врублівський узвіз","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.47211,50.4781]}},
 {"type":"Feature","properties":{"josm":"r4009951,w301723760","relationtags":"name|Врублівський узвіз","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.47191,50.47725]}},
-{"type":"Feature","properties":{"josm":"r4019155,w186553050","relationtags":"name|Гагаріна вулиця","membertags":"addr:street|Руспубліканська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[39.24211,48.73578]}},
-{"type":"Feature","properties":{"josm":"r4058110,w301000077","relationtags":"name|Б. Хмельницького тупик","membertags":"name|Богдана Хмельницького тупик","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.39986,49.07143]}},
 {"type":"Feature","properties":{"josm":"r4089604,w112980242","relationtags":"name|МЖК «Мрія»","membertags":"addr:street|МЖК","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.50437,48.95607]}},
 {"type":"Feature","properties":{"josm":"r4089604,w112980293","relationtags":"name|МЖК «Мрія»","membertags":"addr:street|МЖК","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.5029,48.95759]}},
 {"type":"Feature","properties":{"josm":"r4089604,w127068621","relationtags":"name|МЖК «Мрія»","membertags":"addr:street|МЖК","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.50281,48.95586]}},
@@ -129,7 +126,6 @@
 {"type":"Feature","properties":{"josm":"r4144259,w217813049","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55348,50.34242]}},
 {"type":"Feature","properties":{"josm":"r4144259,w23480110","relationtags":"name|Столичне шосе","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.55498,50.33738]}},
 {"type":"Feature","properties":{"josm":"r4215207,w260630246","relationtags":"name|Миру вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.69751,47.2503]}},
-{"type":"Feature","properties":{"josm":"r4262628,w316544561","relationtags":"name|Галузевий пров.","membertags":"name|Галузевий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.46735,49.14925]}},
 {"type":"Feature","properties":{"josm":"r4287692,w242537458","relationtags":"name|Тернопільська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.645,49.57425]}},
 {"type":"Feature"}
 ]}
