@@ -16,7 +16,7 @@ call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=restriction =st
 call osmconvert.exe ..\temp\ua.relations.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.relations.o5m
 call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="type=multipolygon =boundary" -o=..\temp\ua.multipolygons.0.o5m
 call osmconvert.exe ..\temp\ua.multipolygons.0.o5m -B=..\poly\poly.ukr.pol --complex-ways -o=..\temp\ua.multipolygons.o5m
-call osmfilter.exe ..\temp\ua.o5m --keep= --keep-ways="addr:street=* or addr:housename=* or addr:housenumber=* or ( building=* and name=* ) " -o=..\temp\ua.address.0.o5m
+call osmfilter.exe ..\temp\ua.o5m --keep="addr:street=* or addr:housename=* or addr:housenumber=* or ( building=* and name=* ) " -o=..\temp\ua.address.0.o5m
 call osmconvert.exe ..\temp\ua.address.0.o5m -B=..\poly\poly.ukr.pol -o=..\temp\ua.address.o5m
 rem call osmfilter.exe ..\temp\ua.o5m --keep= --keep-relations="name:en=Donetsk =Chernihiv" -o=..\temp\ua.cities.o5m
 rem call osmfilter.exe ..\temp\ua.o5m --keep="amenity=* or historic=*" -o=..\temp\ua.poi.0.o5m
@@ -38,7 +38,7 @@ del ..\temp\ua.filtered.osc
 
 cd ..
 
-%psql_exe% -f sql\osm.boundaries.sql
+%psql_exe% -f sql\osm.boundaries.sql > results\osm.boundaries.log 2>&1
 
 cd data
 xcopy /Y *.txt "%pg_data_folder%"

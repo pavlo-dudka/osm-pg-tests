@@ -10,7 +10,7 @@ call osmconvert.exe ..\temp\ua.filtered.o5m -o=..\temp\ua.filtered.pbf
 call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%"
 
 cd ..
-%psql_exe% -f sql\osm.boundaries.sql
+%psql_exe% -f sql\osm.boundaries.sql > results\osm.boundaries.log 2>&1
 
 cd data
 xcopy /Y *.txt "%pg_data_folder%"
