@@ -336,6 +336,17 @@ Multiple polygons:
 
 Invalid node role:
 2581142|type|multipolygon|2581142|253900783|N||2
+4422911|type|multipolygon|4422911|3195518582|N|inner|14
+4422911|type|multipolygon|4422911|3197507016|N|inner|13
+4422911|type|multipolygon|4422911|3197507017|N|inner|4
+4422911|type|multipolygon|4422911|3197507021|N|inner|10
+4422911|type|multipolygon|4422911|3197507026|N|inner|6
+4422911|type|multipolygon|4422911|3197507027|N|inner|7
+4422911|type|multipolygon|4422911|3197507028|N|inner|8
+4422911|type|multipolygon|4422911|3197507031|N|inner|11
+4422911|type|multipolygon|4422911|3197507035|N|inner|5
+4422911|type|multipolygon|4422911|3197507036|N|inner|9
+4422911|type|multipolygon|4422911|3197507037|N|inner|12
 
 Invalid way role:
 1734718|313640764|1
@@ -347,8 +358,6 @@ Invalid way role:
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|769
-60199|type|boundary|60199|72639|R|disputed|711
-60199|type|boundary|60199|1574364|R|disputed|729
 3994205|type|multipolygon|3994205|3994201|R|part|3
 3994205|type|multipolygon|3994205|3994202|R|part|2
 3994206|type|multipolygon|3994206|3994199|R|part|3
@@ -400,7 +409,6 @@ admin_level:
 216249912|4|2
 310894006|4|2
 310894007|4|2
-238797482|2|3
 30716164|8|6
 189038369|8|6
 189041420|8|6
