@@ -29,7 +29,6 @@ n313426755,w258669260,r3472076|Овруч|town||missing place-tag on relation or
 n337690726,w35373686,r3606770|Олександрівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337509379,w198199877,r3059912|Путивль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337657274,w30701866,r3569409|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
-n337504305,w206589793,r3589659|Шостка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337689476,w185104595,r3592360|Гола Пристань|town|wikipedia=uk:Гола Пристань|uk:Гола_Пристань|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n1628073978,w269265749,r3606547|Южне|town|place=town|city|missing place-tag on relation or wrong name; multiple place objects; node and way place-tag values are different; node and way tag values are different; 
@@ -246,7 +245,6 @@ n337542207,w191420778,r3559880|Південне|town||multiple place objects;
 n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
 n312276821,w30711206,r3626221|Снятин|town||multiple place objects; 
 n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
-n337504305,w206589793,r2776723|Шостка|town||multiple place objects; 
 n337528439,w209513626,r3157879|Шрамківка|town||multiple place objects; 
 n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
 n337541157,w191420774,r3559878|Березівка|town|place=town|village|multiple place objects; node and relation place-tag values are different; node and relation tag values are different; 
@@ -274,6 +272,7 @@ n337580547,r3167014|Золотий Потік|town|population=2480|2473|node and
 n1712742817,r3167073|Копичинці|town|population=6869|6867|node and relation tag values are different; 
 n256613916,r2506125|Красноармійськ|town|population=77380|69154|node and relation tag values are different; 
 n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
+n337677920,r3608140|Куйбишеве|town|wikipedia=uk:Куйбишеве (Куйбишевський район)|uk:Куйбишеве_(Куйбишевський_район)|node and relation tag values are different; 
 n337548383,r3592314|Куп’янськ|town|wikipedia=uk:Куп'янськ|uk:Куп’янськ|node and relation tag values are different; 
 n337700122,r3006800|Массандра|town|addr:postcode=298650|98650;name:prefix=посёлок городского типа|селище міського типу|node and relation tag values are different; 
 n337592273,r3167217|Мельниця-Подільська|town|population=3712|3724|node and relation tag values are different; 
@@ -318,6 +317,7 @@ n311423386,w30713260|Щёлкино|town|name:de=Schtscholkine|Schtscholkino|nod
 
 Multiple polygons:
 2|253900783|r2171253,r2581142|
+2|337504305|r2776723,r3589659|
 2|337525174|r3557610,r3557617|
 2|337534409|r3558015,r3558064|
 2|337534429|r3556446,r3560228|
@@ -352,7 +352,6 @@ Invalid way role:
 3481150|313068258|1
 3753213|318192580|1
 3758569|314972799|1
-4462131|320591373|1
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|771
@@ -461,4 +460,5 @@ admin_level:
 306629655|9|8
 306629656|9|8
 312251198|9|8
+172634413|8|9
 261374280|8|9
