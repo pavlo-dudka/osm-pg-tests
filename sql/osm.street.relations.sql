@@ -26,6 +26,9 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet')
   and (wt.v is null or wt.v not like '% міст' and wt.v not like '% мост')
   and (rtn.k='name' and rm.member_role not in ('street','house','address','associated')
     or rm.member_type='N' and rm.member_role='street'
+    or rm.member_type='N' and not exists(select * from node_tags where node_id=rm.member_id and k='addr:housenumber')
+    or rm.member_type='W' and not exists(select * from way_tags where way_id=rm.member_id)
+    or rm.member_type='R' and not exists(select * from relation_tags where relation_id=rm.member_id)
     or rm.member_type='W' and rm.member_role='street' and not exists(select * from way_tags where k='name' and way_id=rm.member_id)
     or rm.member_type='R' and rm.member_role='street' and not exists(select * from relation_tags where k='name' and relation_id=rm.member_id)
     or rm.member_type='N' and rtn.k='name' and nt.k='addr:street' and nt.v<>rtn.v
