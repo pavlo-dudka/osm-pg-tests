@@ -11,7 +11,7 @@ from
   where rt.k='type' and rt.v in ('multipolygon','boundary')
     and rt.relation_id not in (2379521,1122965)
   group by rt.relation_id
-  having min(case when st_isvalid(w.linestring)='t' then 1 else 0 end)=1) t
+) t
 where t.id=r.id;
 
 drop table if exists regions;
