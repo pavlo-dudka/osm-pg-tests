@@ -33,8 +33,10 @@ start "donetsk" %psql_exe% -f sql\osm.donetsk.sql -o results\osm.Donetsk.txt
 start "ivano-frankivsk" %psql_exe% -f sql\osm.ivano_frankivsk.sql -o results\osm.Ivano-Frankivsk.txt
 start "kamianets-podilskyi" %psql_exe% -f sql\osm.kamianets_podilskyi.sql -o results\osm.Kamianets-Podilskyi.txt
 start "kirovohrad" %psql_exe% -f sql\osm.kirovohrad.sql -o results\osm.Kirovohrad.txt
+start "kremenchuk" %psql_exe% -f sql\osm.kremenchuk.sql -o results\osm.Kremenchuk.txt
 start "kyiv" %psql_exe% -f sql\osm.kyiv.sql -o results\osm.Kyiv.txt
 start "kyiv.building.levels" %psql_exe% -f sql\osm.kyiv.building.levels.sql -o results\kyiv.building.levels.geojson
+start "mariupol" %psql_exe% -f sql\osm.mariupol.sql -o results\osm.Mariupol.txt
 start "sloviansk" %psql_exe% -f sql\osm.sloviansk.sql -o results\osm.Sloviansk.txt
 start "sumy" %psql_exe% -f sql\osm.sumy.sql -o results\osm.Sumy.txt
 start "zhytomyr" %psql_exe% -f sql\osm.zhytomyr.sql -o results\osm.Zhytomyr.txt
