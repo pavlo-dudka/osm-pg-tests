@@ -26,4 +26,4 @@ from streets_sumy sd
 full join t on lower(sd.osm_name_uk)=lower(t.name_uk)
 where (t.id is null or sd.osm_name_uk is null)
 group by sd.osm_name_uk,t.name_uk
-order by coalesce(sd.osm_name_uk,t.name_uk);
+order by coalesce(sd.osm_name_uk,t.name_uk),3;
