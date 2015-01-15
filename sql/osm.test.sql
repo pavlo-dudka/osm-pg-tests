@@ -4,7 +4,7 @@ from way_nodes wn
 inner join node_tags nt on nt.node_id=wn.node_id
 left join way_tags wt on wt.way_id=wn.way_id
 left join way_tags wti on wti.way_id=wn.way_id and wti.k='addr:interpolation'
-where nt.k='building' and nt.v<>'entrance' and wti.k is null
+where nt.k='building' and nt.v not in ('window','entrance') and wti.k is null
 group by wn.node_id,wn.way_id
 order by wn.node_id,wn.way_id;
 
