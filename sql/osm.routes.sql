@@ -18,6 +18,7 @@ select '';
 select 'Relation name';
 select * from relation_tags rt 
 inner join relation_tags rt2 on rt2.relation_id=rt.relation_id and rt2.k='name' and rt2.v<>('Автошлях '||rt.v)
+inner join relation_tags rt3 on rt3.relation_id=rt.relation_id and rt3.k='type' and rt3.v='route'
 where rt.k='ref' and rt.v similar to 'Т-__-__|М-__|Н-__|Р-__|О%|С%';
 
 select '';
