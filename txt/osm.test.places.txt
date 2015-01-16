@@ -8,7 +8,7 @@ Different errors:
 n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|multiple place objects; node and way tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
-n1532708613,r1821193|Кривий Ріг|city|population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
+n1532708613,r1821193|Кривий Ріг|city|admin_level=5|6;population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
 n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -245,6 +245,7 @@ n337688013,w191938616,r3591204|Якимівка|town||multiple place objects;
 n337589760,w313665128,r2320570|Олександрія|town|place=town|city|multiple place objects; node and way place-tag values are different; node and way tag values are different; 
 n1734381328,w129371619,r3603564|Гуляйполе|town|population=14556|16829|multiple place objects; node and way tag values are different; 
 n337594314,r3527803|Аули|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n29980666,r1748539|Маріуполь|town|place=town|city|node and relation place-tag values are different; node and relation tag values are different; 
 n337682931,r3588797|Андріївка|town|wikipedia=uk:Андріївка (Бердянський район)|uk:Андріївка_(Бердянський_район)|node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
 n292995540,r3030236|Бахчисарай|town|name:en=Bakhchisarai|Bakhchysarai|node and relation tag values are different; 
