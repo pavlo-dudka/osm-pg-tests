@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1335665,w76719799","relationtags":"name|Свердлова вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.47087,49.22951]}},
 {"type":"Feature","properties":{"josm":"r1424804,w99591734","relationtags":"name|Генерала Наумова вулиця","membertags":"addr:street|Академіка Булаховського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.33386,50.47303]}},
 {"type":"Feature","properties":{"josm":"r1491142,w176507325","relationtags":"name|Чкалова вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.28946,50.03985]}},
 {"type":"Feature","properties":{"josm":"r1491142,w92749400","relationtags":"name|Чкалова вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.29025,50.0395]}},
@@ -27,7 +26,10 @@
 {"type":"Feature","properties":{"josm":"r2077808,w135112556","relationtags":"name:ru|Магеллана улица","membertags":"name:ru|Магеллана Ф. улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.56661,48.13946]}},
 {"type":"Feature","properties":{"josm":"r2077808,w135112556","relationtags":"name:uk|Магеллана вулиця","membertags":"name:uk|Магеллана Ф. вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.56661,48.13946]}},
 {"type":"Feature","properties":{"josm":"r2077808,w135112556","relationtags":"name|Магеллана вулиця","membertags":"name|Магеллана Ф. вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.56661,48.13946]}},
+{"type":"Feature","properties":{"josm":"r2145920,w39534513","relationtags":"name|Нижній Вал вулиця","membertags":"addr:street|Житньоторзька вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.50926,50.46572]}},
 {"type":"Feature","properties":{"josm":"r2305915,w42799668","relationtags":"name|Сумсько-Київських Дивізій вулиця","membertags":"addr:street|Харківська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.81873,50.89944]}},
+{"type":"Feature","properties":{"josm":"r2355147,n3310837329","relationtags":"name|Яворницького вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.22766,50.61976]}},
+{"type":"Feature","properties":{"josm":"r2355147,n3310847424","relationtags":"name|Яворницького вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.22712,50.62015]}},
 {"type":"Feature","properties":{"josm":"r2390996,w34839561","relationtags":"name|Аральська вулиця (Велика Данилівка)","membertags":"name|Аральська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.33369,50.04686]}},
 {"type":"Feature","properties":{"josm":"r2391088,w185659469","relationtags":"name|Бетховена провулок","membertags":"name|Людвіга ван Бетховена провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.28603,49.9814]}},
 {"type":"Feature","properties":{"josm":"r2391835,w180015103","relationtags":"name:ru|Лагерный 3-й переулок","membertags":"name:ru|3-й Лагерный переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.13267,49.99181]}},
