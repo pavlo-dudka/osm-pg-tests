@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"1375214025","properties":{"error":"End-node of unclassified-way is located close to another pedestrian-way","josm":"n1375214025,w123262560"},"geometry":{"type":"Point","coordinates":[38.79806,48.46957]}},
-{"type":"Feature","id":"1687103100","properties":{"error":"End-node of pedestrian-way is located close to another primary-way","josm":"n1687103100,w4421935"},"geometry":{"type":"Point","coordinates":[36.28601,50.04057]}},
 {"type":"Feature","id":"2156720777","properties":{"error":"End-node of unclassified-way is located close to another unclassified-way","josm":"n2156720777,w133382260"},"geometry":{"type":"Point","coordinates":[26.92786,49.42861]}},
 {"type":"Feature","id":"2608763743","properties":{"error":"End-node of residential-way is located close to another secondary-way","josm":"n2608763743,w179827555"},"geometry":{"type":"Point","coordinates":[32.95097,51.63025]}},
 {"type":"Feature","id":"2912929956","properties":{"error":"End-node of residential-way is located close to another residential-way","josm":"n2912929956,w287720264"},"geometry":{"type":"Point","coordinates":[31.8942,49.20919]}},
