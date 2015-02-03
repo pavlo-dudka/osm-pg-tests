@@ -2,5 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"985791392","properties":{"error":"End-node of tertiary-way is located close to another tertiary-way","josm":"n985791392,w84911704"},"geometry":{"type":"Point","coordinates":[36.35879,49.92286]}},
+{"type":"Feature","id":"3328849775","properties":{"error":"End-node of tertiary-way is located close to another tertiary-way","josm":"n3328849775,w186728055"},"geometry":{"type":"Point","coordinates":[36.35879,49.92286]}},
+{"type":"Feature","id":"985791392","properties":{"error":"End-node of tertiary-way is located close to another residential-way","josm":"n985791392,w186728052"},"geometry":{"type":"Point","coordinates":[36.35879,49.92286]}},
+{"type":"Feature","id":"3328849776","properties":{"error":"End-node of residential-way is located close to another tertiary-way","josm":"n3328849776,w186728055"},"geometry":{"type":"Point","coordinates":[36.35879,49.92286]}},
 {"type":"Feature"}
 ]}
