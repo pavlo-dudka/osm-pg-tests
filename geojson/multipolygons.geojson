@@ -3,6 +3,7 @@
 "errorDescr": "Multipolygon end-node",
 "features": [
 {"type":"Feature","properties":{"josm":"r2533273,n1986709813","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.36676,48.252]}},
+{"type":"Feature","properties":{"josm":"r4554894","error":"multipolygon without tags and single member - delete relation","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.43282,49.34515]}},
 {"type":"Feature","properties":{"josm":"r1326767,w90136761","error":"multipolygon contains the way two or more times","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.01663,48.47734]}},
 {"type":"Feature","properties":{"josm":"r3400818,w253776734","error":"multipolygon contains the way two or more times","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.06824,48.51825]}},
 {"type":"Feature","properties":{"josm":"r3400818,w253776751","error":"multipolygon contains the way two or more times","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.06831,48.51843]}},
