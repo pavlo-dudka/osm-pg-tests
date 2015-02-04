@@ -2,5 +2,14 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3330914029","properties":{"error":"End-node of trunk-way is located close to another trunk-way","josm":"n3330914029,w214228020"},"geometry":{"type":"Point","coordinates":[38.50004,48.36278]}},
+{"type":"Feature","id":"3330914030","properties":{"error":"End-node of trunk-way is located close to another trunk-way","josm":"n3330914030,w214228020"},"geometry":{"type":"Point","coordinates":[38.50004,48.36278]}},
+{"type":"Feature","id":"3330917553","properties":{"error":"End-node of trunk-way is located close to another trunk-way","josm":"n3330917553,w214228020"},"geometry":{"type":"Point","coordinates":[38.53225,48.375]}},
+{"type":"Feature","id":"3330917554","properties":{"error":"End-node of trunk-way is located close to another trunk-way","josm":"n3330917554,w214228020"},"geometry":{"type":"Point","coordinates":[38.53225,48.375]}},
+{"type":"Feature","id":"3330937655","properties":{"error":"End-node of secondary-way is located close to another secondary-way","josm":"n3330937655,w323618715"},"geometry":{"type":"Point","coordinates":[27.63166,49.38572]}},
+{"type":"Feature","id":"3330937656","properties":{"error":"End-node of secondary-way is located close to another residential-way","josm":"n3330937656,w231123800"},"geometry":{"type":"Point","coordinates":[27.63167,49.38571]}},
+{"type":"Feature","id":"3330937656","properties":{"error":"End-node of secondary-way is located close to another secondary-way","josm":"n3330937656,w323256824"},"geometry":{"type":"Point","coordinates":[27.63167,49.38571]}},
+{"type":"Feature","id":"3330893338","properties":{"error":"End-node of tertiary-way is located close to another tertiary-way","josm":"n3330893338,w326446306"},"geometry":{"type":"Point","coordinates":[38.52863,48.40241]}},
+{"type":"Feature","id":"3330937656","properties":{"error":"End-node of secondary-way is located close to another residential-way","josm":"n3330937656,w231123800"},"geometry":{"type":"Point","coordinates":[27.63167,49.38571]}},
 {"type":"Feature"}
 ]}
