@@ -7,6 +7,7 @@ place-way should be closed:
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337579368,w33884950,r4089182|Сєвєродонецьк|city|name:sr=Северодонецк|Северодоњецк|multiple place objects; node and way tag values are different; 
+n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|admin_level=5|6;population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
@@ -260,6 +261,7 @@ n312230548,r2697557|Борщів|town|population=11273|11219|node and relation t
 n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803|node and relation tag values are different; 
 n337541242,r3166784|Вишнівець|town|population=3424|3405|node and relation tag values are different; 
 n256615282,r3947434|Володарське|town|koatuu=1421755100|1421787001|node and relation tag values are different; 
+n256613872,r3936160|Вуглегірськ|town|name:pl=Uglegorsk|Wuhłehirsk|node and relation tag values are different; 
 n2758288894,r3620421|Гвардейское|town|name:en=Gvardeiskoe|Hvardiiske|node and relation tag values are different; 
 n337562696,r3166882|Гримайлів|town|population=1973|1962|node and relation tag values are different; 
 n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
@@ -284,6 +286,7 @@ n337661270,r2318311|Первомайськ|town|wikipedia=uk:Первомайс�
 n337697628,r3734455|Приморский|town|name:en=Prymorskyi|Prymorsky;wikipedia=ru:Приморский (Крым)|uk:Приморський|node and relation tag values are different; 
 n337668842,r2033389|Радушне|town|wikipedia=uk:Радушне|ru:Радушное|node and relation tag values are different; 
 n337677344,r3605956|Розівка|town|wikipedia=uk:Розівка (смт)|uk:Розівка_(смт)|node and relation tag values are different; 
+n256613798,r3940069|Світлодарськ|town|name:pl=Swietłodarsk|Switłodarsk|node and relation tag values are different; 
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n337595599,r3606499|Тернівка|town|wikipedia=uk:Тернівка (місто)|uk:Тернівка_(місто)|node and relation tag values are different; 
 n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag values are different; 
@@ -295,7 +298,7 @@ n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n313245343,r3592426|Шепетівка|town|name:pl=Szepietówka|Szepetówka|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
-n253900783,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
+n253900783,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;name:pl=Sczastia|Szczastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n337697952,w30716000|Белогорск|town|name:de=Bilohirsk|Belohorsk;name:en=Bilohirsk|Belogorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
 n337700320,w225981775|Береговое|town|name:en=Beregovoye|Beregovoe|node and way tag values are different; 
