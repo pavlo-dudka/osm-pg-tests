@@ -2,5 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"1903077731","properties":{"error":"End-node of residential-way is located close to another residential-way","josm":"n1903077731,w179876814"},"geometry":{"type":"Point","coordinates":[37.66997,47.11116]}},
+{"type":"Feature","id":"3319839789","properties":{"error":"End-node of service-way is located close to another residential-way","josm":"n3319839789,w179876814"},"geometry":{"type":"Point","coordinates":[37.6705,47.11515]}},
 {"type":"Feature"}
 ]}
