@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1428491,w326904338","relationtags":"name|Польова вулиця","membertags":"addr:street|Павлова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.43776,49.21984]}},
+{"type":"Feature","properties":{"josm":"r1428491,w326904340","relationtags":"name|Польова вулиця","membertags":"addr:street|Павлова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.43819,49.21986]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19651,48.49077]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19787,48.49098]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19887,48.49208]}},
