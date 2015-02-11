@@ -199,6 +199,7 @@ n337544672|Утківка|town||missing polygon;
 n337606150|Фащівка|town||missing polygon; 
 n337590283|Фрунзе|town||missing polygon; 
 n337689792|Хлібодарське|town||missing polygon; 
+n312256412|Хоростків|town||missing polygon; 
 n337569829|Цвіткове|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
 n337601316|Центральний|town||missing polygon; 
@@ -289,7 +290,6 @@ n337583474,r3167483|Скала-Подільська|town|population=4234|4255|no
 n337595599,r3606499|Тернівка|town|wikipedia=uk:Тернівка (місто)|uk:Тернівка_(місто)|node and relation tag values are different; 
 n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag values are different; 
 n1830695011,r2997809|Феодосия|town|admin_level=8|10;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
-n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n337663834,r2097842|Христофорівка|town|wikipedia=uk:Христофорівка (смт)|ru:Христофоровка_(Криворожский_район)|node and relation tag values are different; 
 n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
@@ -355,15 +355,6 @@ Invalid way role:
 
 Invalid relation role:
 49715|type|boundary|49715|936128|R|land_area|16
-2668952|type|boundary|2668952|2707692|R|outer|1
-2668952|type|boundary|2668952|2707693|R|outer|7
-2668952|type|boundary|2668952|2707694|R|inner|8
-2668952|type|boundary|2668952|2707696|R|outer|6
-2668952|type|boundary|2668952|2707697|R|outer|5
-2668952|type|boundary|2668952|2707698|R|outer|3
-2668952|type|boundary|2668952|2707699|R|outer|4
-2668952|type|boundary|2668952|2707700|R|outer|2
-2668952|type|boundary|2668952|2725459|R|outer|0
 3994205|type|multipolygon|3994205|3994201|R|part|3
 3994205|type|multipolygon|3994205|3994202|R|part|2
 3994206|type|multipolygon|3994206|3994199|R|part|3
