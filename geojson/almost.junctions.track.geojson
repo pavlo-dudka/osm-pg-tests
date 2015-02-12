@@ -35,9 +35,7 @@
 {"type":"Feature","id":"1412104801","properties":{"error":"End-node of service-way is located close to another track-way","josm":"n1412104801,w136287034"},"geometry":{"type":"Point","coordinates":[30.57012,50.37345]}},
 {"type":"Feature","id":"1458431585","properties":{"error":"End-node of track-way is located close to another residential-way","josm":"n1458431585,w132087636"},"geometry":{"type":"Point","coordinates":[38.48028,48.0239]}},
 {"type":"Feature","id":"1469231334","properties":{"error":"End-node of track-way is located close to another residential-way","josm":"n1469231334,w133488142"},"geometry":{"type":"Point","coordinates":[36.85215,49.45398]}},
-{"type":"Feature","id":"1492845152","properties":{"error":"End-node of residential-way is located close to another track-way","josm":"n1492845152,w245311583"},"geometry":{"type":"Point","coordinates":[33.04685,48.66054]}},
 {"type":"Feature","id":"1493111378","properties":{"error":"End-node of service-way is located close to another track-way","josm":"n1493111378,w181151835"},"geometry":{"type":"Point","coordinates":[30.55421,50.26664]}},
-{"type":"Feature","id":"1516491873","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n1516491873,w138319880"},"geometry":{"type":"Point","coordinates":[33.76159,48.89969]}},
 {"type":"Feature","id":"1564955473","properties":{"error":"End-node of track-way is located close to another residential-way","josm":"n1564955473,w120735083"},"geometry":{"type":"Point","coordinates":[35.39431,45.01827]}},
 {"type":"Feature","id":"1588216782","properties":{"error":"End-node of unclassified-way is located close to another track-way","josm":"n1588216782,w145406200"},"geometry":{"type":"Point","coordinates":[37.33952,50.37264]}},
 {"type":"Feature","id":"1600365514","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n1600365514,w112608388,w218368383"},"geometry":{"type":"Point","coordinates":[35.28315,50.07441]}},
@@ -250,7 +248,6 @@
 {"type":"Feature","id":"2414374434","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n2414374434,w233095926"},"geometry":{"type":"Point","coordinates":[35.27654,50.05795]}},
 {"type":"Feature","id":"2416416110","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n2416416110,w233949566"},"geometry":{"type":"Point","coordinates":[36.48735,49.94602]}},
 {"type":"Feature","id":"2418591440","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n2418591440,w311385564"},"geometry":{"type":"Point","coordinates":[30.96699,49.55806]}},
-{"type":"Feature","id":"2422044039","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n2422044039,w233884254"},"geometry":{"type":"Point","coordinates":[24.94359,51.0925]}},
 {"type":"Feature","id":"2423992404","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n2423992404,w230018563"},"geometry":{"type":"Point","coordinates":[36.77541,50.0628]}},
 {"type":"Feature","id":"2429812452","properties":{"error":"End-node of track-way is located close to another residential-way","josm":"n2429812452,w196596548"},"geometry":{"type":"Point","coordinates":[29.30172,50.59205]}},
 {"type":"Feature","id":"2432933064","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n2432933064,w274834455"},"geometry":{"type":"Point","coordinates":[26.18971,48.8912]}},
@@ -603,7 +600,6 @@
 {"type":"Feature","id":"3255041874","properties":{"error":"End-node of track-way is located close to another trunk-way","josm":"n3255041874,w89531122"},"geometry":{"type":"Point","coordinates":[36.42782,49.96664]}},
 {"type":"Feature","id":"3255041874","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n3255041874,w84819620,w123854778"},"geometry":{"type":"Point","coordinates":[36.42782,49.96664]}},
 {"type":"Feature","id":"3256223908","properties":{"error":"End-node of residential-way is located close to another track-way","josm":"n3256223908,w319205751"},"geometry":{"type":"Point","coordinates":[31.4764,46.9763]}},
-{"type":"Feature","id":"3259474217","properties":{"error":"End-node of track-way is located close to another track-way","josm":"n3259474217,w319524584"},"geometry":{"type":"Point","coordinates":[33.53541,49.17924]}},
 {"type":"Feature","id":"3260385838","properties":{"error":"End-node of track-way is located close to another residential-way","josm":"n3260385838,w206458050"},"geometry":{"type":"Point","coordinates":[36.8754,47.05144]}},
 {"type":"Feature","id":"3262402881","properties":{"error":"End-node of service-way is located close to another track-way","josm":"n3262402881,w110682133"},"geometry":{"type":"Point","coordinates":[38.38805,48.92793]}},
 {"type":"Feature","id":"3265438831","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n3265438831,w205764938"},"geometry":{"type":"Point","coordinates":[29.41082,51.08986]}},
@@ -632,5 +628,6 @@
 {"type":"Feature","id":"3335914406","properties":{"error":"End-node of residential-way is located close to another track-way","josm":"n3335914406,w326892820"},"geometry":{"type":"Point","coordinates":[38.37042,48.34388]}},
 {"type":"Feature","id":"3337145833","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n3337145833,w323229502"},"geometry":{"type":"Point","coordinates":[27.51131,49.34854]}},
 {"type":"Feature","id":"3342909690","properties":{"error":"End-node of track-way is located close to another unclassified-way","josm":"n3342909690,w292348385"},"geometry":{"type":"Point","coordinates":[27.64356,49.38467]}},
+{"type":"Feature","id":"3345717472","properties":{"error":"End-node of track-way is located close to another secondary-way","josm":"n3345717472,w42463674"},"geometry":{"type":"Point","coordinates":[29.01998,49.05723]}},
 {"type":"Feature"}
 ]}
