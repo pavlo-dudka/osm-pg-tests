@@ -2,5 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3355565825","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Київська область","josm":"n3355565825,w163064029,w328728119"},"geometry":{"type":"Point","coordinates":[30.3316,50.20013]}},
+{"type":"Feature","id":"3355607035","properties":{"error":"End-node of living_street-way is located close to another residential-way","region":"Миколаївська область","josm":"n3355607035,w166072898"},"geometry":{"type":"Point","coordinates":[32.50345,47.68666]}},
+{"type":"Feature","id":"3355607040","properties":{"error":"End-node of living_street-way is located close to another residential-way","region":"Миколаївська область","josm":"n3355607040,w166103106"},"geometry":{"type":"Point","coordinates":[32.51281,47.69023]}},
+{"type":"Feature","id":"3355607048","properties":{"error":"End-node of living_street-way is located close to another residential-way","region":"Миколаївська область","josm":"n3355607048,w166072898,w328731494"},"geometry":{"type":"Point","coordinates":[32.50594,47.68545]}},
 {"type":"Feature"}
 ]}
