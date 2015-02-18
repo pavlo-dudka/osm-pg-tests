@@ -4,11 +4,6 @@ function showMap(geoJson)
 	map.addControl(new L.Control.Permalink());
 
 	var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-	if (geoJson.substring(0,14) == 'geojson/peirce')
-	{
-		copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
-	}
-	
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
 		attribution: copyright
@@ -21,46 +16,56 @@ function showGeoJson(map, geoJson)
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
-	var myGeoJson = eval('(' + xmlhttp.responseText + ')');
 	
-	var geoJsonLayer = L.geoJson(myGeoJson, {
-		onEachFeature: function (feature, layer) {
-		layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
-		}
-	});
-
+	var myGeoJson = eval('(' + xmlhttp.responseText + ')');	
 	if (myGeoJson.features.length > 1 && myGeoJson.features[0].geometry.type == 'Point')
 	{
+		var geoJsonLayer = L.geoJson(myGeoJson, {
+			onEachFeature: function (feature, layer) {
+			layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
+			}
+		});
+		
 		var markers = L.markerClusterGroup();
 		markers.addLayer(geoJsonLayer);
 		map.addLayer(markers);
 	}
 	else
 	{
-		map.addLayer(geoJsonLayer);
-		if (myGeoJson.features.length > 1 && myGeoJson.features[0].geometry.type != 'Point')
-		{
-			var myGeoJsonPoints = eval('(' + xmlhttp.responseText + ')');
-			for (var i = 0; i < myGeoJsonPoints.features.length - 1; i++)
-			{	
-				myGeoJsonPoints.features[i].geometry.type = 'Point';
-				if (myGeoJsonPoints.features[i].geometry.coordinates[0][0] instanceof Array)
-					myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[0][Math.floor(myGeoJsonPoints.features[i].geometry.coordinates[0].length / 2)];
-				else
-					myGeoJsonPoints.features[i].geometry.coordinates = myGeoJsonPoints.features[i].geometry.coordinates[Math.floor(myGeoJsonPoints.features[i].geometry.coordinates.length / 2)];
+		var myGeoJsonPoints = eval('(' + xmlhttp.responseText + ')');	
+		for (var i = 0; i < myGeoJson.features.length - 1; i++)
+		{			
+			myGeoJsonPoints.features[i].geometry.type = 'Point';
+			if (myGeoJson.features[0].geometry.type == 'GeometryCollection')
+			{
+				myGeoJsonPoints.features[i].geometry.coordinates = myGeoJson.features[i].geometry.geometries[0].coordinates;
+				myGeoJson.features[i].geometry.geometries = myGeoJson.features[i].geometry.geometries.slice(1);
 			}
-
-			var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
-				onEachFeature: function (feature, layer) {
-				layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr));
-				}
-			});
-
-			var markers = L.markerClusterGroup();
-			markers.addLayer(geoJsonLayer2);
-			map.addLayer(markers);
+			else if (myGeoJsonPoints.features[i].geometry.coordinates[0][0] instanceof Array)
+				myGeoJsonPoints.features[i].geometry.coordinates = myGeoJson.features[i].geometry.coordinates[0][Math.floor(myGeoJson.features[i].geometry.coordinates[0].length / 2)];
+			else
+				myGeoJsonPoints.features[i].geometry.coordinates = myGeoJson.features[i].geometry.coordinates[Math.floor(myGeoJson.features[i].geometry.coordinates.length / 2)];
 		}
-	}
+		
+		var geoJsonLayer = L.geoJson(myGeoJson, {
+			onEachFeature: function (feature, layer) {
+			layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
+			}
+		});
+
+		
+		map.addLayer(geoJsonLayer);
+
+		var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
+			onEachFeature: function (feature, layer) {
+			layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr));
+			}
+		});
+
+		var markers = L.markerClusterGroup();
+		markers.addLayer(geoJsonLayer2);
+		map.addLayer(markers);
+	}	
 }
 
 function popupHtml(feature, errorDescr)
