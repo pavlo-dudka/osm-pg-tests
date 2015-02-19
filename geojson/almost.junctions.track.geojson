@@ -3,8 +3,6 @@
 "errorDescr": "End-node is located close to another way",
 "features": [
 {"type":"Feature","id":"269465202","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Луганська область","josm":"n269465202,w24802288"},"geometry":{"type":"Point","coordinates":[39.17664,48.5075]}},
-{"type":"Feature","id":"435122717","properties":{"error":"End-node of pedestrian-way is located close to another track-way","region":"Київ","josm":"n435122717,w301207883"},"geometry":{"type":"Point","coordinates":[30.54295,50.49812]}},
-{"type":"Feature","id":"435122719","properties":{"error":"End-node of track-way is located close to another pedestrian-way","region":"Київ","josm":"n435122719,w160526387"},"geometry":{"type":"Point","coordinates":[30.54298,50.49812]}},
 {"type":"Feature","id":"811906665","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Київська область","josm":"n811906665,w118606651"},"geometry":{"type":"Point","coordinates":[30.05421,50.50721]}},
 {"type":"Feature","id":"908703761","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n908703761,w258876198"},"geometry":{"type":"Point","coordinates":[30.0566,50.5531]}},
 {"type":"Feature","id":"911972547","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Вінницька область","josm":"n911972547,w77482321"},"geometry":{"type":"Point","coordinates":[28.35677,49.13566]}},
@@ -331,7 +329,6 @@
 {"type":"Feature","id":"2935642492","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Донецька область","josm":"n2935642492,w139414159"},"geometry":{"type":"Point","coordinates":[38.27433,47.99218]}},
 {"type":"Feature","id":"2941538930","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Донецька область","josm":"n2941538930,w297528173,w297528174"},"geometry":{"type":"Point","coordinates":[38.07637,48.27789]}},
 {"type":"Feature","id":"2961092986","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Черкаська область","josm":"n2961092986,w77029792"},"geometry":{"type":"Point","coordinates":[31.48611,49.7483]}},
-{"type":"Feature","id":"2961906531","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n2961906531,w123644483"},"geometry":{"type":"Point","coordinates":[30.65911,50.58565]}},
 {"type":"Feature","id":"2962623603","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернігівська область","josm":"n2962623603,w292731078"},"geometry":{"type":"Point","coordinates":[31.34633,50.59133]}},
 {"type":"Feature","id":"2962645144","properties":{"error":"End-node of track-way is located close to another trunk-way","region":"Київ","josm":"n2962645144,w146411974"},"geometry":{"type":"Point","coordinates":[30.32181,50.45317]}},
 {"type":"Feature","id":"2963136965","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Луганська область","josm":"n2963136965,w289921317"},"geometry":{"type":"Point","coordinates":[39.79783,48.27256]}},
@@ -486,7 +483,6 @@
 {"type":"Feature","id":"3326998529","properties":{"error":"End-node of track-way is located close to another track-way","region":"Донецька область","josm":"n3326998529,w326078518"},"geometry":{"type":"Point","coordinates":[38.26061,48.33213]}},
 {"type":"Feature","id":"3328088644","properties":{"error":"End-node of track-way is located close to another primary-way","region":"Харківська область","josm":"n3328088644,w229190142"},"geometry":{"type":"Point","coordinates":[36.84127,49.45732]}},
 {"type":"Feature","id":"3331221214","properties":{"error":"End-node of track-way is located close to another track-way","region":"Хмельницька область","josm":"n3331221214,w327230552"},"geometry":{"type":"Point","coordinates":[27.65282,49.37845]}},
-{"type":"Feature","id":"3355867633","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київ","josm":"n3355867633,w176878255"},"geometry":{"type":"Point","coordinates":[30.63272,50.53471]}},
 {"type":"Feature","id":"3358289341","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Дніпропетровська область","josm":"n3358289341,w124095115"},"geometry":{"type":"Point","coordinates":[34.47073,48.51834]}},
 {"type":"Feature"}
 ]}
