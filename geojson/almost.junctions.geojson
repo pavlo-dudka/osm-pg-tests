@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"1760058597","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Київська область","josm":"n1760058597,w330204304"},"geometry":{"type":"Point","coordinates":[30.79521,50.45297]}},
 {"type":"Feature","id":"3361708923","properties":{"error":"End-node of pedestrian-way is located close to another tertiary-way","region":"Запорізька область","josm":"n3361708923,w105400713"},"geometry":{"type":"Point","coordinates":[35.70803,47.25216]}},
 {"type":"Feature","id":"3361709180","properties":{"error":"End-node of pedestrian-way is located close to another tertiary-way","region":"Запорізька область","josm":"n3361709180,w105403268"},"geometry":{"type":"Point","coordinates":[35.70371,47.25438]}},
 {"type":"Feature","id":"3361709195","properties":{"error":"End-node of pedestrian-way is located close to another residential-way","region":"Запорізька область","josm":"n3361709195,w260630310"},"geometry":{"type":"Point","coordinates":[35.70858,47.25486]}},
+{"type":"Feature","id":"3371683516","properties":{"error":"End-node of service-way is located close to another service-way","region":"Автономна Республіка Крим","josm":"n3371683516,w70399581"},"geometry":{"type":"Point","coordinates":[34.09304,44.43265]}},
 {"type":"Feature"}
 ]}
