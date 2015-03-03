@@ -4,6 +4,11 @@ function showMap(geoJson)
 	map.addControl(new L.Control.Permalink());
 
 	var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+	if (geoJson.substring(0,14) == 'geojson/peirce')
+	{
+		copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
+	}
+	
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
 		attribution: copyright
@@ -124,6 +129,14 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>House number:</th><td>' + feature.properties.addrhousenumber + '</td></tr>';
 	}
+	if (typeof(feature.properties.cur_district) != "undefined")
+	{
+		result += '<tr><th>Current district:</th><td>' + feature.properties.cur_district + '</td></tr>';
+	}
+	if (typeof(feature.properties.exp_district) != "undefined")
+	{
+		result += '<tr><th>Expected district:</th><td>' + feature.properties.exp_district + '</td></tr>';
+	}
 	if (typeof(feature.properties.region) != "undefined")
 	{
 	        if (feature.properties.region.substring(0,2) == "UA")
@@ -217,6 +230,14 @@ function showTable(geoJson)
 			{
 				document.write('<th>House No.</th>');
 			}
+			if (typeof(feature.properties.cur_district) != "undefined")
+			{
+				document.write('<th>Current district</th>');
+			}
+			if (typeof(feature.properties.exp_district) != "undefined")
+			{
+				document.write('<th>Expected district</th>');
+			}
 			if (typeof(feature.properties.region) != "undefined")
 			{
 				document.write('<th>Region</th>');
@@ -294,6 +315,14 @@ function showTable(geoJson)
 		if (typeof(feature.properties.addrhousenumber) != "undefined")
 		{
 			document.write('<td>' + feature.properties.addrhousenumber + '</td>');
+		}
+		if (typeof(feature.properties.cur_district) != "undefined")
+		{
+			document.write('<td>' + feature.properties.cur_district + '</td>');
+		}
+		if (typeof(feature.properties.exp_district) != "undefined")
+		{
+			document.write('<td>' + feature.properties.exp_district + '</td>');
 		}
 		if (typeof(feature.properties.region) != "undefined")
 		{
