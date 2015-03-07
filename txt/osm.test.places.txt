@@ -4,7 +4,7 @@ place-way should be closed:
 317591476
 
 Different errors:
-n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Территория, подчинённая Севастопольскому городскому совету|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -41,7 +41,6 @@ n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Ин�
 n337560920,w200194868,r3890226|Ставище|town||missing place-tag on way; multiple place objects; 
 n337689759|Авангард|town||missing polygon; 
 n3071974433|Авіаторське|town||missing polygon; 
-n337698272|Аграрное|town||missing polygon; 
 n337545417|Артемівка|town||missing polygon; 
 n337598439|Артемівськ|town||missing polygon; 
 n337689979|Асканія-Нова|town||missing polygon; 
@@ -204,6 +203,7 @@ n337515468,r4559321|Соснове|town|place=town|village|node and relation pla
 n337511426,r4559317|Степань|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337509712,r4559315|Томашгород|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337601037,r3518765|Щорськ|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
+n337698272,r3030305|Аграрное|town|wikipedia=uk:Аграрне|ru:Аграрное|node and relation tag values are different; 
 n337682931,r3588797|Андріївка|town|wikipedia=uk:Андріївка (Бердянський район)|uk:Андріївка_(Бердянський_район)|node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
 n337698230,r3030326|Аэрофлотский|town|wikipedia=uk:Аерофлотський|ru:Аэрофлотский|node and relation tag values are different; 
@@ -291,6 +291,7 @@ Multiple polygons:
 2|337576501|r3838163,r4627713|
 2|337604170|r3525529,r3525647|
 2|337698230|r3030295,r3030326|
+2|337698272|r3030295,r3030305|
 2|337698279|r3030295,r3030327|
 2|1172307894|r2175059,r3006716|
 2|1984361456|r3556561,r3557536|
