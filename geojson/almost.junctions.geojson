@@ -2,6 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"491045127","properties":{"error":"End-node of secondary-way is located close to another secondary-way","region":"Дніпропетровська область","josm":"n491045127,w331706384"},"geometry":{"type":"Point","coordinates":[33.3691,47.87978]}},
+{"type":"Feature","id":"3388027191","properties":{"error":"End-node of secondary-way is located close to another secondary-way","region":"Дніпропетровська область","josm":"n3388027191,w37531067"},"geometry":{"type":"Point","coordinates":[33.3691,47.87978]}},
+{"type":"Feature","id":"3388027191","properties":{"error":"End-node of secondary-way is located close to another tertiary-way","region":"Дніпропетровська область","josm":"n3388027191,w107095896"},"geometry":{"type":"Point","coordinates":[33.3691,47.87978]}},
+{"type":"Feature","id":"3388027191","properties":{"error":"End-node of secondary-way is located close to another tertiary-way","region":"Дніпропетровська область","josm":"n3388027191,w107095896"},"geometry":{"type":"Point","coordinates":[33.3691,47.87978]}},
+{"type":"Feature","id":"2720374141","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Запорізька область","josm":"n2720374141,w266497377"},"geometry":{"type":"Point","coordinates":[36.26265,47.46159]}},
 {"type":"Feature","id":"3361709175","properties":{"error":"End-node of pedestrian-way is located close to another tertiary-way","region":"Запорізька область","josm":"n3361709175,w105403268"},"geometry":{"type":"Point","coordinates":[35.70588,47.25396]}},
 {"type":"Feature","id":"3378070066","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Донецька область","josm":"n3378070066,w330818776"},"geometry":{"type":"Point","coordinates":[37.37237,48.03224]}},
 {"type":"Feature","id":"3378207602","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Донецька область","josm":"n3378207602,w330804464"},"geometry":{"type":"Point","coordinates":[37.37237,48.03224]}},
