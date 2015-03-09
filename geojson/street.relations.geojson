@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1325375,w81458972","relationtags":"name|Кільцевий проїзд","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.43666,49.9086]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.1965,48.49081]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19788,48.49102]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19888,48.49212]}},
@@ -22,8 +21,6 @@
 {"type":"Feature","properties":{"josm":"r2792751,w331414723","relationtags":"name|Кримська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.64166,46.65819]}},
 {"type":"Feature","properties":{"josm":"r2792751,w331414724","relationtags":"name|Кримська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.63968,46.65588]}},
 {"type":"Feature","properties":{"josm":"r2792751,w331732814","relationtags":"name|Кримська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.65048,46.66472]}},
-{"type":"Feature","properties":{"josm":"r2942306,w62805186","relationtags":"name|Інститутська вулиця","membertags":"addr:street|Героїв Небесної Сотні алея","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.52741,50.45009]}},
-{"type":"Feature","properties":{"josm":"r2942306,w62805190","relationtags":"name|Інститутська вулиця","membertags":"addr:street|Героїв Небесної Сотні алея","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.52842,50.44963]}},
 {"type":"Feature","properties":{"josm":"r3913757,n2458016452","relationtags":"name|1-го Травня вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.60406,49.25914]}},
 {"type":"Feature","properties":{"josm":"r3913760,n2391306450","relationtags":"name|Михайла Грушевського вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.58897,49.26002]}},
 {"type":"Feature","properties":{"josm":"r4126318,w260630278","relationtags":"name|Куйбишева вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.69631,47.23489]}},
@@ -53,7 +50,6 @@
 {"type":"Feature","properties":{"josm":"r4140035,w312504900","relationtags":"name|Привокзальна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.72624,47.23276]}},
 {"type":"Feature","properties":{"josm":"r4140036,w312504887","relationtags":"name|Серьогіна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.72736,47.24552]}},
 {"type":"Feature","properties":{"josm":"r4143274,w312504960","relationtags":"name|Гоголя вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.71475,47.26569]}},
-{"type":"Feature","properties":{"josm":"r415287,w331849849","relationtags":"name|Володимирська вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.51414,50.44723]}},
 {"type":"Feature","properties":{"josm":"r4454485,w284853378","relationtags":"name|Дубенська вулиця","membertags":"name|Тараса Шевченка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.72657,50.09692]}},
 {"type":"Feature","properties":{"josm":"r4609411,w312504799","relationtags":"name|Нансена вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.70652,47.25373]}},
 {"type":"Feature","properties":{"josm":"r4614395,w137685726","relationtags":"name|Леніна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.71122,47.25266]}},
@@ -76,7 +72,6 @@
 {"type":"Feature","properties":{"josm":"r4655904,w232173791","relationtags":"name|Академіка Тарле вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.62163,46.6821]}},
 {"type":"Feature","properties":{"josm":"r4655904,w232173893","relationtags":"name|Академіка Тарле вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.61916,46.6812]}},
 {"type":"Feature","properties":{"josm":"r4655904,w232173972","relationtags":"name|Академіка Тарле вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.62006,46.68132]}},
-{"type":"Feature","properties":{"josm":"r4659858,w61009917","relationtags":"name|Лісова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.23728,50.50519]}},
 {"type":"Feature","properties":{"josm":"r4659113","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[37.26883,46.96164]}},
 {"type":"Feature"}
 ]}
