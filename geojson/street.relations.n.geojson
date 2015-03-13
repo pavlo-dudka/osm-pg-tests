@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Objects not in relation",
 "features": [
+{"type":"Feature","properties":{"josm":"r369945,r165404","relationtags":"name|Володимира Маяковського проспект","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.58965,50.49556]}},
 {"type":"Feature","properties":{"josm":"r418288,r1151978","relationtags":"name|Медова вулиця","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.44523,50.41342]}},
+{"type":"Feature","properties":{"josm":"r446229,w145412682,w145412995,w145413274","relationtags":"name|Старосільська вулиця","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.59032,50.4829]}},
 {"type":"Feature","properties":{"josm":"r955082,r1595718,r2019738","relationtags":"name|Гагаріна вулиця","region":"Луганська область"},"geometry":{"type":"Point","coordinates":[38.48499,48.94118]}},
 {"type":"Feature","properties":{"josm":"r1295889,w320024431,w320026499","relationtags":"name|Московський проспект","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.35366,49.95941]}},
 {"type":"Feature","properties":{"josm":"r1437833,w202526734","relationtags":"name|Степана Бандери вулиця","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.24259,50.61217]}},
@@ -367,5 +369,6 @@
 {"type":"Feature","properties":{"josm":"r4664364,w300550657,w332254628","relationtags":"name|Оріхівське шосе","region":"Запорізька область"},"geometry":{"type":"Point","coordinates":[35.23761,47.78605]}},
 {"type":"Feature","properties":{"josm":"r4667643,w32235840,w37372488","relationtags":"name|Вільямса вулиця","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.90418,48.47644]}},
 {"type":"Feature","properties":{"josm":"r4669914,w332542186","relationtags":"name|Нахімова провулок","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.74888,46.48364]}},
+{"type":"Feature","properties":{"josm":"r4670609,w52024364","relationtags":"name|Старосільська вулиця","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.59156,50.47429]}},
 {"type":"Feature"}
 ]}
