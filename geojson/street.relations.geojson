@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1357839,w85965163","relationtags":"name|Джерельна вулиця (Північна Салтівка)","membertags":"name|Джерельна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3428,50.03301]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.1965,48.49081]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19788,48.49102]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19888,48.49212]}},
