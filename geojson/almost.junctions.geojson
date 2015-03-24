@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3414360520","properties":{"error":"End-node of unclassified-way is located close to another unclassified-way","region":"Закарпатська область","josm":"n3414360520,w334542039"},"geometry":{"type":"Point","coordinates":[22.75496,48.41133]}},
 {"type":"Feature","id":"3415926460","properties":{"error":"End-node of residential-way is located close to another tertiary-way","region":"Львівська область","josm":"n3415926460,w213432136"},"geometry":{"type":"Point","coordinates":[23.43789,49.15027]}},
+{"type":"Feature","id":"3416150821","properties":{"error":"End-node of unclassified-way is located close to another unclassified-way","region":"Закарпатська область","josm":"n3416150821,w334323907"},"geometry":{"type":"Point","coordinates":[22.75498,48.41133]}},
 {"type":"Feature","id":"2661413845","properties":{"error":"End-node of service-way is located close to another unclassified-way","region":"Автономна Республіка Крим","josm":"n2661413845,w272930483"},"geometry":{"type":"Point","coordinates":[34.73317,45.45142]}},
 {"type":"Feature","id":"3414741804","properties":{"error":"End-node of service-way is located close to another service-way","region":"Автономна Республіка Крим","josm":"n3414741804,w334364100"},"geometry":{"type":"Point","coordinates":[34.73294,45.44278]}},
 {"type":"Feature"}
