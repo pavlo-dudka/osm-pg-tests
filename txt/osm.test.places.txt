@@ -1,5 +1,7 @@
 place-way should be closed:
+198199877
 316788371
+334601741
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;ref=СВС|92;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
@@ -29,13 +31,13 @@ n337519813,w220153406,r2911386|Липова Долина|town||missing place-tag
 n337515238,w243708476,r3295168|Недригайлів|town||missing place-tag on relation or wrong name; multiple place objects; 
 n313426755,w258669260,r3472076|Овруч|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337690726,w35373686,r3606770|Олександрівка|town||missing place-tag on relation or wrong name; multiple place objects; 
-n337509379,w198199877,r3059912|Путивль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337657274,w30701866,r3569409|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337657274,w30701866,r4649244|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337511059,w87197693,r3047716|Ворожба|town|wikipedia=uk:Ворожба (місто)|uk:Ворожба|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
 n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n337509379,r3059912,w198199877,w334601741|Путивль|town||missing place-tag on relation or wrong name; non-closed way; 
 n337560920,w200194868,r3890226|Ставище|town||missing place-tag on way; multiple place objects; 
 n3071974433|Авіаторське|town||missing polygon; 
 n337545417|Артемівка|town||missing polygon; 
