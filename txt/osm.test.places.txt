@@ -2,11 +2,14 @@ place-way should be closed:
 316788371
 
 Different errors:
+n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;ref=СВС|92;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n26150437,r1413934|Одеса|city|name:lt=Odessa|Odesa|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|uk:Севастополь;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Севастополь|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
 n337571592,r4646843|Вороновиця|town||missing place-tag on relation or wrong name; 
@@ -31,6 +34,7 @@ n337657274,w30701866,r4649244|Хуст|town||missing place-tag on relation or wr
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337511059,w87197693,r3047716|Ворожба|town|wikipedia=uk:Ворожба (місто)|uk:Ворожба|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
+n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337598439,w30722367,r4733649|Артемівськ|town||missing place-tag on way; multiple place objects; 
 n337560920,w200194868,r3890226|Ставище|town||missing place-tag on way; multiple place objects; 
 n3071974433|Авіаторське|town||missing polygon; 
@@ -255,6 +259,7 @@ Invalid relation role:
 
 No admin_centre:
 22793
+1574364
 2607033
 3788485
 4682048
@@ -262,8 +267,17 @@ No admin_centre:
 Crimea:
 337699037|Прибрежное||Прибрежное
 337700320|Кастрополь (Береговое)|Берегове|Береговое
+2744098693|Посёлок 3-й Гидроузел||Посёлок 3-й Гидроузел
 2850679401|Ближние Камыши||Ближние Камыши
+2908166446|Ушаковка||Ушаковка
+2908166447|Штурмовое||Штурмовое
+2910302067|3 отделение "Золотой балки"||3 отделение "Золотой балки"
+2910308095|1 отделение "Золотой балки"||1 отделение "Золотой балки"
+2923074349|СТ "Шхуна"||СТ "Шхуна"
+2923084287|микрорайон 7 км||микрорайон 7 км
 2923095871|Военный городок КС-2||Военный городок КС-2
+3082867807|Первомайка||Первомайка
+3102562105|Морозовка||
 3171297039|Монетное||
 3171297040|Эски-Сарай||
 3211050794|Тахта-Джами||Тахта-Джами
