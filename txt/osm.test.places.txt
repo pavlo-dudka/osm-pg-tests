@@ -2,15 +2,10 @@ place-way should be closed:
 316788371
 
 Different errors:
-n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;ref=СВС|92;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
-n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n26150437,r1413934|Одеса|city|name:lt=Odessa|Odesa|node and relation tag values are different; 
-n251073791,r1574364|Севастополь|city|addr:country=RU|UA;official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
-n251073791,r3030976|Севастополь|city|wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|uk:Севастополь;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Севастополь|node and relation tag values are different; 
-n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
 n337571592,r4646843|Вороновиця|town||missing place-tag on relation or wrong name; 
 n337564360,r4642533|Десна|town||missing place-tag on relation or wrong name; 
@@ -33,8 +28,6 @@ n337657274,w30701866,r3569409|Хуст|town||missing place-tag on relation or wr
 n337657274,w30701866,r4649244|Хуст|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337511059,w87197693,r3047716|Ворожба|town|wikipedia=uk:Ворожба (місто)|uk:Ворожба|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
-n2407788294,w30715799,r3120732|Алупка|town|population=8497|8493|missing place-tag on relation or wrong name; multiple place objects; node and way tag values are different; 
-n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337598439,w30722367,r4733649|Артемівськ|town||missing place-tag on way; multiple place objects; 
 n337560920,w200194868,r3890226|Ставище|town||missing place-tag on way; multiple place objects; 
 n3071974433|Авіаторське|town||missing polygon; 
@@ -56,7 +49,6 @@ n337546366|Залізничне|town||missing polygon;
 n337549096|Зідьки|town||missing polygon; 
 n337561699|Ірдинь|town||missing polygon; 
 n337597113|Карнаухівка|town||missing polygon; 
-n337700320|Кастрополь (Береговое)|town||missing polygon; 
 n337509600|Клесів|town||missing polygon; 
 n337540724|Ков’яги|town||missing polygon; 
 n337527291|Комишня|town||missing polygon; 
@@ -121,31 +113,24 @@ n337515468,r4559321|Соснове|town|place=town|village|node and relation pla
 n337511426,r4559317|Степань|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337509712,r4559315|Томашгород|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
 n337601037,r3518765|Щорськ|town|place=town|village|node and relation place-tag values are different; node and relation tag values are different; 
-n337698272,r3030305|Аграрное|town|wikipedia=uk:Аграрне|ru:Аграрное|node and relation tag values are different; 
 n337682931,r3588797|Андріївка|town|wikipedia=uk:Андріївка (Бердянський район)|uk:Андріївка_(Бердянський_район)|node and relation tag values are different; 
 n337672588,r1760273|Апостолове|town|population=14513|16356|node and relation tag values are different; 
-n337698230,r3030326|Аэрофлотский|town|wikipedia=uk:Аерофлотський|ru:Аэрофлотский|node and relation tag values are different; 
-n292995540,r3030236|Бахчисарай|town|name:en=Bakhchisarai|Bakhchysarai|node and relation tag values are different; 
 n254275595,r3606498|Берегове|town|name:pl=Berehowe|Berehowo;wikipedia=uk:Берегове|uk:Берегове_(місто)|node and relation tag values are different; 
 n312233653,r3166665|Бережани|town|population=18116|18119|node and relation tag values are different; 
 n337524664,r3586904|Березань|town|wikipedia=uk:Березань (місто)|uk:Березань_(місто)|node and relation tag values are different; 
 n738536340,r3200259|Білгород-Дністровський|town|name:de=Akkerman|Bilhorod-Dnistrowskyj|node and relation tag values are different; 
 n27121092,r2027213|Богодухів|town|population=19365|16003|node and relation tag values are different; 
 n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
-n337700166,r3059604|Виноградное|town|koatuu=0111945600|0110391803|node and relation tag values are different; 
 n337541242,r3166784|Вишнівець|town|population=3424|3405|node and relation tag values are different; 
 n256615282,r3947434|Володарське|town|koatuu=1421755100|1421787001|node and relation tag values are different; 
 n256613872,r3936160|Вуглегірськ|town|name:pl=Uglegorsk|Wuhłehirsk|node and relation tag values are different; 
-n2758288894,r3620421|Гвардейское|town|name:en=Gvardeiskoe|Hvardiiske|node and relation tag values are different; 
 n337689476,r3592360|Гола Пристань|town|wikipedia=uk:Гола Пристань|uk:Гола_Пристань|node and relation tag values are different; 
 n337562696,r3166882|Гримайлів|town|population=1973|1962|node and relation tag values are different; 
 n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
 n337544447,r3166976|Залізці|town|population=2706|2703|node and relation tag values are different; 
-n1172307894,r3006716|Заозёрное|town|wikipedia=uk:Заозерне (Євпаторійська міськрада)|ru:Заозёрное (Крым)|node and relation tag values are different; 
 n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
 n312242901,r3167000|Зборів|town|population=7163|7018|node and relation tag values are different; 
 n337580547,r3167014|Золотий Потік|town|population=2480|2473|node and relation tag values are different; 
-n337696984,r2993853|Кировское|town|wikipedia=uk:Кіровське (Кіровський район)|ru:Кировское (Крым)|node and relation tag values are different; 
 n1712742817,r3167073|Копичинці|town|population=6869|6867|node and relation tag values are different; 
 n256613916,r2506125|Красноармійськ|town|population=77380|69154|node and relation tag values are different; 
 n269665736,r2801669|Кузнецовськ|town|population=41190|41454|node and relation tag values are different; 
@@ -153,48 +138,30 @@ n337677920,r3608140|Куйбишеве|town|wikipedia=uk:Куйбишеве (К�
 n337548383,r3592314|Куп’янськ|town|wikipedia=uk:Куп'янськ|uk:Куп’янськ|node and relation tag values are different; 
 n337560954,r4565801|Летичів|town|population=10577|16000|node and relation tag values are different; 
 n293971716,r2413059|Лужани|town|wikipedia:ru=Лужаны (Черновицкая область)|Лужаны|node and relation tag values are different; 
-n337700122,r3006800|Массандра|town|addr:postcode=298650|98650;name:prefix=посёлок городского типа|селище міського типу|node and relation tag values are different; 
 n337592273,r3167217|Мельниця-Подільська|town|population=3712|3724|node and relation tag values are different; 
-n275186298,r3030953|Мирный|town|addr:postcode=297492|97492|node and relation tag values are different; 
 n337598436,r2283083|Мукачеве|town|population=84685|82300|node and relation tag values are different; 
 n313241988,r2808639|Нетішин|town|name:pl=Netiszyn|Niecieszyn|node and relation tag values are different; 
 n314222364,r2525839|Новий Розділ|town|wikipedia=uk:Новий Розділ|uk:Новий_Розділ|node and relation tag values are different; 
 n337579120,r3678532|Новодружеськ|town|addr:postcode=93192|93190|node and relation tag values are different; 
-n337698627,r2980497|Орджоникидзе|town|admin_level=8|9;wikipedia=uk:Орджонікідзе (Феодосійська міськрада)|ru:Орджоникидзе (Крым)|node and relation tag values are different; 
 n337661270,r2318311|Первомайськ|town|wikipedia=uk:Первомайськ (Миколаївська область)|uk:Первомайськ_(Миколаївська_область)|node and relation tag values are different; 
-n337697628,r3734455|Приморский|town|name:en=Prymorskyi|Prymorsky;wikipedia=ru:Приморский (Крым)|uk:Приморський|node and relation tag values are different; 
 n337668842,r2033389|Радушне|town|wikipedia=uk:Радушне|ru:Радушное|node and relation tag values are different; 
 n337677344,r3605956|Розівка|town|wikipedia=uk:Розівка (смт)|uk:Розівка_(смт)|node and relation tag values are different; 
 n256613798,r3940069|Світлодарськ|town|name:pl=Swietłodarsk|Switłodarsk|node and relation tag values are different; 
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n337595599,r3606499|Тернівка|town|wikipedia=uk:Тернівка (місто)|uk:Тернівка_(місто)|node and relation tag values are different; 
 n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag values are different; 
-n1830695011,r2997809|Феодосия|town|admin_level=8|10;name:en=Feodosia|Feodosiya;wikipedia=ru:Феодосия|uk:Феодосія|node and relation tag values are different; 
 n312256412,r3167614|Хоростків|town|population=7067|17056|node and relation tag values are different; 
 n337663834,r2097842|Христофорівка|town|wikipedia=uk:Христофорівка (смт)|ru:Христофоровка (Криворожский район)|node and relation tag values are different; 
-n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;name:en=Chornomorskoe|Chornomorske|node and relation tag values are different; 
 n127834997,r2313456|Чорнобиль|town|name:de=Tschornobyl|Tschernobyl|node and relation tag values are different; 
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n313245343,r3592426|Шепетівка|town|name:pl=Szepietówka|Szepetówka|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
 n3409309160,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;name:pl=Sczastia|Szczastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
-n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n1984366540,w186524412|Черкаське|town|place=town|village|node and way place-tag values are different; node and way tag values are different; 
-n337697952,w30716000|Белогорск|town|name:de=Bilohirsk|Belohorsk;name:en=Bilohirsk|Belogorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
 n941385448,w30701593|Буштино|town|population=8634|12488|node and way tag values are different; 
 n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
-n337698300,w30712848|Грэсовский|town|name:en=Gresovsky|Hresivskyi;wikipedia=ru:Грэсовский|uk:Гресівський|node and way tag values are different; 
-n337700009,w30716153|Гурзуф|town|name:en=Gurzuf|Hurzuf|node and way tag values are different; 
 n337514561,w280427238|Костопіль|town|population=31159|35000|node and way tag values are different; 
-n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
-n337699968,w30713452|Краснокаменка|town|addr:postcode=298646|298653;population=1024|1023|node and way tag values are different; 
 n337561091,w30720969|Мілове|town|population=5975|5944|node and way tag values are different; 
-n337699434,w30714083|Научный|town|name:en=Nauchnyy|Nauchniy|node and way tag values are different; 
-n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnjohirskyj;name:fr=Nijnegorskyï|Nyjnohirskyï|node and way tag values are different; 
-n337696595,w30715275|Октябрьское|town|name:de=Oktjabrskoe|Oktjabrske;name:en=Oktiabrskoe|Oktiabrske;name:fr=Oktiabrskoe|Oktiabrske|node and way tag values are different; 
-n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
-n337693487,w30715790|Раздольное|town|name:en=Rozdol'noe|Rozdolne;name:fr=Rozdol'noe|Rozdolne|node and way tag values are different; 
-n337700339,w30711860|Санаторное|town|name:en=Sanatornoye|Sanatornoe|node and way tag values are different; 
 n337688638,r4267359,w316788371|Комишани|town||non-closed way; 
 
 Multiple polygons:
@@ -218,6 +185,7 @@ Multiple polygons:
 2|1984361456|r3556561,r3557536|
 
 Invalid node role:
+60199|type|boundary|60199|1648342273|N|labelo|727
 4422911|type|multipolygon|4422911|3195518582|N|inner|14
 4422911|type|multipolygon|4422911|3197507016|N|inner|13
 4422911|type|multipolygon|4422911|3197507017|N|inner|4
@@ -258,32 +226,11 @@ Invalid relation role:
 
 No admin_centre:
 22793
-1574364
 2607033
 3788485
 4682048
 
 Crimea:
-337699037|Прибрежное||Прибрежное
-337700320|Кастрополь (Береговое)|Берегове|Береговое
-2744098693|Посёлок 3-й Гидроузел||Посёлок 3-й Гидроузел
-2850679401|Ближние Камыши||Ближние Камыши
-2908166446|Ушаковка||Ушаковка
-2908166447|Штурмовое||Штурмовое
-2910302067|3 отделение "Золотой балки"||3 отделение "Золотой балки"
-2910308095|1 отделение "Золотой балки"||1 отделение "Золотой балки"
-2923074349|СТ "Шхуна"||СТ "Шхуна"
-2923084287|микрорайон 7 км||микрорайон 7 км
-2923095871|Военный городок КС-2||Военный городок КС-2
-3082867807|Первомайка||Первомайка
-3102562105|Морозовка||
-3171297039|Монетное||
-3171297040|Эски-Сарай||
-3211050794|Тахта-Джами||Тахта-Джами
-3211134246|Сосновый бор||
-3290571285|Пятницкое||
-3295395677|Суук-су||
-3390632530|кордон Грушевая поляна||
 
 Oblasts:
 1342166737|Рассейка||Рассейка
@@ -306,6 +253,7 @@ admin_level:
 330695990|4|2
 330696000|4|2
 330696028|4|2
+238797482|2|3
 129826307|3|4
 129826314|3|4
 129844768|3|4
