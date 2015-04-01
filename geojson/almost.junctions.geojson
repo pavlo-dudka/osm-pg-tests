@@ -2,5 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"765782484","properties":{"error":"End-node of secondary-way is located close to another tertiary-way","region":"Черкаська область","josm":"n765782484,w61481021"},"geometry":{"type":"Point","coordinates":[32.14407,49.95394]}},
+{"type":"Feature","id":"765782484","properties":{"error":"End-node of secondary-way is located close to another tertiary-way","region":"Черкаська область","josm":"n765782484,w61481021"},"geometry":{"type":"Point","coordinates":[32.14407,49.95394]}},
+{"type":"Feature","id":"3429929535","properties":{"error":"End-node of tertiary-way is located close to another secondary-way","region":"Черкаська область","josm":"n3429929535,w199198881"},"geometry":{"type":"Point","coordinates":[32.14407,49.95394]}},
 {"type":"Feature"}
 ]}
