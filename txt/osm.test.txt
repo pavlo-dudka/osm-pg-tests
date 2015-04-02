@@ -3,6 +3,7 @@ building-node in a way:
 775799160|253570591|highway:track
 1087021547|93668858|highway:residential;  name:Павла Дыбенко улица;  name:en:Pavla Dybenko Street;  name:ru:Павла Дыбенко улица;  name:uk:Павла Дибенка вулиця
 1087021547|93668898|highway:service
+1855330073|174886961|highway:service;  oneway:yes
 2196597123|318396301|highway:track
 2882241078|95991909|addr:housenumber:6;  building:yes
 2990849703|295379654|amenity:school;  name:Берездівська середня школа
@@ -10,6 +11,8 @@ building-node in a way:
 3298489361|280767055|area:yes;  building:yes;  man_made:tower;  name:MTS UA;  tower:type:communication
 3298495102|323090400|building:yes;  man_made:tower;  name:Intertelecom UA;  tower:type:communication
 3408374243|309916880|highway:service
+3431431745|174886963|highway:service
+3431431747|174886960|highway:service;  oneway:yes
 
 Redundant space-symbols:
 1246606850|phone|+38 (0432) 549-353 
@@ -137,7 +140,7 @@ No suffix:
 9 вулиця|317359570
 9 квартал|120003810
 9 Мая переулок|313735366
-9 Мая улица|313735367,313735368,42245794,61303443
+9 Мая улица|313735367,313735368,336064385,42245794,61303443
 9 Січня вулиця|142492648,150274213,304760895
 9 Травня вулиця|313735367,313735368,332271344,42245794,61303443
 9 Травня провулок|313735366
