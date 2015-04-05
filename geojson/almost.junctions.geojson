@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"339679575","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Автономна Республіка Крим","josm":"n339679575,w112401812"},"geometry":{"type":"Point","coordinates":[33.5384,45.28748]}},
 {"type":"Feature","id":"1660248909","properties":{"error":"End-node of residential-way is located close to another pedestrian-way","region":"Львівська область","josm":"n1660248909,w154537762"},"geometry":{"type":"Point","coordinates":[23.50517,49.35014]}},
 {"type":"Feature","id":"1660248909","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Львівська область","josm":"n1660248909,w153326514"},"geometry":{"type":"Point","coordinates":[23.50517,49.35014]}},
 {"type":"Feature","id":"2482093126","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Львівська область","josm":"n2482093126,w240476340"},"geometry":{"type":"Point","coordinates":[23.74394,49.41187]}},
