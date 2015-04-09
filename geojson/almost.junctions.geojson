@@ -2,9 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"2208582642","properties":{"error":"End-node of unclassified-way is located close to another residential-way","region":"Дніпропетровська область","josm":"n2208582642,w336886831"},"geometry":{"type":"Point","coordinates":[34.49641,47.61846]}},
 {"type":"Feature","id":"3243023728","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Запорізька область","josm":"n3243023728,w337427315"},"geometry":{"type":"Point","coordinates":[36.80689,46.76884]}},
-{"type":"Feature","id":"3439683304","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Дніпропетровська область","josm":"n3439683304,w210820607"},"geometry":{"type":"Point","coordinates":[34.49643,47.61845]}},
 {"type":"Feature","id":"3439823802","properties":{"error":"End-node of residential-way is located close to another trunk-way","region":"Дніпропетровська область","josm":"n3439823802,w278483230"},"geometry":{"type":"Point","coordinates":[36.02818,48.44774]}},
 {"type":"Feature","id":"3443766506","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Луганська область","josm":"n3443766506,w187035429"},"geometry":{"type":"Point","coordinates":[38.44925,48.80196]}},
 {"type":"Feature","id":"1604790774","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Харківська область","josm":"n1604790774,w131670511"},"geometry":{"type":"Point","coordinates":[36.21889,49.99543]}},
