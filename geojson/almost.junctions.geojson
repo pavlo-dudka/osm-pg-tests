@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"2707200735","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n2707200735,w208989950"},"geometry":{"type":"Point","coordinates":[34.60875,45.05287]}},
 {"type":"Feature","id":"3455488847","properties":{"error":"End-node of service-way is located close to another service-way","region":"Рівненська область","josm":"n3455488847,w237692316"},"geometry":{"type":"Point","coordinates":[26.26616,50.60499]}},
 {"type":"Feature","id":"3455910993","properties":{"error":"End-node of service-way is located close to another primary-way","region":"Київ","josm":"n3455910993,w182241803"},"geometry":{"type":"Point","coordinates":[30.50918,50.43405]}},
 {"type":"Feature","id":"3455910993","properties":{"error":"End-node of service-way is located close to another service-way","region":"Київ","josm":"n3455910993,w287514094"},"geometry":{"type":"Point","coordinates":[30.50918,50.43405]}},
