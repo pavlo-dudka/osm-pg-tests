@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"2390301611","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Київська область","josm":"n2390301611,w260273087"},"geometry":{"type":"Point","coordinates":[30.78273,50.52116]}},
-{"type":"Feature","id":"3457088625","properties":{"error":"End-node of residential-way is located close to another service-way","region":"Київська область","josm":"n3457088625,w260420513"},"geometry":{"type":"Point","coordinates":[30.78273,50.52116]}},
+{"type":"Feature","id":"3457245382","properties":{"error":"End-node of residential-way is located close to another secondary-way","region":"Вінницька область","josm":"n3457245382,w259355152"},"geometry":{"type":"Point","coordinates":[29.51861,48.36701]}},
+{"type":"Feature","id":"3220505345","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Вінницька область","josm":"n3220505345,w338617101"},"geometry":{"type":"Point","coordinates":[29.53719,48.3664]}},
 {"type":"Feature"}
 ]}
