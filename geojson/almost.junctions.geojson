@@ -2,5 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3381909687","properties":{"error":"End-node of service-way is located close to another service-way","region":"Севастополь","josm":"n3381909687,w338726132"},"geometry":{"type":"Point","coordinates":[33.55718,44.54131]}},
+{"type":"Feature","id":"3458643180","properties":{"error":"End-node of service-way is located close to another service-way","region":"Севастополь","josm":"n3458643180,w331132895"},"geometry":{"type":"Point","coordinates":[33.55719,44.54131]}},
+{"type":"Feature","id":"3458643182","properties":{"error":"End-node of service-way is located close to another service-way","region":"Севастополь","josm":"n3458643182,w331132901"},"geometry":{"type":"Point","coordinates":[33.55953,44.53968]}},
 {"type":"Feature"}
 ]}
