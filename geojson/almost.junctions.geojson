@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3468202232","properties":{"error":"End-node of service-way is located close to another secondary-way","region":"Львівська область","josm":"n3468202232,w117705530"},"geometry":{"type":"Point","coordinates":[24.89004,49.9647]}},
 {"type":"Feature","id":"2607054230","properties":{"error":"End-node of track-way is located close to another unclassified-way","region":"Харківська область","josm":"n2607054230,w184191519"},"geometry":{"type":"Point","coordinates":[36.09603,49.7626]}},
 {"type":"Feature","id":"2607054990","properties":{"error":"End-node of track-way is located close to another track-way","region":"Харківська область","josm":"n2607054990,w240479017,w310091333"},"geometry":{"type":"Point","coordinates":[36.10249,49.76686]}},
 {"type":"Feature","id":"2873589476","properties":{"error":"End-node of track-way is located close to another unclassified-way","region":"Харківська область","josm":"n2873589476,w184191519"},"geometry":{"type":"Point","coordinates":[36.09385,49.76365]}},
