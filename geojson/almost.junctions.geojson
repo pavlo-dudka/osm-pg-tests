@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"1775971616","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Київ","josm":"n1775971616,w340238343"},"geometry":{"type":"Point","coordinates":[30.56678,50.48904]}},
 {"type":"Feature","id":"1304710504","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1304710504,w283508928"},"geometry":{"type":"Point","coordinates":[36.07529,49.74693]}},
 {"type":"Feature","id":"2873574340","properties":{"error":"End-node of track-way is located close to another track-way","region":"Харківська область","josm":"n2873574340,w40113006"},"geometry":{"type":"Point","coordinates":[36.07297,49.70652]}},
 {"type":"Feature","id":"2873575407","properties":{"error":"End-node of track-way is located close to another unclassified-way","region":"Харківська область","josm":"n2873575407,w101974052"},"geometry":{"type":"Point","coordinates":[36.07786,49.71081]}},
