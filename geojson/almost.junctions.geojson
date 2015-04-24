@@ -2,8 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"1081734414","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n1081734414,w340338087"},"geometry":{"type":"Point","coordinates":[34.17789,44.93979]}},
 {"type":"Feature","id":"2489386321","properties":{"error":"End-node of living_street-way is located close to another residential-way","region":"Херсонська область","josm":"n2489386321,w340250776"},"geometry":{"type":"Point","coordinates":[33.56758,46.81448]}},
 {"type":"Feature","id":"2607070454","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Харківська область","josm":"n2607070454,w90092903"},"geometry":{"type":"Point","coordinates":[36.14619,49.83092]}},
+{"type":"Feature","id":"3475532827","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n3475532827,w340338090"},"geometry":{"type":"Point","coordinates":[34.17736,44.93789]}},
+{"type":"Feature","id":"3475532830","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n3475532830,w340338087"},"geometry":{"type":"Point","coordinates":[34.17734,44.93786]}},
 {"type":"Feature","id":"1775971616","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Київ","josm":"n1775971616,w340238343"},"geometry":{"type":"Point","coordinates":[30.56678,50.48904]}},
 {"type":"Feature","id":"1304710504","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1304710504,w283508928"},"geometry":{"type":"Point","coordinates":[36.07529,49.74693]}},
 {"type":"Feature","id":"2607074139","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Харківська область","josm":"n2607074139,w186805953"},"geometry":{"type":"Point","coordinates":[36.25393,49.83959]}},
