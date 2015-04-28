@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"3485217278","properties":{"error":"End-node of residential-way is located close to another primary-way","region":"Одеська область","josm":"n3485217278,w26544522"},"geometry":{"type":"Point","coordinates":[30.72012,46.39865]}},
 {"type":"Feature","id":"3481685514","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Одеська область","josm":"n3481685514,w103454123"},"geometry":{"type":"Point","coordinates":[30.37221,46.02591]}},
 {"type":"Feature","id":"3484005246","properties":{"error":"End-node of service-way is located close to another unclassified-way","region":"Черкаська область","josm":"n3484005246,w209339405"},"geometry":{"type":"Point","coordinates":[29.94174,48.74681]}},
 {"type":"Feature","id":"3484005260","properties":{"error":"End-node of service-way is located close to another service-way","region":"Черкаська область","josm":"n3484005260,w341188466"},"geometry":{"type":"Point","coordinates":[29.94343,48.74775]}},
