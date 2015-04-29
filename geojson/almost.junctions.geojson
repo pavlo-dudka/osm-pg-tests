@@ -2,15 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"3485217278","properties":{"error":"End-node of residential-way is located close to another primary-way","region":"Одеська область","josm":"n3485217278,w26544522"},"geometry":{"type":"Point","coordinates":[30.72012,46.39865]}},
-{"type":"Feature","id":"3481685514","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Одеська область","josm":"n3481685514,w103454123"},"geometry":{"type":"Point","coordinates":[30.37221,46.02591]}},
-{"type":"Feature","id":"3484005246","properties":{"error":"End-node of service-way is located close to another unclassified-way","region":"Черкаська область","josm":"n3484005246,w209339405"},"geometry":{"type":"Point","coordinates":[29.94174,48.74681]}},
-{"type":"Feature","id":"3484005260","properties":{"error":"End-node of service-way is located close to another service-way","region":"Черкаська область","josm":"n3484005260,w341188466"},"geometry":{"type":"Point","coordinates":[29.94343,48.74775]}},
 {"type":"Feature","id":"1039383029","properties":{"error":"End-node of service-way is located close to another track-way","region":"Харківська область","josm":"n1039383029,w254930778,w254933950"},"geometry":{"type":"Point","coordinates":[36.20633,49.83981]}},
 {"type":"Feature","id":"1039383500","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1039383500,w254929632"},"geometry":{"type":"Point","coordinates":[36.23357,49.84054]}},
 {"type":"Feature","id":"1039383620","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1039383620,w254929076"},"geometry":{"type":"Point","coordinates":[36.22826,49.83962]}},
 {"type":"Feature","id":"1304710504","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1304710504,w283508928"},"geometry":{"type":"Point","coordinates":[36.07529,49.74693]}},
-{"type":"Feature","id":"1811217613","properties":{"error":"End-node of track-way is located close to another track-way","region":"Дніпропетровська область","josm":"n1811217613,w340732842"},"geometry":{"type":"Point","coordinates":[34.98104,48.59331]}},
 {"type":"Feature","id":"2607020609","properties":{"error":"End-node of track-way is located close to another tertiary-way","region":"Харківська область","josm":"n2607020609,w335179162"},"geometry":{"type":"Point","coordinates":[36.22451,49.6437]}},
 {"type":"Feature","id":"2607021249","properties":{"error":"End-node of track-way is located close to another track-way","region":"Харківська область","josm":"n2607021249,w254927339"},"geometry":{"type":"Point","coordinates":[36.21704,49.64495]}},
 {"type":"Feature","id":"2607021311","properties":{"error":"End-node of track-way is located close to another unclassified-way","region":"Харківська область","josm":"n2607021311,w112300667"},"geometry":{"type":"Point","coordinates":[36.21843,49.64508]}},
@@ -55,6 +50,5 @@
 {"type":"Feature","id":"2873585696","properties":{"error":"End-node of track-way is located close to another primary-way","region":"Харківська область","josm":"n2873585696,w147845451"},"geometry":{"type":"Point","coordinates":[36.06947,49.74367]}},
 {"type":"Feature","id":"2873586515","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Харківська область","josm":"n2873586515,w115494858"},"geometry":{"type":"Point","coordinates":[36.07529,49.7469]}},
 {"type":"Feature","id":"2873588670","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Харківська область","josm":"n2873588670,w115494875"},"geometry":{"type":"Point","coordinates":[36.06706,49.75813]}},
-{"type":"Feature","id":"3171297965","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n3171297965,w340338086"},"geometry":{"type":"Point","coordinates":[34.18043,44.94247]}},
 {"type":"Feature"}
 ]}
