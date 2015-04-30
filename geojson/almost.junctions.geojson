@@ -2,6 +2,12 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"1012274183","properties":{"error":"End-node of unclassified-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n1012274183,w100655915"},"geometry":{"type":"Point","coordinates":[34.23453,44.5088]}},
+{"type":"Feature","id":"1163456034","properties":{"error":"End-node of pedestrian-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n1163456034,w100643408"},"geometry":{"type":"Point","coordinates":[34.234,44.51121]}},
+{"type":"Feature","id":"1163456042","properties":{"error":"End-node of pedestrian-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n1163456042,w100643397"},"geometry":{"type":"Point","coordinates":[34.23396,44.51123]}},
+{"type":"Feature","id":"1163456073","properties":{"error":"End-node of pedestrian-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n1163456073,w100643397"},"geometry":{"type":"Point","coordinates":[34.2342,44.51148]}},
+{"type":"Feature","id":"1163456105","properties":{"error":"End-node of pedestrian-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n1163456105,w100643408"},"geometry":{"type":"Point","coordinates":[34.23424,44.51145]}},
+{"type":"Feature","id":"3489599786","properties":{"error":"End-node of pedestrian-way is located close to another pedestrian-way","region":"Автономна Республіка Крим","josm":"n3489599786,w87023954"},"geometry":{"type":"Point","coordinates":[34.23356,44.51022]}},
 {"type":"Feature","id":"1883579269","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Львівська область","josm":"n1883579269,w341524508"},"geometry":{"type":"Point","coordinates":[23.60869,49.35377]}},
 {"type":"Feature","id":"1039383029","properties":{"error":"End-node of service-way is located close to another track-way","region":"Харківська область","josm":"n1039383029,w254930778,w254933950"},"geometry":{"type":"Point","coordinates":[36.20633,49.83981]}},
 {"type":"Feature","id":"1039383500","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1039383500,w254929632"},"geometry":{"type":"Point","coordinates":[36.23357,49.84054]}},
