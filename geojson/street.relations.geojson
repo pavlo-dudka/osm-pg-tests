@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1295889,w317627799","relationtags":"name|Московський проспект","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.4112,49.9436]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410194","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.1965,48.49081]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410199","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19788,48.49102]}},
 {"type":"Feature","properties":{"josm":"r1492276,w103410201","relationtags":"name|Героїв Сталінграда вулиця","membertags":"addr:street|Генерала Жадова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.19888,48.49212]}},
