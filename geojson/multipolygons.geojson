@@ -2,14 +2,5 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r5147152,n3481427824","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.14719,48.39609]}},
-{"type":"Feature","properties":{"josm":"r5147152,n3522352233","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.14719,48.39614]}},
-{"type":"Feature","properties":{"josm":"r5148104,n3489526497","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.09707,48.3896]}},
-{"type":"Feature","properties":{"josm":"r5148104,n3522974325","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.09686,48.38963]}},
-{"type":"Feature","properties":{"josm":"r3753501","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.51591,47.1233]}},
-{"type":"Feature","properties":{"josm":"r5143514","error":"multipolygon without tags and single member - delete relation","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.24391,48.24635]}},
-{"type":"Feature","properties":{"josm":"r5146103","error":"multipolygon without tags and single member - delete relation","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.31146,48.18834]}},
-{"type":"Feature","properties":{"josm":"r5148086","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.15858,48.38581]}},
-{"type":"Feature","properties":{"josm":"r5149711,w182821682","error":"multipolygon contains the way two or more times","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.23063,50.03292]}},
 {"type":"Feature"}
 ]}
