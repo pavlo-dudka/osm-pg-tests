@@ -79,6 +79,7 @@
 {"type":"Feature","properties":{"josm":"r1866369,w103016513,w144978910,w322701301,w332496458","relationtags":"name|Богдана Ліщини вулиця","region":"Луганська область"},"geometry":{"type":"Point","coordinates":[38.48601,48.93596]}},
 {"type":"Feature","properties":{"josm":"r1868420,w103190957,w103894107,w103894124,w104415761,w80761500","relationtags":"name|Шевченка вулиця","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[32.26135,48.51481]}},
 {"type":"Feature","properties":{"josm":"r1876797,w346803623","relationtags":"name|В’ячеслава Чорновола проспект","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02621,49.84804]}},
+{"type":"Feature","properties":{"josm":"r1877611,w323837226","relationtags":"name|Маршала Тимошенка вулиця","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.48397,50.50709]}},
 {"type":"Feature","properties":{"josm":"r1906542,w138910387","relationtags":"name|Гонти провулок","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.47705,49.25388]}},
 {"type":"Feature","properties":{"josm":"r1926120,w305004260","relationtags":"name|Тарасівська вулиця","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.31011,50.31641]}},
 {"type":"Feature","properties":{"josm":"r1932210,w124319174","relationtags":"name|Академіка Янгеля вулиця","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.00634,48.4292]}},
@@ -93,10 +94,8 @@
 {"type":"Feature","properties":{"josm":"r2085142,w338206346","relationtags":"name|Дрогобицька вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.5063,49.29674]}},
 {"type":"Feature","properties":{"josm":"r2085183,w153390725","relationtags":"name|Петра Калнишевського вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.55817,49.30127]}},
 {"type":"Feature","properties":{"josm":"r2085294,w153390928","relationtags":"name|Андрія Мельника вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.55169,49.30097]}},
-{"type":"Feature","properties":{"josm":"r2085399,w324873245,w324877664,w324877666","relationtags":"name|Йосифа Сліпого вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.50143,49.35975]}},
 {"type":"Feature","properties":{"josm":"r2085451,w339154351","relationtags":"name|Трускавецька вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.51091,49.33634]}},
 {"type":"Feature","properties":{"josm":"r2085468,w153315640","relationtags":"name|Івана Франка вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.40034,49.29603]}},
-{"type":"Feature","properties":{"josm":"r2085524,w153395005,w153438103","relationtags":"name|Ясний провулок","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.51068,49.36225]}},
 {"type":"Feature","properties":{"josm":"r2101351,r2032076,w241964999","relationtags":"name|Берегового вулиця","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.32762,50.83193]}},
 {"type":"Feature","properties":{"josm":"r2101385,w142543701,w148741212,w148741240,w148741312","relationtags":"name|Данила Галицького вулиця","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.31496,50.84583]}},
 {"type":"Feature","properties":{"josm":"r2101393,w242009341","relationtags":"name|Дулібська вулиця","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.32639,50.84025]}},
@@ -217,7 +216,6 @@
 {"type":"Feature","properties":{"josm":"r2638305,w314821047","relationtags":"name|Гагарінське Плато","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.76708,46.4309]}},
 {"type":"Feature","properties":{"josm":"r2646155,w145579916,w187201588,w343430732,w73001972","relationtags":"name|Княгині Ольги вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.00762,49.82317]}},
 {"type":"Feature","properties":{"josm":"r2646156,w161780685","relationtags":"name|Наукова вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.99985,49.80285]}},
-{"type":"Feature","properties":{"josm":"r2657078,w258831649","relationtags":"name|Шкільна вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.4525,49.32515]}},
 {"type":"Feature","properties":{"josm":"r2661082,r2560374,r2560377,r2560378,r2562669","relationtags":"name|Луцька вулиця","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.19441,50.75852]}},
 {"type":"Feature","properties":{"josm":"r2666275,w198549204","relationtags":"name|Космонавтів вулиця","region":"Миколаївська область"},"geometry":{"type":"Point","coordinates":[32.02972,46.93515]}},
 {"type":"Feature","properties":{"josm":"r2678279,w200241774,w200241780,w200241782,w200241783,w200241799,w200241802,w200241825,w200241830,w200241858,w200241864,w200241872,w200241902,w200241924,w200241936,w200241939,w200241957,w99857510","relationtags":"name|Воронезька вулиця","region":"Запорізька область"},"geometry":{"type":"Point","coordinates":[35.03692,47.82955]}},
@@ -677,5 +675,6 @@
 {"type":"Feature","properties":{"josm":"r5160307,w148113830","relationtags":"name|Єрмолової вулиця","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.00512,48.4082]}},
 {"type":"Feature","properties":{"josm":"r5171867,w298636886","relationtags":"name|Прибережний тупик","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.47109,49.25069]}},
 {"type":"Feature","properties":{"josm":"r5171980,w255161122,w255161123","relationtags":"name|Херсонська вулиця","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.0334,48.46347]}},
+{"type":"Feature","properties":{"josm":"r5175156,w206118930","relationtags":"name|Паркова вулиця","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.41923,49.37153]}},
 {"type":"Feature"}
 ]}
