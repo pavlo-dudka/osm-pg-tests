@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"2670827292","properties":{"error":"End-node of primary-way is located close to another residential-way","region":"Івано-Франківська область","josm":"n2670827292,w288233381"},"geometry":{"type":"Point","coordinates":[24.36092,49.02849]}},
 {"type":"Feature","id":"3498774717","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774717,w343152850"},"geometry":{"type":"Point","coordinates":[26.43893,50.69346]}},
 {"type":"Feature","id":"3498774718","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774718,w343152850"},"geometry":{"type":"Point","coordinates":[26.43956,50.69346]}},
 {"type":"Feature","id":"2077386765","properties":{"error":"End-node of tertiary-way is located close to another tertiary-way","region":"Полтавська область","josm":"n2077386765,w342944192"},"geometry":{"type":"Point","coordinates":[32.61137,49.93824]}},
@@ -34,6 +35,7 @@
 {"type":"Feature","id":"3534098686","properties":{"error":"End-node of service-way is located close to another service-way","region":"Донецька область","josm":"n3534098686,w346972936"},"geometry":{"type":"Point","coordinates":[37.60033,48.72346]}},
 {"type":"Feature","id":"3534520171","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Кіровоградська область","josm":"n3534520171,w293582599"},"geometry":{"type":"Point","coordinates":[32.24981,48.53202]}},
 {"type":"Feature","id":"3534520173","properties":{"error":"End-node of service-way is located close to another residential-way","region":"Кіровоградська область","josm":"n3534520173,w293582599"},"geometry":{"type":"Point","coordinates":[32.24972,48.53204]}},
+{"type":"Feature","id":"3535953719","properties":{"error":"End-node of service-way is located close to another service-way","region":"Львівська область","josm":"n3535953719,w153314636"},"geometry":{"type":"Point","coordinates":[23.52826,49.34864]}},
 {"type":"Feature","id":"1039383029","properties":{"error":"End-node of service-way is located close to another track-way","region":"Харківська область","josm":"n1039383029,w254930778,w254933950"},"geometry":{"type":"Point","coordinates":[36.20633,49.83981]}},
 {"type":"Feature","id":"1039383500","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1039383500,w254929632"},"geometry":{"type":"Point","coordinates":[36.23357,49.84054]}},
 {"type":"Feature","id":"1039383620","properties":{"error":"End-node of residential-way is located close to another track-way","region":"Харківська область","josm":"n1039383620,w254929076"},"geometry":{"type":"Point","coordinates":[36.22826,49.83962]}},
@@ -105,5 +107,7 @@
 {"type":"Feature","id":"3528552712","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Чернівецька область","josm":"n3528552712,w253009880"},"geometry":{"type":"Point","coordinates":[26.42811,48.37752]}},
 {"type":"Feature","id":"3531553909","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3531553909,w346305449,w346640365"},"geometry":{"type":"Point","coordinates":[27.1511,48.41442]}},
 {"type":"Feature","id":"3531553914","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3531553914,w346315833"},"geometry":{"type":"Point","coordinates":[27.15604,48.41488]}},
+{"type":"Feature","id":"3535915920","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n3535915920,w258166217,w282993930"},"geometry":{"type":"Point","coordinates":[29.93267,50.74402]}},
+{"type":"Feature","id":"3535915979","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n3535915979,w258166217"},"geometry":{"type":"Point","coordinates":[29.93424,50.74464]}},
 {"type":"Feature"}
 ]}
