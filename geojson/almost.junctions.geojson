@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
-{"type":"Feature","id":"2670827292","properties":{"error":"End-node of primary-way is located close to another residential-way","region":"Івано-Франківська область","josm":"n2670827292,w288233381"},"geometry":{"type":"Point","coordinates":[24.36092,49.02849]}},
 {"type":"Feature","id":"3498774717","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774717,w343152850"},"geometry":{"type":"Point","coordinates":[26.43893,50.69346]}},
 {"type":"Feature","id":"3498774718","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774718,w343152850"},"geometry":{"type":"Point","coordinates":[26.43956,50.69346]}},
 {"type":"Feature","id":"2077386765","properties":{"error":"End-node of tertiary-way is located close to another tertiary-way","region":"Полтавська область","josm":"n2077386765,w342944192"},"geometry":{"type":"Point","coordinates":[32.61137,49.93824]}},
@@ -107,7 +106,7 @@
 {"type":"Feature","id":"3528437847","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3528437847,w203352063"},"geometry":{"type":"Point","coordinates":[27.15804,48.42277]}},
 {"type":"Feature","id":"3528538388","properties":{"error":"End-node of track-way is located close to another track-way","region":"Дніпропетровська область","josm":"n3528538388,w346315658"},"geometry":{"type":"Point","coordinates":[33.42674,47.90268]}},
 {"type":"Feature","id":"3528552712","properties":{"error":"End-node of track-way is located close to another residential-way","region":"Чернівецька область","josm":"n3528552712,w253009880"},"geometry":{"type":"Point","coordinates":[26.42811,48.37752]}},
-{"type":"Feature","id":"3531553909","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3531553909,w346305449,w346640365"},"geometry":{"type":"Point","coordinates":[27.1511,48.41442]}},
+{"type":"Feature","id":"3531553909","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3531553909,w346305449"},"geometry":{"type":"Point","coordinates":[27.1511,48.41442]}},
 {"type":"Feature","id":"3531553914","properties":{"error":"End-node of track-way is located close to another track-way","region":"Чернівецька область","josm":"n3531553914,w346315833"},"geometry":{"type":"Point","coordinates":[27.15604,48.41488]}},
 {"type":"Feature","id":"3535915920","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n3535915920,w258166217,w282993930"},"geometry":{"type":"Point","coordinates":[29.93267,50.74402]}},
 {"type":"Feature","id":"3535915979","properties":{"error":"End-node of track-way is located close to another track-way","region":"Київська область","josm":"n3535915979,w258166217"},"geometry":{"type":"Point","coordinates":[29.93424,50.74464]}},
