@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r5180345,n2449355759","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.30689,48.17926]}},
+{"type":"Feature","properties":{"josm":"r5180345,n2449355818","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.32027,48.18512]}},
 {"type":"Feature","properties":{"josm":"r5176770","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.36613,48.22777]}},
+{"type":"Feature","properties":{"josm":"r5180345","error":"multipolygon without tags and single member - delete relation","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.3201,48.18523]}},
 {"type":"Feature"}
 ]}
