@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "End-node is located close to another way",
 "features": [
+{"type":"Feature","id":"27119302","properties":{"error":"End-node of trunk-way is located close to another trunk-way","region":"Харківська область","josm":"n27119302,w333533728"},"geometry":{"type":"Point","coordinates":[35.56736,49.81591]}},
 {"type":"Feature","id":"3554357293","properties":{"error":"End-node of trunk-way is located close to another trunk-way","region":"Київ","josm":"n3554357293,w349578005"},"geometry":{"type":"Point","coordinates":[30.63489,50.4532]}},
+{"type":"Feature","id":"3554488467","properties":{"error":"End-node of trunk-way is located close to another trunk-way","region":"Харківська область","josm":"n3554488467,w349596595"},"geometry":{"type":"Point","coordinates":[35.56737,49.81591]}},
 {"type":"Feature","id":"3498774717","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774717,w343152850"},"geometry":{"type":"Point","coordinates":[26.43893,50.69346]}},
 {"type":"Feature","id":"3498774718","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Рівненська область","josm":"n3498774718,w343152850"},"geometry":{"type":"Point","coordinates":[26.43956,50.69346]}},
 {"type":"Feature","id":"26304904","properties":{"error":"End-node of residential-way is located close to another trunk-way","region":"Київ","josm":"n26304904,w349578005"},"geometry":{"type":"Point","coordinates":[30.63489,50.4532]}},
