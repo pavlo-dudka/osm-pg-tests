@@ -3,6 +3,8 @@
 "errorDescr": "End-node is located close to another way",
 "features": [
 {"type":"Feature","id":"3566156170","properties":{"error":"End-node of trunk-way is located close to another trunk-way","region":"Київ","josm":"n3566156170,w349578005"},"geometry":{"type":"Point","coordinates":[30.63488,50.45321]}},
+{"type":"Feature","id":"1300192468","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Кіровоградська область","josm":"n1300192468,w234110770"},"geometry":{"type":"Point","coordinates":[32.29566,48.52401]}},
+{"type":"Feature","id":"3575402080","properties":{"error":"End-node of primary-way is located close to another primary-way","region":"Кіровоградська область","josm":"n3575402080,w103359200"},"geometry":{"type":"Point","coordinates":[32.29566,48.52401]}},
 {"type":"Feature","id":"979620537","properties":{"error":"End-node of secondary-way is located close to another residential-way","region":"Київська область","josm":"n979620537,w351446773"},"geometry":{"type":"Point","coordinates":[29.91552,50.06913]}},
 {"type":"Feature","id":"1213743865","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n1213743865,w350892356"},"geometry":{"type":"Point","coordinates":[34.32525,44.83786]}},
 {"type":"Feature","id":"1916990775","properties":{"error":"End-node of unclassified-way is located close to another residential-way","region":"Дніпропетровська область","josm":"n1916990775,w181264938"},"geometry":{"type":"Point","coordinates":[33.4792,48.34948]}},
