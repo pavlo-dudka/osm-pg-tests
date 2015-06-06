@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2068395,n1659834009","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52113,49.36991]}},
+{"type":"Feature","properties":{"josm":"r2068395,n3577540132","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52113,49.36991]}},
+{"type":"Feature","properties":{"josm":"r2351918,n3577540132","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52113,49.36991]}},
+{"type":"Feature","properties":{"josm":"r2351918,n3577540133","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52113,49.36991]}},
 {"type":"Feature","properties":{"josm":"r3563802","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.13661,48.83473]}},
 {"type":"Feature"}
 ]}
