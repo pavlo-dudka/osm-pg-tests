@@ -3,7 +3,9 @@
 "errorDescr": "End-node is located close to another way",
 "features": [
 {"type":"Feature","id":"3566156170","properties":{"error":"End-node of trunk-way is located close to another trunk-way","region":"Київ","josm":"n3566156170,w349578005"},"geometry":{"type":"Point","coordinates":[30.63488,50.45321]}},
-{"type":"Feature","id":"979620537","properties":{"error":"End-node of secondary-way is located close to another residential-way","region":"Київська область","josm":"n979620537,w351446773"},"geometry":{"type":"Point","coordinates":[29.91552,50.06913]}},
+{"type":"Feature","id":"979620537","properties":{"error":"End-node of secondary-way is located close to another secondary-way","region":"Київська область","josm":"n979620537,w351446773"},"geometry":{"type":"Point","coordinates":[29.91552,50.06913]}},
+{"type":"Feature","id":"3572149700","properties":{"error":"End-node of secondary-way is located close to another residential-way","region":"Київська область","josm":"n3572149700,w150408203"},"geometry":{"type":"Point","coordinates":[29.91551,50.0691]}},
+{"type":"Feature","id":"3572149700","properties":{"error":"End-node of secondary-way is located close to another secondary-way","region":"Київська область","josm":"n3572149700,w84217195"},"geometry":{"type":"Point","coordinates":[29.91551,50.0691]}},
 {"type":"Feature","id":"1213743865","properties":{"error":"End-node of residential-way is located close to another residential-way","region":"Автономна Республіка Крим","josm":"n1213743865,w350892356"},"geometry":{"type":"Point","coordinates":[34.32525,44.83786]}},
 {"type":"Feature","id":"2334177655","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Донецька область","josm":"n2334177655,w353802980"},"geometry":{"type":"Point","coordinates":[37.40252,48.03758]}},
 {"type":"Feature","id":"3513214689","properties":{"error":"End-node of residential-way is located close to another unclassified-way","region":"Тернопільська область","josm":"n3513214689,w173196143"},"geometry":{"type":"Point","coordinates":[25.78922,48.74846]}},
