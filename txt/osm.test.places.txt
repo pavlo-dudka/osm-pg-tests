@@ -7,6 +7,7 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;ref=СВС|92;wikipedia=ru:Севастополь;ru:Территория, подчинённая Севастопольскому городскому совету|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Территория, подчинённая Севастопольскому городскому совету;Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n256613930|Макеевка|city||missing polygon; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -48,7 +49,6 @@ n337549437|Бірки|town||missing polygon;
 n337582691|Борівське|town||missing polygon; 
 n337598786|Брагинівка|town||missing polygon; 
 n337572370|Буки|town||missing polygon; 
-n3600197536|Буроз|town||missing polygon; 
 n337543657|Введенка|town||missing polygon; 
 n256613931|Великое Орехово|town||missing polygon; 
 n337566899|Вовковинці|town||missing polygon; 
@@ -71,9 +71,9 @@ n256613922|Красный Октябрь|town||missing polygon;
 n256613919|Лесное|town||missing polygon; 
 n337544240|Малинівка|town||missing polygon; 
 n337578657|Маньківка|town||missing polygon; 
-n3600198738|Марьевка|town||missing polygon; 
 n337592048|Меліоративне|town||missing polygon; 
 n337657119|Молодіжне|town||missing polygon; 
+n3600247611|Нижняя Крынка|town||missing polygon; 
 n337536956|Новооржицьке|town||missing polygon; 
 n2096793470|Новопокровка|town||missing polygon; 
 n337543316|Новопокровка|town||missing polygon; 
@@ -86,7 +86,6 @@ n337663428|Путила|town||missing polygon;
 n337602238|Роздори|town||missing polygon; 
 n337594685|Середнє|town||missing polygon; 
 n337659708|Славгород|town||missing polygon; 
-n3600192817|Собачевка|town||missing polygon; 
 n337588299|Солотвин|town||missing polygon; 
 n337660175|Софіївка|town||missing polygon; 
 n337538490|Старий Мерчик|town||missing polygon; 
@@ -348,15 +347,14 @@ Crimea:
 Oblasts:
 256613919|Лесное|Лісне|Лесное
 256613922|Красный Октябрь|Красний Октябр|Красный Октябрь
+256613930|Макеевка|Макіївка|Макеевка
 256613931|Великое Орехово||Великое Орехово
 256613933|Липовое|Липове|Липовое
 337561416|Пашенівка|Пашенна|Пашеновка
 1342166737|Рассейка||Рассейка
 2999190293|Советский район||Советский район
 3600173754|Ханженково||Ханженково
-3600192817|Собачевка||Собачевка
-3600197536|Буроз||Буроз
-3600198738|Марьевка||Марьевка
+3600247611|Нижняя Крынка||Нижняя Крынка
 
 admin_level:
 330696042|1|2
