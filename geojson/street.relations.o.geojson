@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Relation objects outside the city",
 "features": [
+{"type":"Feature","properties":{"josm":"r1226059,r3559999","relationtags":"name|Квіткова вулиця","region":"Харківська область","city":"",},"geometry":{"type":"Point","coordinates":[36.46183,49.90227]}},
 {"type":"Feature","properties":{"josm":"r1569132,r1641691","relationtags":"name|Зіньківська вулиця","region":"Полтавська область","city":"Полтава",},"geometry":{"type":"Point","coordinates":[34.56321,49.65382]}},
 {"type":"Feature","properties":{"josm":"r1733207,r1951964","relationtags":"name|Ковельська вулиця","region":"Волинська область","city":"Луцьк",},"geometry":{"type":"Point","coordinates":[25.2841,50.75939]}},
 {"type":"Feature","properties":{"josm":"r1733207,r4275829","relationtags":"name|Ковельська вулиця","region":"Волинська область","city":"Зміїнець",},"geometry":{"type":"Point","coordinates":[25.2836,50.75916]}},
@@ -385,7 +386,6 @@
 {"type":"Feature","properties":{"josm":"r4465424,r3167403","relationtags":"name|Лесі Українки вулиця","region":"Тернопільська область","city":"Підзамочок",},"geometry":{"type":"Point","coordinates":[25.40627,49.07172]}},
 {"type":"Feature","properties":{"josm":"r4465424,r3167407","relationtags":"name|Лесі Українки вулиця","region":"Тернопільська область","city":"Підлісся",},"geometry":{"type":"Point","coordinates":[25.40557,49.0723]}},
 {"type":"Feature","properties":{"josm":"r4466269,r3167670","relationtags":"name|Українська вулиця","region":"Тернопільська область","city":"Шумськ",},"geometry":{"type":"Point","coordinates":[26.11816,50.10458]}},
-{"type":"Feature","properties":{"josm":"r4475503,r4105756","relationtags":"name|Дрогобицька вулиця","region":"Львівська область","city":"Михайлевичі",},"geometry":{"type":"Point","coordinates":[23.58791,49.3786]}},
 {"type":"Feature","properties":{"josm":"r4500129,r2032280","relationtags":"name|Стрийська вулиця","region":"Львівська область","city":"Львів",},"geometry":{"type":"Point","coordinates":[24.00872,49.77402]}},
 {"type":"Feature","properties":{"josm":"r4500129,r3382029","relationtags":"name|Стрийська вулиця","region":"Львівська область","city":"Сокільники",},"geometry":{"type":"Point","coordinates":[24.01406,49.78151]}},
 {"type":"Feature","properties":{"josm":"r4519741,r3655279","relationtags":"name|Олекси Довбуша вулиця","region":"Івано-Франківська область","city":"Камінь",},"geometry":{"type":"Point","coordinates":[24.2807,48.91714]}},
