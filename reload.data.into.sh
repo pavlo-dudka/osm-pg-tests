@@ -1,16 +1,26 @@
-#!/bin/sh/
+#!/bin/sh
 
 if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-dropdb -U postgres -w osm
-createdb -O postgres -U postgres -T postgis_21_sample -w osm
-$psql_exe -f sql\pg.sql
+dropdb -U $username -w osm
+# createdb -O $username -U $username -T postgis_21_sample -w osm
+createdb -O postgres -U $username -T template0 -w osm -E UTF8
+psql -d osm -c "CREATE EXTENSION postgis;"
+$psql_exe -f sql/pg.sql
 
 cd bin
-osmconvert ../temp/ua.filtered.o5m -o=../temp/ua.filtered.pbf
-osmosis --rb ../temp/ua.filtered.pbf --lp --ws user="$username" password="$password" host="$host:$port"
+
+if [ $password!='' ]
+  then
+    osmosis_param=`user="$username" password="$password" host="$host:$port"`
+  else
+    osmosis_param=`user="$username" host="$host:$port"`
+fi
+
+./osmconvert ../temp/ua.filtered.o5m -o=../temp/ua.filtered.pbf
+osmosis --rb ../temp/ua.filtered.pbf --lp --ws $osmosis_param
 
 cd ..
 $psql_exe -f sql/osm.boundaries.sql > results/osm.boundaries.log 2>&1
@@ -26,5 +36,10 @@ $psql_exe -f osm.load.exceptions.sql
 cd ..
 
 # Copying street names list
-cp -f ~/Dropbox/osm/data/*.csv "`$pg_data_folder`street_names/"
-cp -f ~/Dropbox/osm/data/*.txt "`$pg_data_folder`street_names/"
+if [ ! -e $pg_data_folder"street_names/" ]
+  then
+    mkdir $pg_data_folder"street_names/"
+fi
+
+cp -f ~/Dropbox/data/*.csv `$pg_data_folder`"street_names/"
+cp -f ~/Dropbox/data/*.txt `$pg_data_folder`"street_names/"

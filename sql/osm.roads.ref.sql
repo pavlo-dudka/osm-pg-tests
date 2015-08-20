@@ -1,6 +1,6 @@
 set client_min_messages to warning;
 drop table if exists ref_roads;
-create table ref_roads(id int, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
+create table ref_roads(id bigint, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
 
 insert into ref_roads(id,ref,highway)
 select member_id,string_agg(rtr.v, ';' order by rtr.v),'trunk'
@@ -132,7 +132,7 @@ from ref_roads rr
   left join way_tags wtr on wtr.way_id=w.id and wtr.k='ref'
   left join way_tags wti on wti.way_id=w.id and wti.k='int_ref'
   inner join way_tags wth on wth.way_id=w.id and wth.k='highway'
-where coalesce(rr.ref,'-')<>coalesce(wtr.v,'-') 
+where coalesce(rr.ref,'-')<>coalesce(wtr.v,'-')
   and not(rr.ref is null and wtr.v similar to '[ОСDLMR0-9]%|[МНР][0-9]*' or rr.ref similar to '[ОС]%' and wtr.v is null)
 group by rr.ref,wtr.v
 order by rr.ref,wtr.v;
