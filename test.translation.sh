@@ -4,7 +4,7 @@ if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-$psql_exe -f sql/osm.trans.errors.sql -o results/osm.trans.errors.txt 2>&1 &
+$psql_exe -f sql/osm.trans.errors.sql -o results/osm.trans.errors.txt
 
 #start "trans.ua"
 $psql_exe -f sql/osm.trans.uk.sql -o results/osm.trans.uk.txt 2>&1 &

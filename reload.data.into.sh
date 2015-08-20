@@ -41,5 +41,5 @@ if [ ! -e $pg_data_folder"street_names/" ]
     mkdir $pg_data_folder"street_names/"
 fi
 
-cp -f ~/Dropbox/data/*.csv `$pg_data_folder`"street_names/"
-cp -f ~/Dropbox/data/*.txt `$pg_data_folder`"street_names/"
+cp -f ~/Dropbox/data/*.csv $pg_data_folder"street_names/"
+cp -f ~/Dropbox/data/*.txt $pg_data_folder"street_names/"
