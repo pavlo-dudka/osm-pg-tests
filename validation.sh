@@ -21,7 +21,7 @@ fi
 #fi
 
 if [ -e publish.results.now.sh]; then
-  ./publish.results.now.bat
+  ./publish.results.now.sh
 fi
 
 $psql_exe -f sql/osm.vacuum.full.sql

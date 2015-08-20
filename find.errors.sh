@@ -1,10 +1,14 @@
-#!/bin/sh/
+#!/bin/sh
 
 if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-mkdir results
+if [ ! -e results ]
+  then
+    mkdir results
+fi
+
 $psql_exe -f sql/osm.multipolygons.sql -o results/multipolygons.geojson > /dev/null 2>&1 & #"multipolygons"
 $psql_exe -f sql/osm.street.relations.sql -o results/street.relations.geojson > /dev/null 2>&1 & #"street.relations"
 $psql_exe -f sql/osm.street.relations.m.sql -o results/street.relations.m.geojson > /dev/null 2>&1 & #"street.relations.m"
@@ -14,9 +18,11 @@ $psql_exe -f sql/osm.addr.housenumber.geo.sql -o results/house.numbers.geojson >
 $psql_exe -f sql/osm.cities.without.place.polygon.sql -o results/cities.without.place.polygon.geojson > /dev/null 2>&1 & #"cities.without.place.polygon"
 $psql_exe -f sql/osm.waterways.sql -o results/waterways.layer.geojson > /dev/null 2>&1 & #"waterways.layer"
 
+echo "start test.non-uk.sh"
 #"non-uk"
 ./test.non-uk.sh > /dev/null 2>&1 &
 
+echo "start test.highways.sh"
 #"highways"
 ./test.highways.sh  /dev/null 2>&1 &
 
@@ -65,7 +71,7 @@ $psql_exe -f sql/osm.kremenchuk.sql -o results/osm.Kremenchuk.txt /dev/null 2>&1
 $psql_exe -f sql/osm.kyiv.sql -o results/osm.Kyiv.txt /dev/null 2>&1 &
 #start "kyiv.building.levels"
 $psql_exe -f sql/osm.kyiv.building.levels.sql -o results/kyiv.building.levels.geojson /dev/null 2>&1 &
-#start "mariupol" 
+#start "mariupol"
 $psql_exe -f sql/osm.mariupol.sql -o results/osm.Mariupol.txt /dev/null 2>&1 &
 #start "sloviansk"
 $psql_exe -f sql/osm.sloviansk.sql -o results/osm.Sloviansk.txt /dev/null 2>&1 &

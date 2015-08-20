@@ -4,12 +4,12 @@ if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-$psql_exe -f sql/osm.trans.errors.sql -o results/osm.trans.errors.txt
+$psql_exe -f sql/osm.trans.errors.sql -o results/osm.trans.errors.txt 2>&1 &
 
 #start "trans.ua"
-$psql_exe -f sql/osm.trans.uk.sql -o results/osm.trans.uk.txt
+$psql_exe -f sql/osm.trans.uk.sql -o results/osm.trans.uk.txt 2>&1 &
 
 #start "trans.ru"
-$psql_exe -f sql/osm.trans.ru.sql -o results/osm.trans.ru.txt
+$psql_exe -f sql/osm.trans.ru.sql -o results/osm.trans.ru.txt 2>&1 &
 
 exit 0

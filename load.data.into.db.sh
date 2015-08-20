@@ -5,11 +5,9 @@ if [ -e config.sh ]
     source ./config.sh
 fi
 
-echo "load config.sh"
-
-if [ -e ../temp/ua.filtered.o5m ]
+if [ -e temp/ua.filtered.o5m ]
   then
-    mv ../temp/ua.filtered.o5m ../temp/ua.filtered.old.o5m
+    mv temp/ua.filtered.o5m temp/ua.filtered.old.o5m
 fi
 
 cd bin
@@ -85,19 +83,18 @@ fi
 
 $psql_exe -f sql/osm.boundaries.sql > results/osm.boundaries.log 2>&1
 
-cd data
-cp -f *.txt "$pg_data_folder"
-$psql_exe -f osm.load.data.sql
+cp -f data/*.txt "$pg_data_folder"
+$psql_exe -f data/osm.load.data.sql
 
-cd ..
-
-cd exceptions
-cp -f *.exc "$pg_data_folder"
-$psql_exe -f osm.load.exceptions.sql
-
-cd ..
+cp -f exceptions/*.exc "$pg_data_folder"
+$psql_exe -f exceptions/osm.load.exceptions.sql
 
 #rem Copying street names list
+if [ ! -e $pg_data_folder"street_names/" ]
+  then
+    mkdir $pg_data_folder"street_names/"
+fi
+
 cp -f ~/Dropbox/data/*.csv $pg_data_folder"street_names/"
 cp -f ~/Dropbox/data/*.txt $pg_data_folder"street_names/"
 cp -f ~/Dropbox/data/*.txt $pg_data_folder
