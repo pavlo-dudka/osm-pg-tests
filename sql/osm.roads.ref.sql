@@ -1,6 +1,6 @@
 set client_min_messages to warning;
 drop table if exists ref_roads;
-create table ref_roads(id int, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
+create table ref_roads(id bigint, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
 
 insert into ref_roads(id,ref,highway)
 select member_id,string_agg(rtr.v, ';' order by rtr.v),'trunk'
