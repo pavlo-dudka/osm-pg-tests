@@ -7,7 +7,7 @@ create table exc_street_relations_o(street_relation_id int, place_relation_id in
 copy exc_street_relations_o from 'osm/street.relations.o.exc' using delimiters ',';
 
 drop table if exists exc_highways;
-create table exc_highways(way_id int);
+create table exc_highways(way_id bigint);
 copy exc_highways from 'osm/highways.exc' using delimiters ',';
 
 drop table if exists street_names_exc;
