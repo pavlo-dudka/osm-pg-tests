@@ -32,11 +32,11 @@ processGeojson () {
     done < error.old.summary
   fi
 
-  if [ ! -e "$errdate" ]; then
+  if [ -z "$errdate" ]; then
     errdate=$(date +%d\.%m\.%Y' '%H\:%M\:%S)
   fi
 
-  echo "$file $2$errdate" >> error.summary
+  echo "$file $2 $errdate" >> error.summary
 }
 
 recordItem () {
@@ -101,7 +101,8 @@ mv *.hidden *.geojson
 
 while read line; do
   echo "processing geojson param: $line" #debug output
-  processGeojson "$line"
+  param=($line)
+  processGeojson ${param[0]} ${param[1]}
 done < error.count.txt
 
 echo \<?xml version=\"1.0\" encoding=\"utf-8\"?\> > test.rss
