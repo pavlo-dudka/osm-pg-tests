@@ -1,6 +1,6 @@
 drop table if exists koatuu;
 create table koatuu(code text, place text, title text);
-copy koatuu from 'osm/koatuu.csv' delimiter ',' csv quote '"';
+copy koatuu from 'osm/koatuu.csv' delimiter ';' csv quote '"';
 update koatuu set code=lpad(code,10,'0'), title=replace(title,'''','’');
 update koatuu set title=replace(title,'М.','') where title like 'М.%';
 update koatuu set title=upper('Масалаївка') where code='7424982503';
@@ -41,9 +41,9 @@ create index idx_koatuu_code on koatuu(code);
 
 select '';
 select 'Koatuu - missing place:';
-select * 
+select *
 from koatuu
-where place<>'Р' 
+where place<>'Р'
   and code not in (select v from node_tags where k='koatuu' and node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet')))
 order by code;
 
@@ -57,7 +57,7 @@ where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
 group by ntk.v
 having count(*)>1
 order by ntk.v;
- 
+
 select '';
 select 'Koatuu - different names:';
 select n.id,ntk.v,code,ntn.v,title
@@ -105,7 +105,7 @@ select koatuu,string_agg(relation_id::text,', '),string_agg(name,', ') from dist
 
 select '';
 select 'Koatuu - district overlap';
-select 
+select
 d1.relation_id, d1.name, d2.relation_id, d2.name
 from districts d1, districts d2
 where _st_overlaps(d1.linestring, d2.linestring) and d1.relation_id<d2.relation_id;
