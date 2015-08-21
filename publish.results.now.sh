@@ -7,4 +7,6 @@ if [ -e publish.results.sh ]; then
   source ./publish.results.sh
 fi
 
-#./git-push.sh
+./git-push.sh
+
+exit 0

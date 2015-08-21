@@ -4,15 +4,15 @@ if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-if [ -e update.pbf.sh]; then
+if [ -e update.pbf.sh ]; then
   ./update.pbf.sh
 fi
 
-if [ -e load.data.into.db.sh]; then
+if [ -e load.data.into.db.sh ]; then
   ./load.data.into.db.sh
 fi
 
-if [ -e find.errors.sh]; then
+if [ -e find.errors.sh ]; then
   ./find.errors.sh
 fi
 
@@ -20,7 +20,7 @@ fi
 #  exec peirce.sh
 #fi
 
-if [ -e publish.results.now.sh]; then
+if [ -e publish.results.now.sh ]; then
   ./publish.results.now.sh
 fi
 
