@@ -1,27 +1,19 @@
 #!/bin/sh
 
-# http://stackoverflow.com/questions/8742783/returning-value-from-called-function-in-shell-script
-
 # functions declaration
 # =====================
 gethash () {
-  hash=''
-
+  hash=
   while read line; do
-    test="$(cut -d ' ' -f2 $line)"
-    if [ "$test"=="$2" ]; then
-      hash=$(cut -d ' ' -f1 $line)
+    test=($line)
+    if [[ "${test[1]}" = "$2" ]]; then
+      hash=${test[0]}
     fi
   done < $1
 }
 
 processGeojson () {
   file=$1
-  for g in *.geojson; do
-    if [[ $g = $file ]]; then
-      $file="$g"
-    fi
-  done
 
   gethash error.hash $file
   newhash=$hash
@@ -29,12 +21,13 @@ processGeojson () {
   gethash error.old.hash $file
   oldhash=$hash
 
-  errdate=''
+  errdate=
 
-  if [ "$newhash"=="$oldhash" ]; then
+  if [[ "$newhash" = "$oldhash" ]]; then
     while read c; do
-      if [[ "$(cut -d '|' -f1 $c)" = $file ]]; then
-        errdate="`cut -d '|' -f3 $c`"
+      test=($c)
+      if [[ "${test[0]}" = "$file" ]]; then
+        errdate="${test[2]}"
       fi
     done < error.old.summary
   fi
@@ -52,7 +45,7 @@ recordItem () {
   file=(`echo $1|sed 's/.geojson.*$//'`)
   echo \<link\>$publish_url/test.html?$file\</link\> >> test.rss
   peirce=${file:0:6}
-  if [ "$peirce"=="peirce" ]
+  if [[ "$peirce" = "peirce" ]]
     then
       echo \<author\>Ch.S. Peirce\</author\> >> test.rss
     else
@@ -89,6 +82,7 @@ mv error.summary error.old.summary
 mv house.numbers.geojson house.numbers.hidden
 mv kyiv.building.levels.geojson kyiv.building.levels.hidden
 mv non-uk.geojson non-uk.hidden
+
 md5 -r *.geojson > error.hash
 
 if [ -e error.count.txt ]
@@ -106,6 +100,7 @@ done
 mv *.hidden *.geojson
 
 while read line; do
+  echo "processing geojson param: $line" #debug output
   processGeojson "$line"
 done < error.count.txt
 
@@ -127,5 +122,3 @@ cp -f test.rss $publish_path/
 rm error.old.hash
 rm error.old.summary
 cd ..
-
-exit 0
