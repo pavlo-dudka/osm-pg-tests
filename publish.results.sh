@@ -54,6 +54,7 @@ recordItem () {
 
     echo \<title\>$file - $2 error\(s\) found at $3\</title\> >> test.rss
     echo \<description\>\<![CDATA[$2 error"("s")" found: \<a href="$publish_url/test.html?map?$file"\>map\</a\> \<a href="$publish_url/test.html?table?$file"\>table\</a\>]]\>\</description\> >> test.rss
+    echo \<pubDate\>"$3"\</pubDate\> >> test.rss
     echo \</item\> >> test.rss
 }
 
@@ -110,6 +111,7 @@ echo \<rss version=\"2.0\"\> >> test.rss
 echo \<channel\> >> test.rss
 echo \<title\>Quality Assurance "("OSM Ukraine")"\</title\> >> test.rss
 echo \<link\>$publish_url/test.html\</link\> >> test.rss
+echo \<lastBuildDate\>`LC_TIME=en_US.UTF-8 date`\</lastBuildDate\> >> test.rss
 
 while read line; do
   recordItem $line
