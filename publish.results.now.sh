@@ -8,7 +8,7 @@ if [ -e publish.results.sh ]; then
 fi
 
 if [ -e git-push.sh ]; then
-  ./git-push.sh
+  source ./git-push.sh
 fi
 
 exit 0
