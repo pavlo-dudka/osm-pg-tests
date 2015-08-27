@@ -3,12 +3,12 @@ place-way should be closed:
 313536481
 
 Different errors:
-n3674772325,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n26150437,r1413934|Одеса|city|name:lt=Odessa|Odesa|node and relation tag values are different; 
 n1532708613,r1821193|Кривий Ріг|city|population=680500|666812;wikipedia=uk:Кривий Ріг|uk:Кривий_Ріг|node and relation tag values are different; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
-n3674772325,r1574364|Севастополь|city|official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
+n251073791,r1574364|Севастополь|city|official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
@@ -66,7 +66,6 @@ n337543657|Введенка|town||missing polygon;
 n337540706|Гоголеве|town||missing polygon; 
 n337657064|Демурине|town||missing polygon; 
 n337575718|Дунаївці|town||missing polygon; 
-n337556154|Миколаїв|town||missing polygon; 
 n337588299|Солотвин|town||missing polygon; 
 n337660175|Софіївка|town||missing polygon; 
 n337569829|Цвіткове|town||missing polygon; 
@@ -76,10 +75,12 @@ n337582691|Борівське|town||missing polygon;
 n337514561|Костопіль|town||missing polygon; 
 n337544240|Малинівка|town||missing polygon; 
 n337578657|Маньківка|town||missing polygon; 
+n337672919|Марганець|town||missing polygon; 
 n337657119|Молодіжне|town||missing polygon; 
 n337656556|Письменне|town||missing polygon; 
 n337587965|Приютівка|town||missing polygon; 
 n337659708|Славгород|town||missing polygon; 
+n337669008|Томаківка|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
 n337567918|Ярмолинці|town||missing polygon; 
 n337598786|Брагинівка|town||missing polygon; 
@@ -223,6 +224,7 @@ Multiple polygons:
 2|337698279|r3030295,r3030327|
 2|1172307894|r2175059,r3006716|
 2|1984361456|r3556561,r3557536|
+2|2418681281|r3030976,r3829565|
 
 Invalid node role:
 1601507|type|multipolygon|1601507|3674027755|N|локация|4
