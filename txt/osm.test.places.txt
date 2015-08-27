@@ -75,12 +75,10 @@ n337582691|Борівське|town||missing polygon;
 n337514561|Костопіль|town||missing polygon; 
 n337544240|Малинівка|town||missing polygon; 
 n337578657|Маньківка|town||missing polygon; 
-n337672919|Марганець|town||missing polygon; 
 n337657119|Молодіжне|town||missing polygon; 
 n337656556|Письменне|town||missing polygon; 
 n337587965|Приютівка|town||missing polygon; 
 n337659708|Славгород|town||missing polygon; 
-n337669008|Томаківка|town||missing polygon; 
 n337681855|Цебрикове|town||missing polygon; 
 n337567918|Ярмолинці|town||missing polygon; 
 n337598786|Брагинівка|town||missing polygon; 
@@ -139,6 +137,7 @@ n337583575,r3167565|Товсте|town|population=3384|3348|node and relation tag
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
 n337573508,r3166889|Гусятин|town|population=7104|7122|node and relation tag values are different; 
 n337544447,r3166976|Залізці|town|population=2706|2703|node and relation tag values are different; 
+n1628109752,r3589657|Лебедин|town|name:pl=Łebedyn|Lebiedyn|node and relation tag values are different; 
 n337560954,r4565801|Летичів|town|population=10577|16000|node and relation tag values are different; 
 n313241988,r2808639|Нетішин|town|name:pl=Netiszyn|Niecieszyn|node and relation tag values are different; 
 n337668842,r2033389|Радушне|town|wikipedia=uk:Радушне|ru:Радушное|node and relation tag values are different; 
@@ -348,6 +347,15 @@ Invalid relation role:
 421864|type|multipolygon|421864|5427552|R|inner|59
 421864|type|multipolygon|421864|5427553|R|inner|60
 421864|type|multipolygon|421864|5427554|R|inner|61
+2668952|type|boundary|2668952|2707692|R|outer|1
+2668952|type|boundary|2668952|2707693|R|outer|7
+2668952|type|boundary|2668952|2707694|R|inner|8
+2668952|type|boundary|2668952|2707696|R|outer|6
+2668952|type|boundary|2668952|2707697|R|outer|5
+2668952|type|boundary|2668952|2707698|R|outer|3
+2668952|type|boundary|2668952|2707699|R|outer|4
+2668952|type|boundary|2668952|2707700|R|outer|2
+2668952|type|boundary|2668952|2725459|R|outer|0
 4759507|type|multipolygon|4759507|4759509|R||2
 5443432|type|multipolygon|5443432|5442012|R|inner|38
 5443432|type|multipolygon|5443432|5442013|R|inner|37
