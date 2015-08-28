@@ -1,6 +1,8 @@
 place-way should be closed:
 157150284
+181013911
 313536481
+367872301
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
@@ -98,7 +100,6 @@ n285723343,w204997516,r2817257|Герца|town||multiple place objects;
 n337683905,w174662279,r2447701|Веселе|town||multiple place objects; 
 n1685829433,w191420804,r3559895|Мерефа|town||multiple place objects; 
 n337589660,w291732038,r2822499|Ладижин|town||multiple place objects; 
-n1494035871,w181013911,r2813893|Макарів|town||multiple place objects; 
 n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
 n1628075066,w183700330,r2445912|Верхній Рогачик|town||multiple place objects; 
 n337556177,w30723391,r4660792|Марківка|town||multiple place objects; 
@@ -201,6 +202,7 @@ n337695561,w30716078|Нижнегорский|town|name:de=Nizhnegorskyj|Nyschnj
 n337693838,w30715974|Первомайское|town|name:de=Perwomajskoe|Perwomajske;name:en=Pervomaiskoe|Pervomaiske;name:fr=Pervomaiskoe|Pervomaiske|node and way tag values are different; 
 n337699968,w30713452|Краснокаменка|town|addr:postcode=298646|298653;population=1024|1023|node and way tag values are different; 
 n337695202,w30716179|Красногвардейское|town|name:de=Krasnohwardejskoe|Krasnohwardijske;name:pl=Krasnogwardejśkoe|Krasnogwardijśke|node and way tag values are different; 
+n1494035871,r2813893,w181013911,w367872301|Макарів|town||non-closed way; 
 
 Multiple polygons:
 2|337520849|r3886271,r5459125|
@@ -223,7 +225,6 @@ Multiple polygons:
 2|337698279|r3030295,r3030327|
 2|1172307894|r2175059,r3006716|
 2|1984361456|r3556561,r3557536|
-2|2418681281|r3030976,r3829565|
 
 Invalid node role:
 1601507|type|multipolygon|1601507|3674027755|N|локация|4
