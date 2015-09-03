@@ -4,11 +4,7 @@ if [ -e config.sh ]; then
   source ./config.sh
 fi
 
-dropdb -U $username -w osm
-# createdb -O $username -U $username -T postgis_21_sample -w osm
-createdb -O postgres -U $username -T template0 -w osm -E UTF8
-psql -d osm -c "CREATE EXTENSION postgis;"
-$psql_exe -f sql/pg.sql
+./recreate.db.sh
 
 cd bin
 
