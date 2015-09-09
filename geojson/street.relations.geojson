@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1169815,w365431429","relationtags":"name|Руська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.94353,48.29115]}},
 {"type":"Feature","properties":{"josm":"r1335663,w67503169","relationtags":"name|Шевченка вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[28.43718,49.23154]}},
 {"type":"Feature","properties":{"josm":"r1335665,w364079105","relationtags":"name|Свердлова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.47944,49.23388]}},
 {"type":"Feature","properties":{"josm":"r1378236,w367708087","relationtags":"name|Театральна площа","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.93243,48.29242]}},
@@ -428,8 +427,8 @@
 {"type":"Feature","properties":{"josm":"r5360320,w112567623","relationtags":"name|Трубників проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.38665,47.56807]}},
 {"type":"Feature","properties":{"josm":"r5360320,w112567696","relationtags":"name|Трубників проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.38665,47.56807]}},
 {"type":"Feature","properties":{"josm":"r5360320,w31778279","relationtags":"name|Трубників проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.38583,47.56809]}},
-{"type":"Feature","properties":{"josm":"r5389300,w134528082","relationtags":"name:ru|Пост-Волынская улица","membertags":"name:ru|Пост-Волынская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.43012,50.41222]}},
-{"type":"Feature","properties":{"josm":"r5389300,w134528082","relationtags":"name:uk|Пост-Волинська вулиця","membertags":"name:uk|Пост-Волинська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.43012,50.41222]}},
+{"type":"Feature","properties":{"josm":"r5389300,w134528082","relationtags":"name:ru|Пост-Волынская улица","membertags":"name:ru|Пост-Волынская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.4301,50.41221]}},
+{"type":"Feature","properties":{"josm":"r5389300,w134528082","relationtags":"name:uk|Пост-Волинська вулиця","membertags":"name:uk|Пост-Волинська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.4301,50.41221]}},
 {"type":"Feature","properties":{"josm":"r5389300,w134528084","relationtags":"name|Пост-Волинська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.42879,50.41294]}},
 {"type":"Feature","properties":{"josm":"r5389300,w290266417","relationtags":"name:ru|Пост-Волынская улица","membertags":"name:ru|Пост-Волынская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.42879,50.41294]}},
 {"type":"Feature","properties":{"josm":"r5389300,w290266417","relationtags":"name:uk|Пост-Волинська вулиця","membertags":"name:uk|Пост-Волинська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.42879,50.41294]}},
