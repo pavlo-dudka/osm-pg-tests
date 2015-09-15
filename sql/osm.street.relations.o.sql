@@ -16,7 +16,7 @@ t2 as (
 t3 as (
   select t2.*,r.id as place_relation_id
   from t2,
-    relations r inner join relation_tags rt on rt.relation_id=r.id and rt.k='place' and rt.v in ('city','town','village') and r.linestring is not null 
+    relations r inner join relation_tags rt on rt.relation_id=r.id and rt.k='place' and rt.v in ('city','town','village') and r.linestring is not null
   where _st_crosses(r.linestring, t2.geom)),
 t4 as (
   select t3.relation_id,t3.place_relation_id,st_difference(t3.geom,r.linestring) diff,st_intersection(t3.geom,r.linestring) intersection,coalesce(rt.v,'') as name,coalesce(rp.v,'') as city
@@ -32,7 +32,7 @@ select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||t5.relation_id||',r'||t5.place_relation_id||'",'||
                        '"relationtags":"name|'||t5.name||'",'||
-                       '"city":"'||t5.city||'",'||
+                       '"city":"'||replace(t5.city,'"','\"')||'",'||
                      '},'||
         '"geometry":'||st_asgeojson(t5.geom,5)||
        '},'
@@ -41,4 +41,4 @@ where not exists(select * from exc_street_relations_o exc where exc.street_relat
 order by 1;
 
 select '{"type":"Feature"}';
-select ']}';
+select ']}'; 
