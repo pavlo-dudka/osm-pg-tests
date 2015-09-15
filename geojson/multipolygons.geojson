@@ -3,9 +3,6 @@
 "errorDescr": "Multipolygon end-node",
 "features": [
 {"type":"Feature","properties":{"josm":"r2533235,n1986709510","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.45259,48.24389]}},
-{"type":"Feature","properties":{"josm":"r72380,n3354950695","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.41301,49.45852]}},
-{"type":"Feature","properties":{"josm":"r72380,n337507978","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.40141,49.49508]}},
-{"type":"Feature","properties":{"josm":"r72488,n3354950695","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.41301,49.45852]}},
-{"type":"Feature","properties":{"josm":"r72488,n337507978","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.40141,49.49508]}},
+{"type":"Feature","properties":{"josm":"r5481125","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[24.88384,49.96418]}},
 {"type":"Feature"}
 ]}

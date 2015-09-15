@@ -54,8 +54,11 @@ n337594685|Середнє|town||missing polygon;
 n337544672|Утківка|town||missing polygon; 
 n337561736|Чапаєве|town||missing polygon; 
 n337537037|Шарівка|town||missing polygon; 
+n337599757|Яблунів|town||missing polygon; 
+n337690850|Бородіно|town||missing polygon; 
 n337543657|Введенка|town||missing polygon; 
 n337575718|Дунаївці|town||missing polygon; 
+n337588299|Солотвин|town||missing polygon; 
 n337660175|Софіївка|town||missing polygon; 
 n337595311|Ювілейне|town||missing polygon; 
 n337582691|Борівське|town||missing polygon; 
@@ -101,6 +104,7 @@ n337590670,r4559306|Кострижівка|town|place=town|village|node and rela
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n337689476,r3592360|Гола Пристань|town|wikipedia=uk:Гола Пристань|uk:Гола_Пристань|node and relation tag values are different; 
 n3409309160,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;name:pl=Sczastia|Szczastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
+n314222364,r2525839|Новий Розділ|town|wikipedia=uk:Новий Розділ|uk:Новий_Розділ|node and relation tag values are different; 
 n337583474,r3167483|Скала-Подільська|town|population=4234|4255|node and relation tag values are different; 
 n312230548,r2697557|Борщів|town|population=11273|11219|node and relation tag values are different; 
 n300906140,r3166999|Збараж|town|population=13915|13949|node and relation tag values are different; 
@@ -162,6 +166,7 @@ n2407788294,w30715799|Алупка|town|population=8497|8493|node and way tag va
 n337561091,w30720969|Мілове|town|population=5975|5944|node and way tag values are different; 
 n941385448,w30701593|Буштино|town|population=8634|12488|node and way tag values are different; 
 n337699434,w30714083|Научный|town|name:en=Nauchnyy|Nauchniy|node and way tag values are different; 
+n337691442,w193698834|Березине|town|old_name=Ротунда|Beresina|node and way tag values are different; 
 n285726798,w217289242|Сокиряни|town|population=9538|9683|node and way tag values are different; 
 n337697952,w30716000|Белогорск|town|name:de=Bilohirsk|Belohorsk;name:en=Bilohirsk|Belogorsk;name:fr=Karassoubazar|Bilohirsk|node and way tag values are different; 
 n337691804,w123585726|Генічеськ|town|population=20487|31324|node and way tag values are different; 
@@ -224,17 +229,23 @@ Invalid node role:
 
 Invalid way role:
 1767014|131593851|1
-2248683|168859639|1
+2166189|149962277|1
 2614178|366629884|1
+3006937|370418038|1
 3106795|337992603|1
 3550076|336607747|1
 3586627|336723664,336723665|2
+3763387|367097871|1
 3936284|296556291,336723665|2
 3947105|334165095|1
+3955400|331537577|1
 3966731|31833057|1
+4041778|178756321,300682962|2
 4051764|335707370|1
+4248213|326143827|1
 4600717|328882325,328882326,328882327|3
 4603714|329059898,329059899|2
+4632927|370327080|1
 4678977|333167866|1
 4722123|30721087|1
 4753335|335987707|1
@@ -284,6 +295,7 @@ Invalid way role:
 5460798|367264916,367264917,367264918,367264919|4
 5460870|82638842,367269468,367269469,367269471,367269472,367269473|6
 5461168|147475710,147475711,367288189|3
+5469084|152453273,367984393|2
 5505670|370563235|1
 5505823|42728663|1
 
@@ -334,7 +346,6 @@ No admin_centre:
 1574364
 1754403
 2607033
-2903221
 3788485
 4682048
 5496553
