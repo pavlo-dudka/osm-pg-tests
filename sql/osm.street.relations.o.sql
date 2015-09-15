@@ -32,7 +32,7 @@ select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||t5.relation_id||',r'||t5.place_relation_id||'",'||
                        '"relationtags":"name|'||t5.name||'",'||
-                       '"city":"'||t5.city||'",'||
+                       '"city":"'||replace(t5.city,'"','\"')||'",'||
                      '},'||
         '"geometry":'||st_asgeojson(t5.geom,5)||
        '},'
