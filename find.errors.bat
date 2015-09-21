@@ -9,6 +9,7 @@ start "street.relations.o" %psql_exe% -f sql\osm.street.relations.o.sql -o resul
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.geo.sql -o results\house.numbers.geojson
 start "cities.without.place.polygon" %psql_exe% -f sql\osm.cities.without.place.polygon.sql -o results\cities.without.place.polygon.geojson
 start "waterways.layer" %psql_exe% -f sql\osm.waterways.sql -o results\waterways.layer.geojson
+start "place.districts" %psql_exe% -f sql\osm.place.districts.sql -o results\place.districts.geojson
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
