@@ -33,7 +33,7 @@ where not exists(select * from relation_members rm2 where rm2.relation_id=t2.rel
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_2=t2.relation_id and exc.street_relation_id_1=rm.relation_id and rm.member_id=w2.id)
   and exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k in ('addr:housenumber','addr:interpolation'))
 union all
-select t2.relation_id,'w'||w2.id obj_id,t2.geom_node
+select t2.relation_id,'r'||w2.id obj_id,t2.geom_node
 from t2
 inner join relations w2 on _st_dwithin(t2.geom,w2.linestring,0.01)
 inner join relation_tags wt2 on wt2.relation_id=w2.id and wt2.k='addr:street' and wt2.v=t2.rel_name
