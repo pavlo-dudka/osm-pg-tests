@@ -1,7 +1,6 @@
 @echo off
 cd results
 copy /Y *.geojson %publish_path%\geojson\
-copy /Y *.geojsont %publish_path%\geojson\
 copy /Y *.txt %publish_path%\txt\
 
 move error.hash error.old.hash
