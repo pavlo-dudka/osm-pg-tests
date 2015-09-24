@@ -105,19 +105,10 @@ select koatuu,string_agg(relation_id::text,', '),string_agg(name,', ') from dist
 
 select '';
 select 'Koatuu - district overlap';
-select 
-d1.relation_id, d1.name, d2.relation_id, d2.name
-from districts d1, districts d2
-where _st_overlaps(d1.linestring, d2.linestring) and d1.relation_id<d2.relation_id;
-
-select '';
-select 'Koatuu - inconsistent codes for place and district';
-select n.id,ntn.v,ntk.v,r.koatuu,r.name,r.relation_id
-from node_tags ntp
-inner join nodes n on n.id=ntp.node_id
-inner join districts r on st_contains(r.linestring, n.geom)
-inner join node_tags ntn on ntn.node_id=n.id and ntn.k='name'
-inner join node_tags ntk on ntk.node_id=n.id and ntk.k='koatuu'
-where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
-  and substr(ntk.v,1,5)<>substr(r.koatuu,1,5)
-order by r.koatuu,ntk.v;
+select d1_relation_id,d1_name,d2_relation_id,d2_name,st_asGeojson(geom) 
+from (
+  select 
+  d1.relation_id d1_relation_id, d1.name d1_name, d2.relation_id d2_relation_id, d2.name d2_name, (st_dump(st_intersection(d1.linestring, d2.linestring))).geom
+  from districts d1, districts d2
+  where _st_overlaps(d1.linestring, d2.linestring) and d1.relation_id<d2.relation_id) t
+where st_geometryType(t.geom)='ST_Polygon';
