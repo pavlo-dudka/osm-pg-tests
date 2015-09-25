@@ -39,7 +39,6 @@ n337503733,w230895556,r3096244|Ямпіль|town||missing place-tag on relation 
 n337511059,w87197693,r3047716|Ворожба|town|wikipedia=uk:Ворожба (місто)|uk:Ворожба|missing place-tag on relation or wrong name; multiple place objects; node and relation tag values are different; 
 n337699713,r3827428|Инкерман|town|wikipedia=uk:Інкерман|ru:Инкерман|missing place-tag on relation or wrong name; node and relation tag values are different; 
 n337598439,w30722367,r4733649|Артемівськ|town||missing place-tag on way; multiple place objects; 
-n256613679|Бахмут|town||missing polygon; 
 n337549437|Бірки|town||missing polygon; 
 n337582691|Борівське|town||missing polygon; 
 n337690850|Бородіно|town||missing polygon; 
@@ -198,7 +197,6 @@ Multiple polygons:
 2|337698230|r3030295,r3030326|
 2|337698272|r3030295,r3030305|
 2|337698279|r3030295,r3030327|
-2|1172307894|r2175059,r3006716|
 2|1984361456|r3556561,r3557536|
 2|2418681281|r3030976,r3829565|
 
@@ -207,7 +205,6 @@ Invalid node role:
 1750929|type|multipolygon|1750929|3498875876|N||8
 2102881|type|boundary|2102881|337568206|N|subarea|0
 2102881|type|boundary|2102881|337570432|N|subarea|1
-3826848|type|boundary|3826848|2577044237|N||12
 3826882|type|boundary|3826882|3608604693|N||54
 4422911|type|multipolygon|4422911|3195518582|N|inner|14
 4422911|type|multipolygon|4422911|3197507016|N|inner|13
@@ -337,6 +334,7 @@ No admin_centre:
 3788485
 4682048
 5496553
+5536282
 
 Crimea:
 337699037|Прибрежное||Прибрежное
@@ -364,7 +362,6 @@ Crimea:
 3680120775|Золотой Крым||
 
 Oblasts:
-256613679|Бахмут|Артемівськ|Артёмовск
 1342166737|Рассейка||Рассейка
 3205258314|Великий Жванчик||Великий Жванчик
 
