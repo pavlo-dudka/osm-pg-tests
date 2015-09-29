@@ -2,6 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2147141,n2518436083","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52589,49.2732]}},
+{"type":"Feature","properties":{"josm":"r2147141,n339516895","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.48655,49.23874]}},
 {"type":"Feature","properties":{"josm":"r2533235,n1986709510","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.45259,48.24389]}},
+{"type":"Feature","properties":{"josm":"r5344444,n3762491349","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.27725,49.10224]}},
+{"type":"Feature","properties":{"josm":"r5344444,n3762491352","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.27757,49.10238]}},
+{"type":"Feature","properties":{"josm":"r2211323","error":"multipolygon without tags and single member - delete relation"},"geometry":{"type":"Point","coordinates":[36.51649,49.62907]}},
 {"type":"Feature"}
 ]}
