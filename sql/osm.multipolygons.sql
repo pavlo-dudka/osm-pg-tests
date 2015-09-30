@@ -47,24 +47,23 @@ where rt.relation_id in (select relation_id from relation_tags rt group by relat
 group by r.id
 having sum(case when exists(select * from regions rr where st_contains(rr.linestring, w.linestring)) then 1 else 0 end)>0
 order by 1)
-select '{"type":"Feature","properties":{"josm":"'||ids||'","error":"'||error||'","region":"'||r.name||'"},"geometry":'||st_asgeojson(geom,5)||'},'
+select '{"type":"Feature","properties":{"josm":"'||ids||'","error":"'||error||'","region":"'||coalesce(r.name,'')||'"},"geometry":'||st_asgeojson(geom,5)||'},'
 from tab 
-  inner join regions r on st_contains(linestring, geom)
+  left join regions r on st_contains(linestring, geom)
 where error is not null;
 
 with tab as (
-select r.id relation_id, w1.id way_id_1, w2.id way_id_2, (st_dumppoints(st_intersection(w1.linestring,w2.linestring))).geom
+select r.id relation_id, w1.id way_id_1, w2.id way_id_2, st_intersection(w1.linestring,w2.linestring) intersection
 from relations r
 inner join relation_tags rt on rt.relation_id=r.id and rt.k='type' and rt.v in ('boundary','multipolygon')
 inner join relation_members rm1 on rm1.relation_id=r.id and rm1.member_type='W'
-inner join relation_members rm2 on rm2.relation_id=r.id and rm2.member_type='W' and rm1.sequence_id<rm2.sequence_id
+inner join relation_members rm2 on rm2.relation_id=r.id and rm2.member_type='W'
 inner join ways w1 on w1.id=rm1.member_id
 inner join ways w2 on w2.id=rm2.member_id
-where _st_crosses(w1.linestring,w2.linestring)
-  and st_intersection(w1.linestring,w2.linestring) not in (select (st_dumppoints(w1.linestring)).geom))
-select '{"type":"Feature","properties":{"josm":"r'||tab.relation_id||',w'||way_id_1||',w'||way_id_2||'","error":"multipolygon members intersect each other","region":"'||r.name||'"},"geometry":'||st_asgeojson(geom,5)||'},'
+where w1.id<w2.id and _st_crosses(w1.linestring,w2.linestring))
+select '{"type":"Feature","properties":{"josm":"r'||tab.relation_id||',w'||way_id_1||',w'||way_id_2||'","error":"multipolygon members intersect each other","region":"'||coalesce(r.name,'')||'"},"geometry":'||st_asgeojson((select min(geo.geom) from st_dumppoints(intersection) geo),5)||'},'
 from tab
-  inner join regions r on st_contains(linestring, geom)
+  left join regions r on _st_contains(linestring, intersection)
 order by 1;
 
 select '{"type":"Feature"}';
