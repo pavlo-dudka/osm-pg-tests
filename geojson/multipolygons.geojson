@@ -2,13 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r2533235,n1986709510","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.45259,48.24389]}},
 {"type":"Feature","properties":{"josm":"r3044937,n3764957341","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.45256,49.05804]}},
 {"type":"Feature","properties":{"josm":"r3044937,n3764957343","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.44878,49.05806]}},
 {"type":"Feature","properties":{"josm":"r5548123","error":"multipolygon without tags and single member - delete relation","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.51649,49.62907]}},
 {"type":"Feature","properties":{"josm":"r1067316,w67418105,w67420432","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.98084,48.20564]}},
 {"type":"Feature","properties":{"josm":"r1290128,w86813622,w86813624","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[23.60094,48.00655]}},
-{"type":"Feature","properties":{"josm":"r1455558,w98235209,w98235611","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.51609,49.17385]}},
 {"type":"Feature","properties":{"josm":"r1759910,w130750744,w130758533","error":"multipolygon members intersect each other","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.6642,44.56337]}},
 {"type":"Feature","properties":{"josm":"r1765616,w58780584,w131404982","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[33.33718,52.35255]}},
 {"type":"Feature","properties":{"josm":"r2225566,w166973294,w166973297","error":"multipolygon members intersect each other","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.5268,44.61675]}},
