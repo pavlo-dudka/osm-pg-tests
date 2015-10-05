@@ -1,13 +1,13 @@
 call config.bat
 
 %pgbin_folder%dropdb.exe -U postgres -w osm
-%pgbin_folder%createdb.exe -O postgres -U postgres -T postgis_21_sample -w osm
+%pgbin_folder%createdb.exe -O postgres -U postgres -w osm
 %psql_exe% -f sql\pg.sql
 
 cd binaries
 rem call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%"
 call osmconvert.exe ..\temp\ua.filtered.o5m -o=..\temp\ua.filtered.pbf
-call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%"
+call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%" database="%database%"
 
 cd ..
 %psql_exe% -f sql\osm.boundaries.sql > results\osm.boundaries.log 2>&1
@@ -25,3 +25,4 @@ cd ..
 rem Copying street names list
 xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.csv "%pg_data_folder%street_names\"
 xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.txt "%pg_data_folder%street_names\"
+xcopy /Y C:\Users\pdudka.ILS-UA\Dropbox\osm\data\*.txt "%pg_data_folder%"

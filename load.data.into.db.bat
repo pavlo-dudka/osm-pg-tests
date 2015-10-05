@@ -28,10 +28,13 @@ del ..\temp\ua.o5m
 del ..\temp\*.0.o5m
 
 if     exist ..\temp\ua.filtered.old.o5m (call osmconvert.exe ..\temp\ua.filtered.old.o5m ..\temp\ua.filtered.o5m --diff -o=..\temp\ua.filtered.osc)
-if     exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rxc ..\temp\ua.filtered.osc --wsc user="%username%" password="%password%" host="%host%:%port%")
-if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%")
+if     exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rxc ..\temp\ua.filtered.osc --wsc user="%username%" password="%password%" host="%host%:%port%" database="%database%")
+rem if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --ts user="%username%" password="%password%" host="%host%:%port%" database="%database%")
+if not exist ..\temp\ua.filtered.old.o5m (%pgbin_folder%dropdb.exe -U %username% -w %database%)
+if not exist ..\temp\ua.filtered.old.o5m (%pgbin_folder%createdb.exe -O %username% -U %username% -w %database%)
+if not exist ..\temp\ua.filtered.old.o5m (%psql_exe% -f ..\sql\pg.sql)
 if not exist ..\temp\ua.filtered.old.o5m (call osmconvert.exe ..\temp\ua.filtered.o5m -o=..\temp\ua.filtered.pbf)
-if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%" nodeLocationStoreType="InMemory")
+if not exist ..\temp\ua.filtered.old.o5m (call osmosis-latest\bin\osmosis --rb ..\temp\ua.filtered.pbf --lp --ws user="%username%" password="%password%" host="%host%:%port%" database="%database%" nodeLocationStoreType="InMemory")
 del ..\temp\ua.filtered.old.o5m
 del ..\temp\ua.filtered.pbf
 del ..\temp\ua.filtered.osc
