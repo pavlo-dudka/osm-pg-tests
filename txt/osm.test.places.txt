@@ -2,8 +2,6 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
-n252098339|Житомир|city||missing polygon; 
-n3773002412|Житомир|city||missing polygon; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -12,13 +10,13 @@ n26150437,r1413934|Одеса|city|name:lt=Odessa|Odesa|node and relation tag va
 n251073791,r1574364|Севастополь|city|official_status=ru:город|uk:містo зі спеціальним статусом;wikipedia=ru:Севастополь|ru:Территория, подчинённая Севастопольскому городскому совету;wikipedia:ru=Севастополь|Территория, подчинённая Севастопольскому городскому совету|node and relation tag values are different; 
 n252176252,r3030295|Симферополь|city|wikipedia=ru:Симферополь|uk:Сімферополь|node and relation tag values are different; 
 n251223522,r1792913|Хмельницький|city|name:pl=Płoskirów|Chmielnicki|node and relation tag values are different; 
-n337523450,r3493523|Баришівка|town||missing place-tag on relation or wrong name; 
 n337564360,r4642533|Десна|town||missing place-tag on relation or wrong name; 
 n497690126,r3592556|Канів|town||missing place-tag on relation or wrong name; 
 n337574659,r3586957|Світловодськ|town||missing place-tag on relation or wrong name; 
 n337553077,r3841072|Стара Синява|town||missing place-tag on relation or wrong name; 
 n337576138,r4494377|Тиврів|town||missing place-tag on relation or wrong name; 
 n337587448,r4502033|Шаргород|town||missing place-tag on relation or wrong name; 
+n337523450,w177344665,r3493523|Баришівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337522038,w242013967,r3267167|Велика Писарівка|town||missing place-tag on relation or wrong name; multiple place objects; 
 n289308798,w51551900,r421865|Вишгород|town||missing place-tag on relation or wrong name; multiple place objects; 
 n337503119,w230895555,r3096243|Дружба|town||missing place-tag on relation or wrong name; multiple place objects; 
@@ -305,7 +303,6 @@ Crimea:
 3680120775|Золотой Крым||
 
 Oblasts:
-337519298|Іллін|Iljin|Ильин
 1342166737|Рассейка||Рассейка
 3205258314|Великий Жванчик||Великий Жванчик
 
