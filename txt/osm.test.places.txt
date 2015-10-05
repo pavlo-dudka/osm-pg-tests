@@ -2,6 +2,8 @@ place-way should be closed:
 
 Different errors:
 n251073791,r3788485|Севастополь|city|official_status=ru:город|ru:город федерального значения;wikipedia=ru:Севастополь|ru:Административно-территориальное деление города федерального значения Севастополя;wikipedia:ru=Севастополь|Административно-территориальное деление города федерального значения Севастополя|missing place-tag on relation or wrong name; node and relation tag values are different; 
+n252098339|Житомир|city||missing polygon; 
+n3773002412|Житомир|city||missing polygon; 
 n253877159,r2383892|Алчевськ|city|name:pl=Ałczewsk|Ałczewśk|node and relation tag values are different; 
 n337597818,r1017311|Дніпропетровськ|city|population=1001962|1080486|node and relation tag values are different; 
 n27212295,r2175059|Евпатория|city|name:en=Yevpatoriya|Yevpatoriia|node and relation tag values are different; 
@@ -240,7 +242,7 @@ Invalid way role:
 5291646|307469369,354041432,354041439,354041441,354042244,354180174,354180175,354180178|8
 
 Invalid relation role:
-49715|type|boundary|49715|936128|R|land_area|16
+49715|type|boundary|49715|936128|R|land_area|955
 421864|type|multipolygon|421864|5424276|R|inner|80
 421864|type|multipolygon|421864|5424277|R|inner|81
 421864|type|multipolygon|421864|5424278|R|inner|82
@@ -303,6 +305,7 @@ Crimea:
 3680120775|Золотой Крым||
 
 Oblasts:
+337519298|Іллін|Iljin|Ильин
 1342166737|Рассейка||Рассейка
 3205258314|Великий Жванчик||Великий Жванчик
 
