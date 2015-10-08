@@ -77,7 +77,6 @@ n337538836,w206720049,r3589513|Миргород|town||multiple place objects;
 n337542207,w191420778,r3559880|Південне|town||multiple place objects; 
 n337538934,w188185842,r3559942|Пісочин|town||multiple place objects; 
 n337680782,w193443818,r3611036|Чернігівка|town||multiple place objects; 
-n337528439,w209513626,r3157879|Шрамківка|town||multiple place objects; 
 n337688013,w191938616,r3591204|Якимівка|town||multiple place objects; 
 n337579445,w260106991,r3525393|Царичанка|town|place=town|village|multiple place objects; node and way place-tag values are different; node and way tag values are different; 
 n337575253,w173666569,r2318287|Віньківці|town|population=6473|7000;wikipedia=uk:Віньківці|https://uk.wikipedia.org/wiki/Віньківці|multiple place objects; node and way tag values are different; 
@@ -150,6 +149,7 @@ n337695072,r3997152|Черноморское|town|addr:postcode=296400|96400;nam
 n312257558,r3167646|Чортків|town|population=28249|24649|node and relation tag values are different; 
 n313245343,r3592426|Шепетівка|town|name:pl=Szepietówka|Szepetówka|node and relation tag values are different; 
 n337671723,r2033437|Широке|town|population=11221|10222|node and relation tag values are different; 
+n337528439,r3157879|Шрамківка|town|name:prefix=селище міського типу|смт|node and relation tag values are different; 
 n3409309160,r2581142|Щастя|town|addr:postcode=91480|91483;name:en=Schastia|Shchastia;name:pl=Sczastia|Szczastia;wikipedia=uk:Щастя (місто)|uk:Щастя_(місто)|node and relation tag values are different; 
 n1830695013,r3005461|Ялта|town|wikipedia=en:Yalta|uk:Ялта|node and relation tag values are different; 
 n2407788294,w30715799|Алупка|town|population=8497|8493|node and way tag values are different; 
@@ -238,7 +238,7 @@ Invalid way role:
 5291646|307469369,354041432,354041439,354041441,354042244,354180174,354180175,354180178|8
 
 Invalid relation role:
-49715|type|boundary|49715|936128|R|land_area|955
+49715|type|boundary|49715|936128|R|land_area|957
 421864|type|multipolygon|421864|5424276|R|inner|80
 421864|type|multipolygon|421864|5424277|R|inner|81
 421864|type|multipolygon|421864|5424278|R|inner|82
