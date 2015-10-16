@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2435443,n319980504","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.49098,50.42904]}},
+{"type":"Feature","properties":{"josm":"r2435443,n320916205","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.4917,50.42772]}},
+{"type":"Feature","properties":{"josm":"r2435445,n319980504","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.49098,50.42904]}},
+{"type":"Feature","properties":{"josm":"r2435445,n667303222","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.49108,50.43019]}},
 {"type":"Feature","properties":{"josm":"r2986296,n2335513799","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.14907,49.65814]}},
 {"type":"Feature","properties":{"josm":"r2986296,n2335513819","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.14925,49.65838]}},
 {"type":"Feature","properties":{"josm":"r3079058,n2335513819","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.14925,49.65838]}},
@@ -10,10 +14,6 @@
 {"type":"Feature","properties":{"josm":"r3917171,n3782011941","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[24.12137,48.49012]}},
 {"type":"Feature","properties":{"josm":"r3919868,n3609468383","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[24.12161,48.3]}},
 {"type":"Feature","properties":{"josm":"r3919868,n3613102172","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.27813,48.43447]}},
-{"type":"Feature","properties":{"josm":"r4657689,n2963947612","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.55749,48.13674]}},
-{"type":"Feature","properties":{"josm":"r4657689,n2963947674","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.55737,48.13836]}},
-{"type":"Feature","properties":{"josm":"r4658062,n2963947612","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.55749,48.13674]}},
-{"type":"Feature","properties":{"josm":"r4658062,n2963947674","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.55737,48.13836]}},
 {"type":"Feature","properties":{"josm":"r5306577,n2999822129","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[24.25736,48.18803]}},
 {"type":"Feature","properties":{"josm":"r5306577,n3613102172","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.27813,48.43447]}},
 {"type":"Feature","properties":{"josm":"r5309087,n2999822129","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[24.25736,48.18803]}},
@@ -25,8 +25,10 @@
 {"type":"Feature","properties":{"josm":"r5342554,n3637808582","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.26251,49.11393]}},
 {"type":"Feature","properties":{"josm":"r5342554,n3784691270","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.26243,49.11284]}},
 {"type":"Feature","properties":{"josm":"r1067316,w67418105,w67420432","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.98084,48.20564]}},
+{"type":"Feature","properties":{"josm":"r1516041,w117340612,w117858580","error":"multipolygon members intersect each other","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.66092,50.47197]}},
 {"type":"Feature","properties":{"josm":"r2225566,w166973294,w166973297","error":"multipolygon members intersect each other","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.5268,44.61675]}},
 {"type":"Feature","properties":{"josm":"r3563652,w290274182,w333427386","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[39.68977,48.58685]}},
 {"type":"Feature","properties":{"josm":"r3580017,w266587405,w266587416","error":"multipolygon members intersect each other","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.23836,48.90041]}},
+{"type":"Feature","properties":{"josm":"r4814856,w259519087,w259519094","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.33326,49.61486]}},
 {"type":"Feature"}
 ]}
