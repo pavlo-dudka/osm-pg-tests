@@ -1,5 +1,6 @@
 building-node in a way:
 298744386|27222173|description:Bay walk;  foot:designated;  highway:footway;  sac_scale:yes
+394906804|258148150|electrified:contact_line;  frequency:0;  gauge:1520;  railway:rail;  usage:main;  voltage:3000
 775799160|117477921|highway:track
 775799160|253570591|highway:track
 929454995|79650310|highway:service
@@ -7,12 +8,15 @@ building-node in a way:
 1087021547|93668858|highway:residential;  name:Павла Дыбенко улица;  name:en:Pavla Dybenko Street;  name:ru:Павла Дыбенко улица;  name:uk:Павла Дибенка вулиця
 1087021547|93668898|highway:service
 1110419499|95809407|highway:footway
+1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
 1603258261|147117309|addr:city:Новомайське;  addr:housenumber:55А;  addr:street:Миру вулиця;  building:house;  source:Bing
 1783155716|166898225|highway:residential
 1783155716|166898262|highway:residential
 1855330073|174886961|highway:service;  oneway:yes
+1949803029|254835788|gauge:1520;  railway:rail;  usage:main
 2043454400|193835943|highway:service;  service:petrol
 2196597123|318396301|highway:track
+2470700176|239270721|railway:rail
 2507728877|147117812|addr:city:Новомайське;  addr:housenumber:65;  addr:street:Гагаріна вулиця;  building:house;  source:Bing
 2840063514|279814944|highway:residential
 2840063514|305219915|highway:primary;  lanes:4;  maxspeed:60;  name:1-го Травня проспект;  name:en:1-st of May Avenue;  name:ru:1-го Мая проспект;  name:uk:1-го Травня проспект
@@ -47,6 +51,7 @@ Redundant space-symbols:
 291892674|name:pl|pasaż Andreolli 
 291892675|name:pl|pasaż Andreolli 
 291892676|name:pl|pasaż Andreolli 
+328729912|ref|Ж/д Вокзал 
 373771969|note|Нижнєнська загальноосвітня школа I - III ступенів № 36 – найстарша школа у місті Первомайську(1901 р.). 
 
 No suffix:
@@ -184,6 +189,7 @@ No suffix:
 5 аллея|206663190
 5 вулиця|184560951,317359577
 5 Линия|122643866
+500 річчя Радехова вулиця|168025777
 5а вулиця|367969363
 6-ой станции Люстдорфской дороги 1-я линия|31511564
 6 вулиця|317359576
