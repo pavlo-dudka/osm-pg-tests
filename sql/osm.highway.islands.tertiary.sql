@@ -17,7 +17,7 @@ select '"features": [';
 with tab as (select min(highway_level) highway_level, count(*) as NumberOfRoads, string_agg('w'||id, ','  order by id) objects, array_agg(id order by id) arr 
              from mainIsland
              where ind > 1
-             group by substr(highway_level,2),ind)
+             group by substr(highway_level,1,5),ind)
 select '{"type":"Feature","properties":{"josm":"'||objects||'","level":"'||highway_level||'","NumberOfRoads":"'||NumberOfRoads||'"},'||
        '"geometry":'||(select st_asgeojson(st_collect(linestring),5) from highways where id=any(arr))||'},'
 from tab
