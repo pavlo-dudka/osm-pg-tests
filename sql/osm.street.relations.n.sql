@@ -20,7 +20,7 @@ from t2
 inner join ways w2 on _st_dwithin(t2.geom,w2.linestring,0.01)
 inner join way_tags wt2 on wt2.way_id=w2.id and wt2.k='name' and wt2.v=t2.rel_name
 where not exists(select * from relation_members rm2 where rm2.relation_id=t2.relation_id and rm2.member_id=w2.id)
-  and not exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='highway' and wt3.v in ('service','footway','platform','bus_stop'))
+  and not exists(select * from way_tags wt3 where wt3.way_id=w2.id and wt3.k='highway' and wt3.v in ('track','service','footway','platform','bus_stop'))
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_1=t2.relation_id and exc.street_relation_id_2=rm.relation_id and rm.member_id=w2.id)
   and not exists(select * from exc_street_relations_n exc,relation_members rm where exc.street_relation_id_2=t2.relation_id and exc.street_relation_id_1=rm.relation_id and rm.member_id=w2.id)
 union all
