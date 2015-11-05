@@ -13,18 +13,19 @@ start "place.districts" %psql_exe% -f sql\osm.place.districts.sql -o results\pla
 
 start "non-uk" test.non-uk.bat
 start "highways" test.highways.bat
+start "railways" test.railways.bat
 
 start "test" %psql_exe% -f sql\osm.test.sql -o results\osm.test.txt
 start "test.places" %psql_exe% -f sql\osm.test.places.sql -o results\osm.test.places.txt
 start "koatuu" %psql_exe% -f sql\osm.koatuu.sql -o results\osm.koatuu.txt
-start "pt.errors" %psql_exe% -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
-start "pt.errors.2" %psql_exe% -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
+rem start "pt.errors" %psql_exe% -f sql\osm.pt.errors.sql -o results\osm.pt.errors.txt
+rem start "pt.errors.2" %psql_exe% -f sql\osm.pt.errors.2.sql -o results\osm.pt.errors.2.txt
 start "roads" %psql_exe% -f sql\osm.roads.sql -o results\osm.roads.txt
 start "routes" %psql_exe% -f sql\osm.routes.sql -o results\osm.routes.txt
 start "roads.ref" %psql_exe% -f sql\osm.roads.ref.sql -o results\osm.roads.ref.txt
 start "addr.housenumber" %psql_exe% -f sql\osm.addr.housenumber.txt.sql -o results\osm.addr.housenumber.txt
 
-start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
+rem start "ternopil" %psql_exe% -f sql\osm.ternopil.sql -o results\osm.ternopil.txt
 start "berdychiv" %psql_exe% -f sql\osm.berdychiv.sql -o results\osm.Berdychiv.txt
 start "chernihiv" %psql_exe% -f sql\osm.chernihiv.sql -o results\osm.Chernihiv.txt
 rem start "chernivtsi" %psql_exe% -f sql\osm.chernivtsi.sql -o results\osm.Chernivtsi.txt
