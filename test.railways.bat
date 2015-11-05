@@ -6,3 +6,4 @@ call config.bat
 %psql_exe% -f sql\osm.railway.islands.sql
 %psql_exe% -f sql\osm.railway.islands.main.sql -o results\railway.islands.main.geojson
 %psql_exe% -f sql\osm.railway.islands.service.sql -o results\railway.islands.service.geojson
+exit
