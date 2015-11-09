@@ -41,4 +41,4 @@ where not exists(select * from exc_street_relations_o exc where exc.street_relat
 order by 1;
 
 select '{"type":"Feature"}';
-select ']}'; 
+select ']}';

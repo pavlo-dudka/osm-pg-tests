@@ -19,5 +19,6 @@ $psql_exe -f sql/osm.highway.islands.sql
 $psql_exe -f sql/osm.highway.islands.tertiary.sql -o results/highway.islands.tertiary.geojson
 $psql_exe -f sql/osm.highway.islands.unclassified.sql -o results/highway.islands.unclassified.geojson
 $psql_exe -f sql/osm.highway.islands.service.sql -o results/highway.islands.service.geojson
+$psql_exe -f sql/osm.highway.islands.link.sql -o results/highway.islands.link.geojson
 
 exit 0

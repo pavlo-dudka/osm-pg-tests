@@ -17,6 +17,7 @@ $psql_exe -f sql/osm.street.relations.o.sql -o results/street.relations.o.geojso
 $psql_exe -f sql/osm.addr.housenumber.geo.sql -o results/house.numbers.geojson 2>&1 & #"addr.housenumber"
 $psql_exe -f sql/osm.cities.without.place.polygon.sql -o results/cities.without.place.polygon.geojson 2>&1 & #"cities.without.place.polygon"
 $psql_exe -f sql/osm.waterways.sql -o results/waterways.layer.geojson 2>&1 & #"waterways.layer"
+$psql_exe -f sql/osm.place.districts.sql -o results/place.districts.geojson 2>&1 & #"place.districts"
 
 echo "start test.non-uk.sh"
 #"non-uk"
@@ -26,6 +27,8 @@ echo "start test.highways.sh"
 #"highways"
 ./test.highways.sh 2>&1 &
 
+./test.railways.sh 2>&1 &
+
 #start "test"
 $psql_exe -f sql/osm.test.sql -o results/osm.test.txt 2>&1 &
 #start "test.places"
@@ -33,9 +36,9 @@ $psql_exe -f sql/osm.test.places.sql -o results/osm.test.places.txt 2>&1 &
 #start "koatuu"
 $psql_exe -f sql/osm.koatuu.sql -o results/osm.koatuu.txt 2>&1 &
 #start "pt.errors"
-$psql_exe -f sql/osm.pt.errors.sql -o results/osm.pt.errors.txt 2>&1 &
+#$psql_exe -f sql/osm.pt.errors.sql -o results/osm.pt.errors.txt 2>&1 &
 #start "pt.errors.2"
-$psql_exe -f sql/osm.pt.errors.2.sql -o results/osm.pt.errors.2.txt 2>&1 &
+#$psql_exe -f sql/osm.pt.errors.2.sql -o results/osm.pt.errors.2.txt 2>&1 &
 #start "roads"
 $psql_exe -f sql/osm.roads.sql -o results/osm.roads.txt 2>&1 &
 #start "routes"
@@ -46,7 +49,7 @@ $psql_exe -f sql/osm.roads.ref.sql -o results/osm.roads.ref.txt 2>&1 &
 $psql_exe -f sql/osm.addr.housenumber.txt.sql -o results/osm.addr.housenumber.txt 2>&1 &
 
 #start "ternopil"
-$psql_exe -f sql/osm.ternopil.sql -o results/osm.ternopil.txt 2>&1 &
+#$psql_exe -f sql/osm.ternopil.sql -o results/osm.ternopil.txt 2>&1 &
 #start "berdychiv"
 $psql_exe -f sql/osm.berdychiv.sql -o results/osm.Berdychiv.txt 2>&1 &
 #start "chernihiv"
@@ -80,14 +83,9 @@ $psql_exe -f sql/osm.sumy.sql -o results/osm.Sumy.txt 2>&1 &
 #start "zhytomyr"
 $psql_exe -f sql/osm.zhytomyr.sql -o results/osm.Zhytomyr.txt 2>&1 &
 
-PROCESS="psql"
-while :
-  do
-    RESULT=`pgrep ${PROCESS}`
-      if [ "${RESULT:-null}" = null ]; then
-        exit 0
-      fi
-    sleep 5
+for job in `jobs -p`
+do
+    wait $job
 done
 
 exit 0

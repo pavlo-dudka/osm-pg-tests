@@ -2,13 +2,13 @@
 
 host=localhost
 port=5432
-username=andygol
-password=
+username=postgres
+password=postgres
 database=osm
-pgbin_folder="/usr/local/Cellar/postgresql/9.4.4/bin"
-psql_exe="psql -h $host -p $port -U $username -w -d $database -A -t -q"
-pg_data_folder="/usr/local/var/postgres/osm/"
+pgbin_folder="C:/Progra~1/PostgreSQL/9.4/bin"
+psql_exe="$pgbin_folder/psql -h $host -p $port -U $username -w -d $database -A -t -q"
+pg_data_folder="C:/Progra~1/PostgreSQL/9.4/data/osm/"
 if [ ! -e $pg_data_folder ]
   then
-    mkdir /usr/local/var/postgres/osm
+    mkdir $pg_data_folder
 fi

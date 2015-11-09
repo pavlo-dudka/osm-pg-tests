@@ -69,7 +69,6 @@ if [ ! -d $publish_path"/geojson/" ]
 fi
 
 cp -f *.geojson "$publish_path/geojson/"
-#cp -f *.geojsont $publish_path"/geojson"
 
 if [ ! -d $publish_path"/txt/" ]
   then

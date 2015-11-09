@@ -1,6 +1,6 @@
 drop table if exists koatuu;
 create table koatuu(code text, place text, title text);
-copy koatuu from 'osm/koatuu.csv' delimiter ';' csv quote '"';
+copy koatuu from 'osm/koatuu.csv' delimiter ',' csv quote '"';
 update koatuu set code=lpad(code,10,'0'), title=replace(title,'''','’');
 update koatuu set title=replace(title,'М.','') where title like 'М.%';
 update koatuu set title=upper('Масалаївка') where code='7424982503';
@@ -41,9 +41,9 @@ create index idx_koatuu_code on koatuu(code);
 
 select '';
 select 'Koatuu - missing place:';
-select *
+select * 
 from koatuu
-where place<>'Р'
+where place<>'Р' 
   and code not in (select v from node_tags where k='koatuu' and node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet')))
 order by code;
 
@@ -57,7 +57,7 @@ where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
 group by ntk.v
 having count(*)>1
 order by ntk.v;
-
+ 
 select '';
 select 'Koatuu - different names:';
 select n.id,ntk.v,code,ntn.v,title
@@ -105,19 +105,10 @@ select koatuu,string_agg(relation_id::text,', '),string_agg(name,', ') from dist
 
 select '';
 select 'Koatuu - district overlap';
-select
-d1.relation_id, d1.name, d2.relation_id, d2.name
-from districts d1, districts d2
-where _st_overlaps(d1.linestring, d2.linestring) and d1.relation_id<d2.relation_id;
-
-select '';
-select 'Koatuu - inconsistent codes for place and district';
-select n.id,ntn.v,ntk.v,r.koatuu,r.name,r.relation_id
-from node_tags ntp
-inner join nodes n on n.id=ntp.node_id
-inner join districts r on st_contains(r.linestring, n.geom)
-inner join node_tags ntn on ntn.node_id=n.id and ntn.k='name'
-inner join node_tags ntk on ntk.node_id=n.id and ntk.k='koatuu'
-where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
-  and substr(ntk.v,1,5)<>substr(r.koatuu,1,5)
-order by r.koatuu,ntk.v;
+select d1_relation_id,d1_name,d2_relation_id,d2_name,st_asGeojson(geom) 
+from (
+  select 
+  d1.relation_id d1_relation_id, d1.name d1_name, d2.relation_id d2_relation_id, d2.name d2_name, (st_dump(st_intersection(d1.linestring, d2.linestring))).geom
+  from districts d1, districts d2
+  where _st_overlaps(d1.linestring, d2.linestring) and d1.relation_id<d2.relation_id) t
+where st_geometryType(t.geom)='ST_Polygon';

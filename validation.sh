@@ -20,8 +20,8 @@ fi
 #  exec peirce.sh
 #fi
 
-if [ -e publish.results.now.sh ]; then
-  ./publish.results.now.sh
-fi
+$psql_exe -f sql/osm.vacuum.full.sql 2>&1 &
 
-$psql_exe -f sql/osm.vacuum.full.sql
+if [ -e publish.results.now.sh ]; then
+  # ./publish.results.now.sh
+fi
