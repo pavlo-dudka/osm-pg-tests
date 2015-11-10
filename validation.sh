@@ -25,3 +25,5 @@ if [ -e publish.results.now.sh ]; then
 fi
 
 $psql_exe -f sql/osm.vacuum.full.sql
+
+exit 0

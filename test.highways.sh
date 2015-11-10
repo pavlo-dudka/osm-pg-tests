@@ -21,4 +21,9 @@ $psql_exe -f sql/osm.highway.islands.unclassified.sql -o results/highway.islands
 $psql_exe -f sql/osm.highway.islands.service.sql -o results/highway.islands.service.geojson
 $psql_exe -f sql/osm.highway.islands.link.sql -o results/highway.islands.link.geojson
 
+for job in `jobs -p`
+do
+    wait $job
+done
+
 exit 0
