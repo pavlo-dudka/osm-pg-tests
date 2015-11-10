@@ -1,0 +1,1 @@
+git -C %publish_path% pull
