@@ -1,5 +1,4 @@
 #!/bin/sh
 
-cd $publish_path
-git commit -a -m "validation (`date +%d/%m/%Y' '%H:%M`)"
-git push origin gh-pages
+git -C $publish_path commit -a -m "validation (`date +%d/%m/%Y' '%H:%M`)"
+git -C $publish_path push origin gh-pages
