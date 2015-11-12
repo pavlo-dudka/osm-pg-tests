@@ -7,7 +7,7 @@ select '{"type":"Feature","id":"'||b.id||'","properties":{"josm":"n'||b.id||',w'
 from end_nodes b
   inner join highways h on b.way_id=h.id and highway_level in ('trunk','primary','secondary')
   inner join regions r on _st_containsproperly(r.linestring,b.geom)
-where b.id not in (2397056225,659524007,314440025,720719749)
+where b.id not in (2397056225,659524007,314440025,720719749,2790415616)
 order by b.id;
 
 select '{"type":"Feature","id":"'||b.id||'","properties":{"josm":"n'||b.id||',w'||h.id||'","region":"'||r.name||'"},"geometry":'||st_asgeojson(b.geom,5)||'},'
