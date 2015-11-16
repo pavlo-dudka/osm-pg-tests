@@ -4,6 +4,7 @@
 "features": [
 {"type":"Feature","properties":{"josm":"r1573841,w111855815","relationtags":"name|Київське шосе вулиця","membertags":"addr:street|Київське шосе","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.49545,49.56158]}},
 {"type":"Feature","properties":{"josm":"r1635211,w202992038","relationtags":"name|Енгельса вулиця","membertags":"addr:street|Артема вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.52704,49.58503]}},
+{"type":"Feature","properties":{"josm":"r2172491,w380264417","relationtags":"name|Леніна вулиця","membertags":"name|Панфілова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.89063,49.44368]}},
 {"type":"Feature","properties":{"josm":"r2274010,w192707491","relationtags":"name|Генерала Миколи Пухова вулиця","membertags":"addr:street|Пухова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[26.28422,50.62907]}},
 {"type":"Feature","properties":{"josm":"r2391442,w132765268","relationtags":"name:ru|Довгалевский проезд","membertags":"name:ru|Довгалевский въезд","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.1707,50.03898]}},
 {"type":"Feature","properties":{"josm":"r2392577,w182987933","relationtags":"name|Старова вулиця","membertags":"addr:street|Електроінструментальний провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.29442,50.04159]}},
@@ -125,6 +126,8 @@
 {"type":"Feature","properties":{"josm":"r3756222,w116610619","relationtags":"name:ru|Осинний переулок","membertags":"name:ru|Осенний переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.47122,47.5975]}},
 {"type":"Feature","properties":{"josm":"r3767260,w379398857","relationtags":"name|Молодогвардійська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.13447,48.47948]}},
 {"type":"Feature","properties":{"josm":"r3767260,w379398861","relationtags":"name|Молодогвардійська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.12487,48.47775]}},
+{"type":"Feature","properties":{"josm":"r3815511,w202389502","relationtags":"name:ru|Массив Радужный","membertags":"name:ru|Радужный массив","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.70544,46.40483]}},
+{"type":"Feature","properties":{"josm":"r3815511,w202389502","relationtags":"name:uk|Масив Радужний","membertags":"name:uk|Радужний масив","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.70544,46.40483]}},
 {"type":"Feature","properties":{"josm":"r3825758,w116610550","relationtags":"name:ru|Козацкая улица","membertags":"name:ru|Казацкая улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.4705,47.60497]}},
 {"type":"Feature","properties":{"josm":"r3830261,w116610573","relationtags":"name:ru|Надии улица","membertags":"name:ru|Надежды улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.47153,47.60553]}},
 {"type":"Feature","properties":{"josm":"r4083368,w88140016","relationtags":"name:uk|Гражданська вулиця","membertags":"name:uk|Громадянська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.09514,44.92609]}},
@@ -135,6 +138,7 @@
 {"type":"Feature","properties":{"josm":"r4133748,w309460422","relationtags":"name|Дюміна вулиця","membertags":"addr:street|Шевченка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.79356,46.75652]}},
 {"type":"Feature","properties":{"josm":"r4133753,w309460420","relationtags":"name|Мазіна вулиця","membertags":"addr:street|Пролетарський проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.80209,46.74881]}},
 {"type":"Feature","properties":{"josm":"r4133758,w309460418","relationtags":"name|Свободи вулиця","membertags":"addr:street|Праці проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.78844,46.75848]}},
+{"type":"Feature","properties":{"josm":"r414813,n3836817958","relationtags":"name|Кудрявська вулиця","membertags":"addr:street|Кудрявська вулиця","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.50112,50.45709]}},
 {"type":"Feature","properties":{"josm":"r4213731,w313735367","relationtags":"name:ru|9 Мая улица","membertags":"name:ru|9-го Мая улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.59031,47.20576]}},
 {"type":"Feature","properties":{"josm":"r4213731,w313735367","relationtags":"name:uk|9 Травня вулиця","membertags":"name:uk|9-го Травня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.59031,47.20576]}},
 {"type":"Feature","properties":{"josm":"r4213731,w313735367","relationtags":"name|9 Травня вулиця","membertags":"name|9-го Травня вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.59031,47.20576]}},
@@ -144,10 +148,14 @@
 {"type":"Feature","properties":{"josm":"r4272230,w237045253","relationtags":"name|Червона вулиця","membertags":"addr:street|Карла Маркса вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.79301,46.75377]}},
 {"type":"Feature","properties":{"josm":"r4277613,w96170392","relationtags":"name:ru|Ореховая улица","membertags":"name:ru|Ново-Садовая","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.31256,45.05444]}},
 {"type":"Feature","properties":{"josm":"r4277613,w96170392","relationtags":"name|Ореховая улица","membertags":"name|Ново-Садовая","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.31256,45.05444]}},
+{"type":"Feature","properties":{"josm":"r4464608,w318020770","relationtags":"name|Сонячна вулиця","membertags":"name|Квіткова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.82251,49.54761]}},
 {"type":"Feature","properties":{"josm":"r4638935,w330818752","relationtags":"name|8 Марта улица","membertags":"name|8-го Марта улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.3852,48.01826]}},
 {"type":"Feature","properties":{"josm":"r4673711,w306332637","relationtags":"name|Калініна вулиця","membertags":"addr:street|Олександра Сербиченка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.42621,49.03843]}},
 {"type":"Feature","properties":{"josm":"r4719550,w316304146","relationtags":"name|3 Мікрорайон","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[36.21712,49.40419]}},
 {"type":"Feature","properties":{"josm":"r5251054,w294813883","relationtags":"name:uk|Черняхівського вулиця","membertags":"name:uk|Черняховського вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.0233,48.35278]}},
+{"type":"Feature","properties":{"josm":"r5661338,w361875784","relationtags":"name|Бульварна вулиця","membertags":"name|Зелена вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[26.00924,49.54465]}},
+{"type":"Feature","properties":{"josm":"r5661338,w361875841","relationtags":"name|Бульварна вулиця","membertags":"name|Зелена вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[26.00798,49.54228]}},
+{"type":"Feature","properties":{"josm":"r5661793,w160740340","relationtags":"name|Семашка вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.36195,50.46068]}},
 
 {"type":"Feature"}
 ]}
