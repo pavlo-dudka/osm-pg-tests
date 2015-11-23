@@ -12,6 +12,6 @@ from ways w
   left join  way_tags wtl on wtl.way_id=w.id and wtl.k='layer'
   left join  way_tags wts on wts.way_id=w.id and wts.k='service'
   left join  way_tags wtu on wtu.way_id=w.id and wtu.k='usage'
-;
+order by 1;
 create index idx_railways_id on railways(id);
 create index idx_railways_linestring on railways using gist(linestring);
