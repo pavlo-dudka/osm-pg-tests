@@ -68,6 +68,8 @@ $psql_exe -f sql/osm.ivano_frankivsk.sql -o results/osm.Ivano-Frankivsk.txt 2>&1
 $psql_exe -f sql/osm.kamianets_podilskyi.sql -o results/osm.Kamianets-Podilskyi.txt 2>&1 &
 #start "kirovohrad"
 $psql_exe -f sql/osm.kirovohrad.sql -o results/osm.Kirovohrad.txt 2>&1 &
+#start "kramatorsk"
+$psql_exe -f sql/osm.kramatorsk.sql -o results/osm.Kramatorsk.txt 2>&1 &
 #start "kremenchuk"
 $psql_exe -f sql/osm.kremenchuk.sql -o results/osm.Kremenchuk.txt 2>&1 &
 #start "kyiv"
