@@ -21,9 +21,9 @@ sum(cnt) as cnt,
 string_agg(arr, ',') as ways
 from (select wt.v name_, wt2.v name_uk_, wt3.v name_ru_, string_agg(h.id::text, ',') arr, count(*) cnt
 	from highways h 
-	left join way_tags wt on wt.way_id=h.id and wt.k='name'
-	left join way_tags wt2 on wt2.way_id=h.id and wt2.k='name:uk'
-	left join way_tags wt3 on wt3.way_id=h.id and wt3.k='name:ru'
+	left join way_tags wt on wt.way_id=h.id and wt.k in ('name','old_name','alt_name')
+	left join way_tags wt2 on wt2.way_id=h.id and wt2.k=wt.k||':uk'
+	left join way_tags wt3 on wt3.way_id=h.id and wt3.k=wt.k||':ru'
 	group by wt.v,wt2.v,wt3.v) wt
 group by name_uk,name_ru
 ) t
