@@ -2,7 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r5713600,n3873283584","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.51423,50.49339]}},
+{"type":"Feature","properties":{"josm":"r5713600,n3873283590","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.51511,50.49294]}},
 {"type":"Feature","properties":{"josm":"r1067316,w67418105,w67420432","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.98084,48.20564]}},
 {"type":"Feature","properties":{"josm":"r5708677,w72100068,w383601173","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.95455,48.46701]}},
+{"type":"Feature","properties":{"josm":"r5713600,w384029660,w384029662","error":"multipolygon members intersect each other","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.51585,50.49323]}},
 {"type":"Feature"}
 ]}
