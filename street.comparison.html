@@ -36,14 +36,19 @@
 		for (i = 0; i < x.length; i++)
 		{
 			var y = x[i].split('|');
-			document.write('<tr><td>' + y[0] + '</td>');
-			if (typeof(y[4]) != "undefined")
-			{
-				document.write('<td>' + y[4] + '</td>');
-			}
+			document.write('<tr>');
 			if (typeof(y[6]) != "undefined")
 			{
 				document.write('<td>' + y[6] + '</td>');
+			}
+			if (typeof(y[7]) != "undefined")
+			{
+				document.write('<td>' + y[7] + '</td>');
+			}
+			document.write('<td>' + y[0] + '</td>');
+			if (typeof(y[4]) != "undefined")
+			{
+				document.write('<td>' + y[4] + '</td>');
 			}
 			if (typeof(y[1]) != "undefined")
 			{
