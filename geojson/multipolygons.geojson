@@ -2,10 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r5722316","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.90684,50.90503]}},
+{"type":"Feature","properties":{"josm":"r3166714,n2432996319","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[25.78282,49.02986]}},
+{"type":"Feature","properties":{"josm":"r3166714,n2432997302","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[25.76245,49.03149]}},
 {"type":"Feature","properties":{"josm":"r1067316,w67418105,w67420432","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.98084,48.20564]}},
-{"type":"Feature","properties":{"josm":"r5686455,w382662491,w382677832","error":"multipolygon members intersect each other","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.70681,48.91248]}},
-{"type":"Feature","properties":{"josm":"r5686455,w382662491,w382677837","error":"multipolygon members intersect each other","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.6868,48.8981]}},
-{"type":"Feature","properties":{"josm":"r5686455,w382662491,w382677883","error":"multipolygon members intersect each other","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.69779,48.90599]}},
 {"type":"Feature"}
 ]}
