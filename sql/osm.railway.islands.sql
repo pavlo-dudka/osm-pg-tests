@@ -21,6 +21,10 @@ DECLARE	ind int;
 BEGIN
 	insert into mainIslandRail
 	select 'main', 1, 4429540;
+	insert into mainIslandRail
+	select 'main', 1, 26118465;
+	insert into mainIslandRail
+	select 'main', 1, 24946061;
 	
 	insert into mainIslandRail
 	with recursive tab as
