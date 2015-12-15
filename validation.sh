@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -e config.sh ]; then
   source ./config.sh
@@ -21,7 +21,7 @@ fi
 #fi
 
 if [ -e publish.results.now.sh ]; then
-  # ./publish.results.now.sh
+  ./publish.results.now.sh
 fi
 
 $psql_exe -f sql/osm.vacuum.full.sql

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-git -C $publish_path pull origin gh-pages
+git --git-dir=$publish_path/.git --work-tree=$publish_path pull origin gh-pages

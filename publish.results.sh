@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # functions declaration
 # =====================
@@ -33,30 +33,24 @@ processGeojson () {
   fi
 
   if [ -z "$errdate" ]; then
-    errdate=$(date +%d\.%m\.%Y' '%H\:%M\:%S)
+    errdate=$(date +%d\.%m\.%Y'|'%H\:%M)
   fi
 
   echo "$file $2 $errdate" >> error.summary
 }
 
 recordItem () {
-  echo \<item\> >> test.rss
-  echo \<guid\>$1 $3\</guid\> >> test.rss
-  file=(`echo $1|sed 's/.geojson.*$//'`)
-  echo \<link\>$publish_url/test.html?$file\</link\> >> test.rss
-  peirce=${file:0:6}
-  if [[ "$peirce" = "peirce" ]]
-    then
-      echo \<author\>Ch.S. Peirce\</author\> >> test.rss
-    else
-      echo \<author\>dudka\</author\> >> test.rss
-  fi
-
-    echo \<title\>$file - $2 error\(s\) found at $3\</title\> >> test.rss
-    echo \<description\>\<![CDATA[$2 error"("s")" found: \<a href="$publish_url/test.html?map?$file"\>map\</a\> \<a href="$publish_url/test.html?table?$file"\>table\</a\>]]\>\</description\> >> test.rss
-    echo \<pubDate\>"$3"\</pubDate\> >> test.rss
-    echo \</item\> >> test.rss
+  echo -e '<item>\r' >> test.rss
+  echo -e '<guid>'$1 $3'</guid>\r' >> test.rss
+  file=(`echo -e $1|sed 's/.geojson.*$//'`)
+  echo -e '<link>'$publish_url'/test.html?'$file'</link>\r' >> test.rss
+  echo -e '<author>dudka</author>\r' >> test.rss
+  echo -e '<title>'$file' - '$2' error(s) found at '$3'</title>\r' >> test.rss
+  echo -e '<description><![CDATA['$2' error(s) found: <a href="'$publish_url'/test.html?map?'$file'">map</a> <a href="'$publish_url'/test.html?table?'$file'">table</a>]]></description>\r' >> test.rss
+  echo -e '<pubDate>'$3'</pubDate>\r' >> test.rss
+  echo -e '</item>\r' >> test.rss
 }
+
 
 # main
 # ====
@@ -83,7 +77,7 @@ mv house.numbers.geojson house.numbers.hidden
 mv kyiv.building.levels.geojson kyiv.building.levels.hidden
 mv non-uk.geojson non-uk.hidden
 
-md5 -r *.geojson > error.hash
+md5sum *.geojson > error.hash
 
 if [ -e error.count.txt ]
   then
@@ -97,7 +91,10 @@ do
   echo $a `grep -c "properties" $a` >> error.count.txt
 done
 
-mv *.hidden *.geojson
+for file in *.hidden
+do
+ mv "$file" "${file%.hidden}.geojson"
+done
 
 while read line; do
   echo "processing geojson param: $line" #debug output
@@ -105,19 +102,18 @@ while read line; do
   processGeojson ${param[0]} ${param[1]}
 done < error.count.txt
 
-echo \<?xml version=\"1.0\" encoding=\"utf-8\"?\> > test.rss
-echo \<rss version=\"2.0\"\> >> test.rss
-echo \<channel\> >> test.rss
-echo \<title\>Quality Assurance "("OSM Ukraine")"\</title\> >> test.rss
-echo \<link\>$publish_url/test.html\</link\> >> test.rss
-echo \<lastBuildDate\>`LC_TIME=en_US.UTF-8 date`\</lastBuildDate\> >> test.rss
+echo -e '<?xml version="1.0" encoding="utf-8" ?>\r' > test.rss
+echo -e '<rss version="2.0">\r' >> test.rss
+echo -e '<channel>\r' >> test.rss
+echo -e '<title>Quality Assurance (OSM Ukraine)</title>\r' >> test.rss
+echo -e '<link>'$publish_url'/test.html</link>\r' >> test.rss
 
 while read line; do
   recordItem $line
 done < error.summary
 
-echo \</channel\> >> test.rss
-echo \</rss\> >> test.rss
+echo -e '</channel>\r' >> test.rss
+echo -e '</rss>\r' >> test.rss
 
 cp -f error.count.txt $publish_path/txt/
 cp -f test.rss $publish_path/

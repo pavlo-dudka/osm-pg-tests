@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-publish_path="/Users/andygol/Documents/github/osm-pg-tests-gh-pages" #локальна тека
+publish_path="/home/osm-pg-tests-gh-pages" #локальна тека
 publish_url="http://pavlo-dudka.github.io/osm-pg-tests"
 
 if [ -e publish.results.sh ]; then
