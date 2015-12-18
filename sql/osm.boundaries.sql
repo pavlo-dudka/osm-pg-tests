@@ -1,4 +1,4 @@
-vacuum;
+--vacuum;
 
 update relations r
   set linestring=t.geom

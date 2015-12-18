@@ -25,8 +25,16 @@ BEGIN
 	select 'main', 1, 26118465;
 	insert into mainIslandRail
 	select 'main', 1, 24946061;
-	
 	insert into mainIslandRail
+        select 'main', 1, 211404007;
+	insert into mainIslandRail
+        select 'main', 1, 46668535;
+	insert into mainIslandRail
+        select 'main', 1, 92201760;	
+	insert into mainIslandRail
+        select 'main', 1, 33512752;
+	insert into mainIslandRail
+
 	with recursive tab as
 	(
 		select 1 skip, id from mainIslandRail

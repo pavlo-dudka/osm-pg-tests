@@ -5,6 +5,7 @@ inner join way_tags wt on wt.way_id=w.id and wt.k='place'
 where st_isclosed(w.linestring)='f'
 order by 1;
 
+/*
 select '';
 select 'Different errors:';
 with wn as (select w2.id,w2.linestring,wtn2.v from ways w2 inner join way_tags wtn2 on wtn2.way_id=w2.id inner join way_tags wtp2 on wtp2.way_id=w2.id where wtn2.k='name' and wtp2.k='place' and st_isclosed(w2.linestring)='f'),
@@ -33,7 +34,7 @@ from nodes n
   left  join way_tags wtp on wtp.way_id=w.id and wtp.k='place' 
 where exists(select * from regions r where st_contains(r.linestring,n.geom)))
 select * from tab where errors<>''
-order by 3,5,2,1;
+order by 3,5,2,1;*/
 
 select '';
 select 'Multiple polygons:';

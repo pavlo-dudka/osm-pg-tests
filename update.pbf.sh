@@ -8,7 +8,7 @@ fi
 
 if [ ! -e temp/UA.osm.pbf ]
   then
-    bin/wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/UA.osm.pbf
+    wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/UA.osm.pbf
 fi
 
 mv temp/UA.osm.pbf temp/UA.0.pbf
@@ -17,7 +17,7 @@ cd bin
 
 if [ ! -e osmupdate ]
   then
-    bin/wget -O - http://m.m.i24.cc/osmupdate.c | cc -x c - -o osmupdate
+    wget -O - http://m.m.i24.cc/osmupdate.c | cc -x c - -o osmupdate
   else
     ./osmupdate ../temp/UA.0.pbf ../temp/UA.1.pbf --hour --max-merge=2 -v --keep-tempfiles --tempfiles=../temp/osmupdate/
     ./osmconvert ../temp/UA.1.pbf -o=../temp/UA.osm.pbf -B=../poly/UA.poly --complete-ways --complex-ways
