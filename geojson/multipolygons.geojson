@@ -2,10 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r2945922,n27128825","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.72009,46.49538]}},
-{"type":"Feature","properties":{"josm":"r2945922,n278078576","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.72581,46.47364]}},
-{"type":"Feature","properties":{"josm":"r2952493,n27128825","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.72009,46.49538]}},
-{"type":"Feature","properties":{"josm":"r2952493,n278078576","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.72581,46.47364]}},
 {"type":"Feature","properties":{"josm":"r5748893","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.82948,50.93442]}},
 {"type":"Feature","properties":{"josm":"r1067316,w67418105,w67420432","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.98084,48.20564]}},
 {"type":"Feature"}
