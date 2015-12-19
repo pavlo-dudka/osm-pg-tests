@@ -19,7 +19,7 @@ if [ ! -e osmupdate ]
   then
     wget -O - http://m.m.i24.cc/osmupdate.c | cc -x c - -o osmupdate
   else
-    ./osmupdate ../temp/UA.0.pbf ../temp/UA.1.pbf --hour --max-merge=2 -v --keep-tempfiles --tempfiles=../temp/osmupdate/
+    ./osmupdate ../temp/UA.0.pbf ../temp/UA.1.pbf --minute --max-merge=2 -v --keep-tempfiles --tempfiles=../temp/osmupdate/
     ./osmconvert ../temp/UA.1.pbf -o=../temp/UA.osm.pbf -B=../poly/UA.poly --complete-ways --complex-ways
 fi
 

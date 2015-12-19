@@ -10,7 +10,7 @@ with t as (
     inner join ways w on w.id=rm.member_id
   where rt.k='type' and rt.v='associatedStreet'),
 t2 as (
-  select t.relation_id,st_collect(geom) geom, min(geom) geom_node, rtn.v rel_name
+  select t.relation_id,st_collect(distinct geom) geom, min(geom) geom_node, rtn.v rel_name
   from t
    inner join relation_tags rtn on rtn.relation_id=t.relation_id and rtn.k in ('name','name:uk','name:ru')
   group by t.relation_id,rtn.v),
