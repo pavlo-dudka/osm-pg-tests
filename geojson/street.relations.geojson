@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1335840,w30171009","relationtags":"name|Червоних Партизан вулиця","membertags":"name|Владислава Городецького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.46131,49.23038]}},
 {"type":"Feature","properties":{"josm":"r1344656,w228072970","relationtags":"name:ru|Леся Сердюка улица","membertags":"name:ru|Командарма Корка улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3459,50.03672]}},
 {"type":"Feature","properties":{"josm":"r1344656,w228072970","relationtags":"name|Леся Сердюка вулиця","membertags":"name|Командарма Корка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3459,50.03672]}},
 {"type":"Feature","properties":{"josm":"r1344656,w336635202","relationtags":"name:ru|Леся Сердюка улица","membertags":"name:ru|Командарма Корка улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3412,50.03101]}},
