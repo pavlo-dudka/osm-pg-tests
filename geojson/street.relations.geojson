@@ -3,8 +3,6 @@
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
 {"type":"Feature","properties":{"josm":"r1229845,n3929772717","relationtags":"name|Незалежності проспект","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.92191,48.27242]}},
-{"type":"Feature","properties":{"josm":"r1339682,w34596426","relationtags":"name:uk|Медведєва вулиця","membertags":"name:uk|Миколи Амосова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.44876,49.22934]}},
-{"type":"Feature","properties":{"josm":"r1339682,w34596426","relationtags":"name|Медведєва вулиця","membertags":"name|Миколи Амосова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.44876,49.22934]}},
 {"type":"Feature","properties":{"josm":"r1344656,w228072970","relationtags":"name:ru|Леся Сердюка улица","membertags":"name:ru|Командарма Корка улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3459,50.03672]}},
 {"type":"Feature","properties":{"josm":"r1344656,w228072970","relationtags":"name|Леся Сердюка вулиця","membertags":"name|Командарма Корка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3459,50.03672]}},
 {"type":"Feature","properties":{"josm":"r1344656,w336635202","relationtags":"name:ru|Леся Сердюка улица","membertags":"name:ru|Командарма Корка улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.3412,50.03101]}},
@@ -48,7 +46,6 @@
 {"type":"Feature","properties":{"josm":"r2070571,w47452659","relationtags":"name|Лермонтова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.45472,49.24519]}},
 {"type":"Feature","properties":{"josm":"r2085146,w389250116","relationtags":"name|Дрогобицька вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.54311,49.34711]}},
 {"type":"Feature","properties":{"josm":"r2085364,w324871628","relationtags":"name|Тита Реваковича вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.50164,49.36201]}},
-{"type":"Feature","properties":{"josm":"r2153083,w50943140","relationtags":"name|Плеханова вулиця","membertags":"name|Івана Бойка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.43193,49.22677]}},
 {"type":"Feature","properties":{"josm":"r2172491,w380264417","relationtags":"name|Леніна вулиця","membertags":"name|Панфілова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.89063,49.44368]}},
 {"type":"Feature","properties":{"josm":"r2274010,w192707491","relationtags":"name|Генерала Миколи Пухова вулиця","membertags":"addr:street|Пухова вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[26.28422,50.62907]}},
 {"type":"Feature","properties":{"josm":"r2367831,w387402456","relationtags":"name|Леніна проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.81339,45.36029]}},
