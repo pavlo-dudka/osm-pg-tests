@@ -11,7 +11,7 @@ with tab as (
   from highways h
     inner join way_nodes wn on wn.way_id=h.id
     inner join nodes n on n.id=wn.node_id
-  group by h.id
+  group by h.id,h.highway_level
 )
 select '{"type":"Feature","properties":{"josm":"w'||tab.id||',n'||tab.arr[n1.sequence_id+2].id||'"},"geometry":'||st_asgeojson(tab.arr[n1.sequence_id+2].geom,5)||'},'
 from tab, unnest(tab.arr) as n1

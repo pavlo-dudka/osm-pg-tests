@@ -15,7 +15,7 @@ cd bin
 ./osmconvert ../temp/UA.osm.pbf -o=../temp/ua.o5m
 ./osmfilter ../temp/ua.o5m --keep= --keep-ways="highway=motorway =motorway_link =trunk =trunk_link =primary =primary_link =secondary =secondary_link =tertiary =tertiary_link =unclassified =residential =living_street =service =track =pedestrian =construction =footway =path" -o=../temp/ua.roads.0.o5m
 ./osmconvert ../temp/ua.roads.0.o5m -B=../poly/poly.ukr.pol --complex-ways -o=../temp/ua.roads.o5m
-./osmfilter ../temp/ua.o5m --keep= --keep-ways="waterway=* or railway=*" -o=../temp/ua.waterways.0.o5m
+./osmfilter ../temp/ua.o5m --keep= --keep-ways="waterway=* or railway=* or aeroway=*" -o=../temp/ua.waterways.0.o5m
 ./osmconvert ../temp/ua.waterways.0.o5m -B=../poly/poly.ukr.pol --complex-ways -o=../temp/ua.waterways.o5m
 ./osmfilter ../temp/ua.o5m --keep="place=city =town =village =hamlet" -o=../temp/ua.places.0.o5m
 ./osmconvert ../temp/ua.places.0.o5m -B=../poly/poly.ukr.pol --complex-ways -o=../temp/ua.places.o5m
@@ -77,10 +77,10 @@ fi
 
 $psql_exe -f sql/osm.boundaries.sql > results/osm.boundaries.log 2>&1
 
-cp -f data/*.txt "$pg_data_folder"
+cp -f data/*.txt $pg_data_folder
 $psql_exe -f data/osm.load.data.sql
 
-cp -f exceptions/*.exc "$pg_data_folder"
+cp -f exceptions/*.exc $pg_data_folder
 $psql_exe -f exceptions/osm.load.exceptions.sql
 
 #rem Copying street names list
