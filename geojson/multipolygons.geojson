@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r5853321","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.06725,48.00627]}},
 {"type":"Feature","properties":{"josm":"r5835621,w389273644,w389273650","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.17723,47.96844]}},
 {"type":"Feature","properties":{"josm":"r5844663,w390908494,w391358423","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[24.94845,48.04841]}},
 {"type":"Feature","properties":{"josm":"r5844746,w315263891,w390141769","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.11171,48.00562]}},
@@ -9,5 +10,6 @@
 {"type":"Feature","properties":{"josm":"r5844746,w382894413,w382894415","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.05436,48.04753]}},
 {"type":"Feature","properties":{"josm":"r5844746,w382894420,w390141792","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.06172,48.03311]}},
 {"type":"Feature","properties":{"josm":"r5853321,w382894411,w390908773","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.04655,48.04471]}},
+{"type":"Feature","properties":{"josm":"r5864898,w391629947,w391629982","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.08912,47.96041]}},
 {"type":"Feature"}
 ]}
