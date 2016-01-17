@@ -354,6 +354,7 @@
 {"type":"Feature","properties":{"josm":"r2523339,r4562978,w328411630,w360678145","relationtags":"name|Європейська вулиця",},"geometry":{"type":"Point","coordinates":[28.59148,49.89211]}},
 {"type":"Feature","properties":{"josm":"r2525301,w362565320","relationtags":"name|Шелушкова вулиця",},"geometry":{"type":"Point","coordinates":[28.61842,49.88274]}},
 {"type":"Feature","properties":{"josm":"r2528342,w104437974,w363440392,w363440394","relationtags":"name|Головатого вулиця",},"geometry":{"type":"Point","coordinates":[30.94001,50.36101]}},
+{"type":"Feature","properties":{"josm":"r2528343,w310372810","relationtags":"name|Бежівка вулиця",},"geometry":{"type":"Point","coordinates":[30.96202,50.34976]}},
 {"type":"Feature","properties":{"josm":"r2528344,w374648802","relationtags":"name|Київський Шлях вулиця",},"geometry":{"type":"Point","coordinates":[30.95758,50.34611]}},
 {"type":"Feature","properties":{"josm":"r2533324,w382234898","relationtags":"name|Кільцева дорога",},"geometry":{"type":"Point","coordinates":[30.40306,50.40406]}},
 {"type":"Feature","properties":{"josm":"r2551631,w106793976","relationtags":"name|Жабинського вулиця",},"geometry":{"type":"Point","coordinates":[31.26901,51.49047]}},
@@ -452,7 +453,6 @@
 {"type":"Feature","properties":{"josm":"r2731686,w114999516,w115011178,w115345427,w331181341,w331594413,w42983229","relationtags":"name|Єгорова вулиця",},"geometry":{"type":"Point","coordinates":[38.495,48.95253]}},
 {"type":"Feature","properties":{"josm":"r2731687,w93145605,w93145612","relationtags":"name|Науки вулиця",},"geometry":{"type":"Point","coordinates":[38.50492,48.93881]}},
 {"type":"Feature","properties":{"josm":"r2731689,w308641694,w309887283,w322778197","relationtags":"name|Сметаніна вулиця",},"geometry":{"type":"Point","coordinates":[38.49148,48.95636]}},
-{"type":"Feature","properties":{"josm":"r2733476,w115023256","relationtags":"name|Лісна вулиця",},"geometry":{"type":"Point","coordinates":[38.50284,48.95421]}},
 {"type":"Feature","properties":{"josm":"r2733479,w105046389,w105367731,w106177171,w323098890,w323098891,w331179873","relationtags":"name|Енергетиків вулиця",},"geometry":{"type":"Point","coordinates":[38.5032,48.9537]}},
 {"type":"Feature","properties":{"josm":"r2733724,w127000197","relationtags":"name|Гоголя провулок",},"geometry":{"type":"Point","coordinates":[38.50475,48.95177]}},
 {"type":"Feature","properties":{"josm":"r2733725,w330982651,w330983561,w331179343,w331179960,w331180057,w331955513","relationtags":"name|Горького вулиця",},"geometry":{"type":"Point","coordinates":[38.50427,48.9553]}},
@@ -902,6 +902,7 @@
 {"type":"Feature","properties":{"josm":"r4198731,w316494878","relationtags":"name|Котлова вулиця",},"geometry":{"type":"Point","coordinates":[33.43387,49.03342]}},
 {"type":"Feature","properties":{"josm":"r4198732,w210271540,w210271679,w305515789,w306334757","relationtags":"name|Лейтенанта Дніпрова набережна",},"geometry":{"type":"Point","coordinates":[33.43034,49.0442]}},
 {"type":"Feature","properties":{"josm":"r4198733,w305515787","relationtags":"name|Макаренка вулиця",},"geometry":{"type":"Point","coordinates":[33.44165,49.03125]}},
+{"type":"Feature","properties":{"josm":"r4199465,w35170812","relationtags":"name|Переяславський Шлях вулиця",},"geometry":{"type":"Point","coordinates":[30.77769,50.49815]}},
 {"type":"Feature","properties":{"josm":"r4205264,w313378020,w313378067,w313378134","relationtags":"name|Червоноармійська вулиця",},"geometry":{"type":"Point","coordinates":[30.24237,50.5779]}},
 {"type":"Feature","properties":{"josm":"r4205265,w313175323","relationtags":"name|Озерна вулиця",},"geometry":{"type":"Point","coordinates":[30.23352,50.57443]}},
 {"type":"Feature","properties":{"josm":"r4212642,w279679133","relationtags":"name|Комсомольський проспект",},"geometry":{"type":"Point","coordinates":[32.20786,48.47182]}},
@@ -1218,7 +1219,7 @@
 {"type":"Feature","properties":{"josm":"r5859046,w207074636","relationtags":"name|Бесалівка вулиця",},"geometry":{"type":"Point","coordinates":[33.19322,51.44809]}},
 {"type":"Feature","properties":{"josm":"r5862468,w150046048,w178374010,w178374030,w178374039,w178374056,w178374078","relationtags":"name|Межова вулиця",},"geometry":{"type":"Point","coordinates":[34.75738,48.44887]}},
 {"type":"Feature","properties":{"josm":"r5862469,w165884663","relationtags":"name|Межова вулиця",},"geometry":{"type":"Point","coordinates":[34.75938,48.44567]}},
-{"type":"Feature","properties":{"josm":"r955082,r1802924,r1802925,w144879734,w323939822,w336972165,w336972166,w336972167","relationtags":"name|Гагаріна вулиця",},"geometry":{"type":"Point","coordinates":[38.52842,48.9452]}},
+{"type":"Feature","properties":{"josm":"r955082,w144879734,w323939822,w336972165,w336972166,w336972167","relationtags":"name|Гагаріна вулиця",},"geometry":{"type":"Point","coordinates":[38.52842,48.9452]}},
 {"type":"Feature","properties":{"josm":"r975799,w388396962,w62805196","relationtags":"name|Музейний провулок",},"geometry":{"type":"Point","coordinates":[30.5294,50.44983]}},
 {"type":"Feature"}
 ]}
