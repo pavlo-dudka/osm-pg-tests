@@ -2,10 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r101859,n3955659786","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[32.32036,47.81919]}},
-{"type":"Feature","properties":{"josm":"r101859,n3955659788","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[32.32036,47.81919]}},
-{"type":"Feature","properties":{"josm":"r72635,n3955659786","region":"Миколаївська область"},"geometry":{"type":"Point","coordinates":[32.32036,47.81919]}},
-{"type":"Feature","properties":{"josm":"r72635,n3955659788","region":"Миколаївська область"},"geometry":{"type":"Point","coordinates":[32.32036,47.81919]}},
 {"type":"Feature","properties":{"josm":"r5853321","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.06725,48.00627]}},
 {"type":"Feature","properties":{"josm":"r5844663,w390908494,w391358423","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[24.94845,48.04841]}},
 {"type":"Feature","properties":{"josm":"r5844746,w315263891,w390141769","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.11171,48.00562]}},
