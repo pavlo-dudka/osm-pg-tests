@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r71022,n337601208","region":"Херсонська область"},"geometry":{"type":"Point","coordinates":[33.61479,46.13469]}},
+{"type":"Feature","properties":{"josm":"r71022,n339540250","region":"Херсонська область"},"geometry":{"type":"Point","coordinates":[33.75881,46.19213]}},
+{"type":"Feature","properties":{"josm":"r72639,n337601208","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[33.61479,46.13469]}},
+{"type":"Feature","properties":{"josm":"r72639,n339540250","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[33.75881,46.19213]}},
 {"type":"Feature","properties":{"josm":"r5853321","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.06725,48.00627]}},
 {"type":"Feature","properties":{"josm":"r5900015","error":"multipolygon without tags and single member - delete relation","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.90267,49.82458]}},
 {"type":"Feature","properties":{"josm":"r5844663,w390908494,w391358423","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[24.94845,48.04841]}},
