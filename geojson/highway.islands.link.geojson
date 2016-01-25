@@ -2,9 +2,15 @@
 "type": "FeatureCollection",
 "errorDescr": "Floating link island",
 "features": [
+{"type":"Feature","properties":{"josm":"w71660558","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.11734,44.96119],[34.11731,44.96131]]]}},
+{"type":"Feature","properties":{"josm":"w97508014","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.12855,44.96803],[34.12829,44.96817]]]}},
+{"type":"Feature","properties":{"josm":"w97508019","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.12126,44.96244],[34.12117,44.96257]]]}},
+{"type":"Feature","properties":{"josm":"w97508025","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.11525,44.96068],[34.11534,44.96055]]]}},
 {"type":"Feature","properties":{"josm":"w129767269","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[33.60019,44.55622],[33.60022,44.55609],[33.60025,44.55606],[33.60033,44.55603],[33.60046,44.55605],[33.60062,44.5562],[33.60079,44.55665]]]}},
 {"type":"Feature","properties":{"josm":"w129767274","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[33.61264,44.57682],[33.61256,44.57692],[33.61252,44.57694],[33.61241,44.57699],[33.6122,44.57699],[33.6121,44.5769],[33.61213,44.57675],[33.61221,44.57666],[33.61228,44.57657],[33.61234,44.57628]]]}},
 {"type":"Feature","properties":{"josm":"w129767276","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[33.61269,44.57759],[33.61276,44.57754],[33.61283,44.57752],[33.61288,44.57752],[33.61299,44.57754],[33.61304,44.57762],[33.61305,44.5777],[33.613,44.57826]]]}},
+{"type":"Feature","properties":{"josm":"w130426069,w130426929,w227901685","level":"primary_link","NumberOfRoads":"3"},"geometry":{"type":"MultiLineString","coordinates":[[[33.83648,44.75887],[33.83608,44.75869],[33.83595,44.75867],[33.83574,44.75871]],[[33.83574,44.75871],[33.83582,44.75854],[33.8358,44.75841],[33.83563,44.75808]],[[33.83574,44.75871],[33.83603,44.75854]]]}},
+{"type":"Feature","properties":{"josm":"w109381601","level":"secondary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.15599,44.49266],[34.15586,44.49269]]]}},
 {"type":"Feature","properties":{"josm":"w393016099","level":"tertiary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[31.51154,50.26476],[31.51159,50.26459],[31.51157,50.26446],[31.51168,50.26455],[31.51201,50.26459]]]}},
 {"type":"Feature"}
 ]}
