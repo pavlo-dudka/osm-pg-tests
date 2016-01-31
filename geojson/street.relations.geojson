@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1202208,w148318651","relationtags":"name:ru|Карла Маркса проспект","membertags":"name:ru|Поля проспект","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.05127,48.46204]}},
+{"type":"Feature","properties":{"josm":"r1202208,w148318651","relationtags":"name:uk|Карла Маркса проспект","membertags":"name:uk|Поля проспект","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.05127,48.46204]}},
+{"type":"Feature","properties":{"josm":"r1202208,w148318651","relationtags":"name|Карла Маркса проспект","membertags":"name|Проспект Поля","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.05127,48.46204]}},
 {"type":"Feature","properties":{"josm":"r1335664,w33859241","relationtags":"name:ru|Монастырская улиця","membertags":"name:ru|Монастырская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.47802,49.23212]}},
 {"type":"Feature","properties":{"josm":"r1573841,w111855815","relationtags":"name|Київське шосе вулиця","membertags":"addr:street|Київське шосе","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.49545,49.56158]}},
 {"type":"Feature","properties":{"josm":"r1635211,w202992038","relationtags":"name|Енгельса вулиця","membertags":"addr:street|Артема вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.52704,49.58503]}},
