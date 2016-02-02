@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1292905,w81458968","relationtags":"name|Академічна вулиця","membertags":"name|Академічна вулицяИмя собственное (если есть)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.44485,49.89807]}},
 {"type":"Feature","properties":{"josm":"r1573841,w111855815","relationtags":"name|Київське шосе вулиця","membertags":"addr:street|Київське шосе","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.49545,49.56158]}},
 {"type":"Feature","properties":{"josm":"r1635211,w202992038","relationtags":"name|Енгельса вулиця","membertags":"addr:street|Артема вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[34.52704,49.58503]}},
 {"type":"Feature","properties":{"josm":"r1819187,w113194781","relationtags":"name|40 років Перемоги вулиця","membertags":"addr:street|Автозаводська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.17756,47.78638]}},
