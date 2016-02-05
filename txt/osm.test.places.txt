@@ -1,8 +1,10 @@
 place-way should be closed:
 4531162
+30721829
 394762835
 395983068
 395983240
+396279099
 
 Multiple polygons:
 2|337525174|r3557610,r3557617|
@@ -30,6 +32,7 @@ Invalid node role:
 5918113|type|boundary|5918113|337590460|N|agmin_centre|2
 
 Invalid way role:
+1288846|86635851|1
 1767014|131593851|1
 2166189|149962277|1
 3006937|370418038|1
@@ -128,6 +131,7 @@ Invalid relation role:
 421864|type|multipolygon|421864|5427552|R|inner|66
 421864|type|multipolygon|421864|5427553|R|inner|67
 421864|type|multipolygon|421864|5427554|R|inner|68
+1288847|type|multipolygon|1288847|1288846|R|outer|2
 5686829|type|multipolygon|5686829|5686828|R|inner|7
 5686830|type|multipolygon|5686830|5686827|R|inner|6
 5879849|type|multipolygon|5879849|5879816|R|inner|30
