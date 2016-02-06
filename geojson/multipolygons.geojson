@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r3121540,n3992676813","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.63667,48.10607]}},
+{"type":"Feature","properties":{"josm":"r3121540,n3992676846","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.637,48.10682]}},
 {"type":"Feature","properties":{"josm":"r1288847","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.10378,49.92456]}},
 {"type":"Feature"}
 ]}
