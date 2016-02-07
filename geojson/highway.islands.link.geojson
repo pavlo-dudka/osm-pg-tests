@@ -2,5 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Floating link island",
 "features": [
+{"type":"Feature","properties":{"josm":"w28619127,w37139757","level":"trunk_link","NumberOfRoads":"2"},"geometry":{"type":"MultiLineString","coordinates":[[[33.61273,44.6804],[33.61274,44.68052],[33.61274,44.68071],[33.61272,44.68079],[33.61269,44.68085],[33.61266,44.68089]],[[33.61266,44.68089],[33.61254,44.68092],[33.61243,44.68093],[33.61231,44.68093],[33.61219,44.68089]]]}},
+{"type":"Feature","properties":{"josm":"w71660558","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.11734,44.96119],[34.11731,44.96131]]]}},
+{"type":"Feature","properties":{"josm":"w97508014","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.12855,44.96803],[34.12829,44.96817]]]}},
+{"type":"Feature","properties":{"josm":"w97508019","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.12126,44.96244],[34.12117,44.96257]]]}},
+{"type":"Feature","properties":{"josm":"w97508025","level":"primary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.11525,44.96068],[34.11534,44.96055]]]}},
 {"type":"Feature"}
 ]}
