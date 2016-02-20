@@ -3,6 +3,8 @@
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
 {"type":"Feature","properties":{"josm":"r1292905,n949029086","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.44016,49.90095]}},
+{"type":"Feature","properties":{"josm":"r1492206,w105207391","relationtags":"name|Правди проспект","membertags":"name|Євгена Тельнова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.23726,48.50161]}},
+{"type":"Feature","properties":{"josm":"r1492206,w80977901","relationtags":"name|Правди проспект","membertags":"name|Євгена Тельнова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.2405,48.50133]}},
 {"type":"Feature","properties":{"josm":"r1544672,w182522362","relationtags":"name|Корчагінців вулиця","membertags":"name|Амосова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.36033,49.98488]}},
 {"type":"Feature","properties":{"josm":"r1544672,w251078454","relationtags":"name|Корчагінців вулиця","membertags":"name|Амосова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.35571,49.98398]}},
 {"type":"Feature","properties":{"josm":"r1544672,w251238629","relationtags":"name|Корчагінців вулиця","membertags":"name|Амосова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.35546,49.98395]}},
@@ -117,6 +119,9 @@
 {"type":"Feature","properties":{"josm":"r2392675,w33652750","relationtags":"name|Тинякова вулиця","membertags":"name|Ігоря Муратова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.14715,49.97779]}},
 {"type":"Feature","properties":{"josm":"r2392676,w185802436","relationtags":"name|1-й Тіняковський провулок","membertags":"name|1-й Ігоря Муратова провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.15092,49.98265]}},
 {"type":"Feature","properties":{"josm":"r2392677,w185853212","relationtags":"name|2-й Тіняковський провулок","membertags":"name|2-й Ігоря Муратова провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.15085,49.9818]}},
+{"type":"Feature","properties":{"josm":"r2412643,w80401408","relationtags":"name:ru|Крепостной проспект","membertags":"name:ru|Соборная улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.25823,48.50251]}},
+{"type":"Feature","properties":{"josm":"r2412643,w80401408","relationtags":"name:uk|Фортечний проспект","membertags":"name:uk|Соборна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.25823,48.50251]}},
+{"type":"Feature","properties":{"josm":"r2412643,w80401408","relationtags":"name|Фортечний проспект","membertags":"name|Соборна вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.25823,48.50251]}},
 {"type":"Feature","properties":{"josm":"r2450073,w33603466","relationtags":"name|Анрі Барбюса вулиця","membertags":"name|Юри Зойфера вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.22137,50.00723]}},
 {"type":"Feature","properties":{"josm":"r2450073,w34871960","relationtags":"name|Анрі Барбюса вулиця","membertags":"name|Юри Зойфера вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.225,50.00652]}},
 {"type":"Feature","properties":{"josm":"r2450083,w185751557","relationtags":"name|Банний провулок","membertags":"name|Лазневий провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.22752,49.987]}},
