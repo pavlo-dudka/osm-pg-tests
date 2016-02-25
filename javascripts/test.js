@@ -23,7 +23,8 @@ function showGeoJson(map, geoJson)
 	xmlhttp.send(null);
 	
 	var myGeoJson = eval('(' + xmlhttp.responseText + ')');	
-	if (myGeoJson.features.length > 1 && myGeoJson.features[0].geometry.type == 'Point')
+	if (myGeoJson.features.length == 1);
+	else if (myGeoJson.features[0].geometry.type == 'Point' || myGeoJson.no_markers == 'true')
 	{
 		var geoJsonLayer = L.geoJson(myGeoJson, {
 			onEachFeature: function (feature, layer) {
@@ -168,6 +169,14 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>Address:</th><td>' + feature.properties.address + '</td></tr>';
 	}
+	if (typeof(feature.properties.old_name) != "undefined")
+	{
+		result += '<tr><th>Old name:</th><td>' + feature.properties.old_name + '</td></tr>';
+	}
+	if (typeof(feature.properties.new_name) != "undefined")
+	{
+		result += '<tr><th>New name:</th><td>' + feature.properties.new_name + '</td></tr>';
+	}
 	if (typeof(feature.properties.levels) != "undefined")
 	{
 		result += '<tr><th>Building Levels:</th><td>' + feature.properties.levels + '</td></tr>';
@@ -266,6 +275,14 @@ function showTable(geoJson)
 			{
 				document.write('<th>Address</th>');
 			}
+			if (typeof(feature.properties.old_name) != "undefined")
+			{
+				document.write('<th>Old name</th>');
+			}
+			if (typeof(feature.properties.new_name) != "undefined")
+			{
+				document.write('<th>New name</th>');
+			}
 			if (typeof(feature.properties.levels) != "undefined")
 			{
 				document.write('<th>Building Levels</th>');
@@ -354,6 +371,14 @@ function showTable(geoJson)
 		if (typeof(feature.properties.address) != "undefined")
 		{
 			document.write('<td>' + feature.properties.address + '</td>');
+		}
+		if (typeof(feature.properties.old_name) != "undefined")
+		{
+			document.write('<td>' + feature.properties.old_name + '</td>');
+		}
+		if (typeof(feature.properties.new_name) != "undefined")
+		{
+			document.write('<td>' + feature.properties.new_name + '</td>');
 		}
 		if (typeof(feature.properties.levels) != "undefined")
 		{
