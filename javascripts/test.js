@@ -15,6 +15,12 @@ function showMap(geoJson)
 			attribution: '<a href="http://www.openrailwaymap.org/" target="_blank">OpenRailwayMap</a>'
 		}).addTo(map);
 	}
+	if (geoJson.indexOf("decommunization") > 0)
+	{
+		L.tileLayer('https://cartocdn-ashbu.global.ssl.fastly.net/dudka/api/v1/map/a1a771674ced9cca571b86e4a7429f7a:1456504737274.24/0/{z}/{x}/{y}.png', {
+			maxZoom: 19
+		}).addTo(map);
+	}
 	
 	showGeoJson(map, geoJson);
 }
