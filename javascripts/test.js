@@ -2,17 +2,19 @@ function showMap(geoJson)
 {
 	var map = L.map('map').setView([49, 31], 6);
 	map.addControl(new L.Control.Permalink());
-
-	var copyright = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-	if (geoJson.substring(0,14) == 'geojson/peirce')
-	{
-		copyright = copyright + ' | <a href="http://peirce.gis-lab.info/qa/UA">Errors</a> found by <a href="http://openstreetmap.org/user/Zkir">Zkir</a>';
-	}
 	
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
-		attribution: copyright
-	}).addTo(map);			
+		attribution: '&copy; <a href="http://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	if (geoJson.indexOf("railway.dead.ends") > 0)
+	{
+		L.tileLayer('http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: '<a href="http://www.openrailwaymap.org/" target="_blank">OpenRailwayMap</a>'
+		}).addTo(map);
+	}
 	
 	showGeoJson(map, geoJson);
 }
