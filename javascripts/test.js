@@ -17,13 +17,21 @@ function showMap(geoJson)
 	}
 	if (geoJson.indexOf("decommunization") > 0)
 	{
-		L.tileLayer('https://cartocdn-ashbu.global.ssl.fastly.net/dudka/api/v1/map/a1a771674ced9cca571b86e4a7429f7a:1456504737274.24/0/{z}/{x}/{y}.png', {
+		var data = '{"version": "1.3.1","layers": [{"type": "cartodb", "options": {"cartocss_version": "2.1.1", "cartocss": "#decommunization{line-color: #F22; line-width: 5; line-opacity: 0.5;}","sql": "select * from decommunization"}}]}';
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('POST', 'http://dudka.cartodb.com/api/v1/map', false);
+		xmlhttp.setRequestHeader('Content-Type', 'application/json');
+		xmlhttp.send(data);
+		var response = eval('(' + xmlhttp.responseText + ')');
+
+		L.tileLayer('https://dudka.cartodb.com/api/v1/map/' + response.layergroupid + '/0/{z}/{x}/{y}.png', {
 			maxZoom: 19
 		}).addTo(map);
 	}
 	
 	showGeoJson(map, geoJson);
 }
+
 function showGeoJson(map, geoJson)
 {
 	var xmlhttp = new XMLHttpRequest();
