@@ -30,7 +30,7 @@ function showMap(geoJson)
 	}
 	if (geoJson.indexOf("place.districts") > 0)
 	{
-		var data = '{"version": "1.3.1","layers": [{"type": "cartodb", "options": {"cartocss_version": "2.1.1", "cartocss": "#all_t{line-color: #F22; line-width: 1; line-opacity: 0.5;}","sql": "select * from all_t where koatuu::text not like \'%00000000\'"}}]}';
+		var data = '{"version": "1.3.1","layers": [{"type": "cartodb", "options": {"cartocss_version": "2.1.1", "cartocss": "#all_t{line-color: #F22; line-width: 1; line-opacity: 1;}","sql": "select * from all_t where koatuu::text not like \'%00000000\'"}}]}';
 		var xmlhttp = new XMLHttpRequest();
 		xmlhttp.open('POST', 'http://dudka.cartodb.com/api/v1/map', false);
 		xmlhttp.setRequestHeader('Content-Type', 'application/json');
