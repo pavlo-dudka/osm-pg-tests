@@ -2,7 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r6033100,n4045901713","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.44563,48.87962]}},
+{"type":"Feature","properties":{"josm":"r6033100,n4045901722","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.44565,48.87962]}},
 {"type":"Feature","properties":{"josm":"r6032958","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.53191,51.91616]}},
 {"type":"Feature","properties":{"josm":"r6033030","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.57665,51.62844]}},
+{"type":"Feature","properties":{"josm":"r6033100,w402167432,w402167447","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.4492,48.87852]}},
 {"type":"Feature"}
 ]}
