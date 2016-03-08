@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1778204,n2888144860","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.47986,48.03086]}},
+{"type":"Feature","properties":{"josm":"r1778204,n2888145446","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.48451,48.05917]}},
 {"type":"Feature","properties":{"josm":"r6032958","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.53191,51.91616]}},
 {"type":"Feature","properties":{"josm":"r6033030","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.57665,51.62844]}},
 {"type":"Feature","properties":{"josm":"r6033100,w402167432,w402167447","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.4492,48.87852]}},
