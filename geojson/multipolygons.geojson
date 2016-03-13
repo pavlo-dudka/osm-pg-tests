@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1861256,n146510272","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.66399,50.58579]}},
+{"type":"Feature","properties":{"josm":"r1861256,n4057369168","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.66175,50.58108]}},
 {"type":"Feature","properties":{"josm":"r6045553","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.38882,51.22305]}},
+{"type":"Feature","properties":{"josm":"r1861355,w399455498,w403385741","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.63516,50.58297]}},
 {"type":"Feature"}
 ]}
