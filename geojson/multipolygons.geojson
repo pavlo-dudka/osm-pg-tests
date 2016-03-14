@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r6020305,n3543884134","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.53087,49.34945]}},
+{"type":"Feature","properties":{"josm":"r6020305,n4060197077","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.53082,49.34943]}},
+{"type":"Feature","properties":{"josm":"r6022977,n3543884134","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.53087,49.34945]}},
+{"type":"Feature","properties":{"josm":"r6022977,n4060197077","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.53082,49.34943]}},
 {"type":"Feature","properties":{"josm":"r6050241,w403623923,w403623929","error":"multipolygon members intersect each other","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[27.18455,51.17266]}},
 {"type":"Feature","properties":{"josm":"r6050241,w403623928,w403623929","error":"multipolygon members intersect each other","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[27.1837,51.17283]}},
 {"type":"Feature"}
