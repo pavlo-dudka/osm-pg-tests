@@ -24,7 +24,7 @@ cd bin
 ./osmconvert ../temp/ua.routes.0.o5m -B=../poly/poly.ukr.pol -o=../temp/ua.routes.o5m
 ./osmfilter ../temp/ua.o5m --keep= --keep-relations="type=restriction =street =associatedStreet" -o=../temp/ua.relations.0.o5m
 ./osmconvert ../temp/ua.relations.0.o5m -B=../poly/poly.ukr.pol -o=../temp/ua.relations.o5m
-./osmfilter ../temp/ua.o5m --keep= --keep-relations="type=multipolygon =boundary" -o=../temp/ua.multipolygons.0.o5m
+./osmfilter ../temp/ua.o5m --keep= --keep-relations="type=multipolygon =boundary =waterway" -o=../temp/ua.multipolygons.0.o5m
 ./osmconvert ../temp/ua.multipolygons.0.o5m -B=../poly/poly.ukr.pol --complex-ways -o=../temp/ua.multipolygons.o5m
 ./osmfilter ../temp/ua.o5m --keep="addr:street=* or addr:housename=* or addr:housenumber=* or ( building=* and name=* ) " -o=../temp/ua.address.0.o5m
 ./osmconvert ../temp/ua.address.0.o5m -B=../poly/poly.ukr.pol -o=../temp/ua.address.o5m
@@ -89,8 +89,23 @@ if [ ! -e $pg_data_folder"street_names/" ]
     mkdir $pg_data_folder"street_names/"
 fi
 
-#cp -f ~/Dropbox/data/*.csv $pg_data_folder"street_names/"
-#cp -f ~/Dropbox/data/*.txt $pg_data_folder"street_names/"
-#cp -f ~/Dropbox/data/*.txt $pg_data_folder
+#Loading decommunization data
+echo "drop table if exists cityDC;" > temp/load.decommunization.data.sql
+echo "create table cityDC(koatuu text,name text,linestring geometry(Geometry,4326));" >> temp/load.decommunization.data.sql
+echo "drop table if exists streets_renaming;" >> temp/load.decommunization.data.sql
+echo "create table streets_renaming(koatuu text,old_name text,new_name text);" >> temp/load.decommunization.data.sql
+
+for a in $pg_data_folder/street_renamings/*.csv
+do
+  csv=$(basename $a)
+  koatuu=${csv:0:10}
+  echo "insert into cityDC(koatuu) values('$koatuu');" >> temp/load.decommunization.data.sql 
+  echo "copy streets_renaming(old_name,new_name) from 'osm/street_renamings/$csv' csv quote '\"';" >> temp/load.decommunization.data.sql
+  echo "update streets_renaming set koatuu='$koatuu' where koatuu is null;" >> temp/load.decommunization.data.sql
+done
+
+echo "update cityDC cdc set linestring = (select r.linestring from node_tags nt inner join node_tags ntn on ntn.node_id=nt.node_id and ntn.k='name' inner join nodes n on n.id=ntn.node_id inner join relations r on st_contains(r.linestring,n.geom) inner join relation_tags rtk on rtk.relation_id=r.id and rtk.k='name' and rtk.v=ntn.v and rtk.relation_id in (select relation_id from relation_tags where k='place') where nt.k='koatuu' and nt.v=cdc.koatuu);" >> temp/load.decommunization.data.sql
+
+$psql_exe -f temp/load.decommunization.data.sql
 
 exit 0

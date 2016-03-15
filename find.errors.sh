@@ -18,6 +18,7 @@ $psql_exe -f sql/osm.addr.housenumber.geo.sql -o results/house.numbers.geojson 2
 $psql_exe -f sql/osm.cities.without.place.polygon.sql -o results/cities.without.place.polygon.geojson 2>&1 & #"cities.without.place.polygon"
 $psql_exe -f sql/osm.waterways.sql -o results/waterways.layer.geojson 2>&1 & #"waterways.layer"
 $psql_exe -f sql/osm.place.districts.sql -o results/place.districts.geojson 2>&1 & #"place.districts"
+$psql_exe -f sql/osm.decommunization.sql -o results/decommunization.geojson 2>&1 & #"osm.decommunization"
 
 echo "start test.non-uk.sh"
 #"non-uk"

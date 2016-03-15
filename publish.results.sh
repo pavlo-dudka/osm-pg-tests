@@ -77,6 +77,8 @@ mv error.summary error.old.summary
 mv house.numbers.geojson house.numbers.hidden
 mv kyiv.building.levels.geojson kyiv.building.levels.hidden
 mv non-uk.geojson non-uk.hidden
+mv railway.dead.ends.geojson railway.dead.ends.hidden
+mv decommunization.geojson decommunization.hidden
 
 md5sum *.geojson > error.hash
 

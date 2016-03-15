@@ -18,6 +18,7 @@ drop table if exists streets_dnipropetrovsk_upd;
 create table streets_dnipropetrovsk_upd(district text,osm_name_old text,osm_name_new text);
 copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd.csv' csv;
 copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd2.csv' csv;
+copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd3.csv' csv;
 update streets_dnipropetrovsk s
 set osm_old_name_uk=s.osm_name_uk, osm_old_name_ru=s.osm_name_ru,
 osm_name_uk=su.osm_name_new, osm_name_ru=null
