@@ -3,7 +3,6 @@
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
 {"type":"Feature","properties":{"josm":"r1292905,n949029086","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.44016,49.90095]}},
-{"type":"Feature","properties":{"josm":"r1315244,w31729403","relationtags":"name|Михайла Коцюбинського вулиця","membertags":"addr:street|Mykhaila Kotsiubynskoho Street","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.92292,48.29681]}},
 {"type":"Feature","properties":{"josm":"r1492302,w133308584","relationtags":"name|невідома назва","membertags":"name|Архітектора Паученка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.29223,48.50628]}},
 {"type":"Feature","properties":{"josm":"r1492302,w135283695","relationtags":"name|невідома назва","membertags":"name|Архітектора Паученка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.27785,48.50622]}},
 {"type":"Feature","properties":{"josm":"r1492302,w185117647","relationtags":"name|невідома назва","membertags":"name|Архітектора Паученка вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[32.28526,48.50584]}},
@@ -40,9 +39,6 @@
 {"type":"Feature","properties":{"josm":"r1992188,w34908980","relationtags":"name|Конституції площа","membertags":"name|майдан Конституції","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.23152,49.99319]}},
 {"type":"Feature","properties":{"josm":"r1992188,w34909826","relationtags":"name|Конституції площа","membertags":"name|майдан Конституції","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.23208,49.99318]}},
 {"type":"Feature","properties":{"josm":"r1992188,w38241092","relationtags":"name|Конституції площа","membertags":"name|майдан Конституції","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.23057,49.99329]}},
-{"type":"Feature","properties":{"josm":"r2011954,w160407961","relationtags":"name|Винниченка вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.3259,50.74745]}},
-{"type":"Feature","properties":{"josm":"r2085364,w324871628","relationtags":"name|Тита Реваковича вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.50166,49.36201]}},
-{"type":"Feature","properties":{"josm":"r2116012,w158029957","relationtags":"name|Львівська вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.00003,50.04699]}},
 {"type":"Feature","properties":{"josm":"r2297879,w92334396","relationtags":"name|Адмирала Юмашева улица","membertags":"addr:street|Степаняна улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.46541,44.59065]}},
 {"type":"Feature","properties":{"josm":"r2297879,w92334421","relationtags":"name|Адмирала Юмашева улица","membertags":"addr:street|Степаняна улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.46605,44.59208]}},
 {"type":"Feature","properties":{"josm":"r2297879,w93950387","relationtags":"name|Адмирала Юмашева улица","membertags":"addr:street|Степаняна улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.46801,44.59027]}},
@@ -304,10 +300,8 @@
 {"type":"Feature","properties":{"josm":"r4277613,w96170392","relationtags":"name:ru|Ореховая улица","membertags":"name:ru|Ново-Садовая","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.31256,45.05444]}},
 {"type":"Feature","properties":{"josm":"r4277613,w96170392","relationtags":"name|Ореховая улица","membertags":"name|Ново-Садовая","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.31256,45.05444]}},
 {"type":"Feature","properties":{"josm":"r4277619,w38169952","relationtags":"name|Симферопольское шоссе","membertags":"name|Симферопольское шоссе 2","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.19586,44.51243]}},
-{"type":"Feature","properties":{"josm":"r4422743,w292084715","relationtags":"name|Івана Франка вулиця","membertags":"name|Студинського","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.63758,49.52444]}},
 {"type":"Feature","properties":{"josm":"r4673711,w306332637","relationtags":"name|Калініна вулиця","membertags":"addr:street|Олександра Сербиченка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[33.42621,49.03843]}},
 {"type":"Feature","properties":{"josm":"r5251054,w294813883","relationtags":"name:uk|Черняхівського вулиця","membertags":"name:uk|Черняховського вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.0233,48.35278]}},
-{"type":"Feature","properties":{"josm":"r5420158,w400797077","relationtags":"name:uk|Володимира Навроцького вулиця","membertags":"name:uk|Володимира Навроцького вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[24.05093,49.81125]}},
 {"type":"Feature","properties":{"josm":"r5473967,w167951079","relationtags":"name|Незалежності вулиця","membertags":"addr:street|Герцена вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[31.89551,51.02726]}},
 {"type":"Feature","properties":{"josm":"r5699323,w120009028","relationtags":"name|Агнії Барто вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.12775,48.41597]}},
 {"type":"Feature","properties":{"josm":"r5699323,w120176150","relationtags":"name|Агнії Барто вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[35.12963,48.41724]}},
@@ -330,11 +324,6 @@
 {"type":"Feature","properties":{"josm":"r5975932,w136197552","relationtags":"name|50 років Перемоги квартал","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.42412,48.89465]}},
 {"type":"Feature","properties":{"josm":"r5975932,w136197554","relationtags":"name|50 років Перемоги квартал","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.42439,48.89564]}},
 {"type":"Feature","properties":{"josm":"r6037559,w292622535","relationtags":"name|Набережна вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[37.98263,48.07406]}},
-{"type":"Feature","properties":{"josm":"r6048749,w121252890","relationtags":"name|М.Емінеску вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.62652,48.05948]}},
-{"type":"Feature","properties":{"josm":"r6048749,w131945769","relationtags":"name|М.Емінеску вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.62075,48.0481]}},
-{"type":"Feature","properties":{"josm":"r6048749,w403517283","relationtags":"name|М.Емінеску вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.62064,48.04788]}},
 
-{"type":"Feature","properties":{"josm":"r6057170","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[25.92978,48.23828]}},
-{"type":"Feature","properties":{"josm":"r6057171","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[25.93674,48.23339]}},
 {"type":"Feature"}
 ]}
