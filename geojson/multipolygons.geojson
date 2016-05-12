@@ -2,14 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1861256,n146510259","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.64109,50.58976]}},
-{"type":"Feature","properties":{"josm":"r1861256,n146510272","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.66399,50.58579]}},
-{"type":"Feature","properties":{"josm":"r1861256,n1933554448","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.65548,50.58722]}},
-{"type":"Feature","properties":{"josm":"r1861256,n293957676","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.61375,50.5849]}},
-{"type":"Feature","properties":{"josm":"r1861256,n416103748","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.63568,50.58946]}},
-{"type":"Feature","properties":{"josm":"r1861256,n416103749","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.63417,50.58937]}},
-{"type":"Feature","properties":{"josm":"r1861355,n1515172537","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.63881,50.58512]}},
-{"type":"Feature","properties":{"josm":"r1861355,n1515248651","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[27.6421,50.57564]}},
 {"type":"Feature","properties":{"josm":"r3246427,n2483360544","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.724,51.06095]}},
 {"type":"Feature","properties":{"josm":"r3246427,n2483360551","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[24.72433,51.06113]}},
 {"type":"Feature","properties":{"josm":"r6118992,n1423975525","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.08621,50.54082]}},
@@ -20,7 +12,6 @@
 {"type":"Feature","properties":{"josm":"r6118994,n1907502493","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.978,50.51283]}},
 {"type":"Feature","properties":{"josm":"r6118995,n1907502493","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.978,50.51283]}},
 {"type":"Feature","properties":{"josm":"r6118995,n1907502528","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.9554,50.54508]}},
-{"type":"Feature","properties":{"josm":"r6206062","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.83635,48.82084]}},
 {"type":"Feature","properties":{"josm":"r1740953,w128982562,w393955865","error":"multipolygon members intersect each other","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.09658,50.55944]}},
 {"type":"Feature","properties":{"josm":"r1740960,w128982562,w393955865","error":"multipolygon members intersect each other","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.09658,50.55944]}},
 {"type":"Feature"}
