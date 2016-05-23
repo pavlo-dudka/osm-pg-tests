@@ -77,9 +77,6 @@
 {"type":"Feature","properties":{"josm":"r1832877,w23693066","relationtags":"name|Героїв Сталінграда проспект","membertags":"addr:street|Маршала Тимошенка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.50314,50.51348]}},
 {"type":"Feature","properties":{"josm":"r1853031,w92024589","relationtags":"name|Тобольська вулиця","membertags":"addr:street|Шекспіра вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.21591,50.02982]}},
 {"type":"Feature","properties":{"josm":"r1868420,w217607760","relationtags":"name|Шевченка вулиця","membertags":"addr:street|Арсенія Тарковського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[32.27257,48.51005]}},
-{"type":"Feature","properties":{"josm":"r1905234,w188192816","relationtags":"name:ru|Ленина проспект","membertags":"name:ru|Проспект Мира","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.65594,46.30663]}},
-{"type":"Feature","properties":{"josm":"r1905234,w188192816","relationtags":"name:uk|Леніна проспект","membertags":"name:uk|Проспект Миру","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.65594,46.30663]}},
-{"type":"Feature","properties":{"josm":"r1905234,w188192816","relationtags":"name|Леніна проспект","membertags":"name|проспект Миру","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.65594,46.30663]}},
 {"type":"Feature","properties":{"josm":"r1926044,n1557261021","relationtags":"name|Лінійна вулиця","membertags":"addr:street|Молодіжна вулиця;Лінійна вулиця","memberrole":"address"},"geometry":{"type":"Point","coordinates":[30.27843,50.33535]}},
 {"type":"Feature","properties":{"josm":"r1926057,n1557261021","relationtags":"name|Молодіжна вулиця","membertags":"addr:street|Молодіжна вулиця;Лінійна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.27843,50.33535]}},
 {"type":"Feature","properties":{"josm":"r1926057,n4084841816","relationtags":"name|Молодіжна вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.28204,50.33578]}},
@@ -418,6 +415,7 @@
 {"type":"Feature","properties":{"josm":"r5793085,w387926517","relationtags":"name|Басейний 3-й провулок","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.73395,46.45637]}},
 {"type":"Feature","properties":{"josm":"r5821814,w31771040","relationtags":"name:ru|Ивана Франко переулок","membertags":"name:ru|Ивана Франко улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.74103,46.43347]}},
 {"type":"Feature","properties":{"josm":"r5969951,w170268871","relationtags":"name|Чернігівський квартал","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.76561,51.51803]}},
+{"type":"Feature","properties":{"josm":"r6228830,w280436320","relationtags":"name:ru|Ключевая улица","membertags":"name:ru|Родниковая улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.47348,47.06451]}},
 {"type":"Feature","properties":{"josm":"r6229458,w345696282","relationtags":"name|Флотська вулиця","membertags":"addr:street|Червонофлотська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.50095,47.09745]}},
 {"type":"Feature","properties":{"josm":"r6229458,w345696284","relationtags":"name|Флотська вулиця","membertags":"addr:street|Червонофлотська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.50101,47.09764]}},
 {"type":"Feature","properties":{"josm":"r6229499,w302311069","relationtags":"name:ru|Автозаводской бульвар","membertags":"name:ru|Автозаводский бульвар","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.41372,49.09238]}},
@@ -450,5 +448,6 @@
 {"type":"Feature","properties":{"josm":"r6247343,w306216930","relationtags":"name|Маміна-Сибіряка вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.6048,47.15002]}},
 {"type":"Feature","properties":{"josm":"r6247491,w420289820","relationtags":"name|Земнухова вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.62646,47.14745]}},
 
+{"type":"Feature","properties":{"josm":"r6247678","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[37.61351,47.15148]}},
 {"type":"Feature"}
 ]}
