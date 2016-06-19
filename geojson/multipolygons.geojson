@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r60199,n1428431793","region":"Київ"},"geometry":{"type":"Point","coordinates":[22.74345,49.37153]}},
-{"type":"Feature","properties":{"josm":"r60199,n4250404819","region":"Київ"},"geometry":{"type":"Point","coordinates":[22.73246,49.3986]}},
 {"type":"Feature","properties":{"josm":"r6118992,n1423975525","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.08621,50.54082]}},
 {"type":"Feature","properties":{"josm":"r6118992,n3439316896","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.09658,50.55944]}},
 {"type":"Feature","properties":{"josm":"r6118993,n1423975525","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.08621,50.54082]}},
@@ -12,8 +10,6 @@
 {"type":"Feature","properties":{"josm":"r6118994,n1907502493","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.978,50.51283]}},
 {"type":"Feature","properties":{"josm":"r6118995,n1907502493","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.978,50.51283]}},
 {"type":"Feature","properties":{"josm":"r6118995,n1907502528","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.9554,50.54508]}},
-{"type":"Feature","properties":{"josm":"r72380,n1428431793","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[22.74345,49.37153]}},
-{"type":"Feature","properties":{"josm":"r72380,n4250404819","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[22.73246,49.3986]}},
 {"type":"Feature","properties":{"josm":"r6314410,w424530304,w424886235","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.48807,48.3721]}},
 {"type":"Feature","properties":{"josm":"r6314410,w424530304,w424886236","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.48831,48.37217]}},
 {"type":"Feature","properties":{"josm":"r6316495,w425069690,w425069691","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.48444,48.34132]}},
@@ -22,8 +18,8 @@
 {"type":"Feature","properties":{"josm":"r6316496,w423619460,w425069698","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.47979,48.34021]}},
 {"type":"Feature","properties":{"josm":"r6316509,w424920554,w425072388","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.49227,48.34273]}},
 {"type":"Feature","properties":{"josm":"r6322061,w425521065,w425521066","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.50753,48.36148]}},
-{"type":"Feature","properties":{"josm":"r6323678,w303928438,w425637730","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[23.52631,49.37949]}},
-{"type":"Feature","properties":{"josm":"r6323678,w303928438,w425637733","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[23.52619,49.37913]}},
+{"type":"Feature","properties":{"josm":"r6323678,w303928438,w425637730","error":"multipolygon members intersect each other","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52631,49.37949]}},
+{"type":"Feature","properties":{"josm":"r6323678,w303928438,w425637733","error":"multipolygon members intersect each other","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.52619,49.37913]}},
 {"type":"Feature","properties":{"josm":"r6328367,w425788773,w425788783","error":"multipolygon members intersect each other","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.17748,48.39235]}},
 {"type":"Feature","properties":{"josm":"r6328367,w425788783,w425788784","error":"multipolygon members intersect each other","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.18023,48.39234]}},
 {"type":"Feature"}
