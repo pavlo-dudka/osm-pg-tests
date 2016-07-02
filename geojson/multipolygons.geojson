@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1754394,n1434871890","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.55479,46.15226]}},
+{"type":"Feature","properties":{"josm":"r1754394,n4278463706","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.55483,46.15222]}},
+{"type":"Feature","properties":{"josm":"r1754404,n1434871890","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.55479,46.15226]}},
+{"type":"Feature","properties":{"josm":"r1754404,n4278463706","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.55483,46.15222]}},
 {"type":"Feature","properties":{"josm":"r2812648,n2194900201","region":"Луганська область"},"geometry":{"type":"Point","coordinates":[38.49777,48.72442]}},
 {"type":"Feature","properties":{"josm":"r2812648,n2194900206","region":"Луганська область"},"geometry":{"type":"Point","coordinates":[38.48745,48.72536]}},
 {"type":"Feature","properties":{"josm":"r6118992,n1423975525","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[26.08621,50.54082]}},
@@ -14,6 +18,7 @@
 {"type":"Feature","properties":{"josm":"r6118995,n1907502528","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.9554,50.54508]}},
 {"type":"Feature","properties":{"josm":"r6366874,n1164495117","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.36554,50.45059]}},
 {"type":"Feature","properties":{"josm":"r6366880,n4270232290","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.36622,50.43334]}},
+{"type":"Feature","properties":{"josm":"r1754394,w130190032,w216916723","error":"multipolygon members intersect each other","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.55479,46.15226]}},
 {"type":"Feature","properties":{"josm":"r6374709,w255310039,w428582820","error":"multipolygon members intersect each other","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.43929,49.15923]}},
 {"type":"Feature","properties":{"josm":"r6374709,w255310039,w428582823","error":"multipolygon members intersect each other","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.4396,49.15905]}},
 {"type":"Feature"}
