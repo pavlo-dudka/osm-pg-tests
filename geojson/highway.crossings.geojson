@@ -2,6 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Intersection without common node",
 "features": [
+{"type":"Feature","properties":{"josm":"w69253172,w69253321"},"geometry":{"type":"Point","coordinates":[34.76925,50.93294]}},
+{"type":"Feature","properties":{"josm":"w69253172,w430473124"},"geometry":{"type":"Point","coordinates":[34.76925,50.93294]}},
+{"type":"Feature","properties":{"josm":"w69253321,w430473124"},"geometry":{"type":"Point","coordinates":[34.76925,50.93294]}},
+{"type":"Feature","properties":{"josm":"w69253401,w430473124"},"geometry":{"type":"Point","coordinates":[34.76998,50.93229]}},
+{"type":"Feature","properties":{"josm":"w69253401,w430473126"},"geometry":{"type":"Point","coordinates":[34.76998,50.93229]}},
 {"type":"Feature","properties":{"josm":"w112446277,w149776766"},"geometry":{"type":"Point","coordinates":[33.2658,47.68894]}},
 {"type":"Feature","properties":{"josm":"w112446277,w150187622"},"geometry":{"type":"Point","coordinates":[33.26729,47.69107]}},
 {"type":"Feature","properties":{"josm":"w112446277,w323223073"},"geometry":{"type":"Point","coordinates":[33.2658,47.68894]}},
@@ -14,5 +19,6 @@
 {"type":"Feature","properties":{"josm":"w429771784,w429862071"},"geometry":{"type":"Point","coordinates":[26.43571,50.0051]}},
 {"type":"Feature","properties":{"josm":"w430367698,w430367702"},"geometry":{"type":"Point","coordinates":[22.95777,48.05476]}},
 {"type":"Feature","properties":{"josm":"w430421081,w430421082"},"geometry":{"type":"Point","coordinates":[25.63424,48.5928]}},
+{"type":"Feature","properties":{"josm":"w430473124,w430473126"},"geometry":{"type":"Point","coordinates":[34.76998,50.93229]}},
 {"type":"Feature"}
 ]}
