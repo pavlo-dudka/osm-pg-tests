@@ -9,6 +9,7 @@ building-node in a way:
 1087021547|93668858|highway:residential;  name:Павла Дыбенко улица;  name:en:Pavla Dybenko Street;  name:ru:Павла Дыбенко улица;  name:uk:Павла Дибенка вулиця
 1087021547|93668898|highway:service
 1110419499|95809407|highway:footway
+1231084594|71502259|historic:castle;  leisure:common;  name:Генуэзская крепость;  name:en:Genuezskaya Krepost';  name:ru:Генуэзская крепость;  name:uk:Генуезька фортеця
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
 1557174982|333539435|highway:tertiary;  name:Калініна вулиця;  name:ru:Калинина улица;  name:uk:Калініна вулиця;  surface:asphalt
 1557174982|333539441|highway:tertiary;  name:Пушкіна вулиця;  name:ru:Пушкина улица;  name:uk:Пушкіна вулиця;  surface:asphalt
@@ -26,6 +27,7 @@ building-node in a way:
 2896901319|286054771|highway:footway
 2896901371|286054774|highway:steps
 2955501548|292037998|addr:housenumber:76/24;  building:house
+2990849703|295379654|amenity:school;  name:Берездівська середня школа
 3048895187|300802061|addr:city:Іршава;  addr:postcode:90100;  addr:street:Шкільна;  building:school;  ele:20
 3224691890|385817494|addr:housenumber:19;  addr:street:600-річчя вулиця;  building:yes
 3229856464|316804758|highway:footway
@@ -37,6 +39,7 @@ building-node in a way:
 3652555932|360695948|highway:footway
 3668070345|292038000|addr:housenumber:61/26;  building:house
 3747906827|32708281|addr:housenumber:37а;  building:apartments;  building:levels:5;  building:material:brick
+3748880229|371311980|amenity:place_of_worship;  barrier:wall;  denomination:orthodox;  name:Церква Різдва Богородиці;  name:uk:Церква Різдва Богородиці;  religion:christian;  tourism:attraction
 3800019621|376675620|addr:city:Коломия;  addr:city:Коломия;  addr:housenumber:2;  addr:housenumber:2;  addr:postcode:78200;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  addr:street:Тараса Шевченка площа;  building:yes;  building:yes;  building:levels:2;  building:levels:2
 3800019621|376676079|addr:city:Коломия;  addr:housenumber:1;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  building:yes;  building:levels:2
 3800737662|376675620|addr:city:Коломия;  addr:housenumber:2;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  building:yes;  building:levels:2
@@ -265,11 +268,14 @@ Redundant space-symbols:
 37451134|name|Пляж Санатория Узбекистан 
 80473090|addr:housenumber|4в 
 96809577|name|Современник 
+103442899|name|Гимназия новых технологий обучения 
 104438971|addr:housenumber|6 
 105637585|addr:street|жадановского 
 105637650|addr:street|жадановского 
 107098648|note|Будівля в аварійному стані 
+108960515|name:en|Kiev city balneological resort 
 109209355|name:uk|Хабаровська вулиця 
+109508420|name|Гаражный кооператив 
 112609060|name|Поляна 
 112956658|name|Первый Республиканский супермаркет 
 115102280|addr:street|Тореза 
@@ -278,6 +284,7 @@ Redundant space-symbols:
 120857248|name:ru| Маяковского улица
 121333098|name| ГОСТ 
 121519877|name:uk|Павлова вулиця 
+122276741|name| Школа 102
 129301203|description|Памятник водрузили на 62-тонный монолит железной руды, который не так давно был доставлен из карьера «АрселорМиталл Кривой Рог» на площадь 
 130428044|note|Dairy - молокозавод 
 137315325|name|АТБ город Алескадрия 
@@ -320,6 +327,7 @@ Redundant space-symbols:
 280252322|addr:postcode|80700 
 281708165|phone|0663439778  
 287833333|addr:street|Горишного 
+289093188|name|Пансионат "Морская жемчужина" 
 291892674|name:pl|pasaż Andreolli 
 291892675|name:pl|pasaż Andreolli 
 291892676|name:pl|pasaż Andreolli 
@@ -327,11 +335,14 @@ Redundant space-symbols:
 311568654|note|практично не мінявся. Авторами іконостасу і образів були відомий український художник К. Устиянович і угорський художник Миклош. Внутрішні розписи виконав місцевий художник В. Крицинский. При храмі Архістратига Михайла діяло декілька церковних братерств. 
 320372676|name|Muzeum 
 323837227|addr:housenumber|21 
+325508601|name|Басейн СКА 
+325508601|name:uk|Басейн СКА 
 325798155|name|Медицинский колледж им. Жени Дерюгиной 
 328729912|ref|Ж/д Вокзал 
 331199237|addr:street|Спiвоча 
 333297580|name|Клиника Дахно. 
 335034403|addr:street|Рижская 
+371301328|name|Парковка 
 380491962|name:uk|Хабаровська вулиця 
 385005222|opening_hours|Mo-Sa 9:00-23:00; 
 391963956|addr:street|Октябрьская 
@@ -342,6 +353,7 @@ Redundant space-symbols:
 401427406|name:uk|Карла Маркса вулиця 
 401433122|name|Валерія Чкалова вулиця 
 401433122|name:uk|Валерія Чкалова вулиця 
+402609654|name| школа-інтернат
 403296144|official_name|Тетіївський районний відділ головного управління Міністерства надзвичайних ситуацій України в Київській області, 09800 м. Тетіїв вул. Цвіткова 47, тел. 5-25-16, факс 5-15-16 
 409020375|name:uk| Полуничний провулок
 410091974|note|Проектирование и строительство автомагистрали «Таврида» Керчь - Симферополь - Севастополь. 
