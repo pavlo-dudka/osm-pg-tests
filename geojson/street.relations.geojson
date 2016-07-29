@@ -2,6 +2,12 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1021786,w65518484","relationtags":"name:ru|Красносельская улица","membertags":"name:ru|Сельская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.94087,48.55971]}},
+{"type":"Feature","properties":{"josm":"r1021786,w65518484","relationtags":"name:uk|Красносельська вулиця","membertags":"name:uk|Сільська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.94087,48.55971]}},
+{"type":"Feature","properties":{"josm":"r1021786,w65518484","relationtags":"name|Красносельська вулиця","membertags":"name|Сільська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.94087,48.55971]}},
+{"type":"Feature","properties":{"josm":"r1021786,w65518504","relationtags":"name:ru|Красносельская улица","membertags":"name:ru|Сельская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.93878,48.55995]}},
+{"type":"Feature","properties":{"josm":"r1021786,w65518504","relationtags":"name:uk|Красносельська вулиця","membertags":"name:uk|Сільська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.93878,48.55995]}},
+{"type":"Feature","properties":{"josm":"r1021786,w65518504","relationtags":"name|Красносельська вулиця","membertags":"name|Сільська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.93878,48.55995]}},
 {"type":"Feature","properties":{"josm":"r1292905,n949029086","relationtags":"name|Академічна вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.44016,49.90095]}},
 {"type":"Feature","properties":{"josm":"r1324400,w89705030","relationtags":"name|Метробудівників вулиця","membertags":"addr:street|Гвардійців-Широнінців вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.36592,50.03807]}},
 {"type":"Feature","properties":{"josm":"r1324400,w89760621","relationtags":"name|Метробудівників вулиця","membertags":"addr:street|Леся Сердюка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.34961,50.03983]}},
