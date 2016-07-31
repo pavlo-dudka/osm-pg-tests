@@ -36,7 +36,7 @@
 {"type":"Feature","properties":{"josm":"r1419947,w103480839,w109860358,w150301775,w374880295,w396923585","relationtags":"name|Клочківська вулиця",},"geometry":{"type":"Point","coordinates":[36.18822,50.04988]}},
 {"type":"Feature","properties":{"josm":"r1421550,w420086655","relationtags":"name|Вишгородська вулиця",},"geometry":{"type":"Point","coordinates":[30.45648,50.4968]}},
 {"type":"Feature","properties":{"josm":"r1424804,w393918296,w393918463,w68221056,w68221086","relationtags":"name|Генерала Наумова вулиця",},"geometry":{"type":"Point","coordinates":[30.33152,50.46928]}},
-{"type":"Feature","properties":{"josm":"r1428305,w199051471,w199051473,w199051474,w199051475,w252660129,w252660132,w252660382,w375234236,w375234237,w375234238","relationtags":"name|Кудряшова вулиця",},"geometry":{"type":"Point","coordinates":[30.48668,50.43098]}},
+{"type":"Feature","properties":{"josm":"r1428305,w199051471,w199051473,w199051474,w199051475,w252660129,w252660132,w252660382,w252660460,w375234236,w375234237,w375234238,w375234239","relationtags":"name|Кудряшова вулиця",},"geometry":{"type":"Point","coordinates":[30.48668,50.43098]}},
 {"type":"Feature","properties":{"josm":"r1437833,w115956119,w115956128,w115956135,w115956906,w115956907,w202526734","relationtags":"name|Степана Бандери вулиця",},"geometry":{"type":"Point","coordinates":[26.26172,50.61394]}},
 {"type":"Feature","properties":{"josm":"r1443762,w27861220,w32923999,w32924096,w372785908","relationtags":"name|Борщагівська вулиця",},"geometry":{"type":"Point","coordinates":[30.44603,50.44502]}},
 {"type":"Feature","properties":{"josm":"r1444331,w139964316,w160934103","relationtags":"name|Січових Стрільців вулиця",},"geometry":{"type":"Point","coordinates":[30.50427,50.45598]}},
@@ -944,6 +944,7 @@
 {"type":"Feature","properties":{"josm":"r356758,w113143165,w420390878","relationtags":"name|Андріївський узвіз",},"geometry":{"type":"Point","coordinates":[30.51582,50.46128]}},
 {"type":"Feature","properties":{"josm":"r3570203,w361226728,w415313230","relationtags":"name|Центральна вулиця",},"geometry":{"type":"Point","coordinates":[29.943,50.6464]}},
 {"type":"Feature","properties":{"josm":"r3570204,w265633372,w272379455,w272770621,w272972133,w272972141,w272972142,w272972143,w272972153,w360989136,w360989888,w361021426,w361467907,w361468439","relationtags":"name|Семашка вулиця",},"geometry":{"type":"Point","coordinates":[29.90039,50.65477]}},
+{"type":"Feature","properties":{"josm":"r3575914,w115214226","relationtags":"name|Волгоградська вулиця",},"geometry":{"type":"Point","coordinates":[33.38887,47.9279]}},
 {"type":"Feature","properties":{"josm":"r3588161,w118297733,w401545282,w401545285,w415522922,w415610379,w429217280","relationtags":"name|Сержанта Жужоми вулиця",},"geometry":{"type":"Point","coordinates":[32.07447,49.44787]}},
 {"type":"Feature","properties":{"josm":"r358932,w367667430","relationtags":"name|Козацька вулиця",},"geometry":{"type":"Point","coordinates":[26.99184,49.41621]}},
 {"type":"Feature","properties":{"josm":"r3591618,w266363943,w327029523,w428823244,w428823275","relationtags":"name|Генерала Родимцева вулиця",},"geometry":{"type":"Point","coordinates":[32.30503,48.49647]}},
@@ -1771,8 +1772,9 @@
 {"type":"Feature","properties":{"josm":"r6441056,w167050142,w431670104","relationtags":"name|Генерала Чибісова вулиця",},"geometry":{"type":"Point","coordinates":[34.77832,50.93972]}},
 {"type":"Feature","properties":{"josm":"r6445572,w38651179","relationtags":"name|Самійла Кішки вулиця",},"geometry":{"type":"Point","coordinates":[32.05932,49.41581]}},
 {"type":"Feature","properties":{"josm":"r6446814,w426641997,w426641998","relationtags":"name|Гулака-Артемовського вулиця",},"geometry":{"type":"Point","coordinates":[34.78549,50.92131]}},
-{"type":"Feature","properties":{"josm":"r6448735,w163752787,w255116505,w255116506,w255361144,w68898842,w84672457,w84672462,w84672473,w84672483,w84672484,w84672486,w84672489,w84672492,w84672493","relationtags":"name|Робітнича вулиця",},"geometry":{"type":"Point","coordinates":[34.79157,50.91725]}},
-{"type":"Feature","properties":{"josm":"r6448736,w237593424,w237593432,w250212360,w250212374,w250212379,w253270301,w254029872,w254083461,w254083462,w377944973,w377944974,w69071764,w84672487,w84672488,w84672490,w84672498","relationtags":"name|Ярослава Мудрого вулиця",},"geometry":{"type":"Point","coordinates":[34.79427,50.91586]}},
+{"type":"Feature","properties":{"josm":"r6448735,w163752787,w255116505,w255116506,w255361144,w84672457,w84672462,w84672473,w84672483,w84672484,w84672486,w84672489,w84672492,w84672493","relationtags":"name|Робітнича вулиця",},"geometry":{"type":"Point","coordinates":[34.78729,50.90968]}},
+{"type":"Feature","properties":{"josm":"r6448736,w237593432,w250212360,w250212374,w250212379,w253270301,w377944973,w377944974,w69071764,w84672487,w84672488,w84672490,w84672498","relationtags":"name|Ярослава Мудрого вулиця",},"geometry":{"type":"Point","coordinates":[34.79211,50.91402]}},
+{"type":"Feature","properties":{"josm":"r6448895,w239573807,w253270293,w253270294,w253270295,w253270296,w253270310,w253623357,w253623363,w253623364,w254060338,w254060340,w254060344,w254060346,w402591839","relationtags":"name|Засумська вулиця",},"geometry":{"type":"Point","coordinates":[34.78924,50.91492]}},
 {"type":"Feature","properties":{"josm":"r955082,w144879734,w323939822,w336972165,w336972166,w336972167,w61323552","relationtags":"name|Гагаріна вулиця",},"geometry":{"type":"Point","coordinates":[38.52842,48.9452]}},
 {"type":"Feature"}
 ]}
