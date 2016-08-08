@@ -333,7 +333,7 @@ function showTable(geoJson)
 		{
 			document.write(feature.properties.error);
 		}
-		else if (typeof(errorDescr) != "undefined")
+		else if (typeof(mypoints.errorDescr) != "undefined")
 		{
 			document.write(mypoints.errorDescr);
 		}
