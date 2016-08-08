@@ -328,7 +328,16 @@ function showTable(geoJson)
 			document.write('</tr>');
 		}
 		
-		document.write('<tr>');		
+		document.write('<tr title="');
+		if (typeof(feature.properties.error) != "undefined")
+		{
+			document.write(feature.properties.error);
+		}
+		else if (typeof(errorDescr) != "undefined")
+		{
+			document.write(mypoints.errorDescr);
+		}
+		document.write('">');
 		document.write('<td>' + (j+1) + '</td>');
 		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
