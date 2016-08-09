@@ -253,7 +253,7 @@ function showTable(geoJson)
 			if (typeof(feature.properties.relationtags) != "undefined")
 			{
 				document.write('<th>Relation</th>');
-				if (feature.properties.relationtags.contains('&'))
+				if (feature.properties.relationtags.indexOf('&') > -1)
 					document.write('<th>Relation</th>');
 			}
 			if (typeof(feature.properties.membertags) != "undefined")
