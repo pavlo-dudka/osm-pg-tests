@@ -2,12 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1754513,n1624462131","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.4605,50.38935]}},
-{"type":"Feature","properties":{"josm":"r1754513,n4360251980","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.46052,50.38976]}},
-{"type":"Feature","properties":{"josm":"r1754514,n1624462131","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.4605,50.38935]}},
-{"type":"Feature","properties":{"josm":"r1754514,n4360251980","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.46052,50.38976]}},
-{"type":"Feature","properties":{"josm":"r6502898","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[30.99259,51.33273]}},
-{"type":"Feature","properties":{"josm":"r6411568,w28527379,w437725917","error":"multipolygon members intersect each other","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.07211,51.30706]}},
 {"type":"Feature","properties":{"josm":"r6478002,w98235811,w431943725","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.38408,48.98281]}},
 {"type":"Feature"}
 ]}
