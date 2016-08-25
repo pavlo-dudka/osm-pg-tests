@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r6528137,n4365868581","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.49057,50.93711]}},
+{"type":"Feature","properties":{"josm":"r6528137,n4365868583","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.49059,50.93706]}},
 {"type":"Feature","properties":{"josm":"r6527537","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.06184,48.65333]}},
 {"type":"Feature","properties":{"josm":"r6478002,w98235811,w431943725","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.38408,48.98281]}},
 {"type":"Feature"}
