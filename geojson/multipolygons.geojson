@@ -2,6 +2,12 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1790908,n1466764662","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.97017,49.41514]}},
+{"type":"Feature","properties":{"josm":"r1790908,n1466764707","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.97093,49.41633]}},
+{"type":"Feature","properties":{"josm":"r2128470,n1697391024","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.05998,49.44422]}},
+{"type":"Feature","properties":{"josm":"r2128470,n3691461636","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.06,49.44424]}},
+{"type":"Feature","properties":{"josm":"r2522437,n1950568837","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.29558,48.022]}},
+{"type":"Feature","properties":{"josm":"r2522437,n1950568844","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.29431,48.02204]}},
 {"type":"Feature","properties":{"josm":"r6528137,n4365868581","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.49057,50.93711]}},
 {"type":"Feature","properties":{"josm":"r6528137,n4365868583","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.49059,50.93706]}},
 {"type":"Feature","properties":{"josm":"r6527537","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.06184,48.65333]}},
