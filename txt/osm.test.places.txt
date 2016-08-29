@@ -172,6 +172,9 @@ Invalid relation role:
 421864|type|multipolygon|421864|5427553|R|inner|80
 421864|type|multipolygon|421864|5427554|R|inner|81
 1757765|type|multipolygon|1757765|6534549|R|outer|0
+1951902|type|multipolygon|1951902|1757776|R|outer|2
+1951902|type|multipolygon|1951902|1757777|R|outer|0
+1951902|type|multipolygon|1951902|1757778|R|outer|1
 2213799|type|multipolygon|2213799|2275254|R||1
 2213799|type|multipolygon|2213799|2630335|R||0
 5686829|type|multipolygon|5686829|5686828|R|inner|7
@@ -204,6 +207,20 @@ Invalid relation role:
 6502899|type|multipolygon|6502899|6502592|R|outer|0
 6502901|type|multipolygon|6502901|6502898|R|outer|0
 6528291|type|multipolygon|6528291|6528290|R|outer|0
+6532830|type|multipolygon|6532830|1757784|R|outer|0
+6532832|type|multipolygon|6532832|1757687|R|outer|2
+6532832|type|multipolygon|6532832|1757700|R|outer|1
+6532832|type|multipolygon|6532832|6534676|R|outer|0
+6532833|type|multipolygon|6532833|1757629|R|outer|4
+6532833|type|multipolygon|6532833|1757797|R|outer|0
+6532833|type|multipolygon|6532833|1757830|R|outer|6
+6532833|type|multipolygon|6532833|6528236|R|outer|5
+6532833|type|multipolygon|6532833|6534686|R|outer|2
+6532833|type|multipolygon|6532833|6534772|R|outer|1
+6532833|type|multipolygon|6532833|6541378|R|outer|3
+6532834|type|multipolygon|6532834|1757631|R|outer|2
+6532834|type|multipolygon|6532834|1757632|R|outer|0
+6532834|type|multipolygon|6532834|1757653|R|outer|1
 6534548|type|multipolygon|6534548|1757597|R|outer|1
 6534548|type|multipolygon|6534548|1757640|R|outer|0
 6534564|type|multipolygon|6534564|1757606|R|outer|10
@@ -242,6 +259,10 @@ Invalid relation role:
 6539073|type|multipolygon|6539073|6539069|R|outer|1
 6539074|type|multipolygon|6539074|6539072|R|outer|0
 6539074|type|multipolygon|6539074|6539073|R|outer|1
+6541376|type|multipolygon|6541376|6532832|R|outer|0
+6541376|type|multipolygon|6541376|6532833|R|outer|1
+6541377|type|multipolygon|6541377|6532830|R|outer|0
+6541377|type|multipolygon|6541377|6532834|R|outer|1
 
 No admin_centre:
 22793
@@ -639,6 +660,7 @@ Oblasts:
 337521405|Войтове|Войкове|Войково
 337522551|Круте||Круте
 337526767|Студеники|Жовтневе|Жовтневое
+337542356|Іванівка красивое село|Іванівка|Ивановка
 337568316|Добробут||Добробут
 337585353|Берестки||Берестки
 337589804|Долино-Кам'янка|Доніно-Кам’янка|Долино-Каменка
