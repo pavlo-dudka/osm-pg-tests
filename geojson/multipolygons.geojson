@@ -2,6 +2,9 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r6547844,n2468042363","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.81304,50.93998]}},
+{"type":"Feature","properties":{"josm":"r6547844,n4378752176","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.82567,50.95005]}},
+{"type":"Feature","properties":{"josm":"r5620972,w406956411,w440162416","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.83913,50.93785]}},
 {"type":"Feature","properties":{"josm":"r6478002,w98235811,w431943725","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.38408,48.98281]}},
 {"type":"Feature"}
 ]}
