@@ -2,10 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r6559579","error":"multipolygon without tags and single member - delete relation","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[36.05827,48.53084]}},
-{"type":"Feature","properties":{"josm":"r5620972,w406956411,w440162416","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.83913,50.93785]}},
+{"type":"Feature","properties":{"josm":"r6172827,n1925175553","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.94931,50.98869]}},
+{"type":"Feature","properties":{"josm":"r6172827,n4384872341","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.94968,50.9886]}},
 {"type":"Feature","properties":{"josm":"r6478002,w98235811,w431943725","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.38408,48.98281]}},
-{"type":"Feature","properties":{"josm":"r6553721,w429939272,w440524270","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.80199,50.976]}},
-{"type":"Feature","properties":{"josm":"r6553721,w429939272,w440524279","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.76707,50.96453]}},
 {"type":"Feature"}
 ]}
