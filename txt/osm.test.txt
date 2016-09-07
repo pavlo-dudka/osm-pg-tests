@@ -6,8 +6,8 @@ building-node in a way:
 775799160|253570591|highway:track
 929454995|79650310|highway:service
 969829967|83338079|highway:footway;  layer:-1;  tunnel:yes
-1087021547|93668858|highway:residential;  name:Павла Дыбенко улица;  name:en:Pavla Dybenko Street;  name:ru:Павла Дыбенко улица;  name:uk:Павла Дибенка вулиця
-1087021547|93668898|highway:service
+1087021547|93668858|highway:residential;  name:Павла Дыбенко улица;  name:en:Pavla Dybenko Street;  name:ru:Павла Дыбенко улица;  name:uk:Павла Дибенка вулиця;  surface:asphalt
+1087021547|93668898|highway:service;  surface:asphalt
 1110419499|95809407|highway:footway
 1231084594|71502259|historic:castle;  leisure:common;  name:Генуэзская крепость;  name:en:Genuezskaya Krepost';  name:ru:Генуэзская крепость;  name:uk:Генуезька фортеця
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
@@ -233,8 +233,6 @@ Redundant space-symbols:
 4383297589|name|Lounge Cafe 
 4383297589|operator|Чиченин Игорь Иванович 
 37451134|name|Пляж Санатория Узбекистан 
-91971546|name|улица Якова Иванова 
-91971546|name:ru|улица Якова Иванова 
 91971567|addr:street|улица Якова Иванова 
 91971651|addr:street|улица Якова Иванова 
 91971709|addr:street|улица Якова Иванова 
