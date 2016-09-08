@@ -39,6 +39,7 @@ building-node in a way:
 3800019621|376676079|addr:city:Коломия;  addr:housenumber:1;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  building:yes;  building:levels:2
 3800737662|376675620|addr:city:Коломия;  addr:housenumber:2;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  building:yes;  building:levels:2
 3800737662|376676079|addr:city:Коломия;  addr:housenumber:1;  addr:postcode:78200;  addr:street:Тараса Шевченка площа;  building:yes;  building:levels:2
+3835288422|380189469|building:office;  name:Будинок культури;  name:uk:Будинок культури
 3960416732|98112475|highway:service;  oneway:yes
 4192093989|419023383|boat:no;  canoe:no;  motorboat:no;  natural:water;  ship:no
 4352290490|437414789|addr:housenumber:84;  addr:street:Ганжі вулиця;  building:yes
@@ -291,6 +292,7 @@ Redundant space-symbols:
 242312235|name:en|ATAN 
 243757016|addr:street|улица Боша 
 243804060|name|   
+266302098|addr:housenumber|12 в 
 267082986|name|улица Добролюбова 
 267082986|name:ru|улица Добролюбова 
 269634815|addr:postcode|298312 
