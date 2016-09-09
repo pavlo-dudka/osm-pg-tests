@@ -2,9 +2,13 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r5504885,n2962441862","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.13508,50.05697]}},
-{"type":"Feature","properties":{"josm":"r5504885,n3742388021","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.10709,50.04689]}},
-{"type":"Feature","properties":{"josm":"r5508566,n2962441862","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.13508,50.05697]}},
-{"type":"Feature","properties":{"josm":"r5508566,n3742388021","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.10709,50.04689]}},
+{"type":"Feature","properties":{"josm":"r71236,n2551824343","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.23667,50.08178]}},
+{"type":"Feature","properties":{"josm":"r71236,n4393102214","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.21847,50.07716]}},
+{"type":"Feature","properties":{"josm":"r72380,n2551824343","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.23667,50.08178]}},
+{"type":"Feature","properties":{"josm":"r72380,n4393102214","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.21847,50.07716]}},
+{"type":"Feature","properties":{"josm":"r1740958,w292710092,w370541996","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[25.23904,50.081]}},
+{"type":"Feature","properties":{"josm":"r1749218,w292710092,w370541996","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[25.23904,50.081]}},
+{"type":"Feature","properties":{"josm":"r71236,w292710092,w370541996","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[25.23904,50.081]}},
+{"type":"Feature","properties":{"josm":"r72380,w292710092,w370541996","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[25.23904,50.081]}},
 {"type":"Feature"}
 ]}
