@@ -2,7 +2,6 @@ function showHistogram()
 {
 	var geojsonFileName = window.location.href.split('?')[1];
 	var histogramDate = geojsonFileName + '.geojson.csv';
-	//histogramFile = 'almost.junctions.geojson.csv';
 	
 	var data = new google.visualization.DataTable();
 	data.addColumn('datetime', 'X');
@@ -16,9 +15,15 @@ function showHistogram()
 	xmlhttp2.open('GET', 'http://46.8.44.227/' + histogramDate + '?' + Date.parse(xmlhttp1.responseText.replace(' ','T')), false);
 	xmlhttp2.send(null);
 	
-	var csv = $.map($.csv.toArrays(xmlhttp2.responseText), function(line){
-		return [[new Date(Date.parse(line[1].replace(' ','T'))), parseInt(line[2])]];
-	});
+	var csv = xmlhttp2.responseText.split('\r\n')
+		.filter(function(line){
+			return line !== "";
+		})
+		.map(function(line){
+			var fields = line.split(',');
+			return [new Date(Date.parse(fields[0].replace(' ','T'))), parseInt(fields[1])];
+		}
+	);
 	
 	data.addRows(csv);
 
