@@ -9,7 +9,7 @@ function showHistogram()
 	data.addColumn('number', geojsonFileName);
 	
 	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.open('GET', 'http://46.8.44.227/' + histogramDate, false);
+	xmlhttp.open('GET', 'http://46.8.44.227/' + histogramDate + '?' + new Date().getTime(), false);
 	xmlhttp.send(null);
 	
 	var csv = $.map($.csv.toArrays(xmlhttp.responseText), function(line){
