@@ -1,18 +1,18 @@
 function showHistogram()
 {
 	var geojsonFileName = window.location.href.split('?')[1];
-	var histogramDate = geojsonFileName + '.geojson.csv';
+	var histogramDataFile = geojsonFileName + '.geojson.csv';
 	
 	var data = new google.visualization.DataTable();
 	data.addColumn('datetime', 'X');
 	data.addColumn('number', geojsonFileName);
 	
 	var xmlhttp1 = new XMLHttpRequest();
-	xmlhttp1.open('GET', 'http://46.8.44.227/version?' + new Date().getTime(), false);
+	xmlhttp1.open('GET', 'http://46.8.44.227/csv/version?' + new Date().getTime(), false);
 	xmlhttp1.send(null);
 	
 	var xmlhttp2 = new XMLHttpRequest();
-	xmlhttp2.open('GET', 'http://46.8.44.227/' + histogramDate + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
+	xmlhttp2.open('GET', 'http://46.8.44.227/csv/' + histogramDataFile + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
 	xmlhttp2.send(null);
 	
 	var csv = xmlhttp2.responseText.split('\r\n')
