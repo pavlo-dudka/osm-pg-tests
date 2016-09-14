@@ -12,7 +12,7 @@ function showHistogram()
 	xmlhttp1.send(null);
 	
 	var xmlhttp2 = new XMLHttpRequest();
-	xmlhttp2.open('GET', 'http://46.8.44.227/' + histogramDate + '?' + Date.parse(xmlhttp1.responseText.replace(' ','T')), false);
+	xmlhttp2.open('GET', 'http://46.8.44.227/' + histogramDate + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
 	xmlhttp2.send(null);
 	
 	var csv = xmlhttp2.responseText.split('\r\n')
