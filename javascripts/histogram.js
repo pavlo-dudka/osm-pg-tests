@@ -15,13 +15,13 @@ function showHistogram()
 	xmlhttp2.open('GET', 'http://46.8.44.227/csv/' + histogramDataFile + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
 	xmlhttp2.send(null);
 	
-	var csv = xmlhttp2.responseText.split('\r\n')
+	var csv = xmlhttp2.responseText.split('\n')
 		.filter(function(line){
 			return line !== "";
 		})
 		.map(function(line){
-			var fields = line.split(',');
-			return [new Date(Date.parse(fields[0].replace(' ','T'))), parseInt(fields[1])];
+			var fields = line.replace(' ','T').replace('\r','').split(',');
+			return [new Date(Date.parse(fields[0])), parseInt(fields[1])];
 		}
 	);
 	
