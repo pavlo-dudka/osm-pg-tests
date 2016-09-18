@@ -1,4 +1,4 @@
-function showMap(geoJson)
+function showMap(geoJson, diff)
 {
 	var map = L.map('map').setView([49, 31], 6);
 	map.addControl(new L.Control.Permalink());
@@ -42,12 +42,14 @@ function showMap(geoJson)
 		}).addTo(map);
 	}
 	
-	showGeoJson(map, geoJson);
+	showGeoJson(map, geoJson, diff);
 }
 
-function showGeoJson(map, geoJson)
+function showGeoJson(map, geoJson, diff)
 {
 	var xmlhttp = new XMLHttpRequest();
+	if (diff != "undefined")
+		geoJson = "http://46.8.44.227:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
 	
@@ -224,11 +226,13 @@ function popupHtml(feature, errorDescr)
 	return result;
 }
 
-function showTable(geoJson)
+function showTable(geoJson, diff)
 {
 	document.write('<table class="sortable">');
 
 	var xmlhttp = new XMLHttpRequest();
+	if (diff != "undefined")
+		geoJson = "http://46.8.44.227:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
 	var mypoints = eval('(' + xmlhttp.responseText + ')');

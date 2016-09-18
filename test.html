@@ -22,7 +22,8 @@
     <div id='map'/>
     <script type="text/javascript">
         var mode = window.location.href.split('#')[0].split('?')[1];
-		var geojsonFileName = window.location.href.split('#')[0].split('?')[2];
+        var geojsonFileName = window.location.href.split('#')[0].split('?')[2];
+        var diff = window.location.href.split('#')[0].split('?')[3];
         if (typeof(mode) == 'undefined')
         {
             window.location.replace(window.location.href.replace('test.html',''));
@@ -38,11 +39,11 @@
 			
 			if (typeof(mode) != 'undefined' && mode == 'table')
 			{			
-				showTable(geojsonFileName);
+				showTable(geojsonFileName, diff);
 			}
 			else
 			{
-				showMap(geojsonFileName);
+				showMap(geojsonFileName, diff);
 			}
         }
     </script>    

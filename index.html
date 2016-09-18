@@ -12,20 +12,49 @@
   xmlDoc=xmlhttp.responseXML;
   
   document.write('<table>');
+  document.write('<th/>error<th>count</th><th>since<br/>3d ago</th><th>since<br/>10d ago</th><th>last found</th><th>history</th>');
   var x=xmlDoc.getElementsByTagName('item');
   for (i=0; i < x.length; i++)
   {	  
 	var link = x[i].getElementsByTagName('link')[0].childNodes[0].nodeValue;
 	var title = x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue;
 	var pubDate = x[i].getElementsByTagName('pubDate')[0].childNodes[0].nodeValue;
-	
+	var gitDiff3d = x[i].getElementsByTagName('gitDiff3d')[0].childNodes.length == 0 ? '' : x[i].getElementsByTagName('gitDiff3d')[0].childNodes[0].nodeValue;
+	var gitDiff10d = x[i].getElementsByTagName('gitDiff10d')[0].childNodes.length == 0 ? '' : x[i].getElementsByTagName('gitDiff10d')[0].childNodes[0].nodeValue;
+
+	var gd3dNew = '0', gd3dDel = '0', gd10dNew = '0', gd10dDel = '0';
+	var gdDiffArr = gitDiff3d.split(',');
+	for (j=0; j < gdDiffArr.length; j++)
+	{
+		line = gdDiffArr[j];
+		if (line.indexOf('insertion') > 0)
+			gd3dNew = line.split(' ')[1];
+		if (line.indexOf('deletion') > 0)
+			gd3dDel = line.split(' ')[1];
+	}
+	gdDiffArr = gitDiff10d.split(',');
+	for (j=0; j < gdDiffArr.length; j++)
+	{
+		line = gdDiffArr[j];
+		if (line.indexOf('insertion') > 0)
+			gd10dNew = line.split(' ')[1];
+		if (line.indexOf('deletion') > 0)
+			gd10dDel = line.split(' ')[1];
+	}
+
 	document.write('<tr>');
 	document.write('<td>' + title.split('-')[0] +'</td>');
-	document.write('<td>' + title.split('-')[1].split(' ')[1] +' error(s)</td>');
+	document.write('<td align="right">' + title.split('-')[1].split(' ')[1]);
+	document.write('  <a href="' + link.replace('?','?map?') + '">map</a>');
+	document.write('  <a href="' + link.replace('?','?table?') + '">table</a></td>');
+	document.write('<td align="right">+'+gd3dNew+'\n-'+gd3dDel);
+	document.write('  <a href="' + link.replace('?','?map?') + '?3 days ago">map</a>');
+	document.write('  <a href="' + link.replace('?','?table?') + '?3 days ago">table</a></td>');
+	document.write('<td align="right">+'+gd10dNew+'\n-'+gd10dDel);
+	document.write('  <a href="' + link.replace('?','?map?') + '?10 days ago">map</a>');
+	document.write('  <a href="' + link.replace('?','?table?') + '?10 days ago">table</a></td>');
 	document.write('<td>' + pubDate.split(',')[1].split('+')[0] +'</td>');
-	document.write('<td><a href="' + link.replace('?','?map?') + '">map</a></td>');
-	document.write('<td><a href="' + link.replace('?','?table?') + '">table</a></td>');	
-	document.write('<td><a href="' + link.replace('test.html','histogram.html') + '">history</a></td>');	
+	document.write('<td align="center"><a href="' + link.replace('test.html','histogram.html') + '">history</a></td>');
 	document.write('</tr>');
   }
   
