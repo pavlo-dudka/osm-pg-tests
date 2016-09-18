@@ -13,6 +13,8 @@ building-node in a way:
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
 1562907636|142813204|highway:residential;  name:Молодіжна вулиця;  name:ru:Молодёжная улица;  name:uk:Молодіжна вулиця
 1562907636|333539446|highway:secondary;  name:Пушкіна вулиця;  name:ru:Пушкина улица;  name:uk:Пушкіна вулиця;  ref:Т-05-18;  reg_ref:Т-05-18;  surface:asphalt
+1751673520|164335568|highway:secondary;  name:Тараса Шевченка вулиця;  name:en:Tarasa Shevchenka Street;  name:pl:ulica Tarasa Szewczenki;  name:ru:Тараса Шевченко улица;  name:uk:Тараса Шевченка вулиця
+1751673520|442591683|highway:residential;  name:Галини Столяр вулиця
 1783155716|166898225|highway:residential
 1783155716|166898262|highway:residential
 1855330073|174886961|highway:service;  oneway:yes
@@ -44,6 +46,7 @@ building-node in a way:
 4192093989|419023383|boat:no;  canoe:no;  motorboat:no;  natural:water;  ship:no
 4352290490|437414789|addr:housenumber:84;  addr:street:Ганжі вулиця;  building:yes
 4385269809|440770376|
+4396276938|164335568|highway:secondary;  name:Тараса Шевченка вулиця;  name:en:Tarasa Shevchenka Street;  name:pl:ulica Tarasa Szewczenki;  name:ru:Тараса Шевченко улица;  name:uk:Тараса Шевченка вулиця
 
 Redundant space-symbols:
 256616295|name:ru|Орехово 
