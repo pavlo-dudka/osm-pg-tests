@@ -13,7 +13,7 @@
 <description><![CDATA[10 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Sun, 18 Sep 2016 01:14:00 +0300</pubDate>
 <gitDiff1d> 1 file changed, 2 insertions(+)</gitDiff1d>
-<gitDiff5d> 1 file changed, 10 insertions(+), 22 deletions(-)</gitDiff5d>
+<gitDiff5d> 1 file changed, 10 insertions(+), 24 deletions(-)</gitDiff5d>
 <gitDiff2w> 1 file changed, 10 insertions(+), 20 deletions(-)</gitDiff2w>
 </item>
 <item>
@@ -46,8 +46,8 @@
 <description><![CDATA[123 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Sun, 18 Sep 2016 03:00:00 +0300</pubDate>
 <gitDiff1d> 1 file changed, 9 insertions(+), 3 deletions(-)</gitDiff1d>
-<gitDiff5d> 1 file changed, 119 insertions(+), 20 deletions(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 119 insertions(+), 30 deletions(-)</gitDiff2w>
+<gitDiff5d> 1 file changed, 119 insertions(+), 19 deletions(-)</gitDiff5d>
+<gitDiff2w> 1 file changed, 119 insertions(+), 33 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201609161411</guid>
@@ -69,7 +69,7 @@
 <pubDate>Sun, 18 Sep 2016 01:14:00 +0300</pubDate>
 <gitDiff1d> 1 file changed, 1 insertion(+)</gitDiff1d>
 <gitDiff5d> 1 file changed, 7 insertions(+), 16 deletions(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 32 insertions(+), 28 deletions(-)</gitDiff2w>
+<gitDiff2w> 1 file changed, 25 insertions(+), 28 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary201609171226</guid>
@@ -89,9 +89,9 @@
 <title>highway.islands.unclassified - 494 error(s) found at 18 Sep 2016 03:00</title>
 <description><![CDATA[494 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
 <pubDate>Sun, 18 Sep 2016 03:00:00 +0300</pubDate>
-<gitDiff1d> 1 file changed, 5 insertions(+), 2 deletions(-)</gitDiff1d>
-<gitDiff5d> 1 file changed, 36 insertions(+), 21 deletions(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 69 insertions(+), 32 deletions(-)</gitDiff2w>
+<gitDiff1d> 1 file changed, 4 insertions(+)</gitDiff1d>
+<gitDiff5d> 1 file changed, 36 insertions(+), 22 deletions(-)</gitDiff5d>
+<gitDiff2w> 1 file changed, 68 insertions(+), 32 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">multipolygons201609180300</guid>
@@ -146,7 +146,7 @@
 <pubDate>Sat, 17 Sep 2016 16:11:00 +0300</pubDate>
 <gitDiff1d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff1d>
 <gitDiff5d> 1 file changed, 7 insertions(+), 12 deletions(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 8 insertions(+), 13 deletions(-)</gitDiff2w>
+<gitDiff2w> 1 file changed, 7 insertions(+), 12 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">railwayislandsservice201609170213</guid>
@@ -190,7 +190,7 @@
 <pubDate>Sat, 17 Sep 2016 02:13:00 +0300</pubDate>
 <gitDiff1d></gitDiff1d>
 <gitDiff5d> 1 file changed, 36 insertions(+), 1 deletion(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 69 insertions(+), 60 deletions(-)</gitDiff2w>
+<gitDiff2w> 1 file changed, 68 insertions(+), 60 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201609140937</guid>
@@ -210,9 +210,9 @@
 <title>street.relations.n - 1893 error(s) found at 18 Sep 2016 01:14</title>
 <description><![CDATA[1893 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Sun, 18 Sep 2016 01:14:00 +0300</pubDate>
-<gitDiff1d> 1 file changed, 8 insertions(+), 7 deletions(-)</gitDiff1d>
-<gitDiff5d> 1 file changed, 51 insertions(+), 36 deletions(-)</gitDiff5d>
-<gitDiff2w> 1 file changed, 179 insertions(+), 86 deletions(-)</gitDiff2w>
+<gitDiff1d> 1 file changed, 7 insertions(+), 6 deletions(-)</gitDiff1d>
+<gitDiff5d> 1 file changed, 50 insertions(+), 35 deletions(-)</gitDiff5d>
+<gitDiff2w> 1 file changed, 177 insertions(+), 84 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201609180114</guid>
@@ -223,7 +223,7 @@
 <pubDate>Sun, 18 Sep 2016 01:14:00 +0300</pubDate>
 <gitDiff1d> 1 file changed, 2 insertions(+)</gitDiff1d>
 <gitDiff5d> 1 file changed, 2 insertions(+)</gitDiff5d>
-<gitDiff2w> 1 file changed, 9 insertions(+), 8 deletions(-)</gitDiff2w>
+<gitDiff2w> 1 file changed, 8 insertions(+), 7 deletions(-)</gitDiff2w>
 </item>
 <item>
 <guid isPermaLink="false">waterwayslayer201609180300</guid>
