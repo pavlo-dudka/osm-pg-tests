@@ -48,7 +48,7 @@ function showMap(geoJson, diff)
 function showGeoJson(map, geoJson, diff)
 {
 	var xmlhttp = new XMLHttpRequest();
-	if (diff != "undefined")
+	if (typeof(diff) != "undefined")
 		geoJson = "http://46.8.44.227:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
@@ -231,7 +231,7 @@ function showTable(geoJson, diff)
 	document.write('<table class="sortable">');
 
 	var xmlhttp = new XMLHttpRequest();
-	if (diff != "undefined")
+	if (typeof(diff) != "undefined")
 		geoJson = "http://46.8.44.227:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
