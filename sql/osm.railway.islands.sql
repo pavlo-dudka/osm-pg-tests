@@ -35,6 +35,10 @@ BEGIN
         select 'main', 1, 33512752;
         insert into mainIslandRail
         select 'main', 1, 114380778;
+        insert into mainIslandRail
+        select 'main', 1, 43081987;
+        insert into mainIslandRail
+        select 'main', 1, 26730096;
 
 	insert into mainIslandRail
 	with recursive tab as
