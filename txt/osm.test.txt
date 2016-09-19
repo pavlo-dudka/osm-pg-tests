@@ -13,9 +13,6 @@ building-node in a way:
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
 1562907636|142813204|highway:residential;  name:Молодіжна вулиця;  name:ru:Молодёжная улица;  name:uk:Молодіжна вулиця
 1562907636|333539446|highway:secondary;  name:Пушкіна вулиця;  name:ru:Пушкина улица;  name:uk:Пушкіна вулиця;  ref:Т-05-18;  reg_ref:Т-05-18;  surface:asphalt
-1759825790|163492910|highway:tertiary;  name:Юридика вулиця;  name:en:Yurydyka Street;  name:pl:ulica Jurydyka;  name:ru:Юридика улица;  name:uk:Юридика вулиця
-1759825790|164341563|highway:residential;  name:900-річчя Бродів вулиця;  name:en:900-richchia Brodiv Street;  name:ru:900-летия Бродов улица;  name:uk:900-річчя Бродів вулиця
-1759825790|165202068|highway:residential;  name:Лесі Українки вулиця;  name:en:Lesi Ukrainky Street;  name:ru:Леси Украинки улица;  name:uk:Лесі Українки вулиця
 1783155716|166898225|highway:residential
 1783155716|166898262|highway:residential
 1855330073|174886961|highway:service;  oneway:yes
@@ -47,7 +44,6 @@ building-node in a way:
 4192093989|419023383|boat:no;  canoe:no;  motorboat:no;  natural:water;  ship:no
 4352290490|437414789|addr:housenumber:84;  addr:street:Ганжі вулиця;  building:yes
 4385269809|440770376|
-4396276938|164335568|highway:secondary;  name:Тараса Шевченка вулиця;  name:en:Tarasa Shevchenka Street;  name:pl:ulica Tarasa Szewczenki;  name:ru:Тараса Шевченко улица;  name:uk:Тараса Шевченка вулиця
 
 Redundant space-symbols:
 256616295|name:ru|Орехово 
@@ -617,6 +613,7 @@ No suffix:
 вулиця 21-та Садова|441119133
 вулиця 22-та Садова|441119134
 вулиця 2-га Садова|441110848
+вулиця 353 Дивізії|149946155
 вулиця 3-тя Садова|441110849
 вулиця 4-та Садова|441110850
 вулиця 5-та Садова|441110851
