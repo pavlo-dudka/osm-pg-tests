@@ -39,16 +39,16 @@ BEGIN
 	insert into mainIslandRail
 	with recursive tab as
 	(
-		select 1 skip, id from mainIslandRail
+		select 1 skip_flag, id from mainIslandRail
 		union
-		select 0 skip, h.id
+		select 0 skip_flag, h.id
 		from tab
 		  inner join cross_way_nodes_rail wn on tab.id = wn.way_id_1
 		  inner join railways h on h.id=wn.way_id_2
 		where h.railway_level=any(levels)
 	)
 	select levels[1], 1, id from tab
-	where skip=0;
+	where skip_flag=0;
 
 	select array_agg(h.id::int order by h.id) into arr
 	from railways h

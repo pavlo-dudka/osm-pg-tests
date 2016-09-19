@@ -9,11 +9,11 @@ if [ ! -e results ]
     mkdir results
 fi
 
+$psql_exe -f sql/osm.street.relations.n.sql -o results/street.relations.n.geojson #"street.relations.n"
+$psql_exe -f sql/osm.street.relations.o.sql -o results/street.relations.o.geojson #"street.relations.o"
 $psql_exe -f sql/osm.multipolygons.sql -o results/multipolygons.geojson 2>&1 & #"multipolygons"
 $psql_exe -f sql/osm.street.relations.sql -o results/street.relations.geojson 2>&1 & #"street.relations"
 $psql_exe -f sql/osm.street.relations.m.sql -o results/street.relations.m.geojson 2>&1 & #"street.relations.m"
-$psql_exe -f sql/osm.street.relations.n.sql -o results/street.relations.n.geojson 2>&1 & #"street.relations.n"
-$psql_exe -f sql/osm.street.relations.o.sql -o results/street.relations.o.geojson 2>&1 & #"street.relations.o"
 $psql_exe -f sql/osm.addr.housenumber.geo.sql -o results/house.numbers.geojson 2>&1 & #"addr.housenumber"
 $psql_exe -f sql/osm.cities.without.place.polygon.sql -o results/cities.without.place.polygon.geojson 2>&1 & #"cities.without.place.polygon"
 $psql_exe -f sql/osm.waterways.sql -o results/waterways.layer.geojson 2>&1 & #"waterways.layer"
@@ -53,6 +53,8 @@ $psql_exe -f sql/osm.addr.housenumber.txt.sql -o results/osm.addr.housenumber.tx
 #$psql_exe -f sql/osm.ternopil.sql -o results/osm.ternopil.txt 2>&1 &
 #start "berdychiv"
 $psql_exe -f sql/osm.berdychiv.sql -o results/osm.Berdychiv.txt 2>&1 &
+#start "cherkasy"
+$psql_exe -f sql/osm.cherkasy.sql -o results/osm.Cherkasy.txt 2>&1 &
 #start "chernihiv"
 $psql_exe -f sql/osm.chernihiv.sql -o results/osm.Chernihiv.txt 2>&1 &
 #start "chernivtsi"

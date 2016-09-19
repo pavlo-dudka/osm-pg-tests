@@ -62,13 +62,15 @@ select '';
 select 'Koatuu - different names:';
 select n.id,ntk.v,code,ntn.v,title
 from node_tags ntp
-inner join nodes n on n.id=ntp.node_id
-inner join regions r on st_contains(r.linestring, n.geom)
-inner join node_tags ntn on ntn.node_id=n.id and ntn.k=(case when r.relation_id in (72639,1574364) then 'name:uk' else 'name' end)
-left  join node_tags ntk on ntk.node_id=n.id and ntk.k='koatuu'
-left  join koatuu k on k.code=ntk.v
+  inner join nodes n on n.id=ntp.node_id
+  left  join relations ordlo on ordlo.id=4473309 and st_contains(ordlo.linestring, n.geom)
+  inner join regions r on st_contains(r.linestring, n.geom)
+  inner join node_tags ntn on ntn.node_id=n.id and ntn.k=(case when r.relation_id in (72639,1574364) then 'name:uk' else 'name' end)
+  left  join node_tags nto on nto.node_id=n.id and nto.k='official_name' and ordlo.id is not null
+  left  join node_tags ntk on ntk.node_id=n.id and ntk.k='koatuu'
+  left  join koatuu k on k.code=ntk.v
 where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
-  and coalesce(k.title,'')<>upper(ntn.v)
+  and coalesce(k.title,'')<>upper(coalesce(nto.v,ntn.v))
   and n.id not in (266318137,1326710031,337502296)
 order by code,n.id;
 
@@ -97,7 +99,7 @@ order by k.code;
 
 select '';
 select 'Koatuu - invalid code';
-select relation_id, name,koatuu from districts where koatuu not in (select code from koatuu where coalesce(place,'М')='М' and code like '%00000' and code not like '%0000000');
+select relation_id,name,koatuu from districts where koatuu not in (select code from koatuu where coalesce(place,'М')='М' and code like '%00000' and code not like '%0000000');
 
 select '';
 select 'Koatuu - duplicated codes';

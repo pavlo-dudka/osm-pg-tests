@@ -8,6 +8,7 @@ with a as (
   from relation_tags rt
     inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W'
   where rt.k='type' and rt.v in ('multipolygon','boundary')
+    and rm.relation_id not in (6366874)
 ),
 c as 
 (
@@ -60,7 +61,7 @@ inner join relation_members rm1 on rm1.relation_id=r.id and rm1.member_type='W'
 inner join relation_members rm2 on rm2.relation_id=r.id and rm2.member_type='W'
 inner join ways w1 on w1.id=rm1.member_id
 inner join ways w2 on w2.id=rm2.member_id
-where r.id not in (2533235,1455558)
+where r.id not in (2533235,1455558,6478002)
   and w1.id<w2.id
   and _st_crosses(w1.linestring,w2.linestring)
   and st_intersection(w1.linestring,w2.linestring) not in (select (st_dumppoints(w1.linestring)).geom)

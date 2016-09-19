@@ -6,12 +6,17 @@ if [ ! -e temp ]
     mkdir temp
 fi
 
-if [ ! -e temp/UA.osm.pbf ]
+if [ ! -e temp/ua.o5m ]
   then
-    wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/UA.osm.pbf
+    wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/ua.osm.pbf
+    ./bin/osmconvert temp/ua.osm.pbf -o=temp/ua.o5m
+    rm temp/ua.osm.pbf
+elif [ -e temp/ua.filtered.o5m ]
+  then
+    cp temp/ua.filtered.o5m temp/ua.o5m
 fi
 
-mv temp/UA.osm.pbf temp/UA.0.pbf
+mv temp/ua.o5m temp/ua.0.o5m
 
 cd bin
 
@@ -19,21 +24,21 @@ if [ ! -e osmupdate ]
   then
     wget -O - http://m.m.i24.cc/osmupdate.c | cc -x c - -o osmupdate
   else
-    ./osmupdate ../temp/UA.0.pbf ../temp/UA.1.pbf --minute --max-merge=2 -v --keep-tempfiles --tempfiles=../temp/osmupdate/
-    ./osmconvert ../temp/UA.1.pbf -o=../temp/UA.osm.pbf -B=../poly/UA.poly --complete-ways --complex-ways
+    ./osmupdate ../temp/ua.0.o5m ../temp/ua.1.pbf --hour --max-merge=2 -v
+    ./osmupdate ../temp/ua.1.pbf ../temp/ua.o5m --minute --max-merge=5 -v
 fi
 
 cd ..
 
-if [ -e temp/UA.osm.pbf ]
+if [ -e temp/ua.o5m ]
   then
-    rm temp/UA.0.pbf
-    rm temp/UA.1.pbf
+    rm temp/ua.0.o5m
+    rm temp/ua.1.pbf
 fi
 
-if [ -e temp/UA.0.pbf ]
+if [ -e temp/ua.0.o5m ]
   then
-    mv temp/UA.0.pbf temp/UA.osm.pbf
+    mv temp/ua.0.o5m temp/ua.o5m
 fi
 
 exit 0

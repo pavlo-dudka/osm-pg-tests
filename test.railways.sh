@@ -11,5 +11,6 @@ $psql_exe -f sql/osm.railway.islands.sql
 $psql_exe -f sql/osm.railway.islands.main.sql -o results/railway.islands.main.geojson
 $psql_exe -f sql/osm.railway.islands.service.sql -o results/railway.islands.service.geojson
 $psql_exe -f sql/osm.railway.dead.ends.sql -o results/railway.dead.ends.geojson
+$psql_exe -f sql/osm.railway.sharp.turns.sql -o results/railway.sharp.turns.geojson
 
 exit 0

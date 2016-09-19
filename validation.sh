@@ -24,6 +24,6 @@ if [ -e publish.results.now.sh ]; then
   ./publish.results.now.sh
 fi
 
-$psql_exe -f sql/osm.vacuum.full.sql
+#$psql_exe -f sql/osm.vacuum.full.sql
 
 exit 0

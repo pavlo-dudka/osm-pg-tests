@@ -12,6 +12,18 @@ gethash () {
   done < $1
 }
 
+recordDiff () {
+  file=$1
+  period=$2
+
+  echo "{" > "/var/www/geojson/$period/$file"
+  echo "\"type\": \"FeatureCollection\"," >> "/var/www/geojson/$period/$file"
+  echo "\"features\": [" >> "/var/www/geojson/$period/$file"
+  git --git-dir=$publish_path/.git --work-tree=$publish_path diff "@{$period day ago}" -p $publish_path/geojson/$file | grep properties | grep "\+{" | cut -c 2- >> "/var/www/geojson/$period/$file"
+  echo "{\"type\":\"Feature\"}" >> "/var/www/geojson/$period/$file"
+  echo "]}" >> "/var/www/geojson/$period/$file"
+}
+
 processGeojson () {
   file=$1
 
@@ -37,11 +49,17 @@ processGeojson () {
   fi
 
   echo "$file $2 $errdate" >> error.summary
+  echo "`date +'%Y-%m-%d %H:%M'`,$2" >> "/var/www/csv/$file.csv"
+
+  recordDiff $file 3
+  recordDiff $file 10
 }
 
 recordItem () {
   errdate=$3
   file=(`echo -e $1|sed 's/.geojson.*$//'`)
+  diff_3d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat "@{3 days ago}" $publish_path/geojson/$file.geojson`"
+  diff_10d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat "@{10 days ago}" $publish_path/geojson/$file.geojson`"
   echo "<item>" >> test.rss
   echo "<guid isPermaLink=\"false\">${file//./}`date -d $errdate +'%Y%m%d%H%M'`</guid>" >> test.rss
   echo "<link>$publish_url/test.html?$file</link>" >> test.rss
@@ -49,6 +67,9 @@ recordItem () {
   echo "<title>$file - $2 error(s) found at `date -d $errdate +'%d %b %Y %H:%M'`</title>" >> test.rss
   echo "<description><![CDATA[$2 error(s) found: <a href=$publish_url/test.html?map?$file>map</a> <a href=$publish_url/test.html?table?$file>table</a>]]></description>" >> test.rss
   echo "<pubDate>`date -d $errdate +'%a, %d %b %Y %T %z'`</pubDate>" >> test.rss
+  echo "<gitDiff3d>$diff_3d</gitDiff3d>" >> test.rss
+  echo "<gitDiff10d>$diff_10d</gitDiff10d>" >> test.rss
+
   echo "</item>" >> test.rss
 }
 
@@ -104,6 +125,8 @@ while read line; do
   param=($line)
   processGeojson ${param[0]} ${param[1]}
 done < error.count.txt
+
+date +'%Y-%m-%dT%H:%M' > /var/www/csv/version
 
 echo -e '<?xml version="1.0" encoding="utf-8" ?>' > test.rss
 echo -e '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' >> test.rss
