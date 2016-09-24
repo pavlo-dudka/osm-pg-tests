@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1769170,n1676797978","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.26335,48.22556]}},
-{"type":"Feature","properties":{"josm":"r1769170,n4414428574","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.26334,48.22556]}},
 {"type":"Feature","properties":{"josm":"r4551886,w326046579,w444034946","error":"multipolygon members intersect each other","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.38873,49.10495]}},
 {"type":"Feature","properties":{"josm":"r4552083,w326046579,w444034946","error":"multipolygon members intersect each other","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.38873,49.10495]}},
 {"type":"Feature"}
