@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1286997,w23579247","relationtags":"name|Університетська вулиця","membertags":"addr:street|Університетська","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.93287,48.2933]}},
 {"type":"Feature","properties":{"josm":"r1295889,w255405131","relationtags":"name:ru|Московский проспект","membertags":"name:ru|Индустриальный проспект","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.38639,49.95158]}},
 {"type":"Feature","properties":{"josm":"r1295889,w255405131","relationtags":"name:uk|Московський проспект","membertags":"name:uk|Індустріальний проспект","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.38639,49.95158]}},
 {"type":"Feature","properties":{"josm":"r1295889,w260997155","relationtags":"name:ru|Московский проспект","membertags":"name:ru|Индустриальный проспект","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.38644,49.95163]}},
