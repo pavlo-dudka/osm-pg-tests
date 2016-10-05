@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r5523673,n3017204606","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.04565,48.99246]}},
+{"type":"Feature","properties":{"josm":"r5523673,n3017206786","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.1101,49.01492]}},
 {"type":"Feature","properties":{"josm":"r6404571,w430296846,w430298479","error":"multipolygon members intersect each other","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.65064,48.94356]}},
 {"type":"Feature","properties":{"josm":"r6404571,w430296846,w430298481","error":"multipolygon members intersect each other","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.65005,48.94933]}},
 {"type":"Feature"}
