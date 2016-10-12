@@ -1,5 +1,3 @@
---vacuum;
-
 update relations r
   set linestring=t.geom
 from 
@@ -9,7 +7,7 @@ from
     inner join relation_members rm on rt.relation_id=rm.relation_id and member_type='W'
     left join ways w on w.id=rm.member_id
   where rt.k='type' and rt.v in ('multipolygon','boundary')
-    and rt.relation_id not in (5844663,2379521,3855668)
+    and rt.relation_id not in (5844663,2379521,3855668,6299605,6404571)
   group by rt.relation_id
 ) t
 where t.id=r.id;

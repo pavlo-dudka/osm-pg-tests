@@ -111,6 +111,7 @@ select wt.way_id,wt.v::int,min(rt.v::int)
 from way_tags wt 
 inner join relation_members rm on rm.member_id=wt.way_id and rm.member_type='W'
 inner join relation_tags rt on rt.relation_id=rm.relation_id and rt.k='admin_level'
+inner join relation_tags rtb on rtb.relation_id=rm.relation_id and rtb.k='boundary' and rtb.v='administrative'
 inner join relation_tags rtn on rtn.relation_id=rm.relation_id and rtn.k='name'
 inner join ways w on w.id=wt.way_id
 inner join users u on u.id=w.user_id --and u.name='uname'

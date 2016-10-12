@@ -1,13 +1,25 @@
 update cityDC cdc
 set linestring = tab.linestring, name=tab.city_name
 from
-  (select r.linestring,nt.v koatuu,ntn.v city_name
+  (select r.linestring, nt.v koatuu, ntn.v city_name
    from node_tags nt 
      inner join node_tags ntn on ntn.node_id=nt.node_id and ntn.k='name'
      inner join nodes n on n.id=ntn.node_id
      inner join relations r on st_contains(r.linestring,n.geom)
      inner join relation_tags rtk on rtk.relation_id=r.id and rtk.k='name' and rtk.v=ntn.v and rtk.relation_id in (select relation_id from relation_tags where k='place')
-   where nt.k='koatuu') tab
+   where nt.k='koatuu' and nt.v in (select koatuu from cityDC)) tab
+where tab.koatuu=cdc.koatuu;
+
+update cityDC cdc
+set linestring = tab.linestring, name=tab.city_name
+from
+  (select st_makepolygon(w.linestring) linestring, nt.v koatuu, ntn.v city_name
+   from node_tags nt 
+     inner join node_tags ntn on ntn.node_id=nt.node_id and ntn.k='name'
+     inner join nodes n on n.id=ntn.node_id
+     inner join way_tags wtk on wtk.k='name' and wtk.v=ntn.v and wtk.way_id in (select way_id from way_tags where k='place')
+     inner join ways w on wtk.way_id=w.id and st_isclosed(w.linestring) and st_contains(st_makepolygon(w.linestring),n.geom)
+   where nt.k='koatuu' and nt.v in (select koatuu from cityDC where linestring is null)) tab
 where tab.koatuu=cdc.koatuu;
 
 select '{';
