@@ -24,6 +24,7 @@
 {"type":"Feature","properties":{"josm":"r1735512,w155999901","relationtags":"name|Івана Поповича вулиця","membertags":"name|Омеляна Поповича вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.93481,48.28578]}},
 {"type":"Feature","properties":{"josm":"r1735512,w23540179","relationtags":"name|Івана Поповича вулиця","membertags":"name|Омеляна Поповича вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.93439,48.28458]}},
 {"type":"Feature","properties":{"josm":"r1738354,w235882791","relationtags":"name|Олени Теліги вулиця","membertags":"addr:street|Щусєва вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.44715,50.47369]}},
+{"type":"Feature","properties":{"josm":"r1745224,w114593178","relationtags":"name|Мельникова вулиця","membertags":"addr:street|Довнар-Запольського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.47486,50.46527]}},
 {"type":"Feature","properties":{"josm":"r1772670,w126470903","relationtags":"name|Лісова вулиця","membertags":"name|Миру вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.24103,50.74698]}},
 {"type":"Feature","properties":{"josm":"r1926044,n1557261021","relationtags":"name|Лінійна вулиця","membertags":"addr:street|Молодіжна вулиця;Лінійна вулиця","memberrole":"address"},"geometry":{"type":"Point","coordinates":[30.27843,50.33535]}},
 {"type":"Feature","properties":{"josm":"r1926057,n1557261021","relationtags":"name|Молодіжна вулиця","membertags":"addr:street|Молодіжна вулиця;Лінійна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.27843,50.33535]}},
@@ -43,7 +44,6 @@
 {"type":"Feature","properties":{"josm":"r2085049,w439071434","relationtags":"name|Івана Вагилевича вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.49611,49.34568]}},
 {"type":"Feature","properties":{"josm":"r2085049,w439071435","relationtags":"name|Івана Вагилевича вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[23.4948,49.34597]}},
 {"type":"Feature","properties":{"josm":"r2085099,w153374647","relationtags":"name|Олеся Гончара вулиця","membertags":"addr:street|Володимира Великого вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[23.53023,49.35661]}},
-{"type":"Feature","properties":{"josm":"r2092690,w37852087","relationtags":"name|Генерала Потапова вулиця","membertags":"name|Володимира Покотила вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.39268,50.42422]}},
 {"type":"Feature","properties":{"josm":"r2095062,w97171417","relationtags":"name|Олександрійський бульвар","membertags":"addr:street|50-річчя Перемоги бульвар","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.11018,49.79791]}},
 {"type":"Feature","properties":{"josm":"r2095062,w98870067","relationtags":"name|Олександрійський бульвар","membertags":"addr:street|Вячеслава Чорновола вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.0866,49.81354]}},
 {"type":"Feature","properties":{"josm":"r2168480,w28918678","relationtags":"name|Івана Миколайчука вулиця","membertags":"addr:street|Павла Тичини проспект","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.59529,50.42977]}},
@@ -378,6 +378,7 @@
 {"type":"Feature","properties":{"josm":"r6622506,w445133389","relationtags":"name|Олени Теліги вулиця","membertags":"addr:street|Елены Телиги улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.25123,49.1785]}},
 {"type":"Feature","properties":{"josm":"r6622506,w445133515","relationtags":"name|Олени Теліги вулиця","membertags":"addr:street|Елены Телиги улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.25091,49.17843]}},
 {"type":"Feature","properties":{"josm":"r6622515,w445133557","relationtags":"name|Перемоги вулиця","membertags":"addr:street|Подлесная площадь","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.24918,49.18635]}},
+{"type":"Feature","properties":{"josm":"r6622568,w445247310","relationtags":"name|Набережний в’їзд","membertags":"name|Березовый переулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.26866,49.19322]}},
 {"type":"Feature","properties":{"josm":"r6623803,w418080088","relationtags":"name|Людмили Александрової провулок","membertags":"name|Есенина улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.26363,49.19594]}},
 {"type":"Feature","properties":{"josm":"r6626330,w445552131","relationtags":"name|Медова вулиця","membertags":"addr:street|Медовый въезд","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.31146,49.22204]}},
 {"type":"Feature","properties":{"josm":"r6626330,w445552133","relationtags":"name|Медова вулиця","membertags":"addr:street|Медовый въезд","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.31174,49.2219]}},
@@ -420,8 +421,6 @@
 {"type":"Feature","properties":{"josm":"r6656057,w448808699","relationtags":"name|40-річчя Перемоги вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.26429,48.40953]}},
 {"type":"Feature","properties":{"josm":"r6656057,w448808702","relationtags":"name|40-річчя Перемоги вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.26369,48.40947]}},
 {"type":"Feature","properties":{"josm":"r6656057,w448808709","relationtags":"name|40-річчя Перемоги вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.26433,48.40926]}},
-{"type":"Feature","properties":{"josm":"r6657899,w206844043","relationtags":"name|Жовтнева вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[35.81686,47.25394]}},
-{"type":"Feature","properties":{"josm":"r6657899,w448651371","relationtags":"name|Жовтнева вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[35.89838,47.25569]}},
 
 {"type":"Feature"}
 ]}
