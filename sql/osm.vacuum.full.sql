@@ -1,1 +1,2 @@
-vacuum full;
+--vacuum full;
+select 'no vacuum full';

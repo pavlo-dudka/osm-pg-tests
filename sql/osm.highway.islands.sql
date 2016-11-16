@@ -25,16 +25,16 @@ BEGIN
 	insert into mainIsland
 	with recursive tab as
 	(
-		select 1 skip, id from mainIsland
+		select 1 skip_flag, id from mainIsland
 		union
-		select 0 skip, h.id
+		select 0 skip_flag, h.id
 		from tab
 		  inner join cross_way_nodes wn on tab.id = wn.way_id_1
 		  inner join highways h on h.id=wn.way_id_2
 		where h.highway_level=any(levels)
 	)
 	select levels[1], 1, id from tab
-	where skip=0;
+	where skip_flag=0;
 
 	select array_agg(h.id::int order by h.id) into arr
 	from highways h

@@ -1,5 +1,5 @@
 drop table streets_dnipropetrovsk;
-create table streets_dnipropetrovsk(id int,ref text,uk_type text,uk text,ru text,district text,ru_type text,osm_name_uk text,osm_name_ru text);
+create table streets_dnipropetrovsk(id int,ref text,uk_type text,uk text,ru text,district text,ru_type text,osm_name_uk text,osm_name_ru text,osm_old_name_uk text,osm_old_name_ru text);
 copy streets_dnipropetrovsk(id,ref,uk_type,uk,ru,district) from 'osm/street_names/dnipropetrovsk.csv' csv quote '"';
 update streets_dnipropetrovsk set ru=null where length(ru)<=1;
 update streets_dnipropetrovsk set ru_type=(case when uk_type='вулиця' then 'улица'
@@ -12,18 +12,52 @@ update streets_dnipropetrovsk set ru_type=(case when uk_type='вулиця' then
 						when uk_type='станція' then 'станция'
 					   else uk_type end);
 update streets_dnipropetrovsk set osm_name_uk=uk||' '||uk_type,osm_name_ru=ru||' '||ru_type;
+update streets_dnipropetrovsk set district='Амур-Нижньодніпровський' where district='АНД';
+update streets_dnipropetrovsk set district='Чечелівський' where district='Красногвардійський';
+update streets_dnipropetrovsk set district='Новокодацький' where district='Ленінський';
+update streets_dnipropetrovsk set district='Соборний' where district='Жовтневий';
+update streets_dnipropetrovsk set district='Центральний' where district='Кіровський';
+update streets_dnipropetrovsk set district='Шевченківський' where district='Бабушкінський';
+
+
+drop table if exists streets_dnipropetrovsk_upd;
+create table streets_dnipropetrovsk_upd(district text,osm_name_old text,osm_name_new text);
+copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd.csv' csv;
+copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd2.csv' csv;
+copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd3.csv' csv;
+copy streets_dnipropetrovsk_upd(osm_name_old,osm_name_new,district) from 'osm/street_names/dnipropetrovsk_upd4.csv' csv;
+
+update streets_dnipropetrovsk_upd set district=replace(district,'Красногвардійський','Чечелівський') where district like '%Красногвардійський%';
+update streets_dnipropetrovsk_upd set district=replace(district,'Ленінський','Новокодацький') where district like '%Ленінський%';
+update streets_dnipropetrovsk_upd set district=replace(district,'Жовтневий','Соборний') where district like '%Жовтневий%';
+update streets_dnipropetrovsk_upd set district=replace(district,'Кіровський','Центральний') where district like '%Кіровський%';
+update streets_dnipropetrovsk_upd set district=replace(district,'Бабушкінський','Шевченківський') where district like '%Бабушкінський%';
+
+update streets_dnipropetrovsk s
+set osm_old_name_uk=s.osm_name_uk, osm_old_name_ru=s.osm_name_ru,
+osm_name_uk=su.osm_name_new, osm_name_ru=null
+from streets_dnipropetrovsk_upd su
+where su.osm_name_old=s.osm_name_uk and su.district like '%'||s.district||'%';
+
+update streets_dnipropetrovsk set district='Соборний' where district='Жовтневий';
 
 with t as (
-select w.id,wtn.v name_uk,wtr.v name_ru
+select w.id,wtn.v name_uk,wtr.v name_ru,wtou.v old_name_uk,wtor.v old_name_ru
 from relations r
-inner join relation_tags rt on rt.relation_id=r.id and rt.k='name' and rt.v='Дніпропетровськ'
+inner join relation_tags rt on rt.relation_id=r.id and rt.k='name' and rt.v='Дніпро'
+inner join relation_tags rtp on rtp.relation_id=r.id and rtp.k='place' and rtp.v='city'
 inner join ways w on st_contains(r.linestring,st_centroid(w.linestring))
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='name'
 left  join way_tags wtr on wtr.way_id=w.id and wtr.k='name:ru'
+left  join way_tags wtou on wtou.way_id=w.id and wtou.k='old_name'
+left  join way_tags wtor on wtor.way_id=w.id and wtor.k='old_name:ru'
 inner join way_tags wth on wth.way_id=w.id and wth.k='highway')
-select coalesce(sd.osm_name_uk,''),t.name_uk,string_agg(t.id::text,',' order by t.id),sd.district,coalesce(sd.osm_name_ru,''),t.name_ru
+select coalesce(sd.osm_name_uk,''),t.name_uk,string_agg(t.id::text,',' order by t.id),sd.district,coalesce(sd.osm_name_ru,''),t.name_ru,coalesce(sd.osm_old_name_uk,''),coalesce(sd.osm_old_name_ru,'')
 from streets_dnipropetrovsk sd
-full join t on lower(sd.osm_name_uk)=lower(t.name_uk) and lower(coalesce(sd.osm_name_ru,t.name_ru,''))=lower(coalesce(t.name_ru,''))
+full join t on lower(sd.osm_name_uk)=lower(t.name_uk) 
+           and lower(coalesce(sd.osm_name_ru,t.name_ru,''))=lower(coalesce(t.name_ru,''))
+           and lower(coalesce(sd.osm_old_name_uk,t.old_name_uk,''))=lower(coalesce(t.old_name_uk,''))
+           and lower(coalesce(sd.osm_old_name_ru,t.old_name_ru,''))=lower(coalesce(t.old_name_ru,''))
 where (t.id is null or sd.osm_name_uk is null)
-group by sd.osm_name_uk,sd.osm_name_ru,t.name_uk,t.name_ru,sd.district
-order by coalesce(sd.osm_name_uk,t.name_uk),district;
+group by sd.osm_name_uk,sd.osm_name_ru,t.name_uk,t.name_ru,sd.district,sd.osm_old_name_uk,sd.osm_old_name_ru
+order by coalesce(sd.osm_old_name_uk,sd.osm_name_uk,t.name_uk),district;

@@ -21,20 +21,38 @@ DECLARE	ind int;
 BEGIN
 	insert into mainIslandRail
 	select 'main', 1, 4429540;
-	
+	insert into mainIslandRail
+	select 'main', 1, 26118465;
+	insert into mainIslandRail
+	select 'main', 1, 24946061;
+	insert into mainIslandRail
+        select 'main', 1, 211404007;
+	insert into mainIslandRail
+        select 'main', 1, 46668535;
+	insert into mainIslandRail
+        select 'main', 1, 92201760;	
+	insert into mainIslandRail
+        select 'main', 1, 33512752;
+        insert into mainIslandRail
+        select 'main', 1, 114380778;
+        insert into mainIslandRail
+        select 'main', 1, 43081987;
+        insert into mainIslandRail
+        select 'main', 1, 26730096;
+
 	insert into mainIslandRail
 	with recursive tab as
 	(
-		select 1 skip, id from mainIslandRail
+		select 1 skip_flag, id from mainIslandRail
 		union
-		select 0 skip, h.id
+		select 0 skip_flag, h.id
 		from tab
 		  inner join cross_way_nodes_rail wn on tab.id = wn.way_id_1
 		  inner join railways h on h.id=wn.way_id_2
 		where h.railway_level=any(levels)
 	)
 	select levels[1], 1, id from tab
-	where skip=0;
+	where skip_flag=0;
 
 	select array_agg(h.id::int order by h.id) into arr
 	from railways h

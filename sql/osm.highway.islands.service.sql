@@ -1,5 +1,8 @@
 set enable_seqscan=false;
 
+insert into mainisland(id)
+select id from highways where highway_level in ('pedestrian','runway','taxiway');
+
 DO $$
 BEGIN
 perform CreateIslands('service');

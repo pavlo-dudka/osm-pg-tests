@@ -23,7 +23,7 @@ from relation_tags rtt
   left join relation_tags rt on rm.member_type='R' and rt.relation_id=rm.member_id and (rm.member_role='street' and rt.k in ('name','name:uk','name:ru') or rt.k='addr:street')
   inner join relation_tags rtn on rtn.relation_id=rtt.relation_id and (rm.member_role in ('street','') and rtn.k=coalesce(wt.k,rt.k,'name') or rm.member_role in ('house','address') and rtn.k='name')
 where rtt.k='type' and rtt.v in ('street','associatedStreet')
-  and (wt.v is null or wt.v not like '% міст' and wt.v not like '% мост')
+  and (wt.v is null or wt.v not like '% міст' and wt.v not like '% мост' and wt.v not like '% шляхопровід' and wt.v not like '% путепровод')
   and (rtn.k='name' and rm.member_role not in ('street','house','address','associated')
     or rm.member_type='N' and rm.member_role='street'
     or rm.member_type='N' and not exists(select * from node_tags where node_id=rm.member_id and k='addr:housenumber')
@@ -63,7 +63,7 @@ from relation_tags rtt
   left join relation_tags rtn on rtn.relation_id=rtt.relation_id and rtn.k='name'
   inner join relation_members rm on rm.relation_id=rtt.relation_id and rm.sequence_id=0
 where rtt.k='type' and rtt.v in ('street','associatedStreet') and rtn.k is null
-  and rtt.relation_id not in (3297198,2651279,2651280,4049546)
+  and rtt.relation_id not in (3297198,2651278,2651279,2651280,4049546)
 order by 1;
 
 select '{"type":"Feature"}';

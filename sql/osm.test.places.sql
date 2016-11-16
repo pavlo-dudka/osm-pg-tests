@@ -5,6 +5,7 @@ inner join way_tags wt on wt.way_id=w.id and wt.k='place'
 where st_isclosed(w.linestring)='f'
 order by 1;
 
+/*
 select '';
 select 'Different errors:';
 with wn as (select w2.id,w2.linestring,wtn2.v from ways w2 inner join way_tags wtn2 on wtn2.way_id=w2.id inner join way_tags wtp2 on wtp2.way_id=w2.id where wtn2.k='name' and wtp2.k='place' and st_isclosed(w2.linestring)='f'),
@@ -33,7 +34,7 @@ from nodes n
   left  join way_tags wtp on wtp.way_id=w.id and wtp.k='place' 
 where exists(select * from regions r where st_contains(r.linestring,n.geom)))
 select * from tab where errors<>''
-order by 3,5,2,1;
+order by 3,5,2,1;*/
 
 select '';
 select 'Multiple polygons:';
@@ -110,6 +111,7 @@ select wt.way_id,wt.v::int,min(rt.v::int)
 from way_tags wt 
 inner join relation_members rm on rm.member_id=wt.way_id and rm.member_type='W'
 inner join relation_tags rt on rt.relation_id=rm.relation_id and rt.k='admin_level'
+inner join relation_tags rtb on rtb.relation_id=rm.relation_id and rtb.k='boundary' and rtb.v='administrative'
 inner join relation_tags rtn on rtn.relation_id=rm.relation_id and rtn.k='name'
 inner join ways w on w.id=wt.way_id
 inner join users u on u.id=w.user_id --and u.name='uname'
@@ -117,3 +119,22 @@ where wt.k='admin_level' --and wt.v in ('2','4','6','7','8')
 group by wt.way_id,wt.v
 having wt.v::int<>min(rt.v::int)
 order by 3,2,1;
+
+select '';
+select 'wikipedia name:';
+select ntn.node_id,ntn.v,ntw.v,nto.v,ordlo.id
+from node_tags ntw inner join node_tags ntn on ntn.node_id=ntw.node_id and ntn.k='name' inner join node_tags ntu on ntu.node_id=ntw.node_id and ntu.k='name:uk'
+  inner join nodes n on n.id=ntw.node_id
+  left join relations ordlo on ordlo.id=4473309 and st_contains(ordlo.linestring, n.geom)
+  left join node_tags nto on nto.node_id=n.id and ordlo.id is not null and nto.k='official_name'
+where ntw.k='wikipedia' and replace(ntw.v,'_',' ') not like '__:'||replace(coalesce(nto.v,ntn.v),'’','''')||'%' and replace(ntw.v,'_',' ') not like '__:'||replace(coalesce(nto.v,ntu.v),'’','''')||'%'
+  and ntn.node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet'));
+
+select '';
+select 'wikipedia duplicates:';
+select ntw.v,string_agg(ntw.node_id::text,',' order by ntw.node_id)
+from node_tags ntw inner join node_tags ntn on ntn.node_id=ntw.node_id and ntn.k='name'
+where ntw.k='wikipedia'
+  and ntn.node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet'))
+group by 1
+having count(*)>1;
