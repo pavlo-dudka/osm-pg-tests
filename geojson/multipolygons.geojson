@@ -22,7 +22,10 @@
 {"type":"Feature","properties":{"josm":"r6718750,n4505241818","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.84171,48.24802]}},
 {"type":"Feature","properties":{"josm":"r6718750,n4505242066","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.84289,48.25962]}},
 {"type":"Feature","properties":{"josm":"r6718750,n4505242189","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.85083,48.25575]}},
+{"type":"Feature","properties":{"josm":"r6725486,n4508943786","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.02027,48.63554]}},
+{"type":"Feature","properties":{"josm":"r6725486,n4508944107","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.02191,48.63745]}},
 {"type":"Feature","properties":{"josm":"r6722605","error":"multipolygon without tags and single member - delete relation","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.70414,49.25618]}},
+{"type":"Feature","properties":{"josm":"r6725486","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.00016,48.64037]}},
 {"type":"Feature","properties":{"josm":"r6709432,w449547552,w450358868","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[28.19973,51.11392]}},
 {"type":"Feature","properties":{"josm":"r6713186,w440218732,w453596773","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.90909,48.19952]}},
 {"type":"Feature"}
