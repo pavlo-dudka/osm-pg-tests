@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2128470,n1697391041","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.05945,49.44452]}},
+{"type":"Feature","properties":{"josm":"r2128470,n3691461640","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.05947,49.44454]}},
 {"type":"Feature","properties":{"josm":"r6712305,n4500192082","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.7174,49.31862]}},
 {"type":"Feature","properties":{"josm":"r6712305,n4502404176","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.73378,49.39876]}},
 {"type":"Feature","properties":{"josm":"r6726411,n1410031824","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.17741,49.36711]}},
@@ -32,5 +34,6 @@
 {"type":"Feature","properties":{"josm":"r6754918,w457092791,w457092863","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[37.75552,49.94878]}},
 {"type":"Feature","properties":{"josm":"r6780574,w270022211,w458744615","error":"multipolygon members intersect each other","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.5233,44.59082]}},
 {"type":"Feature","properties":{"josm":"r6780574,w458744614,w458744615","error":"multipolygon members intersect each other","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.5233,44.59082]}},
+{"type":"Feature","properties":{"josm":"r6790919,w459431861,w459431862","error":"multipolygon members intersect each other","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.88518,48.6956]}},
 {"type":"Feature"}
 ]}
