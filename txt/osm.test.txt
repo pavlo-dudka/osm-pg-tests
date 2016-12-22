@@ -15,8 +15,6 @@ building-node in a way:
 2043454400|193835943|highway:service;  service:petrol
 2196597123|318396301|highway:track
 2470700176|239270721|railway:rail;  service:spur
-2786042404|273787807|
-2786042404|455745074|addr:housenumber:1;  addr:street:Тараскіна вулиця;  building:yes
 2786081177|273789800|addr:housenumber:24;  addr:street:Володимирська вулиця;  building:apartments;  building:levels:5;  office:association;  operator:СК "Промінь Плюс"
 2882241078|95991909|addr:housenumber:6;  building:apartments
 2896901319|286054771|highway:footway
@@ -44,23 +42,10 @@ building-node in a way:
 4385269809|440770376|
 4510632316|454510312|addr:city:Малин;  addr:housenumber:31;  addr:postcode:11602;  addr:street:Гагаріна вулиця;  building:yes;  building:levels:2;  roof:shape:flat
 4528312151|456582893|addr:housenumber:119;  addr:housenumber:119;  addr:street:Кримського вулиця;  addr:street:Кримського вулиця;  amenity:pub;  amenity:pub;  delivery:Mo-Su 11:00-23:00;  delivery:Mo-Su 11:00-23:00;  internet_access:no;  internet_access:no;  internet_access:fee:no;  internet_access:fee:no;  int_name:Pelican;  int_name:Pelican;  name:Пелікан;  name:Пелікан;  payment:cash:yes;  payment:cash:yes;  payment:coins:yes;  payment:coins:yes;  payment:credit_cards:no;  payment:credit_cards:no;  payment:cryptocurrencies:no;  payment:cryptocurrencies:no;  payment:debit_cards:no;  payment:debit_cards:no;  payment:electronic_purses:no;  payment:electronic_purses:no;  payment:notes:yes;  payment:notes:yes;  phone:+38 04133 51819;  phone:+38 04133 51819;  smoking:outside;  smoking:outside
-4554190740|459619895|addr:housenumber:14;  building:yes;  building:levels:1
-4554190740|459619897|addr:housenumber:14;  building:yes;  building:levels:1
-4554190741|459619897|addr:housenumber:14;  building:yes;  building:levels:1
-4554190742|459619897|addr:housenumber:14;  building:yes;  building:levels:1
-4554190743|459619897|addr:housenumber:14;  building:yes;  building:levels:1
-4554190743|459619899|addr:housenumber:14;  building:yes;  building:levels:1
-4554190744|459619899|addr:housenumber:14;  building:yes;  building:levels:1
-4554190745|459619895|addr:housenumber:14;  building:yes;  building:levels:1
-4554190745|459619899|addr:housenumber:14;  building:yes;  building:levels:1
-4554190746|459619899|addr:housenumber:14;  building:yes;  building:levels:1
 4557845758|89156068|addr:housenumber:37/17;  building:yes;  building:levels:16
 4558148301|460137782|addr:housenumber:8а;  addr:street:Тараскіна вулиця;  building:residential;  building:levels:1
 4558267392|460149683|addr:housenumber:5;  addr:street:Тараскіна вулиця;  building:office;  building:levels:1
 4564788710|460892344|
-4565720575|461006437|building:levels:1
-4565720583|461006570|building:levels:1
-4565725050|461006783|building:levels:1
 
 Redundant space-symbols:
 256616295|name:ru|Орехово 
