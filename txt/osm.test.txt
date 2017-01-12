@@ -6,7 +6,7 @@ building-node in a way:
 1110419499|95809407|highway:footway
 1231084594|71502259|historic:castle;  leisure:common;  name:Генуэзская крепость;  name:en:Genuezskaya Krepost';  name:ru:Генуэзская крепость;  name:uk:Генуезька фортеця
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  railway:rail;  usage:main;  voltage:25000
-1557247171|142277924|addr:city:Боярка;  highway:residential;  maxspeed:40;  name:Тургенєва вулиця;  name:en:Turhenieva Street;  name:ru:Тургенева улица;  name:uk:Тургенєва вулиця
+1557253135|142278014|addr:city:Боярка;  highway:residential;  maxspeed:40;  name:34-а Лінія вулиця;  name:en:34-a Liniia Street;  name:ru:34-я Линия улица;  name:uk:34-а Лінія вулиця
 1562907636|142813204|highway:residential;  name:Молодіжна вулиця;  name:ru:Молодёжная улица;  name:uk:Молодіжна вулиця
 1562907636|333539446|highway:secondary;  name:Пушкіна вулиця;  name:ru:Пушкина улица;  name:uk:Пушкіна вулиця;  ref:Т-05-18;  reg_ref:Т-05-18;  surface:asphalt
 1783155716|166898225|highway:residential
@@ -173,6 +173,7 @@ Redundant space-symbols:
 91971651|addr:street|улица Якова Иванова 
 91971709|addr:street|улица Якова Иванова 
 96809577|name|Современник 
+97541319|addr:housenumber|96 
 100703369|name:ru|Зелёная улица 
 104133867|name|улица Мира 
 104133867|name:ru|улица Мира 
@@ -728,7 +729,6 @@ No suffix:
 улица 1 Мая|267929750
 улица 23 Мая 1919 года|157425996,175200322,175200336,272266084
 улица 33 Дивизии|98146472
-улица 5 Августа|39881379
 улица 60 Лет образования СССР|176552040,176552041
 улица 7 Ноября|325068027
 улица 8 Марта|404872826,419686418,95688993
