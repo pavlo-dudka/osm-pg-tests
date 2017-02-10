@@ -44,6 +44,7 @@ building-node in a way:
 4528312151|456582893|addr:housenumber:119;  addr:housenumber:119;  addr:street:Кримського вулиця;  addr:street:Кримського вулиця;  amenity:pub;  amenity:pub;  delivery:Mo-Su 11:00-23:00;  delivery:Mo-Su 11:00-23:00;  internet_access:no;  internet_access:no;  internet_access:fee:no;  internet_access:fee:no;  int_name:Pelican;  int_name:Pelican;  name:Пелікан;  name:Пелікан;  payment:cash:yes;  payment:cash:yes;  payment:coins:yes;  payment:coins:yes;  payment:credit_cards:no;  payment:credit_cards:no;  payment:cryptocurrencies:no;  payment:cryptocurrencies:no;  payment:debit_cards:no;  payment:debit_cards:no;  payment:electronic_purses:no;  payment:electronic_purses:no;  payment:notes:yes;  payment:notes:yes;  phone:+38 04133 51819;  phone:+38 04133 51819;  smoking:outside;  smoking:outside
 4557845758|89156068|addr:housenumber:37/17;  building:yes;  building:levels:16
 4607693594|465861152|addr:housenumber:89;  addr:street:Центральна вулиця;  building:apartments
+4678426691|473803561|amenity:place_of_worship;  denomination:catholic;  name:Костел;  religion:christian
 
 Redundant space-symbols:
 337602885|name:de|Netschujiwka 
@@ -477,7 +478,6 @@ No suffix:
 2 Азовская улица|269909773,422800399
 2 Азовська вулиця|269909773,422800399
 2 вулиця|317359583
-2-га Екіпазька вулиця|143611075,184486746,184817563,74808602
 2-га Лісна вулиця|455534967,455538058
 2-га Набережна вулиця|206244480,464258133,464258134
 2-га Робітнича вулиця|141272162
