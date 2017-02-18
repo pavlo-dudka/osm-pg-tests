@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r6986647,n2030226899","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[22.8731,49.54043]}},
-{"type":"Feature","properties":{"josm":"r6986647,n2030226900","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[22.87186,49.54016]}},
 {"type":"Feature","properties":{"josm":"r6963594,w459888624,w473664802","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.6727,50.76879]}},
 {"type":"Feature","properties":{"josm":"r6964497,w459888624,w473664802","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.6727,50.76879]}},
 {"type":"Feature"}
