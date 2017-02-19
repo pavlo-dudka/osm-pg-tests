@@ -4,6 +4,7 @@
 "features": [
 {"type":"Feature","properties":{"josm":"r6991680,n4692779548","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.27418,50.76101]}},
 {"type":"Feature","properties":{"josm":"r6991680,n4692779551","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.27417,50.76106]}},
+{"type":"Feature","properties":{"josm":"r6993805","error":"multipolygon without tags, members have different tags - move appropriate tags to relation","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.41432,49.10638]}},
 {"type":"Feature","properties":{"josm":"r6963594,w459888624,w473664802","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.6727,50.76879]}},
 {"type":"Feature","properties":{"josm":"r6964497,w459888624,w473664802","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.6727,50.76879]}},
 {"type":"Feature"}
