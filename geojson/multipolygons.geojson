@@ -2,9 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r7002036,n4565128744","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.22239,50.76218]}},
-{"type":"Feature","properties":{"josm":"r7002036,n4699029720","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.2232,50.76592]}},
-{"type":"Feature","properties":{"josm":"r7002036,w226691230,w460935626","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.14448,50.76802]}},
 {"type":"Feature","properties":{"josm":"r7009507,w426173799,w476998440","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.8127,50.88006]}},
 {"type":"Feature"}
 ]}
