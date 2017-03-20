@@ -45,10 +45,8 @@ building-node in a way:
 3960416732|98112475|highway:service;  oneway:yes
 4352290490|437414789|addr:housenumber:84;  addr:street:Ганжі вулиця;  building:yes
 4385269809|440770376|
-4510632316|454510312|addr:city:Малин;  addr:housenumber:31;  addr:postcode:11602;  addr:street:Гагаріна вулиця;  building:yes;  building:levels:2;  roof:shape:flat
 4528312151|456582893|addr:housenumber:119;  addr:housenumber:119;  amenity:pub;  amenity:pub;  delivery:Mo-Su 11:00-23:00;  delivery:Mo-Su 11:00-23:00;  internet_access:no;  internet_access:no;  internet_access:fee:no;  internet_access:fee:no;  int_name:Pelican;  int_name:Pelican;  name:Пелікан;  name:Пелікан;  payment:cash:yes;  payment:cash:yes;  payment:coins:yes;  payment:coins:yes;  payment:credit_cards:no;  payment:credit_cards:no;  payment:cryptocurrencies:no;  payment:cryptocurrencies:no;  payment:debit_cards:no;  payment:debit_cards:no;  payment:electronic_purses:no;  payment:electronic_purses:no;  payment:notes:yes;  payment:notes:yes;  phone:+38 04133 51819;  phone:+38 04133 51819;  smoking:outside;  smoking:outside
 4557845758|89156068|addr:housenumber:37/17;  building:yes;  building:levels:16
-4603118773|142413503|addr:housenumber:27;  addr:street:Білогородська вулиця;  building:residential;  building:levels:9
 4607693594|465861152|addr:housenumber:89;  addr:street:Центральна вулиця;  building:apartments
 4678426691|473803561|amenity:place_of_worship;  denomination:catholic;  name:Костел;  religion:christian
 4679936403|473966995|addr:housenumber:6;  addr:housenumber:6;  building:residential;  building:residential;  building:levels:1;  building:levels:1
@@ -139,6 +137,7 @@ Redundant space-symbols:
 4244754289|name|Валідол 
 4244828791|email| bogdanvetmd@gmail.com
 4247943491|name|церковь 
+4249928791|name|Фуршет 
 4256200290|name|DressFit 
 4257163189|addr:street|Героїв Майдану 
 4257163189|email|alex63dr23@gmail.com 
@@ -231,6 +230,7 @@ Redundant space-symbols:
 119503684|name|"Везунчик" 
 120857248|name:ru| Маяковского улица
 121333098|name| ГОСТ 
+121652323|opening_hours|Mo-Th 10:00-13:00, 13:45-18:00; Fr 10:00-13:00, 13:45-16:45; 
 122276741|name| Школа 102
 124859877|name|Спортивна вулиця 
 124859877|name:uk|Спортивна вулиця 
@@ -463,6 +463,7 @@ No suffix:
 219 Танковой Бригады улица|256198048
 21 вулиця|184540833
 21 год Октября улица|193679009
+21 жовтня вулиця|340411188
 21 з’їзду вулиця|399157259
 21 Партсъезда улица|143751252
 21 Партсьезда улица|336629904
@@ -607,6 +608,7 @@ No suffix:
 4 садова|161087645
 4 улица|184540811,317359579
 4я Словянская|83355000
+50 дивізії вулиця|440362736
 50 Лет Октября|419678241
 50 Років Жовтня|419678241
 51 Перекопской Дивизии улица|425533287,425533288
@@ -657,6 +659,7 @@ No suffix:
 8 Березня|442632973
 8 березня вулиця|284424712,333589871
 8 Березня вулиця|103630129,124363637,124504106,128622729,128622730,133619241,149942696,169965739,204178620,207150436,207150452,210970793,226263787,227775680,228221277,231377902,261827446,261827447,261827514,261827515,263794639,266244781,26680873,276560012,281365921,286237718,292440799,297049680,308230726,314140967,315758828,317669059,375870714,376774338,377077018,398507482,398858934,399394747,399394748,401427399,406769002,408250469,422813156,422813163,422813165,422813168,422921196,422921199,423682019,424968182,426270522,426270523,426738312,426738317,426738322,426847857,428020384,450269675,453721892,454888261,477239770,61684258,88525339,90453453
+8 Березня пров.|232861213,232861217
 8 Березня провулок|100703284,149942704,164804531,260423325,412776105,414160273,424297964
 8 вулиця|317359572,367961114
 8 Листопада вулиця|201399574,201399580
