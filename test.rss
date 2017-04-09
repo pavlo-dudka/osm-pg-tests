@@ -12,8 +12,8 @@
 <title>almost.junctions - 46 error(s) found at 08 Apr 2017 14:32</title>
 <description><![CDATA[46 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Sat, 08 Apr 2017 14:32:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 17 insertions(+), 5 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 28 insertions(+), 24 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 17 insertions(+), 4 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 28 insertions(+), 26 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">citieswithoutplacepolygon201703291804</guid>
@@ -93,7 +93,7 @@
 <description><![CDATA[72 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Sat, 08 Apr 2017 18:20:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 26 insertions(+), 8 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 36 insertions(+), 28 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 32 insertions(+), 8 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201702262243</guid>
@@ -166,14 +166,14 @@
 <gitDiff10d> 1 file changed, 3 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations201704090201</guid>
+<guid isPermaLink="false">streetrelations201704091117</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 884 error(s) found at 09 Apr 2017 02:01</title>
-<description><![CDATA[884 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Sun, 09 Apr 2017 02:01:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 196 insertions(+), 9 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 229 insertions(+), 140 deletions(-)</gitDiff10d>
+<title>street.relations - 885 error(s) found at 09 Apr 2017 11:17</title>
+<description><![CDATA[885 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
+<pubDate>Sun, 09 Apr 2017 11:17:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 197 insertions(+), 9 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 230 insertions(+), 122 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201704080433</guid>
@@ -183,17 +183,17 @@
 <description><![CDATA[158 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Sat, 08 Apr 2017 04:33:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 6 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 5 insertions(+), 55 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 5 insertions(+), 36 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201704090604</guid>
+<guid isPermaLink="false">streetrelationsn201704091117</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 2160 error(s) found at 09 Apr 2017 06:04</title>
+<title>street.relations.n - 2160 error(s) found at 09 Apr 2017 11:17</title>
 <description><![CDATA[2160 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Sun, 09 Apr 2017 06:04:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 87 insertions(+), 34 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 176 insertions(+), 105 deletions(-)</gitDiff10d>
+<pubDate>Sun, 09 Apr 2017 11:17:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 88 insertions(+), 35 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 176 insertions(+), 107 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201704082300</guid>
