@@ -8,11 +8,11 @@ function showHistogram()
 	data.addColumn('number', geojsonFileName);
 	
 	var xmlhttp1 = new XMLHttpRequest();
-	xmlhttp1.open('GET', 'http://185.154.15.50/csv/version?' + new Date().getTime(), false);
+	xmlhttp1.open('GET', 'http://51.15.73.151/csv/version?' + new Date().getTime(), false);
 	xmlhttp1.send(null);
 	
 	var xmlhttp2 = new XMLHttpRequest();
-	xmlhttp2.open('GET', 'http://185.154.15.50/csv/' + histogramDataFile + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
+	xmlhttp2.open('GET', 'http://51.15.73.151/csv/' + histogramDataFile + '?' + Date.parse(xmlhttp1.responseText.slice(0, -1)), false);
 	xmlhttp2.send(null);
 	
 	var csv = xmlhttp2.responseText.split('\n')

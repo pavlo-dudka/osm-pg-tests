@@ -49,7 +49,7 @@ function showGeoJson(map, geoJson, diff)
 {
 	var xmlhttp = new XMLHttpRequest();
 	if (typeof(diff) != "undefined")
-		geoJson = "http://185.154.15.50:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
+		geoJson = "http://51.15.73.151:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
 	
@@ -232,7 +232,7 @@ function showTable(geoJson, diff)
 
 	var xmlhttp = new XMLHttpRequest();
 	if (typeof(diff) != "undefined")
-		geoJson = "http://185.154.15.50:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
+		geoJson = "http://51.15.73.151:8080/errors/" + geoJson.substring(8).replace('.geojson','') + "/since/"+ diff;
 	xmlhttp.open('GET', geoJson, false);
 	xmlhttp.send(null);
 	var mypoints = eval('(' + xmlhttp.responseText + ')');
