@@ -43,7 +43,7 @@
 <description><![CDATA[104 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Sun, 16 Apr 2017 14:25:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 62 insertions(+), 20 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 78 insertions(+), 31 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 78 insertions(+), 32 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201704160048</guid>
@@ -56,14 +56,14 @@
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwayislandsservice201704162047</guid>
+<guid isPermaLink="false">highwayislandsservice201704162135</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.islands.service</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.islands.service - 46 error(s) found at 16 Apr 2017 20:47</title>
-<description><![CDATA[46 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
-<pubDate>Sun, 16 Apr 2017 20:47:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 18 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 40 insertions(+), 173 deletions(-)</gitDiff10d>
+<title>highway.islands.service - 50 error(s) found at 16 Apr 2017 21:35</title>
+<description><![CDATA[50 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
+<pubDate>Sun, 16 Apr 2017 21:35:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 22 insertions(+), 2 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 44 insertions(+), 173 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary201704160048</guid>
@@ -116,14 +116,14 @@
 <gitDiff10d> 1 file changed, 1 insertion(+), 6 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">railwaycrossings201704142122</guid>
+<guid isPermaLink="false">railwaycrossings201704162135</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?railway.crossings</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>railway.crossings - 44 error(s) found at 14 Apr 2017 21:22</title>
-<description><![CDATA[44 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.crossings>table</a>]]></description>
-<pubDate>Fri, 14 Apr 2017 21:22:00 +0300</pubDate>
-<gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<title>railway.crossings - 45 error(s) found at 16 Apr 2017 21:35</title>
+<description><![CDATA[45 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.crossings>table</a>]]></description>
+<pubDate>Sun, 16 Apr 2017 21:35:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
+<gitDiff10d> 1 file changed, 1 insertion(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwayislandsmain201704142122</guid>
@@ -193,7 +193,7 @@
 <description><![CDATA[2208 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Sun, 16 Apr 2017 11:55:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 250 insertions(+), 155 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 299 insertions(+), 202 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 298 insertions(+), 202 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201704160841</guid>
