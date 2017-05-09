@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1423071,n1917467946","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.71049,50.42157]}},
 {"type":"Feature","properties":{"josm":"r1819246,n1110863875","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.07804,49.80762]}},
 {"type":"Feature","properties":{"josm":"r1819246,n1457010284","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.07808,49.80779]}},
 {"type":"Feature","properties":{"josm":"r2649780,n2075976703","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.4326,50.04478]}},
@@ -26,6 +27,7 @@
 {"type":"Feature","properties":{"josm":"r7221164,n2075976931","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.43284,50.04479]}},
 {"type":"Feature","properties":{"josm":"r7222525,n4838920027","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.98315,49.57354]}},
 {"type":"Feature","properties":{"josm":"r7222525,n4838920831","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.98369,49.57449]}},
+{"type":"Feature","properties":{"josm":"r7229831,n1917467946","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.71049,50.42157]}},
 {"type":"Feature","properties":{"josm":"r5900398,w393253927,w393253965","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[24.96248,47.80555]}},
 {"type":"Feature","properties":{"josm":"r7199919,w490112359,w490112437","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.38725,50.60345]}},
 {"type":"Feature"}
