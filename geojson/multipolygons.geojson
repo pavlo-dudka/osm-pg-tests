@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r7250696","error":"multipolygon without tags, members have identical tags - move tags from ways to relation","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.05028,48.47066]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683638","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62299,49.51764]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683640","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62576,49.51677]}},
 {"type":"Feature","properties":{"josm":"r1020068,w493683638,w493683640","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62293,49.51755]}},
