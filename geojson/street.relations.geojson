@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1202208,w151504042","relationtags":"name|Дмитра Яворницького проспект","membertags":"addr:street|Василя Жуковського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.05992,48.45645]}},
 {"type":"Feature","properties":{"josm":"r1309192,w88443199","relationtags":"name|Кабельщиків вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.75851,46.77633]}},
 {"type":"Feature","properties":{"josm":"r1353269,w74720955","relationtags":"name|Лілі Карастоянової вулиця","membertags":"name|Конрада вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.58463,49.89104]}},
 {"type":"Feature","properties":{"josm":"r1386632,w255958150","relationtags":"name:ru|Героев Труда улица","membertags":"name:ru|Леся Сердюка улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.33458,50.02459]}},
@@ -42,6 +43,7 @@
 {"type":"Feature","properties":{"josm":"r1772525,w286952777","relationtags":"name|Перемоги проспект","membertags":"addr:street|Генерала Потапенка вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[38.39934,48.92253]}},
 {"type":"Feature","properties":{"josm":"r1772670,w126470903","relationtags":"name|Лісова вулиця","membertags":"name|Миру вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[25.24103,50.74698]}},
 {"type":"Feature","properties":{"josm":"r1775156,w482842010","relationtags":"name|Станіславського вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[25.29805,50.7242]}},
+{"type":"Feature","properties":{"josm":"r1872540,w37238704","relationtags":"name|Генерала Ватутіна проспект","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.58009,50.49239]}},
 {"type":"Feature","properties":{"josm":"r1925944,n4138552255","relationtags":"name|Білогородська вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.28549,50.33682]}},
 {"type":"Feature","properties":{"josm":"r1926003,n1557239475","relationtags":"name|Київська вулиця","membertags":"addr:street|Магістральна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.2808,50.34441]}},
 {"type":"Feature","properties":{"josm":"r1926020,w142277721","relationtags":"name|Котляревськоого вулиця","membertags":"name|Котовського вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.32316,50.33819]}},
