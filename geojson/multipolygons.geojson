@@ -2,10 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r7259123,n3724865557","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[28.94532,50.87345]}},
-{"type":"Feature","properties":{"josm":"r7259123,n4863962104","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[28.94514,50.87313]}},
-{"type":"Feature","properties":{"josm":"r7259123,n4863962114","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[28.94057,50.87751]}},
-{"type":"Feature","properties":{"josm":"r7259123,n4863962115","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[28.94051,50.87751]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683638","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62299,49.51764]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683640","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62576,49.51677]}},
 {"type":"Feature","properties":{"josm":"r1020068,w493683638,w493683640","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62293,49.51755]}},
