@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1435730,n1143773346","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.63362,50.43154]}},
+{"type":"Feature","properties":{"josm":"r1435730,n1143773424","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.63242,50.43353]}},
 {"type":"Feature","properties":{"josm":"r7140746,n4780042018","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.38095,50.12365]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683638","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62299,49.51764]}},
 {"type":"Feature","properties":{"josm":"r1020068,w227337604,w493683640","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.62576,49.51677]}},
