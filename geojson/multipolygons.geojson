@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r4760471,n2396601658","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.42388,50.62335]}},
-{"type":"Feature","properties":{"josm":"r4760471,n3437382338","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.41989,50.625]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4915146352","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.05881,50.02986]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4918590837","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09406,50.01718]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4918590856","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09316,50.01627]}},
@@ -23,12 +21,10 @@
 {"type":"Feature","properties":{"josm":"r7336255,n4919151468","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09562,50.01335]}},
 {"type":"Feature","properties":{"josm":"r7336255,n4919151469","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09483,50.01351]}},
 {"type":"Feature","properties":{"josm":"r7336255,n4919151470","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09457,50.01357]}},
-{"type":"Feature","properties":{"josm":"r7346258,n3391491137","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.34804,46.48091]}},
 {"type":"Feature","properties":{"josm":"r7346258,n4926834983","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.50621,46.28812]}},
 {"type":"Feature","properties":{"josm":"r7346258,n4926834984","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.49908,46.29383]}},
 {"type":"Feature","properties":{"josm":"r7346258,n4927372847","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.51358,46.29602]}},
 {"type":"Feature","properties":{"josm":"r7346258,n4927372853","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.51499,46.29312]}},
-{"type":"Feature","properties":{"josm":"r7346258,n736445184","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.51283,46.2783]}},
 {"type":"Feature","properties":{"josm":"r7346258,n736445204","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.5172,46.27702]}},
 {"type":"Feature","properties":{"josm":"r7346258,n926820836","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.52047,46.27599]}},
 {"type":"Feature","properties":{"josm":"r7346508,n1683203000","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.52003,46.28318]}},
@@ -36,7 +32,6 @@
 {"type":"Feature","properties":{"josm":"r7170416,w152453288,w444981864","error":"multipolygon members intersect each other","region":"Івано-Франківська область"},"geometry":{"type":"Point","coordinates":[24.70462,48.84401]}},
 {"type":"Feature","properties":{"josm":"r7338440,w501187189,w501187190","error":"multipolygon members intersect each other","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.41791,50.14798]}},
 {"type":"Feature","properties":{"josm":"r7340895,w134652134,w303041951","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.62465,47.14322]}},
-{"type":"Feature","properties":{"josm":"r7346258,w502100331,w502100332","error":"multipolygon members intersect each other","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.50798,46.2855]}},
 {"type":"Feature","properties":{"josm":"r7346508,w155999177,w502190949","error":"multipolygon members intersect each other","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.52005,46.28309]}},
 {"type":"Feature"}
 ]}
