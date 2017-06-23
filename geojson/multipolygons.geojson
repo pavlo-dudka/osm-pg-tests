@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r3488042,n4932010000","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[32.51518,51.73317]}},
+{"type":"Feature","properties":{"josm":"r3488042,n4932010001","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[32.51507,51.73308]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4915146352","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.05881,50.02986]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4918590837","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09406,50.01718]}},
 {"type":"Feature","properties":{"josm":"r7297384,n4918590856","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.09316,50.01627]}},
@@ -27,8 +29,6 @@
 {"type":"Feature","properties":{"josm":"r7346258,n4927372853","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.51499,46.29312]}},
 {"type":"Feature","properties":{"josm":"r7346258,n736445204","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.5172,46.27702]}},
 {"type":"Feature","properties":{"josm":"r7346258,n926820836","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.52047,46.27599]}},
-{"type":"Feature","properties":{"josm":"r7350503,n2353803439","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.46584,46.43261]}},
-{"type":"Feature","properties":{"josm":"r7350503,n4931497086","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.46584,46.43262]}},
 {"type":"Feature","properties":{"josm":"r7350997,n4931879188","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.8881,48.95814]}},
 {"type":"Feature","properties":{"josm":"r7338440,w501187189,w501187190","error":"multipolygon members intersect each other","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.41791,50.14798]}},
 {"type":"Feature","properties":{"josm":"r7340895,w134652134,w303041951","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.62465,47.14322]}},
