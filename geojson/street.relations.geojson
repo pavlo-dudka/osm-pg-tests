@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1202208,w151504042","relationtags":"name|Дмитра Яворницького проспект","membertags":"addr:street|Василя Жуковського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.05992,48.45645]}},
 {"type":"Feature","properties":{"josm":"r1309192,w88443199","relationtags":"name|Кабельщиків вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.75851,46.77633]}},
 {"type":"Feature","properties":{"josm":"r1335668,w67363389","relationtags":"name|Константиновича вулиця","membertags":"addr:street|Івана Миколайчука вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.44012,49.23116]}},
 {"type":"Feature","properties":{"josm":"r1335733,w254049218","relationtags":"name:ru|Скалецкого улица","membertags":"name:ru|Р.Скалецкого улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.45373,49.2195]}},
@@ -535,7 +534,6 @@
 {"type":"Feature","properties":{"josm":"r3663285,w212815854","relationtags":"name|Львівська вулиця","membertags":"addr:street|Тернопільська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.55696,49.55698]}},
 {"type":"Feature","properties":{"josm":"r369940,w160581589","relationtags":"name|Градинська вулиця","membertags":"addr:street|Радунська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.59619,50.51931]}},
 {"type":"Feature","properties":{"josm":"r3705611,w278542802","relationtags":"name|Гетьмана Мазепи вулиця","membertags":"addr:street|Петрушевича вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[24.5689,48.63525]}},
-{"type":"Feature","properties":{"josm":"r3708334,w151504046","relationtags":"name|Січових Стрільців вулиця","membertags":"addr:street|Сергія Подолинського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[35.03264,48.45005]}},
 {"type":"Feature","properties":{"josm":"r3747278,w283067623","relationtags":"name:ru|Юрия Смирнова улица","membertags":"name:ru|Ю.Смирнова улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.46084,49.20297]}},
 {"type":"Feature","properties":{"josm":"r3747278,w283067623","relationtags":"name:uk|Юрія Смирнова вулиця","membertags":"name:uk|Ю.Смирнова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.46084,49.20297]}},
 {"type":"Feature","properties":{"josm":"r3747278,w283067623","relationtags":"name|Юрія Смирнова вулиця","membertags":"name|Ю.Смирнова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.46084,49.20297]}},
