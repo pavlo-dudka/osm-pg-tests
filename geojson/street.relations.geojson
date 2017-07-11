@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r1169815,w37255605","relationtags":"name|Руська вулиця","membertags":"addr:street|Авангардна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.97739,48.28003]}},
 {"type":"Feature","properties":{"josm":"r1309192,w88443199","relationtags":"name|Кабельщиків вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.75851,46.77633]}},
 {"type":"Feature","properties":{"josm":"r1335668,w67363389","relationtags":"name|Константиновича вулиця","membertags":"addr:street|Івана Миколайчука вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.44012,49.23116]}},
 {"type":"Feature","properties":{"josm":"r1353269,w74720955","relationtags":"name|Лілі Карастоянової вулиця","membertags":"name|Конрада вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[28.58463,49.89104]}},
