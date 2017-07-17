@@ -53,7 +53,7 @@
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.link>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.link>table</a>]]></description>
 <pubDate>Fri, 07 Jul 2017 16:27:00 +0300</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 1 deletion(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandsservice201707170430</guid>
@@ -73,7 +73,7 @@
 <description><![CDATA[2 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.tertiary>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.tertiary>table</a>]]></description>
 <pubDate>Sat, 15 Jul 2017 13:29:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandsunclassified201707171312</guid>
@@ -93,7 +93,7 @@
 <description><![CDATA[12 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Sun, 16 Jul 2017 13:00:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 3 insertions(+), 8 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 11 insertions(+), 39 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 11 insertions(+), 41 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201707161300</guid>
@@ -166,14 +166,14 @@
 <gitDiff10d> 1 file changed, 2 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations201707171116</guid>
+<guid isPermaLink="false">streetrelations201707171510</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 974 error(s) found at 17 Jul 2017 11:16</title>
+<title>street.relations - 974 error(s) found at 17 Jul 2017 15:10</title>
 <description><![CDATA[974 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Mon, 17 Jul 2017 11:16:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 16 insertions(+), 12 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 26 insertions(+), 6 deletions(-)</gitDiff10d>
+<pubDate>Mon, 17 Jul 2017 15:10:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 17 insertions(+), 13 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 27 insertions(+), 7 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201707150051</guid>
@@ -186,13 +186,13 @@
 <gitDiff10d> 1 file changed, 5 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201707171116</guid>
+<guid isPermaLink="false">streetrelationsn201707171510</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 2407 error(s) found at 17 Jul 2017 11:16</title>
+<title>street.relations.n - 2407 error(s) found at 17 Jul 2017 15:10</title>
 <description><![CDATA[2407 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Mon, 17 Jul 2017 11:16:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 26 insertions(+), 29 deletions(-)</gitDiff3d>
+<pubDate>Mon, 17 Jul 2017 15:10:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 27 insertions(+), 30 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 142 insertions(+), 90 deletions(-)</gitDiff10d>
 </item>
 <item>
