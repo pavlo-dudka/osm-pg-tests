@@ -13,7 +13,7 @@
 <description><![CDATA[34 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Fri, 28 Jul 2017 20:56:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 6 insertions(+), 12 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 9 insertions(+), 11 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 9 insertions(+), 12 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">citieswithoutplacepolygon201707171312</guid>
@@ -43,7 +43,7 @@
 <description><![CDATA[8 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Fri, 28 Jul 2017 22:07:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 6 insertions(+), 14 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 6 insertions(+), 4 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 6 insertions(+), 13 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201707071627</guid>
@@ -86,14 +86,14 @@
 <gitDiff10d> 1 file changed, 17 insertions(+), 10 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons201707282207</guid>
+<guid isPermaLink="false">multipolygons201707290118</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 45 error(s) found at 28 Jul 2017 22:07</title>
-<description><![CDATA[45 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Fri, 28 Jul 2017 22:07:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 21 insertions(+), 8 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 34 insertions(+), 3 deletions(-)</gitDiff10d>
+<title>multipolygons - 35 error(s) found at 29 Jul 2017 01:18</title>
+<description><![CDATA[35 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Sat, 29 Jul 2017 01:18:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 11 insertions(+), 8 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 24 insertions(+), 3 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201707161300</guid>
@@ -162,7 +162,7 @@
 <title>sharp.turns - 1 error(s) found at 28 Jul 2017 22:07</title>
 <description><![CDATA[1 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
 <pubDate>Fri, 28 Jul 2017 22:07:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 1 insertion(+), 3 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
@@ -173,7 +173,7 @@
 <description><![CDATA[1031 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Fri, 28 Jul 2017 22:07:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 22 insertions(+), 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 49 insertions(+), 9 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 49 insertions(+), 8 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201707282207</guid>
@@ -193,7 +193,7 @@
 <description><![CDATA[2431 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Sat, 29 Jul 2017 00:18:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 33 insertions(+), 20 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 74 insertions(+), 53 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 72 insertions(+), 52 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201707282207</guid>
