@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r2123677,n4399630436","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02492,49.81805]}},
-{"type":"Feature","properties":{"josm":"r2123677,n5046159582","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02521,49.81832]}},
 {"type":"Feature","properties":{"josm":"r2414870,n1740551523","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.0591,49.04832]}},
 {"type":"Feature","properties":{"josm":"r2414870,n1740551643","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[32.05674,49.0531]}},
 {"type":"Feature","properties":{"josm":"r7082982,n4741392318","region":"Одеська область"},"geometry":{"type":"Point","coordinates":[30.36639,46.18872]}},
@@ -16,7 +14,6 @@
 {"type":"Feature","properties":{"josm":"r7457307,n5023672260","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[31.92595,49.02659]}},
 {"type":"Feature","properties":{"josm":"r5745261,w311742216,w339119153","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.54295,47.10265]}},
 {"type":"Feature","properties":{"josm":"r5893743,w390908465,w390908816","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[24.9932,48.02848]}},
-{"type":"Feature","properties":{"josm":"r5975654,w397753761,w397753842","error":"multipolygon members intersect each other","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.59327,50.22355]}},
 {"type":"Feature","properties":{"josm":"r7476451,w515952108,w515952113","error":"multipolygon members intersect each other","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[23.78562,51.5126]}},
 {"type":"Feature"}
 ]}
