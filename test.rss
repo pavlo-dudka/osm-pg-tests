@@ -43,7 +43,7 @@
 <description><![CDATA[32 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Tue, 22 Aug 2017 00:55:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 30 insertions(+), 13 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 30 insertions(+), 112 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 30 insertions(+), 116 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201708212101</guid>
@@ -56,14 +56,14 @@
 <gitDiff10d> 1 file changed, 1 insertion(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwayislandsservice201708221715</guid>
+<guid isPermaLink="false">highwayislandsservice201708221913</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.islands.service</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.islands.service - 258 error(s) found at 22 Aug 2017 17:15</title>
-<description><![CDATA[258 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
-<pubDate>Tue, 22 Aug 2017 17:15:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 7 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 29 insertions(+), 8 deletions(-)</gitDiff10d>
+<title>highway.islands.service - 262 error(s) found at 22 Aug 2017 19:13</title>
+<description><![CDATA[262 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
+<pubDate>Tue, 22 Aug 2017 19:13:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 11 insertions(+), 2 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 33 insertions(+), 8 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary201708220055</guid>
@@ -92,7 +92,7 @@
 <title>multipolygons - 40 error(s) found at 22 Aug 2017 18:14</title>
 <description><![CDATA[40 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Tue, 22 Aug 2017 18:14:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 30 insertions(+), 25 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 30 insertions(+), 27 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 35 insertions(+), 16 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -136,14 +136,14 @@
 <gitDiff10d> 1 file changed, 20 insertions(+), 21 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">railwayislandsservice201708210352</guid>
+<guid isPermaLink="false">railwayislandsservice201708221913</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?railway.islands.service</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>railway.islands.service - 358 error(s) found at 21 Aug 2017 03:52</title>
-<description><![CDATA[358 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.service>table</a>]]></description>
-<pubDate>Mon, 21 Aug 2017 03:52:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 3 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 9 insertions(+), 5 deletions(-)</gitDiff10d>
+<title>railway.islands.service - 359 error(s) found at 22 Aug 2017 19:13</title>
+<description><![CDATA[359 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.service>table</a>]]></description>
+<pubDate>Tue, 22 Aug 2017 19:13:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 4 insertions(+), 2 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 9 insertions(+), 4 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwaysharpturns201708201644</guid>
@@ -173,7 +173,7 @@
 <description><![CDATA[967 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Mon, 21 Aug 2017 16:16:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 17 insertions(+), 80 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 51 insertions(+), 43 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 50 insertions(+), 43 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201708141750</guid>
@@ -193,7 +193,7 @@
 <description><![CDATA[2474 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Tue, 22 Aug 2017 13:19:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 33 insertions(+), 21 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 160 insertions(+), 97 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 159 insertions(+), 97 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201708192245</guid>
@@ -203,7 +203,7 @@
 <description><![CDATA[621 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.o>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.o>table</a>]]></description>
 <pubDate>Sat, 19 Aug 2017 22:45:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 5 insertions(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 3 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">waterwayslayer201708220154</guid>
