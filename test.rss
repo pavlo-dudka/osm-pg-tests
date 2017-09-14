@@ -12,7 +12,7 @@
 <title>almost.junctions - 92 error(s) found at 13 Sep 2017 15:29</title>
 <description><![CDATA[92 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Wed, 13 Sep 2017 15:29:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 5 insertions(+), 1 deletion(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 5 insertions(+)</gitDiff3d>
 <gitDiff10d> 1 file changed, 38 insertions(+), 1899 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -42,8 +42,8 @@
 <title>highway.crossings - 18 error(s) found at 14 Sep 2017 16:01</title>
 <description><![CDATA[18 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Thu, 14 Sep 2017 16:01:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 5 insertions(+), 35 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 9 insertions(+), 32 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 5 insertions(+), 28 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 9 insertions(+), 28 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201709121923</guid>
@@ -56,12 +56,12 @@
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwayislandsservice201709132052</guid>
+<guid isPermaLink="false">highwayislandsservice201709141949</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.islands.service</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.islands.service - 297 error(s) found at 13 Sep 2017 20:52</title>
-<description><![CDATA[297 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
-<pubDate>Wed, 13 Sep 2017 20:52:00 +0300</pubDate>
+<title>highway.islands.service - 296 error(s) found at 14 Sep 2017 19:49</title>
+<description><![CDATA[296 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
+<pubDate>Thu, 14 Sep 2017 19:49:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 8 insertions(+), 5 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 31 insertions(+), 10 deletions(-)</gitDiff10d>
 </item>
@@ -76,14 +76,14 @@
 <gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwayislandsunclassified201709141759</guid>
+<guid isPermaLink="false">highwayislandsunclassified201709141949</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.islands.unclassified</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.islands.unclassified - 458 error(s) found at 14 Sep 2017 17:59</title>
-<description><![CDATA[458 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
-<pubDate>Thu, 14 Sep 2017 17:59:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 11 insertions(+), 9 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 39 insertions(+), 22 deletions(-)</gitDiff10d>
+<title>highway.islands.unclassified - 459 error(s) found at 14 Sep 2017 19:49</title>
+<description><![CDATA[459 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
+<pubDate>Thu, 14 Sep 2017 19:49:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 12 insertions(+), 7 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 40 insertions(+), 22 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">multipolygons201709132241</guid>
@@ -93,7 +93,7 @@
 <description><![CDATA[70 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Wed, 13 Sep 2017 22:41:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 3 insertions(+), 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 47 insertions(+), 52 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 46 insertions(+), 48 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201709081623</guid>
