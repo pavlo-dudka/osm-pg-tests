@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Floating island",
 "features": [
-{"type":"Feature","properties":{"josm":"w32462690","level":"residential","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[35.13814,48.39909],[35.13816,48.39921]]]}},
 {"type":"Feature","properties":{"josm":"w35222195","level":"unclassified","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[39.31253,48.49769],[39.31222,48.49756],[39.31195,48.49742]]]}},
 {"type":"Feature","properties":{"josm":"w38297264","level":"residential","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[32.45319,49.59017],[32.45444,49.59284],[32.45596,49.59594],[32.45805,49.59736],[32.46024,49.59856]]]}},
 {"type":"Feature","properties":{"josm":"w50682397","level":"unclassified","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[30.62657,50.38489],[30.62789,50.38502],[30.6299,50.38522]]]}},
@@ -480,5 +479,7 @@
 {"type":"Feature","properties":{"josm":"w529177813,w529177814","level":"residential","NumberOfRoads":"2"},"geometry":{"type":"MultiLineString","coordinates":[[[24.83208,48.15655],[24.83237,48.1566],[24.83259,48.15664]],[[24.83238,48.15593],[24.8322,48.15631],[24.83208,48.15655],[24.83182,48.1571]]]}},
 {"type":"Feature","properties":{"josm":"w529210789","level":"residential","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[35.15133,47.82843],[35.15116,47.82815],[35.15007,47.82641]]]}},
 {"type":"Feature","properties":{"josm":"w529254977","level":"residential","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[34.73198,49.43173],[34.7318,49.43174],[34.7297,49.43219],[34.72801,49.43256]]]}},
+{"type":"Feature","properties":{"josm":"w529365919","level":"living_street","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[33.93138,51.95507],[33.93277,51.95554]]]}},
+{"type":"Feature","properties":{"josm":"w529367435","level":"living_street","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[33.93777,51.95195],[33.94102,51.95304]]]}},
 {"type":"Feature"}
 ]}
