@@ -73,7 +73,7 @@
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.tertiary>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.tertiary>table</a>]]></description>
 <pubDate>Wed, 04 Oct 2017 12:58:00 +0300</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 1 deletion(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandsunclassified201710041636</guid>
@@ -82,7 +82,7 @@
 <title>highway.islands.unclassified - 379 error(s) found at 04 Oct 2017 16:36</title>
 <description><![CDATA[379 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
 <pubDate>Wed, 04 Oct 2017 16:36:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 14 insertions(+), 111 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 13 insertions(+), 111 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 30 insertions(+), 116 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -103,7 +103,7 @@
 <description><![CDATA[5 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?no.highways>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?no.highways>table</a>]]></description>
 <pubDate>Sun, 24 Sep 2017 18:46:00 +0300</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 1 deletion(-)</gitDiff10d>
+<gitDiff10d></gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">placedistricts201709262340</guid>
@@ -172,8 +172,8 @@
 <title>street.relations - 607 error(s) found at 04 Oct 2017 18:21</title>
 <description><![CDATA[607 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Wed, 04 Oct 2017 18:21:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 14 insertions(+), 15 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 27 insertions(+), 500 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 12 insertions(+), 15 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 27 insertions(+), 480 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201710040104</guid>
@@ -183,7 +183,7 @@
 <description><![CDATA[136 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Wed, 04 Oct 2017 01:04:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+), 89 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 88 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn201710041358</guid>
@@ -192,8 +192,8 @@
 <title>street.relations.n - 2411 error(s) found at 04 Oct 2017 13:58</title>
 <description><![CDATA[2411 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Wed, 04 Oct 2017 13:58:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 29 insertions(+), 21 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 151 insertions(+), 89 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 26 insertions(+), 20 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 151 insertions(+), 91 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201710022007</guid>
@@ -203,7 +203,7 @@
 <description><![CDATA[722 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.o>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.o>table</a>]]></description>
 <pubDate>Mon, 02 Oct 2017 20:07:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 36 insertions(+), 10 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 35 insertions(+), 8 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">waterwayslayer201710040012</guid>
