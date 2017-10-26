@@ -42,7 +42,7 @@
 <title>highway.crossings - 1 error(s) found at 26 Oct 2017 10:30</title>
 <description><![CDATA[1 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Thu, 26 Oct 2017 10:30:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 1 insertion(+), 7 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 1 insertion(+), 4 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 1 insertion(+), 18 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -62,7 +62,7 @@
 <title>highway.islands.service - 249 error(s) found at 26 Oct 2017 17:36</title>
 <description><![CDATA[249 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
 <pubDate>Thu, 26 Oct 2017 17:36:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 5 insertions(+), 55 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 3 insertions(+), 55 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 9 insertions(+), 61 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -82,7 +82,7 @@
 <title>highway.islands.unclassified - 3 error(s) found at 26 Oct 2017 16:40</title>
 <description><![CDATA[3 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
 <pubDate>Thu, 26 Oct 2017 16:40:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 9 deletions(-)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d> 1 file changed, 84 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -172,8 +172,8 @@
 <title>street.relations - 691 error(s) found at 26 Oct 2017 17:36</title>
 <description><![CDATA[691 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Thu, 26 Oct 2017 17:36:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 57 insertions(+), 34 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 88 insertions(+), 3 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 57 insertions(+), 38 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 88 insertions(+), 19 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201710260147</guid>
@@ -186,14 +186,14 @@
 <gitDiff10d> 1 file changed, 5 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201710261736</guid>
+<guid isPermaLink="false">streetrelationsn201710261829</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 2563 error(s) found at 26 Oct 2017 17:36</title>
-<description><![CDATA[2563 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Thu, 26 Oct 2017 17:36:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 48 insertions(+), 28 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 254 insertions(+), 169 deletions(-)</gitDiff10d>
+<title>street.relations.n - 2564 error(s) found at 26 Oct 2017 18:29</title>
+<description><![CDATA[2564 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
+<pubDate>Thu, 26 Oct 2017 18:29:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 49 insertions(+), 28 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 256 insertions(+), 170 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201710261359</guid>
