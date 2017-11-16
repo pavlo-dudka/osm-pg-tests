@@ -2,6 +2,12 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1765829,n1442574704","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.02985,49.43155]}},
+{"type":"Feature","properties":{"josm":"r1765829,n1446200768","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03206,49.43199]}},
+{"type":"Feature","properties":{"josm":"r1765829,n500890624","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.02956,49.43127]}},
+{"type":"Feature","properties":{"josm":"r1765829,n500890627","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03281,49.43219]}},
+{"type":"Feature","properties":{"josm":"r1765830,n500890624","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.02956,49.43127]}},
+{"type":"Feature","properties":{"josm":"r1765830,n500890627","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03281,49.43219]}},
 {"type":"Feature","properties":{"josm":"r3936265,n1022926735","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.94639,48.29848]}},
 {"type":"Feature","properties":{"josm":"r3936265,n3004008604","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.93968,48.30054]}},
 {"type":"Feature","properties":{"josm":"r3942541,n1459479507","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.78089,48.43123]}},
@@ -18,6 +24,10 @@
 {"type":"Feature","properties":{"josm":"r7541432,n3080860755","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.4098,47.73025]}},
 {"type":"Feature","properties":{"josm":"r7541511,n3434019645","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.39807,47.63272]}},
 {"type":"Feature","properties":{"josm":"r7541511,n5079036668","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.39367,47.67358]}},
+{"type":"Feature","properties":{"josm":"r7739126,n5233613199","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.25114,50.81025]}},
+{"type":"Feature","properties":{"josm":"r7739126,n5233615331","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.21253,50.89626]}},
+{"type":"Feature","properties":{"josm":"r1765829,w41081809,w131395268","error":"multipolygon members intersect each other","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03219,49.43202]}},
+{"type":"Feature","properties":{"josm":"r1765830,w41081809,w131395268","error":"multipolygon members intersect each other","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03219,49.43202]}},
 {"type":"Feature","properties":{"josm":"r6425334,w98236562,w473006089","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.50953,49.0897]}},
 {"type":"Feature"}
 ]}
