@@ -2,14 +2,13 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1601510,n331029905","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.58803,50.42902]}},
-{"type":"Feature","properties":{"josm":"r1601510,n331030061","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.58142,50.44925]}},
 {"type":"Feature","properties":{"josm":"r3942541,n1459479507","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.78089,48.43123]}},
 {"type":"Feature","properties":{"josm":"r3942541,n2284384652","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.80765,48.39343]}},
 {"type":"Feature","properties":{"josm":"r7541432,n3063245481","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.39496,47.67578]}},
 {"type":"Feature","properties":{"josm":"r7541432,n3080860755","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.4098,47.73025]}},
 {"type":"Feature","properties":{"josm":"r7737572,n1653072710","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.05692,49.01322]}},
 {"type":"Feature","properties":{"josm":"r7737572,n1653072764","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.01214,49.0346]}},
+{"type":"Feature","properties":{"josm":"r1605938,w238615385,w435425535","error":"multipolygon members intersect each other","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[30.53665,51.1851]}},
 {"type":"Feature","properties":{"josm":"r7737572,w152489761,w540961291","error":"multipolygon members intersect each other","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.0468,49.018]}},
 {"type":"Feature"}
 ]}
