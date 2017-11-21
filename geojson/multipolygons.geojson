@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1699211,n5241055720","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[34.64354,49.58997]}},
+{"type":"Feature","properties":{"josm":"r1699211,n5241056326","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[34.64376,49.59005]}},
+{"type":"Feature","properties":{"josm":"r7749575,n5241036944","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.83357,48.00416]}},
+{"type":"Feature","properties":{"josm":"r7749575,n5241036945","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[37.83373,48.00416]}},
 {"type":"Feature","properties":{"josm":"r3564465,w264920768,w264933240","error":"multipolygon members intersect each other","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[26.02371,49.03613]}},
 {"type":"Feature","properties":{"josm":"r6425334,w473006089,w541836336","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.4499,49.10283]}},
 {"type":"Feature"}
