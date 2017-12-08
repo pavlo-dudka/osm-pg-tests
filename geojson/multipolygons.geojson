@@ -2,10 +2,11 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r3838098,w357532070,w544969644","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.47344,48.73659]}},
-{"type":"Feature","properties":{"josm":"r5330734,w357532069,w544969641","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.56282,48.70342]}},
-{"type":"Feature","properties":{"josm":"r5330734,w357532069,w544970813","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.44507,48.73517]}},
-{"type":"Feature","properties":{"josm":"r5330734,w357532070,w544969644","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.47344,48.73659]}},
-{"type":"Feature","properties":{"josm":"r5330734,w357532070,w544970814","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.44847,48.74176]}},
+{"type":"Feature","properties":{"josm":"r1662323,n5110673657","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.43737,49.23363]}},
+{"type":"Feature","properties":{"josm":"r1662323,n5270501691","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.43723,49.23406]}},
+{"type":"Feature","properties":{"josm":"r7787252,n5258289982","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.34602,50.1609]}},
+{"type":"Feature","properties":{"josm":"r7787252,n5258319120","region":"Рівненська область"},"geometry":{"type":"Point","coordinates":[25.35802,50.16126]}},
+{"type":"Feature","properties":{"josm":"r5330734,w357532069,w544969641","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.56282,48.70342]}},
+{"type":"Feature","properties":{"josm":"r5330734,w357532069,w544970813","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.44507,48.73517]}},
 {"type":"Feature"}
 ]}
