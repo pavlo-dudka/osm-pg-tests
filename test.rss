@@ -42,7 +42,7 @@
 <title>highway.crossings - 26 error(s) found at 14 Dec 2017 23:59</title>
 <description><![CDATA[26 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Thu, 14 Dec 2017 23:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 8 insertions(+), 22 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 8 insertions(+), 24 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 14 insertions(+), 7 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -166,34 +166,34 @@
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations201712141736</guid>
+<guid isPermaLink="false">streetrelations201712150239</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 993 error(s) found at 14 Dec 2017 17:36</title>
-<description><![CDATA[993 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Thu, 14 Dec 2017 17:36:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 127 insertions(+), 44 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 257 insertions(+), 57 deletions(-)</gitDiff10d>
+<title>street.relations - 1044 error(s) found at 15 Dec 2017 02:39</title>
+<description><![CDATA[1044 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
+<pubDate>Fri, 15 Dec 2017 02:39:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 178 insertions(+), 44 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 308 insertions(+), 57 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsm201712131152</guid>
+<guid isPermaLink="false">streetrelationsm201712150239</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.m</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.m - 170 error(s) found at 13 Dec 2017 11:52</title>
-<description><![CDATA[170 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
-<pubDate>Wed, 13 Dec 2017 11:52:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 3 insertions(+), 3 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 15 insertions(+), 2 deletions(-)</gitDiff10d>
+<title>street.relations.m - 174 error(s) found at 15 Dec 2017 02:39</title>
+<description><![CDATA[174 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
+<pubDate>Fri, 15 Dec 2017 02:39:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 7 insertions(+), 3 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 19 insertions(+), 2 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201712142359</guid>
+<guid isPermaLink="false">streetrelationsn201712150239</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 2661 error(s) found at 14 Dec 2017 23:59</title>
-<description><![CDATA[2661 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Thu, 14 Dec 2017 23:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 74 insertions(+), 62 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 178 insertions(+), 141 deletions(-)</gitDiff10d>
+<title>street.relations.n - 2664 error(s) found at 15 Dec 2017 02:39</title>
+<description><![CDATA[2664 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
+<pubDate>Fri, 15 Dec 2017 02:39:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 76 insertions(+), 61 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 180 insertions(+), 141 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso201712122324</guid>
