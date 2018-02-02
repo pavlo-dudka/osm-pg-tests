@@ -2,8 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r5898491,w290045616,w555179985","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.91264,49.91127]}},
-{"type":"Feature","properties":{"josm":"r5898491,w35161347,w555179985","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[35.91255,49.91107]}},
-{"type":"Feature","properties":{"josm":"r7967801,w30698430,w557943946","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[23.77732,49.51137]}},
+{"type":"Feature","properties":{"josm":"r7964483,n5378110730","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.34312,51.20601]}},
+{"type":"Feature","properties":{"josm":"r7964483,n5380555232","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.35501,51.19073]}},
+{"type":"Feature","properties":{"josm":"r5898491,w290045616,w555179985","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.91264,49.91127]}},
+{"type":"Feature","properties":{"josm":"r5898491,w35161347,w555179985","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.91255,49.91107]}},
+{"type":"Feature","properties":{"josm":"r7967801,w30698430,w557943946","error":"multipolygon members intersect each other","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.77732,49.51137]}},
 {"type":"Feature"}
 ]}
