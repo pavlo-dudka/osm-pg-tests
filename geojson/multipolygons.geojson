@@ -2,10 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r5515663,n3355738914","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.62944,50.29438]}},
-{"type":"Feature","properties":{"josm":"r5515663,n3871357655","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.6356,50.29645]}},
-{"type":"Feature","properties":{"josm":"r7600562,n3675131561","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.60615,50.27992]}},
-{"type":"Feature","properties":{"josm":"r7600562,n3675131566","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.61106,50.28102]}},
 {"type":"Feature","properties":{"josm":"r7985846,n5365994477","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.26109,50.77979]}},
 {"type":"Feature","properties":{"josm":"r7985846,n5389642919","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.27968,50.77922]}},
 {"type":"Feature","properties":{"josm":"r7985847,n4801170392","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.27929,50.77753]}},
@@ -15,8 +11,6 @@
 {"type":"Feature","properties":{"josm":"r3348774,w248780936,w556847551","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.4162,50.76096]}},
 {"type":"Feature","properties":{"josm":"r3348774,w248780936,w556847560","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.41587,50.76089]}},
 {"type":"Feature","properties":{"josm":"r3348774,w248780936,w556847562","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.41274,50.76017]}},
-{"type":"Feature","properties":{"josm":"r5898491,w290045616,w555179985","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.91264,49.91127]}},
-{"type":"Feature","properties":{"josm":"r5898491,w35161347,w555179985","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[35.91255,49.91107]}},
 {"type":"Feature","properties":{"josm":"r7967801,w30698430,w557943946","error":"multipolygon members intersect each other","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.77732,49.51137]}},
 {"type":"Feature","properties":{"josm":"r7976393,w182327277,w558485139","error":"multipolygon members intersect each other","region":"Кіровоградська область"},"geometry":{"type":"Point","coordinates":[31.9367,48.82227]}},
 {"type":"Feature"}
