@@ -1,6 +1,7 @@
 drop table if exists koatuu;
-create table koatuu(code text, place text, title text);
+create unlogged table koatuu(code text, place text, title text) tablespace osmspace;
 copy koatuu from 'osm/koatuu.csv' delimiter ',' csv quote '"';
+create index idx_koatuu_code on koatuu(code) tablespace osmspace;
 update koatuu set code=lpad(code,10,'0'), title=replace(title,'''','’');
 update koatuu set title=replace(title,'М.','') where title like 'М.%';
 update koatuu set title=upper('Масалаївка') where code='7424982503';
@@ -37,7 +38,25 @@ update koatuu set title=upper('Вовківка') where code='5921589303';
 update koatuu set title=upper('Майдан-Копищенський') where code='1824484802';
 delete from koatuu where code in ('2321186502','2321187401','2321188401');
 update koatuu set title=upper('Велика Білозерка'), code='2321180101, 2321186502, 2321187401, 2321188401' where code='2321180101';
-create index idx_koatuu_code on koatuu(code);
+delete from koatuu where code in ('1225855300','3520587002','3521487003','3522287406','3522580302','3522580303','3524086405','5123580404','6521881502','6521884006','6522180404','6522180407','6522181002','6522181003','6522183704','6522184003','6522184004','6522184005','6522184006','6522184505');
+
+update koatuu set title=upper('Будьоннівський') where code='1410136200' and title='БУДЬОНІВСЬКИЙ';
+update koatuu set title=upper('Центральний') where code='1412336300' and title='ЖОВТНЕВИЙ';
+update koatuu set title=upper('Кальміуський') where code='1412336600' and title='ІЛЛІЧІВСЬКИЙ';
+update koatuu set title=upper('Лівобережний') where code='1412336900' and title='ОРДЖОНІКІДЗЕВСЬКИЙ';
+update koatuu set title=upper('Фортечний') where code='3510136300' and title='КІРОВСЬКИЙ';
+update koatuu set title=upper('Подільський') where code='3510136600' and title='ЛЕНІНСЬКИЙ';
+update koatuu set title=upper('Подільський') where code='5310136700' and title='ЛЕНІНСЬКИЙ';
+update koatuu set title=upper('Шевченківський') where code='5310137000' and title='ОКТЯБРСЬКИЙ';
+update koatuu set title=upper('Шевченківський') where code='6310136300' and title='ДЗЕРЖИНСЬКИЙ';
+update koatuu set title=upper('Холодногірський') where code='6310137200' and title='ЛЕНІНСЬКИЙ';
+update koatuu set title=upper('Новобаварський') where code='6310137900' and title='ЖОВТНЕВИЙ';
+update koatuu set title=upper('Основ’янський') where code='6310138800' and title='ЧЕРВОНОЗАВОДСЬКИЙ';
+update koatuu set title=upper('Слобідський') where code='6310136900' and title='КОМІНТЕРНІВСЬКИЙ';
+update koatuu set title=upper('Індустріальний') where code='6310138200' and title='ОРДЖОНІКІДЗЕВСЬКИЙ';
+update koatuu set title=upper('Немишлянський') where code='6310138500' and title='ФРУНЗЕНСЬКИЙ';
+update koatuu set title=upper('Корабельний') where code='6510136600' and title='КОМСОМОЛЬСЬКИЙ';
+
 
 select '';
 select 'Koatuu - missing place:';
