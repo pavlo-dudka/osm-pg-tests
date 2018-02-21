@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2407560,n5426370965","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.32417,51.17216]}},
+{"type":"Feature","properties":{"josm":"r2407560,n5426370969","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.35256,51.15558]}},
 {"type":"Feature","properties":{"josm":"r7425881,n5288428637","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.24626,50.76663]}},
 {"type":"Feature","properties":{"josm":"r7425881,n5424410204","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.24626,50.76663]}},
 {"type":"Feature","properties":{"josm":"r8030544,n5401543564","region":"Тернопільська область"},"geometry":{"type":"Point","coordinates":[25.68924,49.29552]}},
@@ -21,8 +23,9 @@
 {"type":"Feature","properties":{"josm":"r8031038,n781835709","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.3364,49.97509]}},
 {"type":"Feature","properties":{"josm":"r8031038,n781836678","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.31396,49.98576]}},
 {"type":"Feature","properties":{"josm":"r8031038,n796746769","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.29884,50.00235]}},
-{"type":"Feature","properties":{"josm":"r8034262,n2622534633","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.24895,51.13283]}},
-{"type":"Feature","properties":{"josm":"r8034262,n5380467534","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.2683,51.18819]}},
+{"type":"Feature","properties":{"josm":"r8041233,n5426370099","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.22516,51.12716]}},
+{"type":"Feature","properties":{"josm":"r8041233,n5426370106","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.23338,51.12907]}},
 {"type":"Feature","properties":{"josm":"r8027817,w273796901,w561967209","error":"multipolygon members intersect each other","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.28419,50.75878]}},
+{"type":"Feature","properties":{"josm":"r8038745,w525332398,w562756227","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.50564,49.24809]}},
 {"type":"Feature"}
 ]}
