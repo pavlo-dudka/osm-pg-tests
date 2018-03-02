@@ -2,7 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
-{"type":"Feature","properties":{"josm":"r1260191,w80814553","relationtags":"name|Леніна вулиця","membertags":"name|Культури вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.47064,49.91088]}},
+{"type":"Feature","properties":{"josm":"r1260191,w80663987","relationtags":"name|Культури вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.48227,49.90321]}},
+{"type":"Feature","properties":{"josm":"r1260191,w80663990","relationtags":"name|Культури вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.48304,49.90311]}},
 {"type":"Feature","properties":{"josm":"r1263172,w84508466","relationtags":"name|Зубарєва вулиця","membertags":"addr:street|Сергія Грицевця вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.40205,49.91612]}},
 {"type":"Feature","properties":{"josm":"r1263172,w84508486","relationtags":"name|Зубарєва вулиця","membertags":"addr:street|Сергія Грицевця вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.40259,49.91615]}},
 {"type":"Feature","properties":{"josm":"r1295889,w531256803","relationtags":"name|Московський проспект","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.24054,49.98871]}},
@@ -35,8 +36,6 @@
 {"type":"Feature","properties":{"josm":"r1641534,w115968388","relationtags":"name:ru|Береговая улица","membertags":"name:ru|Морская улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.83322,46.05551]}},
 {"type":"Feature","properties":{"josm":"r1641534,w115968388","relationtags":"name:uk|Берегова вулиця","membertags":"name:uk|Морська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.83322,46.05551]}},
 {"type":"Feature","properties":{"josm":"r1641534,w115968388","relationtags":"name|Берегова вулиця","membertags":"name|Морська вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.83322,46.05551]}},
-{"type":"Feature","properties":{"josm":"r1694471,w311079548","relationtags":"name|Центральна вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.2227,50.54236]}},
-{"type":"Feature","properties":{"josm":"r1694471,w311079550","relationtags":"name|Центральна вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[30.22481,50.54227]}},
 {"type":"Feature","properties":{"josm":"r1703731,w89520240","relationtags":"name|Юрія Гагаріна проспект","membertags":"addr:street|Вернадського вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.24632,49.97951]}},
 {"type":"Feature","properties":{"josm":"r1711156,w452637331","relationtags":"name|Садова вулиця","membertags":"name|Вчительський провулок","memberrole":"street"},"geometry":{"type":"Point","coordinates":[30.21209,50.53867]}},
 {"type":"Feature","properties":{"josm":"r1711159,w380251858","relationtags":"name|Учительський провулок","membertags":"addr:street|Вчительський провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.21268,50.53873]}},
@@ -848,9 +847,6 @@
 {"type":"Feature","properties":{"josm":"r8005352,w152450570","relationtags":"name|Рози Люксембург вулиця","membertags":"name|Розы Люксембург улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[38.01437,47.41432]}},
 {"type":"Feature","properties":{"josm":"r8046690,w207079563","relationtags":"name|Польща вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[33.16083,51.45584]}},
 {"type":"Feature","properties":{"josm":"r8053437,w42136271","relationtags":"name:uk|Олександрова вулиця","membertags":"name:uk|Александрова вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[34.98851,48.46948]}},
-{"type":"Feature","properties":{"josm":"r8063969,w165187937","relationtags":"name:uk|Таганська вулиця","membertags":"name:uk|Taganska Street","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.88029,48.02869]}},
-{"type":"Feature","properties":{"josm":"r8063969,w165187942","relationtags":"name:uk|Таганська вулиця","membertags":"name:uk|Taganska Street","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.88645,48.04205]}},
-{"type":"Feature","properties":{"josm":"r8063970,w165187940","relationtags":"name:uk|Лескова вулиця","membertags":"name:uk|Leskova Street","memberrole":"street"},"geometry":{"type":"Point","coordinates":[37.88185,48.03662]}},
 
 {"type":"Feature","properties":{"josm":"r4106932","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[33.42608,49.06811]}},
 {"type":"Feature","properties":{"josm":"r7627234","relationtags":"name|(null)"},"geometry":{"type":"Point","coordinates":[26.27326,48.22227]}},
