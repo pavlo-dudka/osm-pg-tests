@@ -3,8 +3,6 @@
 "errorDescr": "Multipolygon end-node",
 "features": [
 {"type":"Feature","properties":{"josm":"r1197726,n719530551","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[27.88053,48.37921]}},
-{"type":"Feature","properties":{"josm":"r3030976,n3759813043","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.58595,44.63744]}},
-{"type":"Feature","properties":{"josm":"r3030976,n3887271727","region":"Севастополь"},"geometry":{"type":"Point","coordinates":[33.57821,44.61922]}},
 {"type":"Feature","properties":{"josm":"r8106593,n5474193351","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.39061,50.32821]}},
 {"type":"Feature","properties":{"josm":"r8106593,n5474193352","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.39385,50.33061]}},
 {"type":"Feature","properties":{"josm":"r8132430,n5462815265","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.75762,48.24364]}},
@@ -31,5 +29,6 @@
 {"type":"Feature","properties":{"josm":"r8115812,w62377634,w569998387","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[28.51815,48.98971]}},
 {"type":"Feature","properties":{"josm":"r8127849,w232219829,w571038811","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.76633,48.21017]}},
 {"type":"Feature","properties":{"josm":"r8132445,w571375974,w571375976","error":"multipolygon members intersect each other","region":"Чернівецька область"},"geometry":{"type":"Point","coordinates":[25.73802,48.22783]}},
+{"type":"Feature","properties":{"josm":"r8134613,w571810359,w571810364","error":"multipolygon members intersect each other","region":"Харківська область"},"geometry":{"type":"Point","coordinates":[36.77713,49.4361]}},
 {"type":"Feature"}
 ]}
