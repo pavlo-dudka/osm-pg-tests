@@ -37,9 +37,6 @@ place-way should be closed:
 576454997
 576454998
 576455003
-611640957
-611640980
-611640989
 
 Multiple polygons:
 2|27212295|r2175059,r7750160|
@@ -543,15 +540,15 @@ Invalid relation role:
 1951914|type|multipolygon|1951914|1951125|R|outer|49
 1951914|type|multipolygon|1951914|1951674|R|outer|48
 1951914|type|multipolygon|1951914|1951903|R|outer|50
-2668952|type|boundary|2668952|2707692|R|outer|1
-2668952|type|boundary|2668952|2707693|R|outer|7
-2668952|type|boundary|2668952|2707694|R|inner|8
-2668952|type|boundary|2668952|2707696|R|outer|6
-2668952|type|boundary|2668952|2707697|R|outer|5
-2668952|type|boundary|2668952|2707698|R|outer|3
-2668952|type|boundary|2668952|2707699|R|subarea:fixme|4
-2668952|type|boundary|2668952|2707700|R|outer|2
-2668952|type|boundary|2668952|2725459|R|outer|0
+2668952|type|boundary|2668952|2707692|R|outer|121
+2668952|type|boundary|2668952|2707693|R|outer|127
+2668952|type|boundary|2668952|2707694|R|inner|128
+2668952|type|boundary|2668952|2707696|R|outer|126
+2668952|type|boundary|2668952|2707697|R|outer|125
+2668952|type|boundary|2668952|2707698|R|outer|123
+2668952|type|boundary|2668952|2707699|R|subarea:fixme|124
+2668952|type|boundary|2668952|2707700|R|outer|122
+2668952|type|boundary|2668952|2725459|R|outer|120
 2890638|type|multipolygon|2890638|7811086|R|inner|1
 3811859|type|boundary|3811859|6629021|R||3
 5686829|type|multipolygon|5686829|5686828|R|inner|7
@@ -702,7 +699,6 @@ Crimea:
 2734347615|Журавлиное||Журавлиное
 2734465379|||
 2736214348|Просторное||Просторное
-2736297311|Киркояш||Киркояш
 2736297318|Трёхгорное||Трёхгорное
 2736470221|Алтан-Алчин||Алтан-Алчин
 2736470222|Бикеч||Бикеч
