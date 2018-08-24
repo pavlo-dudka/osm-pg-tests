@@ -38,8 +38,8 @@ building-node in a way:
 4716685724|329479673|addr:housenumber:2/1 корпус 2;  building:apartments;  building:levels:10
 4730356105|490752502|amenity:parking
 5646241723|591408258|bridge:yes;  highway:footway;  layer:1
-5782067988|610566322|highway:track;  smoothness:bad;  surface:unpaved;  tracktype:grade4
-5782067989|610566322|highway:track;  smoothness:bad;  surface:unpaved;  tracktype:grade4
+5782067988|610566322|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
+5782067989|610566322|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
 
 Redundant space-symbols:
 337687303|name:ru|Черниговка 
