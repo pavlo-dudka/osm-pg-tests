@@ -1,5 +1,7 @@
 building-node in a way:
 267079497|172382935|
+314213631|28601121|highway:primary;  ref:Р-60;  reg_ref:Р-60
+314213639|28601121|highway:primary;  ref:Р-60;  reg_ref:Р-60
 394906804|258148150|electrified:contact_line;  frequency:0;  gauge:1520;  maxspeed:60;  railway:rail;  ref:I;  usage:main;  voltage:3000
 929454995|79650310|highway:service
 1110419499|95809407|highway:footway
@@ -10,6 +12,10 @@ building-node in a way:
 1635052006|150604024|highway:residential
 1855330073|174886961|highway:service;  oneway:yes
 2043454400|193835943|highway:service;  service:petrol
+2148725807|170098280|highway:tertiary;  name:вул. Бурмистренка
+2148725807|204892886|highway:unclassified;  name:вул. Котляревського
+2148725807|236949020|highway:unclassified
+2148725807|379347591|highway:tertiary;  ref:О-1712159
 2200473922|209891464|building:yes;  building:levels:2;  name:Строительный магазин;  shop:hardware
 2328014379|223963701|building:church
 2470700176|239270721|railway:rail;  service:spur
@@ -38,8 +44,14 @@ building-node in a way:
 4716685724|329479673|addr:housenumber:2/1 корпус 2;  building:apartments;  building:levels:10
 4730356105|490752502|amenity:parking
 5646241723|591408258|bridge:yes;  highway:footway;  layer:1
-5782067988|610566322|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
-5782067989|610566322|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
+5782067988|620619308|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  name:вул. Лохвицька;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
+5782067989|620619308|access:yes;  highway:track;  horse:yes;  motorcar:yes;  motorcycle:yes;  motor_vehicle:yes;  name:вул. Лохвицька;  smoothness:bad;  surface:ground;  tracktype:grade4;  width:2
+5858782348|28601121|highway:primary;  ref:Р-60;  reg_ref:Р-60
+5861312671|28601121|highway:primary;  ref:Р-60;  reg_ref:Р-60
+5861312671|620376260|highway:track;  smoothness:good;  surface:ground;  tracktype:grade3
+5862869327|379347591|highway:tertiary;  ref:О-1712159
+5862869327|620551319|highway:track;  smoothness:good;  surface:unpaved;  tracktype:grade3
+5864900581|620784895|addr:housenumber:37;  building:house;  building:levels:1;  height:14
 
 Redundant space-symbols:
 337687303|name:ru|Черниговка 
@@ -253,7 +265,6 @@ Railway alley located near the railway station Mostyska.
 487130442|description|Річка Січна. Впадає у річку Вишня. 
 492164528|name|улица Артиллеристов 
 492164528|name:ru|улица Артиллеристов 
-496084643|description|Детская площадка за домом. 
 496092831|description|Спортивная площадка для занятий: брусья, кольца, турники, другие тренажеры. 
 512054203|description|Адміністрація СТОВ "Старинська птахофабрика" (ТМ "Наша Ряба"), головний офіс. 
 519405567|description|Автоматизована система контролю радіаційної обстановки. 
@@ -838,6 +849,7 @@ No suffix:
 улица 23 Мая 1919 года|157425996,175200322,175200336,272266084
 улица 2-я Береговая|545406589
 улица 33 Дивизии|98146472
+улица 5 Августа|39881379
 улица 60 Лет Октября|110408237
 улица 7 Ноября|325068027,609034192
 улица 8 Марта|143534469,147112428,269596424,404872826,419686418,482510230,482510231,526841595,95688993,98232105
