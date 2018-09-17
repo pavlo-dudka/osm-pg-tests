@@ -49,9 +49,9 @@ building-node in a way:
 5908105558|625764997|addr:housenumber:6;  addr:postcode:80560;  addr:street:Садова;  building:house
 5908109288|625765365|addr:housenumber:1;  addr:postcode:80560;  addr:street:Садова;  building:yes
 5908110555|625765657|addr:housenumber:3;  addr:postcode:80560;  addr:street:Садова;  building:yes
-5908111744|625765796|addr:postcode:80560;  addr:street:Садова;  building:house
+5908111744|625765796|addr:housenumber:8;  addr:postcode:80560;  addr:street:Садова;  building:house
 5908115983|625766301|addr:postcode:80560;  addr:street:Садова;  building:yes
-5908116136|625766339|addr:postcode:80560;  addr:street:Садова;  building:yes
+5908116136|625766339|addr:postcode:80560;  addr:street:Садова;  building:yes;  building:levels:10
 
 Redundant space-symbols:
 337687303|name:ru|Черниговка 
