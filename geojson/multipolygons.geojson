@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2123677,n5704718221","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02361,49.81798]}},
+{"type":"Feature","properties":{"josm":"r2123677,n5715701615","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02208,49.81825]}},
+{"type":"Feature","properties":{"josm":"r2126575,n5704718221","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02361,49.81798]}},
+{"type":"Feature","properties":{"josm":"r2126575,n5715701615","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02208,49.81825]}},
 {"type":"Feature","properties":{"josm":"r2515663,n1974710342","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.5065,48.09706]}},
 {"type":"Feature","properties":{"josm":"r2515663,n1975525889","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.49143,48.08135]}},
 {"type":"Feature","properties":{"josm":"r2516148,n1958081719","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.48744,48.08047]}},
@@ -9,6 +13,7 @@
 {"type":"Feature","properties":{"josm":"r5139006,n3516899320","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.45223,45.32335]}},
 {"type":"Feature","properties":{"josm":"r8106593,n5474193351","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.39061,50.32821]}},
 {"type":"Feature","properties":{"josm":"r8106593,n5474193352","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.39377,50.33066]}},
+{"type":"Feature","properties":{"josm":"r8832195","error":"multipolygon without tags and single member - delete relation","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[32.63095,49.99651]}},
 {"type":"Feature","properties":{"josm":"r2063718,w152678728,w635185166","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.79186,48.58386]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w575316447","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.50687,45.30771]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585577449","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[36.59152,45.24422]}},
