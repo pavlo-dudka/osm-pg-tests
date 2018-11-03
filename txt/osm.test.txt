@@ -52,8 +52,8 @@ building-node in a way:
 5908111744|625765796|addr:housenumber:8;  addr:postcode:80560;  addr:street:Садова;  building:house
 5908115983|625766301|addr:postcode:80560;  addr:street:Садова;  building:yes
 5908116136|625766339|addr:housenumber:10;  addr:postcode:80560;  addr:street:Садова;  building:yes;  building:levels:1
-6034952461|640632738|addr:city:Гатне;  addr:housenumber:122А;  addr:street:Прикордонна;  building:house
-6034956305|640633012|addr:city:Гатне;  addr:housenumber:122;  addr:street:Прикордонна;  building:house
+6034952461|640632738|addr:city:Гатне;  addr:housenumber:122А;  addr:street:Прикордонна;  building:house;  building:levels:2;  height:7
+6034956305|640633012|addr:city:Гатне;  addr:housenumber:122;  addr:street:Прикордонна;  building:house;  building:levels:2;  height:7
 
 Redundant space-symbols:
 817456931|name|Магистраль 
