@@ -445,6 +445,10 @@ Invalid node role:
 7425878|type|multipolygon|7425878|6082328141|N|house|246
 7425878|type|multipolygon|7425878|6082328142|N|house|247
 7425878|type|multipolygon|7425878|6082601193|N|house|248
+7425878|type|multipolygon|7425878|6082693765|N|house|249
+7425878|type|multipolygon|7425878|6082693766|N|house|250
+7425878|type|multipolygon|7425878|6082693767|N|house|251
+7425878|type|multipolygon|7425878|6082693768|N|house|252
 7797922|type|multipolygon|7797922|5276054009|N||23
 7806020|type|multipolygon|7806020|5281944242|N|outer|0
 7814226|type|multipolygon|7814226|5286689423|N|outer|3
@@ -2450,8 +2454,6 @@ Invalid way role:
 8774568|630625426|1
 
 Invalid relation role:
-60199|type|boundary|60199|72639|R|claimed|1180
-60199|type|boundary|60199|1574364|R|claimed|1162
 1401291|type|multipolygon|1401291|3457445|R||0
 1757765|type|multipolygon|1757765|6534549|R|outer|0
 1758184|type|multipolygon|1758184|1757606|R|outer|7
@@ -3138,9 +3140,10 @@ Oblasts:
 5756121135|Дайберг||Дайберг
 
 admin_level:
-130072455|3|2
+238797482|4|2
 470203825|4|3
 593378374|4|3
+310894007|2|4
 216149556|7|6
 216149566|7|6
 216149585|7|6
