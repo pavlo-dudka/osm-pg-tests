@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r2068483,n1660621474","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.50372,49.34554]}},
 {"type":"Feature","properties":{"josm":"r2515663,n1974710342","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.5065,48.09706]}},
 {"type":"Feature","properties":{"josm":"r2515663,n1975525889","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.49143,48.08135]}},
 {"type":"Feature","properties":{"josm":"r2516148,n1958081719","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.48744,48.08047]}},
@@ -27,6 +28,9 @@
 {"type":"Feature","properties":{"josm":"r9060052,n1794224658","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.80118,50.90938]}},
 {"type":"Feature","properties":{"josm":"r9060052,n6004903342","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.79999,50.90919]}},
 {"type":"Feature","properties":{"josm":"r9081361,n2462947309","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.36919,50.95121]}},
+{"type":"Feature","properties":{"josm":"r9082691,n1659812618","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.50475,49.34449]}},
+{"type":"Feature","properties":{"josm":"r9082691,n1660620831","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.5048,49.34537]}},
+{"type":"Feature","properties":{"josm":"r9082691,n1660623594","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[23.50481,49.34593]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585577449","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[36.58765,45.24594]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585581810","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.57434,45.25111]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w639615439","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.58765,45.24594]}},
