@@ -2448,8 +2448,8 @@ Invalid way role:
 9056689|650206213|1
 
 Invalid relation role:
-60199|type|boundary|60199|72639|R|occupied|1175
-60199|type|boundary|60199|1574364|R|occupied|1157
+60199|type|boundary|60199|72639|R|claimed|1183
+60199|type|boundary|60199|1574364|R|claimed|1165
 1401291|type|multipolygon|1401291|3457445|R||0
 1757765|type|multipolygon|1757765|6534549|R|outer|0
 1758184|type|multipolygon|1758184|1757606|R|outer|7
@@ -3133,7 +3133,6 @@ Oblasts:
 6124588063|Стандартный||Стандартный
 
 admin_level:
-238797482|4|2
 470203825|4|3
 593378374|4|3
 111303158|6|4
