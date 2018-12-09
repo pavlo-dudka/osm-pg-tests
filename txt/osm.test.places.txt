@@ -442,14 +442,6 @@ Invalid node role:
 7169238|type|boundary|7169238|337591458|N|street|2
 7384580|type|boundary|7384580|1932253015|N||0
 7409621|type|boundary|7409621|4980785821|N||0
-7425878|type|multipolygon|7425878|6082328140|N|house|245
-7425878|type|multipolygon|7425878|6082328141|N|house|246
-7425878|type|multipolygon|7425878|6082328142|N|house|247
-7425878|type|multipolygon|7425878|6082601193|N|house|248
-7425878|type|multipolygon|7425878|6082693765|N|house|249
-7425878|type|multipolygon|7425878|6082693766|N|house|250
-7425878|type|multipolygon|7425878|6082693767|N|house|251
-7425878|type|multipolygon|7425878|6082693768|N|house|252
 7797922|type|multipolygon|7797922|5276054009|N||23
 7806020|type|multipolygon|7806020|5281944242|N|outer|0
 7814226|type|multipolygon|7814226|5286689423|N|outer|3
@@ -2456,8 +2448,8 @@ Invalid way role:
 9056689|650206213|1
 
 Invalid relation role:
-60199|type|boundary|60199|72639|R|claimed|1183
-60199|type|boundary|60199|1574364|R|claimed|1165
+60199|type|boundary|60199|72639|R|occupied|1175
+60199|type|boundary|60199|1574364|R|occupied|1157
 1401291|type|multipolygon|1401291|3457445|R||0
 1757765|type|multipolygon|1757765|6534549|R|outer|0
 1758184|type|multipolygon|1758184|1757606|R|outer|7
@@ -3141,6 +3133,7 @@ Oblasts:
 6124588063|Стандартный||Стандартный
 
 admin_level:
+238797482|4|2
 470203825|4|3
 593378374|4|3
 111303158|6|4
