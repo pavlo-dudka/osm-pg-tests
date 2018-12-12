@@ -3,6 +3,7 @@
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
 {"type":"Feature","properties":{"josm":"r1182290,w37713191","relationtags":"name|Метробудівська вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[34.90912,48.48232]}},
+{"type":"Feature","properties":{"josm":"r1248913,w85353873","relationtags":"name|Модеста Мусоргського вулиця","membertags":"addr:street|Івана Миколайчука вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[25.94388,48.2663]}},
 {"type":"Feature","properties":{"josm":"r1260191,w80663987","relationtags":"name|Культури вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.48227,49.90321]}},
 {"type":"Feature","properties":{"josm":"r1260191,w80663990","relationtags":"name|Культури вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[36.48304,49.90311]}},
 {"type":"Feature","properties":{"josm":"r1263172,w84508466","relationtags":"name|Зубарєва вулиця","membertags":"addr:street|Сергія Грицевця вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[36.40205,49.91612]}},
@@ -896,6 +897,7 @@
 {"type":"Feature","properties":{"josm":"r415926,w104347531","relationtags":"name|Тбіліський провулок","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.46652,50.45354]}},
 {"type":"Feature","properties":{"josm":"r415964,w106308350","relationtags":"name|Багговутівська вулиця","membertags":"addr:street|Багговутiвська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.4663,50.47467]}},
 {"type":"Feature","properties":{"josm":"r415964,w106308351","relationtags":"name|Багговутівська вулиця","membertags":"addr:street|Багговутiвська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.46633,50.47458]}},
+{"type":"Feature","properties":{"josm":"r415967,w58879075","relationtags":"name|Платона Майбороди вулиця","membertags":"addr:street|Багговутівська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.47551,50.47059]}},
 {"type":"Feature","properties":{"josm":"r415971,w52463345","relationtags":"name|Отто Шмідта вулиця","membertags":"addr:street|Татарська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.48709,50.46882]}},
 {"type":"Feature","properties":{"josm":"r416572,w47070208","relationtags":"name|Генерала Тупикова вулиця","membertags":"addr:street|Слов’янська вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.43618,50.44095]}},
 {"type":"Feature","properties":{"josm":"r417099,w215320693","relationtags":"name|Енергетиків вулиця","membertags":"addr:street|Енергетиків провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.48985,50.4271]}},
