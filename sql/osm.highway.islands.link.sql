@@ -85,5 +85,5 @@ from tab
 order by arr[1];
 
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';
