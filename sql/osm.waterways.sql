@@ -15,5 +15,5 @@ where w.id not in (389441225,389381465,389381464)
   /*or wtl.k is null and wtt.k is not null*/ or wtl.k is null and wtb.k is not null)
 order by st_length(w.linestring::geography) desc;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

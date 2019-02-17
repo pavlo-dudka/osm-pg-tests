@@ -17,5 +17,5 @@ not exists(select 1 from node_tags where node_id=n.id and k='abandoned') and
 not exists(select 1 from node_tags where node_id=n.id and k='historic' and v='ruins')
 order by n.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

@@ -55,5 +55,5 @@ inner join relation_tags rtn on rtn.relation_id=t3.relation_id and rtn.k='name'
 group by t3.relation_id,t3.geom_node,rtn.v
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

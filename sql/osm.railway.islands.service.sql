@@ -20,5 +20,5 @@ select '{"type":"Feature","properties":{"josm":"'||objects||'","level":"'||railw
 from tab
 order by arr[1];
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

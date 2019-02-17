@@ -66,5 +66,5 @@ where rtt.k='type' and rtt.v in ('street','associatedStreet') and rtn.k is null
   and rtt.relation_id not in (3297198,2651278,2651279,2651280,4049546)
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

@@ -25,5 +25,5 @@ from buildings b
  inner join kyiv_building_levels kbl on b.street=kbl.street and (b.housenumber=kbl.housenumber or replace(b.housenumber, ' к', '-')=kbl.housenumber) and b.levels<>kbl.levels::text
 order by b.street, b.housenumber, b.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

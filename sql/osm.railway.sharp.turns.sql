@@ -30,5 +30,5 @@ from tab2
 where node_id not in (1231559718)
 order by angle desc;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

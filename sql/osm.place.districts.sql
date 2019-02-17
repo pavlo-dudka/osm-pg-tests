@@ -15,5 +15,5 @@ where ntp.k='place' and ntp.v in ('city','town','village','hamlet')
   and substr(ntk.v,1,5)<>substr(r.koatuu,1,5)
 order by ntk.v;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

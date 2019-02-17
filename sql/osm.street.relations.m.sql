@@ -26,5 +26,5 @@ group by rm.member_id,rm.member_type,nt.k,nt.v,wt.k,wt.v,rt.k,rt.v
 having count(*)>1 and not exists(select * from exc_street_relations_n where street_relation_id_1=min(rm.relation_id) and street_relation_id_2=max(rm.relation_id) and 'street'=min(rm.member_role))
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

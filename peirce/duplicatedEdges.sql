@@ -15,5 +15,5 @@ select '{"type":"Feature","properties":{"region":"'||region||'"},'||
 from duplicatedEdges
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';                                                             

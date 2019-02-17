@@ -27,5 +27,5 @@ order by (case when highway_level like 'motorway%' then 1
                when highway_level like 'secondary%' then 4
                when highway_level like 'tertiary%' then 5 end), arr[1];
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

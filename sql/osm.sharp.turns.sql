@@ -33,5 +33,5 @@ where tab.arr[n1.sequence_id+3] is not null
   and abs(ST_Azimuth(n1.geom,tab.arr[n1.sequence_id+2].geom)-ST_Azimuth(tab.arr[n1.sequence_id+2].geom,tab.arr[n1.sequence_id+3].geom))/pi() between 0.95 and 1.05
   and tab.arr[n1.sequence_id+3].sequence_id=n1.sequence_id+2;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

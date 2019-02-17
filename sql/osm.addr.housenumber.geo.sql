@@ -36,5 +36,5 @@ lower(wt.v)  similar to '[1-9][0-9\-]*[-/ ][а-яєі]' or                      
        wt.v  in ('-','*','?','0','00'))
 order by 1;
 
---select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

@@ -71,5 +71,5 @@ from tab
   left join regions r on _st_contains(linestring, intersection)
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

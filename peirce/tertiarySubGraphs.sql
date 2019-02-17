@@ -56,5 +56,5 @@ select '{"type":"Feature","properties":{"region":"'||region||'","level":"'||case
 from uniqueSubGraphs
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';                                                             

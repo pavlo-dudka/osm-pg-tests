@@ -21,5 +21,5 @@ from railway_end_nodes b
 where b.id not in (4013083113)
 order by b.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

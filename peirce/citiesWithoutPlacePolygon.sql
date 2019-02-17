@@ -15,5 +15,5 @@ select '{"type":"Feature","properties":{"region":"'||region||'","city":"'||city|
 from citiesWithoutPlacePolygon
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

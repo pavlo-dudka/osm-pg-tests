@@ -93,5 +93,5 @@ select '{"type":"Feature","properties":{"koatuu":"'||koatuu||'","city":"'||name|
 from tab
 order by koatuu,old_name,new_name;
 	
---select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';

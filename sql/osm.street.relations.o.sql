@@ -40,5 +40,5 @@ from t5
 where not exists(select * from exc_street_relations_o exc where exc.street_relation_id=t5.relation_id and exc.place_relation_id=t5.place_relation_id)
 order by 1;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';
