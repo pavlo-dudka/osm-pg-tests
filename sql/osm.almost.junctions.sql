@@ -26,5 +26,5 @@ where (_st_intersects(h.linestring,t.linestring)='f'
 group by b.id,b.geom
 order by b.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';
