@@ -22,5 +22,5 @@ where not exists(select *
                  where st_isclosed(p.linestring) and _st_contains(st_makepolygon(p.linestring), n.geom))
 order by length(ntl.v) desc,ntl.v desc,n.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';
