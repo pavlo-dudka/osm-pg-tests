@@ -18,5 +18,5 @@ from end_nodes b
 where b.id not in (4235387646)
 order by b.id;
 
-select '{"type":"Feature"}';
+-- select '{"type":"Feature"}';
 select ']}';
