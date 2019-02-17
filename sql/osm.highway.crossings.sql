@@ -19,5 +19,5 @@ from intsc
 where st_isempty(diff) = 'f'
 order by id1,id2;
 
-select '{"type":"Feature"}';
+--select '{"type":"Feature"}';
 select ']}';
