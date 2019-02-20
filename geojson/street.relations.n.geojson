@@ -946,7 +946,7 @@
 {"type":"Feature","properties":{"josm":"r2702214,w117859526","relationtags":"name|Панфілова проспект",},"geometry":{"type":"Point","coordinates":[37.78482,48.02057]}},
 {"type":"Feature","properties":{"josm":"r2703763,w132513282,w132790713,w142875733,w142875738,w142875741,w143366068,w215475899,w215475904,w215475952","relationtags":"name|Пролетарська вулиця",},"geometry":{"type":"Point","coordinates":[37.91115,47.97047]}},
 {"type":"Feature","properties":{"josm":"r2704121,w102198486,w102198492,w102198510,w109138347,w109138376,w109368950,w109368955,w109426744,w109978262,w109978265,w110412928,w110412944,w110420017,w110420024,w110420041,w110420046,w110667137,w122575626,w122575638,w182858960,w255862381,w255862382,w263803242,w343202690,w343202719,w343202727,w542406449,w542406452,w542406453,w542406456,w542406457,w542407703,w542407704","relationtags":"name|Павших Комунарів проспект",},"geometry":{"type":"Point","coordinates":[37.84195,47.99184]}},
-{"type":"Feature","properties":{"josm":"r2705264,w261701406,w383532634","relationtags":"name|Київська вулиця",},"geometry":{"type":"Point","coordinates":[30.3546,50.38844]}},
+{"type":"Feature","properties":{"josm":"r2705264,w261701406,w383532634,w671817085","relationtags":"name|Київська вулиця",},"geometry":{"type":"Point","coordinates":[30.3546,50.38844]}},
 {"type":"Feature","properties":{"josm":"r2705710,w201373100","relationtags":"name|Отамана Головатого вулиця",},"geometry":{"type":"Point","coordinates":[30.72125,46.51123]}},
 {"type":"Feature","properties":{"josm":"r2706593,w167377158,w227223754","relationtags":"name|Горностаївська вулиця",},"geometry":{"type":"Point","coordinates":[37.89479,48.00643]}},
 {"type":"Feature","properties":{"josm":"r2707615,w139039473,w139039478,w139039487,w179235642,w250285088,w316719909,w506653912","relationtags":"name|Центральний проспект",},"geometry":{"type":"Point","coordinates":[32.01104,46.96622]}},
@@ -1082,7 +1082,6 @@
 {"type":"Feature","properties":{"josm":"r2756566,w208149982,w269448923,w269448930","relationtags":"name|улица Степаняна",},"geometry":{"type":"Point","coordinates":[35.36432,45.05295]}},
 {"type":"Feature","properties":{"josm":"r275827,w34107176","relationtags":"name|Тростянецька вулиця",},"geometry":{"type":"Point","coordinates":[30.64935,50.41695]}},
 {"type":"Feature","properties":{"josm":"r2759258,w107583816,w601764512,w601764816","relationtags":"name|Криворіжсталі вулиця",},"geometry":{"type":"Point","coordinates":[33.36793,47.87843]}},
-{"type":"Feature","properties":{"josm":"r2759260,w107177961","relationtags":"name|Медична вулиця",},"geometry":{"type":"Point","coordinates":[33.38372,47.88587]}},
 {"type":"Feature","properties":{"josm":"r2759273,w550299805","relationtags":"name|Лінійна вулиця",},"geometry":{"type":"Point","coordinates":[30.50437,50.42762]}},
 {"type":"Feature","properties":{"josm":"r2763684,w151228665,w151228666,w151228700","relationtags":"name|Локомотивна вулиця",},"geometry":{"type":"Point","coordinates":[30.49286,50.43501]}},
 {"type":"Feature","properties":{"josm":"r2767698,w262649157,w300615582,w345611277,w514271502,w514271509,w514271511,w537210771","relationtags":"name|Вовчинецька вулиця",},"geometry":{"type":"Point","coordinates":[24.73014,48.93427]}},
@@ -1549,6 +1548,7 @@
 {"type":"Feature","properties":{"josm":"r356499,w502413756","relationtags":"name|Петра Сагайдачного вулиця",},"geometry":{"type":"Point","coordinates":[30.52096,50.46198]}},
 {"type":"Feature","properties":{"josm":"r356737,w182761124,w37089783,w37089784,w555982662,w88271578","relationtags":"name|Оноре де Бальзака вулиця",},"geometry":{"type":"Point","coordinates":[30.59804,50.51387]}},
 {"type":"Feature","properties":{"josm":"r3570204,w265633372,w272379455,w272770621,w272972133,w272972141,w272972142,w272972143,w272972153,w360989136,w360989888,w361021426,w361467907,w361468439,w435683823,w600430249","relationtags":"name|Семашка вулиця",},"geometry":{"type":"Point","coordinates":[29.90039,50.65477]}},
+{"type":"Feature","properties":{"josm":"r3572140,w671817085","relationtags":"name|Київська вулиця",},"geometry":{"type":"Point","coordinates":[30.37974,50.40997]}},
 {"type":"Feature","properties":{"josm":"r3575803,w670675511","relationtags":"name|Аносова вулиця",},"geometry":{"type":"Point","coordinates":[33.41427,47.89436]}},
 {"type":"Feature","properties":{"josm":"r3575805,w140105791","relationtags":"name|Артилеристів вулиця",},"geometry":{"type":"Point","coordinates":[33.2978,47.90398]}},
 {"type":"Feature","properties":{"josm":"r3575818,w670665126,w670665214","relationtags":"name|Чаадаєва вулиця",},"geometry":{"type":"Point","coordinates":[33.37599,47.89479]}},
@@ -3691,6 +3691,8 @@
 {"type":"Feature","properties":{"josm":"r9336011,w126631673,w126631674,w486612203","relationtags":"name|Ціолковського вулиця",},"geometry":{"type":"Point","coordinates":[30.52462,50.39969]}},
 {"type":"Feature","properties":{"josm":"r9336495,w152609707,w671276335","relationtags":"name|Листопадна вулиця",},"geometry":{"type":"Point","coordinates":[30.52291,50.39638]}},
 {"type":"Feature","properties":{"josm":"r9341108,w152609700,w152609709,w152610544,w152623398,w152623414,w671295796,w671295797,w671621484","relationtags":"name|Цимбалів Яр вулиця",},"geometry":{"type":"Point","coordinates":[30.52879,50.39302]}},
+{"type":"Feature","properties":{"josm":"r9343226,w347271519","relationtags":"name|Уральський провулок",},"geometry":{"type":"Point","coordinates":[30.52164,50.39613]}},
+{"type":"Feature","properties":{"josm":"r9343230,w148054677,w152613988,w671591809","relationtags":"name|Уральський провулок",},"geometry":{"type":"Point","coordinates":[30.52248,50.39586]}},
 {"type":"Feature","properties":{"josm":"r955082,w323939822,w334571480,w336972165,w336972166,w61323552,w613537172","relationtags":"name|Гагаріна вулиця",},"geometry":{"type":"Point","coordinates":[38.51672,48.94682]}},
 {"type":"Feature"}
 ]}
