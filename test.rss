@@ -13,7 +13,7 @@
 <description><![CDATA[17 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Fri, 01 Mar 2019 15:30:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 28 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 27 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">citieswithoutplacepolygon201902261338</guid>
@@ -43,7 +43,7 @@
 <description><![CDATA[6595 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?decommunization.streets>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?decommunization.streets>table</a>]]></description>
 <pubDate>Sat, 02 Mar 2019 06:42:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 23 insertions(+), 11 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 62 insertions(+), 37 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 62 insertions(+), 36 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwaycrossings201903020115</guid>
@@ -52,7 +52,7 @@
 <title>highway.crossings - 49 error(s) found at 02 Mar 2019 01:15</title>
 <description><![CDATA[49 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Sat, 02 Mar 2019 01:15:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 5 insertions(+), 8 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 5 insertions(+), 5 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 5 insertions(+), 56 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -73,7 +73,7 @@
 <description><![CDATA[474 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
 <pubDate>Sat, 02 Mar 2019 00:11:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 6 insertions(+), 16 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 14 insertions(+), 31 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 14 insertions(+), 30 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary201902242211</guid>
@@ -182,8 +182,8 @@
 <title>street.relations - 1485 error(s) found at 02 Mar 2019 01:15</title>
 <description><![CDATA[1485 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Sat, 02 Mar 2019 01:15:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 37 insertions(+), 3 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 66 insertions(+), 129 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 35 insertions(+), 3 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 66 insertions(+), 125 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201902250012</guid>
@@ -193,7 +193,7 @@
 <description><![CDATA[142 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Mon, 25 Feb 2019 00:12:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+), 56 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 43 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn201903012305</guid>
@@ -203,7 +203,7 @@
 <description><![CDATA[3725 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
 <pubDate>Fri, 01 Mar 2019 23:05:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 32 insertions(+), 19 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 111 insertions(+), 78 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 110 insertions(+), 75 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsob201903012055</guid>
