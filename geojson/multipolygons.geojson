@@ -2,10 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r1583738,n1282829535","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.50558,50.42569]}},
+{"type":"Feature","properties":{"josm":"r1583738,n4847756562","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.50584,50.42579]}},
 {"type":"Feature","properties":{"josm":"r2180079,n1749582078","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.36775,50.48375]}},
 {"type":"Feature","properties":{"josm":"r2180079,n760335855","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.36647,50.4878]}},
-{"type":"Feature","properties":{"josm":"r2435443,n340888835","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.4914,50.42613]}},
-{"type":"Feature","properties":{"josm":"r2435443,n5309045313","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.49261,50.42719]}},
 {"type":"Feature","properties":{"josm":"r3348774,n2555185405","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.41052,50.75918]}},
 {"type":"Feature","properties":{"josm":"r3348774,n2555190542","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.41024,50.75959]}},
 {"type":"Feature","properties":{"josm":"r3966631,n3022082311","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.46045,50.48366]}},
@@ -135,7 +135,7 @@
 {"type":"Feature","properties":{"josm":"r9413212,w211597933,w677963528","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[34.23542,45.03501]}},
 {"type":"Feature","properties":{"josm":"r9431275,w223039228,w679196054","error":"multipolygon members intersect each other","region":"Сумська область"},"geometry":{"type":"Point","coordinates":[34.76468,50.56378]}},
 {"type":"Feature","properties":{"josm":"r9436834,w431058038,w679691997","error":"multipolygon members intersect each other","region":"Донецька область"},"geometry":{"type":"Point","coordinates":[38.48512,48.04399]}},
-{"type":"Feature","properties":{"josm":"r9448985,w674270469,w680851990","error":"multipolygon members intersect each other","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.48031,50.44821]}},
+{"type":"Feature","properties":{"josm":"r9448985,w590429688,w680851990","error":"multipolygon members intersect each other","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.47973,50.44792]}},
 {"type":"Feature","properties":{"josm":"r9458552,w681391689,w681601771","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.5003,48.12972]}},
 {"type":"Feature","properties":{"josm":"r9458552,w681391689,w681601774","error":"multipolygon members intersect each other","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[29.49837,48.12985]}},
 {"type":"Feature"}
