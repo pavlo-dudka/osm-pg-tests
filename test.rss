@@ -23,7 +23,7 @@
 <description><![CDATA[21 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?cities.without.place.polygon>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?cities.without.place.polygon>table</a>]]></description>
 <pubDate>Wed, 24 Apr 2019 04:30:00 +0300</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
+<gitDiff10d></gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">deadnodes201904261509</guid>
@@ -42,7 +42,7 @@
 <title>decommunization.streets - 6466 error(s) found at 27 Apr 2019 19:18</title>
 <description><![CDATA[6466 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?decommunization.streets>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?decommunization.streets>table</a>]]></description>
 <pubDate>Sat, 27 Apr 2019 19:18:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 59 insertions(+), 128 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 58 insertions(+), 127 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 100 insertions(+), 169 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -96,14 +96,14 @@
 <gitDiff10d> 1 file changed, 23 insertions(+), 59 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons201904280953</guid>
+<guid isPermaLink="false">multipolygons201904281208</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 77 error(s) found at 28 Apr 2019 09:53</title>
-<description><![CDATA[77 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Sun, 28 Apr 2019 09:53:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 2 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 27 insertions(+), 11 deletions(-)</gitDiff10d>
+<title>multipolygons - 79 error(s) found at 28 Apr 2019 12:08</title>
+<description><![CDATA[79 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Sun, 28 Apr 2019 12:08:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 4 insertions(+), 2 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 29 insertions(+), 11 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201904240215</guid>
@@ -183,7 +183,7 @@
 <description><![CDATA[1572 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Sun, 28 Apr 2019 07:39:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 20 insertions(+), 5 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 56 insertions(+), 30 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 56 insertions(+), 29 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201904261509</guid>
@@ -193,17 +193,17 @@
 <description><![CDATA[200 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Fri, 26 Apr 2019 15:09:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 3 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 14 insertions(+), 6 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 13 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201904280953</guid>
+<guid isPermaLink="false">streetrelationsn201904281208</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 3967 error(s) found at 28 Apr 2019 09:53</title>
+<title>street.relations.n - 3967 error(s) found at 28 Apr 2019 12:08</title>
 <description><![CDATA[3967 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Sun, 28 Apr 2019 09:53:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 50 insertions(+), 27 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 123 insertions(+), 75 deletions(-)</gitDiff10d>
+<pubDate>Sun, 28 Apr 2019 12:08:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 49 insertions(+), 26 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 121 insertions(+), 71 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsob201904242115</guid>
