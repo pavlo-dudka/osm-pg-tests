@@ -6,14 +6,14 @@
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html</link>
 <atom:link href="http://pavlo-dudka.github.io/osm-pg-tests/test.rss" rel="self" type="application/rss+xml"/>
 <item>
-<guid isPermaLink="false">almostjunctions201907161453</guid>
+<guid isPermaLink="false">almostjunctions201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?almost.junctions</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>almost.junctions - 107 error(s) found at 16 Jul 2019 14:53</title>
+<title>almost.junctions - 107 error(s) found at 17 Jul 2019 00:21</title>
 <description><![CDATA[107 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 14:53:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 11 insertions(+), 6 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 21 insertions(+), 9 deletions(-)</gitDiff10d>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 11 insertions(+), 7 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 22 insertions(+), 10 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">citieswithoutplacepolygon201907142129</guid>
@@ -46,14 +46,14 @@
 <gitDiff10d> 1 file changed, 33 insertions(+), 40 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwaycrossings201907162047</guid>
+<guid isPermaLink="false">highwaycrossings201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.crossings</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.crossings - 305 error(s) found at 16 Jul 2019 20:47</title>
-<description><![CDATA[305 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 20:47:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 142 insertions(+), 13 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 240 insertions(+), 21 deletions(-)</gitDiff10d>
+<title>highway.crossings - 307 error(s) found at 17 Jul 2019 00:21</title>
+<description><![CDATA[307 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 144 insertions(+), 13 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 242 insertions(+), 21 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink201907131716</guid>
@@ -96,14 +96,14 @@
 <gitDiff10d> 1 file changed, 58 insertions(+), 7 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons201907161937</guid>
+<guid isPermaLink="false">multipolygons201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 85 error(s) found at 16 Jul 2019 19:37</title>
-<description><![CDATA[85 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 19:37:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 4 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 31 insertions(+), 15 deletions(-)</gitDiff10d>
+<title>multipolygons - 86 error(s) found at 17 Jul 2019 00:21</title>
+<description><![CDATA[86 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 5 insertions(+), 2 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 32 insertions(+), 15 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways201907152003</guid>
@@ -166,24 +166,24 @@
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">sharpturns201907162047</guid>
+<guid isPermaLink="false">sharpturns201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?sharp.turns</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>sharp.turns - 4 error(s) found at 16 Jul 2019 20:47</title>
-<description><![CDATA[4 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 20:47:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 2 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 4 insertions(+), 3 deletions(-)</gitDiff10d>
+<title>sharp.turns - 5 error(s) found at 17 Jul 2019 00:21</title>
+<description><![CDATA[5 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 3 insertions(+)</gitDiff3d>
+<gitDiff10d> 1 file changed, 5 insertions(+), 3 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations201907162047</guid>
+<guid isPermaLink="false">streetrelations201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 1869 error(s) found at 16 Jul 2019 20:47</title>
-<description><![CDATA[1869 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 20:47:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 15 insertions(+), 5 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 59 insertions(+), 20 deletions(-)</gitDiff10d>
+<title>street.relations - 1870 error(s) found at 17 Jul 2019 00:21</title>
+<description><![CDATA[1870 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 16 insertions(+), 5 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 60 insertions(+), 20 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201907121601</guid>
@@ -196,14 +196,14 @@
 <gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201907162047</guid>
+<guid isPermaLink="false">streetrelationsn201907170021</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 4310 error(s) found at 16 Jul 2019 20:47</title>
-<description><![CDATA[4310 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Tue, 16 Jul 2019 20:47:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 46 insertions(+), 29 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 124 insertions(+), 73 deletions(-)</gitDiff10d>
+<title>street.relations.n - 4312 error(s) found at 17 Jul 2019 00:21</title>
+<description><![CDATA[4312 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
+<pubDate>Wed, 17 Jul 2019 00:21:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 48 insertions(+), 29 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 125 insertions(+), 72 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsob201907151033</guid>
