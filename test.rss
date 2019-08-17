@@ -93,7 +93,7 @@
 <description><![CDATA[310 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
 <pubDate>Sat, 17 Aug 2019 01:50:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 5 insertions(+), 124 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 18 insertions(+), 223 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 17 insertions(+), 223 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">multipolygons201908170150</guid>
@@ -183,7 +183,7 @@
 <description><![CDATA[1903 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Fri, 16 Aug 2019 21:20:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 18 insertions(+), 16 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 32 insertions(+), 92 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1898 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm201908152128</guid>
@@ -196,14 +196,14 @@
 <gitDiff10d> 1 file changed, 2 insertions(+), 3 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn201908170150</guid>
+<guid isPermaLink="false">streetrelationsn201908171054</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 4407 error(s) found at 17 Aug 2019 01:50</title>
+<title>street.relations.n - 4407 error(s) found at 17 Aug 2019 10:54</title>
 <description><![CDATA[4407 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Sat, 17 Aug 2019 01:50:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 19 insertions(+), 15 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 106 insertions(+), 69 deletions(-)</gitDiff10d>
+<pubDate>Sat, 17 Aug 2019 10:54:00 +0300</pubDate>
+<gitDiff3d> 1 file changed, 20 insertions(+), 16 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 103 insertions(+), 69 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsob201908161759</guid>
