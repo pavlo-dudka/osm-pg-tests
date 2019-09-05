@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Objects not in relation",
 "features": [
+{"type":"Feature","properties":{"josm":"r10003018,w386124792","relationtags":"name|Транспортний провулок",},"geometry":{"type":"Point","coordinates":[31.96375,46.96404]}},
 {"type":"Feature","properties":{"josm":"r1075167,w343842563","relationtags":"name|Академіка Єфремова вулиця",},"geometry":{"type":"Point","coordinates":[30.34373,50.46361]}},
 {"type":"Feature","properties":{"josm":"r1075692,w319681389","relationtags":"name|Академіка Булаховського вулиця",},"geometry":{"type":"Point","coordinates":[30.3354,50.47142]}},
 {"type":"Feature","properties":{"josm":"r1169811,w37507982,w37507985,w57009815,w57009816,w75802478","relationtags":"name|Південно-Кільцева вулиця",},"geometry":{"type":"Point","coordinates":[25.93698,48.25527]}},
@@ -1284,7 +1285,7 @@
 {"type":"Feature","properties":{"josm":"r2799045,w344125445,w344125455,w344125456,w527320824","relationtags":"name|Набережне шосе",},"geometry":{"type":"Point","coordinates":[30.53513,50.45434]}},
 {"type":"Feature","properties":{"josm":"r2799046,w217334425,w42284026,w46898595","relationtags":"name|Наддніпрянське шосе",},"geometry":{"type":"Point","coordinates":[30.56622,50.40601]}},
 {"type":"Feature","properties":{"josm":"r2799539,w108421094","relationtags":"name|Черноморская набережная",},"geometry":{"type":"Point","coordinates":[35.39663,45.06301]}},
-{"type":"Feature","properties":{"josm":"r2799916,w201294213,w208188283","relationtags":"name|Морехідна вулиця",},"geometry":{"type":"Point","coordinates":[31.96445,46.96525]}},
+{"type":"Feature","properties":{"josm":"r2799916,w201294213,w208188283","relationtags":"name|Морехідна вулиця",},"geometry":{"type":"Point","coordinates":[31.96445,46.96527]}},
 {"type":"Feature","properties":{"josm":"r2807902,w169383318,w169383335,w690918627","relationtags":"name|22-го Січня вулиця",},"geometry":{"type":"Point","coordinates":[25.91285,49.10211]}},
 {"type":"Feature","properties":{"josm":"r2807903,w170197292,w170197293,w170197303,w170197333,w170197354","relationtags":"name|Залізнична вулиця",},"geometry":{"type":"Point","coordinates":[25.91995,49.09892]}},
 {"type":"Feature","properties":{"josm":"r2809661,w523733750,w570210373,w571344174,w571467742","relationtags":"name|Резервна вулиця",},"geometry":{"type":"Point","coordinates":[30.48207,50.50051]}},
