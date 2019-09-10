@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r10023269,w480520912","relationtags":"name|Георгія Косміаді вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.20632,50.62639]}},
 {"type":"Feature","properties":{"josm":"r1225478,w114791018","relationtags":"name|Тимірязєвська вулиця","membertags":"addr:street|Тимірязєвський провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.55299,50.4145]}},
 {"type":"Feature","properties":{"josm":"r1225478,w114791020","relationtags":"name|Тимірязєвська вулиця","membertags":"addr:street|Тимірязєвський провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.55386,50.4136]}},
 {"type":"Feature","properties":{"josm":"r1225478,w114791023","relationtags":"name|Тимірязєвська вулиця","membertags":"addr:street|Тимірязєвський провулок","memberrole":"house"},"geometry":{"type":"Point","coordinates":[30.55293,50.41413]}},
@@ -1947,7 +1948,6 @@
 {"type":"Feature","properties":{"josm":"r9880461,w710486594","relationtags":"name|Михайла Токаря вулиця","membertags":"name|(null)","memberrole":"house"},"geometry":{"type":"Point","coordinates":[22.73941,48.4377]}},
 {"type":"Feature","properties":{"josm":"r9882187,w291968986","relationtags":"name|Ізяславська вулиця","membertags":"name|(null)","memberrole":"street"},"geometry":{"type":"Point","coordinates":[26.87673,50.28509]}},
 {"type":"Feature","properties":{"josm":"r9898292,w711696125","relationtags":"name|Сергія Єфремова вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.20711,50.62535]}},
-{"type":"Feature","properties":{"josm":"r9898295,w707321807","relationtags":"name|Родини Кульчинських вулиця","membertags":"name|(null)","memberrole":"(null)"},"geometry":{"type":"Point","coordinates":[26.2049,50.62506]}},
 {"type":"Feature","properties":{"josm":"r9955347,n5225623621","relationtags":"name|Крюкова вулиця","membertags":"addr:street|Крюкова улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.60637,47.97013]}},
 {"type":"Feature","properties":{"josm":"r9955347,n5225655521","relationtags":"name|Крюкова вулиця","membertags":"addr:street|Крюкова улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.60522,47.97027]}},
 {"type":"Feature","properties":{"josm":"r9955347,n5225655522","relationtags":"name|Крюкова вулиця","membertags":"addr:street|Крюкова улица","memberrole":"house"},"geometry":{"type":"Point","coordinates":[37.60592,47.97016]}},
