@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Relation objects outside the city",
 "features": [
+{"type":"Feature","properties":{"josm":"r10052236,r2692232","relationtags":"name|Сонячна вулиця","city":"Ужгород",},"geometry":{"type":"Point","coordinates":[22.25607,48.60221]}},
 {"type":"Feature","properties":{"josm":"r1226059,r3559999","relationtags":"name|Квіткова вулиця","city":"Рогань",},"geometry":{"type":"Point","coordinates":[36.46183,49.90227]}},
 {"type":"Feature","properties":{"josm":"r1226488,r3541001","relationtags":"name|Харківська вулиця","city":"Кам’яна Яруга",},"geometry":{"type":"Point","coordinates":[36.60242,49.87969]}},
 {"type":"Feature","properties":{"josm":"r1325375,r3154746","relationtags":"name|Кільцевий проїзд","city":"Харків",},"geometry":{"type":"Point","coordinates":[36.43366,49.90441]}},

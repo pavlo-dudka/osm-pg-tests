@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Relation buildings outside the city",
 "features": [
+{"type":"Feature","properties":{"josm":"r10052236,r2692232","relationtags":"name|Сонячна вулиця","city":"Ужгород",},"geometry":{"type":"Point","coordinates":[22.26064,48.60573]}},
 {"type":"Feature","properties":{"josm":"r1325375,r3154746","relationtags":"name|Кільцевий проїзд","city":"Харків",},"geometry":{"type":"Point","coordinates":[36.43694,49.90463]}},
 {"type":"Feature","properties":{"josm":"r1325375,r8864078","relationtags":"name|Кільцевий проїзд","city":"Докучаєвське",},"geometry":{"type":"Point","coordinates":[36.43266,49.90506]}},
 {"type":"Feature","properties":{"josm":"r1649094,r1742393","relationtags":"name|1-а Приміська вулиця","city":"Чернівці",},"geometry":{"type":"Point","coordinates":[25.96061,48.25249]}},
