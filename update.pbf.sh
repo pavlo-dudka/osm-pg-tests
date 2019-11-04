@@ -8,7 +8,7 @@ fi
 
 if [ ! -e temp/ua.o5m ]
   then
-    wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/ua.osm.pbf
+    wget https://download.geofabrik.de/europe/ukraine-latest.osm.pbf -O temp/ua.osm.pbf
     ./bin/osmconvert temp/ua.osm.pbf -o=temp/ua.o5m
     rm temp/ua.osm.pbf
 elif [ -e temp/ua.filtered.o5m ]
