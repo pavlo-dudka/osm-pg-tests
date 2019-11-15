@@ -8,7 +8,7 @@ fi
 
 if [ ! -e temp/UA.osm.pbf ]
   then
-    wget http://data.gis-lab.info/osm_dump/dump/latest/UA.osm.pbf -O temp/UA.osm.pbf
+    wget https://download.geofabrik.de/europe/ukraine-latest.osm.pbf -O temp/UA.osm.pbf
 fi
 
 mv temp/UA.osm.pbf temp/UA.0.pbf

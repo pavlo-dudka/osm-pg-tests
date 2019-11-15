@@ -10,7 +10,7 @@ from node_tags nt
   inner join regions r on st_contains(r.linestring, n.geom)
   left join node_tags ntn on ntn.node_id=n.id and ntn.k=(case when r.relation_id in (72639,1574364) then 'name:uk' else 'name' end)
 where nt.k='place' and nt.v in ('city','town','village','hamlet') and
-n.id not in (337696888,337689331,1224164975,371949683,2778969193,1464223496,2914536980) and
+n.id not in (337696888,337689331,1224164975,371949683,2778969193,1464223496,2914536980,5272305461) and
 coalesce(ntl.v::int, 999)>20 and
 not exists(select 1 from highways w where st_dwithin(n.geom,w.linestring,0.1) and st_distance_sphere(n.geom,w.linestring) < 500 and highway_level not in ('service','track')) and
 not exists(select 1 from node_tags where node_id=n.id and k='abandoned') and

@@ -1,25 +1,16 @@
 select '{';
 select '"type": "FeatureCollection",';
-select '"errorDescr": "Relation objects outside the city",';
+select '"errorDescr": "Relation streets outside the city",';
 select '"features": [';
 
-with /*t as (
-  select rt.relation_id,(st_dumppoints(w.linestring)).geom geom
-  from relation_tags rt
-    inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W' --and rm.member_role='street'
-    inner join ways w on w.id=rm.member_id
-  where rt.k='type' and rt.v='associatedStreet'),
-t2 as (
-  select relation_id,st_collect(geom) geom
-  from t
-  group by relation_id),*/
+with 
 t3 as (
   select t2.*,r.id as place_relation_id
   from street_relations t2,
     relations r inner join relation_tags rt on rt.relation_id=r.id and rt.k='place' and rt.v in ('city','town','village') and r.linestring is not null
-  where _st_crosses(r.linestring, t2.geom) and st_intersects(r.linestring, t2.geom_streets)),
+  where st_crosses(r.linestring, t2.geom_streets)),
 t4 as (
-  select t3.relation_id,t3.place_relation_id,st_difference(t3.geom,r.linestring) diff,st_intersection(t3.geom_streets,r.linestring) intersection,coalesce(rt.v,'') as name,coalesce(rp.v,'') as city
+  select t3.relation_id,t3.place_relation_id,st_difference(t3.geom_streets,r.linestring) diff,st_intersection(t3.geom_streets,r.linestring) intersection,coalesce(rt.v,'') as name,coalesce(rp.v,'') as city
   from t3
     inner join relations r on r.id=place_relation_id
     left join relation_tags rt on rt.relation_id=t3.relation_id and rt.k='name'
@@ -27,7 +18,8 @@ t4 as (
 t5 as (
   select *,(select (st_dumppoints(diff)).geom limit 1) geom
   from t4
-  where st_geometrytype(diff)<>'ST_Point' and st_geometrytype(intersection)<>'ST_Point')
+  where st_geometrytype(diff)<>'ST_Point' 
+    and st_geometrytype(intersection)<>'ST_Point')
 select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||t5.relation_id||',r'||t5.place_relation_id||'",'||

@@ -35,8 +35,8 @@ inner join streets_renaming sr on sr.koatuu=cdc.koatuu
 inner join ways w on st_contains(cdc.linestring, w.linestring)
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='name' and wtn.v=sr.old_name
 where exists(select * from way_tags where way_id=id and k='highway')
-  and not exists(select * from relation_members where relation_id in (1603291,5862816,2177689,1825288,422362) and member_type='W' and member_id=w.id)
-  and w.id not in (59485145,98283678,59484994,98000406,97869484,97869486,117403213,8389174,8389181,150259807,232268521,54437900)
+  and not exists(select * from relation_members where relation_id in (1603291,5862816,2177689,1825288,422362,5694366) and member_type='W' and member_id=w.id)
+  and w.id not in (59485145,98283678,59484994,98000406,97869484,97869486,117403213,232268521,54437900)
 group by cdc.koatuu,cdc.name,old_name,new_name
 )
 select '{"type":"Feature","properties":{"koatuu":"'||koatuu||'","city":"'||name||'","josm":"'||objects||'","old_name":"'||old_name||'","new_name":"'||new_name||'","error":"not renamed yet"},'||
@@ -50,7 +50,7 @@ from cityDC cdc
 inner join streets_renaming sr on sr.koatuu=cdc.koatuu
 inner join ways w on st_contains(cdc.linestring, w.linestring)
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='addr:street' and wtn.v=sr.old_name
-where not exists(select * from relation_members where relation_id in (1603291,5862816,2177689,1825288,422362) and member_type='W' and member_id=w.id)
+where not exists(select * from relation_members where relation_id in (1603291,5862816,2177689,1825288,422362,5694366) and member_type='W' and member_id=w.id)
 group by cdc.koatuu,cdc.name,old_name,new_name
 )
 select '{"type":"Feature","properties":{"koatuu":"'||koatuu||'","city":"'||name||'","josm":"'||objects||'","old_name":"'||old_name||'","new_name":"'||new_name||'","error":"not renamed yet"},'||
@@ -66,8 +66,7 @@ inner join ways w on st_contains(cdc.linestring, w.linestring)
 inner join way_tags wto on wto.way_id=w.id and wto.k='old_name' and wto.v=sr.old_name
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='name'
 where exists(select * from way_tags where way_id=id and k='highway')
-  and not exists(select * from relation_members where relation_id in (1603291,5862816,2177689,1825288,422362) and member_type='W' and member_id=w.id)
-  and w.id not in (59485145,98283678,59484994,98000406,97869484,97869486,117403213,8389174,8389181,150259807,232268521,54437900,148362601)
+  and not exists(select * from relation_members where relation_id in (1603291,5862816,1825288,422362,6463619) and member_type='W' and member_id=w.id)
 group by cdc.koatuu,cdc.name,old_name,wtn.v
 having not wtn.v=any(array_agg(new_name))
 )
@@ -82,10 +81,10 @@ from cityDC cdc
 inner join streets_renaming sr on sr.koatuu=cdc.koatuu
 inner join ways w on st_contains(cdc.linestring, w.linestring)
 inner join way_tags wtn on wtn.way_id=w.id and wtn.k='name' and wtn.v=sr.new_name
-left  join way_tags wto on wto.way_id=w.id and wto.k='old_name'
+inner join way_tags wto on wto.way_id=w.id and wto.k='old_name'
 where exists(select * from way_tags where way_id=id and k='highway')
   and coalesce(wto.v,'-')<>sr.old_name
-  and w.id not in (295127201,351926330,82489702,267064327,29908029)
+  and w.id not in (295127201,351926330,82489702,267064327,29908029,77522483)
 group by cdc.koatuu,cdc.name,old_name,new_name
 )
 select '{"type":"Feature","properties":{"koatuu":"'||koatuu||'","city":"'||name||'","josm":"'||objects||'","old_name":"'||old_name||'","new_name":"'||new_name||'","error":"wrong or missing old_name"},'||

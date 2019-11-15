@@ -19,4 +19,7 @@ if [ -e git-push.sh ]; then
   source ./git-push.sh
 fi
 
+sleep 120s
+source ./publish.mapRoulette.sh
+
 exit 0

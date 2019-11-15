@@ -9,16 +9,13 @@ if [ ! -e results ]
     mkdir results
 fi
 
-$psql_exe -f sql/osm.street.relations.n.sql -o results/street.relations.n.geojson #"street.relations.n"
-$psql_exe -f sql/osm.street.relations.o.sql -o results/street.relations.o.geojson #"street.relations.o"
 $psql_exe -f sql/osm.multipolygons.sql -o results/multipolygons.geojson 2>&1 & #"multipolygons"
-$psql_exe -f sql/osm.street.relations.sql -o results/street.relations.geojson 2>&1 & #"street.relations"
-$psql_exe -f sql/osm.street.relations.m.sql -o results/street.relations.m.geojson 2>&1 & #"street.relations.m"
 $psql_exe -f sql/osm.addr.housenumber.geo.sql -o results/house.numbers.geojson 2>&1 & #"addr.housenumber"
 $psql_exe -f sql/osm.cities.without.place.polygon.sql -o results/cities.without.place.polygon.geojson 2>&1 & #"cities.without.place.polygon"
 $psql_exe -f sql/osm.waterways.sql -o results/waterways.layer.geojson 2>&1 & #"waterways.layer"
 $psql_exe -f sql/osm.place.districts.sql -o results/place.districts.geojson 2>&1 & #"place.districts"
 $psql_exe -f sql/osm.decommunization.sql -o results/decommunization.geojson 2>&1 & #"osm.decommunization"
+$psql_exe -f sql/osm.decommunization.streets.sql -o results/decommunization.streets.geojson 2>&1 & #"osm.decommunization.streets"
 
 echo "start test.non-uk.sh"
 #"non-uk"
@@ -29,6 +26,8 @@ echo "start test.highways.sh"
 ./test.highways.sh 2>&1 &
 
 ./test.railways.sh 2>&1 &
+
+./test.street.relations.sh 2>&1 &
 
 #start "test"
 $psql_exe -f sql/osm.test.sql -o results/osm.test.txt 2>&1 &
@@ -87,6 +86,8 @@ $psql_exe -f sql/osm.sloviansk.sql -o results/osm.Sloviansk.txt 2>&1 &
 $psql_exe -f sql/osm.sumy.sql -o results/osm.Sumy.txt 2>&1 &
 #start "zhytomyr"
 $psql_exe -f sql/osm.zhytomyr.sql -o results/osm.Zhytomyr.txt 2>&1 &
+#start "myrhorod"
+$psql_exe -f sql/osm.myrhorod.sql -o results/osm.Myrhorod.txt 2>&1 &
 
 for job in `jobs -p`
 do

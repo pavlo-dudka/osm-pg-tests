@@ -1,6 +1,6 @@
 drop table if exists streets;
 
-create table streets as
+create unlogged table streets tablespace osmspace as
 select trim(replace(name_uk,wtuk.type_f,'')) as uk,
        trim(replace(name_ru,wtru.type_f,'')) as ru,
        sum(cnt) as cnt,
@@ -32,8 +32,8 @@ inner join way_type wtru on name_ru similar to ('% '||wtru.type_f||'|'||wtru.typ
 where name_uk<>'-' and name_ru<>'-' and not(name_uk like '%ий майдан' and name_ru like '%ая площадь')
 group by uk,ru
 order by 1,2;
-create index idx_streets_uk on streets(uk);
-create index idx_streets_ru on streets(ru);
+create index idx_streets_uk on streets(uk) tablespace osmspace;
+create index idx_streets_ru on streets(ru) tablespace osmspace;
 
 select 'uk:';
 select * from streets 

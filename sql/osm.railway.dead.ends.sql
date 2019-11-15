@@ -1,6 +1,6 @@
 set client_min_messages to warning;
 drop table if exists railway_end_nodes;
-create table railway_end_nodes as
+create unlogged table railway_end_nodes tablespace osmspace as
 select h.layer,h.id as way_id,n.geom,n.id
 from railways h
 inner join nodes n on n.id in (h.node0, h.node1)

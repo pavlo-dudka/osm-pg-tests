@@ -7,8 +7,8 @@ where not exists(select * from cross_way_nodes_rail where way_id_1>way_id_2);
 
 
 drop table if exists mainIslandRail;
-create table mainIslandRail(railway_level text, ind int, id bigint);
-create index idx_mainIslandRail on mainIslandRail(id);
+create unlogged table mainIslandRail(railway_level text, ind int, id bigint) tablespace osmspace;
+create index idx_mainIslandRail on mainIslandRail(id) tablespace osmspace;
 
 
 CREATE OR REPLACE FUNCTION CreateIslandsRail(VARIADIC levels text[]) 

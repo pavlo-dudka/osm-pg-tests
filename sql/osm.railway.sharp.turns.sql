@@ -11,7 +11,7 @@ with tab as (
   from way_tags h
     inner join way_nodes wn on wn.way_id=h.way_id
     inner join nodes n on n.id=wn.node_id
-  where k='railway' and v not in ('station','halt','platform','tram_stop','subway_entrance','engine_shed','depot','yard','roundhouse','crossing_box','buffer_stop','yes')
+  where k='railway' and v not in ('station','halt','platform','tram_stop','subway_entrance','engine_shed','depot','yard','roundhouse','crossing_box','buffer_stop','yes','ventilation_shaft','signal_box')
     and not exists(select * from way_tags wta where wta.way_id=h.way_id and wta.k='area' and wta.v='yes')
   group by h.way_id
 ),

@@ -7,8 +7,8 @@ where not exists(select * from cross_way_nodes where way_id_1>way_id_2);
 
 
 drop table if exists mainIsland;
-create table mainIsland(highway_level text, ind int, id bigint);
-create index idx_mainIsland on mainIsland(id);
+create unlogged table mainIsland(highway_level text, ind int, id bigint) tablespace osmspace;
+create index idx_mainIsland on mainIsland(id) tablespace osmspace;
 
 
 CREATE OR REPLACE FUNCTION CreateIslands(VARIADIC levels text[]) 

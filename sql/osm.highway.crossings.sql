@@ -1,5 +1,5 @@
 drop table if exists intsc;
-create table intsc as
+create unlogged table intsc tablespace osmspace as
 select t1.id as id1,t2.id as id2,
        case when nodes_geom is null then ST_Intersection(t1.linestring,t2.linestring)
        else                st_difference(ST_Intersection(t1.linestring,t2.linestring), nodes_geom)

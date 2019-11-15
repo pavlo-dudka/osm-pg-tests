@@ -63,7 +63,7 @@ select 'Koatuu - missing place:';
 select * 
 from koatuu
 where place<>'Р' 
-  and code not in (select v from node_tags where k='koatuu' and node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet')))
+  and code not in (select v from node_tags where k='koatuu' and node_id in (select node_id from node_tags where k='place' and v in ('city','town','village','hamlet','locality')))
 order by code;
 
 select '';

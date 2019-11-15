@@ -2,7 +2,7 @@ select '{';
 select '"type": "FeatureCollection",';
 select '"errorDescr": "Incorrect <b>name</b>-tag value",';
 select '"features": [';
-select '{"type":"Feature","id":"'||w.id||'","properties":{"josm":"w'||w.id||'","name":"'||coalesce(wtn.v,'')||'","nameuk":"'||coalesce(wtu.v,'')||'"},"geometry":'||st_asgeojson(st_centroid(w.linestring),5)||'},'
+select '{"type":"Feature","id":"'||w.id||'","properties":{"josm":"w'||w.id||'","name":"'||coalesce(replace(wtn.v,'"',''),'')||'","nameuk":"'||coalesce(replace(wtu.v,'"',''),'')||'"},"geometry":'||st_asgeojson(st_centroid(w.linestring),5)||'},'
 from ways w left join regions r on ST_Intersects(r.linestring,w.linestring),
 non_uk left join way_tags wtr on wtr.way_id=non_uk.id and wtr.k='name:ru',
 way_tags wtn,way_tags wtu,way_tags wth

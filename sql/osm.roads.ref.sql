@@ -1,6 +1,6 @@
 set client_min_messages to warning;
 drop table if exists ref_roads;
-create table ref_roads(id bigint, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text);
+create unlogged table ref_roads(id bigint, ref text, int_ref text, nat_ref text, reg_ref text, loc_ref text, highway text) tablespace osmspace;
 
 insert into ref_roads(id,ref,highway)
 select member_id,string_agg(rtr.v, ';' order by rtr.v),'trunk'
@@ -72,7 +72,7 @@ where rt.k='route' and rt.v='road'
 group by rm.member_id
 order by 2,1;
 
-create index idx_ref_roads_id on ref_roads(id);
+create index idx_ref_roads_id on ref_roads(id) tablespace osmspace;
 update ref_roads rr
 set highway='trunk',int_ref=t.int_ref
 from

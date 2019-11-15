@@ -11,19 +11,7 @@ gethash () {
     fi
   done < $1
 }
-
-recordDiff () {
-  file=$1
-  period=$2
-
-  echo "{" > "/var/www/geojson/$period/$file"
-  echo "\"type\": \"FeatureCollection\"," >> "/var/www/geojson/$period/$file"
-  echo "\"features\": [" >> "/var/www/geojson/$period/$file"
-  git --git-dir=$publish_path/.git --work-tree=$publish_path diff "@{$period day ago}" -p $publish_path/geojson/$file | grep properties | grep "\+{" | cut -c 2- >> "/var/www/geojson/$period/$file"
-  echo "{\"type\":\"Feature\"}" >> "/var/www/geojson/$period/$file"
-  echo "]}" >> "/var/www/geojson/$period/$file"
-}
-
+                                     
 processGeojson () {
   file=$1
 
@@ -50,16 +38,15 @@ processGeojson () {
 
   echo "$file $2 $errdate" >> error.summary
   echo "`date +'%Y-%m-%d %H:%M'`,$2" >> "/var/www/csv/$file.csv"
-
-  recordDiff $file 3
-  recordDiff $file 10
 }
 
 recordItem () {
   errdate=$3
   file=(`echo -e $1|sed 's/.geojson.*$//'`)
-  diff_3d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat "@{3 days ago}" $publish_path/geojson/$file.geojson`"
-  diff_10d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat "@{10 days ago}" $publish_path/geojson/$file.geojson`"
+  commit=`git --git-dir=$publish_path/.git --work-tree=$publish_path rev-list -n1 --before "3 days ago" gh-pages`
+  diff_3d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat $commit $publish_path/geojson/$file.geojson`"
+  commit=`git --git-dir=$publish_path/.git --work-tree=$publish_path rev-list -n1 --before "10 days ago" gh-pages`
+  diff_10d="`git --git-dir=$publish_path/.git --work-tree=$publish_path diff --shortstat $commit $publish_path/geojson/$file.geojson`"
   echo "<item>" >> test.rss
   echo "<guid isPermaLink=\"false\">${file//./}`date -d $errdate +'%Y%m%d%H%M'`</guid>" >> test.rss
   echo "<link>$publish_url/test.html?$file</link>" >> test.rss

@@ -63,7 +63,8 @@ inner join ways w1 on w1.id=rm1.member_id
 inner join ways w2 on w2.id=rm2.member_id
 where r.id not in (2533235,1455558,6478002)
   and w1.id<w2.id
-  and _st_crosses(w1.linestring,w2.linestring)
+  and _st_crosses(w1.linestring,w2.linestring) = 't'
+  and _st_touches(w1.linestring,w2.linestring) = 'f'
   and st_intersection(w1.linestring,w2.linestring) not in (select (st_dumppoints(w1.linestring)).geom)
 )
 select '{"type":"Feature","properties":{"josm":"r'||tab.relation_id||',w'||way_id_1||',w'||way_id_2||'","error":"multipolygon members intersect each other","region":"'||coalesce(r.name,'')||'"},"geometry":'||st_asgeojson((select min(geo.geom) from st_dumppoints(intersection) geo),5)||'},'

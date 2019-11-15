@@ -3,7 +3,7 @@ select '"type": "FeatureCollection",';
 select '"errorDescr": "Objects not in relation",';
 select '"features": [';
 
-with t as (
+with /*t as (
   select rt.relation_id,(st_dumppoints(w.linestring)).geom geom
   from relation_tags rt
     inner join relation_members rm on rm.relation_id=rt.relation_id and rm.member_type='W' --and rm.member_role='street'
@@ -13,7 +13,11 @@ t2 as (
   select t.relation_id,st_collect(distinct geom) geom, min(geom) geom_node, rtn.v rel_name
   from t
    inner join relation_tags rtn on rtn.relation_id=t.relation_id and rtn.k in ('name','name:uk','name:ru')
-  group by t.relation_id,rtn.v),
+  group by t.relation_id,rtn.v),*/
+t2 as (
+  select distinct t.relation_id, t.geom, t.geom_node, rtn.v rel_name
+  from street_relations t
+   inner join relation_tags rtn on rtn.relation_id=t.relation_id and rtn.k in ('name','name:uk','name:ru')),
 t3 as (
 select t2.relation_id,'w'||w2.id obj_id,t2.geom_node
 from t2
@@ -45,7 +49,7 @@ where not exists(select * from relation_members rm2 where rm2.relation_id=t2.rel
 select '{"type":"Feature",'||
         '"properties":{'||
                        '"josm":"r'||t3.relation_id||','||string_agg(distinct obj_id,',' order by obj_id)||'",'||
-                       '"relationtags":"name|'||rtn.v||'",'||
+                       '"relationtags":"name|'||rtn.v||'"'||
                      '},'||
         '"geometry":'||
 			st_asgeojson(t3.geom_node, 5)||

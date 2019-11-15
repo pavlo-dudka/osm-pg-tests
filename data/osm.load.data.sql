@@ -20,3 +20,7 @@ update way_type set reg=type_f where reg='';
 drop table if exists highway_islands;
 create table highway_islands(id int, highway_level text, location text);
 copy highway_islands from 'osm/highway_islands.txt' using delimiters ',';
+
+drop table if exists decommunization_names;
+create table decommunization_names(name text);
+copy decommunization_names from 'osm/decommunization.txt' using delimiters ',';
