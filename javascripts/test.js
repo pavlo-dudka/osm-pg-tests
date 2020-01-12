@@ -59,7 +59,7 @@ function showGeoJson(map, geoJson, diff)
 	{
 		var geoJsonLayer = L.geoJson(myGeoJson, {
 			onEachFeature: function (feature, layer) {
-				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr, myGeoJson.addtags));
+				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
 			}
 		});
 		
@@ -86,7 +86,7 @@ function showGeoJson(map, geoJson, diff)
 		
 		var geoJsonLayer = L.geoJson(myGeoJson, {
 			onEachFeature: function (feature, layer) {
-				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr, myGeoJson.addtags));
+				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
 			}
 		});
 
@@ -95,7 +95,7 @@ function showGeoJson(map, geoJson, diff)
 
 		var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
 			onEachFeature: function (feature, layer) {
-				layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr, myGeoJsonPoints.addTags));
+				layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr));
 			}
 		});
 
@@ -105,7 +105,7 @@ function showGeoJson(map, geoJson, diff)
 	}	
 }
 
-function popupHtml(feature, errorDescr, addtags)
+function popupHtml(feature, errorDescr)
 {
 	var result = '';
 	if (typeof(feature.properties.error) != "undefined")
@@ -220,7 +220,7 @@ function popupHtml(feature, errorDescr, addtags)
 		result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
-	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + addtags + '\',\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')">';
 	result += '<input type="button" value="Edit in Browser" onClick="openInBrowser(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
@@ -343,7 +343,7 @@ function showTable(geoJson, diff)
 		}
 		document.write('">');
 		document.write('<td>' + (j+1) + '</td>');
-		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + mypoints.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
+		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
 		if (typeof(feature.properties.name) != "undefined")
 		{
