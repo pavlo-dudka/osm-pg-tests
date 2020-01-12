@@ -490,7 +490,7 @@ function josmLoadObject(load)
 function josmAddNode(point, tags)
 {
 	var coords = point.split(',');
-	return 'http://localhost:8111/add_node?lat=' + coords[1] + '&lon=' + coords[0] + 'addtags=' + tags;
+	return 'http://localhost:8111/add_node?lat=' + coords[1] + '&lon=' + coords[0] + '&addtags=' + tags;
 }
 
 function josmZoomToPoint(point)
