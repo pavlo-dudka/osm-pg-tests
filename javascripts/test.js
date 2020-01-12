@@ -59,7 +59,7 @@ function showGeoJson(map, geoJson, diff)
 	{
 		var geoJsonLayer = L.geoJson(myGeoJson, {
 			onEachFeature: function (feature, layer) {
-			layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
+				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr, myGeoJson.addtags));
 			}
 		});
 		
@@ -86,7 +86,7 @@ function showGeoJson(map, geoJson, diff)
 		
 		var geoJsonLayer = L.geoJson(myGeoJson, {
 			onEachFeature: function (feature, layer) {
-			layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr));
+				layer.bindPopup(popupHtml(feature, myGeoJson.errorDescr, myGeoJson.addtags));
 			}
 		});
 
@@ -95,7 +95,7 @@ function showGeoJson(map, geoJson, diff)
 
 		var geoJsonLayer2 = L.geoJson(myGeoJsonPoints, {
 			onEachFeature: function (feature, layer) {
-			layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr));
+				layer.bindPopup(popupHtml(feature, myGeoJsonPoints.errorDescr, myGeoJsonPoints.addTags));
 			}
 		});
 
@@ -105,7 +105,7 @@ function showGeoJson(map, geoJson, diff)
 	}	
 }
 
-function popupHtml(feature, errorDescr)
+function popupHtml(feature, errorDescr, addtags)
 {
 	var result = '';
 	if (typeof(feature.properties.error) != "undefined")
@@ -220,7 +220,7 @@ function popupHtml(feature, errorDescr)
 		result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
-	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + addtags + '\',\'' + feature.geometry.coordinates + '\')">';
 	result += '<input type="button" value="Edit in Browser" onClick="openInBrowser(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
@@ -343,7 +343,7 @@ function showTable(geoJson, diff)
 		}
 		document.write('">');
 		document.write('<td>' + (j+1) + '</td>');
-		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.geometry.coordinates + '\')"></td>');
+		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + mypoints.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
 		if (typeof(feature.properties.name) != "undefined")
 		{
@@ -452,36 +452,45 @@ function showTable(geoJson, diff)
 	document.write('</table>');
 }
 
-function openInJosm(load, point)
+function openInJosm(load, addtags, point)
 {
-    if (load != "undefined")
+    if (load)
     {
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.open('GET', josmLoadObject(load), false);
         xmlhttp.send(null);
-            
-        var xmlhttp2 = new XMLHttpRequest();
-        xmlhttp2.open('GET', josmZoomToPoint(point), false);
-        xmlhttp2.send(null);
-	}
-    else
+    }
+
+    if (addtags)
     {
         var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open('GET', josmZoomAndLoadToPoint(point), false);
+        xmlhttp.open('GET', josmAddNode(point, addtags), false);
         xmlhttp.send(null);
+    }
+
+    {
+        var xmlhttp2 = new XMLHttpRequest();
+        xmlhttp2.open('GET', josmZoomAndLoadToPoint(point), false);
+        xmlhttp2.send(null);
     }
 }
 
 function openInBrowser(point)
 {
 	var coords = point.split(',');
-	var win=window.open('http://www.openstreetmap.org/edit?#map=19/' + coords[1] + '/' + coords[0], '_blank');
+	var win = window.open('http://www.openstreetmap.org/edit?#map=19/' + coords[1] + '/' + coords[0], '_blank');
 	win.focus();
 }
 
 function josmLoadObject(load)
 {
 	return 'http://localhost:8111/load_object?new_layer=false&objects=' + load;
+}
+
+function josmAddNode(point, tags)
+{
+	var coords = point.split(',');
+	return 'http://localhost:8111/add_node?lat=' + coords[1] + '&lon=' + coords[0] + 'addtags=' + tags;
 }
 
 function josmZoomToPoint(point)
