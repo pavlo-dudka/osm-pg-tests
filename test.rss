@@ -22,7 +22,7 @@
 <title>bus.stops - 295 error(s) found at 21 Jan 2020 11:12</title>
 <description><![CDATA[295 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?bus.stops>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?bus.stops>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 11:12:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 67 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 55 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 301 insertions(+)</gitDiff10d>
 </item>
 <item>
@@ -52,7 +52,7 @@
 <title>decommunization.streets - 6252 error(s) found at 21 Jan 2020 23:51</title>
 <description><![CDATA[6252 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?decommunization.streets>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?decommunization.streets>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 23:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 57 insertions(+), 19 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 56 insertions(+), 18 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 113 insertions(+), 79 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -63,7 +63,7 @@
 <description><![CDATA[37 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 20:01:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 14 insertions(+), 6 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 25 insertions(+), 2 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 24 insertions(+), 2 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink202001212232</guid>
@@ -82,8 +82,8 @@
 <title>highway.islands.service - 584 error(s) found at 21 Jan 2020 23:51</title>
 <description><![CDATA[584 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 23:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 19 insertions(+), 70 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 40 insertions(+), 79 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 18 insertions(+), 70 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 37 insertions(+), 79 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary202001212232</guid>
@@ -93,27 +93,27 @@
 <description><![CDATA[5 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.tertiary>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.tertiary>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 22:32:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">highwayislandsunclassified202001212351</guid>
+<guid isPermaLink="false">highwayislandsunclassified202001220106</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?highway.islands.unclassified</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>highway.islands.unclassified - 502 error(s) found at 21 Jan 2020 23:51</title>
-<description><![CDATA[502 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
-<pubDate>Tue, 21 Jan 2020 23:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 33 insertions(+), 95 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 56 insertions(+), 86 deletions(-)</gitDiff10d>
+<title>highway.islands.unclassified - 501 error(s) found at 22 Jan 2020 01:06</title>
+<description><![CDATA[501 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
+<pubDate>Wed, 22 Jan 2020 01:06:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 33 insertions(+), 96 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 51 insertions(+), 87 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons202001212232</guid>
+<guid isPermaLink="false">multipolygons202001220106</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 134 error(s) found at 21 Jan 2020 22:32</title>
-<description><![CDATA[134 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Tue, 21 Jan 2020 22:32:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 55 insertions(+), 20 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 69 insertions(+), 25 deletions(-)</gitDiff10d>
+<title>multipolygons - 137 error(s) found at 22 Jan 2020 01:06</title>
+<description><![CDATA[137 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Wed, 22 Jan 2020 01:06:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 58 insertions(+), 20 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 72 insertions(+), 25 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202001192225</guid>
@@ -163,7 +163,7 @@
 <description><![CDATA[466 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.service>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 21:16:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+), 6 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 4 insertions(+), 10 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 3 insertions(+), 9 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwaysharpturns202001212232</guid>
@@ -192,7 +192,7 @@
 <title>street.relations - 3284 error(s) found at 21 Jan 2020 23:51</title>
 <description><![CDATA[3284 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Tue, 21 Jan 2020 23:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 1664 insertions(+), 31 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 1663 insertions(+), 31 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 1681 insertions(+), 81 deletions(-)</gitDiff10d>
 </item>
 <item>
