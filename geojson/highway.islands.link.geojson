@@ -2,5 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Floating link island",
 "features": [
+{"type":"Feature","properties":{"josm":"w337750374","level":"secondary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[31.82477,49.76938],[31.82516,49.76976]]]}},
+{"type":"Feature","properties":{"josm":"w182198999","level":"tertiary_link","NumberOfRoads":"1"},"geometry":{"type":"MultiLineString","coordinates":[[[37.70803,48.91282],[37.70717,48.91265],[37.70615,48.91245],[37.70496,48.91211],[37.70438,48.91188],[37.70418,48.91181]]]}},
 {"type":"Feature"}
 ]}
