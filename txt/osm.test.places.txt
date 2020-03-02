@@ -1326,8 +1326,6 @@ Invalid node role:
 1742814|type|multipolygon|1742814|6987831469|N|inner|0
 2069883|type|multipolygon|2069883|4464949535|N||2
 3005461|type|multipolygon|3005461|6122967451|N|address|27
-3006925|type|multipolygon|3006925|7255719937|N|door|6
-3006925|type|multipolygon|3006925|7255864820|N|inner|7
 3747915|type|multipolygon|3747915|337575997|N|Ватутіне|0
 5606909|type|multipolygon|5606909|275455357|N|entrance|26
 5606909|type|multipolygon|5606909|414691839|N|entrance|85
@@ -1431,9 +1429,6 @@ Invalid node role:
 6303094|type|multipolygon|6303094|6239092974|N|address|2
 6901520|type|multipolygon|6901520|5335830074|N|contain|2
 7409621|type|boundary|7409621|4980785821|N||0
-7750160|type|multipolygon|7750160|7255068374|N|rural, urban, apartments...|0
-7750160|type|multipolygon|7750160|7255701910|N|door|591
-7750160|type|multipolygon|7750160|7255864820|N|inner|592
 7797922|type|multipolygon|7797922|5276054009|N||23
 7814226|type|multipolygon|7814226|5286689423|N|outer|3
 8467291|type|boundary|8467291|5777308296|N||0
@@ -3038,7 +3033,6 @@ Invalid relation role:
 1758184|type|multipolygon|1758184|1757774|R|outer|1
 1758184|type|multipolygon|1758184|1757788|R|outer|9
 1758184|type|multipolygon|1758184|1757818|R|outer|5
-3006925|type|multipolygon|3006925|10771653|R|inner|5
 5452005|type|multipolygon|5452005|417742|R|inner|2
 5686829|type|multipolygon|5686829|5686828|R|inner|7
 5686830|type|multipolygon|5686830|5686827|R|inner|6
@@ -3053,7 +3047,6 @@ Invalid relation role:
 7290367|type|multipolygon|7290367|2785329|R|outer|0
 7290367|type|multipolygon|7290367|7290366|R|inner|1
 7534292|type|multipolygon|7534292|9466365|R|outer|5
-7750160|type|multipolygon|7750160|10771653|R|service|590
 7757358|type|boundary|7757358|7714666|R|outer|0
 7757394|type|boundary|7757394|7757393|R|admin_centre|0
 7995467|type|multipolygon|7995467|7995465|R|outer|0
