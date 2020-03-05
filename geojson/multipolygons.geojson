@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r10788303,n7250334494","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[27.42612,48.7245]}},
+{"type":"Feature","properties":{"josm":"r10788303,n7250334497","region":"Вінницька область"},"geometry":{"type":"Point","coordinates":[27.42415,48.72548]}},
 {"type":"Feature","properties":{"josm":"r2454913,n2361432208","region":"Миколаївська область"},"geometry":{"type":"Point","coordinates":[31.32041,47.53367]}},
 {"type":"Feature","properties":{"josm":"r2454913,n7264075671","region":"Миколаївська область"},"geometry":{"type":"Point","coordinates":[31.32041,47.53367]}},
 {"type":"Feature","properties":{"josm":"r3588237,n5018612075","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[34.10111,44.42992]}},
@@ -66,6 +68,7 @@
 {"type":"Feature","properties":{"josm":"r10783870,w778186061,w778186090","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[12.74823,3.82197]}},
 {"type":"Feature","properties":{"josm":"r10783870,w778186087,w778186090","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[12.69527,3.80867]}},
 {"type":"Feature","properties":{"josm":"r10783870,w778186088,w778186090","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[12.70036,3.80995]}},
+{"type":"Feature","properties":{"josm":"r10784534,w285539392,w778543058","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-2.85876,52.28947]}},
 {"type":"Feature","properties":{"josm":"r10786331,w640648680,w778375494","error":"multipolygon members intersect each other","region":"Полтавська область"},"geometry":{"type":"Point","coordinates":[33.17499,50.20103]}},
 {"type":"Feature","properties":{"josm":"r10787781,w778512600,w778512601","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[14.06867,3.08721]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585577449","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[36.58765,45.24594]}},
