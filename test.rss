@@ -46,12 +46,12 @@
 <gitDiff10d> 1 file changed, 3 insertions(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">decommunizationstreets202003111251</guid>
+<guid isPermaLink="false">decommunizationstreets202003111430</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?decommunization.streets</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>decommunization.streets - 6196 error(s) found at 11 Mar 2020 12:51</title>
+<title>decommunization.streets - 6196 error(s) found at 11 Mar 2020 14:30</title>
 <description><![CDATA[6196 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?decommunization.streets>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?decommunization.streets>table</a>]]></description>
-<pubDate>Wed, 11 Mar 2020 12:51:00 +0200</pubDate>
+<pubDate>Wed, 11 Mar 2020 14:30:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 5 insertions(+), 21 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 64 insertions(+), 77 deletions(-)</gitDiff10d>
 </item>
@@ -62,7 +62,7 @@
 <title>highway.crossings - 309 error(s) found at 11 Mar 2020 12:51</title>
 <description><![CDATA[309 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Wed, 11 Mar 2020 12:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 239 insertions(+), 7 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 239 insertions(+), 9 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 247 insertions(+), 10 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -192,8 +192,8 @@
 <title>street.relations - 1907 error(s) found at 11 Mar 2020 12:51</title>
 <description><![CDATA[1907 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Wed, 11 Mar 2020 12:51:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 33 insertions(+), 50 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 83 insertions(+), 112 deletions(-)</gitDiff10d>
+<gitDiff3d> 1 file changed, 32 insertions(+), 49 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 78 insertions(+), 112 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm202003091224</guid>
@@ -203,17 +203,17 @@
 <description><![CDATA[201 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Mon, 09 Mar 2020 12:24:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 3 insertions(+), 2 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 3 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsn202003110011</guid>
+<guid isPermaLink="false">streetrelationsn202003111430</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.n</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.n - 4411 error(s) found at 11 Mar 2020 00:11</title>
-<description><![CDATA[4411 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
-<pubDate>Wed, 11 Mar 2020 00:11:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 20 insertions(+), 23 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 79 insertions(+), 60 deletions(-)</gitDiff10d>
+<title>street.relations.n - 4412 error(s) found at 11 Mar 2020 14:30</title>
+<description><![CDATA[4412 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.n>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.n>table</a>]]></description>
+<pubDate>Wed, 11 Mar 2020 14:30:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 23 insertions(+), 25 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 81 insertions(+), 61 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsob202003060511</guid>
