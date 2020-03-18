@@ -1313,10 +1313,13 @@ Multiple polygons:
 2|7229134243|r2175059,r7750160|
 
 Invalid node role:
+72639|type|boundary|72639|7306732390|N|inner|82
 1742814|type|multipolygon|1742814|6987831469|N|inner|0
+1754563|type|boundary|1754563|7306732390|N|inner|55
 2069883|type|multipolygon|2069883|4464949535|N||2
 3005461|type|multipolygon|3005461|6122967451|N|address|27
 3747915|type|multipolygon|3747915|337575997|N|Ватутіне|0
+3826864|type|boundary|3826864|7306732390|N|inner|55
 5606909|type|multipolygon|5606909|275455357|N|entrance|26
 5606909|type|multipolygon|5606909|414691839|N|entrance|85
 5606909|type|multipolygon|5606909|553716075|N||97
@@ -1419,6 +1422,7 @@ Invalid node role:
 6303094|type|multipolygon|6303094|6239092974|N|address|2
 6901520|type|multipolygon|6901520|5335830074|N|contain|2
 7409621|type|boundary|7409621|4980785821|N||0
+7750160|type|multipolygon|7750160|7306732390|N|inner|587
 7797922|type|multipolygon|7797922|5276054009|N||23
 7814226|type|multipolygon|7814226|5286689423|N|outer|3
 8467291|type|boundary|8467291|5777308296|N||0
@@ -3013,7 +3017,6 @@ Invalid way role:
 10751644|608276033|1
 10751886|608276040|1
 10847949|87883479|1
-10852835|782417374|1
 
 Invalid relation role:
 1576011|type|multipolygon|1576011|1617908|R|inner|1
@@ -3050,6 +3053,7 @@ Invalid relation role:
 9550676|type|multipolygon|9550676|9550675|R|inner|2
 9685393|type|multipolygon|9685393|9979141|R|house|6
 10598981|type|multipolygon|10598981|10598983|R|outer|13
+10853953|type|multipolygon|10853953|10853952|R|отдых|0
 
 No admin_centre:
 22793
