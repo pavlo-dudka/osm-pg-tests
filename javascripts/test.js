@@ -228,7 +228,7 @@ function popupHtml(feature, errorDescr)
 
 function showTable(geoJson, diff)
 {
-	document.write('<table class="sortable">');
+	document.write('<table class="sortable uk-table uk-table-small uk-table-hover uk-table-divider">');
 
 	var xmlhttp = new XMLHttpRequest();
 	if (typeof(diff) != "undefined")
@@ -343,7 +343,7 @@ function showTable(geoJson, diff)
 		}
 		document.write('">');
 		document.write('<td>' + (j+1) + '</td>');
-		document.write('<td><input type="button" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
+		document.write('<td><input type="button" class="uk-button uk-button-small uk-button-primary" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
 		if (typeof(feature.properties.name) != "undefined")
 		{

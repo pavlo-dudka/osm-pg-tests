@@ -11,7 +11,12 @@
 
   gtag('config', 'UA-17784089-4');
 </script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/css/uikit.min.css" />
+    <style>
+        table.uk-table {
+            width: auto;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,7 +27,7 @@
   xmlhttp.send();
   xmlDoc=xmlhttp.responseXML;
   
-  document.write('<table>');
+  document.write('<table class="uk-table uk-table-small uk-table-hover uk-table-divider">');
   document.write('<th/>error<th>count</th><th>since<br/>3d ago</th><th>since<br/>10d ago</th><th>last found</th><th>history</th>');
   var x=xmlDoc.getElementsByTagName('item');
   for (i=0; i < x.length; i++)
