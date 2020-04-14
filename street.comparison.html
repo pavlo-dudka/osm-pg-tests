@@ -13,6 +13,16 @@
 
   gtag('config', 'UA-17784089-4');
 </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/css/uikit.min.css" />
+    <style>
+        body {
+            padding: 1em;
+        }
+        table.uk-table {
+            width: auto;
+        }
+    </style>
+</head>
 
 </head>
 <body>
@@ -36,7 +46,7 @@
 	else
 	{
 		document.write('<h3>' + txtFileName.split('.')[0] +' Street Comparison</h3>');
-		document.write('<table>');
+		document.write('<table class="uk-table uk-table-small uk-table-hover uk-table-divider">');
 
 		xmlhttp = new XMLHttpRequest();
 		xmlhttp.open('GET','txt/osm.' + txtFileName + '.txt', false);
