@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r10173311,n2193048808","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[30.42658,48.81597]}},
+{"type":"Feature","properties":{"josm":"r10173311,n7426696181","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[30.42197,48.81894]}},
 {"type":"Feature","properties":{"josm":"r11000039,n6738728771","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.21932,50.75948]}},
 {"type":"Feature","properties":{"josm":"r11000039,n6738734869","region":"Волинська область"},"geometry":{"type":"Point","coordinates":[25.21858,50.75961]}},
 {"type":"Feature","properties":{"josm":"r11010838,n7029082147","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[35.05512,48.52066]}},
@@ -26,7 +28,8 @@
 {"type":"Feature","properties":{"josm":"r8420566,n6019718406","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.02503,49.81763]}},
 {"type":"Feature","properties":{"josm":"r9454996,n2786081275","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.25781,50.77004]}},
 {"type":"Feature","properties":{"josm":"r9454996,n5335282101","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.25756,50.77012]}},
-{"type":"Feature","properties":{"josm":"r10962527,w791208726,w792690206","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[21.87642,37.0183]}},
+{"type":"Feature","properties":{"josm":"r10962527,w791208726,w792690206","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[21.87748,37.01986]}},
+{"type":"Feature","properties":{"josm":"r10962527,w791208726,w793968077","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[21.87375,37.02159]}},
 {"type":"Feature","properties":{"josm":"r10972957,w286803242,w792699737","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-58.46123,-34.64389]}},
 {"type":"Feature","properties":{"josm":"r10997435,w791951676,w791951677","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[30.03183,61.22959]}},
 {"type":"Feature","properties":{"josm":"r11002561,w792403950,w792403951","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[30.22707,55.11809]}},
