@@ -139,6 +139,10 @@ function popupHtml(feature, errorDescr)
 	{
 		result += '<tr><th>Name(ukr):</th><td>' + feature.properties.nameuk + '</td></tr>';
 	}
+	if (typeof(feature.properties.denomination) != "undefined")
+	{
+		result += '<tr><th>Denomination:</th><td>' + feature.properties.denomination + '</td></tr>';
+	}
 	if (typeof(feature.properties.relationtags) != "undefined")
 	{
 		var tvs = feature.properties.relationtags.split('&');
