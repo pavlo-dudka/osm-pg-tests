@@ -105,6 +105,29 @@ function showGeoJson(map, geoJson, diff)
 	}	
 }
 
+var featureProperties = new Map([
+	['name', 'Name'],
+	['nameuk', 'Name(ukr)'],
+	['denomination', 'Denomination'],
+	['relationtags', 'Relation tag'],
+	['membertags', 'Member tag'],
+	['memberrole', 'Member Role'],
+	['addrhousenumber', 'House No.'],
+	['cur_district', 'Current district'],
+	['exp_district', 'Expected district'],
+	['region', 'Region'],
+	['city', 'City'],
+	['population', 'Population'],
+	['koatuu', 'KOATUU'],
+	['length', 'Length (km)'],
+	['level', 'Level'],
+	['address', 'Address'],
+	['old_name', 'Old name'],
+	['new_name', 'New name'],
+	['levels', 'Building Levels'],
+	['NumberOfRoads', 'Roads count'],
+	['josm', 'Objects']
+]);
 function popupHtml(feature, errorDescr)
 {
 	var result = '';
@@ -117,110 +140,46 @@ function popupHtml(feature, errorDescr)
 		result += '<center><b><font color="FF0000">' + errorDescr + '</font></b></center>';
 	}
 	result += '<table>';
-	if (typeof(feature.properties.josm) != "undefined")
+	for (var [prop, propName] of featureProperties)
 	{
-		var objects = feature.properties.josm.split(',');
-		for(var i=0; i < objects.length; i++)
+		var value = feature.properties[prop];
+		if (typeof(value) == "undefined")
+			continue;
+		
+		switch (prop)
 		{
-			if (objects[i].indexOf('n') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
-			if (objects[i].indexOf('w') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
-			if (objects[i].indexOf('r') == 0)
-				objects[i] = '<a href="http://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+			case 'josm':
+				var objects = feature.properties.josm.split(',');
+				for (var i = 0; i < objects.length; i++)
+				{
+					if (objects[i].indexOf('n') == 0)
+						objects[i] = '<a href="https://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+					if (objects[i].indexOf('w') == 0)
+						objects[i] = '<a href="https://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+					if (objects[i].indexOf('r') == 0)
+						objects[i] = '<a href="https://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+				}
+				value = objects.join(', ');
+				result += '<tr><th>' + propName + ':</th><td>' + value + '</td></tr>';
+				break;
+			case 'relationtags':
+				var tvs = value.split('&');
+				for (var i = 0; i < tvs.length; i++)
+				{
+					var tv = tvs[i].split('|');
+					result += '<tr><th>Relation ' + tv[0] + ':</th><td>' + tv[1] + '</td></tr>';
+				}
+				break;
+			case 'membertags':
+				var tv = value.split('|');
+				result += '<tr><th>Member ' + tv[0] + ':</th><td>' + tv[1] + '</td></tr>';
+				break;
+			default:
+				result += '<tr><th>' + propName + ':</th><td>' + value + '</td></tr>';
 		}
-		result += '<tr><th>Related objects:</th><td>' + objects.join(', ') + '</td></tr>';
 	}
-	if (typeof(feature.properties.name) != "undefined")
-	{
-		result += '<tr><th>Name:</th><td>' + feature.properties.name + '</td></tr>';
-	}
-	if (typeof(feature.properties.nameuk) != "undefined")
-	{
-		result += '<tr><th>Name(ukr):</th><td>' + feature.properties.nameuk + '</td></tr>';
-	}
-	if (typeof(feature.properties.denomination) != "undefined")
-	{
-		result += '<tr><th>Denomination:</th><td>' + feature.properties.denomination + '</td></tr>';
-	}
-	if (typeof(feature.properties.relationtags) != "undefined")
-	{
-		var tvs = feature.properties.relationtags.split('&');
-		for(var i=0; i < tvs.length; i++)
-		{
-			var tv = tvs[i].split('|');
-			result += '<tr><th>Relation ' + tv[0] +':</th><td>' + tv[1] + '</td></tr>';
-		}
-	}
-	if (typeof(feature.properties.membertags) != "undefined")
-	{
-		var tv = feature.properties.membertags.split('|');
-		result += '<tr><th>Member ' + tv[0] +':</th><td>' + tv[1] + '</td></tr>';
-	}
-	if (typeof(feature.properties.memberrole) != "undefined")
-	{
-		result += '<tr><th>Member Role:</th><td>' + feature.properties.memberrole + '</td></tr>';
-	}
-	if (typeof(feature.properties.addrhousenumber) != "undefined")
-	{
-		result += '<tr><th>House number:</th><td>' + feature.properties.addrhousenumber + '</td></tr>';
-	}
-	if (typeof(feature.properties.cur_district) != "undefined")
-	{
-		result += '<tr><th>Current district:</th><td>' + feature.properties.cur_district + '</td></tr>';
-	}
-	if (typeof(feature.properties.exp_district) != "undefined")
-	{
-		result += '<tr><th>Expected district:</th><td>' + feature.properties.exp_district + '</td></tr>';
-	}
-	if (typeof(feature.properties.region) != "undefined")
-	{
-	        if (feature.properties.region.substring(0,2) == "UA")
-			result += '<tr><th>Region:</th><td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td></tr>';
-		else
-			result += '<tr><th>Region:</th><td>' + feature.properties.region + '</td></tr>';
-	}
-	if (typeof(feature.properties.city) != "undefined")
-	{
-		result += '<tr><th>City:</th><td>' + feature.properties.city + '</td></tr>';
-	}
-	if (typeof(feature.properties.population) != "undefined")
-	{
-		result += '<tr><th>Population:</th><td>' + feature.properties.population + '</td></tr>';
-	}
-	if (typeof(feature.properties.koatuu) != "undefined")
-	{
-		result += '<tr><th>KOATUU:</th><td>' + feature.properties.koatuu + '</td></tr>';
-	}
-	if (typeof(feature.properties.length) != "undefined")
-	{
-		result += '<tr><th>Length (km):</th><td>' + feature.properties.length + '</td></tr>';
-	}
-	if (typeof(feature.properties.level) != "undefined")
-	{
-		result += '<tr><th>Level:</th><td>' + feature.properties.level + '</td></tr>';
-	}
-	if (typeof(feature.properties.address) != "undefined")
-	{
-		result += '<tr><th>Address:</th><td>' + feature.properties.address + '</td></tr>';
-	}
-	if (typeof(feature.properties.old_name) != "undefined")
-	{
-		result += '<tr><th>Old name:</th><td>' + feature.properties.old_name + '</td></tr>';
-	}
-	if (typeof(feature.properties.new_name) != "undefined")
-	{
-		result += '<tr><th>New name:</th><td>' + feature.properties.new_name + '</td></tr>';
-	}
-	if (typeof(feature.properties.levels) != "undefined")
-	{
-		result += '<tr><th>Building Levels:</th><td>' + feature.properties.levels + '</td></tr>';
-	}
-	if (typeof(feature.properties.NumberOfRoads) != "undefined")
-	{
-		result += '<tr><th>Roads count:</th><td>' + feature.properties.NumberOfRoads + '</td></tr>';
-	}
-	if (feature.geometry == 'Point')
+
+	if (feature.geometry.type == 'Point')
 		result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
 	result = result + '</table>';
 	
@@ -241,7 +200,7 @@ function showTable(geoJson, diff)
 	xmlhttp.send(null);
 	var mypoints = eval('(' + xmlhttp.responseText + ')');
 	
-	for(j = 0; j < mypoints.features.length - 1; j++)
+	for (j = 0; j < mypoints.features.length - 1; j++)
 	{
 		var feature = mypoints.features[j];
 		if (j == 0)
@@ -250,83 +209,22 @@ function showTable(geoJson, diff)
 			document.write('<th class="sorttable_sorted">#<span id="sorttable_sortfwdind">' + (stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BE;') + '</span></th>');
 			document.write('<th>Josm</th>');
 			
-			if (typeof(feature.properties.name) != "undefined")
+			for (var [prop, propName] of featureProperties)
 			{
-				document.write('<th>Name</th>');
-			}
-			if (typeof(feature.properties.nameuk) != "undefined")
-			{
-				document.write('<th>Name:uk</th>');
-			}
-			if (typeof(feature.properties.relationtags) != "undefined")
-			{
-				document.write('<th>Relation</th>');
-				if (feature.properties.relationtags.indexOf('&') > -1)
-					document.write('<th>Relation</th>');
-			}
-			if (typeof(feature.properties.membertags) != "undefined")
-			{
-				document.write('<th>Member</th>');
-			}
-			if (typeof(feature.properties.memberrole) != "undefined")
-			{
-				document.write('<th>Member Role</th>');
-			}
-			if (typeof(feature.properties.addrhousenumber) != "undefined")
-			{
-				document.write('<th>House No.</th>');
-			}
-			if (typeof(feature.properties.cur_district) != "undefined")
-			{
-				document.write('<th>Current district</th>');
-			}
-			if (typeof(feature.properties.exp_district) != "undefined")
-			{
-				document.write('<th>Expected district</th>');
-			}
-			if (typeof(feature.properties.region) != "undefined")
-			{
-				document.write('<th>Region</th>');
-			}
-			if (typeof(feature.properties.city) != "undefined")
-			{
-				document.write('<th>City</th>');
-			}
-			if (typeof(feature.properties.population) != "undefined")
-			{
-				document.write('<th>Population</th>');
-			}
-			if (typeof(feature.properties.koatuu) != "undefined")
-			{
-				document.write('<th>KOATUU</th>');
-			}
-			if (typeof(feature.properties.length) != "undefined")
-			{
-				document.write('<th>Length (km)</th>');
-			}
-			if (typeof(feature.properties.level) != "undefined")
-			{
-				document.write('<th>Level</th>');
-			}
-			if (typeof(feature.properties.address) != "undefined")
-			{
-				document.write('<th>Address</th>');
-			}
-			if (typeof(feature.properties.old_name) != "undefined")
-			{
-				document.write('<th>Old name</th>');
-			}
-			if (typeof(feature.properties.new_name) != "undefined")
-			{
-				document.write('<th>New name</th>');
-			}
-			if (typeof(feature.properties.levels) != "undefined")
-			{
-				document.write('<th>Building Levels</th>');
-			}
-			if (typeof(feature.properties.NumberOfRoads) != "undefined")
-			{
-				document.write('<th>Roads count</th>');
+				var value = feature.properties[prop];
+				if (typeof(value) == "undefined")
+					continue;
+				
+				switch (prop)
+				{					
+					case 'relationtags':
+						document.write('<th>' + propName +'</th>');
+						if (value.indexOf('&') > -1)
+							document.write('<th>' + propName +'</th>');
+						break;
+					default:
+						document.write('<th>' + propName +'</th>');
+				}
 			}
 			
 			if (typeof(feature.properties.josm) != "undefined")
@@ -336,6 +234,7 @@ function showTable(geoJson, diff)
 			document.write('</tr>');
 		}
 		
+		// tooltip
 		document.write('<tr title="');
 		if (typeof(feature.properties.error) != "undefined")
 		{
@@ -349,105 +248,41 @@ function showTable(geoJson, diff)
 		document.write('<td>' + (j+1) + '</td>');
 		document.write('<td><input type="button" class="uk-button uk-button-small uk-button-primary" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
-		if (typeof(feature.properties.name) != "undefined")
-		{
-			document.write('<td>' + feature.properties.name + '</td>');
-		}
-		if (typeof(feature.properties.nameuk) != "undefined")
-		{
-			document.write('<td>' + feature.properties.nameuk + '</td>');
-		}
-		if (typeof(feature.properties.relationtags) != "undefined")
-		{
-			var tvs = feature.properties.relationtags.split('&');
-			for(var i=0; i < Math.min(tvs.length,2); i++)
+		for (var [prop, propName] of featureProperties)		{
+			var value = feature.properties[prop];
+			if (typeof(value) == "undefined")
+				continue;
+			
+			switch (prop)
 			{
-				var tv = tvs[i].split('|');
-				document.write('<td>' + tv[1] + '</td>');
+				case 'josm':
+					var objects = feature.properties.josm.split(',');
+					for(var i = 0; i < objects.length; i++)
+					{
+						if (objects[i].indexOf('n') == 0)
+							objects[i] = '<a href="https://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+						if (objects[i].indexOf('w') == 0)
+							objects[i] = '<a href="https://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+						if (objects[i].indexOf('r') == 0)
+							objects[i] = '<a href="https://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
+					}
+					document.write('<td>' + objects.join(', ') + '</td>');
+					break;
+				case 'relationtags':
+					var tvs = feature.properties.relationtags.split('&');
+					for (var i = 0; i < Math.min(tvs.length, 2); i++)
+					{
+						var tv = tvs[i].split('|');
+						document.write('<td>' + tv[1] + '</td>');
+					}
+					break;
+				case 'membertags':
+					var tv = feature.properties.membertags.split('|');
+					document.write('<td>' + tv[1] + '</td>');
+					break;
+				default:
+					document.write('<td>' + value + '</td>');
 			}
-		}
-		if (typeof(feature.properties.membertags) != "undefined")
-		{
-			var tv = feature.properties.membertags.split('|');
-			document.write('<td>' + tv[1] + '</td>');
-		}
-		if (typeof(feature.properties.memberrole) != "undefined")
-		{
-			document.write('<td>' + feature.properties.memberrole + '</td>');
-		}
-		if (typeof(feature.properties.addrhousenumber) != "undefined")
-		{
-			document.write('<td>' + feature.properties.addrhousenumber + '</td>');
-		}
-		if (typeof(feature.properties.cur_district) != "undefined")
-		{
-			document.write('<td>' + feature.properties.cur_district + '</td>');
-		}
-		if (typeof(feature.properties.exp_district) != "undefined")
-		{
-			document.write('<td>' + feature.properties.exp_district + '</td>');
-		}
-		if (typeof(feature.properties.region) != "undefined")
-		{
-			if (feature.properties.region.substring(0,2) == "UA")
-				document.write('<td><a href="http://peirce.zkir.ru/qa/' + feature.properties.region + '">' + feature.properties.region + '</a></td>');
-			else
-				document.write('<td>' + feature.properties.region + '</td>');
-		}
-		if (typeof(feature.properties.city) != "undefined")
-		{
-			document.write('<td>' + feature.properties.city + '</td>');
-		}
-		if (typeof(feature.properties.population) != "undefined")
-		{
-			document.write('<td>' + feature.properties.population + '</td>');
-		}
-		if (typeof(feature.properties.koatuu) != "undefined")
-		{
-			document.write('<td>' + feature.properties.koatuu + '</td>');
-		}
-		if (typeof(feature.properties.length) != "undefined")
-		{
-			document.write('<td>' + feature.properties.length + '</td>');
-		}
-		if (typeof(feature.properties.level) != "undefined")
-		{
-			document.write('<td>' + feature.properties.level + '</td>');
-		}
-		if (typeof(feature.properties.address) != "undefined")
-		{
-			document.write('<td>' + feature.properties.address + '</td>');
-		}
-		if (typeof(feature.properties.old_name) != "undefined")
-		{
-			document.write('<td>' + feature.properties.old_name + '</td>');
-		}
-		if (typeof(feature.properties.new_name) != "undefined")
-		{
-			document.write('<td>' + feature.properties.new_name + '</td>');
-		}
-		if (typeof(feature.properties.levels) != "undefined")
-		{
-			document.write('<td>' + feature.properties.levels + '</td>');
-		}
-		if (typeof(feature.properties.NumberOfRoads) != "undefined")
-		{
-			document.write('<td>' + feature.properties.NumberOfRoads + '</td>');
-		}
-
-		if (typeof(feature.properties.josm) != "undefined")
-		{
-			var objects = feature.properties.josm.split(',');
-			for(var i=0; i < objects.length; i++)
-			{
-				if (objects[i].indexOf('n') == 0)
-					objects[i] = '<a href="http://www.openstreetmap.org/node/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
-				if (objects[i].indexOf('w') == 0)
-					objects[i] = '<a href="http://www.openstreetmap.org/way/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
-				if (objects[i].indexOf('r') == 0)
-					objects[i] = '<a href="http://www.openstreetmap.org/relation/' + objects[i].substring(1) + '" target="_blank">' + objects[i] + '</a>';
-			}
-			document.write('<td>' + objects.join(', ') + '</td>');
 		}
 		
 		document.write('</tr>');
