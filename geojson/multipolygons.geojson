@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r1777321,n462753294","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03175,49.40503]}},
-{"type":"Feature","properties":{"josm":"r1777321,n7463719884","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[27.03174,49.40682]}},
 {"type":"Feature","properties":{"josm":"r3588237,n5018612075","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[34.10111,44.42992]}},
 {"type":"Feature","properties":{"josm":"r3588237,n5018612077","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[34.10088,44.42996]}},
 {"type":"Feature","properties":{"josm":"r5139006,n4172741963","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.36453,45.32772]}},
@@ -23,7 +21,6 @@
 {"type":"Feature","properties":{"josm":"r9454996,n2786081275","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.25781,50.77004]}},
 {"type":"Feature","properties":{"josm":"r9454996,n5335282101","region":"Житомирська область"},"geometry":{"type":"Point","coordinates":[29.25756,50.77012]}},
 {"type":"Feature","properties":{"josm":"r1734841,w785691142,w785691143","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[34.09513,44.60027]}},
-{"type":"Feature","properties":{"josm":"r421864,w320187018,w794806517","error":"multipolygon members intersect each other","region":"Київська область"},"geometry":{"type":"Point","coordinates":[30.39793,50.64823]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585577449","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[36.58765,45.24594]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585581810","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.57434,45.25111]}},
 {"type":"Feature","properties":{"josm":"r5139006,w563816552,w585583449","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[36.59152,45.24422]}},
