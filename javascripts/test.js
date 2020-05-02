@@ -180,7 +180,7 @@ function popupHtml(feature, errorDescr)
 	}
 
 	if (feature.geometry.type == 'Point')
-		result += '<tr><th>Coordinates:</th><td>' + feature.geometry.coordinates + '</td></tr>';
+		result += '<tr><th>Coordinates:</th><td><a href="geo:' + feature.geometry.coordinates.slice().reverse().join(',') + '">' + feature.geometry.coordinates + '<a></td></tr>';
 	result = result + '</table>';
 	
 	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')">';
@@ -246,7 +246,7 @@ function showTable(geoJson, diff)
 		}
 		document.write('">');
 		document.write('<td>' + (j+1) + '</td>');
-		document.write('<td><input type="button" class="uk-button uk-button-small uk-button-primary" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')"></td>');
+		document.write('<td><input type="button" class="uk-button uk-button-small uk-button-primary" value="Edit" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + (feature.properties.addtags || '') + '\',\'' + feature.geometry.coordinates + '\')"></td>');
 		
 		for (var [prop, propName] of featureProperties)		{
 			var value = feature.properties[prop];
