@@ -126,6 +126,7 @@ var featureProperties = new Map([
 	['new_name', 'New name'],
 	['levels', 'Building Levels'],
 	['NumberOfRoads', 'Roads count'],
+	['website', 'Details'],
 	['josm', 'Objects']
 ]);
 function popupHtml(feature, errorDescr)
@@ -183,7 +184,7 @@ function popupHtml(feature, errorDescr)
 		result += '<tr><th>Coordinates:</th><td><a href="geo:' + feature.geometry.coordinates.slice().reverse().join(',') + '">' + feature.geometry.coordinates + '<a></td></tr>';
 	result = result + '</table>';
 	
-	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + feature.properties.addtags + '\',\'' + feature.geometry.coordinates + '\')">';
+	result += '<input type="button" value="Edit in JOSM" onClick="openInJosm(\'' + feature.properties.josm + '\',\'' + (feature.properties.addtags || '') + '\',\'' + feature.geometry.coordinates + '\')">';
 	result += '<input type="button" value="Edit in Browser" onClick="openInBrowser(\'' + feature.geometry.coordinates + '\')">';
 	
 	return result;
