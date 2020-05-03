@@ -175,6 +175,8 @@ function popupHtml(feature, errorDescr)
 				var tv = value.split('|');
 				result += '<tr><th>Member ' + tv[0] + ':</th><td>' + tv[1] + '</td></tr>';
 				break;
+			case 'website':
+				result += '<tr><th>' + propName + ':</th><td><a href=' + value + '/></td></tr>';
 			default:
 				result += '<tr><th>' + propName + ':</th><td>' + value + '</td></tr>';
 		}
