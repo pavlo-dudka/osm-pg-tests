@@ -177,6 +177,7 @@ function popupHtml(feature, errorDescr)
 				break;
 			case 'website':
 				result += '<tr><th>' + propName + ':</th><td><a href="' + value + '" target="_blank"/></td></tr>';
+				break;
 			default:
 				result += '<tr><th>' + propName + ':</th><td>' + value + '</td></tr>';
 		}
