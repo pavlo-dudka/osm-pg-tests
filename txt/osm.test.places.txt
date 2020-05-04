@@ -1,16 +1,9 @@
 place-way should be closed:
-10460584
-23354549
-25340404
-25340409
-25718307
-30703964
 30722592
 30723909
 190606744
 194329451
 196596539
-230895555
 235276983
 237422636
 274227670
@@ -46,7 +39,6 @@ place-way should be closed:
 681689318
 697223555
 706153453
-759889682
 766271776
 794949142
 794949143
@@ -1392,15 +1384,6 @@ Invalid node role:
 2069883|type|multipolygon|2069883|4464949535|N||2
 3005461|type|multipolygon|3005461|6122967451|N|address|27
 3747915|type|multipolygon|3747915|337575997|N|Ватутіне|0
-4594226|type|multipolygon|4594226|4861701527|N|outer|3
-4594226|type|multipolygon|4594226|4861702902|N|outer|5
-4594226|type|multipolygon|4594226|4861706923|N|outer|7
-4594226|type|multipolygon|4594226|4861709419|N|outer|2
-4594226|type|multipolygon|4594226|4861736165|N|outer|0
-4594226|type|multipolygon|4594226|4861743332|N|outer|1
-4594226|type|multipolygon|4594226|4861746616|N|inner|8
-4594226|type|multipolygon|4594226|5241097301|N|outer|6
-4594226|type|multipolygon|4594226|5241099107|N|outer|4
 5606909|type|multipolygon|5606909|275455357|N|entrance|26
 5606909|type|multipolygon|5606909|414691839|N|entrance|85
 5606909|type|multipolygon|5606909|553716075|N||97
@@ -1500,7 +1483,6 @@ Invalid node role:
 5606909|type|multipolygon|5606909|7165836374|N|entrance|2
 5606909|type|multipolygon|5606909|7165836377|N|entrance|3
 5606909|type|multipolygon|5606909|7165836378|N|entrance|4
-5832508|type|multipolygon|5832508|7387774464|N|admin_center|48
 6303094|type|multipolygon|6303094|6239092974|N|address|2
 6901520|type|multipolygon|6901520|5335830074|N|contain|2
 7409621|type|boundary|7409621|4980785821|N||0
@@ -1514,7 +1496,6 @@ Invalid node role:
 9375813|type|boundary|9375813|6292908762|N|post_office|0
 9449035|type|multipolygon|9449035|6375426895|N|outer|3
 10133195|type|multipolygon|10133195|7281868965|N|part|2
-10414581|type|boundary|10414581|472115092|N|admin_center|0
 
 Invalid way role:
 2308771|585591156|1
@@ -1578,7 +1559,6 @@ Invalid way role:
 
 Invalid relation role:
 1576011|type|multipolygon|1576011|1617908|R|inner|1
-4594226|type|multipolygon|4594226|9610575|R|inner|3090
 5452005|type|multipolygon|5452005|417742|R|inner|2
 5686829|type|multipolygon|5686829|5686828|R|inner|7
 5686830|type|multipolygon|5686830|5686827|R|inner|6
@@ -1594,15 +1574,12 @@ Invalid relation role:
 7757358|type|boundary|7757358|7714666|R|outer|0
 7757394|type|boundary|7757394|7757393|R|admin_centre|0
 7995467|type|multipolygon|7995467|7995465|R|outer|0
-8019974|type|multipolygon|8019974|8019974|R|outer|308
-8019974|type|multipolygon|8019974|8026408|R|outer|317
 8404715|type|boundary|8404715|8374246|R|outer|0
 8704718|type|multipolygon|8704718|8704716|R||4
 8745450|type|multipolygon|8745450|2538857|R|outer|4
 8751787|type|boundary|8751787|8751786|R|outer|0
 9550676|type|multipolygon|9550676|9550675|R|inner|2
 9685393|type|multipolygon|9685393|9979141|R|house|6
-10414581|type|boundary|10414581|11018458|R||27
 10598981|type|multipolygon|10598981|10598983|R|outer|13
 10853953|type|multipolygon|10853953|10853952|R|отдых|0
 
@@ -1615,11 +1592,6 @@ No admin_centre:
 2516278
 2607033
 8077606
-10414581
-10974950
-10974952
-10996511
-11012485
 
 Crimea:
 314762787|Урочище "Иванов мыс"||
