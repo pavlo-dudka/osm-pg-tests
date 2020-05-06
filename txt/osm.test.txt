@@ -34,6 +34,9 @@ building-node in a way:
 4108191993|408916977|addr:housenumber:16в;  building:apartments;  building:cladding:brick;  building:levels:9;  roof:shape:hipped
 4108191993|713000550|building:roof;  building:roof;  height:4;  height:4;  name:Тераса;  name:Тераса;  name:uk:Тераса;  name:uk:Тераса
 4207839390|310232451|highway:unclassified
+4373275728|126713900|highway:tertiary;  name:Лесі Українки вулиця;  name:en:Lesi Ukrainky Street;  name:ru:Леси Украинки улица;  name:uk:Лесі Українки вулиця;  oneway:no;  surface:asphalt
+4373275728|439654544|highway:footway
+4373275728|439654546|highway:footway
 4557845758|89156068|addr:housenumber:37/17;  building:apartments;  building:flats:64;  building:levels:16
 4603812826|752849753|highway:service
 4715629374|255112826|highway:track
@@ -634,7 +637,6 @@ No suffix:
 412 Дивізії вулиця|689511179
 43 (1)|735263377
 43 (2)|763971960
-45 річчя Перемоги вулиця|696348875
 465 б – 509 б|375494799
 4а вулиця|367961079
 4 Азовская улица|269909655
