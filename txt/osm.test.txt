@@ -7,7 +7,6 @@ building-node in a way:
 1447391201|250775833|contact_line:yes;  electrified:contact_line;  frequency:50;  gauge:1520;  passenger_lines:2;  railway:rail;  usage:main;  voltage:25000
 1557256194|482237114|addr:housenumber:5\2;  addr:housenumber:5\2;  addr:street:Самойленка вулиця;  addr:street:Самойленка вулиця;  building:house;  building:house;  name:5\2;  name:5\2
 1635052006|150604024|highway:residential
-1855330073|174886961|highway:service;  oneway:yes
 1938021059|183431298|addr:housenumber:10;  building:yes;  building:entrances:1;  building:levels:16
 1938021062|183431298|addr:housenumber:10;  building:yes;  building:entrances:1;  building:levels:16
 1938021064|183431298|addr:housenumber:10;  building:yes;  building:entrances:1;  building:levels:16
@@ -26,7 +25,6 @@ building-node in a way:
 3224691890|385817494|addr:housenumber:19;  addr:street:600-річчя вулиця;  building:yes
 3408374243|309916880|highway:service
 3431431745|174886963|highway:service
-3431431747|174886960|highway:service;  oneway:yes
 3639617696|732751933|addr:housenumber:5;  addr:street:Народного Ополчення вулиця;  amenity:hospital;  healthcare:hospital;  healthcare:speciality:cardiology;  name:Інститут кардіології імені академіка М.Д. Стражеска;  name:en:Strazhesko Cardiology Institution;  name:ru:Институт кардиологии имени академика М.Д. Стражеско;  name:uk:Інститут кардіології імені академіка М.Д. Стражеска;  operator:НАМН України;  operator:type:public;  phone:+38 067 549 70 17;  website:https://strazhesko.org.ua;  wikidata:Q12074618;  wikipedia:uk:Інститут кардіології імені академіка М. Д. Стражеска
 3652555932|360695948|highway:footway
 3747906827|32708281|addr:housenumber:37а;  addr:street:Сім’ї Ідзиковських вулиця;  building:apartments;  building:levels:5;  building:material:brick
@@ -216,6 +214,7 @@ Redundant space-symbols:
 
 No suffix:
 "100 миль" грунтовий марафон|611112668,711494126,711494131,785826986
+108267 Street|43910774
 108 Гвардейской дивизии улица|723585182
 108 Гвардійської дивізії вулиця|723585182
 10а Ірпінська вулиця|255276080
