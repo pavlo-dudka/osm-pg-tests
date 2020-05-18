@@ -2,6 +2,10 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r10963371,n339472581","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.37941,48.36146]}},
+{"type":"Feature","properties":{"josm":"r10963371,n339472586","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.38035,48.35787]}},
+{"type":"Feature","properties":{"josm":"r10963372,n339472581","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.37941,48.36146]}},
+{"type":"Feature","properties":{"josm":"r10963372,n339472586","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.38035,48.35787]}},
 {"type":"Feature","properties":{"josm":"r11098261,n2241247746","region":"Запорізька область"},"geometry":{"type":"Point","coordinates":[35.13372,47.84494]}},
 {"type":"Feature","properties":{"josm":"r11098261,n425565962","region":"Запорізька область"},"geometry":{"type":"Point","coordinates":[35.13305,47.84532]}},
 {"type":"Feature","properties":{"josm":"r11109848,n2905308214","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.85375,48.49143]}},
@@ -25,6 +29,8 @@
 {"type":"Feature","properties":{"josm":"r5139006,n6797805997","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.45237,45.32297]}},
 {"type":"Feature","properties":{"josm":"r5397767,n2905308214","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.85375,48.49143]}},
 {"type":"Feature","properties":{"josm":"r5397767,n2905308239","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[34.85334,48.49198]}},
+{"type":"Feature","properties":{"josm":"r6633240,n339469760","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.23755,48.49019]}},
+{"type":"Feature","properties":{"josm":"r6633240,n339469806","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.22565,48.49014]}},
 {"type":"Feature","properties":{"josm":"r10787861,w779536362,w779536363","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[22.01307,6.55517]}},
 {"type":"Feature","properties":{"josm":"r11095421,w803214406,w803566410","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[33.05213,-18.38421]}},
 {"type":"Feature","properties":{"josm":"r11095421,w803214406,w805225963","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[33.05211,-18.38418]}},
@@ -84,5 +90,6 @@
 {"type":"Feature","properties":{"josm":"r5139006,w768609304,w802356067","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.50643,45.30751]}},
 {"type":"Feature","properties":{"josm":"r5139006,w768609305,w768609306","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.47157,45.32786]}},
 {"type":"Feature","properties":{"josm":"r5139006,w768609307,w802356066","error":"multipolygon members intersect each other","region":"Автономна Республіка Крим"},"geometry":{"type":"Point","coordinates":[36.50482,45.30945]}},
+{"type":"Feature","properties":{"josm":"r6633240,w30698513,w511101491","error":"multipolygon members intersect each other","region":"Закарпатська область"},"geometry":{"type":"Point","coordinates":[22.22614,48.49019]}},
 {"type":"Feature"}
 ]}
