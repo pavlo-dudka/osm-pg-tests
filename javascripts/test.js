@@ -3,14 +3,14 @@ function showMap(geoJson, diff)
 	var map = L.map('map').setView([49, 31], 6);
 	map.addControl(new L.Control.Permalink());
 	
-	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
 		attribution: '&copy; <a href="http://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
 	}).addTo(map);
 
 	if (geoJson.indexOf("railway.dead.ends") > 0)
 	{
-		L.tileLayer('http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
+		L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
 			maxZoom: 19,
 			attribution: '<a href="http://www.openrailwaymap.org/" target="_blank">OpenRailwayMap</a>'
 		}).addTo(map);
