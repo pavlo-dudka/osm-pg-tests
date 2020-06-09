@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
-{"type":"Feature","properties":{"josm":"r10357152,n7070486630","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.62462,50.33939]}},
-{"type":"Feature","properties":{"josm":"r10357152,n7141911308","region":"Хмельницька область"},"geometry":{"type":"Point","coordinates":[26.62426,50.33968]}},
 {"type":"Feature","properties":{"josm":"r1175542,n1807251196","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.44767,50.44741]}},
 {"type":"Feature","properties":{"josm":"r1175542,n3150938969","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.44983,50.44979]}},
 {"type":"Feature","properties":{"josm":"r2197308,n30525923","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.0272,49.84322]}},
@@ -134,6 +132,7 @@
 {"type":"Feature","properties":{"josm":"r6015703,w812806102,w813078781","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-49.69299,-25.60088]}},
 {"type":"Feature","properties":{"josm":"r6191718,w415747387,w415747394","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[29.29795,-15.74737]}},
 {"type":"Feature","properties":{"josm":"r6191718,w415747390,w813624184","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[29.20875,-15.78552]}},
+{"type":"Feature","properties":{"josm":"r6278356,w122118251,w422296569","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[38.28856,46.73972]}},
 {"type":"Feature","properties":{"josm":"r6353660,w427053928,w427053937","error":"multipolygon members intersect each other","region":"Дніпропетровська область"},"geometry":{"type":"Point","coordinates":[33.58123,48.38586]}},
 {"type":"Feature","properties":{"josm":"r7205265,w810867987,w810867993","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-75.63211,24.53637]}},
 {"type":"Feature","properties":{"josm":"r7231113,w216944960,w810897605","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[21.19518,63.19328]}},
