@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "errorDescr": "Inconsistent street name on relation and object",
 "features": [
+{"type":"Feature","properties":{"josm":"r10025425,w438380219","relationtags":"name|Озерная вулиця","membertags":"addr:street|Озерна вулиця","memberrole":"house"},"geometry":{"type":"Point","coordinates":[28.3864,49.23699]}},
 {"type":"Feature","properties":{"josm":"r10044645,w162914759","relationtags":"name:ru|улица Третьякевича","membertags":"name:ru|Третьякевича улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.73723,48.35134]}},
 {"type":"Feature","properties":{"josm":"r10044645,w162914759","relationtags":"name:uk|вулиця Третякевича","membertags":"name:uk|Третякевича вулиця","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.73723,48.35134]}},
 {"type":"Feature","properties":{"josm":"r10044645,w162914759","relationtags":"name|улица Третьякевича","membertags":"name|Третьякевича улица","memberrole":"street"},"geometry":{"type":"Point","coordinates":[39.73723,48.35134]}},
