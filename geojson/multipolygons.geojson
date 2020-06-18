@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "errorDescr": "Multipolygon end-node",
 "features": [
+{"type":"Feature","properties":{"josm":"r11214719,n1939442510","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[30.64883,49.15435]}},
+{"type":"Feature","properties":{"josm":"r11214719,n1939442582","region":"Черкаська область"},"geometry":{"type":"Point","coordinates":[30.67979,49.16602]}},
 {"type":"Feature","properties":{"josm":"r1175542,n1807251196","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.44767,50.44741]}},
 {"type":"Feature","properties":{"josm":"r1175542,n3150938969","region":"Київ"},"geometry":{"type":"Point","coordinates":[30.44983,50.44979]}},
 {"type":"Feature","properties":{"josm":"r2197308,n30525923","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[24.0272,49.84322]}},
@@ -32,8 +34,6 @@
 {"type":"Feature","properties":{"josm":"r9298450,n7597716996","region":"Львівська область"},"geometry":{"type":"Point","coordinates":[25.02996,49.88912]}},
 {"type":"Feature","properties":{"josm":"r9702610,n6557190842","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[30.86433,50.88722]}},
 {"type":"Feature","properties":{"josm":"r9702610,n6880940327","region":"Чернігівська область"},"geometry":{"type":"Point","coordinates":[30.85961,50.87101]}},
-{"type":"Feature","properties":{"josm":"r10991641,w788756536,w815122229","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[18.53426,-28.87245]}},
-{"type":"Feature","properties":{"josm":"r10991641,w788756536,w815122233","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[18.53385,-28.87666]}},
 {"type":"Feature","properties":{"josm":"r11198436,w815502478,w815961887","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-120.7418,47.0035]}},
 {"type":"Feature","properties":{"josm":"r11198436,w815502478,w815961889","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-120.74311,47.00305]}},
 {"type":"Feature","properties":{"josm":"r11198436,w815502478,w815961890","error":"multipolygon members intersect each other","region":""},"geometry":{"type":"Point","coordinates":[-120.73823,47.003]}},
