@@ -122,7 +122,7 @@
 <title>multipolygons - 96 error(s) found at 20 Aug 2020 05:45</title>
 <description><![CDATA[96 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Thu, 20 Aug 2020 05:45:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 10 insertions(+), 200 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 67 insertions(+), 49 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 14 insertions(+), 136 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -152,7 +152,7 @@
 <title>railway.crossings - 105 error(s) found at 19 Aug 2020 13:32</title>
 <description><![CDATA[105 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.crossings>table</a>]]></description>
 <pubDate>Wed, 19 Aug 2020 13:32:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 105 insertions(+)</gitDiff3d>
+<gitDiff3d> 1 file changed, 2 deletions(-)</gitDiff3d>
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
@@ -162,7 +162,7 @@
 <title>railway.islands.main - 181 error(s) found at 20 Aug 2020 01:46</title>
 <description><![CDATA[181 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.main>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.main>table</a>]]></description>
 <pubDate>Thu, 20 Aug 2020 01:46:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 181 insertions(+)</gitDiff3d>
+<gitDiff3d> 1 file changed, 2 insertions(+)</gitDiff3d>
 <gitDiff10d> 1 file changed, 7 insertions(+), 7 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -172,7 +172,7 @@
 <title>railway.islands.service - 482 error(s) found at 19 Aug 2020 13:32</title>
 <description><![CDATA[482 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.service>table</a>]]></description>
 <pubDate>Wed, 19 Aug 2020 13:32:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 482 insertions(+)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
@@ -182,7 +182,7 @@
 <title>railway.sharp.turns - 26 error(s) found at 19 Aug 2020 13:32</title>
 <description><![CDATA[26 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
 <pubDate>Wed, 19 Aug 2020 13:32:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 26 insertions(+)</gitDiff3d>
+<gitDiff3d> 1 file changed, 5 insertions(+), 1 deletion(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 5 insertions(+)</gitDiff10d>
 </item>
 <item>
@@ -202,7 +202,7 @@
 <title>street.relations - 3559 error(s) found at 20 Aug 2020 03:48</title>
 <description><![CDATA[3559 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Thu, 20 Aug 2020 03:48:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 3505 insertions(+), 1 deletion(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 189 insertions(+), 14 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 313 insertions(+), 25 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -263,7 +263,7 @@
 <description><![CDATA[103 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
 <pubDate>Wed, 19 Aug 2020 13:32:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 103 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 103 insertions(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 15 deletions(-)</gitDiff10d>
 </item>
 </channel>
 </rss>
