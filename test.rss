@@ -93,7 +93,7 @@
 <description><![CDATA[304 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
 <pubDate>Thu, 24 Sep 2020 16:59:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 7 insertions(+), 10 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 20 insertions(+), 15 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 19 insertions(+), 15 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandstertiary202009241543</guid>
@@ -113,7 +113,7 @@
 <description><![CDATA[394 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.unclassified>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.unclassified>table</a>]]></description>
 <pubDate>Thu, 24 Sep 2020 10:35:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 5 insertions(+), 4 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 29 insertions(+), 10 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 28 insertions(+), 10 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">multipolygons202009241302</guid>
@@ -183,7 +183,7 @@
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
 <pubDate>Thu, 24 Sep 2020 14:23:00 +0300</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 5 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">sharpturns202009241543</guid>
@@ -196,14 +196,14 @@
 <gitDiff10d> 1 file changed, 4 insertions(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations202009241815</guid>
+<guid isPermaLink="false">streetrelations202009241930</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 3934 error(s) found at 24 Sep 2020 18:15</title>
-<description><![CDATA[3934 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Thu, 24 Sep 2020 18:15:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 32 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 255 insertions(+), 30 deletions(-)</gitDiff10d>
+<title>street.relations - 74 error(s) found at 24 Sep 2020 19:30</title>
+<description><![CDATA[74 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
+<pubDate>Thu, 24 Sep 2020 19:30:00 +0300</pubDate>
+<gitDiff3d></gitDiff3d>
+<gitDiff10d> 1 file changed, 9 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm202009241659</guid>
@@ -213,7 +213,7 @@
 <description><![CDATA[264 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Thu, 24 Sep 2020 16:59:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 4 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 4 insertions(+), 6 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 267 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202009141140</guid>
@@ -243,7 +243,7 @@
 <description><![CDATA[942 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.o>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.o>table</a>]]></description>
 <pubDate>Wed, 23 Sep 2020 19:41:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 2 insertions(+), 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 37 insertions(+), 8 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 37 insertions(+), 7 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsos202009231941</guid>
@@ -253,17 +253,17 @@
 <description><![CDATA[794 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.os>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.os>table</a>]]></description>
 <pubDate>Wed, 23 Sep 2020 19:41:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 2 insertions(+), 1 deletion(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 27 insertions(+), 7 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 27 insertions(+), 6 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">waterwayslayer202009241815</guid>
+<guid isPermaLink="false">waterwayslayer202009241930</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?waterways.layer</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>waterways.layer - 120 error(s) found at 24 Sep 2020 18:15</title>
-<description><![CDATA[120 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
-<pubDate>Thu, 24 Sep 2020 18:15:00 +0300</pubDate>
-<gitDiff3d> 1 file changed, 128 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 5 insertions(+), 4 deletions(-)</gitDiff10d>
+<title>waterways.layer - 0 error(s) found at 24 Sep 2020 19:30</title>
+<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
+<pubDate>Thu, 24 Sep 2020 19:30:00 +0300</pubDate>
+<gitDiff3d></gitDiff3d>
+<gitDiff10d></gitDiff10d>
 </item>
 </channel>
 </rss>
