@@ -123,7 +123,7 @@
 <description><![CDATA[152 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Fri, 02 Oct 2020 18:21:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 158 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 125 insertions(+), 26 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 66 insertions(+), 332 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202010010138</guid>
@@ -183,7 +183,7 @@
 <description><![CDATA[5 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
 <pubDate>Thu, 01 Oct 2020 01:38:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 11 insertions(+)</gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 5 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">sharpturns202010021723</guid>
@@ -203,7 +203,7 @@
 <description><![CDATA[4010 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Fri, 02 Oct 2020 17:23:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 4017 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 206 insertions(+), 169 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 3947 insertions(+), 77 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm202010010711</guid>
@@ -213,7 +213,7 @@
 <description><![CDATA[263 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Thu, 01 Oct 2020 07:11:00 +0300</pubDate>
 <gitDiff3d> 1 file changed, 271 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 3 insertions(+), 6 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 265 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202010010958</guid>
