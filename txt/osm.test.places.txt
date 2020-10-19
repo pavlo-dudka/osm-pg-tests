@@ -1564,6 +1564,7 @@ Invalid node role:
 10133195|type|multipolygon|10133195|7281868965|N|part|2
 11486275|type|boundary|11486275|1626817703|N||0
 11724926|type|multipolygon|11724926|7982337705|N|outer|29
+11744240|type|multipolygon|11744240|4863784421|N|inner|0
 
 Invalid way role:
 2308771|585591156|1
@@ -1643,10 +1644,9 @@ Invalid relation role:
 9550676|type|multipolygon|9550676|9550675|R|inner|2
 9685393|type|multipolygon|9685393|9979141|R|house|6
 10598981|type|multipolygon|10598981|10598983|R|outer|13
-10853953|type|multipolygon|10853953|10853952|R|отдых|0
 11636365|type|multipolygon|11636365|11636364|R|outer|3
 11671769|type|multipolygon|11671769|2604589|R|inner|27
-11753240|type|multipolygon|11753240|11762913|R|inner|259
+11753240|type|multipolygon|11753240|11762913|R|inner|273
 11765453|type|multipolygon|11765453|11114876|R|outer|26
 
 No admin_centre:
@@ -1663,6 +1663,7 @@ No admin_centre:
 435511
 554656
 554686
+1119533
 1268484
 1269196
 1275387
