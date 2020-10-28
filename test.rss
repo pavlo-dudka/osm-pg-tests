@@ -72,7 +72,7 @@
 <title>highway.crossings - 218 error(s) found at 28 Oct 2020 02:37</title>
 <description><![CDATA[218 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Wed, 28 Oct 2020 02:37:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 33 insertions(+), 6 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 33 insertions(+), 7 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 71 insertions(+), 19 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -152,7 +152,7 @@
 <title>railway.crossings - 103 error(s) found at 28 Oct 2020 01:38</title>
 <description><![CDATA[103 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.crossings>table</a>]]></description>
 <pubDate>Wed, 28 Oct 2020 01:38:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 103 insertions(+)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d> 1 file changed, 103 insertions(+)</gitDiff10d>
 </item>
 <item>
@@ -162,7 +162,7 @@
 <title>railway.islands.main - 191 error(s) found at 28 Oct 2020 01:38</title>
 <description><![CDATA[191 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.main>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.main>table</a>]]></description>
 <pubDate>Wed, 28 Oct 2020 01:38:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 191 insertions(+)</gitDiff3d>
+<gitDiff3d> 1 file changed, 3 insertions(+), 3 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 191 insertions(+)</gitDiff10d>
 </item>
 <item>
@@ -172,7 +172,7 @@
 <title>railway.islands.service - 489 error(s) found at 28 Oct 2020 01:38</title>
 <description><![CDATA[489 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.service>table</a>]]></description>
 <pubDate>Wed, 28 Oct 2020 01:38:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 489 insertions(+)</gitDiff3d>
+<gitDiff3d> 1 file changed, 4 insertions(+), 2 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 489 insertions(+)</gitDiff10d>
 </item>
 <item>
@@ -182,7 +182,7 @@
 <title>railway.sharp.turns - 0 error(s) found at 27 Oct 2020 18:14</title>
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
 <pubDate>Tue, 27 Oct 2020 18:14:00 +0200</pubDate>
-<gitDiff3d></gitDiff3d>
+<gitDiff3d> 1 file changed, 1 deletion(-)</gitDiff3d>
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
@@ -206,14 +206,14 @@
 <gitDiff10d> 1 file changed, 3 insertions(+), 4634 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsm202010280435</guid>
+<guid isPermaLink="false">streetrelationsm202010280641</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.m</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.m - 0 error(s) found at 28 Oct 2020 04:35</title>
-<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
-<pubDate>Wed, 28 Oct 2020 04:35:00 +0200</pubDate>
-<gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 267 deletions(-)</gitDiff10d>
+<title>street.relations.m - 269 error(s) found at 28 Oct 2020 06:41</title>
+<description><![CDATA[269 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
+<pubDate>Wed, 28 Oct 2020 06:41:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 271 insertions(+)</gitDiff3d>
+<gitDiff10d> 1 file changed, 6 insertions(+), 2 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202010161640</guid>
@@ -262,7 +262,7 @@
 <title>waterways.layer - 0 error(s) found at 28 Oct 2020 00:38</title>
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
 <pubDate>Wed, 28 Oct 2020 00:38:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 135 deletions(-)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d></gitDiff10d>
 </item>
 </channel>
