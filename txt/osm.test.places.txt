@@ -1589,6 +1589,7 @@ Multiple polygons:
 
 Invalid node role:
 296516|type|boundary|296516|8050635662|N||18
+349348|type|multipolygon|349348|8076751199|N|outer|0
 383665|type|boundary|383665|8018567526|N||184
 1689862|type|multipolygon|1689862|177532814|N||8
 1689862|type|multipolygon|1689862|180730584|N||2
@@ -1719,6 +1720,7 @@ Invalid node role:
 10133195|type|multipolygon|10133195|7281868965|N|part|2
 11486275|type|boundary|11486275|1626817703|N||0
 11724926|type|multipolygon|11724926|7982337705|N|outer|29
+11764895|type|multipolygon|11764895|8076751199|N|inner|0
 11770124|type|multipolygon|11770124|8065066543|N|inner|0
 11820430|type|multipolygon|11820430|8071970493|N|outer|0
 
@@ -1776,7 +1778,7 @@ Invalid way role:
 
 Invalid relation role:
 104784|type|boundary|104784|183453|R|admin_centre|88
-349348|type|multipolygon|349348|11823388|R|inner|7444
+349348|type|multipolygon|349348|11823388|R|inner|7497
 1260551|type|boundary|1260551|2502058|R|land_area|59
 1328370|type|multipolygon|1328370|11823859|R|inner|4
 1328370|type|multipolygon|1328370|11824180|R|inner|3
