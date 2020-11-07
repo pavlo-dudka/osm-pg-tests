@@ -12,7 +12,7 @@
 <title>almost.junctions - 94 error(s) found at 07 Nov 2020 02:59</title>
 <description><![CDATA[94 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
 <pubDate>Sat, 07 Nov 2020 02:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 13 insertions(+), 1 deletion(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 12 insertions(+), 1 deletion(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 20 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
@@ -123,7 +123,7 @@
 <description><![CDATA[79 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Fri, 06 Nov 2020 18:59:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 30 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 43 insertions(+), 342 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 43 insertions(+), 345 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202011062309</guid>
@@ -176,14 +176,14 @@
 <gitDiff10d> 1 file changed, 3 insertions(+), 5 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">railwaysharpturns202011070259</guid>
+<guid isPermaLink="false">railwaysharpturns202011070412</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?railway.sharp.turns</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>railway.sharp.turns - 1 error(s) found at 07 Nov 2020 02:59</title>
-<description><![CDATA[1 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
-<pubDate>Sat, 07 Nov 2020 02:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+)</gitDiff10d>
+<title>railway.sharp.turns - 0 error(s) found at 07 Nov 2020 04:12</title>
+<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
+<pubDate>Sat, 07 Nov 2020 04:12:00 +0200</pubDate>
+<gitDiff3d></gitDiff3d>
+<gitDiff10d></gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">sharpturns202011060041</guid>
@@ -202,7 +202,7 @@
 <title>street.relations - 5020 error(s) found at 07 Nov 2020 01:44</title>
 <description><![CDATA[5020 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Sat, 07 Nov 2020 01:44:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 44 insertions(+), 26 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 4948 insertions(+)</gitDiff3d>
 <gitDiff10d> 1 file changed, 322 insertions(+), 82 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -256,14 +256,14 @@
 <gitDiff10d> 1 file changed, 24 insertions(+), 17 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">waterwayslayer202011070259</guid>
+<guid isPermaLink="false">waterwayslayer202011070412</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?waterways.layer</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>waterways.layer - 130 error(s) found at 07 Nov 2020 02:59</title>
-<description><![CDATA[130 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
-<pubDate>Sat, 07 Nov 2020 02:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 143 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 143 insertions(+)</gitDiff10d>
+<title>waterways.layer - 0 error(s) found at 07 Nov 2020 04:12</title>
+<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
+<pubDate>Sat, 07 Nov 2020 04:12:00 +0200</pubDate>
+<gitDiff3d></gitDiff3d>
+<gitDiff10d></gitDiff10d>
 </item>
 </channel>
 </rss>
