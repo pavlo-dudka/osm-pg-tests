@@ -29,9 +29,6 @@ building-node in a way:
 4108191993|408916977|addr:housenumber:16в;  building:apartments;  building:cladding:brick;  building:levels:9;  roof:shape:hipped
 4108191993|713000550|building:roof;  building:roof;  height:4;  height:4;  name:Тераса;  name:Тераса;  name:uk:Тераса;  name:uk:Тераса
 4207839390|310232451|highway:unclassified
-4373275728|126713900|highway:tertiary;  name:Лесі Українки вулиця;  name:en:Lesi Ukrainky Street;  name:pl:ulica Łesi Ukrainki;  name:ru:Леси Украинки улица;  name:uk:Лесі Українки вулиця;  oneway:no;  surface:asphalt
-4373275728|439654544|highway:footway
-4373275728|439654546|highway:footway
 4557845758|89156068|addr:housenumber:37/17;  building:apartments;  building:flats:64;  building:levels:16
 4603812826|752849753|highway:service
 4715724690|111758272|addr:housenumber:1а;  addr:street:Феодосія Макаревського провулок;  building:yes;  building:levels:2
@@ -560,7 +557,7 @@ No suffix:
 60К-4.2 – Константиновск – Тацинский|218199617
 60 Років Жовтня вулиця|110408237
 610132 Street|750189583
-650 East|17263767
+650 East|17263765,17263767
 6960 South|10148775
 69 Street NW|25497418
 69 Гвардійської дивізії вулиця|260274288
@@ -725,6 +722,7 @@ East 1100 North|17463006
 East 1100 Road|13043279
 East 1100 South|660168367
 East 117 Street|18521132
+East 1300 South|17507391
 East 1400 North|17501429
 East 1400 South|17501503
 East 1460 Road|14792137
@@ -786,6 +784,7 @@ N3520 Road|14850711
 N 500 Road|13040682
 NC-109 S|16399515
 No 3 Main Road|604108487
+North 100 W|17544426
 North 100 West|40396612,430288254,5335349,862884108
 North 140 West|5330125
 North 150 East|166242711
