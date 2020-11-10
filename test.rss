@@ -123,7 +123,7 @@
 <description><![CDATA[83 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Mon, 09 Nov 2020 22:28:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 9 insertions(+), 5 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 44 insertions(+), 384 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 44 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202011062309</guid>
@@ -182,7 +182,7 @@
 <title>railway.sharp.turns - 0 error(s) found at 07 Nov 2020 20:05</title>
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
 <pubDate>Sat, 07 Nov 2020 20:05:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 1 deletion(-)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d></gitDiff10d>
 </item>
 <item>
@@ -196,14 +196,14 @@
 <gitDiff10d> 1 file changed, 4 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelations202011100959</guid>
+<guid isPermaLink="false">streetrelations202011101235</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations - 5050 error(s) found at 10 Nov 2020 09:59</title>
-<description><![CDATA[5050 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
-<pubDate>Tue, 10 Nov 2020 09:59:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 4978 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 4982 insertions(+)</gitDiff10d>
+<title>street.relations - 5051 error(s) found at 10 Nov 2020 12:35</title>
+<description><![CDATA[5051 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
+<pubDate>Tue, 10 Nov 2020 12:35:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 131 insertions(+), 100 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 400 insertions(+), 138 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsm202011092345</guid>
@@ -213,7 +213,7 @@
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Mon, 09 Nov 2020 23:45:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 272 deletions(-)</gitDiff10d>
+<gitDiff10d></gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202010161640</guid>
@@ -243,7 +243,7 @@
 <description><![CDATA[968 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.o>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.o>table</a>]]></description>
 <pubDate>Tue, 10 Nov 2020 03:31:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 15 insertions(+), 8 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 28 insertions(+), 21 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 27 insertions(+), 21 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsos202011100331</guid>
@@ -253,7 +253,7 @@
 <description><![CDATA[817 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.os>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.os>table</a>]]></description>
 <pubDate>Tue, 10 Nov 2020 03:31:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 13 insertions(+), 7 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 25 insertions(+), 18 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 24 insertions(+), 18 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">waterwayslayer202011100216</guid>
@@ -263,7 +263,7 @@
 <description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
 <pubDate>Tue, 10 Nov 2020 02:16:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 137 deletions(-)</gitDiff10d>
 </item>
 </channel>
 </rss>
