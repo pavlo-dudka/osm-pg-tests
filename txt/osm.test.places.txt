@@ -4,6 +4,7 @@ place-way should be closed:
 4180905
 4530281
 4534811
+8059105
 9975281
 13539215
 16319979
@@ -144,6 +145,7 @@ place-way should be closed:
 289860887
 289861101
 292464196
+293250922
 293250933
 297857855
 298850391
@@ -1667,7 +1669,7 @@ Invalid node role:
 5606909|type|multipolygon|5606909|3802577671|N|entrance|90
 5606909|type|multipolygon|5606909|5752125712|N||96
 5606909|type|multipolygon|5606909|5752125713|N||95
-5606909|type|multipolygon|5606909|5755711469|N||98
+5606909|type|multipolygon|5606909|5755711469|N|outer|98
 5606909|type|multipolygon|5606909|5759317306|N|entrance|94
 5606909|type|multipolygon|5606909|5759317307|N|entrance|93
 5606909|type|multipolygon|5606909|5759317308|N|entrance|92
@@ -1825,11 +1827,11 @@ Invalid way role:
 
 Invalid relation role:
 104784|type|boundary|104784|183453|R|admin_centre|88
-349348|type|multipolygon|349348|11823388|R|inner|8362
-349348|type|multipolygon|349348|11840926|R|inner|8363
-349348|type|multipolygon|349348|11841087|R|inner|8364
-349348|type|multipolygon|349348|11846570|R|inner|8365
-349348|type|multipolygon|349348|11864321|R|inner|8366
+349348|type|multipolygon|349348|11823388|R|inner|8431
+349348|type|multipolygon|349348|11840926|R|inner|8432
+349348|type|multipolygon|349348|11841087|R|inner|8433
+349348|type|multipolygon|349348|11846570|R|inner|8434
+349348|type|multipolygon|349348|11864321|R|inner|8435
 1260551|type|boundary|1260551|2502058|R|land_area|59
 1552357|type|boundary|1552357|10386350|R|admin_centre|0
 1576011|type|multipolygon|1576011|1617908|R|inner|1
