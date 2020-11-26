@@ -4,6 +4,10 @@
 "features": [
 {"type":"Feature","id":"337697598","properties":{"josm":"n337697598,r1754565,r1754556","cur_district":"Феодосийский городской совет","exp_district":"Кировский район","name":"Узловое","region":"Автономна Республіка Крим","koatuu":"0121680802"},"geometry":{"type":"Point","coordinates":[35.39907,45.126]}},
 {"type":"Feature","id":"249748477","properties":{"josm":"n249748477,r11914591,r361818","cur_district":"Вінницький район","exp_district":"Вінниця","name":"Вінниця","region":"Вінницька область","koatuu":"0510100000"},"geometry":{"type":"Point","coordinates":[28.46798,49.23202]}},
+{"type":"Feature","id":"337574997","properties":{"josm":"n337574997,r11951881,r2773264","cur_district":"Жмеринський район","exp_district":"Жмеринка","name":"Жмеринка","region":"Вінницька область","koatuu":"0510300000"},"geometry":{"type":"Point","coordinates":[28.11473,49.03546]}},
+{"type":"Feature","id":"337598184","properties":{"josm":"n337598184,r11951882,r6059545","cur_district":"Могилів-Подільський район","exp_district":"Могилів-Подільська міська рада","name":"Могилів-Подільський","region":"Вінницька область","koatuu":"0510400000"},"geometry":{"type":"Point","coordinates":[27.79911,48.44254]}},
+{"type":"Feature","id":"337599252","properties":{"josm":"n337599252,r11951882,r6059545","cur_district":"Могилів-Подільський район","exp_district":"Могилів-Подільська міська рада","name":"Одая","region":"Вінницька область","koatuu":"0510490001"},"geometry":{"type":"Point","coordinates":[27.85824,48.4164]}},
+{"type":"Feature","id":"337598093","properties":{"josm":"n337598093,r11951882,r6059545","cur_district":"Могилів-Подільський район","exp_district":"Могилів-Подільська міська рада","name":"Сонячне","region":"Вінницька область","koatuu":"0510490003"},"geometry":{"type":"Point","coordinates":[27.84159,48.45363]}},
 {"type":"Feature","id":"1033896207","properties":{"josm":"n1033896207,r11914609,r5498011","cur_district":"Хмільницький район","exp_district":"Козятинська міська рада","name":"Козятин","region":"Вінницька область","koatuu":"0510500000"},"geometry":{"type":"Point","coordinates":[28.83543,49.71959]}},
 {"type":"Feature","id":"337546366","properties":{"josm":"n337546366,r11914609,r5498011","cur_district":"Хмільницький район","exp_district":"Козятинська міська рада","name":"Залізничне","region":"Вінницька область","koatuu":"0510541000"},"geometry":{"type":"Point","coordinates":[28.78883,49.7492]}},
 {"type":"Feature","id":"337589660","properties":{"josm":"n337589660,r11928916,r2822499","cur_district":"Гайсинський район","exp_district":"Ладижинська міська рада","name":"Ладижин","region":"Вінницька область","koatuu":"0510600000"},"geometry":{"type":"Point","coordinates":[29.25676,48.68105]}},
@@ -56,10 +60,164 @@
 
 
 
-{"type":"Feature","id":"337571485","properties":{"josm":"n337571485,r11914591,r1149454","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Демидівка","region":"Вінницька область","koatuu":"0521080603"},"geometry":{"type":"Point","coordinates":[28.2534,49.11472]}},
-{"type":"Feature","id":"337571948","properties":{"josm":"n337571948,r11914591,r1149454","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Могилівка","region":"Вінницька область","koatuu":"0521080606"},"geometry":{"type":"Point","coordinates":[28.29898,49.09712]}},
-{"type":"Feature","id":"337575134","properties":{"josm":"n337575134,r11914591,r1149454","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Потоки","region":"Вінницька область","koatuu":"0521084503"},"geometry":{"type":"Point","coordinates":[28.22765,49.03576]}},
-{"type":"Feature","id":"337575366","properties":{"josm":"n337575366,r11914591,r1149454","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Рижавка","region":"Вінницька область","koatuu":"0521084506"},"geometry":{"type":"Point","coordinates":[28.29769,49.03026]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"type":"Feature","id":"337571485","properties":{"josm":"n337571485,r11914591,r11951881","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Демидівка","region":"Вінницька область","koatuu":"0521080603"},"geometry":{"type":"Point","coordinates":[28.2534,49.11472]}},
+{"type":"Feature","id":"337571948","properties":{"josm":"n337571948,r11914591,r11951881","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Могилівка","region":"Вінницька область","koatuu":"0521080606"},"geometry":{"type":"Point","coordinates":[28.29898,49.09712]}},
+{"type":"Feature","id":"337575134","properties":{"josm":"n337575134,r11914591,r11951881","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Потоки","region":"Вінницька область","koatuu":"0521084503"},"geometry":{"type":"Point","coordinates":[28.22765,49.03576]}},
+{"type":"Feature","id":"337575366","properties":{"josm":"n337575366,r11914591,r11951881","cur_district":"Вінницький район","exp_district":"Жмеринський район","name":"Рижавка","region":"Вінницька область","koatuu":"0521084506"},"geometry":{"type":"Point","coordinates":[28.29769,49.03026]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -834,12 +992,146 @@
 
 
 
-{"type":"Feature","id":"337586058","properties":{"josm":"n337586058,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Рахни-Лісові","region":"Вінницька область","koatuu":"0525386901"},"geometry":{"type":"Point","coordinates":[28.48029,48.78179]}},
-{"type":"Feature","id":"337585591","properties":{"josm":"n337585591,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Стрільники","region":"Вінницька область","koatuu":"0525387801"},"geometry":{"type":"Point","coordinates":[28.40998,48.79335]}},
-{"type":"Feature","id":"337584763","properties":{"josm":"n337584763,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Лопатинці","region":"Вінницька область","koatuu":"0525387802"},"geometry":{"type":"Point","coordinates":[28.36684,48.81379]}},
-{"type":"Feature","id":"337587763","properties":{"josm":"n337587763,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Юліямпіль","region":"Вінницька область","koatuu":"0525389001"},"geometry":{"type":"Point","coordinates":[28.48342,48.72314]}},
-{"type":"Feature","id":"337588043","properties":{"josm":"n337588043,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Юліямпільське","region":"Вінницька область","koatuu":"0525389002"},"geometry":{"type":"Point","coordinates":[28.50369,48.7144]}},
-{"type":"Feature","id":"337589248","properties":{"josm":"n337589248,r11951843,r1748965","cur_district":"Тульчинський район","exp_district":"Шаргородський район","name":"Ярове","region":"Вінницька область","koatuu":"0525389003"},"geometry":{"type":"Point","coordinates":[28.4999,48.68906]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
