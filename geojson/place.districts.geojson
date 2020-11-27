@@ -5175,8 +5175,8 @@
 
 {"type":"Feature","id":"26150796","properties":{"josm":"n26150796,r11900985,r1934961","cur_district":"Бориспільський район","exp_district":"Бориспіль","name":"Бориспіль","region":"Київська область","koatuu":"3210500000"},"geometry":{"type":"Point","coordinates":[30.95077,50.35121]}},
 {"type":"Feature","id":"3673183717","properties":{"josm":"n3673183717,r11900969,r1929810","cur_district":"Броварський район","exp_district":"Бровари","name":"Бровари","region":"Київська область","koatuu":"3210600000"},"geometry":{"type":"Point","coordinates":[30.79005,50.51112]}},
-{"type":"Feature","id":"337527490","properties":{"josm":"n337527490,r11909246,r3586905","cur_district":"Обухівський район","exp_district":"Васильківська міська рада","name":"Васильків","region":"Київська область","koatuu":"3210700000"},"geometry":{"type":"Point","coordinates":[30.32158,50.17387]}},
 {"type":"Feature","id":"337527490","properties":{"josm":"n337527490,r11909246,r4740389","cur_district":"Обухівський район","exp_district":"Васильків","name":"Васильків","region":"Київська область","koatuu":"3210700000"},"geometry":{"type":"Point","coordinates":[30.32158,50.17387]}},
+{"type":"Feature","id":"337527490","properties":{"josm":"n337527490,r11909246,r3586905","cur_district":"Обухівський район","exp_district":"Васильківська міська рада","name":"Васильків","region":"Київська область","koatuu":"3210700000"},"geometry":{"type":"Point","coordinates":[30.32158,50.17387]}},
 {"type":"Feature","id":"337535557","properties":{"josm":"n337535557,r11900985,r3586906","cur_district":"Бориспільський район","exp_district":"Переяслав","name":"Переяслав","region":"Київська область","koatuu":"3211000000"},"geometry":{"type":"Point","coordinates":[31.44473,50.0644]}},
 {"type":"Feature","id":"127835001","properties":{"josm":"n127835001,r11892210,r2313444","cur_district":"Вишгородський район","exp_district":"Прип’ять","name":"Прип’ять","region":"Київська область","koatuu":"3211100000"},"geometry":{"type":"Point","coordinates":[30.05711,51.40612]}},
 {"type":"Feature","id":"337535126","properties":{"josm":"n337535126,r11913464,r2533207","cur_district":"Фастівський район","exp_district":"Фастів","name":"Фастів","region":"Київська область","koatuu":"3211200000"},"geometry":{"type":"Point","coordinates":[29.91628,50.07993]}},
@@ -15038,11 +15038,32 @@
 
 
 
+
+
 {"type":"Feature","id":"1059862891","properties":{"josm":"n1059862891,r1739132,r2139166","cur_district":"Золотоніський район","exp_district":"Золотоніська міська рада","name":"Золотоноша","region":"Черкаська область","koatuu":"7110400000"},"geometry":{"type":"Point","coordinates":[32.04333,49.6688]}},
 {"type":"Feature","id":"2057433199","properties":{"josm":"n2057433199,r1739132,r2139166","cur_district":"Золотоніський район","exp_district":"Золотоніська міська рада","name":"Гришківка","region":"Черкаська область","koatuu":"7110494501"},"geometry":{"type":"Point","coordinates":[32.12338,49.67985]}},
 {"type":"Feature","id":"337550613","properties":{"josm":"n337550613,r1739132,r2139166","cur_district":"Золотоніський район","exp_district":"Золотоніська міська рада","name":"Згар","region":"Черкаська область","koatuu":"7110494503"},"geometry":{"type":"Point","coordinates":[32.09506,49.65526]}},
 {"type":"Feature","id":"337549247","properties":{"josm":"n337549247,r1739132,r2139166","cur_district":"Золотоніський район","exp_district":"Золотоніська міська рада","name":"Ярки","region":"Черкаська область","koatuu":"7110494505"},"geometry":{"type":"Point","coordinates":[32.08101,49.68976]}},
 
+{"type":"Feature","id":"337567024","properties":{"josm":"n337567024,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Вільшана","region":"Черкаська область","koatuu":"7120355400"},"geometry":{"type":"Point","coordinates":[31.21204,49.21651]}},
+{"type":"Feature","id":"337568243","properties":{"josm":"n337568243,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Хрестівка","region":"Черкаська область","koatuu":"7120355401"},"geometry":{"type":"Point","coordinates":[31.25576,49.23028]}},
+{"type":"Feature","id":"337567724","properties":{"josm":"n337567724,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Сагайдачне","region":"Черкаська область","koatuu":"7120355402"},"geometry":{"type":"Point","coordinates":[31.23175,49.19469]}},
+{"type":"Feature","id":"337567552","properties":{"josm":"n337567552,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Вербівка","region":"Черкаська область","koatuu":"7120381501"},"geometry":{"type":"Point","coordinates":[31.28115,49.21187]}},
+{"type":"Feature","id":"337565643","properties":{"josm":"n337565643,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Кличкове","region":"Черкаська область","koatuu":"7120381502"},"geometry":{"type":"Point","coordinates":[31.27823,49.25019]}},
+{"type":"Feature","id":"337568371","properties":{"josm":"n337568371,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Воронівка","region":"Черкаська область","koatuu":"7120382001"},"geometry":{"type":"Point","coordinates":[31.32578,49.17923]}},
+{"type":"Feature","id":"337568288","properties":{"josm":"n337568288,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Дмитрове","region":"Черкаська область","koatuu":"7120382002"},"geometry":{"type":"Point","coordinates":[31.26975,49.18245]}},
+{"type":"Feature","id":"337569100","properties":{"josm":"n337569100,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"В’язівок","region":"Черкаська область","koatuu":"7120382501"},"geometry":{"type":"Point","coordinates":[31.41273,49.17347]}},
+{"type":"Feature","id":"337564475","properties":{"josm":"n337564475,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Журавка","region":"Черкаська область","koatuu":"7120383001"},"geometry":{"type":"Point","coordinates":[31.18366,49.27814]}},
+{"type":"Feature","id":"337564965","properties":{"josm":"n337564965,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Тихі Верби","region":"Черкаська область","koatuu":"7120383002"},"geometry":{"type":"Point","coordinates":[31.23585,49.26304]}},
+{"type":"Feature","id":"337570851","properties":{"josm":"n337570851,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Зелена Діброва","region":"Черкаська область","koatuu":"7120383501"},"geometry":{"type":"Point","coordinates":[31.20622,49.13192]}},
+{"type":"Feature","id":"337565256","properties":{"josm":"n337565256,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Петрики","region":"Черкаська область","koatuu":"7120386001"},"geometry":{"type":"Point","coordinates":[31.16499,49.26331]}},
+{"type":"Feature","id":"337566319","properties":{"josm":"n337566319,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Ільченкове","region":"Черкаська область","koatuu":"7120386002"},"geometry":{"type":"Point","coordinates":[31.15018,49.23405]}},
+{"type":"Feature","id":"337566574","properties":{"josm":"n337566574,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Кудинівка","region":"Черкаська область","koatuu":"7120386003"},"geometry":{"type":"Point","coordinates":[31.15149,49.22672]}},
+{"type":"Feature","id":"337566531","properties":{"josm":"n337566531,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Моргунове","region":"Черкаська область","koatuu":"7120386004"},"geometry":{"type":"Point","coordinates":[31.16723,49.23009]}},
+{"type":"Feature","id":"337564774","properties":{"josm":"n337564774,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Сегединці","region":"Черкаська область","koatuu":"7120386005"},"geometry":{"type":"Point","coordinates":[31.14349,49.27025]}},
+{"type":"Feature","id":"337565821","properties":{"josm":"n337565821,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Трихуторівка","region":"Черкаська область","koatuu":"7120386006"},"geometry":{"type":"Point","coordinates":[31.12759,49.24957]}},
+{"type":"Feature","id":"337569945","properties":{"josm":"n337569945,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Товста","region":"Черкаська область","koatuu":"7120387501"},"geometry":{"type":"Point","coordinates":[31.25336,49.14905]}},
+{"type":"Feature","id":"337571355","properties":{"josm":"n337571355,r11954459,r1739128","cur_district":"Звенигородський район","exp_district":"Городищенський район","name":"Стадниця","region":"Черкаська область","koatuu":"7120387502"},"geometry":{"type":"Point","coordinates":[31.25576,49.11747]}},
 {"type":"Feature","id":"337539301","properties":{"josm":"n337539301,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Драбів","region":"Черкаська область","koatuu":"7120655100"},"geometry":{"type":"Point","coordinates":[32.15209,49.96152]}},
 {"type":"Feature","id":"337541502","properties":{"josm":"n337541502,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Безбородьки","region":"Черкаська область","koatuu":"7120680501"},"geometry":{"type":"Point","coordinates":[31.97644,49.89267]}},
 {"type":"Feature","id":"337539911","properties":{"josm":"n337539911,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Білоусівка","region":"Черкаська область","koatuu":"7120680801"},"geometry":{"type":"Point","coordinates":[32.3589,49.93434]}},
@@ -15094,6 +15115,151 @@
 {"type":"Feature","id":"337527453","properties":{"josm":"n337527453,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Вишневе","region":"Черкаська область","koatuu":"7120689502"},"geometry":{"type":"Point","coordinates":[32.14756,50.17647]}},
 {"type":"Feature","id":"337533394","properties":{"josm":"n337533394,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Яворівка","region":"Черкаська область","koatuu":"7120689701"},"geometry":{"type":"Point","coordinates":[32.05785,50.12675]}},
 {"type":"Feature","id":"337528505","properties":{"josm":"n337528505,r1739132,r1739129","cur_district":"Золотоніський район","exp_district":"Драбівський район","name":"Червона Дача","region":"Черкаська область","koatuu":"7120689702"},"geometry":{"type":"Point","coordinates":[32.00287,50.13665]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"type":"Feature","id":"337560375","properties":{"josm":"n337560375,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Стеблів","region":"Черкаська область","koatuu":"7122555500"},"geometry":{"type":"Point","coordinates":[31.09509,49.40002]}},
+{"type":"Feature","id":"337561644","properties":{"josm":"n337561644,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Завадівка","region":"Черкаська область","koatuu":"7122582501"},"geometry":{"type":"Point","coordinates":[31.37123,49.36363]}},
+{"type":"Feature","id":"337560077","properties":{"josm":"n337560077,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Заріччя","region":"Черкаська область","koatuu":"7122582901"},"geometry":{"type":"Point","coordinates":[31.04896,49.40905]}},
+{"type":"Feature","id":"337558936","properties":{"josm":"n337558936,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Миколаївка","region":"Черкаська область","koatuu":"7122582902"},"geometry":{"type":"Point","coordinates":[31.02299,49.445]}},
+{"type":"Feature","id":"337560502","properties":{"josm":"n337560502,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Склименці","region":"Черкаська область","koatuu":"7122582903"},"geometry":{"type":"Point","coordinates":[31.01715,49.39693]}},
+{"type":"Feature","id":"337558573","properties":{"josm":"n337558573,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Хлерівка","region":"Черкаська область","koatuu":"7122582904"},"geometry":{"type":"Point","coordinates":[31.04079,49.45439]}},
+{"type":"Feature","id":"337562737","properties":{"josm":"n337562737,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Квітки","region":"Черкаська область","koatuu":"7122583401"},"geometry":{"type":"Point","coordinates":[31.23431,49.3155]}},
+{"type":"Feature","id":"337563311","properties":{"josm":"n337563311,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Комарівка","region":"Черкаська область","koatuu":"7122584401"},"geometry":{"type":"Point","coordinates":[30.97195,49.31095]}},
+{"type":"Feature","id":"337562468","properties":{"josm":"n337562468,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Хильки","region":"Черкаська область","koatuu":"7122584402"},"geometry":{"type":"Point","coordinates":[30.96428,49.33788]}},
+{"type":"Feature","id":"337561189","properties":{"josm":"n337561189,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Кошмак","region":"Черкаська область","koatuu":"7122584801"},"geometry":{"type":"Point","coordinates":[31.29554,49.37788]}},
+{"type":"Feature","id":"337562048","properties":{"josm":"n337562048,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Глушки","region":"Черкаська область","koatuu":"7122584802"},"geometry":{"type":"Point","coordinates":[31.27533,49.35161]}},
+{"type":"Feature","id":"337560992","properties":{"josm":"n337560992,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Миропілля","region":"Черкаська область","koatuu":"7122584803"},"geometry":{"type":"Point","coordinates":[31.32382,49.38321]}},
+{"type":"Feature","id":"337560829","properties":{"josm":"n337560829,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Дацьки","region":"Черкаська область","koatuu":"7122586301"},"geometry":{"type":"Point","coordinates":[31.15929,49.38629]}},
+{"type":"Feature","id":"337561910","properties":{"josm":"n337561910,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Переможинці","region":"Черкаська область","koatuu":"7122586303"},"geometry":{"type":"Point","coordinates":[31.18092,49.35573]}},
+{"type":"Feature","id":"337561575","properties":{"josm":"n337561575,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Прутильці","region":"Черкаська область","koatuu":"7122586305"},"geometry":{"type":"Point","coordinates":[31.161,49.36672]}},
+{"type":"Feature","id":"337559995","properties":{"josm":"n337559995,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Яблунівка","region":"Черкаська область","koatuu":"7122586307"},"geometry":{"type":"Point","coordinates":[31.17748,49.41135]}},
+{"type":"Feature","id":"337561570","properties":{"josm":"n337561570,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Петрушки","region":"Черкаська область","koatuu":"7122586701"},"geometry":{"type":"Point","coordinates":[31.23833,49.36672]}},
+{"type":"Feature","id":"337560593","properties":{"josm":"n337560593,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Листвина","region":"Черкаська область","koatuu":"7122586702"},"geometry":{"type":"Point","coordinates":[31.23846,49.39519]}},
+{"type":"Feature","id":"337562584","properties":{"josm":"n337562584,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Селище","region":"Черкаська область","koatuu":"7122587601"},"geometry":{"type":"Point","coordinates":[31.14315,49.33479]}},
+{"type":"Feature","id":"337563122","properties":{"josm":"n337563122,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Гута-Селицька","region":"Черкаська область","koatuu":"7122587602"},"geometry":{"type":"Point","coordinates":[31.11294,49.32037]}},
+{"type":"Feature","id":"337562105","properties":{"josm":"n337562105,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Тараща","region":"Черкаська область","koatuu":"7122587603"},"geometry":{"type":"Point","coordinates":[31.13663,49.3499]}},
+{"type":"Feature","id":"337560380","properties":{"josm":"n337560380,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Сидорівка","region":"Черкаська область","koatuu":"7122588101"},"geometry":{"type":"Point","coordinates":[30.97183,49.40002]}},
+{"type":"Feature","id":"337561612","properties":{"josm":"n337561612,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Гута-Стеблівська","region":"Черкаська область","koatuu":"7122588102"},"geometry":{"type":"Point","coordinates":[30.92308,49.36603]}},
+{"type":"Feature","id":"337561356","properties":{"josm":"n337561356,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Скрипчинці","region":"Черкаська область","koatuu":"7122588103"},"geometry":{"type":"Point","coordinates":[30.99003,49.3729]}},
+{"type":"Feature","id":"337563988","properties":{"josm":"n337563988,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Сухини","region":"Черкаська область","koatuu":"7122589001"},"geometry":{"type":"Point","coordinates":[31.11266,49.29295]}},
+{"type":"Feature","id":"337560369","properties":{"josm":"n337560369,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Черепин","region":"Черкаська область","koatuu":"7122589401"},"geometry":{"type":"Point","coordinates":[31.38691,49.40577]}},
+{"type":"Feature","id":"337560014","properties":{"josm":"n337560014,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Вільхівчик","region":"Черкаська область","koatuu":"7122589402"},"geometry":{"type":"Point","coordinates":[31.35457,49.40997]}},
+{"type":"Feature","id":"337560238","properties":{"josm":"n337560238,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Карашина","region":"Черкаська область","koatuu":"7122589403"},"geometry":{"type":"Point","coordinates":[31.30941,49.40358]}},
+{"type":"Feature","id":"337562268","properties":{"josm":"n337562268,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Шендерівка","region":"Черкаська область","koatuu":"7122589701"},"geometry":{"type":"Point","coordinates":[31.02149,49.34493]}},
+{"type":"Feature","id":"337563526","properties":{"josm":"n337563526,r11954459,r1739136","cur_district":"Звенигородський район","exp_district":"Корсунь-Шевченківський район","name":"Нова Буда","region":"Черкаська область","koatuu":"7122589702"},"geometry":{"type":"Point","coordinates":[31.04221,49.30355]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15292,6 +15458,42 @@
 {"type":"Feature","id":"337557939","properties":{"josm":"n337557939,r1739132,r1739145","cur_district":"Золотоніський район","exp_district":"Чорнобаївський район","name":"Баталий","region":"Черкаська область","koatuu":"7125189202"},"geometry":{"type":"Point","coordinates":[32.55777,49.46787]}},
 {"type":"Feature","id":"337547803","properties":{"josm":"n337547803,r1739132,r1739145","cur_district":"Золотоніський район","exp_district":"Чорнобаївський район","name":"Франківка","region":"Черкаська область","koatuu":"7125189601"},"geometry":{"type":"Point","coordinates":[32.44491,49.7224]}},
 {"type":"Feature","id":"337549256","properties":{"josm":"n337549256,r1739132,r1739145","cur_district":"Золотоніський район","exp_district":"Чорнобаївський район","name":"Бакаєве","region":"Черкаська область","koatuu":"7125189602"},"geometry":{"type":"Point","coordinates":[32.47611,49.68708]}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
