@@ -129,6 +129,7 @@ place-way should be closed:
 67485704
 67997592
 67997806
+77302932
 80494215
 82495386
 87818291
@@ -136,6 +137,7 @@ place-way should be closed:
 88517995
 88518022
 88521438
+91843065
 95772080
 100712984
 103187011
@@ -1971,6 +1973,7 @@ Invalid node role:
 3530704|type|multipolygon|3530704|1599670469|N||9
 3530704|type|multipolygon|3530704|2683390343|N||0
 3564026|type|boundary|3564026|27490597|N|outer|0
+4168993|type|boundary|4168993|5856779115|N|psap|0
 4169555|type|boundary|4169555|5647461763|N|psap|0
 5194330|type|boundary|5194330|7975017130|N||0
 5392189|type|multipolygon|5392189|5655966206|N||855
@@ -2214,6 +2217,7 @@ Invalid relation role:
 7286210|type|multipolygon|7286210|7286209|R|inner|1
 7290367|type|multipolygon|7290367|2785329|R|outer|0
 7290367|type|multipolygon|7290367|7290366|R|inner|1
+7294235|type|multipolygon|7294235|11959164|R|inner|91
 7534292|type|multipolygon|7534292|9466365|R|outer|9
 7757358|type|boundary|7757358|7714666|R|outer|0
 7995467|type|multipolygon|7995467|7995465|R|outer|0
@@ -2238,6 +2242,7 @@ Invalid relation role:
 11897953|type|multipolygon|11897953|10894275|R|inner|94
 11930391|type|boundary|11930391|11930390|R|outer|0
 11932272|type|multipolygon|11932272|11932271|R|inner|2
+11954920|type|multipolygon|11954920|11959164|R|inner|17
 
 No admin_centre:
 7433
