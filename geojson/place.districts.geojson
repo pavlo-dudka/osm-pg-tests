@@ -3,7 +3,7 @@
 "errorDescr": "Invalid district border or place location",
 "features": [
 {"type":"Feature","id":"337697598","properties":{"josm":"n337697598,r1754565,r1754556","cur_district":"Феодосийский городской совет","exp_district":"Кировский район","name":"Узловое","region":"Автономна Республіка Крим","koatuu":"0121680802"},"geometry":{"type":"Point","coordinates":[35.39907,45.126]}},
-{"type":"Feature","id":"249748477","properties":{"josm":"n249748477,r11914591,r361818","cur_district":"Вінницький район","exp_district":"Вінниця","name":"Вінниця","region":"Вінницька область","koatuu":"0510100000"},"geometry":{"type":"Point","coordinates":[28.46798,49.23202]}},
+
 
 
 
@@ -1907,8 +1907,8 @@
 
 
 
-{"type":"Feature","id":"337597818","properties":{"josm":"n337597818,r1738025,r1017311","cur_district":"Дніпровський район","exp_district":"Дніпро","name":"Дніпро","region":"Дніпропетровська область","koatuu":"1210100000"},"geometry":{"type":"Point","coordinates":[35.04177,48.46802]}},
-{"type":"Feature","id":"3071974433","properties":{"josm":"n3071974433,r1738025,r1017311","cur_district":"Дніпровський район","exp_district":"Дніпро","name":"Авіаторське","region":"Дніпропетровська область","koatuu":"1210141000"},"geometry":{"type":"Point","coordinates":[35.08239,48.3682]}},
+
+
 {"type":"Feature","id":"1532708613","properties":{"josm":"n1532708613,r1738028,r1821193","cur_district":"Криворізький район","exp_district":"Кривий Ріг","name":"Кривий Ріг","region":"Дніпропетровська область","koatuu":"1211000000"},"geometry":{"type":"Point","coordinates":[33.39177,47.91027]}},
 {"type":"Feature","id":"337662902","properties":{"josm":"n337662902,r1738028,r1821193","cur_district":"Криворізький район","exp_district":"Кривий Ріг","name":"Авангард","region":"Дніпропетровська область","koatuu":"1211090001"},"geometry":{"type":"Point","coordinates":[33.3146,48.00859]}},
 {"type":"Feature","id":"337660559","properties":{"josm":"n337660559,r1738028,r1821193","cur_district":"Криворізький район","exp_district":"Кривий Ріг","name":"Гірницьке","region":"Дніпропетровська область","koatuu":"1211090003"},"geometry":{"type":"Point","coordinates":[33.55358,48.07399]}},
@@ -5948,8 +5948,8 @@
 
 
 
-{"type":"Feature","id":"4126283179","properties":{"josm":"n4126283179,r11851422,r2825228","cur_district":"Кропивницький район","exp_district":"Кропивницький","name":"Кропивницький","region":"Кіровоградська область","koatuu":"3510100000"},"geometry":{"type":"Point","coordinates":[32.26563,48.51058]}},
-{"type":"Feature","id":"337595140","properties":{"josm":"n337595140,r11851422,r2825228","cur_district":"Кропивницький район","exp_district":"Кропивницький","name":"Нове","region":"Кіровоградська область","koatuu":"3510166900"},"geometry":{"type":"Point","coordinates":[32.12454,48.52934]}},
+
+
 
 
 
@@ -7556,7 +7556,7 @@
 
 
 
-{"type":"Feature","id":"60410873","properties":{"josm":"n60410873,r1738977,r11622860","cur_district":"Миколаївський район","exp_district":"Миколаїв","name":"Миколаїв","region":"Миколаївська область","koatuu":"4810100000"},"geometry":{"type":"Point","coordinates":[31.98612,46.97488]}},
+
 
 
 
@@ -10096,7 +10096,7 @@
 
 
 
-{"type":"Feature","id":"146541158","properties":{"josm":"n146541158,r11833149,r448930","cur_district":"Рівненський район","exp_district":"Рівне","name":"Рівне","region":"Рівненська область","koatuu":"5610100000"},"geometry":{"type":"Point","coordinates":[26.25132,50.61962]}},
+
 
 
 
@@ -11765,7 +11765,6 @@
 
 
 
-{"type":"Feature","id":"1643945522","properties":{"josm":"n1643945522,r11919556,r3058686","cur_district":"Тернопільський район","exp_district":"Тернопіль","name":"Тернопіль","region":"Тернопільська область","koatuu":"6110100000"},"geometry":{"type":"Point","coordinates":[25.59189,49.55577]}},
 
 
 
@@ -12640,7 +12639,8 @@
 
 
 
-{"type":"Feature","id":"1685829423","properties":{"josm":"n1685829423,r11803997,r3154746","cur_district":"Харківський район","exp_district":"Харків","name":"Харків","region":"Харківська область","koatuu":"6310100000"},"geometry":{"type":"Point","coordinates":[36.23039,49.99028]}},
+
+
 
 
 
@@ -13369,7 +13369,7 @@
 {"type":"Feature","id":"337563920","properties":{"josm":"n337563920,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Калюжине","region":"Харківська область","koatuu":"6323183702"},"geometry":{"type":"Point","coordinates":[35.97645,49.29222]}},
 {"type":"Feature","id":"337563085","properties":{"josm":"n337563085,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Новоіванівка","region":"Харківська область","koatuu":"6323183703"},"geometry":{"type":"Point","coordinates":[36.02245,49.32243]}},
 {"type":"Feature","id":"337563239","properties":{"josm":"n337563239,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Писарівка","region":"Харківська область","koatuu":"6323183704"},"geometry":{"type":"Point","coordinates":[35.91019,49.31419]}},
-{"type":"Feature","id":"337561559","properties":{"josm":"n337561559,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Парасковія","region":"Харківська область","koatuu":"6323184001"},"geometry":{"type":"Point","coordinates":[35.95756,49.36672]}},
+{"type":"Feature","id":"337561559","properties":{"josm":"n337561559,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Парасковія","region":"Харківська область","koatuu":"6323184001"},"geometry":{"type":"Point","coordinates":[35.95756,49.36664]}},
 {"type":"Feature","id":"337563246","properties":{"josm":"n337563246,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Крутоярівка","region":"Харківська область","koatuu":"6323184502"},"geometry":{"type":"Point","coordinates":[35.69424,49.31385]}},
 {"type":"Feature","id":"337562297","properties":{"josm":"n337562297,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Розсохувата","region":"Харківська область","koatuu":"6323184504"},"geometry":{"type":"Point","coordinates":[35.73319,49.34383]}},
 {"type":"Feature","id":"337564379","properties":{"josm":"n337564379,r11803998,r1737255","cur_district":"Красноградський район","exp_district":"Кегичівський район","name":"Рояківка","region":"Харківська область","koatuu":"6323184801"},"geometry":{"type":"Point","coordinates":[35.69458,49.27952]}},
@@ -14135,7 +14135,7 @@
 
 
 
-{"type":"Feature","id":"251223522","properties":{"josm":"n251223522,r11921572,r1792913","cur_district":"Хмельницький район","exp_district":"Хмельницький","name":"Хмельницький","region":"Хмельницька область","koatuu":"6810100000"},"geometry":{"type":"Point","coordinates":[26.97938,49.41964]}},
+
 
 
 
