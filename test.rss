@@ -6,14 +6,14 @@
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html</link>
 <atom:link href="http://pavlo-dudka.github.io/osm-pg-tests/test.rss" rel="self" type="application/rss+xml"/>
 <item>
-<guid isPermaLink="false">almostjunctions202102072233</guid>
+<guid isPermaLink="false">almostjunctions202102080856</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?almost.junctions</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>almost.junctions - 314 error(s) found at 07 Feb 2021 22:33</title>
-<description><![CDATA[314 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
-<pubDate>Sun, 07 Feb 2021 22:33:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 279 insertions(+), 119 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 279 insertions(+), 119 deletions(-)</gitDiff10d>
+<title>almost.junctions - 316 error(s) found at 08 Feb 2021 08:56</title>
+<description><![CDATA[316 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?almost.junctions>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?almost.junctions>table</a>]]></description>
+<pubDate>Mon, 08 Feb 2021 08:56:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 281 insertions(+), 119 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 281 insertions(+), 119 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">busstops202102062005</guid>
@@ -73,7 +73,7 @@
 <description><![CDATA[698 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Mon, 08 Feb 2021 03:19:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 618 insertions(+), 385 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 618 insertions(+), 386 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 618 insertions(+), 385 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink202102062005</guid>
@@ -186,14 +186,14 @@
 <gitDiff10d> 1 file changed, 4 insertions(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">sharpturns202102080406</guid>
+<guid isPermaLink="false">sharpturns202102080856</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?sharp.turns</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>sharp.turns - 8 error(s) found at 08 Feb 2021 04:06</title>
-<description><![CDATA[8 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
-<pubDate>Mon, 08 Feb 2021 04:06:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 8 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 8 insertions(+)</gitDiff10d>
+<title>sharp.turns - 0 error(s) found at 08 Feb 2021 08:56</title>
+<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
+<pubDate>Mon, 08 Feb 2021 08:56:00 +0200</pubDate>
+<gitDiff3d></gitDiff3d>
+<gitDiff10d></gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelations202102071724</guid>
@@ -256,14 +256,14 @@
 <gitDiff10d> 1 file changed, 884 insertions(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">waterwayslayer202102080542</guid>
+<guid isPermaLink="false">waterwayslayer202102080856</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?waterways.layer</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>waterways.layer - 151 error(s) found at 08 Feb 2021 05:42</title>
-<description><![CDATA[151 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
-<pubDate>Mon, 08 Feb 2021 05:42:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 155 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 155 insertions(+)</gitDiff10d>
+<title>waterways.layer - 152 error(s) found at 08 Feb 2021 08:56</title>
+<description><![CDATA[152 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?waterways.layer>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?waterways.layer>table</a>]]></description>
+<pubDate>Mon, 08 Feb 2021 08:56:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 156 insertions(+)</gitDiff3d>
+<gitDiff10d> 1 file changed, 156 insertions(+)</gitDiff10d>
 </item>
 </channel>
 </rss>
