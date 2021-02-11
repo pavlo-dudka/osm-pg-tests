@@ -4394,8 +4394,8 @@ Invalid relation role:
 5452005|type|multipolygon|5452005|417742|R|inner|2
 5686829|type|multipolygon|5686829|5686828|R|inner|7
 5686830|type|multipolygon|5686830|5686827|R|inner|6
-6725309|type|multipolygon|6725309|12276552|R|outer|950
-6725309|type|multipolygon|6725309|12276553|R|inner|951
+6725309|type|multipolygon|6725309|12276552|R|outer|966
+6725309|type|multipolygon|6725309|12276553|R|inner|967
 6791552|type|multipolygon|6791552|6791600|R|inner|64
 6791552|type|multipolygon|6791552|6792734|R|outer|62
 6791552|type|multipolygon|6791552|6829051|R|inner|63
@@ -4417,6 +4417,7 @@ Invalid relation role:
 11636365|type|multipolygon|11636365|11636364|R|outer|3
 11984835|type|multipolygon|11984835|5150480|R|child|2
 11984835|type|multipolygon|11984835|11984834|R|outer|1
+11996014|type|multipolygon|11996014|6725309|R|outer|205
 12093695|type|multipolygon|12093695|12093694|R|outer|5
 12093708|type|multipolygon|12093708|12093700|R|inner|25
 12093708|type|multipolygon|12093708|12093701|R|inner|26
@@ -4434,6 +4435,9 @@ No admin_centre:
 1246232
 1251066
 1641691
+1733102
+1733104
+1733106
 1826542
 2256609
 2607033
@@ -5359,6 +5363,12 @@ Oblasts:
 8085186506|Полонина Гропшора||Полонина Гропшора
 
 admin_level:
+83148226|2|4
+87802289|2|4
+154527367|2|4
+202164027|2|4
+252433310|2|4
+322836813|2|4
 30717310|9|6
 30717340|9|6
 30717368|9|6
