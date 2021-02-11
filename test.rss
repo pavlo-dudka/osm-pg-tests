@@ -73,7 +73,7 @@
 <description><![CDATA[678 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Wed, 10 Feb 2021 16:33:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 20 insertions(+), 40 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 598 insertions(+), 386 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 598 insertions(+), 385 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">highwayislandslink202102062005</guid>
@@ -116,14 +116,14 @@
 <gitDiff10d> 1 file changed, 256 insertions(+), 122 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons202102110801</guid>
+<guid isPermaLink="false">multipolygons202102110956</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 200 error(s) found at 11 Feb 2021 08:01</title>
-<description><![CDATA[200 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Thu, 11 Feb 2021 08:01:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 38 insertions(+), 3 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 148 insertions(+), 229 deletions(-)</gitDiff10d>
+<title>multipolygons - 201 error(s) found at 11 Feb 2021 09:56</title>
+<description><![CDATA[201 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Thu, 11 Feb 2021 09:56:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 39 insertions(+), 3 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 201 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202102062005</guid>
@@ -213,7 +213,7 @@
 <description><![CDATA[1525 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Tue, 09 Feb 2021 19:34:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 258 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1526 insertions(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1046 insertions(+), 113 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202102051417</guid>
