@@ -24,7 +24,6 @@ place-way should be closed:
 54601667
 61684298
 68094306
-97824205
 119324479
 131053019
 136740564
@@ -4355,7 +4354,7 @@ Multiple polygons:
 2|8411821776|r1738977,r11622860|
 
 Invalid node role:
-1391969|type|multipolygon|1391969|3296382127|N|Adjacent to the reservoir |924
+1391969|type|multipolygon|1391969|3296382127|N|Adjacent to the reservoir |925
 1689949|type|multipolygon|1689949|59976001|N||11
 1689949|type|multipolygon|1689949|73993229|N||6
 1689949|type|multipolygon|1689949|73993237|N||7
@@ -4382,6 +4381,7 @@ Invalid node role:
 2069883|type|multipolygon|2069883|4464949535|N||2
 3005461|type|multipolygon|3005461|6122967451|N|address|27
 3544404|type|boundary|3544404|337584177|N|outer|1
+3986124|type|multipolygon|3986124|8337135460|N|site|0
 4627396|type|boundary|4627396|307406289|N|admin_center|41
 4745499|type|multipolygon|4745499|6948426717|N|inner|14
 5392189|type|multipolygon|5392189|5655966206|N||855
@@ -4552,6 +4552,7 @@ Invalid relation role:
 349348|type|multipolygon|349348|11864321|R|inner|11222
 1282182|type|multipolygon|1282182|12289195|R|inner|56
 1576011|type|multipolygon|1576011|1617908|R|inner|1
+3293939|type|boundary|3293939|12034020|R|admin_centre|41
 3668788|type|multipolygon|3668788|12093699|R|inner|185
 3668788|type|multipolygon|3668788|12096459|R|inner|187
 3668788|type|multipolygon|3668788|12096460|R|inner|186
@@ -4622,7 +4623,6 @@ No admin_centre:
 2662004
 3290692
 3291903
-3293939
 3777250
 3791785
 4504153
