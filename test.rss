@@ -123,7 +123,7 @@
 <description><![CDATA[319 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
 <pubDate>Sun, 21 Feb 2021 14:01:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 77 insertions(+), 17 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 77 insertions(+), 19 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202102171513</guid>
@@ -143,7 +143,7 @@
 <description><![CDATA[37 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?place.districts>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?place.districts>table</a>]]></description>
 <pubDate>Tue, 16 Feb 2021 17:34:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 213 insertions(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwaycrossings202102241349</guid>
@@ -153,7 +153,7 @@
 <description><![CDATA[108 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.crossings>table</a>]]></description>
 <pubDate>Wed, 24 Feb 2021 13:49:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 2 insertions(+), 1 deletion(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 1 deletion(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwayislandsmain202102241349</guid>
@@ -163,7 +163,7 @@
 <description><![CDATA[210 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.islands.main>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.islands.main>table</a>]]></description>
 <pubDate>Wed, 24 Feb 2021 13:49:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 4 insertions(+), 1 deletion(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 4 insertions(+), 6 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">railwayislandsservice202102241349</guid>
@@ -202,18 +202,18 @@
 <title>street.relations - 81 error(s) found at 24 Feb 2021 08:11</title>
 <description><![CDATA[81 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations>table</a>]]></description>
 <pubDate>Wed, 24 Feb 2021 08:11:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 5666 deletions(-)</gitDiff3d>
+<gitDiff3d></gitDiff3d>
 <gitDiff10d> 1 file changed, 1 insertion(+), 5660 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">streetrelationsm202102241714</guid>
+<guid isPermaLink="false">streetrelationsm202102241824</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?street.relations.m</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>street.relations.m - 1737 error(s) found at 24 Feb 2021 17:14</title>
-<description><![CDATA[1737 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
-<pubDate>Wed, 24 Feb 2021 17:14:00 +0200</pubDate>
+<title>street.relations.m - 0 error(s) found at 24 Feb 2021 18:24</title>
+<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
+<pubDate>Wed, 24 Feb 2021 18:24:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 53 insertions(+), 3 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1706 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202102051417</guid>
