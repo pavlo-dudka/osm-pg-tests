@@ -72,7 +72,7 @@
 <title>highway.crossings - 204 error(s) found at 01 Mar 2021 17:35</title>
 <description><![CDATA[204 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.crossings>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.crossings>table</a>]]></description>
 <pubDate>Mon, 01 Mar 2021 17:35:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 24 insertions(+), 468 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 24 insertions(+), 465 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 45 insertions(+), 503 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -92,7 +92,7 @@
 <title>highway.islands.service - 477 error(s) found at 28 Feb 2021 23:49</title>
 <description><![CDATA[477 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?highway.islands.service>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?highway.islands.service>table</a>]]></description>
 <pubDate>Sun, 28 Feb 2021 23:49:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 6 insertions(+), 19 deletions(-)</gitDiff3d>
+<gitDiff3d> 1 file changed, 5 insertions(+), 19 deletions(-)</gitDiff3d>
 <gitDiff10d> 1 file changed, 16 insertions(+), 22 deletions(-)</gitDiff10d>
 </item>
 <item>
@@ -116,14 +116,14 @@
 <gitDiff10d> 1 file changed, 13 insertions(+), 72 deletions(-)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">multipolygons202103011840</guid>
+<guid isPermaLink="false">multipolygons202103011945</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?multipolygons</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>multipolygons - 402 error(s) found at 01 Mar 2021 18:40</title>
-<description><![CDATA[402 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
-<pubDate>Mon, 01 Mar 2021 18:40:00 +0200</pubDate>
-<gitDiff3d> 1 file changed, 65 insertions(+), 21 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 141 insertions(+), 51 deletions(-)</gitDiff10d>
+<title>multipolygons - 405 error(s) found at 01 Mar 2021 19:45</title>
+<description><![CDATA[405 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?multipolygons>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?multipolygons>table</a>]]></description>
+<pubDate>Mon, 01 Mar 2021 19:45:00 +0200</pubDate>
+<gitDiff3d> 1 file changed, 68 insertions(+), 21 deletions(-)</gitDiff3d>
+<gitDiff10d> 1 file changed, 144 insertions(+), 51 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">nohighways202102252302</guid>
@@ -176,14 +176,14 @@
 <gitDiff10d> 1 file changed, 490 insertions(+)</gitDiff10d>
 </item>
 <item>
-<guid isPermaLink="false">railwaysharpturns202103011840</guid>
+<guid isPermaLink="false">railwaysharpturns202103011945</guid>
 <link>http://pavlo-dudka.github.io/osm-pg-tests/test.html?railway.sharp.turns</link>
 <author>pavlo.dudka@gmail.com (Pavlo Dudka)</author>
-<title>railway.sharp.turns - 0 error(s) found at 01 Mar 2021 18:40</title>
-<description><![CDATA[0 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
-<pubDate>Mon, 01 Mar 2021 18:40:00 +0200</pubDate>
+<title>railway.sharp.turns - 7 error(s) found at 01 Mar 2021 19:45</title>
+<description><![CDATA[7 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?railway.sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?railway.sharp.turns>table</a>]]></description>
+<pubDate>Mon, 01 Mar 2021 19:45:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d></gitDiff10d>
+<gitDiff10d> 1 file changed, 7 insertions(+)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">sharpturns202102281407</guid>
@@ -193,7 +193,7 @@
 <description><![CDATA[8 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?sharp.turns>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?sharp.turns>table</a>]]></description>
 <pubDate>Sun, 28 Feb 2021 14:07:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 2 insertions(+), 2 deletions(-)</gitDiff3d>
-<gitDiff10d> 1 file changed, 3 insertions(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 3 insertions(+), 2 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelations202103011840</guid>
@@ -213,7 +213,7 @@
 <description><![CDATA[1751 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.m>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.m>table</a>]]></description>
 <pubDate>Mon, 01 Mar 2021 18:40:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1773 insertions(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 1773 insertions(+)</gitDiff10d>
+<gitDiff10d> 1 file changed, 31 insertions(+), 13 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsn202102051417</guid>
@@ -233,7 +233,7 @@
 <description><![CDATA[454 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.ob>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.ob>table</a>]]></description>
 <pubDate>Thu, 25 Feb 2021 23:02:00 +0200</pubDate>
 <gitDiff3d></gitDiff3d>
-<gitDiff10d> 1 file changed, 2 insertions(+), 3 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 1 insertion(+), 2 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationso202102272100</guid>
@@ -243,7 +243,7 @@
 <description><![CDATA[1056 error(s) found: <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?map?street.relations.o>map</a> <a href=http://pavlo-dudka.github.io/osm-pg-tests/test.html?table?street.relations.o>table</a>]]></description>
 <pubDate>Sat, 27 Feb 2021 21:00:00 +0200</pubDate>
 <gitDiff3d> 1 file changed, 1 insertion(+)</gitDiff3d>
-<gitDiff10d> 1 file changed, 19 insertions(+), 15 deletions(-)</gitDiff10d>
+<gitDiff10d> 1 file changed, 18 insertions(+), 14 deletions(-)</gitDiff10d>
 </item>
 <item>
 <guid isPermaLink="false">streetrelationsos202102272100</guid>
