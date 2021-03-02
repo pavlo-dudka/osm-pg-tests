@@ -131,6 +131,7 @@ place-way should be closed:
 910304806
 911103661
 911148528
+912672568
 
 Multiple polygons:
 2|26150422|r421866,r9287875|
@@ -4755,6 +4756,12 @@ Invalid relation role:
 12371436|type|multipolygon|12371436|7601035|R|outer|28
 12381184|type|multipolygon|12381184|12349844|R|outer|1
 12383184|type|multipolygon|12383184|7601035|R|outer|2
+12385070|type|boundary|12385070|2092750|R|outer|66
+12385070|type|boundary|12385070|9543990|R|outer|67
+12385070|type|boundary|12385070|9543991|R|outer|64
+12385070|type|boundary|12385070|11515241|R|outer|63
+12385070|type|boundary|12385070|11515489|R|outer|68
+12385070|type|boundary|12385070|11515492|R|outer|65
 
 No admin_centre:
 7433
