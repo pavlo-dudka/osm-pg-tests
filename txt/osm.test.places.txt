@@ -4772,6 +4772,7 @@ Invalid relation role:
 48493|type|multipolygon|48493|4784190|R|outer|79
 48493|type|multipolygon|48493|5765859|R|outer|77
 161655|type|boundary|161655|130677|R|admin_centre|345
+303427|type|boundary|303427|1674882|R|member|275
 349348|type|multipolygon|349348|11823388|R|inner|11218
 349348|type|multipolygon|349348|11840926|R|inner|11219
 349348|type|multipolygon|349348|11841087|R|inner|11220
@@ -4830,8 +4831,8 @@ Invalid relation role:
 12343602|type|boundary|12343602|3780130|R|outer|1
 12343602|type|boundary|12343602|7935380|R|outer|5
 12343602|type|boundary|12343602|7935425|R|outer|3
-12348593|type|multipolygon|12348593|6898048|R|outer|388
-12348593|type|multipolygon|12348593|12406141|R|inner|387
+12348593|type|multipolygon|12348593|6898048|R|outer|389
+12348593|type|multipolygon|12348593|12406141|R|inner|388
 12349825|type|multipolygon|12349825|12349824|R|outer|1
 12349826|type|multipolygon|12349826|12349824|R|outer|1
 12349845|type|multipolygon|12349845|12349844|R|outer|1
@@ -5858,7 +5859,6 @@ Oblasts:
 admin_level:
 97193825|4|2
 97505980|4|2
-30922087|2|4
 83148226|2|4
 87802289|2|4
 154527367|2|4
