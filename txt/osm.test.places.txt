@@ -6,6 +6,7 @@ place-way should be closed:
 4756198
 4873832
 8838242
+9560174
 9765641
 9770540
 10577018
@@ -4841,6 +4842,7 @@ Invalid node role:
 12276588|type|multipolygon|12276588|567197920|N|outer|0
 12285563|type|multipolygon|12285563|8401757397|N|outer|0
 12320149|type|boundary|12320149|1429579845|N|outer|1
+12348593|type|multipolygon|12348593|8516383605|N|inner|0
 12375333|type|boundary|12375333|8244051822|N|admin_center|7
 12375623|type|boundary|12375623|8225964608|N|admin_center|6
 12375638|type|boundary|12375638|8225964605|N|admin_center|4
@@ -4945,7 +4947,6 @@ Invalid relation role:
 7286210|type|multipolygon|7286210|7286209|R|inner|1
 7290367|type|multipolygon|7290367|2785329|R|outer|0
 7290367|type|multipolygon|7290367|7290366|R|inner|1
-7437542|type|multipolygon|7437542|12441486|R|inner|34
 7757358|type|boundary|7757358|7714666|R|outer|0
 8745450|type|multipolygon|8745450|2538857|R|outer|4
 8751787|type|boundary|8751787|8751786|R|outer|0
@@ -4969,6 +4970,21 @@ Invalid relation role:
 12343602|type|boundary|12343602|3780130|R|outer|1
 12343602|type|boundary|12343602|7935380|R|outer|5
 12343602|type|boundary|12343602|7935425|R|outer|3
+12348593|type|multipolygon|12348593|12437273|R|inner|1123
+12348593|type|multipolygon|12348593|12437274|R|inner|1124
+12348593|type|multipolygon|12348593|12437275|R|inner|1125
+12348593|type|multipolygon|12348593|12437277|R|inner|1126
+12348593|type|multipolygon|12348593|12437282|R|inner|1127
+12348593|type|multipolygon|12348593|12437283|R|inner|1128
+12348593|type|multipolygon|12348593|12437285|R|inner|1129
+12348593|type|multipolygon|12348593|12437286|R|inner|1130
+12348593|type|multipolygon|12348593|12437287|R|inner|1131
+12348593|type|multipolygon|12348593|12437288|R|inner|1132
+12348593|type|multipolygon|12348593|12437289|R|inner|1133
+12348593|type|multipolygon|12348593|12437290|R|inner|1134
+12348593|type|multipolygon|12348593|12437291|R|inner|1135
+12348593|type|multipolygon|12348593|12437294|R|inner|1136
+12348593|type|multipolygon|12348593|12442626|R|inner|1137
 12349825|type|multipolygon|12349825|12349824|R|outer|1
 12349826|type|multipolygon|12349826|12349824|R|outer|1
 12349845|type|multipolygon|12349845|12349844|R|outer|1
@@ -4989,6 +5005,7 @@ Invalid relation role:
 12398686|type|multipolygon|12398686|12398685|R|outer|6
 12409838|type|multipolygon|12409838|12409837|R|inner|0
 12412186|type|multipolygon|12412186|12431825|R|inner|132
+12442617|type|multipolygon|12442617|12348593|R|inner|3
 
 No admin_centre:
 7433
@@ -5092,6 +5109,7 @@ No admin_centre:
 12404114
 12404340
 12436477
+12442284
 
 Crimea:
 314762787|Иванов мыс||
