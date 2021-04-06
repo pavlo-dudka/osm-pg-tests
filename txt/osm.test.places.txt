@@ -300,6 +300,8 @@ place-way should be closed:
 474088179
 490062370
 496368322
+505017223
+505018417
 510429456
 518707911
 528941052
@@ -5196,9 +5198,9 @@ Invalid relation role:
 1485548|type|boundary|1485548|12528752|R|outer|26
 1486016|type|boundary|1486016|12528750|R|outer|103
 1576011|type|multipolygon|1576011|1617908|R|inner|1
-2139044|type|multipolygon|2139044|2243293|R|inner|88
-2139044|type|multipolygon|2139044|2243298|R|inner|87
-2139044|type|multipolygon|2139044|12538900|R|inner|89
+2139044|type|multipolygon|2139044|2243293|R|inner|89
+2139044|type|multipolygon|2139044|2243298|R|inner|88
+2139044|type|multipolygon|2139044|12538900|R|inner|90
 2256614|type|boundary|2256614|11998264|R||0
 2256616|type|boundary|2256616|12029766|R||3
 2256616|type|boundary|2256616|12037365|R||2
@@ -5224,6 +5226,8 @@ Invalid relation role:
 5686830|type|multipolygon|5686830|5686827|R|inner|6
 6153362|type|boundary|6153362|1547813|R|admin_centre|707
 6438671|type|boundary|6438671|12076826|R|outer|264
+6555232|type|boundary|6555232|6557792|R|inner|31
+6555232|type|boundary|6555232|12164868|R|inner|30
 6566419|type|boundary|6566419|12383816|R|subareea|50
 7286167|type|multipolygon|7286167|7286160|R|inner|1
 7286167|type|multipolygon|7286167|7286161|R|outer|0
@@ -5277,7 +5281,7 @@ Invalid relation role:
 12409838|type|multipolygon|12409838|12409837|R|inner|0
 12412186|type|multipolygon|12412186|12431825|R|inner|207
 12420347|type|multipolygon|12420347|12429538|R|outer|49
-12531316|type|multipolygon|12531316|12535083|R|inner|48
+12531316|type|multipolygon|12531316|12535083|R|inner|49
 
 No admin_centre:
 7433
